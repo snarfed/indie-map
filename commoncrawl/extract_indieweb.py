@@ -15,11 +15,13 @@ https://micropub.net/
 import base64
 from cStringIO import StringIO
 import gzip
+import os
 import re
 import sys
 import urlparse
 
 from mrjob.protocol import RawProtocol,  RawValueProtocol
+from oauth_dropins.webutil import util
 import warc
 
 from mrcc import CCJob
@@ -38,6 +40,10 @@ MF2_CLASS_RE = re.compile(r"""
 class\s*=\s*["'][^"']*\bh-(%s)\b[^"']*["']
 """ % '|'.join(MF2_CLASSES), re.VERBOSE | re.UNICODE)
 
+USE_BLACKLIST = True
+with open(os.path.join(os.path.dirname(__file__), 'domain_blacklist.txt')) as f:
+  DOMAIN_BLACKLIST = util.load_file_lines(f)
+
 
 class ExtractIndieweb(CCJob):
   INTERNAL_PROTOCOL = RawProtocol
@@ -45,6 +51,11 @@ class ExtractIndieweb(CCJob):
 
   def process_record(self, record):
     if record['WARC-Type'] != 'response':
+      return
+
+    domain = urlparse.urlparse(record['WARC-Target-URI']).netloc.lower()
+    if USE_BLACKLIST and util.domain_or_parent_in(domain, DOMAIN_BLACKLIST):
+      self.increment_counter('blacklist', domain, 1)
       return
 
     # The HTTP response is defined by a specification: first part is headers
@@ -60,7 +71,6 @@ class ExtractIndieweb(CCJob):
         warcbuf = base64.b64encode(warcstr.getvalue())
         warcfile.close()
 
-        domain = urlparse.urlparse(record['WARC-Target-URI']).netloc
         # domain = headers['Host']
         yield domain, warcbuf
 

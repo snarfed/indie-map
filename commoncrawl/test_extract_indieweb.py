@@ -9,6 +9,7 @@ import unittest
 
 import boto
 import moto
+import mrjob.runner
 import warc
 
 import extract_indieweb
@@ -60,7 +61,7 @@ WARC-Payload-Digest: sha1:MOKD54JQHY4EWHNOJLT6IXM3ZTACA3CJ\r
 WARC-IP-Address: 85.214.72.216\r
 WARC-Block-Digest: sha1:VEYQQ2LH25SNUWZNVD4KA7EZWRKWK4HG\r
 WARC-Record-ID: <urn:uuid:f95806a3-162c-41d5-a7d5-a6af7084409b>\r
-WARC-Target-URI: http://0pointer.de/photos/?gallery=Chorin%%202010-10&photo=119&exif_style=&show_thumbs=\r
+WARC-Target-URI: http://%s/photos/?gallery=Chorin%%202010-10&photo=119&exif_style=&show_thumbs=\r
 WARC-Warcinfo-ID: <urn:uuid:ac993447-4652-47a0-be86-c14c7dc60e5e>\r
 Content-Type: application/http; msgtype=response\r
 WARC-Type: response\r
@@ -98,11 +99,11 @@ fetchTimeMs: 476\r
 """
 
 
-def warc_response(body):
+def warc_response(body, domain='0pointer.de'):
   html = HTML % body
   headers = HTTP_HEADERS % len(html)
   resp = headers + '\r\n' + html
-  return (WARC_RESPONSE % len(resp)) + '\r\n' + resp
+  return (WARC_RESPONSE % (len(resp), domain)) + '\r\n' + resp
 
 
 @moto.mock_s3
@@ -111,8 +112,9 @@ class ExtractIndiewebTest(unittest.TestCase):
 
   def setUp(self):
     super(ExtractIndiewebTest, self).setUp()
-    self.mrjob = extract_indieweb.ExtractIndieweb()
+    self.mrjob = extract_indieweb.ExtractIndieweb().sandbox()
     self.mrjob.options.runner = 'hadoop'
+    self.runner = self.mrjob.make_runner()
 
   @classmethod
   def s3_file(cls, bucket, key, contents):
@@ -126,16 +128,27 @@ class ExtractIndiewebTest(unittest.TestCase):
     bucket = conn.lookup(bucket) or conn.create_bucket(bucket)
     bucket.new_key(key).set_contents_from_string(contents)
 
-  def test_mapper_no_mf2(self):
+  def assert_map(self, expected, responses, **kwargs):
     self.s3_file('commoncrawl', 'input.warc.gz', '\r\n\r\n'.join(
-      (WARC_HEADER, WARC_REQUEST, warc_response('foo'), WARC_METADATA, '')))
-    self.assertEqual([], list(self.mrjob.mapper('', 'input.warc.gz')))
+      [WARC_HEADER, WARC_REQUEST] +
+      [warc_response(resp, **kwargs) for resp in responses] +
+      [WARC_METADATA, '']))
+
+    actual = list(self.mrjob.mapper('', 'input.warc.gz'))
+    self.assertEqual(len(expected), len(actual), actual)
+    for (exp_key, exp_val), (act_key, act_val) in zip(expected, actual):
+      self.assertEqual(exp_key, act_key)
+      self.assertMultiLineEqual(warc_response(exp_val),
+                                base64.b64decode(act_val).strip())
+
+  def test_mapper_no_mf2(self):
+    self.assert_map([], ('foo',))
 
   def test_mapper_mf2(self):
-    response = warc_response('<div class="h-entry">foo bar</div>')
-    self.s3_file('commoncrawl', 'input.warc.gz', '\r\n\r\n'.join(
-      (WARC_HEADER, WARC_REQUEST, response, WARC_METADATA, '')))
+    html = '<div class="h-entry">foo bar</div>'
+    self.assert_map([('0pointer.de', html)], [html])
 
-    (key, val), = list(self.mrjob.mapper('', 'input.warc.gz'))
-    self.assertEqual('0pointer.de', key)
-    self.assertMultiLineEqual(response, base64.b64decode(val).strip())
+  def test_blacklist(self):
+    self.assert_map([], '<div class="h-entry">foo bar</div>', domain='google.com')
+    self.assertIn('reporter:counter:blacklist,google.com,1',
+                  self.mrjob.stderr.getvalue().splitlines())
