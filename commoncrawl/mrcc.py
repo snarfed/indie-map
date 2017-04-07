@@ -34,7 +34,7 @@ class CCJob(MRJob):
     ## If we're local, use files on the local file system
     else:
       line = Path.join(Path.abspath(Path.dirname(__file__)), line)
-      print 'Loading local file {}'.format(line)
+      # print 'Loading local file {}'.format(line)
       f = warc.WARCFile(fileobj=gzip.open(line))
     ###
     for i, record in enumerate(f):

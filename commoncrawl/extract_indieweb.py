@@ -20,6 +20,7 @@ import re
 import sys
 import urlparse
 
+import boto
 from mrjob.protocol import RawProtocol,  RawValueProtocol
 from oauth_dropins.webutil import util
 import warc
@@ -46,9 +47,14 @@ class\s*=\s*["'][^"']*\bh-(%s)\b[^"']*["']
 %s
 """ % ('|'.join(MF2_CLASSES), ENDPOINT_RE_STR), re.VERBOSE | re.UNICODE)
 
-USE_BLACKLIST = True
-with open(os.path.join(os.path.dirname(__file__), 'domain_blacklist.txt')) as f:
-  DOMAIN_BLACKLIST = util.load_file_lines(f)
+USE_BLACKLIST = False
+if USE_BLACKLIST:
+  with open('domain_blacklist.txt') as f:
+    DOMAIN_BLACKLIST = util.load_file_lines(f)
+
+S3_OUTPUT_BUCKET = 'indie-map'
+# S3_OUTPUT_PREFIX = 'extracted'
+s3_bucket = None  # global; initialized in reducer
 
 
 class ExtractIndieweb(CCJob):
@@ -81,14 +87,30 @@ class ExtractIndieweb(CCJob):
         yield domain, warcbuf
 
   def combiner(self, key, values):
-    yield key, base64.b64encode(''.join(base64.b64decode(v) for v in values))
+    yield key, base64.b64encode(''.join(base64.b64decode(v) for v in values
+                                        if v and v.strip()))
 
   def reducer(self, key, values):
-    with gzip.open(u'/tmp/%s.warc.gz' % key, 'w') as out:
+    # combine and gzip records
+    buf = StringIO()
+    with gzip.GzipFile(fileobj=buf, mode='wb') as f:
       for value in values:
-        value = base64.b64decode(value)
-        out.write(value)
+        f.write(base64.b64decode(value) + '\r\n\r\n')
+    contents = buf.getvalue()
+
+    filename = '%s.warc.gz' % key
+    if self.options.runner in ('emr', 'hadoop'):
+      # write to S3
+      global s3_bucket
+      if s3_bucket is None:
+        s3_bucket = boto.connect_s3().lookup(S3_OUTPUT_BUCKET)
+      key = s3_bucket.new_key(os.path.join('extracted', filename))
+      key.set_contents_from_string(contents)
+    else:
+      # write to local file
+      with open(os.path.join('/tmp', filename), 'w') as f:
+        f.write(contents)
 
 
 if __name__ == '__main__':
-  ExtractMf2.run()
+  ExtractIndieweb.run()
