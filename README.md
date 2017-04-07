@@ -1,4 +1,4 @@
-Indie Atlas
+Indie Map
 ===
 A collection of [Indie Web](http://indieweb.org/) sites extracted from the [Common Crawl](http://commoncrawl.org/).
 

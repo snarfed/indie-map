@@ -27,6 +27,9 @@ import warc
 from mrcc import CCJob
 
 
+ENDPOINT_RE_STR = r"""rel=["']?(http://)?(webmention|micropub)(\.(net|org)/?)?["']?"""
+ENDPOINT_RE = re.compile(ENDPOINT_RE_STR)
+
 # note that mf2 class names are case sensitive
 # http://microformats.org/wiki/parsing-microformats#Parsing_class_values
 #
@@ -36,9 +39,12 @@ from mrcc import CCJob
 # mf2 h- vocabularies extracted from:
 # http://microformats.org/wiki/h-entry#Core_Properties
 MF2_CLASSES = ('adr', 'card', 'entry', 'event', 'feed', 'geo', 'item', 'listing', 'product', 'recipe', 'resume', 'review', 'review-aggregate')
-MF2_CLASS_RE = re.compile(r"""
+
+INDIEWEB_RE = re.compile(r"""
 class\s*=\s*["'][^"']*\bh-(%s)\b[^"']*["']
-""" % '|'.join(MF2_CLASSES), re.VERBOSE | re.UNICODE)
+  |
+%s
+""" % ('|'.join(MF2_CLASSES), ENDPOINT_RE_STR), re.VERBOSE | re.UNICODE)
 
 USE_BLACKLIST = True
 with open(os.path.join(os.path.dirname(__file__), 'domain_blacklist.txt')) as f:
@@ -64,7 +70,7 @@ class ExtractIndieweb(CCJob):
 
     http_headers, body = payload.split('\r\n\r\n', 1)
     if 'Content-Type: text/html' in http_headers and body.strip():
-      if MF2_CLASS_RE.search(body):
+      if ENDPOINT_RE.search(http_headers) or INDIEWEB_RE.search(body):
         warcstr = StringIO()
         warcfile = warc.WARCFile(fileobj=warcstr, mode='w')
         warcfile.write_record(warc.WARCRecord(payload=payload, header=record.header))

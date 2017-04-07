@@ -99,9 +99,11 @@ fetchTimeMs: 476\r
 """
 
 
-def warc_response(body, domain='0pointer.de'):
+def warc_response(body, domain='0pointer.de', header=None):
   html = HTML % body
   headers = HTTP_HEADERS % len(html)
+  if header:
+    headers += header + '\r\n'
   resp = headers + '\r\n' + html
   return (WARC_RESPONSE % (len(resp), domain)) + '\r\n' + resp
 
@@ -128,27 +130,34 @@ class ExtractIndiewebTest(unittest.TestCase):
     bucket = conn.lookup(bucket) or conn.create_bucket(bucket)
     bucket.new_key(key).set_contents_from_string(contents)
 
-  def assert_map(self, expected, responses, **kwargs):
+  def assert_map(self, expected, responses):
     self.s3_file('commoncrawl', 'input.warc.gz', '\r\n\r\n'.join(
-      [WARC_HEADER, WARC_REQUEST] +
-      [warc_response(resp, **kwargs) for resp in responses] +
-      [WARC_METADATA, '']))
+      [WARC_HEADER, WARC_REQUEST] + responses + [WARC_METADATA, '']))
 
     actual = list(self.mrjob.mapper('', 'input.warc.gz'))
     self.assertEqual(len(expected), len(actual), actual)
-    for (exp_key, exp_val), (act_key, act_val) in zip(expected, actual):
+    for (exp_key, exp_resp), (act_key, act_resp) in zip(expected, actual):
       self.assertEqual(exp_key, act_key)
-      self.assertMultiLineEqual(warc_response(exp_val),
-                                base64.b64decode(act_val).strip())
+      self.assertMultiLineEqual(exp_resp, base64.b64decode(act_resp).strip())
 
   def test_mapper_no_mf2(self):
-    self.assert_map([], ('foo',))
+    self.assert_map([], [warc_response('foo')])
 
   def test_mapper_mf2(self):
-    html = '<div class="h-entry">foo bar</div>'
-    self.assert_map([('0pointer.de', html)], [html])
+    resp = warc_response('<div class="h-entry">foo bar</div>')
+    self.assert_map([('0pointer.de', resp)], [resp])
 
-  def test_blacklist(self):
-    self.assert_map([], '<div class="h-entry">foo bar</div>', domain='google.com')
+  def test_mapper_domain_blacklist(self):
+    resp = warc_response('<div class="h-entry">foo bar</div>', domain='google.com')
+    self.assert_map([], [resp])
     self.assertIn('reporter:counter:blacklist,google.com,1',
                   self.mrjob.stderr.getvalue().splitlines())
+
+  def test_mapper_micropub_webmention_in_headers(self):
+    micropub_resp = warc_response(
+      'micropub', header='Link: <https://aaronpk.example/micropub>; rel="micropub"')
+    webmention_resp = warc_response(
+      'webmention', header='Link: <http://aaronpk.example/webmention-endpoint>; rel="http://webmention.org"')
+    self.assert_map([('0pointer.de', micropub_resp),
+                     ('0pointer.de', webmention_resp)],
+                    [micropub_resp, webmention_resp, warc_response('neither')])
