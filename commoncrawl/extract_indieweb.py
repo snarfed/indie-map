@@ -155,7 +155,7 @@ class ExtractIndieweb(CCJob):
       # write to S3
       global s3_bucket
       if s3_bucket is None:
-        s3_bucket = boto.connect_s3().get_bucket(S3_OUTPUT_BUCKET)
+        s3_bucket = boto.connect_s3(host='s3-us-west-2.amazonaws.com').get_bucket(S3_OUTPUT_BUCKET)
       key = s3_bucket.new_key(os.path.join('extracted', filename))
       key.set_contents_from_string(contents)
     else:
