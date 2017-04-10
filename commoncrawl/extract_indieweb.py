@@ -1,3 +1,55 @@
+import gzip
+import os.path as Path
+#
+import boto
+import warc
+#
+from boto.s3.key import Key
+from gzipstream import GzipStreamFile
+from mrjob.job import MRJob
+
+
+class CCJob(MRJob):
+  def configure_options(self):
+    super(CCJob, self).configure_options()
+    self.pass_through_option('--runner')
+    self.pass_through_option('-r')
+
+  def process_record(self, record):
+    """
+    Override process_record with your mapper
+    """
+    raise NotImplementedError('Process record needs to be customized')
+
+  def mapper(self, _, line):
+    f = None
+    ## If we're on EC2 or running on a Hadoop cluster, pull files via S3
+    if self.options.runner in ['emr', 'hadoop']:
+      # Connect to Amazon S3 using anonymous credentials
+      conn = boto.connect_s3(anon=True, host='s3.amazonaws.com')
+      pds = conn.get_bucket('commoncrawl')
+      # Start a connection to one of the WARC files
+      k = Key(pds, line)
+      f = warc.WARCFile(fileobj=GzipStreamFile(k))
+    ## If we're local, use files on the local file system
+    else:
+      line = Path.join(Path.abspath(Path.dirname(__file__)), line)
+      # print 'Loading local file {}'.format(line)
+      f = warc.WARCFile(fileobj=gzip.open(line))
+    ###
+    for i, record in enumerate(f):
+      for key, value in self.process_record(record):
+        yield key, value
+      self.increment_counter('commoncrawl', 'processed_records', 1)
+
+  def combiner(self, key, value):
+    # use the reducer by default
+    for key_val in self.reducer(key, value):
+        yield key_val
+
+  def reducer(self, key, value):
+    yield key, sum(value)
+
 """MRJob over the Common Crawl WARC dataset that extracts IndieWeb pages.
 
 We consider a page part of the IndieWeb if it has a microformats2 class or
@@ -25,7 +77,7 @@ from mrjob.protocol import RawProtocol,  RawValueProtocol
 from oauth_dropins.webutil import util
 import warc
 
-from mrcc import CCJob
+# from mrcc import CCJob
 
 
 ENDPOINT_RE_STR = r"""rel=["']?(http://)?(webmention|micropub)(\.(net|org)/?)?["']?"""
@@ -103,7 +155,7 @@ class ExtractIndieweb(CCJob):
       # write to S3
       global s3_bucket
       if s3_bucket is None:
-        s3_bucket = boto.connect_s3().lookup(S3_OUTPUT_BUCKET)
+        s3_bucket = boto.connect_s3().get_bucket(S3_OUTPUT_BUCKET)
       key = s3_bucket.new_key(os.path.join('extracted', filename))
       key.set_contents_from_string(contents)
     else:
