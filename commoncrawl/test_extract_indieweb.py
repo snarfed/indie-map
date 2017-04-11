@@ -116,7 +116,6 @@ class ExtractIndiewebTest(unittest.TestCase):
     super(ExtractIndiewebTest, self).setUp()
     self.mrjob = extract_indieweb.ExtractIndieweb().sandbox()
     self.mrjob.options.runner = 'hadoop'  # make mrcc.py load input from S3
-    self.mrjob.options.file = ('domain_blacklist.txt',)
     self.runner = self.mrjob.make_runner()
     self.s3 = boto.connect_s3()
 
@@ -146,13 +145,6 @@ class ExtractIndiewebTest(unittest.TestCase):
   def test_mapper_mf2(self):
     resp = warc_response('<div class="h-entry">foo bar</div>')
     self.assert_map([('0pointer.de', resp)], [resp])
-
-  @unittest.skip('still need to package it with the mrjob')
-  def test_mapper_domain_blacklist(self):
-    resp = warc_response('<div class="h-entry">foo bar</div>', domain='google.com')
-    self.assert_map([], [resp])
-    self.assertIn('reporter:counter:blacklist,google.com,1',
-                  self.mrjob.stderr.getvalue().splitlines())
 
   def test_mapper_micropub_webmention_in_headers(self):
     micropub_resp = warc_response(
