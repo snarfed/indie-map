@@ -1,0 +1,138 @@
+failure lessons!
+
+* use bigger instance type for lower relative EMR cost
+* one map task per line? helps monitoring too?
+  https://engineeringblog.yelp.com/2015/03/analyzing-the-web-for-the-price-of-a-sandwich.html#performance-problem-distribute-our-input-to-more-mappers
+
+counter:
+commoncrawl processed_records=1875907785  (1.8B)
+
+failure details:
+https://s3-us-west-2.amazonaws.com/mrjob-94ebe388d6c85fdb/tmp/logs/j-27FH7WJ5TGYUI/steps/s-11FCAHS3KXFWW/syslog.gz?...
+
+2017-04-11 17:00:37,208 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_m_000200_1, Status : FAILED
+2017-04-11 17:00:59,327 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_m_000043_1, Status : FAILED
+2017-04-11 17:01:27,450 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_m_000010_1, Status : FAILED
+2017-04-11 17:01:45,530 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_m_000084_1, Status : FAILED
+2017-04-11 17:01:52,558 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_m_000203_1, Status : FAILED
+2017-04-11 17:05:12,454 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_m_000044_1, Status : FAILED
+2017-04-11 17:06:37,861 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_m_000120_1, Status : FAILED
+2017-04-11 17:07:16,031 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_m_000084_2, Status : FAILED
+2017-04-11 17:07:23,066 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_r_000000_0, Status : FAILED
+2017-04-11 17:07:53,211 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_m_000011_1, Status : FAILED
+2017-04-11 17:08:25,353 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_m_000185_1, Status : FAILED
+2017-04-11 17:10:17,880 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_m_000192_1, Status : FAILED
+2017-04-11 17:15:52,420 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_m_000089_1, Status : FAILED
+2017-04-11 17:16:51,693 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_m_000190_1, Status : FAILED
+2017-04-11 17:17:25,849 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_m_000301_1, Status : FAILED
+2017-04-11 17:19:44,455 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_m_000190_2, Status : FAILED
+2017-04-11 17:19:53,499 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_m_000059_2, Status : FAILED
+2017-04-11 17:21:59,071 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_m_000017_2, Status : FAILED
+2017-04-11 17:23:04,368 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_m_000092_2, Status : FAILED
+2017-04-11 17:23:21,448 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1491888789145_0001_m_000229_2, Status : FAILED
+2017-04-11 17:24:02,635 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2017-04-11 17:24:03,646 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1491888789145_0001 failed with state FAILED due to: Task failed task_1491888789145_0001_m_000152
+Job failed as tasks failed. failedMaps:1 failedReduces:0
+
+2017-04-11 17:24:03,840 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 48
+	File System Counters
+		FILE: Number of bytes read=63469912801
+		FILE: Number of bytes written=117675034524
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=8990
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=62
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=2132195
+		S3: Number of bytes written=0
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Failed map tasks=394
+		Failed reduce tasks=3
+		Killed map tasks=272
+		Killed reduce tasks=150
+		Launched map tasks=727
+		Launched reduce tasks=26
+		Other local map tasks=423
+		Data-local map tasks=304
+		Total time spent by all maps in occupied slots (ms)=571439722050
+		Total time spent by all reduces in occupied slots (ms)=9898695360
+		Total time spent by all map tasks (ms)=12698660490
+		Total time spent by all reduce tasks (ms)=109985504
+		Total vcore-milliseconds taken by all map tasks=12698660490
+		Total vcore-milliseconds taken by all reduce tasks=109985504
+		Total megabyte-milliseconds taken by all map tasks=18286071105600
+		Total megabyte-milliseconds taken by all reduce tasks=316758251520
+	Map-Reduce Framework
+		Map input records=13569
+		Map output records=958022
+		Map output bytes=129056566692
+		Map output materialized bytes=58819638356
+		Input split bytes=8990
+		Combine input records=1207317
+		Combine output records=304259
+		Spilled Records=304259
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=2090355
+		CPU time spent (ms)=2199624550
+		Physical memory (bytes) snapshot=80945901568
+		Virtual memory (bytes) snapshot=129818996736
+		Total committed heap usage (bytes)=62767235072
+	commoncrawl
+		processed_records=1875907785
+	File Input Format Counters 
+		Bytes Read=2132195
+2017-04-11 17:24:03,840 ERROR org.apache.hadoop.streaming.StreamJob (main): Job not successful!
+
+===
+
+running on EMR:
+
+setenv AWS_ACCESS_KEY_ID ...
+setenv AWS_SECRET_ACCESS_KEY ...
+
+100 warcs:
+python extract_indieweb_emr.py -v -r emr --conf-path mrjob.conf --cluster-id j-7Q3W5W4AWAOD --no-output --output-dir s3://indie-map/test-100/ /Users/ryan/src/cc-mrjob/input/test-100.warc
+
+*all* warcs:
+# create if necessary
+python extract_indieweb.py -v -r emr --conf-path mrjob.conf --pool-clusters --max-hours-idle=1 --no-output --output-dir s3://indie-map/all-2017-03/ warc.paths
+
+# existing cluster
+python extract_indieweb.py -v -r emr --conf-path mrjob.conf --cluster-id XXX --no-output --output-dir s3://indie-map/all-2017-03/ warc.paths
+
+had to pass boto.connect_s3(host=...) on EMR EC2. region specific!
+http://stackoverflow.com/questions/28213328/get-bucket-gives-bad-request-for-s3-buckets-i-didnt-create-via-boto
+
+
+to debug failures:
+
+open latest job in https://console.aws.amazon.com/s3/buckets/indie-map/elasticmapreduce/?region=us-west-2&tab=overview
+...then containers, then latest application dir, then latest container dir
+then stderr.gz
+
+===
+
+python tag_counter.py -r local --conf-path mrjob.conf --no-output --output-dir out input/test-1.warc
+
+python mf2.py -r local --conf-path mrjob.conf --no-output --output-dir out input/test-1.warc
+
+had to apply this PR to the warc lib to get it to write warc files:
+https://github.com/internetarchive/warc/pull/23
+
+...except modified it to:
+
+        f.write(self.payload if isinstance(self.payload, basestring)
+                else self.payload.buf)
+
+stats from running test file on laptop:
+19763 hosts
+9 hosts w/mf2 (.046%)
+~44k pages
+11 pages w/mf2 (.025%)
