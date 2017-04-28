@@ -10,6 +10,7 @@ https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types
 https://cloud.google.com/bigquery/loading-data#loading_nested_and_repeated_json_data
 """
 import gzip
+import json
 import re
 import sys
 import urlparse
@@ -63,7 +64,7 @@ def convert_responses(records):
       'url': url,
       'time': record['WARC-Date'],
       'html': body,
-      'mf2': mf2py.parse(url=url, doc=body),
+      'mf2': json.dumps(mf2py.parse(url=url, doc=body), indent=2),
     }
 
 

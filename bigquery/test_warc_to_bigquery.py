@@ -2,6 +2,7 @@
 """Unit tests for warc_to_bigquery.py.
 """
 from cStringIO import StringIO
+import json
 import os
 import unittest
 
@@ -117,6 +118,8 @@ WARC_REQUEST_RECORD = warc_record(WARC_REQUEST)
 WARC_FILE = '\r\n\r\n'.join(
   [WARC_HEADER, WARC_REQUEST, warc_response('foo', 'http://foo'), WARC_METADATA, ''])
 
+EMPTY_MF2 = json.dumps({'items': [], 'rel-urls': {}, 'rels': {}}, indent=2)
+
 
 class WarcToBigQueryTest(unittest.TestCase):
   maxDiff = None
@@ -126,12 +129,12 @@ class WarcToBigQueryTest(unittest.TestCase):
       'url': 'http://foo',
       'time': '2014-08-20T06:36:13Z',
       'html': HTML % 'foo',
-      'mf2': {u'items': [], u'rel-urls': {}, u'rels': {}},
+      'mf2': EMPTY_MF2,
     }, {
       'url': 'http://bar',
       'time': '2014-08-20T06:36:13Z',
       'html': HTML % 'bar',
-      'mf2': {u'items': [], u'rel-urls': {}, u'rels': {}},
+      'mf2': EMPTY_MF2,
     }], list(warc_to_bigquery.convert_responses([
       WARC_HEADER_RECORD,
       warc_record(warc_response('foo', 'http://foo')),
