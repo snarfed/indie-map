@@ -7,6 +7,3 @@ wget --recursive --level=inf --no-check-certificate --timeout=120 --no-verbose \
     --header='Accept: text/html' \
     --warc-file=$1 $1 \
     || true
-
-
-#    --exclude-domains accounts.google.com,getpocket.com,google.com,twitter.com,www.facebook.com,www.linkedin.com,www.pinterest.com,www.reddit.com,www.tumblr.com \
