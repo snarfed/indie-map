@@ -13,30 +13,3 @@ while read domain; do
     | sed -E 's/^< Location: https?:\/\/([^/]+)\/?.*/\1/'`
   echo ${redirected:-$domain}
 done
-
-# archive.org
-# accounts.google.com
-# bit.ly
-# bitly.com
-# buff.ly
-# buffer.com
-# fb.me
-# getpocket.com
-# goo.gl
-# google.com
-# ifttt.com
-# j.mp
-# ow.ly
-# plus.google.com
-# pocket.co
-# t.co
-# twitter.com
-# vk.com
-# web.archive.org
-# wp.me
-# wordpress.com
-# www.facebook.com
-# www.linkedin.com
-# www.pinterest.com
-# www.reddit.com
-# www.tumblr.com
