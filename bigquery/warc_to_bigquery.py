@@ -63,6 +63,8 @@ def convert_responses(records):
     yield {
       'url': url,
       'time': record['WARC-Date'],
+      'http_response_headers': [tuple(h.split(': ', 1))
+                                for h in sorted(http_headers_lines[1:])],
       'html': body,
       'mf2': json.dumps(mf2py.parse(url=url, doc=body), indent=2),
     }
