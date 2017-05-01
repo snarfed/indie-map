@@ -14,4 +14,4 @@ DOMAINS=`git diff --no-color --word-diff=porcelain domains.txt \
 echo $DOMAINS
 cd -
 
-echo $DOMAINS | xargs -I %% -n 1 -P 30 -t `dirname $0`/wget.sh %% >& log
+echo $DOMAINS | xargs -I %% -n 1 -P 30 -t `dirname $0`/wget.sh %%
