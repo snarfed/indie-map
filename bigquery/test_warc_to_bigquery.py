@@ -1,6 +1,7 @@
 # coding=utf-8
 """Unit tests for warc_to_bigquery.py.
 """
+import copy
 from cStringIO import StringIO
 import json
 import os
@@ -63,20 +64,18 @@ WARC-Warcinfo-ID: <urn:uuid:ac993447-4652-47a0-be86-c14c7dc60e5e>\r
 Content-Type: application/http; msgtype=response\r
 WARC-Type: response\r
 """
-HTTP_HEADERS = """\
-HTTP/1.1 200 OK\r
-Date: Wed, 20 Aug 2014 06:36:13 GMT\r
-Server: Apache\r
-X-Powered-By: PHP/5.3.8-1+b1\r
-Content-Length: %s\r
-Connection: close\r
-Content-Type: text/html; charset=utf-8\r
-"""
+HTTP_HEADERS = {
+  'Date': 'Wed, 20 Aug 2014 06:36:13 GMT',
+  'Server': 'Apache',
+  'X-Powered-By': 'PHP/5.3.8-1+b1',
+  'Connection': 'close',
+  'Content-Type': 'text/html; charset=utf-8',
+}
 HTML = """\
 <!DOCTYPE html>
 <html>
 <head>
-foo
+%s
 </head>
 <body>%s</body>
 </html>"""
@@ -95,12 +94,18 @@ fetchTimeMs: 476\r
 \r
 """
 
-def warc_response(body, url, extra_header=None):
-  html = HTML % body
-  headers = HTTP_HEADERS % len(html)
-  if extra_header:
-    headers += extra_header + '\r\n'
-  resp = headers + '\r\n' + html
+def warc_response(body, url, html_head='', extra_headers=None):
+  html = HTML % (html_head, body)
+  headers = copy.copy(HTTP_HEADERS)
+  headers['Content-Length'] = str(len(html))
+  if extra_headers:
+    headers.update(extra_headers)
+
+  resp = u"""HTTP/1.1 200 OK\r
+%s\r
+\r
+%s""" % ('\r\n'.join('%s: %s' % h for h in headers.items()), html)
+
   return (WARC_RESPONSE % (len(resp), url)) + '\r\n' + resp
 
 
@@ -125,23 +130,55 @@ class WarcToBigQueryTest(unittest.TestCase):
   maxDiff = None
 
   def test_convert_responses(self):
+    foo_html = HTML % ('', 'foo')
+    foo_record = warc_record(warc_response('foo', 'http://foo'))
+    foo_headers = copy.copy(HTTP_HEADERS.items())
+    foo_headers.append(('Content-Length', str(len(foo_html))))
+
+    bar_record = warc_record(warc_response('bar', 'http://bar',
+                                           extra_headers={'Bar': 'Baz'}))
+    bar_headers = copy.copy(foo_headers)
+    bar_headers.append(('Bar', 'Baz'))
+
     self.assertEqual([{
       'url': 'http://foo',
       'time': '2014-08-20T06:36:13Z',
-      'html': HTML % 'foo',
+      'http_response_headers': sorted(foo_headers),
+      'html': foo_html,
       'mf2': EMPTY_MF2,
+      'links': [],
     }, {
       'url': 'http://bar',
       'time': '2014-08-20T06:36:13Z',
-      'html': HTML % 'bar',
+      'http_response_headers': sorted(bar_headers),
+      'html': HTML % ('', 'bar'),
       'mf2': EMPTY_MF2,
+      'links': [],
     }], list(warc_to_bigquery.convert_responses([
       WARC_HEADER_RECORD,
-      warc_record(warc_response('foo', 'http://foo')),
+      foo_record,
       WARC_METADATA_RECORD,
-      warc_record(warc_response('bar', 'http://bar')),
+      bar_record,
       WARC_REQUEST_RECORD,
     ])))
+
+  def test_convert_responses_links(self):
+    record = warc_record(warc_response("""\
+foo <a href="#frag"></a>
+bar <a class="x" rel="a b" href="/local">bar</a>
+baz <a class="y u-in-reply-to" href="http://ext/ernal">baz</a>
+baj <a class="u-repost-of z" href="http://ext/ernal"><img src="/baj"></a>
+baj <link rel="c" class="w" href="http://link/tag" />
+""", 'http://foo', html_head='<link rel="d e" href="https://head/link">'))
+
+    self.assertEqual([
+      ('https://head/link', '', 'link', ['d', 'e'], []),
+      ('http://link/tag', '', 'link', ['c'], ['w']),
+      ('#frag', '', 'a', [], []),
+      ('/local', 'bar', 'a', ['a', 'b'], ['x']),
+      ('http://ext/ernal', 'baz', 'a', [], ['y', 'u-in-reply-to']),
+      ('http://ext/ernal', '<img src="/baj"/>', 'a', [], ['u-repost-of', 'z']),
+    ], list(warc_to_bigquery.convert_responses([record]))[0]['links'])
 
   # def test_run(self):
   #   hcard = warc_response('<div class="h-card">one</div>')

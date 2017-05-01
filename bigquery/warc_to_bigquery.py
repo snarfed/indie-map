@@ -15,6 +15,7 @@ import re
 import sys
 import urlparse
 
+import bs4
 import mf2py
 import warc
 
@@ -60,15 +61,32 @@ def convert_responses(records):
       continue
 
     url = record['WARC-Target-URI']
+
+    soup = bs4.BeautifulSoup(body, 'lxml')
+
+    links = [(
+      link['href'],
+      ''.join(unicode(c) for c in link.children),  # inner HTMl content
+      link.name,
+      link.get('rel', []),
+      link.get('class', []),
+    ) for link in soup.find_all('link') + soup.find_all('a')]
+
     yield {
       'url': url,
       'time': record['WARC-Date'],
       'http_response_headers': [tuple(h.split(': ', 1))
                                 for h in sorted(http_headers_lines[1:])],
       'html': body,
-      'mf2': json.dumps(mf2py.parse(url=url, doc=body), indent=2),
+      'mf2': json.dumps(mf2py.parse(url=url, doc=soup), indent=2),
+      'links': links,
     }
 
+# links: array: string HTML tag (a or link), string target, array: string mf2 classes/rels, inner text or HTML
+# mf2 properties...?
+# rel-canonical
+# u-url
+# etc
 
 if __name__ == '__main__':
   main(sys.argv[1:])
