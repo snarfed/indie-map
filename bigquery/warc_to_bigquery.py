@@ -19,16 +19,27 @@ import bs4
 import mf2py
 import warc
 
-# note that mf2 class names are case sensitive
-# http://microformats.org/wiki/parsing-microformats#Parsing_class_values
-#
-# note that this will find false positives when it matches outside an HTML tag.
-#
+
 # mf2 h- vocabularies extracted from:
 # http://microformats.org/wiki/h-entry#Core_Properties
-MF2_CLASSES = ('adr', 'card', 'entry', 'event', 'feed', 'geo', 'item', 'listing', 'product', 'recipe', 'resume', 'review', 'review-aggregate')
-MF2_RE = re.compile(r"""class\s*=\s*["'][^"']*\bh-(%s)\b[^"']*["']""" %
-                    '|'.join(MF2_CLASSES))
+#
+# note that mf2 class names are case sensitive
+# http://microformats.org/wiki/parsing-microformats#Parsing_class_values
+MF2_CLASSES = frozenset('h-%s' % cls for cls in
+  ('adr', 'card', 'entry', 'event', 'feed', 'geo', 'item', 'listing', 'product',
+   'recipe', 'resume', 'review', 'review-aggregate'))
+
+# mf1 h- vocabularies extracted from the specs linked to in:
+# http://microformats.org/wiki/Main_Page#Classic_Microformats
+#
+# eg http://microformats.org/wiki/hatom, http://microformats.org/wiki/hcard, ...
+#
+# note that mf1 class names are case sensitive
+# http://microformats.org/wiki/parsing-microformats#Parsing_class_values
+MF1_CLASSES = frozenset((
+  'hfeed', 'hentry', 'vcard', 'haudio', 'vcalendar', 'vevent', 'fn', 'hproduct',
+  'hrecipe', 'hresume', 'hreview', 'hreview-aggregate', 'adr', 'geo',
+))
 
 
 def main(warc_files):
@@ -72,17 +83,29 @@ def convert_responses(records):
       link.get('class', []),
     ) for link in soup.find_all('link') + soup.find_all('a')]
 
+    mf2 = mf2py.parse(url=url, doc=soup)
+
+    def mf2_classes(obj):
+      if isinstance(obj, (list, tuple)):
+        return sum((mf2_classes(elem) for elem in obj), [])
+      elif isinstance(obj, dict):
+        items = obj.get('items') or obj.get('children') or []
+        return obj.get('type', []) + mf2_classes(items)
+      raise RuntimeError('unexpected type: %r' % obj)
+
     yield {
       'url': url,
       'time': record['WARC-Date'],
       'http_response_headers': [tuple(h.split(': ', 1))
                                 for h in sorted(http_headers_lines[1:])],
       'html': body,
-      'mf2': json.dumps(mf2py.parse(url=url, doc=soup), indent=2),
       'links': links,
+      'mf2': json.dumps(mf2, indent=2),
+      'mf2_classes': sorted(set(mf2_classes(mf2))),
     }
 
-# links: array: string HTML tag (a or link), string target, array: string mf2 classes/rels, inner text or HTML
+# url blacklist! get from wget.sh
+
 # mf2 properties...?
 # rel-canonical
 # u-url

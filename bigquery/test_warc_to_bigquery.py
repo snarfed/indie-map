@@ -146,6 +146,7 @@ class WarcToBigQueryTest(unittest.TestCase):
       'http_response_headers': sorted(foo_headers),
       'html': foo_html,
       'mf2': EMPTY_MF2,
+      'mf2_classes': [],
       'links': [],
     }, {
       'url': 'http://bar',
@@ -153,6 +154,7 @@ class WarcToBigQueryTest(unittest.TestCase):
       'http_response_headers': sorted(bar_headers),
       'html': HTML % ('', 'bar'),
       'mf2': EMPTY_MF2,
+      'mf2_classes': [],
       'links': [],
     }], list(warc_to_bigquery.convert_responses([
       WARC_HEADER_RECORD,
@@ -179,6 +181,23 @@ baj <link rel="c" class="w" href="http://link/tag" />
       ('http://ext/ernal', 'baz', 'a', [], ['y', 'u-in-reply-to']),
       ('http://ext/ernal', '<img src="/baj"/>', 'a', [], ['u-repost-of', 'z']),
     ], list(warc_to_bigquery.convert_responses([record]))[0]['links'])
+
+  def test_convert_responses_microformats(self):
+    for content, expected in (
+        ('', []),
+        ('foo', []),
+        # ('<div class="hentry"></div>', ['hentry']),
+        ('<div class="h-entry"></div>', ['h-entry']),
+        ('<div class="h-entry">1</div> <div class="h-entry">2</div>', ['h-entry']),
+        ('<div class="h-entry h-card"></div>', ['h-card', 'h-entry']),
+        ('<div class="h-feed"><div class="h-entry"><div class="h-card">'
+         '</div></div></div> <div class="h-adr"></div>',
+         ['h-adr', 'h-card', 'h-entry', 'h-feed']),
+    ):
+      record = warc_record(warc_response(content, 'http://foo'))
+      actual = list(warc_to_bigquery.convert_responses([record]))[0]\
+                        ['mf2_classes']
+      self.assertEqual(expected, actual, '%s %s %s' % (expected, actual, content))
 
   # def test_run(self):
   #   hcard = warc_response('<div class="h-card">one</div>')
