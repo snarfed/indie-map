@@ -143,19 +143,23 @@ class WarcToBigQueryTest(unittest.TestCase):
     self.assertEqual([{
       'url': 'http://foo',
       'time': '2014-08-20T06:36:13Z',
-      'http_response_headers': sorted(foo_headers),
+      'headers': sorted(foo_headers),
       'html': foo_html,
       'mf2': EMPTY_MF2,
       'mf2_classes': [],
       'links': [],
+      'rels': {},
+      'u_urls': [],
     }, {
       'url': 'http://bar',
       'time': '2014-08-20T06:36:13Z',
-      'http_response_headers': sorted(bar_headers),
+      'headers': sorted(bar_headers),
       'html': HTML % ('', 'bar'),
       'mf2': EMPTY_MF2,
       'mf2_classes': [],
       'links': [],
+      'rels': {},
+      'u_urls': [],
     }], list(warc_to_bigquery.convert_responses([
       WARC_HEADER_RECORD,
       foo_record,
@@ -164,7 +168,7 @@ class WarcToBigQueryTest(unittest.TestCase):
       WARC_REQUEST_RECORD,
     ])))
 
-  def test_convert_responses_links(self):
+  def test_links(self):
     record = warc_record(warc_response("""\
 foo <a href="#frag"></a>
 bar <a class="x" rel="a b" href="/local">bar</a>
@@ -182,21 +186,58 @@ baj <link rel="c" class="w" href="http://link/tag" />
       ('http://ext/ernal', '<img src="/baj"/>', 'a', [], ['u-repost-of', 'z']),
     ], list(warc_to_bigquery.convert_responses([record]))[0]['links'])
 
-  def test_convert_responses_microformats(self):
+  def test_microformats(self):
     for content, expected in (
         ('', []),
         ('foo', []),
-        # ('<div class="hentry"></div>', ['hentry']),
         ('<div class="h-entry"></div>', ['h-entry']),
         ('<div class="h-entry">1</div> <div class="h-entry">2</div>', ['h-entry']),
         ('<div class="h-entry h-card"></div>', ['h-card', 'h-entry']),
         ('<div class="h-feed"><div class="h-entry"><div class="h-card">'
          '</div></div></div> <div class="h-adr"></div>',
          ['h-adr', 'h-card', 'h-entry', 'h-feed']),
+        # microformats1 backward compatibility
+        ('<div class="hentry"></div>', ['h-entry']),
     ):
       record = warc_record(warc_response(content, 'http://foo'))
       actual = list(warc_to_bigquery.convert_responses([record]))[0]\
                         ['mf2_classes']
+      self.assertEqual(expected, actual, '%s %s %s' % (expected, actual, content))
+
+  def test_rels(self):
+    for content, expected in (
+        ('', {}),
+        ('<link rel="foo" href="http://x">',
+         {'foo': ['http://x']}),
+        ('<link rel="foo bar" href="http://x">',
+         {'bar': ['http://x'], 'foo': ['http://x']}),
+        ('<link rel="foo" href="http://x"> <link rel="bar foo" href="http://y">',
+         {'bar': ['http://y'], 'foo': ['http://x', 'http://y']}),
+    ):
+      record = warc_record(warc_response(content, 'http://foo'))
+      actual = list(warc_to_bigquery.convert_responses([record]))[0]['rels']
+      self.assertEqual(expected, actual, '%s %s %s' % (expected, actual, content))
+
+  def test_u_urls(self):
+    for content, expected in (
+        ('', []),
+        ('foo', []),
+        ('<div class="h-entry"></div>', []),
+        ('<div class="h-entry"><a class="u-url" href="http://foo" /></div>',
+         ['http://foo']),
+        ('<div class="h-entry"><a class="u-url" href="http://foo" /></div>'
+         '<div class="h-entry"><a class="u-url" href="http://bar" /></div>',
+         ['http://foo', 'http://bar']),
+        ('<div class="h-feed"><div class="h-entry">'
+         '<a class="u-url" href="http://foo" /></div></div>',
+         []),
+        # microformats1 backward compatibility
+        # http://microformats.org/wiki/rel-bookmark#rel.3D.22bookmark.22
+        ('<div class="hentry"><a rel="bookmark" href="http://baz" /></div>',
+         ['http://baz']),
+    ):
+      record = warc_record(warc_response(content, 'http://foo'))
+      actual = list(warc_to_bigquery.convert_responses([record]))[0]['u_urls']
       self.assertEqual(expected, actual, '%s %s %s' % (expected, actual, content))
 
   # def test_run(self):

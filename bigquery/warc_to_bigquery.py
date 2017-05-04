@@ -96,20 +96,18 @@ def convert_responses(records):
     yield {
       'url': url,
       'time': record['WARC-Date'],
-      'http_response_headers': [tuple(h.split(': ', 1))
-                                for h in sorted(http_headers_lines[1:])],
+      'headers': [tuple(h.split(': ', 1)) for h in sorted(http_headers_lines[1:])],
       'html': body,
       'links': links,
       'mf2': json.dumps(mf2, indent=2),
       'mf2_classes': sorted(set(mf2_classes(mf2))),
+      'rels': mf2.get('rels'),
+      'u_urls': sum((item.get('properties', {}).get('url', [])
+                     for item in (mf2.get('items', []))), []),
     }
 
 # url blacklist! get from wget.sh
-
-# mf2 properties...?
-# rel-canonical
-# u-url
-# etc
+# strip fragments
 
 if __name__ == '__main__':
   main(sys.argv[1:])
