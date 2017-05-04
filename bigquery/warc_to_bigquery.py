@@ -10,13 +10,13 @@ https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types
 https://cloud.google.com/bigquery/loading-data#loading_nested_and_repeated_json_data
 """
 import gzip
-import json
 import re
 import sys
 import urlparse
 
 import bs4
 import mf2py
+import simplejson as json
 import warc
 
 
@@ -27,9 +27,11 @@ URL_BLACKLIST_RE = re.compile(r'[?&](shared?=(email|facebook|google-plus-1|linke
 
 def main(warc_files):
   for in_filename in warc_files:
-    out_filename = re.sub('\.warc(\.gz)$', '', filename) + '.json.gz'
-    with warc.open(in_filename) as input, gzip.open(out_filename, 'w') as output:
-      json.dump(convert_responses(input), output)
+    out_filename = re.sub('\.warc(\.gz)$', '', in_filename) + '.json.gz'
+    input = warc.open(in_filename)
+    with gzip.open(out_filename, 'w') as output:
+      json.dump(convert_responses(input), output, iterable_as_array=True, indent=2)
+    input.close()
 
 
 def convert_responses(records):
@@ -81,7 +83,7 @@ def convert_responses(records):
     yield {
       'url': url,
       'time': record['WARC-Date'],
-      'headers': [tuple(h.split(': ', 1)) for h in sorted(http_headers_lines[1:])],
+      'headers': [list(h.split(': ', 1)) for h in sorted(http_headers_lines[1:])],
       'html': body,
       'links': links,
       'mf2': json.dumps(mf2, indent=2),

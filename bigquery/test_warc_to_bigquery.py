@@ -3,10 +3,11 @@
 """
 import copy
 from cStringIO import StringIO
-import json
+import gzip
 import os
 import unittest
 
+import simplejson as json
 import warc
 
 import warc_to_bigquery
@@ -94,6 +95,20 @@ fetchTimeMs: 476\r
 \r
 """
 
+EMPTY_MF2 = json.dumps({'items': [], 'rel-urls': {}, 'rels': {}}, indent=2)
+BIGQUERY_JSON = {
+  'url': 'http://foo',
+  'time': '2014-08-20T06:36:13Z',
+  'headers': sorted([list(it) for it in HTTP_HEADERS.items()] +
+                    [['Content-Length', str(len(HTML % ('', 'foo')))]]),
+  'html': HTML % ('', 'foo'),
+  'mf2': EMPTY_MF2,
+  'mf2_classes': [],
+  'links': [],
+  'rels': {},
+  'u_urls': [],
+}
+
 def warc_response(body, url, html_head='', extra_headers=None):
   html = HTML % (html_head, body)
   headers = copy.copy(HTTP_HEADERS)
@@ -123,50 +138,30 @@ WARC_REQUEST_RECORD = warc_record(WARC_REQUEST)
 WARC_FILE = '\r\n\r\n'.join(
   [WARC_HEADER, WARC_REQUEST, warc_response('foo', 'http://foo'), WARC_METADATA, ''])
 
-EMPTY_MF2 = json.dumps({'items': [], 'rel-urls': {}, 'rels': {}}, indent=2)
-
 
 class WarcToBigQueryTest(unittest.TestCase):
   maxDiff = None
 
   def test_convert_responses(self):
-    foo_html = HTML % ('', 'foo')
     foo_record = warc_record(warc_response('foo', 'http://foo'))
-    foo_headers = copy.copy(HTTP_HEADERS.items())
-    foo_headers.append(('Content-Length', str(len(foo_html))))
-
     bar_record = warc_record(warc_response('bar', 'http://bar',
                                            extra_headers={'Bar': 'Baz'}))
-    bar_headers = copy.copy(foo_headers)
-    bar_headers.append(('Bar', 'Baz'))
-
-    self.assertEqual([{
-      'url': 'http://foo',
-      'time': '2014-08-20T06:36:13Z',
-      'headers': sorted(foo_headers),
-      'html': foo_html,
-      'mf2': EMPTY_MF2,
-      'mf2_classes': [],
-      'links': [],
-      'rels': {},
-      'u_urls': [],
-    }, {
+    bar_json = copy.deepcopy(BIGQUERY_JSON)
+    bar_json.update({
       'url': 'http://bar',
-      'time': '2014-08-20T06:36:13Z',
-      'headers': sorted(bar_headers),
       'html': HTML % ('', 'bar'),
-      'mf2': EMPTY_MF2,
-      'mf2_classes': [],
-      'links': [],
-      'rels': {},
-      'u_urls': [],
-    }], list(warc_to_bigquery.convert_responses([
+      'headers': sorted(bar_json['headers'] + [['Bar', 'Baz']])
+    })
+
+    responses = [
       WARC_HEADER_RECORD,
       foo_record,
       WARC_METADATA_RECORD,
       bar_record,
       WARC_REQUEST_RECORD,
-    ])))
+    ]
+    self.assertEqual([BIGQUERY_JSON, bar_json],
+                     list(warc_to_bigquery.convert_responses(responses)))
 
   def test_links(self):
     record = warc_record(warc_response("""\
@@ -251,24 +246,12 @@ baj <link rel="c" class="w" href="http://link/tag" />
     )]
     self.assertEqual([], list(warc_to_bigquery.convert_responses(records)))
 
-  # def test_run(self):
-  #   hcard = warc_response('<div class="h-card">one</div>')
-  #   micropub = warc_response('two', header='Link: <http://mp>; rel="micropub"')
+  def test_main(self):
+    warc_path = '/tmp/test_warc_to_bigquery.warc.gz'
+    with gzip.open(warc_path, 'wb') as f:
+      f.write(WARC_FILE)
 
-  #   with gzip.open('/tmp/input.warc.gz', 'wb') as f:
-  #     f.write('\r\n\r\n'.join(
-  #       [WARC_HEADER, WARC_REQUEST] +
-  #       [hcard, warc_response('not indie web'), micropub] +
-  #       [WARC_METADATA, '']))
+    warc_to_bigquery.main([warc_path])
 
-  #   mrjob = self.mrjob.sandbox(stdin=StringIO('/tmp/input.warc.gz'))
-  #   mrjob.options.runner = 'local'
-  #   self.s3.create_bucket('indie-map')
-  #   try:
-  #     mrjob.run_job()
-  #   except:
-  #     print mrjob.stdout.getvalue(), mrjob.stderr.getvalue()
-  #     raise
-
-  #   with gzip.open('/tmp/0pointer.de.warc.gz') as f:
-  #     self.assertMultiLineEqual(hcard + '\r\n\r\n' + micropub, f.read().strip())
+    with gzip.open(warc_path.replace('warc.gz', 'json.gz')) as f:
+      self.assertEqual([BIGQUERY_JSON], json.loads(f.read()))
