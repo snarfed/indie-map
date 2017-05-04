@@ -28,6 +28,7 @@ URL_BLACKLIST_RE = re.compile(r'[?&](shared?=(email|facebook|google-plus-1|linke
 
 def main(warc_files):
   for in_filename in warc_files:
+    print in_filename
     out_filename = re.sub('\.warc(\.gz)$', '', in_filename) + '.json.gz'
     input = warc.open(in_filename)
     with gzip.open(out_filename, 'w') as output:
@@ -36,7 +37,10 @@ def main(warc_files):
 
 
 def convert_responses(records):
-  for record in records:
+  for i, record in enumerate(records):
+    if i and i % 1000 == 0:
+      print '  %s' % i
+
     if record['WARC-Type'] != 'response':
       continue
 
