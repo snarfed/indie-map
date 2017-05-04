@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Converts a WARC file to JSON to be loaded into BigQuery.
 
 WARC file format:
@@ -64,11 +65,12 @@ def convert_responses(records):
 
     links = [(
       link['href'],
-      ''.join(unicode(c) for c in link.children),  # inner HTMl content
+      ''.join(unicode(c) for c in link.children),  # inner HTML content
       link.name,
       link.get('rel', []),
       link.get('class', []),
-    ) for link in soup.find_all('link') + soup.find_all('a')]
+    ) for link in soup.find_all('link') + soup.find_all('a')
+      if link.get('href')]
 
     mf2 = mf2py.parse(url=url, doc=soup)
 

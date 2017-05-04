@@ -170,6 +170,8 @@ bar <a class="x" rel="a b" href="/local">bar</a>
 baz <a class="y u-in-reply-to" href="http://ext/ernal">baz</a>
 baj <a class="u-repost-of z" href="http://ext/ernal"><img src="/baj"></a>
 baj <link rel="c" class="w" href="http://link/tag" />
+biff <a rel="c" class="w" />  <!-- no hrefs, these should be ignored -->
+biff <a rel="c" class="w" href="" />
 """, 'http://foo', html_head='<link rel="d e" href="https://head/link">'))
 
     self.assertEqual([
