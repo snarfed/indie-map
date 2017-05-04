@@ -20,26 +20,9 @@ import mf2py
 import warc
 
 
-# mf2 h- vocabularies extracted from:
-# http://microformats.org/wiki/h-entry#Core_Properties
-#
-# note that mf2 class names are case sensitive
-# http://microformats.org/wiki/parsing-microformats#Parsing_class_values
-MF2_CLASSES = frozenset('h-%s' % cls for cls in
-  ('adr', 'card', 'entry', 'event', 'feed', 'geo', 'item', 'listing', 'product',
-   'recipe', 'resume', 'review', 'review-aggregate'))
-
-# mf1 h- vocabularies extracted from the specs linked to in:
-# http://microformats.org/wiki/Main_Page#Classic_Microformats
-#
-# eg http://microformats.org/wiki/hatom, http://microformats.org/wiki/hcard, ...
-#
-# note that mf1 class names are case sensitive
-# http://microformats.org/wiki/parsing-microformats#Parsing_class_values
-MF1_CLASSES = frozenset((
-  'hfeed', 'hentry', 'vcard', 'haudio', 'vcalendar', 'vevent', 'fn', 'hproduct',
-  'hrecipe', 'hresume', 'hreview', 'hreview-aggregate', 'adr', 'geo',
-))
+# known WordPress URL query params that redirect back to the current page or to
+# silos, from e.g. the ShareDaddy plugin.
+URL_BLACKLIST_RE = re.compile(r'[?&](shared?=(email|facebook|google-plus-1|linkedin|pinterest|pocket|reddit|skype|telegram|tumblr|twitter|youtube)|like_comment=|replytocom=|redirect_to=)')
 
 
 def main(warc_files):
@@ -72,6 +55,8 @@ def convert_responses(records):
       continue
 
     url = record['WARC-Target-URI']
+    if URL_BLACKLIST_RE.search(url):
+      continue
 
     soup = bs4.BeautifulSoup(body, 'lxml')
 
@@ -106,8 +91,6 @@ def convert_responses(records):
                      for item in (mf2.get('items', []))), []),
     }
 
-# url blacklist! get from wget.sh
-# strip fragments
 
 if __name__ == '__main__':
   main(sys.argv[1:])

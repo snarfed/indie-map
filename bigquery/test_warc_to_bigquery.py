@@ -240,6 +240,17 @@ baj <link rel="c" class="w" href="http://link/tag" />
       actual = list(warc_to_bigquery.convert_responses([record]))[0]['u_urls']
       self.assertEqual(expected, actual, '%s %s %s' % (expected, actual, content))
 
+  def test_url_blacklist(self):
+    records = [warc_record(warc_response('', 'http://foo%s' % path)) for path in (
+        '/foo/bar?shared=email&x',
+        '/?share=facebook',
+        '/?x&share=tumblr',
+        '/?like_comment=123',
+        '/?x&replytocom=456',
+        '/wp-login.php?redirect_to=qwert',
+    )]
+    self.assertEqual([], list(warc_to_bigquery.convert_responses(records)))
+
   # def test_run(self):
   #   hcard = warc_response('<div class="h-card">one</div>')
   #   micropub = warc_response('two', header='Link: <http://mp>; rel="micropub"')
