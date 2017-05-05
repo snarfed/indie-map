@@ -51,7 +51,7 @@ Accept-Language: en-us,en-gb,en;q=0.7,*;q=0.3\r
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r
 \r
 """
-WARC_RESPONSE = """\
+WARC_RESPONSE = u"""\
 WARC/1.0\r
 Content-Length: %s\r
 WARC-Concurrent-To: <urn:uuid:0fa7a21c-8de1-44ef-a896-f39aad9fb915>\r
@@ -72,7 +72,7 @@ HTTP_HEADERS = {
   'Connection': 'close',
   'Content-Type': 'text/html; charset=utf-8',
 }
-HTML = """\
+HTML = u"""\
 <!DOCTYPE html>
 <html>
 <head>
@@ -95,7 +95,7 @@ fetchTimeMs: 476\r
 \r
 """
 
-EMPTY_MF2 = json.dumps({'items': [], 'rel-urls': {}, 'rels': {}}, indent=2)
+EMPTY_MF2 = json.dumps({'items': [], 'rel-urls': {}, 'rels': {}})
 BIGQUERY_JSON = {
   'url': 'http://foo',
   'time': '2014-08-20T06:36:13Z',
@@ -112,7 +112,7 @@ BIGQUERY_JSON = {
 def warc_response(body, url, html_head='', extra_headers=None):
   html = HTML % (html_head, body)
   headers = copy.copy(HTTP_HEADERS)
-  headers['Content-Length'] = str(len(html))
+  headers['Content-Length'] = str(len(html.encode('utf-8')))
   if extra_headers:
     headers.update(extra_headers)
 
@@ -121,7 +121,7 @@ def warc_response(body, url, html_head='', extra_headers=None):
 \r
 %s""" % ('\r\n'.join('%s: %s' % h for h in headers.items()), html)
 
-  return (WARC_RESPONSE % (len(resp), url)) + '\r\n' + resp
+  return (WARC_RESPONSE % (len(resp.encode('utf-8')), url)) + '\r\n' + resp
 
 
 def warc_record(record_str):
@@ -257,3 +257,23 @@ biff <a rel="c" class="w" href="" />
 
     with gzip.open(warc_path.replace('warc.gz', 'json.gz')) as f:
       self.assertEqual([BIGQUERY_JSON], json.loads(f.read()))
+
+  def test_utf8_url_and_html(self):
+    url = u'http://site/☕/post'
+    body = u'Charles ☕ Foo'
+    response = warc_response(body, url) + '\r\n\r\n'
+
+    out = list(warc_to_bigquery.convert_responses([warc_record(response)]))[0]
+    self.assertEqual(url, out['url'])
+    self.assertIn(body, out['html'])
+
+    warc_path = '/tmp/test_warc_to_bigquery.warc.gz'
+    with gzip.open(warc_path, 'wb') as f:
+      f.write(response.encode('utf-8'))
+
+    warc_to_bigquery.main([warc_path])
+
+    with gzip.open(warc_path.replace('warc.gz', 'json.gz')) as f:
+      got = json.loads(f.read().decode('utf-8'))[0]
+      self.assertEqual(url, got['url'])
+      self.assertIn(body, got['html'])
