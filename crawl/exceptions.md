@@ -27,3 +27,8 @@ Sites or parts of sites that we initially crawled but later excluded.
 * [www.rmendes.net](https://www.rmendes.net/): tag pages (`/tag/...`) are incomplete.
 
 * [dentaku.wazong.de](https://dentaku.wazong.de/): incomplete, but we do have 98k pages!
+
+* [wiki.projectnerdhaus.com](http://wiki.projectnerdhaus.com/): MediaWiki special pages (e.g. revision history) are incomplete.
+
+* [thecommandline.net](http://thecommandline.net/): `/w/` is a MediaWiki instance, special pages (e.g. revision history) are incomplete.
+
