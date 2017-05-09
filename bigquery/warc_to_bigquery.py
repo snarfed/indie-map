@@ -29,7 +29,9 @@ URL_BLACKLIST_RE = re.compile(r"""
     replytocom= |
     redirect_to= ) |
   ^https://waterpigs\.co\.uk/mentions/webmention/\?wmtoken= |
-  /index.php?title=
+  /index\.php\?title= |
+  ^https?://indieweb\.org/irc/([^/]+/)?....-..-../line/[0-9]+ |
+  ^https?://chat\.indieweb\.org/([^/]+/)?....-..-../[0-9]+
   """, re.VERBOSE)
 
 
