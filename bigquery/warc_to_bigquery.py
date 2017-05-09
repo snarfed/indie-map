@@ -18,7 +18,7 @@ import urlparse
 import bs4
 import mf2py
 import simplejson as json
-import warc
+import warcio
 
 # known WordPress URL query params that redirect back to the current page or to
 # silos, from e.g. the ShareDaddy plugin.
@@ -40,49 +40,34 @@ def main(warc_files):
     print in_filename
     assert in_filename.endswith('.warc.gz')
     out_filename = in_filename[:-len('.warc.gz')] + '.json.gz'
-    input = warc.open(in_filename)
-    with gzip.open(out_filename, 'wb') as output:
-      json.dump(convert_responses(input), output, iterable_as_array=True,
-                ensure_ascii=False, encoding='utf-8', indent=2)
-      # for out in convert_responses(input):
-        # pass
+    with gzip.open(in_filename, 'rb') as input, \
+         gzip.open(out_filename, 'wb') as output:
+      iterator = warcio.ArchiveIterator(input)
+      json.dump(convert_responses(iterator), output, iterable_as_array=True,
+                encoding='utf-8', indent=2)
     input.close()
 
 
 def convert_responses(records):
   for i, record in enumerate(records):
-    # print >> sys.stderr, 'starting',
     if i and i % 1000 == 0:
       print '  %s' % i
 
-    if record['WARC-Type'] != 'response':
+    if record.rec_type != 'response':
       continue
 
-    # payload is HTTP headers, then two CRLFs, then response body
-    payload = record.payload
-    if not isinstance(payload, basestring):
-      payload = payload.read()
-
-    split = payload.split('\r\n\r\n', 1)
-    if len(split) != 2:
-      # print 'nope: no payload'
+    if (record.http_headers.get_statuscode() != '200' or
+        not record.http_headers.get('Content-Type', '').startswith('text/html')):
       continue
 
-    http_headers, body = split
-    http_headers_lines = http_headers.splitlines()
-    body = body.strip()
-    if (http_headers_lines[0] not in ('HTTP/1.0 200 OK', 'HTTP/1.1 200 OK') or
-        'Content-Type: text/html' not in http_headers or
-        not body):
-      # print 'nope:\n%s' % http_headers
-      continue
-
-    url = record['WARC-Target-URI']
+    url = record.rec_headers.get('WARC-Target-URI')
     if URL_BLACKLIST_RE.search(url):
-      # print 'nope: blacklist'
       continue
 
-    # print >> sys.stderr, '%s...' % url,
+    body = record.content_stream().read().strip()
+    if not body:
+      continue
+
     soup = bs4.BeautifulSoup(body, 'lxml')
 
     links = [(
@@ -104,12 +89,11 @@ def convert_responses(records):
         return obj.get('type', []) + mf2_classes(items)
       raise RuntimeError('unexpected type: %r' % obj)
 
-    # print >> sys.stderr, 'done.',
     yield {
       'url': url,
       'domain': urlparse.urlparse(url).netloc,
-      'time': record['WARC-Date'],
-      'headers': [list(h.split(': ', 1)) for h in sorted(http_headers_lines[1:])],
+      'time': record.rec_headers.get('WARC-Date'),
+      'headers': [list(item) for item in sorted(record.http_headers.headers)],
       'html': body,
       'links': links,
       'mf2': json.dumps(mf2, ensure_ascii=False, encoding='utf-8'),
@@ -118,7 +102,6 @@ def convert_responses(records):
       'u_urls': sum((item.get('properties', {}).get('url', [])
                      for item in (mf2.get('items', []))), []),
     }
-    # print >> sys.stderr, 'next!'
 
 
 if __name__ == '__main__':

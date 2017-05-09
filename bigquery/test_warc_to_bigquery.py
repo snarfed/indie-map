@@ -2,13 +2,13 @@
 """Unit tests for warc_to_bigquery.py.
 """
 import copy
-from cStringIO import StringIO
+from StringIO import StringIO
 import gzip
 import os
 import unittest
 
 import simplejson as json
-import warc
+import warcio
 
 import warc_to_bigquery
 
@@ -97,6 +97,7 @@ fetchTimeMs: 476\r
 
 EMPTY_MF2 = json.dumps({'items': [], 'rel-urls': {}, 'rels': {}})
 BIGQUERY_JSON = {
+  'domain': 'foo',
   'url': 'http://foo',
   'time': '2014-08-20T06:36:13Z',
   'headers': sorted([list(it) for it in HTTP_HEADERS.items()] +
@@ -125,11 +126,8 @@ def warc_response(body, url, html_head='', extra_headers=None):
 
 
 def warc_record(record_str):
-  split = record_str.split('\r\n\r\n', 1)
-  headers = dict(header.split(': ', 1) for header in split[0].splitlines()
-                 if ': ' in header)
-  body = split[1] if len(split) == 2 else None
-  return warc.WARCRecord(payload=body, headers=headers)
+  return warcio.recordloader.ArcWarcRecordLoader().parse_record_stream(
+    StringIO(record_str), known_format='warc')
 
 WARC_HEADER_RECORD = warc_record(WARC_HEADER)
 WARC_METADATA_RECORD = warc_record(WARC_METADATA)
@@ -148,6 +146,7 @@ class WarcToBigQueryTest(unittest.TestCase):
                                            extra_headers={'Bar': 'Baz'}))
     bar_json = copy.deepcopy(BIGQUERY_JSON)
     bar_json.update({
+      'domain': 'bar',
       'url': 'http://bar',
       'html': HTML % ('', 'bar'),
       'headers': sorted(bar_json['headers'] + [['Bar', 'Baz']])
@@ -264,7 +263,6 @@ biff <a rel="c" class="w" href="" />
     response = warc_response(body, url) + '\r\n\r\n'
 
     out = list(warc_to_bigquery.convert_responses([warc_record(response)]))[0]
-    self.assertEqual(url, out['url'])
     self.assertIn(body, out['html'])
 
     warc_path = '/tmp/test_warc_to_bigquery.warc.gz'
