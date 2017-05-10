@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """Converts a WARC file to JSON to be loaded into BigQuery.
 
 WARC file format:
@@ -11,9 +11,10 @@ https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types
 https://cloud.google.com/bigquery/loading-data#loading_nested_and_repeated_json_data
 """
 import gzip
+import os
 import re
 import sys
-import urlparse
+from urllib.parse import urlparse
 
 import bs4
 import mf2py
@@ -37,21 +38,27 @@ URL_BLACKLIST_RE = re.compile(r"""
 
 def main(warc_files):
   for in_filename in warc_files:
-    print in_filename
+    print(in_filename)
     assert in_filename.endswith('.warc.gz')
     out_filename = in_filename[:-len('.warc.gz')] + '.json.gz'
+    if os.path.exists(out_filename):
+      print(' ...skipping, %s already exists.' % out_filename)
+      continue
+
     with gzip.open(in_filename, 'rb') as input, \
-         gzip.open(out_filename, 'wb') as output:
+         gzip.open(out_filename, 'wt', encoding='utf-8') as output:
       iterator = warcio.ArchiveIterator(input)
       json.dump(convert_responses(iterator), output, iterable_as_array=True,
                 encoding='utf-8', indent=2)
     input.close()
 
+  print('Done.')
+
 
 def convert_responses(records):
   for i, record in enumerate(records):
     if i and i % 1000 == 0:
-      print '  %s' % i
+      print('  %s' % i)
 
     if record.rec_type != 'response':
       continue
@@ -72,7 +79,7 @@ def convert_responses(records):
 
     links = [(
       link['href'],
-      ''.join(unicode(c) for c in link.children),  # inner HTML content
+      ''.join(str(c) for c in link.children),  # inner HTML content
       link.name,
       link.get('rel', []),
       link.get('class', []),
@@ -91,12 +98,12 @@ def convert_responses(records):
 
     yield {
       'url': url,
-      'domain': urlparse.urlparse(url).netloc,
+      'domain': urlparse(url).netloc,
       'time': record.rec_headers.get('WARC-Date'),
       'headers': [list(item) for item in sorted(record.http_headers.headers)],
       'html': body,
       'links': links,
-      'mf2': json.dumps(mf2, ensure_ascii=False, encoding='utf-8'),
+      'mf2': json.dumps(mf2),
       'mf2_classes': sorted(set(mf2_classes(mf2))),
       'rels': mf2.get('rels'),
       'u_urls': sum((item.get('properties', {}).get('url', [])

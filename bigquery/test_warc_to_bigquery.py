@@ -1,9 +1,9 @@
-# coding=utf-8
+#!/usr/bin/env python3
 """Unit tests for warc_to_bigquery.py.
 """
 import copy
-from StringIO import StringIO
 import gzip
+from io import StringIO
 import os
 import unittest
 
@@ -95,7 +95,7 @@ fetchTimeMs: 476\r
 \r
 """
 
-EMPTY_MF2 = json.dumps({'items': [], 'rel-urls': {}, 'rels': {}})
+EMPTY_MF2 = json.dumps({'items': [], 'rels': {}, 'rel-urls': {}})
 BIGQUERY_JSON = {
   'domain': 'foo',
   'url': 'http://foo',
@@ -250,16 +250,18 @@ biff <a rel="c" class="w" href="" />
   def test_main(self):
     warc_path = '/tmp/test_warc_to_bigquery.warc.gz'
     with gzip.open(warc_path, 'wb') as f:
-      f.write(WARC_FILE)
+      f.write(WARC_FILE.encode('utf-8'))
 
+    json_path = warc_path.replace('warc.gz', 'json.gz')
+    os.remove(json_path)
     warc_to_bigquery.main([warc_path])
 
-    with gzip.open(warc_path.replace('warc.gz', 'json.gz')) as f:
-      self.assertEqual([BIGQUERY_JSON], json.loads(f.read()))
+    with gzip.open(json_path) as f:
+      self.assertEqual([BIGQUERY_JSON], json.loads(f.read().decode('utf-8')))
 
   def test_utf8_url_and_html(self):
-    url = u'http://site/☕/post'
-    body = u'Charles ☕ Foo'
+    url = 'http://site/☕/post'
+    body = 'Charles ☕ Foo'
     response = warc_response(body, url) + '\r\n\r\n'
 
     out = list(warc_to_bigquery.convert_responses([warc_record(response)]))[0]
@@ -269,9 +271,11 @@ biff <a rel="c" class="w" href="" />
     with gzip.open(warc_path, 'wb') as f:
       f.write(response.encode('utf-8'))
 
+    json_path = warc_path.replace('warc.gz', 'json.gz')
+    os.remove(json_path)
     warc_to_bigquery.main([warc_path])
 
-    with gzip.open(warc_path.replace('warc.gz', 'json.gz')) as f:
+    with gzip.open(json_path) as f:
       got = json.loads(f.read().decode('utf-8'))[0]
       self.assertEqual(url, got['url'])
       self.assertIn(body, got['html'])
