@@ -16,7 +16,7 @@ import re
 import sys
 from urllib.parse import urlparse
 
-import bs4
+from bs4 import BeautifulSoup, UnicodeDammit
 import mf2py
 import simplejson as json
 import warcio
@@ -34,6 +34,7 @@ URL_BLACKLIST_RE = re.compile(r"""
   ^https?://indieweb\.org/irc/([^/]+/)?....-..-../line/[0-9]+ |
   ^https?://chat\.indieweb\.org/([^/]+/)?....-..-../[0-9]+
   """, re.VERBOSE)
+  # /search?... TODO based on www.ogok
 
 
 def main(warc_files):
@@ -41,9 +42,9 @@ def main(warc_files):
     print(in_filename)
     assert in_filename.endswith('.warc.gz')
     out_filename = in_filename[:-len('.warc.gz')] + '.json.gz'
-    if os.path.exists(out_filename):
-      print(' ...skipping, %s already exists.' % out_filename)
-      continue
+    # if os.path.exists(out_filename):
+    #   print(' ...skipping, %s already exists.' % out_filename)
+    #   continue
 
     with gzip.open(in_filename, 'rb') as input, \
          gzip.open(out_filename, 'wt', encoding='utf-8') as output:
@@ -71,11 +72,16 @@ def convert_responses(records):
     if URL_BLACKLIST_RE.search(url):
       continue
 
-    body = record.content_stream().read().strip()
+    # TODO: charset from HTTP header Content-Type
+    #
+    # use UnicodeDammit to gracefully handle response contents with invalid
+    # content for their character encoding, e.g. invalid start or continuation
+    # bytes in UTF-8.
+    body = UnicodeDammit(record.content_stream().read()).unicode_markup
     if not body:
       continue
 
-    soup = bs4.BeautifulSoup(body, 'lxml')
+    soup = BeautifulSoup(body, 'lxml')
 
     links = [(
       link['href'],
@@ -96,7 +102,7 @@ def convert_responses(records):
         return obj.get('type', []) + mf2_classes(items)
       raise RuntimeError('unexpected type: %r' % obj)
 
-    yield {
+    obj = {
       'url': url,
       'domain': urlparse(url).netloc,
       'time': record.rec_headers.get('WARC-Date'),
@@ -109,6 +115,8 @@ def convert_responses(records):
       'u_urls': sum((item.get('properties', {}).get('url', [])
                      for item in (mf2.get('items', []))), []),
     }
+
+    yield obj
 
 
 if __name__ == '__main__':
