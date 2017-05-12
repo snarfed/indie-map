@@ -19,4 +19,5 @@ Sites or parts of sites that we initially crawled but later excluded.
 * [waterpigs.co.uk/mentions/webmention/?wmtoken=...](https://waterpigs.co.uk/mentions/webmention/): generates a new token each time.
 * [wiki.projectnerdhaus.com](http://wiki.projectnerdhaus.com/): MediaWiki special pages (e.g. revision history) are incomplete.
 * [www.downes.ca](http://www.downes.ca/): a number of CGI pages that consistently 404ed all URLs: `dwiki/?id=...`, `/cgi-bin/website/refer.cgi?...`, `/cgi-bin/website/research.cgi?...`, `/cgi-bin/clist/clist.cgi?...`
+* [www.ogok.de](http://www.ogok.de/): `/search?...`, combinatoric explosion of parameter values.
 * [www.rmendes.net](https://www.rmendes.net/): tag pages (`/tag/...`) are incomplete.
