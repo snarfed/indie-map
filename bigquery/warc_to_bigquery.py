@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Converts a WARC file to JSON to be loaded into BigQuery.
+"""Converts a WARC file to JSON Page records to be loaded into BigQuery.
+
+See README.md for the Page table's schema.
 
 WARC file format:
 http://bibnum.bnf.fr/WARC/
@@ -11,6 +13,7 @@ https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types
 https://cloud.google.com/bigquery/loading-data#loading_nested_and_repeated_json_data
 """
 import gzip
+import json
 import os
 import re
 import sys
@@ -18,7 +21,7 @@ from urllib.parse import urlparse
 
 from bs4 import BeautifulSoup, UnicodeDammit
 import mf2py
-import simplejson as json
+# import simplejson as json
 import warcio
 
 # known WordPress URL query params that redirect back to the current page or to
@@ -39,84 +42,88 @@ URL_BLACKLIST_RE = re.compile(r"""
 
 def main(warc_files):
   for in_filename in warc_files:
-    print(in_filename)
+    print(in_filename, end='', flush=True)
     assert in_filename.endswith('.warc.gz')
     out_filename = in_filename[:-len('.warc.gz')] + '.json.gz'
+
     # if os.path.exists(out_filename):
     #   print(' ...skipping, %s already exists.' % out_filename)
     #   continue
 
     with gzip.open(in_filename, 'rb') as input, \
          gzip.open(out_filename, 'wt', encoding='utf-8') as output:
-      iterator = warcio.ArchiveIterator(input)
-      json.dump(convert_responses(iterator), output, iterable_as_array=True,
-                encoding='utf-8', indent=2)
-    input.close()
+      for i, record in enumerate(warcio.ArchiveIterator(input)):
+        if i and i % 100 == 0:
+          print('.', end='', flush=True)
+          break
+        row = maybe_convert(record)
+        if row:
+          # BigQuery JSON format is oddly specific: one object per line.
+          json.dump(row, output, ensure_ascii=True)#encoding='utf-8')
+          print(file=output)
+
+    print(flush=True)
 
   print('Done.')
 
 
-def convert_responses(records):
-  for i, record in enumerate(records):
-    if i and i % 1000 == 0:
-      print('  %s' % i)
+def maybe_convert(record):
+  if record.rec_type != 'response':
+    return
 
-    if record.rec_type != 'response':
-      continue
+  if (record.http_headers.get_statuscode() != '200' or
+      not record.http_headers.get('Content-Type', '').startswith('text/html')):
+    return
 
-    if (record.http_headers.get_statuscode() != '200' or
-        not record.http_headers.get('Content-Type', '').startswith('text/html')):
-      continue
+  url = record.rec_headers.get('WARC-Target-URI')
+  if URL_BLACKLIST_RE.search(url):
+    return
 
-    url = record.rec_headers.get('WARC-Target-URI')
-    if URL_BLACKLIST_RE.search(url):
-      continue
+  # TODO: charset from HTTP header Content-Type
+  #
+  # use UnicodeDammit to gracefully handle response contents with invalid
+  # content for their character encoding, e.g. invalid start or continuation
+  # bytes in UTF-8.
+  body = UnicodeDammit(record.content_stream().read()).unicode_markup
+  if not body:
+    return
 
-    # TODO: charset from HTTP header Content-Type
-    #
-    # use UnicodeDammit to gracefully handle response contents with invalid
-    # content for their character encoding, e.g. invalid start or continuation
-    # bytes in UTF-8.
-    body = UnicodeDammit(record.content_stream().read()).unicode_markup
-    if not body:
-      continue
+  soup = BeautifulSoup(body, 'lxml')
 
-    soup = BeautifulSoup(body, 'lxml')
+  links = [{
+    'tag': link.name,
+    'url': link['href'],
+    'inner_html': ''.join(str(c) for c in link.children),  # inner HTML content
+    'rels': link.get('rel', []),
+    'classes': link.get('class', []),
+  } for link in soup.find_all('link') + soup.find_all('a')
+    if link.get('href')]
 
-    links = [(
-      link['href'],
-      ''.join(str(c) for c in link.children),  # inner HTML content
-      link.name,
-      link.get('rel', []),
-      link.get('class', []),
-    ) for link in soup.find_all('link') + soup.find_all('a')
-      if link.get('href')]
+  mf2 = mf2py.parse(url=url, doc=soup)
 
-    mf2 = mf2py.parse(url=url, doc=soup)
+  def mf2_classes(obj):
+    if isinstance(obj, (list, tuple)):
+      return sum((mf2_classes(elem) for elem in obj), [])
+    elif isinstance(obj, dict):
+      items = obj.get('items') or obj.get('children') or []
+      return obj.get('type', []) + mf2_classes(items)
+    raise RuntimeError('unexpected type: %r' % obj)
 
-    def mf2_classes(obj):
-      if isinstance(obj, (list, tuple)):
-        return sum((mf2_classes(elem) for elem in obj), [])
-      elif isinstance(obj, dict):
-        items = obj.get('items') or obj.get('children') or []
-        return obj.get('type', []) + mf2_classes(items)
-      raise RuntimeError('unexpected type: %r' % obj)
-
-    obj = {
-      'url': url,
-      'domain': urlparse(url).netloc,
-      'time': record.rec_headers.get('WARC-Date'),
-      'headers': [list(item) for item in sorted(record.http_headers.headers)],
-      'html': body,
-      'links': links,
-      'mf2': json.dumps(mf2),
-      'mf2_classes': sorted(set(mf2_classes(mf2))),
-      'rels': mf2.get('rels'),
-      'u_urls': sum((item.get('properties', {}).get('url', [])
-                     for item in (mf2.get('items', []))), []),
-    }
-
-    yield obj
+  return {
+    'url': url,
+    'domain': urlparse(url).netloc,
+    'time': record.rec_headers.get('WARC-Date'),
+    'headers': [{'name': name, 'value': value}
+                for name, value in sorted(record.http_headers.headers)],
+    'html': body,
+    'links': links,
+    'mf2': json.dumps(mf2),
+    'mf2_classes': sorted(set(mf2_classes(mf2))),
+    'rels': [{'value': val, 'urls': urls} for val, urls in
+             mf2.get('rels', {}).items()],
+    'u_urls': sum((item.get('properties', {}).get('url', [])
+                   for item in (mf2.get('items', []))), []),
+  }
 
 
 if __name__ == '__main__':

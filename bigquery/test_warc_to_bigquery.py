@@ -4,6 +4,7 @@
 import copy
 import gzip
 from io import StringIO
+import operator
 import os
 import unittest
 
@@ -11,6 +12,12 @@ import simplejson as json
 import warcio
 
 import warc_to_bigquery
+from warc_to_bigquery import maybe_convert
+
+# prevent python 3 unittest from eliding assertEqual diffs with '...[X chars]...'
+# (TestCase.maxDiff doesn't affect it)
+# http://stackoverflow.com/a/34117192/186123
+unittest.util._MAX_LENGTH = 2000
 
 
 WARC_HEADER = """\
@@ -72,6 +79,8 @@ HTTP_HEADERS = {
   'Connection': 'close',
   'Content-Type': 'text/html; charset=utf-8',
 }
+JSON_HEADERS = [{'name': name, 'value': value}
+                 for name, value in HTTP_HEADERS.items()]
 HTML = u"""\
 <!DOCTYPE html>
 <html>
@@ -100,13 +109,15 @@ BIGQUERY_JSON = {
   'domain': 'foo',
   'url': 'http://foo',
   'time': '2014-08-20T06:36:13Z',
-  'headers': sorted([list(it) for it in HTTP_HEADERS.items()] +
-                    [['Content-Length', str(len(HTML % ('', 'foo')))]]),
+  'headers': sorted(JSON_HEADERS + [{
+    'name': 'Content-Length',
+    'value': str(len(HTML % ('', 'foo'))),
+  }], key=operator.itemgetter('name')),
   'html': HTML % ('', 'foo'),
   'mf2': EMPTY_MF2,
   'mf2_classes': [],
   'links': [],
-  'rels': {},
+  'rels': [],
   'u_urls': [],
 }
 
@@ -140,27 +151,25 @@ WARC_FILE = '\r\n\r\n'.join(
 class WarcToBigQueryTest(unittest.TestCase):
   maxDiff = None
 
-  def test_convert_responses(self):
+  def test_maybe_convert_not_response(self):
+    self.assertIsNone(maybe_convert(WARC_HEADER_RECORD))
+    self.assertIsNone(maybe_convert(WARC_METADATA_RECORD))
+    self.assertIsNone(maybe_convert(WARC_REQUEST_RECORD))
+
+  def test_maybe_convert(self):
     foo_record = warc_record(warc_response('foo', 'http://foo'))
+    self.assertEqual(BIGQUERY_JSON, maybe_convert(foo_record))
+
     bar_record = warc_record(warc_response('bar', 'http://bar',
-                                           extra_headers={'Bar': 'Baz'}))
+                                           extra_headers={'XYZ': 'Baz'}))
     bar_json = copy.deepcopy(BIGQUERY_JSON)
     bar_json.update({
       'domain': 'bar',
       'url': 'http://bar',
       'html': HTML % ('', 'bar'),
-      'headers': sorted(bar_json['headers'] + [['Bar', 'Baz']])
+      'headers': bar_json['headers'] + [{'name': 'XYZ', 'value': 'Baz'}],
     })
-
-    responses = [
-      WARC_HEADER_RECORD,
-      foo_record,
-      WARC_METADATA_RECORD,
-      bar_record,
-      WARC_REQUEST_RECORD,
-    ]
-    self.assertEqual([BIGQUERY_JSON, bar_json],
-                     list(warc_to_bigquery.convert_responses(responses)))
+    self.assertEqual(bar_json, maybe_convert(bar_record))
 
   def test_links(self):
     record = warc_record(warc_response("""\
@@ -173,14 +182,43 @@ biff <a rel="c" class="w" />  <!-- no hrefs, these should be ignored -->
 biff <a rel="c" class="w" href="" />
 """, 'http://foo', html_head='<link rel="d e" href="https://head/link">'))
 
-    self.assertEqual([
-      ('https://head/link', '', 'link', ['d', 'e'], []),
-      ('http://link/tag', '', 'link', ['c'], ['w']),
-      ('#frag', '', 'a', [], []),
-      ('/local', 'bar', 'a', ['a', 'b'], ['x']),
-      ('http://ext/ernal', 'baz', 'a', [], ['y', 'u-in-reply-to']),
-      ('http://ext/ernal', '<img src="/baj"/>', 'a', [], ['u-repost-of', 'z']),
-    ], list(warc_to_bigquery.convert_responses([record]))[0]['links'])
+    self.assertEqual([{
+      'url': 'https://head/link',
+      'inner_html': '',
+      'tag': 'link',
+      'rels': ['d', 'e'],
+      'classes': [],
+    }, {
+      'url': 'http://link/tag',
+      'inner_html': '',
+      'tag': 'link',
+      'rels': ['c'],
+      'classes': ['w'],
+    }, {
+      'url': '#frag',
+      'inner_html': '',
+      'tag': 'a',
+      'rels': [],
+      'classes': [],
+    }, {
+      'url': '/local',
+      'inner_html': 'bar',
+      'tag': 'a',
+      'rels': ['a', 'b'],
+      'classes': ['x'],
+    }, {
+      'url': 'http://ext/ernal',
+      'inner_html': 'baz',
+      'tag': 'a',
+      'rels': [],
+      'classes': ['y', 'u-in-reply-to'],
+    }, {
+      'url': 'http://ext/ernal',
+      'inner_html': '<img src="/baj"/>',
+      'tag': 'a',
+      'rels': [],
+      'classes': ['u-repost-of', 'z'],
+    }], maybe_convert(record)['links'])
 
   def test_microformats(self):
     for content, expected in (
@@ -196,23 +234,26 @@ biff <a rel="c" class="w" href="" />
         ('<div class="hentry"></div>', ['h-entry']),
     ):
       record = warc_record(warc_response(content, 'http://foo'))
-      actual = list(warc_to_bigquery.convert_responses([record]))[0]\
-                        ['mf2_classes']
-      self.assertEqual(expected, actual, '%s %s %s' % (expected, actual, content))
+      actual = maybe_convert(record)['mf2_classes']
+      with self.subTest(content=content):
+        self.assertEqual(expected, actual)
 
   def test_rels(self):
     for content, expected in (
-        ('', {}),
+        ('', []),
         ('<link rel="foo" href="http://x">',
-         {'foo': ['http://x']}),
+         [{'value': 'foo', 'urls': ['http://x']}]),
         ('<link rel="foo bar" href="http://x">',
-         {'bar': ['http://x'], 'foo': ['http://x']}),
+         [{'value': 'foo', 'urls': ['http://x']},
+          {'value': 'bar', 'urls': ['http://x']}]),
         ('<link rel="foo" href="http://x"> <link rel="bar foo" href="http://y">',
-         {'bar': ['http://y'], 'foo': ['http://x', 'http://y']}),
+         [{'value': 'foo', 'urls': ['http://x', 'http://y']},
+          {'value': 'bar', 'urls': ['http://y']}]),
     ):
       record = warc_record(warc_response(content, 'http://foo'))
-      actual = list(warc_to_bigquery.convert_responses([record]))[0]['rels']
-      self.assertEqual(expected, actual, '%s %s %s' % (expected, actual, content))
+      actual = maybe_convert(record)['rels']
+      with self.subTest(content=content):
+        self.assertEqual(expected, actual)
 
   def test_u_urls(self):
     for content, expected in (
@@ -233,19 +274,21 @@ biff <a rel="c" class="w" href="" />
          ['http://baz']),
     ):
       record = warc_record(warc_response(content, 'http://foo'))
-      actual = list(warc_to_bigquery.convert_responses([record]))[0]['u_urls']
-      self.assertEqual(expected, actual, '%s %s %s' % (expected, actual, content))
+      actual = maybe_convert(record)['u_urls']
+      with self.subTest(content=content):
+        self.assertEqual(expected, actual)
 
   def test_url_blacklist(self):
-    records = [warc_record(warc_response('', 'http://foo%s' % path)) for path in (
+    for path in (
         '/foo/bar?shared=email&x',
         '/?share=facebook',
         '/?x&share=tumblr',
         '/?like_comment=123',
         '/?x&replytocom=456',
         '/wp-login.php?redirect_to=qwert',
-    )]
-    self.assertEqual([], list(warc_to_bigquery.convert_responses(records)))
+    ):
+      self.assertIsNone(maybe_convert(
+        warc_record(warc_response('', 'http://foo%s' % path))))
 
   def test_main(self):
     warc_path = '/tmp/test_warc_to_bigquery.warc.gz'
@@ -257,14 +300,14 @@ biff <a rel="c" class="w" href="" />
     warc_to_bigquery.main([warc_path])
 
     with gzip.open(json_path) as f:
-      self.assertEqual([BIGQUERY_JSON], json.loads(f.read().decode('utf-8')))
+      self.assertEqual(BIGQUERY_JSON, json.loads(f.read().decode('utf-8')))
 
   def test_utf8_url_and_html(self):
     url = 'http://site/☕/post'
     body = 'Charles ☕ Foo'
     response = warc_response(body, url) + '\r\n\r\n'
 
-    out = list(warc_to_bigquery.convert_responses([warc_record(response)]))[0]
+    out = maybe_convert(warc_record(response))
     self.assertIn(body, out['html'])
 
     warc_path = '/tmp/test_warc_to_bigquery.warc.gz'
@@ -276,6 +319,6 @@ biff <a rel="c" class="w" href="" />
     warc_to_bigquery.main([warc_path])
 
     with gzip.open(json_path) as f:
-      got = json.loads(f.read().decode('utf-8'))[0]
+      got = json.loads(f.read().decode('utf-8'))
       self.assertEqual(url, got['url'])
       self.assertIn(body, got['html'])
