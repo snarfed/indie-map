@@ -48,7 +48,8 @@ If I was to use a Graph DB instead of BigQuery:
 
 Statistics
 ---
-* Total http requests, bytes
+* Total http requests, bytes (currently 77G of gzipped WARCs)
+* Complete crawl duration (start, end times)
 * HTML pages fetched (ie HTTP 200), bytes
 * Links: total, internal
 * mf2 classes, instances
@@ -56,6 +57,8 @@ Statistics
   * Distinct endpoints
 * Domains: served, redirected, failed
   * ... with mf2, webmention, micropub, auth endpoints
+* Sources: IRC people 261, 292 webmention.io, 1331 bridgy, misc others
+* Crawl: One MBP on 50-150Mbps links, ~3qps per site, ~30 sites in parallel, continuous except for commute, ~45m 2x/day. Longest site was www.museum-digital.de at >6d total.
 
 
 UI
@@ -74,15 +77,25 @@ Candidates:
 
 Manual crawl
 ---
-See crawl/crawl.sh.
+Includes sites in [`crawl/domains.txt`](https://github.com/snarfed/indie-map/blob/master/crawl/domains.txt), which come from:
+* [indieweb.org/IRC_People](https://indieweb.org/IRC_People), as of 2017-04-23.
+* Sites [webmention.io](https://webmention.io/) has successfully sent at least one webmention to, as of 2017-04-29.
+* Sites [Bridgy](https://brid.gy/) has successfully sent at least one webmention to, as of 2017-04-23.
 
-Inclusion criteria: microformats2, webmention endpoint, or micropub endpoint. Subject to judgment calls, e.g. achor.net has mf2 but is a *massive* forum (>20G of HTML!) and isn't really part of the community.
+Rough inclusion criteria: microformats2, webmention endpoint, or micropub endpoint. Subject to judgment, e.g. [achor.net](http://achor.net/) has mf2 but is a *massive* forum (>20G of HTML!) and doesn't really participate in the community otherwise.
 
 Notable sites:
-indieweb.org, chat.indieweb.org
-brid.gy: large collection of h-cards! :P
-tantek.com, aaronparecki.com, kevinmarks.com, caseorganic.com: IWC founders!
-loadaverage.org: somewhat big gnu social instance.
+* [indieweb.org](https://indieweb.org/), naturally.
+* [chat.indieweb.org](https://chat.indieweb.org/): IRC transcripts from #indieweb[camp], #indieweb-dev, #microformats, and more.
+* [tantek.com](http://tantek.com/),
+  [aaronparecki.com](https://aaronparecki.com/),
+  [kevinmarks.com](http://www.kevinmarks.com/),
+  [caseorganic.com](http://caseorganic.com/): IndieWebCamp founders!
+* [loadaverage.org](https://loadaverage.org/): somewhat big Gnu Social instance. [Details.](https://wiki.loadaverage.org/about)
+* [museum-digital.de](https://www.museum-digital.de/): massive digital catalog of  >34k museum artifacts from 84 museums. Includes h-cards and h-geos for many of the artifacts!
+* [brid.gy](https://brid.gy/): large collection of h-cards.
+
+Crawler is basically just `xargs wget < domains.txt`. Details in [`crawl.sh`](https://github.com/snarfed/indie-map/blob/master/crawl/crawl.sh) and [`wget.sh`](https://github.com/snarfed/indie-map/blob/master/crawl/wget.sh).
 
 
 Common Crawl
