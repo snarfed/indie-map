@@ -4,11 +4,11 @@
 import copy
 import gzip
 from io import StringIO
+import json
 import operator
 import os
 import unittest
 
-import simplejson as json
 import warcio
 
 import warc_to_bigquery
@@ -106,9 +106,8 @@ fetchTimeMs: 476\r
 
 EMPTY_MF2 = json.dumps({'items': [], 'rels': {}, 'rel-urls': {}})
 BIGQUERY_JSON = {
-  'domain': 'foo',
   'url': 'http://foo',
-  'time': '2014-08-20T06:36:13Z',
+  'fetch_time': '2014-08-20T06:36:13Z',
   'headers': sorted(JSON_HEADERS + [{
     'name': 'Content-Length',
     'value': str(len(HTML % ('', 'foo'))),
@@ -164,7 +163,6 @@ class WarcToBigQueryTest(unittest.TestCase):
                                            extra_headers={'XYZ': 'Baz'}))
     bar_json = copy.deepcopy(BIGQUERY_JSON)
     bar_json.update({
-      'domain': 'bar',
       'url': 'http://bar',
       'html': HTML % ('', 'bar'),
       'headers': bar_json['headers'] + [{'name': 'XYZ', 'value': 'Baz'}],
@@ -296,7 +294,8 @@ biff <a rel="c" class="w" href="" />
       f.write(WARC_FILE.encode('utf-8'))
 
     json_path = warc_path.replace('warc.gz', 'json.gz')
-    os.remove(json_path)
+    if os.path.exists(json_path):
+      os.remove(json_path)
     warc_to_bigquery.main([warc_path])
 
     with gzip.open(json_path) as f:
@@ -315,7 +314,8 @@ biff <a rel="c" class="w" href="" />
       f.write(response.encode('utf-8'))
 
     json_path = warc_path.replace('warc.gz', 'json.gz')
-    os.remove(json_path)
+    if os.path.exists(json_path):
+      os.remove(json_path)
     warc_to_bigquery.main([warc_path])
 
     with gzip.open(json_path) as f:

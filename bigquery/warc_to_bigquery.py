@@ -21,7 +21,6 @@ from urllib.parse import urlparse
 
 from bs4 import BeautifulSoup, UnicodeDammit
 import mf2py
-# import simplejson as json
 import warcio
 
 # known WordPress URL query params that redirect back to the current page or to
@@ -59,7 +58,7 @@ def main(warc_files):
         row = maybe_convert(record)
         if row:
           # BigQuery JSON format is oddly specific: one object per line.
-          json.dump(row, output, ensure_ascii=True)#encoding='utf-8')
+          json.dump(row, output, ensure_ascii=True)
           print(file=output)
 
     print(flush=True)
@@ -111,8 +110,7 @@ def maybe_convert(record):
 
   return {
     'url': url,
-    'domain': urlparse(url).netloc,
-    'time': record.rec_headers.get('WARC-Date'),
+    'fetch_time': record.rec_headers.get('WARC-Date'),
     'headers': [{'name': name, 'value': value}
                 for name, value in sorted(record.http_headers.headers)],
     'html': body,
