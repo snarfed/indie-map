@@ -12,6 +12,7 @@ https://cloud.google.com/bigquery/data-formats#json_format
 https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types
 https://cloud.google.com/bigquery/loading-data#loading_nested_and_repeated_json_data
 """
+import collections
 import gzip
 import json
 import os
@@ -38,28 +39,28 @@ URL_BLACKLIST_RE = re.compile(r"""
   """, re.VERBOSE)
   # /search?... TODO based on www.ogok
 
+Rows = collections.namedtuple('Rows', ('page', 'html'))
+
 
 def main(warc_files):
   for in_filename in warc_files:
     print(in_filename, end='', flush=True)
     assert in_filename.endswith('.warc.gz')
-    out_filename = in_filename[:-len('.warc.gz')] + '.json.gz'
-
-    # if os.path.exists(out_filename):
-    #   print(' ...skipping, %s already exists.' % out_filename)
-    #   continue
+    domain = in_filename[:-len('.warc.gz')]
 
     with gzip.open(in_filename, 'rb') as input, \
-         gzip.open(out_filename, 'wt', encoding='utf-8') as output:
+         gzip.open(domain + '.json.gz', 'wt', encoding='utf-8') as page_out, \
+         gzip.open(domain + '.html.json.gz', 'wt', encoding='utf-8') as html_out:
       for i, record in enumerate(warcio.ArchiveIterator(input)):
         if i and i % 100 == 0:
           print('.', end='', flush=True)
-          break
-        row = maybe_convert(record)
-        if row:
+        rows = maybe_convert(record)
+        if rows:
           # BigQuery JSON format is oddly specific: one object per line.
-          json.dump(row, output, ensure_ascii=True)
-          print(file=output)
+          json.dump(rows.page, page_out)
+          print(file=page_out)
+          json.dump(rows.html, html_out)
+          print(file=html_out)
 
     print(flush=True)
 
@@ -67,6 +68,14 @@ def main(warc_files):
 
 
 def maybe_convert(record):
+  """Converts a WARC record to JSON rows for the Page and Html tables.
+
+  Arg:
+    record: warcio.Record
+
+  Returns:
+    Rows namedtuple (with page and html attributes), or None
+  """
   if record.rec_type != 'response':
     return
 
@@ -108,12 +117,11 @@ def maybe_convert(record):
       return obj.get('type', []) + mf2_classes(items)
     raise RuntimeError('unexpected type: %r' % obj)
 
-  return {
+  return Rows(page={
     'url': url,
     'fetch_time': record.rec_headers.get('WARC-Date'),
     'headers': [{'name': name, 'value': value}
                 for name, value in sorted(record.http_headers.headers)],
-    'html': body,
     'links': links,
     'mf2': json.dumps(mf2),
     'mf2_classes': sorted(set(mf2_classes(mf2))),
@@ -121,8 +129,10 @@ def maybe_convert(record):
              mf2.get('rels', {}).items()],
     'u_urls': sum((item.get('properties', {}).get('url', [])
                    for item in (mf2.get('items', []))), []),
-  }
-
+  }, html={
+    'url': url,
+    'html': body,
+  })
 
 if __name__ == '__main__':
   main(sys.argv[1:])

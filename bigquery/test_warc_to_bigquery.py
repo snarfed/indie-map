@@ -105,19 +105,22 @@ fetchTimeMs: 476\r
 """
 
 EMPTY_MF2 = json.dumps({'items': [], 'rels': {}, 'rel-urls': {}})
-BIGQUERY_JSON = {
+PAGE_JSON = {
   'url': 'http://foo',
   'fetch_time': '2014-08-20T06:36:13Z',
   'headers': sorted(JSON_HEADERS + [{
     'name': 'Content-Length',
     'value': str(len(HTML % ('', 'foo'))),
   }], key=operator.itemgetter('name')),
-  'html': HTML % ('', 'foo'),
   'mf2': EMPTY_MF2,
   'mf2_classes': [],
   'links': [],
   'rels': [],
   'u_urls': [],
+}
+HTML_JSON = {
+  'url': 'http://foo',
+  'html': HTML % ('', 'foo'),
 }
 
 def warc_response(body, url, html_head='', extra_headers=None):
@@ -157,17 +160,18 @@ class WarcToBigQueryTest(unittest.TestCase):
 
   def test_maybe_convert(self):
     foo_record = warc_record(warc_response('foo', 'http://foo'))
-    self.assertEqual(BIGQUERY_JSON, maybe_convert(foo_record))
+    self.assertEqual((PAGE_JSON, HTML_JSON), maybe_convert(foo_record))
 
     bar_record = warc_record(warc_response('bar', 'http://bar',
                                            extra_headers={'XYZ': 'Baz'}))
-    bar_json = copy.deepcopy(BIGQUERY_JSON)
-    bar_json.update({
+    page_json = copy.deepcopy(PAGE_JSON)
+    page_json.update({
       'url': 'http://bar',
-      'html': HTML % ('', 'bar'),
-      'headers': bar_json['headers'] + [{'name': 'XYZ', 'value': 'Baz'}],
+      'headers': page_json['headers'] + [{'name': 'XYZ', 'value': 'Baz'}],
     })
-    self.assertEqual(bar_json, maybe_convert(bar_record))
+    html_json = copy.deepcopy(HTML_JSON)
+    html_json['html'] = HTML % ('', 'bar')
+    self.assertEqual(page_json, maybe_convert(bar_record).page)
 
   def test_links(self):
     record = warc_record(warc_response("""\
@@ -187,6 +191,7 @@ biff <a rel="c" class="w" href="" />
       'rels': ['d', 'e'],
       'classes': [],
     }, {
+
       'url': 'http://link/tag',
       'inner_html': '',
       'tag': 'link',
@@ -216,7 +221,7 @@ biff <a rel="c" class="w" href="" />
       'tag': 'a',
       'rels': [],
       'classes': ['u-repost-of', 'z'],
-    }], maybe_convert(record)['links'])
+    }], maybe_convert(record).page['links'])
 
   def test_microformats(self):
     for content, expected in (
@@ -232,7 +237,7 @@ biff <a rel="c" class="w" href="" />
         ('<div class="hentry"></div>', ['h-entry']),
     ):
       record = warc_record(warc_response(content, 'http://foo'))
-      actual = maybe_convert(record)['mf2_classes']
+      actual = maybe_convert(record).page['mf2_classes']
       with self.subTest(content=content):
         self.assertEqual(expected, actual)
 
@@ -249,7 +254,7 @@ biff <a rel="c" class="w" href="" />
           {'value': 'bar', 'urls': ['http://y']}]),
     ):
       record = warc_record(warc_response(content, 'http://foo'))
-      actual = maybe_convert(record)['rels']
+      actual = maybe_convert(record).page['rels']
       with self.subTest(content=content):
         self.assertEqual(expected, actual)
 
@@ -272,7 +277,7 @@ biff <a rel="c" class="w" href="" />
          ['http://baz']),
     ):
       record = warc_record(warc_response(content, 'http://foo'))
-      actual = maybe_convert(record)['u_urls']
+      actual = maybe_convert(record).page['u_urls']
       with self.subTest(content=content):
         self.assertEqual(expected, actual)
 
@@ -289,36 +294,44 @@ biff <a rel="c" class="w" href="" />
         warc_record(warc_response('', 'http://foo%s' % path))))
 
   def test_main(self):
-    warc_path = '/tmp/test_warc_to_bigquery.warc.gz'
-    with gzip.open(warc_path, 'wb') as f:
-      f.write(WARC_FILE.encode('utf-8'))
-
-    json_path = warc_path.replace('warc.gz', 'json.gz')
-    if os.path.exists(json_path):
-      os.remove(json_path)
-    warc_to_bigquery.main([warc_path])
-
-    with gzip.open(json_path) as f:
-      self.assertEqual(BIGQUERY_JSON, json.loads(f.read().decode('utf-8')))
+    page, html = self._run_main(WARC_FILE)
+    self.assertEqual(PAGE_JSON, page)
+    self.assertEqual(HTML_JSON, html)
 
   def test_utf8_url_and_html(self):
     url = 'http://site/☕/post'
     body = 'Charles ☕ Foo'
     response = warc_response(body, url) + '\r\n\r\n'
 
-    out = maybe_convert(warc_record(response))
-    self.assertIn(body, out['html'])
+    html = maybe_convert(warc_record(response)).html
+    self.assertIn(body, html['html'])
 
+    page, html = self._run_main(response)
+    self.assertEqual(url, page['url'])
+    self.assertEqual(url, html['url'])
+    self.assertIn(body, html['html'])
+
+  def _run_main(self, warc_file):
+    """ Runs main().
+
+    Args:
+      warc_file: string
+
+    Returns:
+      (pages JSON dict, html JSON dict) tuple
+    """
     warc_path = '/tmp/test_warc_to_bigquery.warc.gz'
     with gzip.open(warc_path, 'wb') as f:
-      f.write(response.encode('utf-8'))
+      f.write(warc_file.encode('utf-8'))
 
-    json_path = warc_path.replace('warc.gz', 'json.gz')
-    if os.path.exists(json_path):
-      os.remove(json_path)
+    pages_path = warc_path.replace('warc.gz', 'json.gz')
+    html_path = warc_path.replace('warc.gz', 'html.json.gz')
+    for path in pages_path, html_path:
+      if os.path.exists(path):
+        os.remove(path)
+
     warc_to_bigquery.main([warc_path])
 
-    with gzip.open(json_path) as f:
-      got = json.loads(f.read().decode('utf-8'))
-      self.assertEqual(url, got['url'])
-      self.assertIn(body, got['html'])
+    with gzip.open(pages_path) as pages_out, gzip.open(html_path) as html_out:
+      return (json.loads(pages_out.read().decode('utf-8')),
+              json.loads(html_out.read().decode('utf-8')))
