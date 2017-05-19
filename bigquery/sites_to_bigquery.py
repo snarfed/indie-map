@@ -66,16 +66,26 @@ def convert(domain):
             descriptions.update(props.get(prop, []))
 
     # head/meta
-    title = soup.title
     rels = mf2.get('rels', {})
     urls.update(rels.get('canonical', []))
+    title = soup.title
     if title:
         names.add(title.string)
     meta_descs = soup.find_all('meta', attrs={'name': 'description'})
-    descriptions.update(tag['content'] for tag in meta_descs if tag.get('content'))
+    descriptions.update(tag['content'] for tag in meta_descs)
     pictures.update(rels.get('icon', []))
 
     # OGP
+    og_url = soup.find('meta', property='og:url')
+    if og_url:
+        urls.add(og_url['content'])
+    og_desc = soup.find('meta', property='og:description')
+    if og_desc:
+        descriptions.add(og_desc['content'])
+    names.update(tag['content'] for tag in soup.find_all(
+        'meta', property=('og:title', 'og:site_name')))
+    pictures.update(tag['content'] for tag in soup.find_all(
+        'meta', property=('og:image', 'og:image:url', 'og:image:secure_url')))
 
     # Clearbit:
     # https://dashboard.clearbit.com/docs#enrichment-api
