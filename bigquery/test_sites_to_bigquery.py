@@ -31,6 +31,10 @@ HTML = """\
   <meta property="og:image" content="http://foo.com/ogp.jpg" />
   <meta property="og:image:url" content="http://foo.com/ogp2.jpg" />
   <meta property="og:image:secure_url" content="https://foo.com/ogp.jpg" />
+  <meta name="twitter:title" content="Twitter title" />
+  <meta name="twitter:description" content="Twitter description" />
+  <meta name="twitter:url" content="http://foo.com/twitter" />
+  <meta name="twitter:image" content="http://foo.com/twitter.jpg" />
   <link rel="shortcut icon" href="icon.jpg" />
   <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
   <link rel="canonical" href="http://foo.com/canonical" />
@@ -66,17 +70,20 @@ class SitesToBigQueryTest(unittest.TestCase):
                 'http://foo.com/',
                 'http://foo.com/canonical',
                 'http://foo.com/ogp',
+                'http://foo.com/twitter',
             ],
             'names': [
                 'My Name',
                 'A Title',
                 'OGP title',
                 'OGP site name',
+                'Twitter title',
             ],
             'descriptions': [
                 'About me',
                 'A meta description',
                 'An OGP description',
+                'Twitter description',
             ],
             'pictures': [
                 'http://foo.com/hcard.jpg',
@@ -84,6 +91,7 @@ class SitesToBigQueryTest(unittest.TestCase):
                 'http://foo.com/ogp.jpg',
                 'http://foo.com/ogp2.jpg',
                 'https://foo.com/ogp.jpg',
+                'http://foo.com/twitter.jpg',
             ],
             'hcard': json.dumps({
                 'type': ['h-card'],

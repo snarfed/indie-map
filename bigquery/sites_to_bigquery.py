@@ -15,19 +15,25 @@ import re
 import sys
 from urllib.parse import urlparse
 
-from bs4 import BeautifulSoup
+import bs4
 import mf2py
 import mf2util
 import requests
 
 
-class OrderedSet(collections.OrderedDict):
+class FieldSet(collections.OrderedDict):
     def add(self, item):
-        self[item] = None
+        if item:
+            if isinstance(item, bs4.element.Tag):
+                item = item.string
+            self[item] = None
 
     def update(self, iter):
         for item in iter:
             self.add(item)
+
+    def add_metas(self, soup, **kwargs):
+        self.update(tag['content'] for tag in soup.find_all('meta', **kwargs))
 
 
 def main():
@@ -42,18 +48,18 @@ def main():
 def convert(domain):
     resp = requests.get('http://' + domain)
     fetch_time = datetime.datetime.now()
-    soup = BeautifulSoup(resp.text, 'lxml')
+    soup = bs4.BeautifulSoup(resp.text, 'lxml')
 
     # extract these from:
     # * mf2 representative h-card
     # * HTML head and meta tags
-    # * Open Graph tags, http://ogp.me/
-    # * Clearbit's Enrichment and Logo APIs, by hand
-    #   https://dashboard.clearbit.com/docs
-    urls = OrderedSet()
-    names = OrderedSet()
-    descriptions = OrderedSet()
-    pictures = OrderedSet()
+    # * Open Graph tags
+    # * Twitter card tags
+    # * Clearbit's Enrichment and Logo APIs
+    urls = FieldSet()
+    names = FieldSet()
+    descriptions = FieldSet()
+    pictures = FieldSet()
 
     mf2 = mf2py.parse(url=resp.url, doc=soup)
     hcard = mf2util.representative_hcard(mf2, resp.url)
@@ -65,27 +71,25 @@ def convert(domain):
         for prop in 'note', 'label', 'description':
             descriptions.update(props.get(prop, []))
 
-    # head/meta
+    # HTML head/meta tags
     rels = mf2.get('rels', {})
     urls.update(rels.get('canonical', []))
-    title = soup.title
-    if title:
-        names.add(title.string)
-    meta_descs = soup.find_all('meta', attrs={'name': 'description'})
-    descriptions.update(tag['content'] for tag in meta_descs)
+    names.add(soup.title)
+    descriptions.add_metas(soup, attrs={'name': 'description'})
     pictures.update(rels.get('icon', []))
 
-    # OGP
-    og_url = soup.find('meta', property='og:url')
-    if og_url:
-        urls.add(og_url['content'])
-    og_desc = soup.find('meta', property='og:description')
-    if og_desc:
-        descriptions.add(og_desc['content'])
-    names.update(tag['content'] for tag in soup.find_all(
-        'meta', property=('og:title', 'og:site_name')))
-    pictures.update(tag['content'] for tag in soup.find_all(
-        'meta', property=('og:image', 'og:image:url', 'og:image:secure_url')))
+    # Open Graph tags, http://ogp.me/
+    urls.add_metas(soup, property='og:url')
+    descriptions.add_metas(soup, property='og:description')
+    names.add_metas(soup, property=('og:title', 'og:site_name'))
+    pictures.add_metas(
+        soup, property=('og:image', 'og:image:url', 'og:image:secure_url'))
+
+    # Twitter card tags, https://dev.twitter.com/cards/overview
+    urls.add_metas(soup, attrs={'name': 'twitter:url'})
+    names.add_metas(soup, attrs={'name': 'twitter:title'})
+    descriptions.add_metas(soup, attrs={'name': 'twitter:description'})
+    pictures.add_metas(soup, attrs={'name': 'twitter:image'})
 
     # Clearbit:
     # https://dashboard.clearbit.com/docs#enrichment-api
