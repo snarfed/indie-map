@@ -32,12 +32,12 @@ URL_BLACKLIST_RE = re.compile(r"""
     like_comment= |
     replytocom= |
     redirect_to= ) |
-  ^https://waterpigs\.co\.uk/mentions/webmention/\?wmtoken= |
   /index\.php\?title= |
+  ^https?://chat\.indieweb\.org/([^/]+/)?....-..-../[0-9]+ |
   ^https?://indieweb\.org/irc/([^/]+/)?....-..-../line/[0-9]+ |
-  ^https?://chat\.indieweb\.org/([^/]+/)?....-..-../[0-9]+
+  ^https://waterpigs\.co\.uk/mentions/webmention/\?wmtoken= |
+  ^http://www.ogok.de/search\?
   """, re.VERBOSE)
-  # /search?... TODO based on www.ogok
 
 Rows = collections.namedtuple('Rows', ('page', 'html'))
 
