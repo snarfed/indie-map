@@ -46,7 +46,7 @@ HTML = """\
   </article>
   <div class="h-card">
     <a href="/" class="p-name">My Name</a>
-    <p class="p-note">About me</p>
+    <p class="e-note">About <br />me   </p>
     <img class="u-photo" src="http://foo.com/hcard.jpg" />
   </div>
 </body>
@@ -55,6 +55,7 @@ HTML = """\
 RESPONSE = requests.Response()
 RESPONSE._content = HTML.encode('utf-8')
 RESPONSE.url = 'http://foo.com/'
+RESPONSE.status_code = 200
 
 
 class SitesToBigQueryTest(unittest.TestCase):
@@ -63,7 +64,7 @@ class SitesToBigQueryTest(unittest.TestCase):
 
     @patch.object(requests, 'get', return_value=RESPONSE)
     def test_complete(self, mock_get):
-        actual = sites_to_bigquery.convert('orig.com')
+        actual = sites_to_bigquery.generate('orig.com')
         self.assertEqual({
             'domain': 'orig.com',
             'urls': [
@@ -98,7 +99,7 @@ class SitesToBigQueryTest(unittest.TestCase):
                 'properties': {
                     'name': ['My Name'],
                     'url': ['http://foo.com/'],
-                    'note': ['About me'],
+                    'note': [{'html': 'About me', 'value': 'About me'}],
                     'photo': ['http://foo.com/hcard.jpg'],
                 },
             }, sort_keys=True),

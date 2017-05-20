@@ -37,16 +37,28 @@ class FieldSet(collections.OrderedDict):
 
 
 def main():
-    with open('sites.json') as out:
-        for line in sys.stdin:
-            domain = line.strip()
-            print(domain, flush=True)
-            json.dump(generate(domain), ensure_ascii=False)
-            print(file=out)
+    for line in sys.stdin:
+        domain = line.strip()
+        print(domain, file=sys.stderr)
+        out = generate(domain)
+        if out:
+            json.dump(out, sys.stdout, ensure_ascii=False, indent=2)
 
 
-def convert(domain):
-    resp = requests.get('http://' + domain)
+def get_texts(obj, property):
+    """Returns plain text string values from a property of an mf2 object."""
+    return [(val.get('value') if isinstance(val, dict) else val).strip()
+            for val in obj.get('properties', {}).get(property, [])]
+
+
+def generate(domain):
+    try:
+        resp = requests.get('http://' + domain)
+        resp.raise_for_status()
+    except Exception as e:
+        print(str(e), file=sys.stderr)
+        return
+
     fetch_time = datetime.datetime.now()
     soup = bs4.BeautifulSoup(resp.text, 'lxml')
 
@@ -64,12 +76,11 @@ def convert(domain):
     mf2 = mf2py.parse(url=resp.url, doc=soup)
     hcard = mf2util.representative_hcard(mf2, resp.url)
     if hcard:
-        props = hcard.get('properties', {})
-        names.update(props.get('name', []))
-        urls.update(props.get('url', []))
-        pictures.update(props.get('photo', []))
+        names.update(get_texts(hcard, 'name'))
+        urls.update(get_texts(hcard, 'url'))
+        pictures.update(get_texts(hcard, 'photo'))
         for prop in 'note', 'label', 'description':
-            descriptions.update(props.get(prop, []))
+            descriptions.update(get_texts(hcard, prop))
 
     # HTML head/meta tags
     rels = mf2.get('rels', {})
@@ -104,15 +115,15 @@ def convert(domain):
 
     return {
         'domain': domain,
+        'fetch_time': fetch_time.isoformat('T'),
         'urls': list(urls),
         'names': list(names),
         'descriptions': list(descriptions),
         'pictures': list(pictures),
         'hcard': json.dumps(hcard, sort_keys=True),
-        'mf2': json.dumps(mf2, sort_keys=True),
         'rel_mes': rels.get('me', []),
+        'mf2': json.dumps(mf2, sort_keys=True),
         'html': resp.text,
-        'fetch_time': fetch_time.isoformat('T'),
     }
 
 
