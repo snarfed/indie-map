@@ -99,7 +99,10 @@ class SitesToBigQueryTest(unittest.TestCase):
                 'properties': {
                     'name': ['My Name'],
                     'url': ['http://foo.com/'],
-                    'note': [{'html': 'About me', 'value': 'About me'}],
+                    'note': [{
+                        'html': 'About <br/>me   ',
+                        'value': 'About me   ',
+                    }],
                     'photo': ['http://foo.com/hcard.jpg'],
                 },
             }, sort_keys=True),

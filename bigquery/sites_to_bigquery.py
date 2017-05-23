@@ -23,9 +23,9 @@ import requests
 
 class FieldSet(collections.OrderedDict):
     def add(self, item):
+        if isinstance(item, bs4.element.Tag):
+            item = item.string
         if item:
-            if isinstance(item, bs4.element.Tag):
-                item = item.string
             self[item] = None
 
     def update(self, iter):
@@ -33,16 +33,20 @@ class FieldSet(collections.OrderedDict):
             self.add(item)
 
     def add_metas(self, soup, **kwargs):
-        self.update(tag['content'] for tag in soup.find_all('meta', **kwargs))
+        self.update(tag['content'] for tag in soup.find_all('meta', **kwargs)
+                    if tag.get('content'))
 
 
 def main():
     for line in sys.stdin:
         domain = line.strip()
+        if not domain:
+            continue
         print(domain, file=sys.stderr)
         out = generate(domain)
         if out:
-            json.dump(out, sys.stdout, ensure_ascii=False, indent=2)
+            json.dump(out, sys.stdout, ensure_ascii=False)
+            print(file=sys.stdout)
 
 
 def get_texts(obj, property):
@@ -53,7 +57,7 @@ def get_texts(obj, property):
 
 def generate(domain):
     try:
-        resp = requests.get('http://' + domain)
+        resp = requests.get('http://' + domain, timeout=60, verify=False)
         resp.raise_for_status()
     except Exception as e:
         print(str(e), file=sys.stderr)
