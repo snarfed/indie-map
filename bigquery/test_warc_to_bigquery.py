@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 """Unit tests for warc_to_bigquery.py.
-
-TODO:
-* fix u_urls bug, re-upload sebastiangreger.net.json
-* filter URL, domain blacklist out of warcs
-* upload more snippets!
 """
 import copy
 import gzip
@@ -291,6 +286,38 @@ biff <a rel="c" class="w" href="" />
     ):
       self.assertIsNone(maybe_convert(
         warc_record(warc_response('', 'http://foo%s' % path)), 'foo'))
+
+  def test_composite_u_url(self):
+    """u-url and h-entry on the same tag results in a composite url property.
+
+    Make sure we handle that and extract out the string url inside.
+
+    Parsed mf2:
+
+    {"items": [{
+      "type": ["h-feed"],
+      "properties": {
+        "url": [{
+            "type": ["h-entry"],
+            "properties": {
+              "summary": ["Two fresh data sets"],
+              "name": ["Two fresh data sets"],
+              "url": ["../X1Ya.html"]
+            },
+            "value": "../X1Ya.html"
+          }
+        ],
+        ...
+    }}]}
+    """
+    record = warc_record(warc_response("""\
+<div class="h-feed">
+  <a class="h-entry u-url" href="../X1Ya.html">
+    <p class="p-summary">Two fresh data sets</p>
+  </a>
+</div>
+""", 'http://foo'))
+    self.assertEqual(['http://foo/X1Ya.html'], maybe_convert(record, 'foo')['u_urls'])
 
   def test_other_domains(self):
     """We keep subdomains, but discard other domains."""

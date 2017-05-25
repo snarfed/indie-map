@@ -11,6 +11,11 @@ BigQuery JSON format:
 https://cloud.google.com/bigquery/data-formats#json_format
 https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types
 https://cloud.google.com/bigquery/loading-data#loading_nested_and_repeated_json_data
+
+TODO:
+* fix u_urls bug, re-upload sebastiangreger.net.json
+* filter URL, domain blacklist out of warcs
+* upload more snippets!
 """
 import gzip
 import json
@@ -67,6 +72,35 @@ def main(warc_files):
     print(flush=True)
 
   print('Done.')
+
+
+def get_urls(objs):
+  """Extracts string URLs from a list of either string URLs or mf2 dicts.
+
+  Many mf2 properties can contain either string URLs or full mf2 objects, e.g.
+  h-cites. in-reply-to is the most commonly used example:
+  http://indiewebcamp.com/in-reply-to#How_to_consume_in-reply-to
+
+  Stolen from granary/microformats2.py.
+
+  Args:
+    objs: sequence of either string URLs or embedded mf2 objects
+
+  Returns:
+    list of string URLs
+  """
+  urls = []
+
+  for item in objs:
+    if isinstance(item, str):
+      urls.append(item)
+    else:
+      itemtype = [x for x in item.get('type', []) if x.startswith('h-')]
+      if itemtype:
+        item = item.get('properties') or item
+        urls.extend(get_urls(item.get('url', [])))
+
+  return urls
 
 
 def maybe_convert(record, domain):
@@ -132,8 +166,7 @@ def maybe_convert(record, domain):
     'links': links,
     'rels': [{'value': val, 'urls': urls} for val, urls in
              mf2.get('rels', {}).items()],
-    'u_urls': sum((item.get('properties', {}).get('url', [])
-                   for item in (mf2.get('items', []))), []),
+    'u_urls': get_urls(mf2.get('items', [])),
     'mf2_classes': sorted(set(mf2_classes(mf2))),
     'mf2': json.dumps(mf2),
     'headers': [{'name': name, 'value': value}
