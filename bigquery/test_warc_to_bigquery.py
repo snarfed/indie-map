@@ -106,6 +106,7 @@ fetchTimeMs: 476\r
 
 EMPTY_MF2 = json.dumps({'items': [], 'rels': {}, 'rel-urls': {}})
 BIGQUERY_JSON = {
+  'domain': 'foo',
   'url': 'http://foo',
   'fetch_time': '2014-08-20T06:36:13Z',
   'headers': sorted(JSON_HEADERS + [{

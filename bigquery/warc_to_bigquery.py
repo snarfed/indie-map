@@ -109,18 +109,19 @@ def maybe_convert(record):
     raise RuntimeError('unexpected type: %r' % obj)
 
   return {
+    'domain': urlparse(url).netloc,
     'url': url,
     'fetch_time': record.rec_headers.get('WARC-Date'),
-    'headers': [{'name': name, 'value': value}
-                for name, value in sorted(record.http_headers.headers)],
-    'html': body,
     'links': links,
-    'mf2': json.dumps(mf2),
-    'mf2_classes': sorted(set(mf2_classes(mf2))),
     'rels': [{'value': val, 'urls': urls} for val, urls in
              mf2.get('rels', {}).items()],
     'u_urls': sum((item.get('properties', {}).get('url', [])
                    for item in (mf2.get('items', []))), []),
+    'mf2_classes': sorted(set(mf2_classes(mf2))),
+    'mf2': json.dumps(mf2),
+    'headers': [{'name': name, 'value': value}
+                for name, value in sorted(record.http_headers.headers)],
+    'html': body,
   }
 
 
