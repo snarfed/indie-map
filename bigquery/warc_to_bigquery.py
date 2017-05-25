@@ -43,7 +43,8 @@ def main(warc_files):
   for in_filename in warc_files:
     print(in_filename, end='', flush=True)
     assert in_filename.endswith('.warc.gz')
-    out_filename = in_filename[:-len('.warc.gz')] + '.json.gz'
+    domain = in_filename[:-len('.warc.gz')]
+    out_filename = domain + '.json.gz'
 
     # if os.path.exists(out_filename):
     #   print(' ...skipping, %s already exists.' % out_filename)
@@ -54,8 +55,9 @@ def main(warc_files):
       for i, record in enumerate(warcio.ArchiveIterator(input)):
         if i and i % 100 == 0:
           print('.', end='', flush=True)
-          break
-        row = maybe_convert(record)
+          if i % 1000 == 0:
+            break
+        row = maybe_convert(record, domain)
         if row:
           # BigQuery JSON format is oddly specific: one object per line.
           json.dump(row, output, ensure_ascii=True)
@@ -66,7 +68,16 @@ def main(warc_files):
   print('Done.')
 
 
-def maybe_convert(record):
+def maybe_convert(record, domain):
+  """Converts a WARC record to JSON rows for the Page and Html tables.
+
+  Arg:
+    record: warcio.Record
+    domain: string
+
+  Returns:
+    dict, JSON Page record, or None
+  """
   if record.rec_type != 'response':
     return
 
@@ -76,6 +87,11 @@ def maybe_convert(record):
 
   url = record.rec_headers.get('WARC-Target-URI')
   if URL_BLACKLIST_RE.search(url):
+    return
+
+  assert domain
+  url_domain = urlparse(url).netloc.split(':')[0]
+  if url_domain != domain and not url_domain.endswith('.' + domain):
     return
 
   # TODO: charset from HTTP header Content-Type
@@ -109,7 +125,7 @@ def maybe_convert(record):
     raise RuntimeError('unexpected type: %r' % obj)
 
   return {
-    'domain': urlparse(url).netloc,
+    'domain': url_domain,
     'url': url,
     'fetch_time': record.rec_headers.get('WARC-Date'),
     'links': links,

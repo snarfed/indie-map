@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 """Unit tests for warc_to_bigquery.py.
+
+TODO:
+* fix u_urls bug, re-upload sebastiangreger.net.json
+* filter URL, domain blacklist out of warcs
+* upload more snippets!
 """
 import copy
 import gzip
@@ -152,23 +157,24 @@ class WarcToBigQueryTest(unittest.TestCase):
   maxDiff = None
 
   def test_maybe_convert_not_response(self):
-    self.assertIsNone(maybe_convert(WARC_HEADER_RECORD))
-    self.assertIsNone(maybe_convert(WARC_METADATA_RECORD))
-    self.assertIsNone(maybe_convert(WARC_REQUEST_RECORD))
+    self.assertIsNone(maybe_convert(WARC_HEADER_RECORD, 'foo'))
+    self.assertIsNone(maybe_convert(WARC_METADATA_RECORD, 'foo'))
+    self.assertIsNone(maybe_convert(WARC_REQUEST_RECORD, 'foo'))
 
   def test_maybe_convert(self):
     foo_record = warc_record(warc_response('foo', 'http://foo'))
-    self.assertEqual(BIGQUERY_JSON, maybe_convert(foo_record))
+    self.assertEqual(BIGQUERY_JSON, maybe_convert(foo_record, 'foo'))
 
     bar_record = warc_record(warc_response('bar', 'http://bar',
                                            extra_headers={'XYZ': 'Baz'}))
     bar_json = copy.deepcopy(BIGQUERY_JSON)
     bar_json.update({
+      'domain': 'bar',
       'url': 'http://bar',
       'html': HTML % ('', 'bar'),
       'headers': bar_json['headers'] + [{'name': 'XYZ', 'value': 'Baz'}],
     })
-    self.assertEqual(bar_json, maybe_convert(bar_record))
+    self.assertEqual(bar_json, maybe_convert(bar_record, 'bar'))
 
   def test_links(self):
     record = warc_record(warc_response("""\
@@ -217,7 +223,7 @@ biff <a rel="c" class="w" href="" />
       'tag': 'a',
       'rels': [],
       'classes': ['u-repost-of', 'z'],
-    }], maybe_convert(record)['links'])
+    }], maybe_convert(record, 'foo')['links'])
 
   def test_microformats(self):
     for content, expected in (
@@ -233,7 +239,7 @@ biff <a rel="c" class="w" href="" />
         ('<div class="hentry"></div>', ['h-entry']),
     ):
       record = warc_record(warc_response(content, 'http://foo'))
-      actual = maybe_convert(record)['mf2_classes']
+      actual = maybe_convert(record, 'foo')['mf2_classes']
       with self.subTest(content=content):
         self.assertEqual(expected, actual)
 
@@ -250,7 +256,7 @@ biff <a rel="c" class="w" href="" />
           {'value': 'bar', 'urls': ['http://y']}]),
     ):
       record = warc_record(warc_response(content, 'http://foo'))
-      actual = maybe_convert(record)['rels']
+      actual = maybe_convert(record, 'foo')['rels']
       with self.subTest(content=content):
         self.assertEqual(expected, actual)
 
@@ -273,7 +279,7 @@ biff <a rel="c" class="w" href="" />
          ['http://baz']),
     ):
       record = warc_record(warc_response(content, 'http://foo'))
-      actual = maybe_convert(record)['u_urls']
+      actual = maybe_convert(record, 'foo')['u_urls']
       with self.subTest(content=content):
         self.assertEqual(expected, actual)
 
@@ -289,6 +295,16 @@ biff <a rel="c" class="w" href="" />
       self.assertIsNone(maybe_convert(
         warc_record(warc_response('', 'http://foo%s' % path))))
 
+  def test_other_domains(self):
+    """We keep subdomains, but discard other domains."""
+    for url in 'http://foo.com/1', 'http://sub.foo.com/2', 'http://foo.com:80/3':
+      with self.subTest(url=url):
+        self.assertIsNotNone(maybe_convert(
+          warc_record(warc_response('X', url)), 'foo.com'))
+
+    self.assertIsNone(maybe_convert(
+      warc_record(warc_response('3', 'http://bar.com/3')), 'foo.com'))
+
   def test_main(self):
     warc_path = '/tmp/test_warc_to_bigquery.warc.gz'
     with gzip.open(warc_path, 'wb') as f:
@@ -303,11 +319,11 @@ biff <a rel="c" class="w" href="" />
       self.assertEqual(BIGQUERY_JSON, json.loads(f.read().decode('utf-8')))
 
   def test_utf8_url_and_html(self):
-    url = 'http://site/☕/post'
+    url = 'http://foo/☕/post'
     body = 'Charles ☕ Foo'
     response = warc_response(body, url) + '\r\n\r\n'
 
-    out = maybe_convert(warc_record(response))
+    out = maybe_convert(warc_record(response), 'foo')
     self.assertIn(body, out['html'])
 
     warc_path = '/tmp/test_warc_to_bigquery.warc.gz'
