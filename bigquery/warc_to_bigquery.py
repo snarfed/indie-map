@@ -43,8 +43,9 @@ def main(warc_files):
   for in_filename in warc_files:
     print(in_filename, end='', flush=True)
     assert in_filename.endswith('.warc.gz')
-    domain = in_filename[:-len('.warc.gz')]
-    out_filename = domain + '.json.gz'
+    path_prefix = in_filename[:-len('.warc.gz')]
+    out_filename = path_prefix + '.json.gz'
+    domain = os.path.basename(path_prefix)
 
     # if os.path.exists(out_filename):
     #   print(' ...skipping, %s already exists.' % out_filename)

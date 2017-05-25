@@ -149,9 +149,6 @@ WARC_HEADER_RECORD = warc_record(WARC_HEADER)
 WARC_METADATA_RECORD = warc_record(WARC_METADATA)
 WARC_REQUEST_RECORD = warc_record(WARC_REQUEST)
 
-WARC_FILE = '\r\n\r\n'.join(
-  [WARC_HEADER, WARC_REQUEST, warc_response('foo', 'http://foo'), WARC_METADATA, ''])
-
 
 class WarcToBigQueryTest(unittest.TestCase):
   maxDiff = None
@@ -293,7 +290,7 @@ biff <a rel="c" class="w" href="" />
         '/wp-login.php?redirect_to=qwert',
     ):
       self.assertIsNone(maybe_convert(
-        warc_record(warc_response('', 'http://foo%s' % path))))
+        warc_record(warc_response('', 'http://foo%s' % path)), 'foo'))
 
   def test_other_domains(self):
     """We keep subdomains, but discard other domains."""
@@ -306,17 +303,9 @@ biff <a rel="c" class="w" href="" />
       warc_record(warc_response('3', 'http://bar.com/3')), 'foo.com'))
 
   def test_main(self):
-    warc_path = '/tmp/test_warc_to_bigquery.warc.gz'
-    with gzip.open(warc_path, 'wb') as f:
-      f.write(WARC_FILE.encode('utf-8'))
-
-    json_path = warc_path.replace('warc.gz', 'json.gz')
-    if os.path.exists(json_path):
-      os.remove(json_path)
-    warc_to_bigquery.main([warc_path])
-
-    with gzip.open(json_path) as f:
-      self.assertEqual(BIGQUERY_JSON, json.loads(f.read().decode('utf-8')))
+    got = self._run_main((WARC_HEADER, WARC_REQUEST,
+                          warc_response('foo', 'http://foo'), WARC_METADATA, ''))
+    self.assertEqual(BIGQUERY_JSON, got)
 
   def test_utf8_url_and_html(self):
     url = 'http://foo/☕/post'
@@ -326,9 +315,16 @@ biff <a rel="c" class="w" href="" />
     out = maybe_convert(warc_record(response), 'foo')
     self.assertIn(body, out['html'])
 
-    warc_path = '/tmp/test_warc_to_bigquery.warc.gz'
+    got = self._run_main((response,))
+    self.assertEqual(url, got['url'])
+    self.assertIn(body, got['html'])
+
+  def _run_main(self, warc_records):
+    """Writes records to a file, runs main(), reads and returns JSON output."""
+    warc_path = '/tmp/test_warc_to_bigquery/foo.warc.gz'
+    os.makedirs(os.path.dirname(warc_path), exist_ok=True)
     with gzip.open(warc_path, 'wb') as f:
-      f.write(response.encode('utf-8'))
+      f.write('\r\n\r\n'.join(warc_records).encode('utf-8'))
 
     json_path = warc_path.replace('warc.gz', 'json.gz')
     if os.path.exists(json_path):
@@ -336,6 +332,4 @@ biff <a rel="c" class="w" href="" />
     warc_to_bigquery.main([warc_path])
 
     with gzip.open(json_path) as f:
-      got = json.loads(f.read().decode('utf-8'))
-      self.assertEqual(url, got['url'])
-      self.assertIn(body, got['html'])
+      return json.loads(f.read().decode('utf-8'))
