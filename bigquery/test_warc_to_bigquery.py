@@ -48,7 +48,7 @@ Content-Length: 317\r
 Content-Type: application/http; msgtype=request\r
 WARC-Warcinfo-ID: <urn:uuid:ac993447-4652-47a0-be86-c14c7dc60e5e>\r
 WARC-IP-Address: 85.214.72.216\r
-WARC-Target-URI: http://0pointer.de/photos/?gallery=Chorin%202010-10&photo=119&exif_style=&show_thumbs=\r
+WARC-Target-URI: <http://0pointer.de/photos/?gallery=Chorin%202010-10&photo=119&exif_style=&show_thumbs=>\r
 \r
 GET /photos/?gallery=Chorin%202010-10&photo=119&exif_style=&show_thumbs= HTTP/1.0\r
 Host: 0pointer.de\r

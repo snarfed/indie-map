@@ -13,14 +13,11 @@ https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types
 https://cloud.google.com/bigquery/loading-data#loading_nested_and_repeated_json_data
 
 TODO:
-* fix u_urls bug, re-upload sebastiangreger.net.json
-* filter URL, domain blacklist out of warcs
 * upload more snippets!
 """
 import gzip
 import json
 import os
-import re
 import sys
 from urllib.parse import urlparse
 
@@ -28,20 +25,7 @@ from bs4 import BeautifulSoup, UnicodeDammit
 import mf2py
 import warcio
 
-# known WordPress URL query params that redirect back to the current page or to
-# silos, from e.g. the ShareDaddy plugin.
-URL_BLACKLIST_RE = re.compile(r"""
-  [?&]
-    (shared?=(email|facebook|google-plus-1|linkedin|pinterest|pocket|reddit|skype|telegram|tumblr|twitter|youtube) |
-    like_comment= |
-    replytocom= |
-    redirect_to= ) |
-  /index\.php\?title= |
-  ^https?://chat\.indieweb\.org/([^/]+/)?....-..-../[0-9]+ |
-  ^https?://indieweb\.org/irc/([^/]+/)?....-..-../line/[0-9]+ |
-  ^https://waterpigs\.co\.uk/mentions/webmention/\?wmtoken= |
-  ^http://www.ogok.de/search\?
-  """, re.VERBOSE)
+import blacklist
 
 
 def main(warc_files):
@@ -121,7 +105,7 @@ def maybe_convert(record, domain):
     return
 
   url = record.rec_headers.get('WARC-Target-URI')
-  if URL_BLACKLIST_RE.search(url):
+  if blacklist.URL_BLACKLIST_RE.search(url):
     return
 
   assert domain
