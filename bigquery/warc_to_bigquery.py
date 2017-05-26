@@ -36,22 +36,27 @@ def main(warc_files):
     out_filename = path_prefix + '.json.gz'
     domain = os.path.basename(path_prefix)
 
-    # if os.path.exists(out_filename):
-    #   print(' ...skipping, %s already exists.' % out_filename)
-    #   continue
+    if os.path.exists(out_filename):
+      print(' ...skipping, %s already exists.' % out_filename)
+      continue
 
     with gzip.open(in_filename, 'rb') as input, \
          gzip.open(out_filename, 'wt', encoding='utf-8') as output:
       for i, record in enumerate(warcio.ArchiveIterator(input)):
         if i and i % 100 == 0:
           print('.', end='', flush=True)
-          if i % 1000 == 0:
-            break
-        row = maybe_convert(record, domain)
-        if row:
-          # BigQuery JSON format is oddly specific: one object per line.
-          json.dump(row, output, ensure_ascii=True)
-          print(file=output)
+          # if i % 1000 == 0:
+          #   break
+        try:
+          row = maybe_convert(record, domain)
+          if row:
+            # BigQuery JSON format is oddly specific: one object per line.
+            json.dump(row, output, ensure_ascii=True)
+            print(file=output)
+        except:
+          print('Failed on %s record %s (0-indexed)' % (in_filename, i),
+                file=sys.stderr)
+          raise
 
     print(flush=True)
 
@@ -160,4 +165,5 @@ def maybe_convert(record, domain):
 
 
 if __name__ == '__main__':
+  
   main(sys.argv[1:])

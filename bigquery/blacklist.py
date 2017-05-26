@@ -10,6 +10,7 @@ URL_BLACKLIST_RE = re.compile(r"""
     replytocom= |
     redirect_to= ) |
   /index\.php\?title= |
+  ^https?://adactio.com/extras/talklikeapirate/translate.php\? |
   ^https?://chat\.indieweb\.org/([^/]+/)?....-..-../[0-9]+ |
   ^https?://indieweb\.org/irc/([^/]+/)?....-..-../line/[0-9]+ |
   ^https://waterpigs\.co\.uk/mentions/webmention/\?wmtoken= |

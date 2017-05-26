@@ -25,5 +25,5 @@ for path in sys.argv[1:]:
                 if blacklist.URL_BLACKLIST_RE.search(url):
                     continue
             writer.write_record(record)
-            if i and i % 1000 == 0:
-                break
+            # if i and i % 1000 == 0:
+            #     break
