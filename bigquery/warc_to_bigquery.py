@@ -138,7 +138,11 @@ def maybe_convert(record, domain):
   } for link in soup.find_all('link') + soup.find_all('a')
     if link.get('href')]
 
-  mf2 = mf2py.parse(url=url, doc=soup)
+  try:
+    mf2 = mf2py.parse(url=url, doc=soup)
+  except Exception as e:
+    print('mf2py.parse with lxml failed on %s; switching to html5lib: %s' % (url, e))
+    mf2 = mf2py.parse(url=url, doc=BeautifulSoup(body, 'html5lib'))
 
   def mf2_classes(obj):
     if isinstance(obj, (list, tuple)):
@@ -165,5 +169,4 @@ def maybe_convert(record, domain):
 
 
 if __name__ == '__main__':
-  
   main(sys.argv[1:])

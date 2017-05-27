@@ -9,6 +9,7 @@ import operator
 import os
 import unittest
 
+import mf2py
 import warcio
 
 import warc_to_bigquery
@@ -328,6 +329,23 @@ biff <a rel="c" class="w" href="" />
 
     self.assertIsNone(maybe_convert(
       warc_record(warc_response('3', 'http://bar.com/3')), 'foo.com'))
+
+  def test_other_domains(self):
+    """We keep subdomains, but discard other domains."""
+    for url in 'http://foo.com/1', 'http://sub.foo.com/2', 'http://foo.com:80/3':
+      with self.subTest(url=url):
+        self.assertIsNotNone(maybe_convert(
+          warc_record(warc_response('X', url)), 'foo.com'))
+
+    self.assertIsNone(maybe_convert(
+      warc_record(warc_response('3', 'http://bar.com/3')), 'foo.com'))
+
+  @unittest.mock.patch.object(mf2py, 'parse',
+                              side_effect=(RecursionError(), {'x': 'y'}))
+  def test_mf2py_lxml_crash(self, _):
+    """https://github.com/tommorris/mf2py/issues/78"""
+    got = maybe_convert(warc_record(warc_response('X', 'http://foo')), 'foo')
+    self.assertEqual('{"x": "y"}', got['mf2'])
 
   def test_main(self):
     got = self._run_main((WARC_HEADER, WARC_REQUEST,
