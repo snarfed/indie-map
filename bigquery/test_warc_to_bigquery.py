@@ -342,10 +342,18 @@ biff <a rel="c" class="w" href="" />
 
   @unittest.mock.patch.object(mf2py, 'parse',
                               side_effect=(RecursionError(), {'x': 'y'}))
-  def test_mf2py_lxml_crash(self, _):
+  def test_mf2py_crash_lxml(self, _):
     """https://github.com/tommorris/mf2py/issues/78"""
     got = maybe_convert(warc_record(warc_response('X', 'http://foo')), 'foo')
     self.assertEqual('{"x": "y"}', got['mf2'])
+
+  @unittest.mock.patch.object(mf2py, 'parse', side_effect=RecursionError())
+  def test_mf2py_crash_lxml_and_html5lib(self, _):
+    """https://github.com/tommorris/mf2py/issues/78"""
+    got = maybe_convert(warc_record(warc_response('X', 'http://foo')), 'foo')
+    self.assertEqual({}, got['mf2'])
+    for key in 'mf2_classes', 'u_urls', 'rels':
+      self.assertEqual([], got[key])
 
   def test_main(self):
     got = self._run_main((WARC_HEADER, WARC_REQUEST,
