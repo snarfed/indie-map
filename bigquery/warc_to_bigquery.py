@@ -35,6 +35,7 @@ import blacklist
 # row starting at position 1486770: . Row size is larger than: 10485760.
 MAX_ROW_SIZE = 10 * 1024 * 1024  # 10MB
 MAX_ROW_MESSAGE = '[OMITTED to keep BigQuery record under size limit]'
+MAX_LINKS = 10000
 
 
 def main(warc_files):
@@ -60,7 +61,8 @@ def main(warc_files):
           row = maybe_convert(record, domain)
           if row:
             # BigQuery JSON format is oddly specific: one object per line.
-            # assert len(json.dumps(row, ensure_ascii=True)) <= MAX_ROW_SIZE
+            assert len(json.dumps(row, ensure_ascii=True)) <= MAX_ROW_SIZE, \
+              'Too long:\n%s' % json.dumps(row, indent=2)
             json.dump(row, output, ensure_ascii=True)
             print(file=output)
         except:
@@ -153,7 +155,7 @@ def maybe_convert(record, domain):
     'domain': url_domain,
     'url': url,
     'fetch_time': record.rec_headers.get('WARC-Date'),
-    'links': links,
+    'links': links[:MAX_LINKS],
     'rels': [],  # placeholders so that key order is preserved
     'u_urls': [],
     'mf2_classes': [],
@@ -183,12 +185,14 @@ def maybe_convert(record, domain):
       return obj.get('type', []) + mf2_classes(items)
     raise RuntimeError('unexpected type: %r' % obj)
 
+  mf2_str = json.dumps(mf2 or {})
   row.update({
     'rels': [{'value': val, 'urls': urls} for val, urls in
              mf2.get('rels', {}).items()],
     'u_urls': get_urls(mf2.get('items', [])),
     'mf2_classes': sorted(set(mf2_classes(mf2))),
-    'mf2': json.dumps(mf2 or {}),
+    'mf2': (mf2_str if len(mf2_str) <= MAX_ROW_SIZE / 2
+            else json.dumps({MAX_ROW_MESSAGE: None})),
   })
   return row
 

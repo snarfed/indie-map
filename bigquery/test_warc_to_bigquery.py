@@ -355,12 +355,26 @@ biff <a rel="c" class="w" href="" />
     for key in 'mf2_classes', 'u_urls', 'rels':
       self.assertEqual([], got[key])
 
-  @unittest.mock.patch.object(warc_to_bigquery, 'MAX_ROW_SIZE', new=100)
+  @unittest.mock.patch.object(warc_to_bigquery, 'MAX_ROW_SIZE', new=20)
   def test_max_row_size(self):
     """Discovered by http://www.downes.ca/research_authors.htm , ~45MB single
     HTML file with a bunch of big embedded data: URIs."""
     got = maybe_convert(warc_record(warc_response('X', 'http://foo')), 'foo')
     self.assertEqual(warc_to_bigquery.MAX_ROW_MESSAGE, got['html'])
+    self.assertEqual({warc_to_bigquery.MAX_ROW_MESSAGE: None},
+                     json.loads(got['mf2']))
+
+  @unittest.mock.patch.object(warc_to_bigquery, 'MAX_LINKS', new=2)
+  def test_max_links(self):
+    """Discovered by pages on werd.io with lots of spam, e.g.
+    http://werd.io/2014/why-cant-you-comment-on-this-post-indieweb ,
+    before Ben cleaned them up."""
+    got = maybe_convert(warc_record(warc_response("""\
+<a href="http://one"></a>
+<a href="http://two"></a>
+<a href="http://three"></a>
+""", 'http://foo')), 'foo')
+    self.assertEqual(2, len(got['links']))
 
   def test_main(self):
     got = self._run_main((WARC_HEADER, WARC_REQUEST,
