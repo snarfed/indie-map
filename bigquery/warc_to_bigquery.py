@@ -27,6 +27,15 @@ import warcio
 
 import blacklist
 
+# Size limit per row, in bytes. Docs say it's 2MB:
+# https://cloud.google.com/bigquery/quota-policy#import
+# ...but error message from empirical test on 5/28/2017 says 10MB:
+# $ bq load ...
+# - gs://indie-map/bigquery/...json.gz: JSON parsing error in
+# row starting at position 1486770: . Row size is larger than: 10485760.
+MAX_ROW_SIZE = 10 * 1024 * 1024  # 10MB
+MAX_ROW_MESSAGE = '[OMITTED to keep BigQuery record under size limit]'
+
 
 def main(warc_files):
   for in_filename in warc_files:
@@ -51,6 +60,7 @@ def main(warc_files):
           row = maybe_convert(record, domain)
           if row:
             # BigQuery JSON format is oddly specific: one object per line.
+            # assert len(json.dumps(row, ensure_ascii=True)) <= MAX_ROW_SIZE
             json.dump(row, output, ensure_ascii=True)
             print(file=output)
         except:
@@ -123,7 +133,8 @@ def maybe_convert(record, domain):
   # use UnicodeDammit to gracefully handle response contents with invalid
   # content for their character encoding, e.g. invalid start or continuation
   # bytes in UTF-8.
-  body = UnicodeDammit(record.content_stream().read()).unicode_markup
+  body_bytes = record.content_stream().read()
+  body = UnicodeDammit(body_bytes).unicode_markup
   if not body:
     return
 
@@ -149,7 +160,9 @@ def maybe_convert(record, domain):
     'mf2': {},
     'headers': [{'name': name, 'value': value}
                 for name, value in sorted(record.http_headers.headers)],
-    'html': body,
+    # heuristic: check that HTML is <= 1/2 max size to avoid cost of serializing
+    # this whole JSON object just to check its length.
+    'html': body if len(body_bytes) <= MAX_ROW_SIZE / 2 else MAX_ROW_MESSAGE,
   }
 
   try:

@@ -355,6 +355,11 @@ biff <a rel="c" class="w" href="" />
     for key in 'mf2_classes', 'u_urls', 'rels':
       self.assertEqual([], got[key])
 
+  @unittest.mock.patch.object(warc_to_bigquery, 'MAX_ROW_SIZE', new=100)
+  def test_max_row_size(self):
+    got = maybe_convert(warc_record(warc_response('X', 'http://foo')), 'foo')
+    self.assertEqual(warc_to_bigquery.MAX_ROW_MESSAGE, got['html'])
+
   def test_main(self):
     got = self._run_main((WARC_HEADER, WARC_REQUEST,
                           warc_response('foo', 'http://foo'), WARC_METADATA, ''))
