@@ -157,7 +157,7 @@ def maybe_convert(record, domain):
     'rels': [],  # placeholders so that key order is preserved
     'u_urls': [],
     'mf2_classes': [],
-    'mf2': {},
+    'mf2': '{}',
     'headers': [{'name': name, 'value': value}
                 for name, value in sorted(record.http_headers.headers)],
     # heuristic: check that HTML is <= 1/2 max size to avoid cost of serializing
@@ -188,7 +188,7 @@ def maybe_convert(record, domain):
              mf2.get('rels', {}).items()],
     'u_urls': get_urls(mf2.get('items', [])),
     'mf2_classes': sorted(set(mf2_classes(mf2))),
-    'mf2': json.dumps(mf2),
+    'mf2': json.dumps(mf2 or {}),
   })
   return row
 

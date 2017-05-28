@@ -351,12 +351,14 @@ biff <a rel="c" class="w" href="" />
   def test_mf2py_crash_lxml_and_html5lib(self, _):
     """https://github.com/tommorris/mf2py/issues/78"""
     got = maybe_convert(warc_record(warc_response('X', 'http://foo')), 'foo')
-    self.assertEqual({}, got['mf2'])
+    self.assertEqual('{}', got['mf2'])
     for key in 'mf2_classes', 'u_urls', 'rels':
       self.assertEqual([], got[key])
 
   @unittest.mock.patch.object(warc_to_bigquery, 'MAX_ROW_SIZE', new=100)
   def test_max_row_size(self):
+    """Discovered by http://www.downes.ca/research_authors.htm , ~45MB single
+    HTML file with a bunch of big embedded data: URIs."""
     got = maybe_convert(warc_record(warc_response('X', 'http://foo')), 'foo')
     self.assertEqual(warc_to_bigquery.MAX_ROW_MESSAGE, got['html'])
 
