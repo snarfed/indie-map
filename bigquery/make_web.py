@@ -10,6 +10,8 @@ created by the query 'Social graph: links by mf2, outbound':
 https://bigquery.cloud.google.com/savedquery/464705913036:c1dce91deaed46a5bcf3452e5b781542
 """
 from collections import defaultdict
+import decimal
+from decimal import Decimal
 import gzip
 from itertools import chain
 import json
@@ -28,6 +30,7 @@ DIRECTION_WEIGHTS = {
     'outbound': 1.,
     'inbound': .5,
 }
+decimal.getcontext().prec = 2
 
 
 def make(sites_file, links_file):
@@ -41,7 +44,10 @@ def make(sites_file, links_file):
     inbound_totals = defaultdict(int)
 
     # accumulate links
-    for link in links_file:
+    print('Loading', end='')
+    for i, link in enumerate(links_file):
+        if i and i % 1000 == 0:
+            print('.', end='', flush=True)
         link = json.loads(link)
         from_domain = link['from_domain']
         to_domain = link['to_domain']
@@ -54,33 +60,41 @@ def make(sites_file, links_file):
         inbound_totals[to_domain] += num
 
     # calculate scores
-    for domains in links.values():
+    print('\nScoring', end='')
+    for i, domains in enumerate(links.values()):
+        if i and i % 1000 == 0:
+            print('.', end='', flush=True)
         for stats in domains.values():
             score = 0
             for direction, counts in stats.items():
                 for mf2, count in counts.items():
-                    score += count * MF2_WEIGHTS[mf2] * DIRECTION_WEIGHTS[direction]
+                    score += Decimal(count * MF2_WEIGHTS[mf2] *
+                                     DIRECTION_WEIGHTS[direction])
             stats['score'] = score
 
     # emit each site
+    print('\nOutputting', end='')
     for site in sites_file:
+        print('.', end='', flush=True)
         site = json.loads(site)
         domain = site['domain']
         site.update({
             'outbound_links': outbound_totals[domain],
             'inbound_links': inbound_totals[domain],
-            'links': links.pop(domain),
+            'links': links.pop(domain, {}),
         })
-
+        site.pop('mf2', None)
+        site.pop('html', None)
         yield site
 
-    for domain, domain_stats in links.items():
-        yield {
-            'domain': domain,
-            'outbound_links': outbound_totals[domain],
-            'inbound_links': inbound_totals[domain],
-            'links': domain_stats,
-        }
+    # for domain, domain_stats in links.items():
+    #     print('.', end='', flush=True)
+    #     yield {
+    #         'domain': domain,
+    #         'outbound_links': outbound_totals[domain],
+    #         'inbound_links': inbound_totals[domain],
+    #         'links': domain_stats,
+    #     }
 
 
 def open_fn(path, mode):
@@ -90,11 +104,10 @@ def open_fn(path, mode):
 
 def main():
     with open_fn(sys.argv[1], 'rt') as sites, \
-         open_fn(sys.argv[2], 'rt') as links, \
-         open_fn('sites.out.json.gz', 'wt') as out:
+         open_fn(sys.argv[2], 'rt') as links:
         for site in make(sites, links):
-            json.dumps(site, out, ensure_ascii=False)
-            print(file=out)
+            with open(site['domain'] + '.json', 'wt', encoding='utf-8') as out:
+                json.dump(site, out, indent=2, ensure_ascii=False)
 
 
 if __name__ == '__main__':
