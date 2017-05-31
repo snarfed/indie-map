@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Unit tests for make_site_files.py.
 """
+from collections import OrderedDict
+import decimal
 from decimal import Decimal
 from io import StringIO
 import itertools
-import json
+import simplejson as json
 import os
 import unittest
 
@@ -14,6 +16,8 @@ import make_web
 # (TestCase.maxDiff doesn't affect it)
 # http://stackoverflow.com/a/34117192/186123
 unittest.util._MAX_LENGTH = 2000
+
+decimal.getcontext().prec = 3
 
 def json_file(objs):
     """BigQuery JSON files are one JSON object per line."""
@@ -28,59 +32,46 @@ LINKS = (
     {'from_domain': 'baz', 'to_domain': 'foo', 'num': '7', 'mf2_class': 'u-quotation-of'},
 )
 SITES = (
-    {'domain': 'foo', 'x': 'y', 'mf2': '...'},
-    {'domain': 'bar', 'u': 'v', 'html': '...'},
+    {'domain': 'foo', 'x': 'y', 'hcard': '{"a": "b"}'},  # hcard is decoded
+    {'domain': 'bar', 'u': 'v', 'mf2': '', 'html': ''},  # mf2/html are stripped
+
 )
 EXPECTED = [{
     'domain': 'foo',
     'x': 'y',
+    'hcard': {'a': 'b'},
     'outbound_links': 6,
     'inbound_links': 11,
-    'links': {
-        'bar': {
-            'outbound': {'u-like-of': 1, None: 2},
-            'inbound':  {'u-quotation-of': 4},
-            'score': Decimal('2.0'),
-        },
-        'baz': {
-            'outbound': {None: 3},
-            'inbound':  {'u-quotation-of': 7},
-            'score': Decimal('2.7'),
-        },
-    },
+    'links': OrderedDict((
+        # sorted by score, desc
+        ('baz', {
+            'outbound': {'other': 3},
+            'inbound':  {'quotation-of': 7},
+            'score': 1,  # 2.7 / 2.7
+        }),
+        ('bar', {
+            'outbound': {'like-of': 1, 'other': 2},
+            'inbound':  {'quotation-of': 4},
+            'score': Decimal('2') / Decimal('2.7'),
+        }),
+    )),
 }, {
     'domain': 'bar',
     'u': 'v',
+    'hcard': {},
     'outbound_links': 4,
     'inbound_links': 8,
-    'links': {
-        'foo': {
-            'outbound': {'u-quotation-of': 4},
-            'inbound':  {'u-like-of': 1, None: 2},
-            'score': Decimal('2.8'),
-        },
-        'baz': {
-            'outbound': {},
-            'inbound':  {None: 5},
-            'score': Decimal('.5'),
-        },
-    },
-# }, {
-#     'domain': 'baz',
-#     'outbound_links': 12,
-#     'inbound_links': 3,
-#     'links': {
-#         'bar': {
-#             'outbound': {None: 5},
-#             'inbound': {},
-#             'score': 1.0,
-#         },
-#         'foo': {
-#             'outbound': {'u-quotation-of': 7},
-#             'inbound':  {None: 3},
-#             'score': 4.5,
-#         },
-#     },
+    'links': OrderedDict((
+        ('foo', {
+            'outbound': {'quotation-of': 4},
+            'inbound':  {'like-of': 1, 'other': 2},
+            'score': 1,  # 2.8 / 2.8
+        }),
+        ('baz', {
+            'inbound':  {'other': 5},
+            'score': Decimal('.5') / Decimal('2.8'),
+        }),
+    )),
 }]
 
 

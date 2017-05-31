@@ -9,35 +9,39 @@ https://bigquery.cloud.google.com/table/indie-map:indiemap.social_graph_links
 created by the query 'Social graph: links by mf2, outbound':
 https://bigquery.cloud.google.com/savedquery/464705913036:c1dce91deaed46a5bcf3452e5b781542
 """
-from collections import defaultdict
+from collections import defaultdict, OrderedDict
 import decimal
 from decimal import Decimal
 import gzip
 from itertools import chain
-import json
+import operator
+# simplejson supports encoding Decimal, but json doesn't
+import simplejson as json
 import sys
 
-MF2_WEIGHTS = defaultdict(lambda: .2, {
-    'u-in-reply-to': 1.,
-    'u-invitee': 1.,
-    'u-quotation-of': .6,
-    'u-repost-of': .6,
-    'u-like-of': .4,
-    'u-favorite-of': .4,
-    'u-bookmark-of': .4,
-})
+MF2_WEIGHTS = {
+    'in-reply-to': 1,
+    'invitee': 1,
+    'quotation-of': .6,
+    'repost-of': .6,
+    'like-of': .4,
+    'favorite-of': .4,
+    'bookmark-of': .4,
+    'other': .2,
+}
 DIRECTION_WEIGHTS = {
-    'outbound': 1.,
+    'outbound': 1,
     'inbound': .5,
 }
-decimal.getcontext().prec = 2
+
+decimal.getcontext().prec = 3  # calculate/output scores at limited precision
 
 
 def make(sites_file, links_file):
     # {from_domain: {to_domain: {'outbound': {mf2_class: number, ...},
     #                            'inbound':  {mf2_class: number, ...}}}}
-    links = defaultdict(lambda: defaultdict(lambda: {
-        'inbound': defaultdict(int), 'outbound': defaultdict(int)}))
+    links = defaultdict(lambda: defaultdict(lambda: defaultdict(
+        lambda: defaultdict(int))))
 
     # {domain: number of links}
     outbound_totals = defaultdict(int)
@@ -46,13 +50,15 @@ def make(sites_file, links_file):
     # accumulate links
     print('Loading', end='')
     for i, link in enumerate(links_file):
-        if i and i % 1000 == 0:
+        if i and i % 10000 == 0:
             print('.', end='', flush=True)
         link = json.loads(link)
         from_domain = link['from_domain']
         to_domain = link['to_domain']
         num = int(link['num'])
-        mf2 = link.get('mf2_class')
+        mf2 = link.get('mf2_class', 'other')
+        if mf2.startswith('u-'):
+            mf2 = mf2[2:]
 
         links[from_domain][to_domain]['outbound'][mf2] += num
         links[to_domain][from_domain]['inbound'][mf2] += num
@@ -62,8 +68,10 @@ def make(sites_file, links_file):
     # calculate scores
     print('\nScoring', end='')
     for i, domains in enumerate(links.values()):
-        if i and i % 1000 == 0:
+        if i and i % 10000 == 0:
             print('.', end='', flush=True)
+
+        max_score = 0
         for stats in domains.values():
             score = 0
             for direction, counts in stats.items():
@@ -71,30 +79,34 @@ def make(sites_file, links_file):
                     score += Decimal(count * MF2_WEIGHTS[mf2] *
                                      DIRECTION_WEIGHTS[direction])
             stats['score'] = score
+            if score > max_score:
+                max_score = score
+
+        # normalize scores to (0, 1] per domain
+        for stats in domains.values():
+            stats['score'] /= max_score
+
 
     # emit each site
     print('\nOutputting', end='')
-    for site in sites_file:
-        print('.', end='', flush=True)
+    for i, site in enumerate(sites_file):
+        if i and i % 10 == 0:
+            print('.', end='', flush=True)
         site = json.loads(site)
         domain = site['domain']
         site.update({
+            'hcard': json.loads(site.get('hcard', '{}')) or {},
             'outbound_links': outbound_totals[domain],
             'inbound_links': inbound_totals[domain],
-            'links': links.pop(domain, {}),
+            'links': OrderedDict(sorted(links.get(domain, {}).items(),
+                                        key=lambda item: item[1]['score'],
+                                        reverse=True)),
         })
         site.pop('mf2', None)
         site.pop('html', None)
         yield site
 
-    # for domain, domain_stats in links.items():
-    #     print('.', end='', flush=True)
-    #     yield {
-    #         'domain': domain,
-    #         'outbound_links': outbound_totals[domain],
-    #         'inbound_links': inbound_totals[domain],
-    #         'links': domain_stats,
-    #     }
+    print()
 
 
 def open_fn(path, mode):
