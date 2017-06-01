@@ -8,6 +8,10 @@ social_graph_links.json[.gz] is this table:
 https://bigquery.cloud.google.com/table/indie-map:indiemap.social_graph_links
 created by the query 'Social graph: links by mf2, outbound':
 https://bigquery.cloud.google.com/savedquery/464705913036:c1dce91deaed46a5bcf3452e5b781542
+
+TODO:
+- option to limit to input domains
+- truncate at 1k (?), include total number
 """
 from collections import defaultdict, OrderedDict
 import decimal
@@ -30,29 +34,58 @@ MF2_WEIGHTS = {
     'other': .2,
 }
 DIRECTION_WEIGHTS = {
-    'outbound': 1,
-    'inbound': .5,
+    'out': 1,
+    'in': .5,
 }
 
 decimal.getcontext().prec = 3  # calculate/output scores at limited precision
 
+# currently unused
+with open('../crawl/domain_blacklist.txt', 'rt', encoding='utf-8') as f:
+    BLACKLIST = frozenset((line.strip() for line in f if line.strip()))
 
-def make(sites_file, links_file):
-    # {from_domain: {to_domain: {'outbound': {mf2_class: number, ...},
-    #                            'inbound':  {mf2_class: number, ...}}}}
+
+def load_links(links_in):
+    """Loads and processes a social graph links JSON file.
+
+    Args:
+      links_in: sequence of social graph links objects. See file docstring.
+
+    Returns: (links, out_counts, in_counts)
+
+    links:
+      {'[DOMAIN]': {
+          'links_out': [INTEGER],
+          'links_in':  [INTEGER],
+          'links': {
+            'TO_DOMAIN': {
+              'out': {
+                'in-reply-to': [INTEGER],  # mf2 classes
+                'like-of': [INTEGER],
+                ...
+                'other': [INTEGER],
+              },
+              'in': {
+                [SAME]
+              },
+              'score': [FLOAT],
+            },
+            ...
+          },
+        },
+        ...,
+      }
+    out_counts, in_counts: {'[DOMAIN]': [INTEGER]}
+    """
     links = defaultdict(lambda: defaultdict(lambda: defaultdict(
         lambda: defaultdict(int))))
+    out_counts = defaultdict(int)
+    in_counts = defaultdict(int)
 
-    # {domain: number of links}
-    outbound_totals = defaultdict(int)
-    inbound_totals = defaultdict(int)
-
-    # accumulate links
-    print('Loading', end='')
-    for i, link in enumerate(links_file):
+    for i, link in enumerate(links_in):
         if i and i % 10000 == 0:
             print('.', end='', flush=True)
-        link = json.loads(link)
+
         from_domain = link['from_domain']
         to_domain = link['to_domain']
         num = int(link['num'])
@@ -60,11 +93,15 @@ def make(sites_file, links_file):
         if mf2.startswith('u-'):
             mf2 = mf2[2:]
 
-        links[from_domain][to_domain]['outbound'][mf2] += num
-        links[to_domain][from_domain]['inbound'][mf2] += num
-        outbound_totals[from_domain] += num
-        inbound_totals[to_domain] += num
+        links[from_domain][to_domain]['out'][mf2] += num
+        links[to_domain][from_domain]['in'][mf2] += num
+        out_counts[from_domain] += num
+        in_counts[to_domain] += num
 
+    return links, out_counts, in_counts
+
+
+def make(sites, links, out_counts, in_counts):
     # calculate scores
     print('\nScoring', end='')
     for i, domains in enumerate(links.values()):
@@ -89,16 +126,16 @@ def make(sites_file, links_file):
 
     # emit each site
     print('\nOutputting', end='')
-    for i, site in enumerate(sites_file):
+    for i, site in enumerate(sites):
         if i and i % 10 == 0:
             print('.', end='', flush=True)
-        site = json.loads(site)
         domain = site['domain']
+        domain_links = links.get(domain, {})
         site.update({
             'hcard': json.loads(site.get('hcard', '{}')) or {},
-            'outbound_links': outbound_totals[domain],
-            'inbound_links': inbound_totals[domain],
-            'links': OrderedDict(sorted(links.get(domain, {}).items(),
+            'links_out': out_counts.get(domain),
+            'links_in': in_counts.get(domain),
+            'links': OrderedDict(sorted(domain_links.items(),
                                         key=lambda item: item[1]['score'],
                                         reverse=True)),
         })
@@ -114,13 +151,16 @@ def open_fn(path, mode):
         path, mode, encoding='utf-8')
 
 
-def main():
-    with open_fn(sys.argv[1], 'rt') as sites, \
-         open_fn(sys.argv[2], 'rt') as links:
-        for site in make(sites, links):
-            with open(site['domain'] + '.json', 'wt', encoding='utf-8') as out:
-                json.dump(site, out, indent=2, ensure_ascii=False)
+def main(sites_file, links_file):
+    print('Loading', end='')
+    links, out_counts, in_counts = load_links(json.loads(l) for l in links_file)
+    sites = [json.loads(line) for line in sites_file]
+    return make(sites, links, out_counts, in_counts)
 
 
 if __name__ == '__main__':
-    main()
+    with open_fn(sys.argv[1], 'rt') as sites_file, \
+         open_fn(sys.argv[2], 'rt') as links_file:
+        for site in main(sites_file, links_file):
+            with open(site['domain'] + '.json', 'wt', encoding='utf-8') as out:
+                json.dump(site, out, indent=2, ensure_ascii=False)
