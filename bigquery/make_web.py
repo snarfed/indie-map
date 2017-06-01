@@ -14,11 +14,13 @@ TODO:
 - truncate at 1k (?), include total number
 """
 from collections import defaultdict, OrderedDict
+import copy
 import decimal
 from decimal import Decimal
 import gzip
 from itertools import chain
 import operator
+import os
 # simplejson supports encoding Decimal, but json doesn't
 import simplejson as json
 import sys
@@ -37,6 +39,7 @@ DIRECTION_WEIGHTS = {
     'out': 1,
     'in': .5,
 }
+MAX_BASE_LINKS = 1000  # cap on number of link domains in base files
 
 decimal.getcontext().prec = 3  # calculate/output scores at limited precision
 
@@ -51,7 +54,7 @@ def load_links(links_in):
     Args:
       links_in: sequence of social graph links objects. See file docstring.
 
-    Returns: (links, out_counts, in_counts)
+    Returns: (links, domains, out_counts, in_counts)
 
     links:
       {'[DOMAIN]': {
@@ -75,18 +78,23 @@ def load_links(links_in):
         },
         ...,
       }
+    domains: set of from domains
     out_counts, in_counts: {'[DOMAIN]': [INTEGER]}
     """
+    print('Loading', end='')
+
     links = defaultdict(lambda: defaultdict(lambda: defaultdict(
         lambda: defaultdict(int))))
     out_counts = defaultdict(int)
     in_counts = defaultdict(int)
+    from_domains = set()
 
     for i, link in enumerate(links_in):
         if i and i % 10000 == 0:
             print('.', end='', flush=True)
 
         from_domain = link['from_domain']
+        from_domains.add(from_domain)
         to_domain = link['to_domain']
         num = int(link['num'])
         mf2 = link.get('mf2_class', 'other')
@@ -98,10 +106,21 @@ def load_links(links_in):
         out_counts[from_domain] += num
         in_counts[to_domain] += num
 
-    return links, out_counts, in_counts
+    return links, from_domains, out_counts, in_counts
 
 
-def make(sites, links, out_counts, in_counts):
+def make_full(sites, single_links):
+    """Generates and returns output site objects with all link domains.
+
+    Args:
+      sites: sequence of input site objects
+      links_file: sequence of link collections returned by load_links()
+
+    Returns:
+      generator of output JSON site objects
+    """
+    links, from_domains, out_counts, in_counts = load_links(single_links)
+
     # calculate scores
     print('\nScoring', end='')
     for i, domains in enumerate(links.values()):
@@ -123,10 +142,12 @@ def make(sites, links, out_counts, in_counts):
         for stats in domains.values():
             stats['score'] /= max_score
 
-
     # emit each site
-    print('\nOutputting', end='')
-    for i, site in enumerate(sites):
+    print('\nGenerating full', end='')
+    extra_sites = [{'domain': domain} for domain in
+                   from_domains - set(site['domain'] for site in sites)]
+
+    for i, site in enumerate(sites + tuple(extra_sites)):
         if i and i % 10 == 0:
             print('.', end='', flush=True)
         domain = site['domain']
@@ -146,21 +167,74 @@ def make(sites, links, out_counts, in_counts):
     print()
 
 
+def make_base(full):
+    """Generates and returns output sites with capped number of link domains.
+
+    Number of link domains per site is capped at MAX_BASE_LINKS.
+
+    Args:
+      full: sequence of full site objects created by make_full()
+
+    Returns:
+      sequence of output JSON site objects
+    """
+    print('\nGenerating base', end='')
+
+    base = copy.deepcopy(full)
+    for i, site in enumerate(base):
+        if i and i % 10 == 0:
+            print('.', end='', flush=True)
+        if len(site['links']) > MAX_BASE_LINKS:
+            site['links'] = OrderedDict(list(site['links'].items())[:MAX_BASE_LINKS])
+            site['links_truncated'] = True
+
+    return base
+
+
+def make_internal(sites, full):
+    """Generates and returns output JSON objects with links to internal domains.
+
+    Internal domains are just the sites in the dataset itself.
+
+    Args:
+      full: sequence of full site objects created by make_full()
+
+    Returns:
+      sequence of output JSON site objects
+    """
+    print('\nGenerating internal', end='')
+
+    our_domains = set(s['domain'] for s in sites + full)
+    internal = copy.deepcopy(full)
+
+    for i, site in enumerate(internal):
+        if i and i % 10 == 0:
+            print('.', end='', flush=True)
+        site['links'] = OrderedDict(
+            (domain, val) for domain, val in site['links'].items()
+            if domain in our_domains)
+
+    return internal
+
+
 def open_fn(path, mode):
     return (gzip.open if path.endswith('.gz') else open)(
         path, mode, encoding='utf-8')
 
 
-def main(sites_file, links_file):
-    print('Loading', end='')
-    links, out_counts, in_counts = load_links(json.loads(l) for l in links_file)
-    sites = [json.loads(line) for line in sites_file]
-    return make(sites, links, out_counts, in_counts)
+def json_dump(dir, objs):
+    for obj in objs:
+        with open('%s/%s.json' % (dir, obj['domain']), 'wt', encoding='utf-8') as f:
+            json.dump(obj, f, indent=2, ensure_ascii=False)
 
 
 if __name__ == '__main__':
-    with open_fn(sys.argv[1], 'rt') as sites_file, \
-         open_fn(sys.argv[2], 'rt') as links_file:
-        for site in main(sites_file, links_file):
-            with open(site['domain'] + '.json', 'wt', encoding='utf-8') as out:
-                json.dump(site, out, indent=2, ensure_ascii=False)
+    with open_fn(sys.argv[1], 'rt') as f:
+         sites = [json.loads(line) for line in f]
+
+    with open_fn(sys.argv[2], 'rt') as f:
+        links = [json.loads(line) for line in f]
+
+    json_dump('full', make_full(sites, links))
+    json_dump('base', make_base(sites, links))
+    json_dump('internal', make_internal(sites, links))
