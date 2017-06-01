@@ -25,7 +25,7 @@ def json_file(objs):
     """BigQuery JSON files are one JSON object per line."""
     return StringIO('\n'.join(json.dumps(obj) for obj in objs))
 
-LINKS = (
+LINKS = [
     {'from_domain': 'foo', 'to_domain': 'bar', 'num': '1', 'mf2_class': 'u-like-of'},
     {'from_domain': 'foo', 'to_domain': 'bar', 'num': '2'},
     {'from_domain': 'foo', 'to_domain': 'baz', 'num': '3'},
@@ -33,12 +33,12 @@ LINKS = (
     {'from_domain': 'baz', 'to_domain': 'bar', 'num': '5'},
     {'from_domain': 'baz', 'to_domain': 'foo', 'num': '7', 'mf2_class': 'u-quotation-of'},
     {'from_domain': 'foo', 'to_domain': 'other.com', 'num': '8'},
-)
-SITES = (
+]
+SITES = [
     {'domain': 'foo', 'x': 'y', 'hcard': '{"a": "b"}'},  # hcard is decoded
     {'domain': 'bar', 'u': 'v', 'mf2': '', 'html': ''},  # mf2/html are stripped
-)
-FULL = ({
+]
+FULL = [{
     'domain': 'foo',
     'x': 'y',
     'hcard': {'a': 'b'},
@@ -94,7 +94,7 @@ FULL = ({
             'score': Decimal('1') / Decimal('4.5'),
         }),
     )),
-})
+}]
 
 
 class MakeDataFilesTest(unittest.TestCase):

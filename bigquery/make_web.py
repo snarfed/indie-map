@@ -43,10 +43,6 @@ MAX_BASE_LINKS = 1000  # cap on number of link domains in base files
 
 decimal.getcontext().prec = 3  # calculate/output scores at limited precision
 
-# currently unused
-with open('../crawl/domain_blacklist.txt', 'rt', encoding='utf-8') as f:
-    BLACKLIST = frozenset((line.strip() for line in f if line.strip()))
-
 
 def load_links(links_in):
     """Loads and processes a social graph links JSON file.
@@ -81,7 +77,7 @@ def load_links(links_in):
     domains: set of from domains
     out_counts, in_counts: {'[DOMAIN]': [INTEGER]}
     """
-    print('Loading', end='')
+    print('\nProcessing links', end='', flush=True)
 
     links = defaultdict(lambda: defaultdict(lambda: defaultdict(
         lambda: defaultdict(int))))
@@ -122,7 +118,7 @@ def make_full(sites, single_links):
     links, from_domains, out_counts, in_counts = load_links(single_links)
 
     # calculate scores
-    print('\nScoring', end='')
+    print('\nScoring', end='', flush=True)
     for i, domains in enumerate(links.values()):
         if i and i % 10000 == 0:
             print('.', end='', flush=True)
@@ -143,11 +139,11 @@ def make_full(sites, single_links):
             stats['score'] /= max_score
 
     # emit each site
-    print('\nGenerating full', end='')
+    print('\nGenerating full', end='', flush=True)
     extra_sites = [{'domain': domain} for domain in
                    from_domains - set(site['domain'] for site in sites)]
 
-    for i, site in enumerate(sites + tuple(extra_sites)):
+    for i, site in enumerate(sites + extra_sites):
         if i and i % 10 == 0:
             print('.', end='', flush=True)
         domain = site['domain']
@@ -163,8 +159,6 @@ def make_full(sites, single_links):
         site.pop('mf2', None)
         site.pop('html', None)
         yield site
-
-    print()
 
 
 def make_base(full):
@@ -223,18 +217,23 @@ def open_fn(path, mode):
 
 
 def json_dump(dir, objs):
+    os.makedirs(dir, exist_ok=True)
     for obj in objs:
         with open('%s/%s.json' % (dir, obj['domain']), 'wt', encoding='utf-8') as f:
             json.dump(obj, f, indent=2, ensure_ascii=False)
 
 
 if __name__ == '__main__':
+    print('Loading input files...', end='', flush=True)
     with open_fn(sys.argv[1], 'rt') as f:
          sites = [json.loads(line) for line in f]
 
     with open_fn(sys.argv[2], 'rt') as f:
         links = [json.loads(line) for line in f]
 
-    json_dump('full', make_full(sites, links))
-    json_dump('base', make_base(sites, links))
-    json_dump('internal', make_internal(sites, links))
+    full = list(make_full(sites, links))
+    json_dump('full', full)
+    json_dump('base', make_base(full))
+    json_dump('internal', make_internal(sites, full))
+
+    print()
