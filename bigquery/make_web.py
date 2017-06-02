@@ -132,26 +132,27 @@ def make_full(sites, single_links):
                 max_score = score
 
         # normalize scores to (0, 1] per domain
-        max_score = max_score.ln()
+        max_score_ln = max_score.ln()
         for stats in domains.values():
-            stats['score'] = (0 if stats['score'] == 0 else
-                              1 if max_score == 0 else
-                              stats['score'].ln() / max_score)
+            score = stats['score']
+            stats['score'] = (0 if score <= 1
+                              else 1 if max_score_ln == 0
+                              else score.ln() / max_score_ln)
 
     # emit each site
     print('\nGenerating full...', end='', flush=True)
     extra_sites = [{'domain': domain} for domain in
                    from_domains - set(site['domain'] for site in sites)]
 
-    for i, site in enumerate(sites + extra_sites):
+    for i, site in enumerate(copy.deepcopy(sites) + extra_sites):
         if i and i % 100 == 0:
             print('.', end='', flush=True)
         domain = site['domain']
         domain_links = links.get(domain, {})
         site.update({
             'hcard': json.loads(site.get('hcard', '{}')) or {},
-            'links_out': out_counts.get(domain),
-            'links_in': in_counts.get(domain),
+            'links_out': out_counts.get(domain) or 0,
+            'links_in': in_counts.get(domain) or 0,
             'links': OrderedDict(sorted(domain_links.items(),
                                         key=lambda item: item[1]['score'],
                                         reverse=True)),

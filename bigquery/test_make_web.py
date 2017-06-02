@@ -30,17 +30,18 @@ LINKS = [
     {'from_domain': 'baz', 'to_domain': 'bar', 'num': '5'},
     {'from_domain': 'baz', 'to_domain': 'foo', 'num': '7', 'mf2_class': 'u-quotation-of'},
     {'from_domain': 'foo', 'to_domain': 'other.com', 'num': '8'},
+    {'from_domain': 'more.com', 'to_domain': 'foo', 'num': '1'},
 ]
 SITES = [
-    {'domain': 'foo', 'x': 'y', 'hcard': '{"a": "b"}'},  # hcard is decoded
-    {'domain': 'bar', 'u': 'v', 'mf2': '', 'html': ''},  # mf2/html are stripped
+    {'domain': 'foo', 'urls': ['https://foo/ey', 'nope'], 'hcard': '{"a": "b"}'},
+    {'domain': 'bar', 'descriptions': ["this is, bar's site"], 'mf2': '', 'html': ''},
 ]
 FULL = [{
     'domain': 'foo',
-    'url': 'https://foo/ey',
+    'urls': ['https://foo/ey', 'nope'],
     'hcard': {'a': 'b'},
     'links_out': 14,
-    'links_in': 11,
+    'links_in': 12,
     'links': OrderedDict((
         # sorted by score, desc
         ('baz', {
@@ -57,10 +58,14 @@ FULL = [{
             'out': {'other': 8},
             'score': Decimal('.839'),  # ln(16) / ln(27)
         }),
+        ('more.com', {
+            'in': {'other': 1},
+            'score': 0,  # ln(1) / ln(27) == 0
+        }),
     )),
 }, {
     'domain': 'bar',
-    'description': "this is, bar's site",
+    'descriptions': ["this is, bar's site"],
     'hcard': {},
     'links_out': 4,
     'links_in': 8,
@@ -91,10 +96,21 @@ FULL = [{
             'score': Decimal('.604'),  # ln(10) / ln(45)
         }),
     )),
+}, {
+    'domain': 'more.com',
+    'links_out': 1,
+    'links_in': 0,
+    'hcard': {},
+    'links': OrderedDict((
+        ('foo', {
+            'out': {'other': 1},
+            'score': 1,
+        }),
+    )),
 }]
 
 BASE = copy.deepcopy(FULL)
-for site in BASE:
+for site in BASE[:3]:
     site['links'] = dict(list(site['links'].items())[:1])
     site['links_truncated'] = True
 
@@ -106,10 +122,9 @@ class MakeWebTest(unittest.TestCase):
     maxDiff = None
 
     def test_full(self):
-        got = make_web.make_full(SITES, LINKS)
+        got = list(make_web.make_full(SITES, LINKS))
         for expected, actual in itertools.zip_longest(FULL, got):
-            scores = lambda site: [link['score'] for link in site['links'].values()]
-            self.assertEqual(scores(expected), scores(actual))
+            self.assertEqual(expected, actual)
 
     @patch.object(make_web, 'MAX_BASE_LINKS', new=1)
     def test_base(self):
@@ -118,9 +133,11 @@ class MakeWebTest(unittest.TestCase):
             self.assertEqual(expected, actual)
 
     def test_internal(self):
-        INTERNAL = copy.deepcopy(FULL)
-        del INTERNAL[0]['links']['other.com']
-
         got = make_web.make_internal(SITES, FULL)
         for expected, actual in itertools.zip_longest(INTERNAL, got):
             self.assertEqual(expected, actual)
+
+    def test_json_encode_decimal_0(self):
+        encoded = json.dumps(list(make_web.make_full(SITES, LINKS)))
+        self.assertIn('"score": 0}', encoded)
+        self.assertNotIn('"score": 0E+', encoded)
