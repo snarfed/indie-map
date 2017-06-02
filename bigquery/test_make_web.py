@@ -21,9 +21,6 @@ unittest.util._MAX_LENGTH = 2000
 
 decimal.getcontext().prec = 3
 
-def json_file(objs):
-    """BigQuery JSON files are one JSON object per line."""
-    return StringIO('\n'.join(json.dumps(obj) for obj in objs))
 
 LINKS = [
     {'from_domain': 'foo', 'to_domain': 'bar', 'num': '1', 'mf2_class': 'u-like-of'},
@@ -40,7 +37,7 @@ SITES = [
 ]
 FULL = [{
     'domain': 'foo',
-    'x': 'y',
+    'url': 'https://foo/ey',
     'hcard': {'a': 'b'},
     'links_out': 14,
     'links_in': 11,
@@ -49,21 +46,21 @@ FULL = [{
         ('baz', {
             'out': {'other': 3},
             'in':  {'quotation-of': 7},
-            'score': 1,  # 2.7
+            'score': 1,
         }),
         ('bar', {
             'out': {'like-of': 1, 'other': 2},
             'in':  {'quotation-of': 4},
-            'score': Decimal('2') / Decimal('2.7'),
+            'score': Decimal('.909'),  # ln(20) / ln(27)
         }),
         ('other.com', {
             'out': {'other': 8},
-            'score': Decimal('1.6') / Decimal('2.7'),
+            'score': Decimal('.839'),  # ln(16) / ln(27)
         }),
     )),
 }, {
     'domain': 'bar',
-    'u': 'v',
+    'description': "this is, bar's site",
     'hcard': {},
     'links_out': 4,
     'links_in': 8,
@@ -71,11 +68,11 @@ FULL = [{
         ('foo', {
             'out': {'quotation-of': 4},
             'in':  {'like-of': 1, 'other': 2},
-            'score': 1,  # 2.8
+            'score': 1,
         }),
         ('baz', {
             'in':  {'other': 5},
-            'score': Decimal('.5') / Decimal('2.8'),
+            'score': Decimal('.483'),  # ln(5) / ln(28)
         }),
     )),
 }, {
@@ -91,35 +88,39 @@ FULL = [{
         }),
         ('bar', {
             'out':  {'other': 5},
-            'score': Decimal('1') / Decimal('4.5'),
+            'score': Decimal('.604'),  # ln(10) / ln(45)
         }),
     )),
 }]
 
+BASE = copy.deepcopy(FULL)
+for site in BASE:
+    site['links'] = dict(list(site['links'].items())[:1])
+    site['links_truncated'] = True
 
-class MakeDataFilesTest(unittest.TestCase):
+INTERNAL = copy.deepcopy(FULL)
+del INTERNAL[0]['links']['other.com']
+
+
+class MakeWebTest(unittest.TestCase):
     maxDiff = None
 
     def test_full(self):
         got = make_web.make_full(SITES, LINKS)
         for expected, actual in itertools.zip_longest(FULL, got):
-            self.assertEqual(expected, actual)
+            scores = lambda site: [link['score'] for link in site['links'].values()]
+            self.assertEqual(scores(expected), scores(actual))
 
     @patch.object(make_web, 'MAX_BASE_LINKS', new=1)
     def test_base(self):
-        base = copy.deepcopy(FULL)
-        for site in base:
-            site['links'] = dict(list(site['links'].items())[:1])
-            site['links_truncated'] = True
-
         got = make_web.make_base(FULL)
-        for expected, actual in itertools.zip_longest(base, got):
+        for expected, actual in itertools.zip_longest(BASE, got):
             self.assertEqual(expected, actual)
 
     def test_internal(self):
-        internal = copy.deepcopy(FULL)
-        del internal[0]['links']['other.com']
+        INTERNAL = copy.deepcopy(FULL)
+        del INTERNAL[0]['links']['other.com']
 
         got = make_web.make_internal(SITES, FULL)
-        for expected, actual in itertools.zip_longest(internal, got):
+        for expected, actual in itertools.zip_longest(INTERNAL, got):
             self.assertEqual(expected, actual)
