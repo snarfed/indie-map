@@ -1,0 +1,87 @@
+#!/usr/bin/env python3
+"""Generates CSV files for sites and connections to import into Kumu.
+
+Usage: make_kumu.py [DIR]
+
+Expects internal per-site JSON files in DIR, e.g. as created by make_web.py in
+the internal/ directory.
+
+Writes two output files to the current directory, kumu.elements.csv and
+kumu.connections.csv.
+
+Kumu import file format: https://docs.kumu.io/guides/import.html
+"""
+import csv
+import json
+import os
+import sys
+
+MF2_TO_TAG = {
+    'in-reply-to': 'reply',
+    'invitee': 'invte',
+    'quotation-of': 'quotation',
+    'repost-of': 'repost',
+    'like-of': 'like',
+    'favorite-of': 'favorite',
+    'bookmark-of': 'bookmark',
+    'other': 'other',
+}
+
+def make(sites, elems_file, conns_file):
+    """Converts site JSON web objects to Kumu importable CSV files.
+
+    Args:
+      sites: JSON web objects created by make_web.py.
+      elems_file, conns_fie: output file objects
+    """
+    elems = csv.DictWriter(elems_file, fieldnames=(
+        'Label', 'URL', 'Title', 'Description', 'Tags', 'Image', 'LinksIn',
+        'LinksOut'))
+    elems.writeheader()
+
+    conns = csv.DictWriter(conns_file, fieldnames=(
+        'From', 'To', 'Type', 'Label', 'Tags', 'Links', 'Strength'))
+    conns.writeheader()
+
+    def first(field):
+        val = site.get(field)
+        return val[0] if val else ''
+
+    for site in sites:
+        elems.writerow({
+            'Label': site['domain'],
+            'URL': first('urls'),
+            'Title': first('names'),
+            'Description': '\n'.join((first('names'), first('descriptions'))).strip(),
+            # 'Tags': ,
+            'Image': first('pictures'),
+            'LinksIn': site['links_in'],
+            'LinksOut': site['links_out'],
+        })
+        for linked, data in site['links'].items():
+            out = data.get('out', {})
+            conns.writerow({
+                'From': site['domain'],
+                'To': linked,
+                # 'Type': ,
+                # 'Label': ,
+                'Tags': '|'.join(MF2_TO_TAG[cls] for cls in out.keys()),
+                'Links': sum(out.values()),
+                'Strength': data['score'],
+            })
+
+
+def sites():
+    for filename in os.listdir(sys.argv[1]):
+        with open(filename, 'rt', encoding='utf-8') as f:
+            yield json.load(f)
+
+
+def main():
+    with open('kumu.elements.csv', 'wt', encoding='utf-8') as elems_file, \
+         open('kumu.connections.csv', 'wt', encoding='utf-8') as conns_file:
+        make(sites(), elems_file, conns_file)
+
+
+if __name__ == '__main__':
+    main()
