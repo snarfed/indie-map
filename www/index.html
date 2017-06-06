@@ -11,22 +11,92 @@
 <!-- 32x32 last so that browsers prefer it -->
 <link rel="shortcut icon" sizes="32x32" href="/static/favicon.png">
 <link rel="apple-touch-icon-precomposed" sizes="32x32" href="/static/favicon.png">
-<link rel="stylesheet" href="/static/bootstrap.min.css" />
-<link rel="stylesheet" href="/static/style.css" type="text/css" />
-<!-- google analytics -->
-<script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-11785301-2', 'auto');
-ga('send', 'pageview');
-</script>
-
-<script async src="/static/bridgy.js"></script>
 </head>
 
 <body>
-Coming soon...
+
+<h1>Indie Map</h1>
+
+<h2>Indie Map is...</h2>
+
+<ul>
+<li><a href="#social-graph">An interactive map</a> of the <a href="https://indieweb.org/">IndieWeb</a> social graph.</li>
+<li><a href="#api">An API to access that social graph.</a></li>
+<li><a href="#dataset">A SQL-queryable >300GB dataset</a> of almost 7M pages from the <a href="https://github.com/snarfed/indie-map/blob/master/crawl/domains.txt">&gt;1500 most active IndieWeb sites</a>.</li>
+<li><a href="#archive">A complete mirror of all HTML pages on those sites</a>, in <a href="http://bibnum.bnf.fr/WARC/">WARC format</a>.</li>
+</ul>
+
+<p>Indie Map is free, <a href="https://github.com/snarfed/indie-map">open source</a>, and placed into the public domain. It may alternatively be used under the <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0 license</a>. Crawled content remains the property of each site's owner and author, and subject to their existing copyright.</p>
+
+<p>The current Indie Map dataset is based on web crawls from between April and May 2017. It may be extended and updated in the future with new crawls. All crawls respect and obey each site's <a href="http://robotstxt.org/">robots.txt</a> file.</p>
+
+
+<h2 name="social-graph">Interactive social graph</h2>
+
+<p></p>
+
+
+<h2 name="api">API</h2>
+
+<p>You can fetch metadata about each site in JSON, including its links to and from other sites, with a single HTTP request: <code>www.indiemap.org/[DOMAIN].json</code>. For example, my own personal web site is <a href="http://www.indiemap.org/snarfed.org.json"><code>www.indiemap.org/snarfed.org.json</code></a>.</p>
+
+
+<h2 name="dataset">BigQuery dataset</h2>
+
+<p>The Indie Map dataset is available in Google's <a href="https://cloud.google.com/bigquery/">BigQuery</a> data warehouse, which supports modern Standard SQL queries. The dataset is <a href="https://bigquery.cloud.google.com/dataset/indie-map:indiemap"><code>indie-map:indiemap</code></a>. You'll need a Google account.</p>
+
+<p>The dataset consists of two tables, <code>Page</code> and <code>Site</code>. Here are their schemas:</p>
+
+<h3><code>Page</code></h3>
+<ul>
+<li><code>url</code>, string</li>
+<li><code>domain</code></li>
+<li><code>fetch_time</code>: fetch timestamp</li>
+<li><code>headers</code>: HTTP response headers, array of (name, value)</li>
+<li><code>HTML</code>: raw page content</li>
+<li><code>links</code>: outbound links extracted from <code>href</code>s of <code>a</code> and <code>link</code> tags. array of (URL, inner HTML, HTML tag (<code>a</code> or <code>link</code>), array of rel values, array of classes)</li>
+<li><code>mf2</code>: full JSON mf2 parsed from page, encoded as string. Can query in BiqQuery with <a href="https://cloud.google.com/bigquery/docs/reference/legacy-sql#json_extract"><code>JSON_EXTRACT</code></a> plus <a href="https://code.google.com/p/jsonpath">JSONPath</a>.</li>
+<li><code>mf2_classes</code>: array of unique mf2 classes found in page</li>
+<li><code>rels</code>: array of <code>rel</code> values from parsed mf2</li>
+<li><code>u_urls</code>: array of unique top-level mf2 <code>u-url</code>s</li>
+</ul>
+
+
+<h3><code>Site</code></h3>
+<ul>
+<li><code>domain<//code></li>
+<li><code>title</code></li>
+<li>Open Graph data: <code><meta property="og:...">...</code></li>
+<li>rel links: micropub, webmention, authorization_endpoint</li>
+<li>rel-me links</li>
+<li>authorship: [<code>h-card<code>](http://microformats.org/wiki/h-card#Properties)</li>
+<li><code>p-name<code></li>
+<li><code>u-photo</code> or <code>u-logo</code></li>
+<li><code>u-url</code></li>
+<li><code>p-label</code></li>
+<li>social graph</li>
+<li>other domains ranked by outbound links, by domain scored by type. maybe reply more then like, outbound more than inbound comment, etc.</li>
+<li>special case silos to include username in links</li>
+<li>fetch start/end timestamps</li>
+<li># of pages crawled</li>
+<li># of canonical pages</li>
+<li>total html size?</li>
+<li>server (best guess)</li>
+<li>all mf2 classes seen</li>
+<li>webmention endpoints</li>
+<li>micropub endpoints</li>
+<li>source: bridgy, wm.io, irc people, 2017 iws, other</li>
+<li>pagerank?</li>
+</ul>
+
+
+<h2 name="archive">Crawl archive</h2>
+
+<p>The raw data from crawling each site is available as a set of <a href="http://bibnum.bnf.fr/WARC/">WARC</a> files, one per site, which include full HTTP request and response metadata, headers, and raw response bodies.</p>
+
+<p>The files are stored in <a href="https://cloud.google.com/storage/">Google Cloud Storage</a>, in the <code>gs://indie-map</code> bucket.</p> You can access them <a href="https://console.cloud.google.com/storage/browser/indie-map/">via the web UI</a> and the <a href="https://cloud.google.com/storage/docs/quickstart-gsutil"><code>gsutil<code> CLI utility</a>, e.g. <code>gsutil ls gs://indie-map/</code>. You'll need a Google account.</p>
+
+TODO: example
+
 </body>
 </html>
