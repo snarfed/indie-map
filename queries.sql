@@ -40,16 +40,73 @@ FROM
   p.links l
 WHERE 'nofollow' NOT IN UNNEST (l.classes)
 
--- Social graph: outbound links
+-- Social graph links
 SELECT from_domain, to_domain, mf2_class, COUNT(*)
 FROM indiemap.links_with_domains_mf2
 WHERE to_domain IS NOT NULL AND to_domain != from_domain
 GROUP BY from_domain, to_domain, mf2_class
 ORDER BY from_domain, to_domain, mf2_class;
 
--- Social graph: inbound links
-SELECT from_domain, to_domain, mf2_class, COUNT(*)
-FROM indiemap.links_with_domains_mf2
-WHERE to_domain IS NOT NULL AND to_domain != from_domain
-GROUP BY to_domain, from_domain, mf2_class
-ORDER BY to_domain, from_domain, mf2_class
+-- Per site info for JSON data files
+SELECT
+  MIN(time) AS crawl_start,
+  MAX(time) AS crawl_end,
+  COUNT(*) AS num_pages,
+  SUM(LENGTH(html)) as total_html_size,
+  ARRAY_AGG(DISTINCT mf2_classes) AS mf2_classes,
+  ARRAY_AGG(DISTINCT SELECT value FROM p.headers WHERE name = 'Server') AS servers,
+  ARRAY_AGG(DISTINCT SELECT value FROM p.rels WHERE name IN
+            ('webmention', 'http://webmention.org/')) AS webmention_endpoints,
+  ARRAY_AGG(DISTINCT SELECT value FROM p.rels WHERE name IN
+            ('micropub', 'http://micropub.net/')) AS micropub_endpoints,
+FROM `indie-map.indiemap.pages` p
+GROUP BY domain;
+
+
+-- Find rows with the biggest values in each column. Useful since BigQuery has
+-- an undocumented 100MB limit on the amount of data processed per row in a
+-- query. (These queries aren't currently saved in BigQuery.)
+SELECT p.url, BYTE_LENGTH(html) len
+FROM indiemap.pages p
+GROUP BY p.url
+ORDER BY len DESC
+
+SELECT p.url, BYTE_LENGTH(mf2) len
+FROM indiemap.pages p
+GROUP BY p.url
+ORDER BY len DESC
+
+SELECT p.url, SUM(BYTE_LENGTH(p.u_urls)) len
+FROM indiemap.pages p
+GROUP BY p.url
+ORDER BY len DESC
+
+SELECT url, SUM(BYTE_LENGTH(r.value) + BYTE_LENGTH(ARRAY_TO_STRING(r.urls, ''))) len
+FROM indiemap.pages p, p.rels r
+GROUP BY p.url
+ORDER BY len DESC
+
+SELECT url, SUM(BYTE_LENGTH(h.value) + BYTE_LENGTH(h.name)) len
+FROM indiemap.pages p, p.headers h
+GROUP BY p.url
+ORDER BY len DESC
+
+SELECT p.url, SUM(
+  BYTE_LENGTH(l.inner_html) +
+  BYTE_LENGTH(l.url) +
+  BYTE_LENGTH(ARRAY_TO_STRING(l.classes, '')) +
+  BYTE_LENGTH(ARRAY_TO_STRING(l.rels, ''))
+  ) len
+FROM indiemap.pages p, p.links l
+GROUP BY p.url
+ORDER BY len DESC
+
+SELECT p.url, SUM(BYTE_LENGTH(m)) len
+FROM indiemap.pages p, p.mf2_classes m
+GROUP BY p.url
+ORDER BY len DESC
+
+-- Alternative: run this (in tcsh) over the per site json.gz files.
+-- foreach f (*.json.gz)
+--   echo `gzcat $f | wc -L`  $f
+-- end
