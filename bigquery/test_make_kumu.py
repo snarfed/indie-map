@@ -20,9 +20,7 @@ From,To,Type,Label,Tags,Links,Strength\r
 foo,baz,,,other,3,1\r
 foo,bar,,,like|other,3,0.909\r
 foo,other.com,,,other,8,0.839\r
-foo,more.com,,,,0,0\r
 bar,foo,,,quotation,4,1\r
-bar,baz,,,,0,0.483\r
 baz,foo,,,quotation,7,1\r
 baz,bar,,,other,5,0.604\r
 more.com,foo,,,other,1,1\r

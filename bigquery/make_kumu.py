@@ -48,6 +48,10 @@ def make(sites, elems_file, conns_file):
         return val[0] if val else ''
 
     for site in sites:
+        links = site['links']
+        if not links:
+            continue
+
         elems.writerow({
             'Label': site['domain'],
             'URL': first('urls'),
@@ -58,22 +62,28 @@ def make(sites, elems_file, conns_file):
             'LinksIn': site['links_in'],
             'LinksOut': site['links_out'],
         })
-        for linked, data in site['links'].items():
+
+        for linked, data in links.items():
             out = data.get('out', {})
+            out_links = sum(out.values())
+            if not out_links:
+                continue
             conns.writerow({
                 'From': site['domain'],
                 'To': linked,
                 # 'Type': ,
                 # 'Label': ,
                 'Tags': '|'.join(MF2_TO_TAG[cls] for cls in out.keys()),
-                'Links': sum(out.values()),
+                'Links': out_links,
                 'Strength': data['score'],
             })
 
 
 def sites():
-    for filename in os.listdir(sys.argv[1]):
-        with open(filename, 'rt', encoding='utf-8') as f:
+    for i, filename in enumerate(os.listdir(sys.argv[1])):
+        if i and i % 100 == 0:
+            print('.', end='', flush=True)
+        with open(os.path.join(sys.argv[1], filename), 'rt', encoding='utf-8') as f:
             yield json.load(f)
 
 
