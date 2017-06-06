@@ -142,7 +142,7 @@ def make_full(sites, single_links):
     # emit each site
     print('\nGenerating full...', end='', flush=True)
     extra_sites = [{'domain': domain} for domain in
-                   from_domains - set(site['domain'] for site in sites)]
+                   sorted(from_domains - set(site['domain'] for site in sites))]
 
     for i, site in enumerate(copy.deepcopy(sites) + extra_sites):
         if i and i % 100 == 0:
@@ -199,8 +199,8 @@ def make_internal(sites, full):
     """
     print('\nGenerating internal..', end='', flush=True)
 
-    our_domains = set(s['domain'] for s in sites + full)
-    internal = copy.deepcopy(full)
+    our_domains = set(s['domain'] for s in sites)
+    internal = [copy.deepcopy(site) for site in full if site['domain'] in our_domains]
 
     for i, site in enumerate(internal):
         if i and i % 100 == 0:

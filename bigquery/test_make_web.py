@@ -114,30 +114,36 @@ for site in BASE[:3]:
     site['links'] = dict(list(site['links'].items())[:1])
     site['links_truncated'] = True
 
-INTERNAL = copy.deepcopy(FULL)
-del INTERNAL[0]['links']['other.com']
+INTERNAL = copy.deepcopy(FULL[:2])
+INTERNAL[0]['links'] = {'bar': INTERNAL[0]['links']['bar']}
+INTERNAL[1]['links'] = {'foo': INTERNAL[1]['links']['foo']}
 
 
 class MakeWebTest(unittest.TestCase):
     maxDiff = None
 
+    def setUp(self):
+        self.sites = copy.deepcopy(SITES)
+        self.links = copy.deepcopy(LINKS)
+        self.full = copy.deepcopy(FULL)
+
     def test_full(self):
-        got = list(make_web.make_full(SITES, LINKS))
+        got = list(make_web.make_full(self.sites, self.links))
         for expected, actual in itertools.zip_longest(FULL, got):
             self.assertEqual(expected, actual)
 
     @patch.object(make_web, 'MAX_BASE_LINKS', new=1)
     def test_base(self):
-        got = make_web.make_base(FULL)
+        got = make_web.make_base(self.full)
         for expected, actual in itertools.zip_longest(BASE, got):
             self.assertEqual(expected, actual)
 
     def test_internal(self):
-        got = make_web.make_internal(SITES, FULL)
+        got = make_web.make_internal(self.sites, self.full)
         for expected, actual in itertools.zip_longest(INTERNAL, got):
             self.assertEqual(expected, actual)
 
     def test_json_encode_decimal_0(self):
-        encoded = json.dumps(list(make_web.make_full(SITES, LINKS)))
+        encoded = json.dumps(list(make_web.make_full(self.sites, self.links)))
         self.assertIn('"score": 0}', encoded)
         self.assertNotIn('"score": 0E+', encoded)
