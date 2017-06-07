@@ -36,9 +36,17 @@ SITES = [
     {'domain': 'foo', 'urls': ['https://foo/ey', 'nope'], 'hcard': '{"a": "b"}'},
     {'domain': 'bar', 'descriptions': ["this is, bar's site"], 'mf2': '', 'html': ''},
 ]
+EXTRA_1 = [
+    {'domain': 'foo', 'foo': 'fooey'},
+    {'domain': 'baz', 'baz': 'bazzey'},
+]
+EXTRA_2 = [
+    {'domain': 'bar', 'bar': 'barrey'},
+]
 FULL = [{
     'domain': 'foo',
     'urls': ['https://foo/ey', 'nope'],
+    'foo': 'fooey',
     'hcard': {'a': 'b'},
     'links_out': 14,
     'links_in': 12,
@@ -66,6 +74,7 @@ FULL = [{
 }, {
     'domain': 'bar',
     'descriptions': ["this is, bar's site"],
+    'bar': 'barrey',
     'hcard': {},
     'links_out': 4,
     'links_in': 8,
@@ -82,6 +91,7 @@ FULL = [{
     )),
 }, {
     'domain': 'baz',
+    'baz': 'bazzey',
     'hcard': {},
     'links_out': 12,
     'links_in': 3,
@@ -114,6 +124,7 @@ for site in BASE[:3]:
     site['links'] = dict(list(site['links'].items())[:1])
     site['links_truncated'] = True
 
+INTERNAL_DOMAINS = {'foo', 'bar'}
 INTERNAL = copy.deepcopy(FULL[:2])
 INTERNAL[0]['links'] = {'bar': INTERNAL[0]['links']['bar']}
 INTERNAL[1]['links'] = {'foo': INTERNAL[1]['links']['foo']}
@@ -128,7 +139,7 @@ class MakeWebTest(unittest.TestCase):
         self.full = copy.deepcopy(FULL)
 
     def test_full(self):
-        got = list(make_web.make_full(self.sites, self.links))
+        got = list(make_web.make_full(self.sites, self.links, EXTRA_1, EXTRA_2))
         for expected, actual in itertools.zip_longest(FULL, got):
             self.assertEqual(expected, actual)
 
@@ -139,7 +150,7 @@ class MakeWebTest(unittest.TestCase):
             self.assertEqual(expected, actual)
 
     def test_internal(self):
-        got = make_web.make_internal(self.sites, self.full)
+        got = make_web.make_internal(self.full, INTERNAL_DOMAINS)
         for expected, actual in itertools.zip_longest(INTERNAL, got):
             self.assertEqual(expected, actual)
 
