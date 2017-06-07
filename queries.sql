@@ -47,20 +47,76 @@ WHERE to_domain IS NOT NULL AND to_domain != from_domain
 GROUP BY from_domain, to_domain, mf2_class
 ORDER BY from_domain, to_domain, mf2_class;
 
--- Per site info for JSON data files
+-- Per site info for JSON data files. Returns incomplete results since the
+-- implicit UNNESTs in the FROM clause do an inner join on the rels and
+-- mf2_classes columns, so they exclude pages without those values.
 SELECT
-  MIN(time) AS crawl_start,
-  MAX(time) AS crawl_end,
+  domain,
+  MIN(fetch_time) AS crawl_start,
+  MAX(fetch_time) AS crawl_end,
   COUNT(*) AS num_pages,
-  SUM(LENGTH(html)) as total_html_size,
-  ARRAY_AGG(DISTINCT mf2_classes) AS mf2_classes,
-  ARRAY_AGG(DISTINCT SELECT value FROM p.headers WHERE name = 'Server') AS servers,
-  ARRAY_AGG(DISTINCT SELECT value FROM p.rels WHERE name IN
-            ('webmention', 'http://webmention.org/')) AS webmention_endpoints,
-  ARRAY_AGG(DISTINCT SELECT value FROM p.rels WHERE name IN
-            ('micropub', 'http://micropub.net/')) AS micropub_endpoints,
-FROM `indie-map.indiemap.pages` p
+-- Uncommenting this makes the query hit the 100MB row limit and fail. Haven't
+-- found the offending row yet.
+--   SUM(LENGTH(html)) as total_html_size,
+  ARRAY_AGG(DISTINCT mf2c IGNORE NULLS) AS mf2_classes,
+  -- TODO: these only look at the first endpoint on each page
+  ARRAY_AGG(DISTINCT (SELECT u FROM r.urls u WHERE r.value IN ('webmention', 'http://webmention.org/')
+            LIMIT 1) IGNORE NULLS) AS webmention_endpoints,
+  ARRAY_AGG(DISTINCT (SELECT u FROM r.urls u WHERE r.value IN ('micropub', 'http://micropub.net/')
+            LIMIT 1) IGNORE NULLS) AS micropub_endpoints,
+
+  -- different places that tell us the server: HTTP Server header,
+  -- meta generator, rel-generator. all are incomplete. :/
+  ARRAY_AGG(DISTINCT (SELECT REGEXP_REPLACE(value, '/[0-9.]+', '') FROM p.headers WHERE name = 'Server')
+            IGNORE NULLS) AS servers,
+  ARRAY_AGG(DISTINCT (SELECT u FROM r.urls u WHERE r.value = 'generator'
+            LIMIT 1) IGNORE NULLS) AS rel_generators,
+  ARRAY_AGG(DISTINCT REGEXP_REPLACE(
+    REGEXP_EXTRACT(
+      -- find meta generator tags
+      REGEXP_EXTRACT(html, '<meta[^>]* name="generator"[^>]*>'),
+      -- extract content value
+      'content *= *[\'"]([^\'"]+)'),
+    -- drop version numbers
+    '[ :]*[0-9.]{2,}', '')
+    IGNORE NULLS) AS meta_generators,
+FROM indiemap.pages p, p.rels r, p.mf2_classes mf2c
 GROUP BY domain;
+
+
+-- Per site info for JSON data files, separated by unnest columns. First the singular columns:
+
+-- ...then mf2_classes:
+SELECT
+  domain,
+  ARRAY_AGG(DISTINCT m IGNORE NULLS) AS mf2_classes
+FROM indiemap.pages p, p.mf2_classes m
+GROUP BY domain;
+
+-- ...then rels:
+SELECT
+  domain,
+  -- TODO: these only look at the first endpoint on each page
+  ARRAY_AGG(DISTINCT (SELECT u FROM r.urls u WHERE r.value IN ('webmention', 'http://webmention.org/')
+            LIMIT 1) IGNORE NULLS) AS webmention_endpoints,
+  ARRAY_AGG(DISTINCT (SELECT u FROM r.urls u WHERE r.value IN ('micropub', 'http://micropub.net/')
+            LIMIT 1) IGNORE NULLS) AS micropub_endpoints,
+  -- rel-generator for inferring server. different places that tell us the server: HTTP Server header,
+  -- meta generator, rel-generator. all are incomplete. :/
+  ARRAY_AGG(DISTINCT (SELECT REGEXP_REPLACE(value, '/[0-9.]+', '') FROM p.headers WHERE name = 'Server')
+            IGNORE NULLS) AS servers,
+  ARRAY_AGG(DISTINCT (SELECT u FROM r.urls u WHERE r.value = 'generator'
+            LIMIT 1) IGNORE NULLS) AS rel_generators,
+FROM indiemap.pages p, p.mf2_classes m
+GROUP BY domain;
+
+
+-- Rows with duplicate URLs. (Currently >750k!)
+SELECT p.url, COUNT(*) c
+FROM indiemap.pages p
+GROUP BY url
+HAVING c > 1
+ORDER BY c DESC
 
 
 -- Find rows with the biggest values in each column. Useful since BigQuery has
@@ -68,16 +124,14 @@ GROUP BY domain;
 -- query. (These queries aren't currently saved in BigQuery.)
 SELECT p.url, BYTE_LENGTH(html) len
 FROM indiemap.pages p
-GROUP BY p.url
 ORDER BY len DESC
 
 SELECT p.url, BYTE_LENGTH(mf2) len
 FROM indiemap.pages p
-GROUP BY p.url
 ORDER BY len DESC
 
-SELECT p.url, SUM(BYTE_LENGTH(p.u_urls)) len
-FROM indiemap.pages p
+SELECT p.url, SUM(BYTE_LENGTH(u)) len
+FROM indiemap.pages p, p.u_urls u
 GROUP BY p.url
 ORDER BY len DESC
 
@@ -106,7 +160,8 @@ FROM indiemap.pages p, p.mf2_classes m
 GROUP BY p.url
 ORDER BY len DESC
 
--- Alternative: run this (in tcsh) over the per site json.gz files.
+-- Alternative: run this (in tcsh) over the per site json.gz files...but it
+-- takes *forever*.
 -- foreach f (*.json.gz)
 --   echo `gzcat $f | wc -L`  $f
 -- end
