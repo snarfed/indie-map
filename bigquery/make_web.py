@@ -45,6 +45,25 @@ DIRECTION_WEIGHTS = {
 }
 MAX_BASE_LINKS = 500  # cap on number of link domains in base files
 
+def read_lines(filename):
+    with open(os.path.join(os.path.dirname(__file__), '../crawl', filename),
+              'rt', encoding='utf-8') as f:
+        return [line.strip() for line in f]
+
+TAGS = {tag: read_lines(filename) for tag, filename in (
+    ('bridgy', 'domains_bridgy_sent.txt'),
+    ('community', 'domains_community.txt'),
+    ('elder', 'domains_elders.txt'),
+    ('founder', 'domains_founders.txt'),
+    ('IRC', 'domains_irc_people.txt'),
+    ('tool', 'domains_tools.txt'),
+    ('webmention.io', 'domains_webmention.io.txt'),
+)}
+TAGS_NO_SUBDOMAINS = {
+    'micro.blog',
+    'withknown.com',
+}
+
 decimal.getcontext().prec = 3  # calculate/output scores at limited precision
 
 
@@ -172,6 +191,14 @@ def make_full(sites, single_links, *extras):
                                         reverse=True)),
         })
         site.update(all_extra[domain])
+
+        for tag, domains in TAGS.items():
+            for tag_domain in domains:
+                if (domain == tag_domain or (domain.endswith('.' + tag_domain) and
+                                             tag_domain not in TAGS_NO_SUBDOMAINS)):
+                    site.setdefault('tags', []).append(tag)
+                    break
+
         site.pop('mf2', None)
         site.pop('html', None)
         yield site

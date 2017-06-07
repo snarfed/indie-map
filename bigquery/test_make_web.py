@@ -143,6 +143,19 @@ class MakeWebTest(unittest.TestCase):
         for expected, actual in itertools.zip_longest(FULL, got):
             self.assertEqual(expected, actual)
 
+    def test_full_tags(self):
+        self.sites = [
+            {'domain': 'tantek.com'},
+            {'domain': 'x.indiewebify.me'},
+            {'domain': 'y.withknown.com'},
+        ]
+
+        got = list(make_web.make_full(self.sites, self.links))
+        self.assertEqual(['bridgy', 'elder', 'founder', 'IRC', 'webmention.io'],
+                         got[0]['tags'])
+        self.assertEqual(['community', 'tool'], got[1]['tags'])
+        self.assertNotIn('tags', got[2])
+
     @patch.object(make_web, 'MAX_BASE_LINKS', new=1)
     def test_base(self):
         got = make_web.make_base(self.full)
