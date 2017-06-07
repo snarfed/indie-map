@@ -8,13 +8,13 @@ Sites or parts of sites that we initially crawled but later excluded.
 * [dentaku.wazong.de](https://dentaku.wazong.de/): incomplete, but we do have 98k pages!
 * [dubiousdod.org](http://dubiousdod.org/): domain expired.
 * [halfanhour.blogspot.com/search](http://halfanhour.blogspot.com/search): search UI with infinite loop.
+* [huffduffer.com](https://huffduffer.com/): individual tag and login pages are omitted.
 * [indieweb.org](https://indieweb.org/): pages for single IRC messages, e.g. `/irc/????-??-??/line/...`.
 * [kinderfilmblog.de/?yr=...](http://kinderfilmblog.de/),
 * [kinderfilmblog.de/feed/my-calendar-ics?yr=...](http://kinderfilmblog.de/feed/my-calendar-ics),
 * [kinderfilmblog.de/tolle-kinderfilme/neuerscheinungen-dvd-und-blu-ray/?yr=...](http://kinderfilmblog.de/tolle-kinderfilme/neuerscheinungen-dvd-und-blu-ray/): infinite loops.
 * [kirilind.me/%5C%22/%5C%22/faq/%5C%22/...](http://kirilind.me/%5C%22/%5C%22/faq/%5C%22/): infinite loop.
 * [rhiaro.co.uk](http://rhiaro.co.uk/) defaults response content type to RDF (JSON), not HTML, so I sent it the Accept: text/html HTTP header to use content negotiation and get HTML. That header breaks Known, though, so I didn't send it to any other sites.
-* [huffduffer.com](https://huffduffer.com/): individual tag and login pages are omitted.
 * [thecommandline.net](http://thecommandline.net/): `/w/` is a MediaWiki instance, special pages (e.g. revision history) are incomplete.
 * [unrelenting.technology/git/](https://unrelenting.technology/git/): web interface to a bunch of git repos, including version history.
 * [waterpigs.co.uk/mentions/webmention/?wmtoken=...](https://waterpigs.co.uk/mentions/webmention/): generates a new token each time.

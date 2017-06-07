@@ -83,11 +83,14 @@ Notable sites:
 * [wirres.net](https://wirres.net/): large personal site with >300k pages.
 * [indieweb.org](https://indieweb.org/), naturally.
 * [chat.indieweb.org](https://chat.indieweb.org/): IRC transcripts from #indieweb[camp], #indieweb-dev, #microformats, and more.
-* [tantek.com](http://tantek.com/),
-  [aaronparecki.com](https://aaronparecki.com/),
-  [kevinmarks.com](http://www.kevinmarks.com/),
-  [caseorganic.com](http://caseorganic.com/): IndieWebCamp founders!
+* [aaronparecki.com](https://aaronparecki.com/),
+  [caseorganic.com](http://caseorganic.com/),
+  [crystalbeasley.com](http://crystalbeasley.com/),
+  [tantek.com](http://tantek.com/),
+  [kevinmarks.com](http://www.kevinmarks.com/), and
+  [werd.io](http://werd.io/): IndieWebCamp founders and elders!
 * [brid.gy](https://brid.gy/): large collection of h-cards with rel-mes.
+* [contrepoints.org](https://www.contrepoints.org/): fairly big online French newspaper.
 
 Crawler is basically just `xargs wget < domains.txt`. Details in [`crawl.sh`](https://github.com/snarfed/indie-map/blob/master/crawl/crawl.sh) and [`wget.sh`](https://github.com/snarfed/indie-map/blob/master/crawl/wget.sh).
 
