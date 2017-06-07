@@ -63,6 +63,14 @@ TAGS_NO_SUBDOMAINS = {
     'micro.blog',
     'withknown.com',
 }
+SERVERS = {
+    'Known http://withknown.com': 'Known',
+    'Known https://withknown.com': 'Known',
+}
+SERVER_TAGS = {
+    'Known',
+    'WordPress',
+}
 
 decimal.getcontext().prec = 3  # calculate/output scores at limited precision
 
@@ -192,12 +200,24 @@ def make_full(sites, single_links, *extras):
         })
         site.update(all_extra[domain])
 
+        # tags
         for tag, domains in TAGS.items():
             for tag_domain in domains:
                 if (domain == tag_domain or (domain.endswith('.' + tag_domain) and
                                              tag_domain not in TAGS_NO_SUBDOMAINS)):
                     site.setdefault('tags', []).append(tag)
                     break
+
+        # servers
+        for gen in site.pop('rel_generators', []) + site.pop('meta_generators', []):
+            gen = SERVERS.get(gen, gen)
+            servers = site.setdefault('servers', [])
+            if gen not in servers:
+                servers.append(gen)
+
+        for server in site.get('servers', []):
+            if server in SERVER_TAGS:
+                site.setdefault('tags', []).append(server)
 
         site.pop('mf2', None)
         site.pop('html', None)
@@ -248,13 +268,14 @@ def make_internal(full, domains):
         if i and i % 100 == 0:
             print('.', end='', flush=True)
         site['links'] = OrderedDict(
-            (domain, val) for domain, val in site['links'].items()
+            (domain, val) for domain, val in site.get('links', {}).items()
             if domain in domains)
 
     return internal
 
 
 def read_json(path):
+    print('Loading %s...' % path)
     fn = gzip.open if path.endswith('.gz') else open
     with fn(path, 'rt', encoding='utf-8') as f:
         return [json.loads(line) for line in f]
@@ -268,14 +289,15 @@ def json_dump(dir, objs):
 
 
 if __name__ == '__main__':
-    print('Loading input files...', end='', flush=True)
-    inputs = [read_json(path) for path in sys.argv]
+    inputs = [read_json(path) for path in sys.argv[1:]]
+    sites = inputs[0]
 
+    print('Loading site files...', end='', flush=True)
     full = list(make_full(*inputs))
     json_dump('full', full)
     json_dump('base', make_base(full))
 
     domains = set(s['domain'] for s in sites)
-    json_dump('internal', make_internal(sites, domains))
+    json_dump('internal', make_internal(full, domains))
 
     print()

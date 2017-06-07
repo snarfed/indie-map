@@ -156,6 +156,31 @@ class MakeWebTest(unittest.TestCase):
         self.assertEqual(['community', 'tool'], got[1]['tags'])
         self.assertNotIn('tags', got[2])
 
+    def test_full_server(self):
+        self.sites[0]['servers'] = ['apache', 'nginx']
+        self.sites[1].update({
+            'servers': ['apache'],
+            'rel_generators': ['Known https://withknown.com'],
+            'meta_generators': ['Known http://withknown.com'],
+        })
+        self.sites.append({
+            'domain': 'biff',
+            'meta_generators': ['WordPress'],
+        })
+
+        got = list(make_web.make_full(self.sites, self.links))
+        self.assertEqual(['apache', 'nginx'], got[0]['servers'])
+        self.assertNotIn('tags', got[0])
+
+        self.assertNotIn('rel_generators', got[1])
+        self.assertNotIn('meta_generators', got[1])
+        self.assertEqual(['apache', 'Known'], got[1]['servers'])
+        self.assertEqual(['Known'], got[1]['tags'])
+
+        self.assertNotIn('meta_generators', got[1])
+        self.assertEqual(['WordPress'], got[2]['servers'])
+        self.assertEqual(['WordPress'], got[2]['tags'])
+
     @patch.object(make_web, 'MAX_BASE_LINKS', new=1)
     def test_base(self):
         got = make_web.make_base(self.full)
