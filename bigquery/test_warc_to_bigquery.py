@@ -149,6 +149,10 @@ WARC_REQUEST_RECORD = warc_record(WARC_REQUEST)
 class WarcToBigQueryTest(unittest.TestCase):
   maxDiff = None
 
+  def setUp(self):
+    super(WarcToBigQueryTest, self).setUp()
+    warc_to_bigquery.seen_urls = set()
+
   def test_maybe_convert_not_response(self):
     self.assertIsNone(maybe_convert(WARC_HEADER_RECORD, 'foo'))
     self.assertIsNone(maybe_convert(WARC_METADATA_RECORD, 'foo'))
@@ -168,6 +172,14 @@ class WarcToBigQueryTest(unittest.TestCase):
       'headers': bar_json['headers'] + [{'name': 'XYZ', 'value': 'Baz'}],
     })
     self.assertEqual(bar_json, maybe_convert(bar_record, 'bar'))
+
+  def test_maybe_convert_dedupe_urls(self):
+    """Only convert the first response for a URL, then ignore the rest."""
+    record = warc_record(warc_response('foo', 'http://foo'))
+    self.assertEqual(BIGQUERY_JSON, maybe_convert(record, 'foo'))
+
+    record2 = warc_record(warc_response('bar', 'http://foo'))
+    self.assertIsNone(maybe_convert(record2, 'foo'))
 
   def test_links(self):
     record = warc_record(warc_response("""\
@@ -219,7 +231,7 @@ biff <a rel="c" class="w" href="" />
     }], maybe_convert(record, 'foo')['links'])
 
   def test_microformats(self):
-    for content, expected in (
+    for i, (content, expected) in enumerate((
         ('', []),
         ('foo', []),
         ('<div class="h-entry"></div>', ['h-entry']),
@@ -230,14 +242,14 @@ biff <a rel="c" class="w" href="" />
          ['h-adr', 'h-card', 'h-entry', 'h-feed']),
         # microformats1 backward compatibility
         ('<div class="hentry"></div>', ['h-entry']),
-    ):
-      record = warc_record(warc_response(content, 'http://foo'))
+    )):
+      record = warc_record(warc_response(content, 'http://foo/%s' % i))
       actual = maybe_convert(record, 'foo')['mf2_classes']
       with self.subTest(content=content):
         self.assertEqual(expected, actual)
 
   def test_rels(self):
-    for content, expected in (
+    for i, (content, expected) in enumerate((
         ('', []),
         ('<link rel="foo" href="http://x">',
          [{'value': 'foo', 'urls': ['http://x']}]),
@@ -247,14 +259,14 @@ biff <a rel="c" class="w" href="" />
         ('<link rel="foo" href="http://x"> <link rel="bar foo" href="http://y">',
          [{'value': 'foo', 'urls': ['http://x', 'http://y']},
           {'value': 'bar', 'urls': ['http://y']}]),
-    ):
-      record = warc_record(warc_response(content, 'http://foo'))
+    )):
+      record = warc_record(warc_response(content, 'http://foo/%s' % i))
       actual = maybe_convert(record, 'foo')['rels']
       with self.subTest(content=content):
         self.assertEqual(expected, actual)
 
   def test_u_urls(self):
-    for content, expected in (
+    for i, (content, expected) in enumerate((
         ('', []),
         ('foo', []),
         ('<div class="h-entry"></div>', []),
@@ -270,8 +282,8 @@ biff <a rel="c" class="w" href="" />
         # http://microformats.org/wiki/rel-bookmark#rel.3D.22bookmark.22
         ('<div class="hentry"><a rel="bookmark" href="http://baz" /></div>',
          ['http://baz']),
-    ):
-      record = warc_record(warc_response(content, 'http://foo'))
+    )):
+      record = warc_record(warc_response(content, 'http://foo/%s' % i))
       actual = maybe_convert(record, 'foo')['u_urls']
       with self.subTest(content=content):
         self.assertEqual(expected, actual)
@@ -384,12 +396,12 @@ biff <a rel="c" class="w" href="" />
   def test_utf8_url_and_html(self):
     url = 'http://foo/☕/post'
     body = 'Charles ☕ Foo'
-    response = warc_response(body, url) + '\r\n\r\n'
 
-    out = maybe_convert(warc_record(response), 'foo')
+    out = maybe_convert(warc_record(warc_response(body, url) + '\r\n\r\n'), 'foo')
     self.assertIn(body, out['html'])
 
-    got = self._run_main((response,))
+    url += '/1'
+    got = self._run_main((warc_response(body, url) + '\r\n\r\n',))
     self.assertEqual(url, got['url'])
     self.assertIn(body, got['html'])
 

@@ -41,6 +41,9 @@ MAX_ROW_SIZE = 10 * 1024 * 1024  # 10MB
 MAX_ROW_MESSAGE = '[OMITTED to keep BigQuery record under size limit]'
 MAX_LINKS = 10000
 
+# global, stores all seen URLs
+seen_urls = set()
+
 
 def main(warc_files):
   for in_filename in warc_files:
@@ -126,7 +129,7 @@ def maybe_convert(record, domain):
     return
 
   url = record.rec_headers.get('WARC-Target-URI')
-  if blacklist.URL_BLACKLIST_RE.search(url):
+  if url in seen_urls or blacklist.URL_BLACKLIST_RE.search(url):
     return
 
   assert domain
@@ -143,6 +146,10 @@ def maybe_convert(record, domain):
   body = UnicodeDammit(body_bytes).unicode_markup
   if not body:
     return
+
+  if url in seen_urls:
+    return
+  seen_urls.add(url)
 
   soup = BeautifulSoup(body, 'lxml')
 
