@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
-"""Generates a JSON file with Site records for each domain read from stdin.
+"""Generates a JSON file with sites records for multiple domains.
 
-See README.md for the Site table's schema.
+Reads a list of domains from stdin, one per line. Writes JSON to stdout to be
+imported into BigQuery sites table, one record per line.
+
+See README.md for the sites table's schema.
 
 BigQuery JSON format:
 https://cloud.google.com/bigquery/data-formats#json_format

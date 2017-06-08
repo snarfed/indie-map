@@ -192,9 +192,14 @@ def make_full(sites, single_links, *extras):
             print('.', end='', flush=True)
         site = OrderedDict(site)
         domain = site['domain']
+
         site.update(all_extra[domain])
         site.pop('mf2', None)
         site.pop('html', None)
+
+        num_pages = site.get('num_pages')
+        if num_pages:
+            site['num_pages'] = int(num_pages)
 
         # tags
         tags = site.setdefault('tags', [])

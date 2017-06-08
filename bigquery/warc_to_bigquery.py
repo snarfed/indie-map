@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """Converts a WARC file to JSON Page records to be loaded into BigQuery.
 
+Usage: warc_to_bigquery.py site.warc.gz ...
+
+Writes to site.json.gz ... output files.
+
 See README.md for the Page table's schema.
 
 WARC file format:

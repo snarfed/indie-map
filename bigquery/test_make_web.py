@@ -37,7 +37,7 @@ SITES = [
     {'domain': 'bar', 'descriptions': ["this is, bar's site"], 'mf2': '', 'html': ''},
 ]
 EXTRA_1 = [
-    {'domain': 'foo', 'foo': 'fooey'},
+    {'domain': 'foo', 'foo': 'fooey', 'num_pages': '856'},
     {'domain': 'baz', 'baz': 'bazzey'},
 ]
 EXTRA_2 = [
@@ -49,6 +49,7 @@ FULL = [{
     'foo': 'fooey',
     'hcard': {'a': 'b'},
     'tags': [],
+    'num_pages': 856,
     'links_out': 14,
     'links_in': 12,
     'links': OrderedDict((

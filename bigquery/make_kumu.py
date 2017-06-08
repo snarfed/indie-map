@@ -36,7 +36,7 @@ def make(sites, elems_file, conns_file):
     """
     elems = csv.DictWriter(elems_file, fieldnames=(
         'Label', 'URL', 'Title', 'Description', 'Tags', 'Image', 'LinksIn',
-        'LinksOut'))
+        'LinksOut', 'Pages', 'Server', 'Mf2Classes'))
     elems.writeheader()
 
     conns = csv.DictWriter(conns_file, fieldnames=(
@@ -47,23 +47,25 @@ def make(sites, elems_file, conns_file):
         val = site.get(field)
         return val[0] if val else ''
 
-    for site in sites:
-        links = site['links']
-        if not links:
-            continue
+    def pipe(field):
+        return '|'.join(site.get(field) or [])
 
+    for site in sites:
         elems.writerow({
             'Label': site['domain'],
             'URL': first('urls'),
             'Title': first('names'),
             'Description': '\n'.join((first('names'), first('descriptions'))).strip(),
-            # 'Tags': ,
             'Image': first('pictures'),
             'LinksIn': site['links_in'],
             'LinksOut': site['links_out'],
+            'Pages': site.get('num_pages'),
+            'Tags': pipe('tags'),
+            'Server': pipe('servers'),
+            'Mf2Classes': pipe('mf2_classes'),
         })
 
-        for linked, data in links.items():
+        for linked, data in site['links'].items():
             out = data.get('out', {})
             out_links = sum(out.values())
             if not out_links:

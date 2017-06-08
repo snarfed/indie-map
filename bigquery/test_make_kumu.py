@@ -8,12 +8,20 @@ import unittest
 import make_kumu
 import test_make_web
 
+SITES = copy.deepcopy(test_make_web.FULL)
+SITES[0].update({
+    'tags': ['a', 'b'],
+    'num_pages': 99,
+    'servers': ['Apache', 'Nginx'],
+    'mf2_classes': ['h-card', 'h-event'],
+})
+
 ELEMENTS = """\
-Label,URL,Title,Description,Tags,Image,LinksIn,LinksOut\r
-foo,https://foo/ey,,,,,12,14\r
-bar,,,"this is, bar's site",,,8,4\r
-baz,,,,,,3,12\r
-more.com,,,,,,0,1\r
+Label,URL,Title,Description,Tags,Image,LinksIn,LinksOut,Pages,Server,Mf2Classes\r
+foo,https://foo/ey,,,a|b,,12,14,99,Apache|Nginx,h-card|h-event\r
+bar,,,"this is, bar's site",,,8,4,,,\r
+baz,,,,,,3,12,,,\r
+more.com,,,,,,0,1,,,\r
 """
 CONNECTIONS = """\
 From,To,Type,Label,Tags,Links,Strength\r
@@ -30,13 +38,10 @@ more.com,foo,,,other,1,1\r
 class MakeKumuTest(unittest.TestCase):
     maxDiff = None
 
-    def setUp(self):
-        self.full = copy.deepcopy(test_make_web.FULL)
-
     def test_make(self):
         elems = io.StringIO()
         conns = io.StringIO()
-        make_kumu.make(self.full, elems, conns)
+        make_kumu.make(SITES, elems, conns)
 
         self.assertMultiLineEqual(ELEMENTS, elems.getvalue())
         self.assertMultiLineEqual(CONNECTIONS, conns.getvalue())
