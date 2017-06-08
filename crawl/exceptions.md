@@ -8,7 +8,7 @@ Sites or parts of sites that we initially crawled but later excluded.
 * [dentaku.wazong.de](https://dentaku.wazong.de/): incomplete, but we do have 98k pages!
 * [dubiousdod.org](http://dubiousdod.org/): domain expired.
 * [halfanhour.blogspot.com/search](http://halfanhour.blogspot.com/search): search UI with infinite loop.
-* [huffduffer.com](https://huffduffer.com/): individual tag and login pages are omitted.
+* [huffduffer.com](https://huffduffer.com/): includes most users (~8k) and huffduffed items (~330k of ~410k total). Individual tag and login pages are omitted.
 * [indieweb.org](https://indieweb.org/): pages for single IRC messages, e.g. `/irc/????-??-??/line/...`.
 * [kinderfilmblog.de/?yr=...](http://kinderfilmblog.de/),
 * [kinderfilmblog.de/feed/my-calendar-ics?yr=...](http://kinderfilmblog.de/feed/my-calendar-ics),
