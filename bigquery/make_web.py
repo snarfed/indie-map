@@ -18,6 +18,7 @@ See ../crawl/notes for details.
 """
 from collections import defaultdict, OrderedDict
 import copy
+from datetime import datetime
 import decimal
 from decimal import Decimal
 import gzip
@@ -28,6 +29,7 @@ import os
 # simplejson supports encoding Decimal, but json doesn't
 import simplejson as json
 import sys
+import time
 
 MF2_WEIGHTS = {
     'in-reply-to': 5,
@@ -218,6 +220,17 @@ def make_full(sites, single_links, *extras):
         for server in site.get('servers', []):
             if server in SERVER_TAGS:
                 site.setdefault('tags', []).append(server)
+
+        # crawl times
+        fetch = site.pop('fetch_time', None)
+        start = site.get('crawl_start')
+        end = site.get('crawl_end')
+        if start and end:
+            convert = lambda ts: datetime(*time.gmtime(int(ts))[:6]).isoformat('T')
+            site['crawl_start'] = convert(start)
+            site['crawl_end'] = convert(end)
+        elif fetch:
+            site['crawl_start'] = site['crawl_end'] = fetch
 
         site.pop('mf2', None)
         site.pop('html', None)

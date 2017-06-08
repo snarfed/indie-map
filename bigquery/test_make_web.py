@@ -181,6 +181,22 @@ class MakeWebTest(unittest.TestCase):
         self.assertEqual(['WordPress'], got[2]['servers'])
         self.assertEqual(['WordPress'], got[2]['tags'])
 
+    def test_full_fetch_crawl_times(self):
+        self.sites[0]['fetch_time'] = '2017-05-19T23:54:47.067044'
+        self.sites[1].update({
+            'crawl_start': '1493134946',
+            'crawl_end': '1493138613',
+        })
+
+        got = list(make_web.make_full(self.sites, self.links))
+
+        self.assertEqual('2017-05-19T23:54:47.067044', got[0]['crawl_start'])
+        self.assertEqual('2017-05-19T23:54:47.067044', got[0]['crawl_end'])
+        self.assertNotIn('fetch_time', got[0])
+
+        self.assertEqual('2017-04-25T15:42:26', got[1]['crawl_start'])
+        self.assertEqual('2017-04-25T16:43:33', got[1]['crawl_end'])
+
     @patch.object(make_web, 'MAX_BASE_LINKS', new=1)
     def test_base(self):
         got = make_web.make_base(self.full)
