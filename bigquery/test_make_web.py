@@ -48,6 +48,7 @@ FULL = [{
     'urls': ['https://foo/ey', 'nope'],
     'foo': 'fooey',
     'hcard': {'a': 'b'},
+    'tags': [],
     'links_out': 14,
     'links_in': 12,
     'links': OrderedDict((
@@ -76,6 +77,7 @@ FULL = [{
     'descriptions': ["this is, bar's site"],
     'bar': 'barrey',
     'hcard': {},
+    'tags': [],
     'links_out': 4,
     'links_in': 8,
     'links': OrderedDict((
@@ -93,6 +95,7 @@ FULL = [{
     'domain': 'baz',
     'baz': 'bazzey',
     'hcard': {},
+    'tags': [],
     'links_out': 12,
     'links_in': 3,
     'links': OrderedDict((
@@ -108,9 +111,10 @@ FULL = [{
     )),
 }, {
     'domain': 'more.com',
+    'tags': [],
+    'hcard': {},
     'links_out': 1,
     'links_in': 0,
-    'hcard': {},
     'links': OrderedDict((
         ('foo', {
             'out': {'other': 1},
@@ -144,17 +148,23 @@ class MakeWebTest(unittest.TestCase):
             self.assertEqual(expected, actual)
 
     def test_full_tags(self):
-        self.sites = [
-            {'domain': 'tantek.com'},
-            {'domain': 'x.indiewebify.me'},
-            {'domain': 'y.withknown.com'},
+        self.sites = [{
+            'domain': 'tantek.com',
+        }, {
+            'domain': 'x.indiewebify.me',
+            "webmention_endpoints": ["http://webmention.io/foo"],
+            "micropub_endpoints": [],
+        }, {
+            'domain': 'y.withknown.com',
+            "micropub_endpoints": ['https://y.withknown.com/micropub'],
+        },
         ]
 
         got = list(make_web.make_full(self.sites, self.links))
         self.assertEqual(['bridgy', 'elder', 'founder', 'IRC', 'webmention.io'],
                          got[0]['tags'])
-        self.assertEqual(['community', 'tool'], got[1]['tags'])
-        self.assertNotIn('tags', got[2])
+        self.assertEqual(['community', 'tool', 'webmention'], got[1]['tags'])
+        self.assertEqual(['micropub'], got[2]['tags'])
 
     def test_full_server(self):
         self.sites[0]['servers'] = ['apache', 'nginx']
@@ -170,7 +180,7 @@ class MakeWebTest(unittest.TestCase):
 
         got = list(make_web.make_full(self.sites, self.links))
         self.assertEqual(['apache', 'nginx'], got[0]['servers'])
-        self.assertNotIn('tags', got[0])
+        self.assertEqual([], got[0]['tags'])
 
         self.assertNotIn('rel_generators', got[1])
         self.assertNotIn('meta_generators', got[1])

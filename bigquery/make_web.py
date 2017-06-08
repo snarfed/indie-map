@@ -187,28 +187,28 @@ def make_full(sites, single_links, *extras):
     more_sites = [{'domain': domain} for domain in
                    sorted(from_domains - set(site['domain'] for site in sites))]
 
-    for i, site in enumerate(copy.deepcopy(sites) + more_sites):
+    for i, site in enumerate(sites + more_sites):
         if i and i % 100 == 0:
             print('.', end='', flush=True)
+        site = OrderedDict(site)
         domain = site['domain']
-        domain_links = links.get(domain, {})
-        site.update({
-            'hcard': json.loads(site.get('hcard', '{}')) or {},
-            'links_out': out_counts.get(domain) or 0,
-            'links_in': in_counts.get(domain) or 0,
-            'links': OrderedDict(sorted(domain_links.items(),
-                                        key=lambda item: item[1]['score'],
-                                        reverse=True)),
-        })
         site.update(all_extra[domain])
+        site.pop('mf2', None)
+        site.pop('html', None)
 
         # tags
+        tags = site.setdefault('tags', [])
         for tag, domains in TAGS.items():
             for tag_domain in domains:
                 if (domain == tag_domain or (domain.endswith('.' + tag_domain) and
                                              tag_domain not in TAGS_NO_SUBDOMAINS)):
-                    site.setdefault('tags', []).append(tag)
+                    tags.append(tag)
                     break
+
+        if site.get('webmention_endpoints'):
+            tags.append('webmention')
+        if site.get('micropub_endpoints'):
+            tags.append('micropub')
 
         # servers
         for gen in site.pop('rel_generators', []) + site.pop('meta_generators', []):
@@ -219,7 +219,7 @@ def make_full(sites, single_links, *extras):
 
         for server in site.get('servers', []):
             if server in SERVER_TAGS:
-                site.setdefault('tags', []).append(server)
+                tags.append(server)
 
         # crawl times
         fetch = site.pop('fetch_time', None)
@@ -232,8 +232,17 @@ def make_full(sites, single_links, *extras):
         elif fetch:
             site['crawl_start'] = site['crawl_end'] = fetch
 
-        site.pop('mf2', None)
-        site.pop('html', None)
+        # links
+        domain_links = links.get(domain, {})
+        site.update({
+            'hcard': json.loads(site.get('hcard', '{}')) or {},
+            'links_out': out_counts.get(domain) or 0,
+            'links_in': in_counts.get(domain) or 0,
+            'links': OrderedDict(sorted(domain_links.items(),
+                                        key=lambda item: item[1]['score'],
+                                        reverse=True)),
+        })
+
         yield site
 
 
