@@ -162,8 +162,9 @@ class MakeWebTest(unittest.TestCase):
         ]
 
         got = list(make_web.make_full(self.sites, self.links))
-        self.assertEqual(['bridgy', 'elder', 'founder', 'IRC', 'webmention.io'],
-                         got[0]['tags'])
+        self.assertEqual(
+            ['bridgy', 'elder', 'founder', 'IRC', 'IWS2017', 'webmention.io'],
+            got[0]['tags'])
         self.assertEqual(['community', 'tool', 'webmention'], got[1]['tags'])
         self.assertEqual(['micropub'], got[2]['tags'])
 

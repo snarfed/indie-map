@@ -58,6 +58,7 @@ TAGS = {tag: read_lines(filename) for tag, filename in (
     ('elder', 'domains_elders.txt'),
     ('founder', 'domains_founders.txt'),
     ('IRC', 'domains_irc_people.txt'),
+    ('IWS2017', 'domains_iws2017.txt'),
     ('tool', 'domains_tools.txt'),
     ('webmention.io', 'domains_webmention.io.txt'),
 )}
@@ -68,6 +69,8 @@ TAGS_NO_SUBDOMAINS = {
 SERVERS = {
     'Known http://withknown.com': 'Known',
     'Known https://withknown.com': 'Known',
+    'http://wordpress.org/': 'WordPress',
+    'https://wordpress.org/': 'WordPress',
 }
 SERVER_TAGS = {
     'Known',
