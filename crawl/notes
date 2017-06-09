@@ -5,8 +5,15 @@ extracting IWS 2017 domains
 ---
 cd ~/src/indie-map/crawl
 unset noclobber
-curl https://2017.indieweb.org/ | grep -A2 'class="profile-info"' | grep -o -E 'http[^"]+' | grep -v www.facebook.com | cut -d/ -f3 | sort | uniq > domains_iws2017.txt
+curl https://2017.indieweb.org/ | grep -A2 'class="profile-info"' | grep -o -E 'http[^"]+' | grep -v www.facebook.com | cut -d/ -f3 | sort | uniq | diff ~/src/indie-map/crawl/domains_iws2017.txt -
 join -v 1 domains_iws2017.txt domains.txt
+
+
+extracting wiki user domains
+---
+curl 'https://indieweb.org/wiki/index.php?title=Special:ListUsers&offset=Raik.co&limit=500' |grep -o -E '"User:[^" ]+' | cut -d: -f2 | grep .
+
+...and then follow 'next' links, e.g. &offset=Homefries.org , &offset=...
 
 
 kumu
@@ -37,6 +44,25 @@ duplicate pages
 ---
 ...because many warcs have dupe requests and responses for identical URL.
 459 domains have them!
+751878 URLs
+1625130 rows
+
+217043 to delete?
+
+example URLs in small site:
+http://lobpreiscamp.ostwind.zone/anmeldung-erforderlich/
+http://lobpreiscamp.ostwind.zone/events/lobpreis-camp-marienfried/
+http://lobpreiscamp.ostwind.zone/events/lobpreistag/
+
+
+# https://stackoverflow.com/a/3822833/186123
+WITH partitions AS (
+  SELECT ROW_NUMBER() OVER (PARTITION BY url ORDER BY fetch_time) row_num
+  FROM indiemap.pages
+)
+DELETE FROM partitions
+WHERE row_num > 1;
+
 top 20 by number of rows:
 
 domain	url 	COUNT(*) 	MIN(fetch_time) 	MAX(fetch_time)
@@ -56,15 +82,24 @@ domain	url 	COUNT(*) 	MIN(fetch_time) 	MAX(fetch_time)
 14 	airbornesurfer.com	http://airbornesurfer.com/gallery/index.php?/category/53	105	2017-04-27 07:56:34	2017-04-28 00:06:26
 15 	airbornesurfer.com	http://airbornesurfer.com/gallery/index.php?/categories/created-monthly-list	95	2017-04-27 07:57:10	2017-04-28 04:36:44
 16 	airbornesurfer.com	http://airbornesurfer.com/gallery/index.php?/category/79	89	2017-04-27 07:56:18	2017-04-28 13:02:36
+...
+751871 	https://colinwalker.blog/2017/05/02/02052017-1246/	2
+751872 	https://www.museum-digital.de/rdfetc/geonames_lesen.php?geon=3128760&tgn=7002808&lat=41.3850639&lon=2.1734035&zoom=9&lang=de	2
+751873 	https://www.museum-digital.de/bawue/singleimage.php?objektnum=7251&imagenr=18843	2
+751874 	https://www.museum-digital.de/rdfetc/gnd_lesen3.php?peid=31120	2
+751875 	https://www.museum-digital.de/st/index.php?t=objekt&oges=1219	2
+751876 	https://www.museum-digital.de/nat/index.php?&type=8&t=listen&inst_id=236&ort=4717&ftext=3	2
+751877 	https://www.museum-digital.de/nat/index.php?style=browse&type=4&instnr=72&t=listen&gesusa=469&oges=171500	2
+751878 	https://www.museum-digital.de/st/index.php?t=sammlung&gesusa=430
 
 
 add new sites
 ---
 # add to domains.txt
 ~/src/indie-map/crawl/crawl.sh OR ~/src/indie-map/crawl/wget.sh DOMAIN
+gsutil cp DOMAIN.warc.gz gs://indie-map/crawl/
 
 ~/src/indie-map/bigquery/warc_to_bigquery.py DOMAIN.warc.gz
-gsutil cp DOMAIN.warc.gz gs://indie-map/crawl/
 bq load --autodetect --source_format=NEWLINE_DELIMITED_JSON DOMAIN.json.gz
 
 # TODO convert to bigquery
@@ -111,7 +146,7 @@ to load warcs/json into bigquery
 ---
 https://cloud.google.com/bigquery/bq-command-line-tool
 
-gsutil -m cp -L *.warc.gz */*.warc.gz gs://indie-map/crawl/
+gsutil -m cp -L cp.log *.warc.gz */*.warc.gz gs://indie-map/crawl/
 
 ~/src/indie-map/bigquery/warc_to_bigquery.py */*.warc.gz >>& warc_to_bigquery.log &
 
@@ -169,6 +204,7 @@ journey
   common crawl (homepage screenshot)
   grid of overlap btw crawls screenshot
   nope, crawl myself
+  screenshot of wget.sh + crawl.sh
   obeyed robots.txt
   info wants to be free, data wants to be dirty
 
