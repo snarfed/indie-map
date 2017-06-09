@@ -206,6 +206,8 @@ def make_full(sites, single_links, *extras):
 
         # tags
         tags = site.setdefault('tags', [])
+        if site.get('rel_mes'):
+            tags.append('relme')
         for tag, domains in TAGS.items():
             for tag_domain in domains:
                 if (domain == tag_domain or (domain.endswith('.' + tag_domain) and

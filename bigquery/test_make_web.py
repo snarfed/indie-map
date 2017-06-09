@@ -160,12 +160,13 @@ class MakeWebTest(unittest.TestCase):
             'endpoints': {
                 'webmention': 'http://webmention.io/foo',
                 'micropub': None,
-            }
+            },
         }, {
             'domain': 'y.withknown.com',
             'endpoints': {
                 'micropub': 'https://y.withknown.com/micropub',
-            }
+            },
+            'rel_mes': ['x', 'y'],
         }]
 
         got = list(make_web.make_full(self.sites, self.links))
@@ -173,7 +174,7 @@ class MakeWebTest(unittest.TestCase):
             ['bridgy', 'elder', 'founder', 'IRC', 'IWS2017', 'webmention.io'],
             got[0]['tags'])
         self.assertEqual(['community', 'tool', 'webmention'], got[1]['tags'])
-        self.assertEqual(['micropub'], got[2]['tags'])
+        self.assertEqual(['relme', 'micropub'], got[2]['tags'])
 
         self.assertEqual({'webmention': 'http://webmention.io/foo'},
                          got[1]['endpoints'])
