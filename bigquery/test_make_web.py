@@ -49,6 +49,7 @@ FULL = [{
     'foo': 'fooey',
     'hcard': {'a': 'b'},
     'tags': [],
+    'endpoints': {},
     'num_pages': 856,
     'links_out': 14,
     'links_in': 12,
@@ -79,6 +80,7 @@ FULL = [{
     'bar': 'barrey',
     'hcard': {},
     'tags': [],
+    'endpoints': {},
     'links_out': 4,
     'links_in': 8,
     'links': OrderedDict((
@@ -97,6 +99,7 @@ FULL = [{
     'baz': 'bazzey',
     'hcard': {},
     'tags': [],
+    'endpoints': {},
     'links_out': 12,
     'links_in': 3,
     'links': OrderedDict((
@@ -113,6 +116,7 @@ FULL = [{
 }, {
     'domain': 'more.com',
     'tags': [],
+    'endpoints': {},
     'hcard': {},
     'links_out': 1,
     'links_in': 0,
@@ -153,13 +157,16 @@ class MakeWebTest(unittest.TestCase):
             'domain': 'tantek.com',
         }, {
             'domain': 'x.indiewebify.me',
-            "webmention_endpoints": ["http://webmention.io/foo"],
-            "micropub_endpoints": [],
+            'endpoints': {
+                'webmention': 'http://webmention.io/foo',
+                'micropub': None,
+            }
         }, {
             'domain': 'y.withknown.com',
-            "micropub_endpoints": ['https://y.withknown.com/micropub'],
-        },
-        ]
+            'endpoints': {
+                'micropub': 'https://y.withknown.com/micropub',
+            }
+        }]
 
         got = list(make_web.make_full(self.sites, self.links))
         self.assertEqual(
@@ -167,6 +174,9 @@ class MakeWebTest(unittest.TestCase):
             got[0]['tags'])
         self.assertEqual(['community', 'tool', 'webmention'], got[1]['tags'])
         self.assertEqual(['micropub'], got[2]['tags'])
+
+        self.assertEqual({'webmention': 'http://webmention.io/foo'},
+                         got[1]['endpoints'])
 
     def test_full_server(self):
         self.sites[0]['servers'] = ['apache', 'nginx']

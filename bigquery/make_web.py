@@ -213,10 +213,11 @@ def make_full(sites, single_links, *extras):
                     tags.append(tag)
                     break
 
-        if site.get('webmention_endpoints'):
-            tags.append('webmention')
-        if site.get('micropub_endpoints'):
-            tags.append('micropub')
+        # endpoints
+        site['endpoints'] = {name: url for name, url in
+                             (site.get('endpoints') or {}).items()
+                             if url}
+        tags.extend(site['endpoints'].keys())
 
         # servers
         for gen in site.pop('rel_generators', []) + site.pop('meta_generators', []):
