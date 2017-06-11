@@ -39,7 +39,7 @@ def main(warc_files):
       print(in_filename, end='', flush=True)
       with gzip.open(in_filename, 'rb') as input:
           for i, record in enumerate(warcio.ArchiveIterator(input)):
-              if i and i % 100 == 0:
+              if i and i % 1000 == 0:
                   print('.', end='', flush=True)
 
               rec_types[record.rec_type] += 1

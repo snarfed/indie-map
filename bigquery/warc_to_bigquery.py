@@ -137,6 +137,25 @@ def maybe_convert(record, domain):
   if url_domain != domain and not url_domain.endswith('.' + domain):
     return
 
+  row = {
+    'domain': url_domain,
+    'url': url,
+    'fetch_time': record.rec_headers.get('WARC-Date'),
+    'rels': [],  # placeholders so that key order is preserved
+    'u_urls': [],
+    'mf2_classes': [],
+    'mf2': '{}',
+    'headers': [{'name': name, 'value': value}
+                for name, value in sorted(record.http_headers.headers)],
+  }
+  content_length = record.http_headers.get('Content-Length')
+  if content_length and int(content_length) > MAX_ROW_SIZE:
+    row.update({
+      'html': MAX_ROW_MESSAGE,
+      'mf2': json.dumps({MAX_ROW_MESSAGE: None}),
+    })
+    return row
+
   # TODO: charset from HTTP header Content-Type
   #
   # use UnicodeDammit to gracefully handle response contents with invalid
@@ -162,21 +181,12 @@ def maybe_convert(record, domain):
   } for link in soup.find_all('link') + soup.find_all('a')
     if link.get('href')]
 
-  row = {
-    'domain': url_domain,
-    'url': url,
-    'fetch_time': record.rec_headers.get('WARC-Date'),
+  row.update({
     'links': links[:MAX_LINKS],
-    'rels': [],  # placeholders so that key order is preserved
-    'u_urls': [],
-    'mf2_classes': [],
-    'mf2': '{}',
-    'headers': [{'name': name, 'value': value}
-                for name, value in sorted(record.http_headers.headers)],
     # heuristic: check that HTML is <= 1/2 max size to avoid cost of serializing
     # this whole JSON object just to check its length.
     'html': body if len(body_bytes) <= MAX_ROW_SIZE / 2 else MAX_ROW_MESSAGE,
-  }
+  })
 
   try:
     mf2 = mf2py.parse(url=url, doc=soup)
