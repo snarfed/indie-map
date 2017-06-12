@@ -229,12 +229,13 @@ def make_full(sites, single_links, *extras):
         # its SQL work, so we split them here.
         # https://bigquery.cloud.google.com/savedquery/464705913036:2cf3275e38174a2a8f6a94811249af10
         http_re = re.compile('https?://')
-        endpoints = site.setdefault('endpoints', {})
+        endpoints = site.pop('endpoints', {})
         endpoints.update(ENDPOINT_OVERRIDES.get(domain, {}))
+        site['endpoints'] = {}
 
         for name, val in endpoints.items():
-            urls = endpoints[name] = []
             if val:
+                urls = site['endpoints'][name] = []
                 start = 0
                 for match in http_re.finditer(val, start + 1):
                     urls.append(val[start:match.start()])

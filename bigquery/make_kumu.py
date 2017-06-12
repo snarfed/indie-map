@@ -3,8 +3,8 @@
 
 Usage: make_kumu.py [DIR]
 
-Expects internal per-site JSON files in DIR, e.g. as created by make_web.py in
-the internal/ directory.
+Expects indie per-site JSON files in DIR, e.g. as created by make_web.py in
+the indie/ directory.
 
 Writes two output files to the current directory, kumu.elements.csv and
 kumu.connections.csv.

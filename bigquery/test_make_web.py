@@ -183,8 +183,7 @@ class MakeWebTest(unittest.TestCase):
         self.assertEqual(['community', 'tool', 'webmention'], got[1]['tags'])
         self.assertEqual(['relme', 'micropub'], got[2]['tags'])
 
-        self.assertEqual({'webmention': ['http://webmention.io/foo'],
-                          'micropub': []},
+        self.assertEqual({'webmention': ['http://webmention.io/foo']},
                          got[1]['endpoints'])
 
     def test_full_waterpigs_webmention_endpoint(self):
