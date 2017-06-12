@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """Sums up statistics for a set of WARC files.
 
+Usage: warc_stats.py site.warc.gz ...
+
+Writes to stdout.
+
 * total WARC file size (compressed, uncompressed)
 
 * records

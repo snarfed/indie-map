@@ -19,7 +19,7 @@ SITES[0].update({
 ELEMENTS = """\
 Label,URL,Title,Description,Tags,Image,LinksIn,LinksOut,Pages,Server,Mf2Classes\r
 foo,https://foo/ey,,,a|b,,12,14,99,Apache|Nginx,h-card|h-event\r
-bar,,,"this is, bar's site",,,8,4,,,\r
+bar,,,"this is, bar's site",token,,8,4,,,\r
 baz,,,,,,3,12,,,\r
 more.com,,,,,,0,1,,,\r
 """

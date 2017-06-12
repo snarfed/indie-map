@@ -40,9 +40,13 @@ EXTRA_1 = [
     {'domain': 'foo', 'foo': 'fooey', 'num_pages': '856'},
     {'domain': 'baz', 'baz': 'bazzey'},
 ]
-EXTRA_2 = [
-    {'domain': 'bar', 'bar': 'barrey'},
-]
+EXTRA_2 = [{
+    'domain': 'bar',
+    'bar': 'barrey',
+    'endpoints': {
+        'token': 'http://foohttps://baz',
+    },
+}]
 FULL = [{
     'domain': 'foo',
     'urls': ['https://foo/ey', 'nope'],
@@ -79,8 +83,10 @@ FULL = [{
     'descriptions': ["this is, bar's site"],
     'bar': 'barrey',
     'hcard': {},
-    'tags': [],
-    'endpoints': {},
+    'tags': ['token'],
+    'endpoints': {
+        'token': ['http://foo', 'https://baz'],
+    },
     'links_out': 4,
     'links_in': 8,
     'links': OrderedDict((
@@ -133,10 +139,10 @@ for site in BASE[:3]:
     site['links'] = dict(list(site['links'].items())[:1])
     site['links_truncated'] = True
 
-INTERNAL_DOMAINS = {'foo', 'bar'}
-INTERNAL = copy.deepcopy(FULL[:2])
-INTERNAL[0]['links'] = {'bar': INTERNAL[0]['links']['bar']}
-INTERNAL[1]['links'] = {'foo': INTERNAL[1]['links']['foo']}
+INDIE_DOMAINS = {'foo', 'bar'}
+INDIE = copy.deepcopy(FULL[:2])
+INDIE[0]['links'] = {'bar': INDIE[0]['links']['bar']}
+INDIE[1]['links'] = {'foo': INDIE[1]['links']['foo']}
 
 
 class MakeWebTest(unittest.TestCase):
@@ -159,7 +165,7 @@ class MakeWebTest(unittest.TestCase):
             'domain': 'x.indiewebify.me',
             'endpoints': {
                 'webmention': 'http://webmention.io/foo',
-                'micropub': None,
+                'micropub': '',
             },
         }, {
             'domain': 'y.withknown.com',
@@ -176,8 +182,20 @@ class MakeWebTest(unittest.TestCase):
         self.assertEqual(['community', 'tool', 'webmention'], got[1]['tags'])
         self.assertEqual(['relme', 'micropub'], got[2]['tags'])
 
-        self.assertEqual({'webmention': 'http://webmention.io/foo'},
+        self.assertEqual({'webmention': ['http://webmention.io/foo'],
+                          'micropub': []},
                          got[1]['endpoints'])
+
+    def test_full_waterpigs_webmention_endpoint(self):
+        self.sites[0] = {
+            'domain': 'waterpigs.co.uk',
+            'endpoints': {
+                'webmention': 'https://waterpigs.co.uk/mentions/webmention/?wmtoken=abc...https://waterpigs.co.uk/mentions/webmention/?wmtoken=xyz...',
+            },
+        }
+        self.assertEqual({
+            'webmention': ['https://waterpigs.co.uk/mentions/webmention/'],
+        }, list(make_web.make_full(self.sites, self.links))[0]['endpoints'])
 
     def test_full_server(self):
         self.sites[0]['servers'] = ['apache', 'nginx']
@@ -226,9 +244,9 @@ class MakeWebTest(unittest.TestCase):
         for expected, actual in itertools.zip_longest(BASE, got):
             self.assertEqual(expected, actual)
 
-    def test_internal(self):
-        got = make_web.make_internal(self.full, INTERNAL_DOMAINS)
-        for expected, actual in itertools.zip_longest(INTERNAL, got):
+    def test_indie(self):
+        got = make_web.make_indie(self.full, INDIE_DOMAINS)
+        for expected, actual in itertools.zip_longest(INDIE, got):
             self.assertEqual(expected, actual)
 
     def test_json_encode_decimal_0(self):
