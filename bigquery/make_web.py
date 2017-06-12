@@ -83,6 +83,7 @@ ENDPOINT_OVERRIDES = {
         'webmention': 'https://waterpigs.co.uk/mentions/webmention/',
     },
 }
+NUMERIC_FIELDS = frozenset(('num_pages', 'total_html_size'))
 
 decimal.getcontext().prec = 3  # calculate/output scores at limited precision
 
@@ -207,9 +208,10 @@ def make_full(sites, single_links, *extras):
         site.pop('mf2', None)
         site.pop('html', None)
 
-        num_pages = site.get('num_pages')
-        if num_pages:
-            site['num_pages'] = int(num_pages)
+        for field in NUMERIC_FIELDS:
+            val = site.get(field)
+            if val:
+                site[field] = int(val)
 
         # tags
         tags = site.setdefault('tags', [])
