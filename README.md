@@ -1,13 +1,8 @@
 Indie Map
 ===
-A queryable dataset of [IndieWeb](https://indieweb.org/) sites, pages, and inferred social graph.
+Indie Map is a social graph for the [IndieWeb](https://indieweb.org/), and the data to back it up.
 
 The individual sites and pages retain their original copyright. The rest of the dataset and this project are placed into the public domain. You may also use them under the [CC0 license](http://creativecommons.org/publicdomain/zero/1.0/).
-
-If I was to use a Graph DB instead of BigQuery:
-* [Appbase](https://appbase.io/)
-* [Real-Time Graph Database As a Service with Appbase](https://scotch.io/tutorials/real-time-graph-database-as-a-service-with-appbase)
-* [GrapheneDB](https://www.graphenedb.com)
 
 
 Statistics
@@ -66,31 +61,15 @@ Candidates:
 * [Qlik](http://www.qlik.com)
 * [Kumu](https://kumu.io): mapping UI
 
+If I was to use a Graph DB instead of BigQuery:
+* [Appbase](https://appbase.io/)
+* [Real-Time Graph Database As a Service with Appbase](https://scotch.io/tutorials/real-time-graph-database-as-a-service-with-appbase)
+* [GrapheneDB](https://www.graphenedb.com)
+
 
 Manual crawl
 ---
-Includes sites in [`crawl/domains.txt`](https://github.com/snarfed/indie-map/blob/master/crawl/domains.txt), which come from:
-* [indieweb.org/IRC_People](https://indieweb.org/IRC_People), as of 2017-04-23.
-* Sites [webmention.io](https://webmention.io/) has successfully sent at least one webmention to, as of 2017-04-29.
-* Sites [Bridgy](https://brid.gy/) has successfully sent at least one webmention to, as of 2017-04-23.
-
 Rough inclusion criteria: microformats2, webmention endpoint, or micropub endpoint. Subject to judgment, e.g. [achor.net](http://achor.net/) has mf2 but is a *massive* forum (>20G of HTML!) and doesn't really participate in the community otherwise.
-
-Notable sites:
-* [museum-digital.de](https://www.museum-digital.de/): massive digital catalog of  >34k museum artifacts from 84 museums. Includes h-cards and h-geos for many of the artifacts!
-* [huffduffer.com](https://huffduffer.com/): >400k podcast links marked up with mf2.
-* [loadaverage.org](https://loadaverage.org/): somewhat big Gnu Social instance. [Details.](https://wiki.loadaverage.org/about)
-* [wirres.net](https://wirres.net/): large personal site with >300k pages.
-* [indieweb.org](https://indieweb.org/), naturally.
-* [chat.indieweb.org](https://chat.indieweb.org/): IRC transcripts from #indieweb[camp], #indieweb-dev, #microformats, and more.
-* [aaronparecki.com](https://aaronparecki.com/),
-  [caseorganic.com](http://caseorganic.com/),
-  [crystalbeasley.com](http://crystalbeasley.com/),
-  [tantek.com](http://tantek.com/),
-  [kevinmarks.com](http://www.kevinmarks.com/), and
-  [werd.io](http://werd.io/): IndieWebCamp founders and elders!
-* [brid.gy](https://brid.gy/): large collection of h-cards with rel-mes.
-* [contrepoints.org](https://www.contrepoints.org/): fairly big online French newspaper.
 
 Crawler is basically just `xargs wget < domains.txt`. Details in [`crawl.sh`](https://github.com/snarfed/indie-map/blob/master/crawl/crawl.sh) and [`wget.sh`](https://github.com/snarfed/indie-map/blob/master/crawl/wget.sh).
 

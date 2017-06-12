@@ -35,6 +35,8 @@
 
 <p>You can fetch each site's data and individual social graph, ie other sites it links to and from, by fetching <code>/<em>DOMAIN</em>.json</code> from this site. For example, my own personal web site is <a href="http://www.indiemap.org/snarfed.org.json"><code>http://www.indiemap.org/snarfed.org.json</code></a>.</p>
 
+<p>The links sections in these files are limited to the top 500 linked sites, by score. If there are more, the <code>links_truncated</code> field will be <code>true</code>. You can get the full contents by fetching <code>/full/<em>DOMAIN</em>.json</code>. You can also get just the links to/from the sites within this dataset by fetching <code>/indie/<em>DOMAIN</em>.json</code>.</p>
+
 <p>Links with <code>rel="nofollow"</code> are excluded.</p>
 
 <p>The <code>hcard</code> field is the <a href="">representative h-card</a> from the sites's home page, extracted by <a href="https://github.com/kylewm/mf2util">mf2util</a> 0.5.0's <code>representative_hcard()</code>.</p>
@@ -124,6 +126,13 @@ Microformats2 class:
 <li><a href="https://indieweb.org/Special:ListUsers">indieweb.org/Special:ListUsers</a>,ie people who have logged into the IndieWeb wiki, as of 2017-06-09.</li>
 <li>Sites <a href="https://webmention.io/">webmention.io</a> has successfully sent at least one webmention to, as of 2017-04-29.</li>
 <li>Sites <a href="https://brid.gy/">Bridgy</a> has successfully sent at least one webmention to, as of 2017-04-23.</li>
+</ul>
+
+<p>Notable <em>missing</em> domains that we'd love to include:</p>
+
+<ul>
+<li>All hosted subdomains under <a href="https://withknown.com/">withknown.com</a>.</li>
+<li>All hosted subdomains under <a href="https://micro.blog/">micro.blog</a>.</li>
 </ul>
 
 <p>We also propose the modest criteria that a site is IndieWeb in a technical <a href="http://indieweb.org/plumbing">plumbing</a> sense if it has either microformats2, a webmention endpoint, or a micropub endpoint. Indie Map doesn't actually use that criteria anywhere, though.</p>

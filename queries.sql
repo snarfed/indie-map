@@ -38,10 +38,10 @@ SELECT
 FROM
   `indie-map.indiemap.canonical_pages` p,
   p.links l
-WHERE 'nofollow' NOT IN UNNEST (l.classes)
+WHERE 'nofollow' NOT IN UNNEST (l.rels)
 
 -- Social graph links
-SELECT from_domain, to_domain, mf2_class, COUNT(*)
+SELECT from_domain, to_domain, mf2_class, COUNT(*) num
 FROM indiemap.links_with_domains_mf2
 WHERE to_domain IS NOT NULL AND to_domain != from_domain
 GROUP BY from_domain, to_domain, mf2_class
@@ -114,7 +114,7 @@ GROUP BY domain;
 -- Rows with duplicate URLs. (Currently >750k!)
 SELECT p.url, COUNT(*) c
 FROM indiemap.pages p
-GROUP BY url
+GROUP BY p.url
 HAVING c > 1
 ORDER BY c DESC
 

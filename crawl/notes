@@ -1,12 +1,27 @@
 huffduffer file counting:
 find huffduffer.com -type f | grep -c -E '/[^/]+/[0-9]+\.html$'
 
+!!!
+CUTTING FOR STATS ETC ON 6/11/2017
+!!!
+
+canonical pages view
+---
+638974 in current view query
+
+1927101
+1927101 in new view
+1911131 in NOT
+3839650 in extras
+
+1927101 + 1911131 = 3838232
+
+
 extracting IWS 2017 domains
 ---
 cd ~/src/indie-map/crawl
 unset noclobber
 curl https://2017.indieweb.org/ | grep -A2 'class="profile-info"' | grep -o -E 'http[^"]+' | grep -v www.facebook.com | cut -d/ -f3 | sort | uniq | diff ~/src/indie-map/crawl/domains_iws2017.txt -
-join -v 1 domains_iws2017.txt domains.txt
 
 
 extracting wiki user domains
@@ -47,21 +62,65 @@ duplicate pages
 751878 URLs
 1625130 rows
 
-217043 to delete?
+873252 to delete!
+
+deleted 217043.
+
+now 656209 with dupes.
+
 
 example URLs in small site:
 http://lobpreiscamp.ostwind.zone/anmeldung-erforderlich/
 http://lobpreiscamp.ostwind.zone/events/lobpreis-camp-marienfried/
 http://lobpreiscamp.ostwind.zone/events/lobpreistag/
 
+attempts at delete query (none work yet)
+STATE: insert into new table with ROW_NUMBER() 1?
 
 # https://stackoverflow.com/a/3822833/186123
 WITH partitions AS (
   SELECT ROW_NUMBER() OVER (PARTITION BY url ORDER BY fetch_time) row_num
   FROM indiemap.pages
+  ORDER BY url
 )
 DELETE FROM partitions
 WHERE row_num > 1;
+
+# other
+WITH dupes AS (
+SELECT domain, url, fetch_time, COUNT(*) c
+FROM indiemap.pages
+GROUP BY domain, url, fetch_time
+HAVING c > 1
+ORDER BY c DESC
+)
+SELECT DISTINCT domain FROM dupes
+
+
+# this finds 217043. ran it on 6/9 4:17pm
+delete from indiemap.pages p
+where p.url IN (
+SELECT url
+FROM indiemap.pages
+GROUP BY url
+HAVING COUNT(*) > 1
+)
+AND fetch_time > (SELECT MIN(fetch_time) from indiemap.pages where url = p.url)
+
+
+select * from indiemap.pages p
+where p.url in (
+SELECT url
+FROM indiemap.pages
+GROUP BY url
+HAVING COUNT(*) > 1
+)
+-- SELECT url, ROW_NUMBER() OVER (PARTITION BY url ORDER BY fetch_time) as row_num
+-- FROM indiemap.pages
+-- GROUP BY url, fetch_time
+-- HAVING COUNT(*) > 1
+-- )
+
 
 top 20 by number of rows:
 
@@ -99,18 +158,22 @@ add new sites
 ~/src/indie-map/crawl/crawl.sh OR ~/src/indie-map/crawl/wget.sh DOMAIN
 gsutil cp DOMAIN.warc.gz gs://indie-map/crawl/
 
-~/src/indie-map/bigquery/warc_to_bigquery.py DOMAIN.warc.gz
-bq load --autodetect --source_format=NEWLINE_DELIMITED_JSON DOMAIN.json.gz
+~/src/indie-map/src/warc_to_bigquery.py DOMAIN.warc.gz
+bq load --autodetect --source_format=NEWLINE_DELIMITED_JSON indiemap.pages DOMAIN.json.gz
 
 # TODO convert to bigquery
-echo DOMAIN | ~/src/indie-map/bigquery/sites_to_bigquery.py | gzip > sites.json.gz
+echo DOMAIN | ~/src/indie-map/src/sites_to_bigquery.py | gzip > sites.json.gz
 bq load --autodetect --source_format=NEWLINE_DELIMITED_JSON indiemap.sites sites.json.gz
 
 # Run and download these BigQuery queries as JSON. TODO: for just the new domain(s).
 #
 # Social graph: links by mf2
-# https://bigquery.cloud.google.com/savedquery/464705913036:c1dce91deaed46a5bcf3452e5b781542
-#
+# https://bigquery.cloud.google.com/table/indie-map:indiemap.links_social_graph?tab=details
+# SELECT * FROM indiemap.links_social_graph
+
+save to table, export to JSON GZ
+
+then these, can download directly:
 # Sites: additional metadata
 # https://bigquery.cloud.google.com/savedquery/464705913036:23c4b0104dc24dff8371af71b3605a5f
 # https://bigquery.cloud.google.com/savedquery/464705913036:2cf3275e38174a2a8f6a94811249af10
@@ -118,13 +181,19 @@ bq load --autodetect --source_format=NEWLINE_DELIMITED_JSON indiemap.sites sites
 #
 # ...and then prune down waterpigs.co.uk's webmention endpoints manually in sites_extra_rels.json.
 
-~/src/indie-map/bigquery/make_web.py sites.json.gz social_graph_links.json sites_extra.json sites_rels.json sites_mf2.json
+~/src/indie-map/src/make_web.py sites.json.gz social_graph_links.json sites_extra.json sites_rels.json sites_mf2.json
 
 gsutil cp base/DOMAIN.json gs://www.indieweb.org/
 gsutil cp indieweb/DOMAIN.json gs://www.indieweb.org/indie/
 gsutil cp full/DOMAIN.json gs://www.indieweb.org/full/
 
-~/src/indie-map/bigquery/make_kumu.py .
+# all:
+cd ~/crawl
+gsutil -m cp -r indie full gs://www.indiemap.org/
+cd base
+gsutil -m cp * gs://www.indiemap.org/
+
+~/src/indie-map/src/make_kumu.py indie
 # Import kumu.elements.csv and kumu.connections.csv into https://kumu.io/
 
 
@@ -146,9 +215,9 @@ to load warcs/json into bigquery
 ---
 https://cloud.google.com/bigquery/bq-command-line-tool
 
-gsutil -m cp -L cp.log *.warc.gz */*.warc.gz gs://indie-map/crawl/
+gsutil -m cp -L cp.log *.warc.gz gs://indie-map/crawl/
 
-~/src/indie-map/bigquery/warc_to_bigquery.py */*.warc.gz >>& warc_to_bigquery.log &
+~/src/indie-map/src/warc_to_bigquery.py */*.warc.gz >>& warc_to_bigquery.log &
 
 bq load --replace --autodetect --source_format=NEWLINE_DELIMITED_JSON indiemap.pages
 
@@ -191,6 +260,14 @@ du -c -b *.warc.gz
 
 talk at IWS
 ---
+first slide: central FB vs decentralized indie web
+  central needs, not meaning only single implemention, just that implementations aggregate
+  auth
+  search
+  data mining, trends etc
+  social graph
+    strictly better than FB tw etc, since base on actual interaction!
+
 do more services examples:
   woodwind
   https://github.com/myfreeweb/micro-panel
@@ -200,6 +277,11 @@ do more services examples:
   indieauth servers: https://barryfrost.com/2017/05/acquiescence
 
 journey
+  two approaches w/projects like these: work with what people already have, or drive adoption of something new
+    indieweb does both. dns, web, blogs are former. webmention, micropub, mf2 (kinda) are latter
+    driving adoption is easier since you build exactly what you need...but slow and limited
+    it's for product ppl, i'm an eng, so i go with what exists, hence crawl!
+
   taco bell programming (taco bell company logo)
   common crawl (homepage screenshot)
   grid of overlap btw crawls screenshot
@@ -211,8 +293,9 @@ journey
 criteria:
   on exact domain
   text/html
-  if u-url or rel-canonical, points to same page
+  if rel-canonical, points to same page
     overcounts! feeds vs posts, etc
+    (tried u-url but badly too many false positives. excluded 2.2M out of 5.1M)
 
 social graph:
   basically what happens when your friend list meets pagerank
@@ -227,18 +310,26 @@ two indieweb projects/sites named flutterby?!
 http://www.flutterby.run/  https://github.com/hmans/flutterby
 https://www.flutterby.net/
 
+flawed!
+  not all sites! missing some hosted known, micro.blog, others
+  static crawl. may update, may not.
+  dupe url rows!
+  couldn't de-dupe canonical pages by top-level u-url. some worked, some didn't.
+    bridgy is worst offender: u-url on user pages points to silo profile. (who the hell came up with that?)
+
+last slide:
+https://opencollective.com/indieweb
 
 
 stats
 ---
-as of 5/26/2017:
-du -hsc {*/,}*.warc*.gz
-find . -name \*.warc\*.gz |xargs zgrep -c 'WARC-Type: request'
-find . -name \*.warc\*.gz |xargs zgrep -c 'WARC-Type: response'
-
 # run warc_stats.py
 # write charsets section to charsets file
 grep -E 'utf-?8' charsets |cut -d' ' -f -1
+
+5756899 pages
+5084713 canonical pages
+( https://bigquery.cloud.google.com/results/indie-map:bquijob_3cce851a_15c9aa55bf9 )
 
 
 debugging warc records w/python
@@ -330,7 +421,7 @@ then massage manually:
 \)?--
  
 
-.warc.gz
+^.+.warc.gz
 HTTP/1.1 403 Forbidden
 --
  
