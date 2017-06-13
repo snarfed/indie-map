@@ -18,7 +18,7 @@ import sys
 
 MF2_TO_TAG = {
     'in-reply-to': 'reply',
-    'invitee': 'invte',
+    'invitee': 'invite',
     'quotation-of': 'quotation',
     'repost-of': 'repost',
     'like-of': 'like',
@@ -26,6 +26,7 @@ MF2_TO_TAG = {
     'bookmark-of': 'bookmark',
     'other': 'other',
 }
+
 
 def make(sites, elems_file, conns_file):
     """Converts site JSON web objects to Kumu importable CSV files.
@@ -40,7 +41,7 @@ def make(sites, elems_file, conns_file):
     elems.writeheader()
 
     conns = csv.DictWriter(conns_file, fieldnames=(
-        'From', 'To', 'Type', 'Label', 'Tags', 'Links', 'Strength'))
+        'From', 'To', 'Tags', 'Links', 'Strength'))
     conns.writeheader()
 
     def first(field):
@@ -73,8 +74,6 @@ def make(sites, elems_file, conns_file):
             conns.writerow({
                 'From': site['domain'],
                 'To': linked,
-                # 'Type': ,
-                # 'Label': ,
                 'Tags': '|'.join(MF2_TO_TAG[cls] for cls in out.keys()),
                 'Links': out_links,
                 'Strength': data['score'],

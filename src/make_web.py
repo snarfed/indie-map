@@ -64,6 +64,8 @@ TAGS = {tag: read_lines(filename) for tag, filename in (
     ('webmention.io', 'domains_webmention.io.txt'),
 )}
 TAGS_NO_SUBDOMAINS = {
+    'aaronparecki.com',
+    'jackjamieson.net',
     'micro.blog',
     'withknown.com',
 }
@@ -82,6 +84,18 @@ ENDPOINT_OVERRIDES = {
         # uses unique random token query param for every page. ignore that.
         'webmention': 'https://waterpigs.co.uk/mentions/webmention/',
     },
+}
+PICTURE_OVERRIDES = {
+    'dougbeal.com': 'http://1.gravatar.com/avatar/4aef6f46cd0c5c51bbf5c15d4e66b35e',
+    'eliaslinked.com': 'https://eliaslinked.files.wordpress.com/2015/03/chrysanthemum.jpg',
+    'herestomwiththeweather.com': 'https://avatars2.githubusercontent.com/u/16299',
+    'jenson.org': 'https://jenson.org/wp-content/uploads/2015/12/160x160.jpg',
+    'micro.blog': 'https://micro.blog/images/splash_750.png',
+    'snarfed.org': 'https://snarfed.org/ryan.jpg',
+    'stuartzahn.net': 'http://stuartzahn.net/assets/img/avatar.jpg',
+    'updates.kip.pe': 'https://updates.kip.pe/file/d8baebb08ae6773d9404c29d611e3597',
+    'upon2020.com': 'http://upon2020.com/blog/wp-content/uploads/2014/09/portrait-for-upon20203.jpg',
+    'werd.io': 'https://werd.io/file/56c4b818bed7de5b507fa2a5',
 }
 NUMERIC_FIELDS = frozenset(('num_pages', 'total_html_size'))
 
@@ -212,6 +226,10 @@ def make_full(sites, single_links, *extras):
             val = site.get(field)
             if val:
                 site[field] = int(val)
+
+        picture = PICTURE_OVERRIDES.get(domain)
+        if picture:
+            site['pictures'] = [picture]
 
         # tags
         tags = site.setdefault('tags', [])

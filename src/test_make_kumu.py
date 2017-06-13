@@ -21,17 +21,17 @@ Label,URL,Title,Description,Tags,Image,LinksIn,LinksOut,Pages,Server,Mf2Classes\
 foo,https://foo/ey,,,a|b,,12,14,99,Apache|Nginx,h-card|h-event\r
 bar,,,"this is, bar's site",token,,8,4,,,\r
 baz,,,,,,3,12,,,\r
-more.com,,,,,,0,1,,,\r
+jenson.org,,,,bridgy|elder|IRC|IWS2017,https://jenson.org/wp-content/uploads/2015/12/160x160.jpg,0,1,,,\r
 """
 CONNECTIONS = """\
-From,To,Type,Label,Tags,Links,Strength\r
-foo,baz,,,other,3,1\r
-foo,bar,,,like|other,3,0.909\r
-foo,other.com,,,other,8,0.839\r
-bar,foo,,,quotation,4,1\r
-baz,foo,,,quotation,7,1\r
-baz,bar,,,other,5,0.604\r
-more.com,foo,,,other,1,1\r
+From,To,Tags,Links,Strength\r
+foo,baz,other,3,1\r
+foo,bar,like|other,3,0.909\r
+foo,other.com,other,8,0.839\r
+bar,foo,quotation,4,1\r
+baz,foo,quotation,7,1\r
+baz,bar,other,5,0.604\r
+jenson.org,foo,other,1,1\r
 """
 
 

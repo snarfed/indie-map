@@ -30,7 +30,7 @@ LINKS = [
     {'from_domain': 'baz', 'to_domain': 'bar', 'num': '5'},
     {'from_domain': 'baz', 'to_domain': 'foo', 'num': '7', 'mf2_class': 'u-quotation-of'},
     {'from_domain': 'foo', 'to_domain': 'other.com', 'num': '8'},
-    {'from_domain': 'more.com', 'to_domain': 'foo', 'num': '1'},
+    {'from_domain': 'jenson.org', 'to_domain': 'foo', 'num': '1'},
 ]
 SITES = [
     {'domain': 'foo', 'urls': ['https://foo/ey', 'nope'], 'hcard': '{"a": "b"}'},
@@ -74,7 +74,7 @@ FULL = [{
             'out': {'other': 8},
             'score': Decimal('.839'),  # ln(16) / ln(27)
         }),
-        ('more.com', {
+        ('jenson.org', {
             'in': {'other': 1},
             'score': 0,  # ln(1) / ln(27) == 0
         }),
@@ -121,10 +121,12 @@ FULL = [{
         }),
     )),
 }, {
-    'domain': 'more.com',
+    'domain': 'jenson.org',
     'tags': [],
     'endpoints': {},
     'hcard': {},
+    'pictures': ['https://jenson.org/wp-content/uploads/2015/12/160x160.jpg'],
+    'tags': ['bridgy', 'elder', 'IRC', 'IWS2017'],
     'links_out': 1,
     'links_in': 0,
     'links': OrderedDict((
