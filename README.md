@@ -2,7 +2,7 @@ Indie Map
 ===
 Indie Map is a public IndieWeb [IndieWeb](https://indieweb.org/) social graph and dataset. See [indiemap.org](http://www.indiemap.org/) for details.
 
-The individual sites and pages retain their original copyright. The rest of the dataset and this project are placed into the public domain. You may also use them under the [CC0 license](http://creativecommons.org/publicdomain/zero/1.0/).
+The individual sites and pages retain their original copyright. The rest of the dataset and this project are placed into the public domain. You may also use it under the [CC0 license](http://creativecommons.org/publicdomain/zero/1.0/).
 
 
 Statistics
