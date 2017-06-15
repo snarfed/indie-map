@@ -6,32 +6,41 @@
 <title>Indie Map</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="mobile-web-app-capable" content="yes"/>
+<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
+<div id="header">
+  <a href="/">Home</a>
+  | <a href="https://github.com/snarfed/indie-map">Source</a>
+  | <a href="https://indieweb.org/">#IndieWeb</a>
+</div>
 
-<h1><a href="/">Indie Map</a></h1>
+<div class="h-entry e-content">
+<div id="title">
+<h1><b><a href="/">Indie Map</a></b> is a public <a href="https://indieweb.org/">IndieWeb</a> social graph and dataset.</h1>
+</div>
 
 
 <ul>
-<li><a href="#social-graph">An interactive map</a> of the <a href="https://indieweb.org/">IndieWeb</a> social graph.</li>
-<li><a href="#api"></a></li>
-<li><a href="#dataset"></a></li>
-<li><a href="#crawl"></a></li>
+<li><a href="#social-graph-viz">Social graph interactive visualization</li>
+<li><a href="#social-graph-api">Social graph API</a></li>
+<li><a href="#dataset">Dataset and analytics</a></li>
+<li><a href="#crawl"></a>Crawled data</li>
 <li><a href="#sites">Sites included</a></li>
 </ul>
 
 <p>Indie Map is free, <a href="https://github.com/snarfed/indie-map">open source</a>, and placed into the public domain. It may alternatively be used under the <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0 license</a>. Crawled content remains the property of each site's owner and author, and subject to their existing copyright.</p>
 
 
-<h2 id="social-graph">Interactive social graph</h2>
+<h2 id="social-graph-viz">Interactive social graph</h2>
 
 <p><a href="https://kumu.io/snarfed/indie-map">Click here for an interactive map of the Indie Web social graph</a> powered by <a href="https://kumu.io/">Kumu</a>. It renders all sites and links, by score, and lets you filter by type, server, microformats2 classes, protocols supported (e.g. webmention and micropub), server, and more.</p>
 
 <p><a href="https://kumu.io/snarfed/indie-map"><img src="TODO" /></a></p>
 
 
-<h2 id="api">API</h2>
+<h2 id="social-graph-api">API</h2>
 
 <p>You can fetch each site's data and individual social graph, ie other sites it links to and from, by fetching <code>/<em>DOMAIN</em>.json</code> from this site. For example, my own personal web site is <a href="http://www.indiemap.org/snarfed.org.json"><code>http://www.indiemap.org/snarfed.org.json</code></a>.</p>
 
@@ -57,9 +66,11 @@ Microformats2 class:
 <li>other or none: 2x</li>
 </ul>
 
-<h2 id="dataset">BigQuery dataset</h2>
+<h2 id="dataset">Queryable dataset</h2>
 
 <p>The Indie Map dataset is available in Google's <a href="https://cloud.google.com/bigquery/">BigQuery</a> data warehouse, which supports modern Standard SQL queries. The dataset is <a href="https://bigquery.cloud.google.com/dataset/indie-map:indiemap"><code>indie-map:indiemap</code></a>. You'll need a Google account.</p>
+
+There's also a <a href="https://indiemap.herokuapp.com/public/dashboard/d46209c0-170d-49a7-a50d-8be64b577f36">Metabase dashboard</a> with analytics.
 
 <p>The dataset consists of two tables, <code>pages</code> and <code>sites</code>. Here are their schemas:</p>
 
@@ -107,6 +118,7 @@ Microformats2 class:
 
 <p>Webmention, Micropub, WebSub, and IndieAuth endpoints are only extracted from the first matching HTML <code>&lt;link&gt;</code> tag, not all, and not from HTTP headers. These bugs may be fixed in the future.</p>
 
+
 <h2 id="crawl">Crawled data</h2>
 
 <p>The raw crawl data from is available as a set of <a href="http://bibnum.bnf.fr/WARC/">WARC</a> files, one per site, which include full HTTP request and response metadata, headers, and raw response bodies.</p>
@@ -114,6 +126,7 @@ Microformats2 class:
 <p>The files are stored in <a href="https://cloud.google.com/storage/">Google Cloud Storage</a>, in the <code>gs://indie-map</code> bucket. You can access them <a href="https://console.cloud.google.com/storage/browser/indie-map/">via the web UI</a> and the <a href="https://cloud.google.com/storage/docs/quickstart-gsutil"><code>gsutil</code> CLI utility</a>, e.g. <code>gsutil cp gs://indie-map/crawl/<em>DOMAIN</em>.warc.gz</code>. You'll need a Google account.</p>
 
 <p>Sites were crawled between April and June 2017. Individual pages and sites are timestamped. Indie Map may be extended and updated in the future with new crawls. All crawls respect and obey <a href="http://robotstxt.org/">robots.txt</a> files.</p>
+
 
 <h2 id="sites">Sites included</h2>
 
@@ -146,6 +159,7 @@ Microformats2 class:
 <li><a href="https://www.contrepoints.org/">contrepoints.org</a>: online French newspaper with h-entrys and h-cards.</li>
 <li><a href="https://loadaverage.org/">loadaverage.org</a>: fairly big Gnu Social instance with mf2. <a href="https://wiki.loadaverage.org/about">Details.</a></li>
 <li><a href="https://wirres.net/">wirres.net</a>: large personal site with over 300k pages.</li>
+<li><a href="https://shkspr.mobi/">shkspr.mobi</a>: All of Shakespeare's plays and sonnets, paginated and formatted for mobile.</li>
 <li><a href="https://indieweb.org/">indieweb.org</a>, naturally.</li>
 <li><a href="https://chat.indieweb.org/">chat.indieweb.org</a>: IRC transcripts from #indieweb[camp], #indieweb-dev, #microformats, and more.</li>
 <li><a href="https://aaronparecki.com/">aaronparecki.com</a>,
@@ -201,12 +215,6 @@ Sites or parts of sites that we initially crawled but later excluded.
 <li><a href="http://www.xmlab.org/news/blog-post/">www.xmlab.org/news/blog-post/.../news/blog-post/...</a>: recursive URLs.</li>
 </ul>
 
-
-<div id="footer">
-  <a href="/docs.html">Docs</a>
-  | <a href="https://github.com/snarfed/indie-map">Source</a>
-  | <a href="http://indieweb.org/">#IndieWeb</a>
 </div>
-
 </body>
 </html>

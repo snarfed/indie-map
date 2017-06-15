@@ -1,0 +1,68 @@
+html, body {
+  min-height: 100%;
+}
+
+* {
+  color: #fed;
+  text-shadow: 1px 1px 2px black;
+}
+
+a:hover {
+  color: #dca;
+}
+
+#header {
+  text-align: right;
+}
+
+#title a {
+  text-decoration-color: #fed0;
+}
+
+#header, #home p , #home ul {
+  font-size: 1.5em;
+}
+
+#title {
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+#description {
+  text-align: center;
+  list-style: none;
+}
+
+body {
+  padding: 1em;
+  background: url(map-of-the-world.jpg) no-repeat center top;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#home .h-entry {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  max-width: 800px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  font-weight: 500;
+  color: #fed;
+}
+
+/* .bar { */
+/*   background-color: saddlebrown; */
+/* } */
+
+#description {
+  line-height: 1.6em;
+}
