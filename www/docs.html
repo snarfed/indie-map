@@ -27,7 +27,7 @@
 <div class="body">
 <div id="docs-body">
 
-<h1>Documentation</h1>
+<h1>Docs <!-- Documentation --></h1>
 
 <ul>
 <li><a href="#intro">Introduction</a></li>
@@ -37,7 +37,12 @@
   <li><a href="#social-graph-viz">Interactive visualization</li>
   </ul>
 <li><a href="#data-mining">Data mining</a></li>
-<li><a href="#crawl">Crawl data</a></li>
+<li><a href="#crawl">Crawl</a></li>
+  <ul>
+  <li><a href="#crawl-data">Data</a></li>
+  <li><a href="#crawl-methodology">Methodology</a></li>
+  <li><a href="#common-crawl">Common Crawl (historical)</a></li>
+  </ul>
 <li><a href="#sites">Sites included</a></li>
   <ul>
   <li><a href="#notable">Notable sites</a></li>
@@ -50,7 +55,7 @@
 <p>Support Indie Map by <a href="https://opencollective.com/indieweb">donating to the IndieWeb</a>!</p>
 
 
-<h2 id="social-graph">Introduction</h2>
+<h2 id="intro">Introduction</h2>
 
 <h2 id="social-graph">Social graph</h2>
 
@@ -144,20 +149,55 @@ There's also a <a href="http://metabase.indiemap.org/public/dashboard/d46209c0-1
 <p>Webmention, Micropub, WebSub, and IndieAuth endpoints are only extracted from the first matching HTML <code>&lt;link&gt;</code> tag, not all, and not from HTTP headers. These bugs may be fixed in the future.</p>
 
 
-<h2 id="crawl">Crawl data</h2>
+<h2 id="crawl">Crawl</h2>
+
+<h3 id="crawl-data">Data</h3>
 
 <p>The raw crawl data from is available as a set of <a href="http://bibnum.bnf.fr/WARC/">WARC</a> files, one per site, which include full HTTP request and response metadata, headers, and raw response bodies.</p>
 
 <p>The files are stored in <a href="https://cloud.google.com/storage/">Google Cloud Storage</a>, in the <code>gs://indie-map</code> bucket. You can access them for free <a href="https://console.cloud.google.com/storage/browser/indie-map/">via the web UI</a> and the <a href="https://cloud.google.com/storage/docs/quickstart-gsutil"><code>gsutil</code> CLI utility</a>, e.g. <code>gsutil cp gs://indie-map/crawl/<em>DOMAIN</em>.warc.gz</code>. You'll need a Google account.</p>
 
-<p>Sites were crawled <a href="https://indiemap.herokuapp.com/public/question/e5b392a6-1b30-41a3-ae87-bad03b8bbaac">between April and June 2017</a>. Individual pages and sites are timestamped. Indie Map may be extended and updated in the future with new crawls. All crawls respect and obey <a href="http://robotstxt.org/">robots.txt files</a>.</p>
+<p>Individual pages and sites are timestamped. Indie Map may be extended and updated in the future with new crawls.</p>
+
+<h3 id="crawl-methodology">Methodology</h3>
+
+<p>Sites were crawled with with <code><a href="https://www.gnu.org/software/wget/">wget</a></code> v1.19.1, <a href="https://indiemap.herokuapp.com/public/question/e5b392a6-1b30-41a3-ae87-bad03b8bbaac">between April and June 2017</a>. Notable details:</p>
+
+<ul>
+<li><a href="http://robotstxt.org/"><code>robots.txt</code> files</a> were respected.</li>
+<li><code>wget</code>'s <code>--recursive</code> flag was used to follow links.</li>
+<li><code>&lt;a&gt;</code> tags were followed. <code>&lt;link&gt;</code> tags were not followed.</li>
+<li>Failed requests due to network connections, etc. were retried 5-10 times.</li>
+<li>HTTP requests timed out after 60-120s.</li>
+<li>Most sites were crawled at ~.3 <a href="http://en.wikipedia.org/wiki/Queries_per_second">qps</a> to prevent overloading them.</li>
+<li>Most HTTP requests used <code>User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:53.0) Gecko/20100101 Firefox/53.0</code>. Requests for some initial sites used <code>User-Agent: Wget/1.19.1</code>.</li>
+<li>URLS ending in these file extensions were ignored: <code>as atom avi bz2 bzip bzip2 css csv doc docx dvf epub exe gif GIF gz GZ gzip ico iso jar jpeg JPEG jpg JPG js json m4a m4b m4v mov mp3 mp4 mpg odt ogg pdf PDF png PNG ppt pptx ps rar rdf rss svg swf SWF tar txt text wav wma wmv xml xls xlsx xpi Z zip</code>.</li>
+<li><a href="https://github.com/snarfed/indie-map/blob/30a32b6d201ec3326250d4e187a38412d3998e4f/crawl/wget.sh#L8">Other URL patterns were ignored</a> to avoid infinite loop, randomly generated, duplicate, or otherwise low value pages.</li>
+<li><code>wget</code>'s <code>--warc-file</code> flag was used to output <a href="http://bibnum.bnf.fr/WARC/">WARC</a> files.</li>
+</ul>
+
+<p>Full invocation details in <a href="https://github.com/snarfed/indie-map/blob/master/crawl/wget.sh"><code>wget.sh</code></a>.</p>
+
+<h3 id="common-crawl">Common Crawl (historical)</h3>
+
+<p>I originally tried extracting IndieWeb sites from the <a href="http://commoncrawl.org/">Common Crawl</a>, but it turned out to be too incomplete and sparse. Each individual monthly crawl (averaging 2-3B pages) only includes a handful of sites, and only a handful of pages from those sites. They <a href="https://github.com/commoncrawl/cc-crawl-statistics/blob/master/plots/crawloverlap.md">deliberately spread out the URL space</a>, so I would have needed to process <em>all</em> of their crawls, and even then I probably wouldn't get all pages on the sites I care about.</p>
+
+<p>I considered ignoring domains in a blacklist that I know aren't IndieWeb, e.g. facebook.com and twitter.com. <a href="https://github.com/snarfed/bridgy/blob/master/domain_blacklist.txt">Bridgy's blacklist</a> and the Common Crawl's top 500 domains (<code>s3://commoncrawl/crawl-analysis/CC-MAIN-2017-13/stats/part-00000.gz</code>) were good sources. However, in the March 2017 crawl, those top 500 domains comprise just ~505M of the 3B total pages (ie 1/6), which isn't substantial enough to justify the risk of missing anything.</p>
+<p>Some parts of <a href="https://github.com/commoncrawl/cc-mrjob/">cc-mrjob</a> are included in the <code>commoncrawl/</code> subdirectory under the <a href="https://github.com/commoncrawl/cc-mrjob/blob/master/LICENSE">MIT License</a>.</p>
+<p>Related:</p>
+<ul>
+<li><a href="http://webdatacommons.org/structureddata/#toc1">Web Data Commons</a>: microformats etc</li>
+<li><a href="http://manu.sporny.org/2012/structured-data-searching/">Searching for Microformats, RDFa, and Microdata Usage in the Wild</a></li>
+<li><a href="http://postneo.com/2011/05/04/social-graph-analysis-using-elastic-mapreduce-and-pypy">Social Graph Analysis using Elastic MapReduce and PyPy</a></li>
+<li><a href="https://github.com/iipc/webarchive-commons">webarchive-commons</a></li>
+</ul>
 
 
 <h2 id="sites">Sites included</h2>
 
 <p>Any personal web site is IndieWeb in spirit! <em>Especially</em> if the owner uses it as some or all of their primary personal identity.</p>
 
-<p>For this dataset, we focused on web sites that have interacted with the IndieWeb community in some meaningful way. We tried to include as many of those as we could. The full list is in <a href="https://github.com/snarfed/indie-map/blob/master/crawl/domains.txt"><code>crawl/domains.txt</code></a>, which was compiled from:</p>
+<p>For this dataset, I focused on web sites that have interacted with the IndieWeb community in some meaningful way. I tried to include as many of those as I could. The full list is in <a href="https://github.com/snarfed/indie-map/blob/master/crawl/domains.txt"><code>crawl/domains.txt</code></a>, which was compiled from:</p>
 
 <ul>
 <li><a href="https://indieweb.org/IRC_People">indieweb.org/IRC_People</a>, as of 2017-04-23.</li>
@@ -173,10 +213,10 @@ There's also a <a href="http://metabase.indiemap.org/public/dashboard/d46209c0-1
 <li>All hosted subdomains under <a href="https://micro.blog/">micro.blog</a>.</li>
 </ul>
 
-<p>We also propose the modest criteria that a site is IndieWeb in a technical <a href="http://indieweb.org/plumbing">plumbing</a> sense if it has either <a href="http://microformats.org/wiki/microformats2">microformats2</a>, a webmention endpoint, or a micropub endpoint. Indie Map doesn't actually use that criteria anywhere, though.</p>
+<p>I also propose the modest criteria that a site is IndieWeb in a technical <a href="http://indieweb.org/plumbing">plumbing</a> sense if it has either <a href="http://microformats.org/wiki/microformats2">microformats2</a>, a webmention endpoint, or a micropub endpoint. Indie Map doesn't actually use that criteria anywhere, though.</p>
 
 
-<h3 id="#notable">Notable sites</h3>
+<h3 id="notable">Notable sites</h3>
 
 <ul>
 <li><a href="https://www.museum-digital.de/">museum-digital.de</a>: massive digital catalog of over 34k museum artifacts from 84 museums. Includes h-cards and h-geos for many of the artifacts.</li>
