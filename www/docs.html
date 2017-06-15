@@ -26,25 +26,35 @@
 
 <div class="body">
 <div id="docs-body">
+
+<h1>Documentation</h1>
+
 <ul>
-<li><a href="#social-graph-viz">Social graph interactive visualization</li>
-<li><a href="#social-graph-api">Social graph API</a></li>
-<li><a href="#dataset">Dataset and analytics</a></li>
-<li><a href="#crawl"></a>Crawled data</li>
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#social-graph">Social graph</a></li>
+  <ul>
+  <li><a href="#social-graph-api">API</a></li>
+  <li><a href="#social-graph-viz">Interactive visualization</li>
+  </ul>
+<li><a href="#data-mining">Data mining</a></li>
+<li><a href="#crawl">Crawl data</a></li>
 <li><a href="#sites">Sites included</a></li>
+  <ul>
+  <li><a href="#notable">Notable sites</a></li>
+  <li><a href="#exceptions">Exceptions</a></li>
+  </ul>
 </ul>
 
 <p>Indie Map is free, <a href="https://github.com/snarfed/indie-map">open source</a>, and placed into the public domain. It may alternatively be used under the <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0 license</a>. Crawled content remains the property of each site's owner and author, and subject to their existing copyright.</p>
 
-
-<h2 id="social-graph-viz">Interactive social graph</h2>
-
-<p><a href="https://kumu.io/snarfed/indie-map">Click here for an interactive map of the Indie Web social graph</a> powered by <a href="https://kumu.io/">Kumu</a>. It renders all sites and links, by score, and lets you filter by type, server, microformats2 classes, protocols supported (e.g. webmention and micropub), server, and more.</p>
-
-<p><a href="https://kumu.io/snarfed/indie-map"><img src="TODO" /></a></p>
+<p>Support Indie Map by <a href="https://opencollective.com/indieweb">donating to the IndieWeb</a>!</p>
 
 
-<h2 id="social-graph-api">API</h2>
+<h2 id="social-graph">Introduction</h2>
+
+<h2 id="social-graph">Social graph</h2>
+
+<h3 id="social-graph-api">API</h3>
 
 <p>You can fetch each site's data and individual social graph, ie other sites it links to and from, by fetching <code>/<em>DOMAIN</em>.json</code> from this site. For example, my own personal web site is <a href="http://www.indiemap.org/snarfed.org.json"><code>http://www.indiemap.org/snarfed.org.json</code></a>.</p>
 
@@ -52,7 +62,7 @@
 
 <p>Links with <code>rel="nofollow"</code> are excluded.</p>
 
-<p>The <code>hcard</code> field is the <a href="">representative h-card</a> from the sites's home page, extracted by <a href="https://github.com/kylewm/mf2util">mf2util</a> 0.5.0's <code>representative_hcard()</code>.</p>
+<p>The <code>hcard</code> field is the <a href="">representative h-card</a> from the site's home page, extracted by <a href="https://github.com/kylewm/mf2util">mf2util</a> 0.5.0's <code>representative_hcard()</code>.</p>
 
 <p>The <code>links</code> field is a list of other sites with links to and from this site, ordered by <code>score</code>, a calculated estimate of the connection strength. The formula is <code>ln(links) / ln (max links)</code>, where links is the total number of links to and from the site, <a href="https://github.com/snarfed/indie-map/blob/master/bigquery/make_web.py#L35">weighted by type</a>, and max links is the highest link count across all sites in this site's list. The weights are:</p>
 
@@ -70,11 +80,22 @@ Microformats2 class:
 <li>other or none: 2x</li>
 </ul>
 
-<h2 id="dataset">Queryable dataset</h2>
+
+<h3 id="social-graph-viz">Interactive visualization</h3>
+
+<p><a href="https://kumu.io/snarfed/indie-map">Click here for an interactive map of the Indie Web social graph</a>, powered by <a href="https://kumu.io/">Kumu</a>. It renders all sites and links, by score, and lets you navigate and filter by connections, type, server, microformats2 classes, protocols supported (e.g. webmention and micropub), and more.</p>
+
+<p>
+  <a href="https://kumu.io/snarfed/indie-map">
+    <img src="social_graph.jpg" width="990" style="max-width: 100%" />
+</a></p>
+
+
+<h2 id="data-mining">Data mining</h2>
 
 <p>The Indie Map dataset is available in Google's <a href="https://cloud.google.com/bigquery/">BigQuery</a> data warehouse, which supports modern Standard SQL queries. The dataset is <a href="https://bigquery.cloud.google.com/dataset/indie-map:indiemap"><code>indie-map:indiemap</code></a>. You'll need a Google account.</p>
 
-There's also a <a href="https://indiemap.herokuapp.com/public/dashboard/d46209c0-170d-49a7-a50d-8be64b577f36">Metabase dashboard</a> with analytics.
+There's also a <a href="http://metabase.indiemap.org/public/dashboard/d46209c0-170d-49a7-a50d-8be64b577f36">Metabase dashboard</a> with analytics.
 
 <p>The dataset consists of two tables, <code>pages</code> and <code>sites</code>. Here are their schemas:</p>
 
@@ -123,20 +144,20 @@ There's also a <a href="https://indiemap.herokuapp.com/public/dashboard/d46209c0
 <p>Webmention, Micropub, WebSub, and IndieAuth endpoints are only extracted from the first matching HTML <code>&lt;link&gt;</code> tag, not all, and not from HTTP headers. These bugs may be fixed in the future.</p>
 
 
-<h2 id="crawl">Crawled data</h2>
+<h2 id="crawl">Crawl data</h2>
 
 <p>The raw crawl data from is available as a set of <a href="http://bibnum.bnf.fr/WARC/">WARC</a> files, one per site, which include full HTTP request and response metadata, headers, and raw response bodies.</p>
 
-<p>The files are stored in <a href="https://cloud.google.com/storage/">Google Cloud Storage</a>, in the <code>gs://indie-map</code> bucket. You can access them <a href="https://console.cloud.google.com/storage/browser/indie-map/">via the web UI</a> and the <a href="https://cloud.google.com/storage/docs/quickstart-gsutil"><code>gsutil</code> CLI utility</a>, e.g. <code>gsutil cp gs://indie-map/crawl/<em>DOMAIN</em>.warc.gz</code>. You'll need a Google account.</p>
+<p>The files are stored in <a href="https://cloud.google.com/storage/">Google Cloud Storage</a>, in the <code>gs://indie-map</code> bucket. You can access them for free <a href="https://console.cloud.google.com/storage/browser/indie-map/">via the web UI</a> and the <a href="https://cloud.google.com/storage/docs/quickstart-gsutil"><code>gsutil</code> CLI utility</a>, e.g. <code>gsutil cp gs://indie-map/crawl/<em>DOMAIN</em>.warc.gz</code>. You'll need a Google account.</p>
 
-<p>Sites were crawled between April and June 2017. Individual pages and sites are timestamped. Indie Map may be extended and updated in the future with new crawls. All crawls respect and obey <a href="http://robotstxt.org/">robots.txt</a> files.</p>
+<p>Sites were crawled <a href="https://indiemap.herokuapp.com/public/question/e5b392a6-1b30-41a3-ae87-bad03b8bbaac">between April and June 2017</a>. Individual pages and sites are timestamped. Indie Map may be extended and updated in the future with new crawls. All crawls respect and obey <a href="http://robotstxt.org/">robots.txt files</a>.</p>
 
 
 <h2 id="sites">Sites included</h2>
 
 <p>Any personal web site is IndieWeb in spirit! <em>Especially</em> if the owner uses it as some or all of their primary personal identity.</p>
 
-<p>For this dataset, we focused on web sites that had interacted with the IndieWeb community in some meaningful way. We tried to include as many of those as we could. The full list is in <a href="https://github.com/snarfed/indie-map/blob/master/crawl/domains.txt"><code>crawl/domains.txt</code></a>, which was compiled from:</p>
+<p>For this dataset, we focused on web sites that have interacted with the IndieWeb community in some meaningful way. We tried to include as many of those as we could. The full list is in <a href="https://github.com/snarfed/indie-map/blob/master/crawl/domains.txt"><code>crawl/domains.txt</code></a>, which was compiled from:</p>
 
 <ul>
 <li><a href="https://indieweb.org/IRC_People">indieweb.org/IRC_People</a>, as of 2017-04-23.</li>
@@ -145,14 +166,14 @@ There's also a <a href="https://indiemap.herokuapp.com/public/dashboard/d46209c0
 <li>Sites <a href="https://brid.gy/">Bridgy</a> has successfully sent at least one webmention to, as of 2017-04-23.</li>
 </ul>
 
-<p>Notable <em>missing</em> domains that we'd love to include:</p>
+<p>Notable <em>missing</em> collections of sites that we'd love to include:</p>
 
 <ul>
 <li>All hosted subdomains under <a href="https://withknown.com/">withknown.com</a>.</li>
 <li>All hosted subdomains under <a href="https://micro.blog/">micro.blog</a>.</li>
 </ul>
 
-<p>We also propose the modest criteria that a site is IndieWeb in a technical <a href="http://indieweb.org/plumbing">plumbing</a> sense if it has either microformats2, a webmention endpoint, or a micropub endpoint. Indie Map doesn't actually use that criteria anywhere, though.</p>
+<p>We also propose the modest criteria that a site is IndieWeb in a technical <a href="http://indieweb.org/plumbing">plumbing</a> sense if it has either <a href="http://microformats.org/wiki/microformats2">microformats2</a>, a webmention endpoint, or a micropub endpoint. Indie Map doesn't actually use that criteria anywhere, though.</p>
 
 
 <h3 id="#notable">Notable sites</h3>
@@ -165,57 +186,56 @@ There's also a <a href="https://indiemap.herokuapp.com/public/dashboard/d46209c0
 <li><a href="https://wirres.net/">wirres.net</a>: large personal site with over 300k pages.</li>
 <li><a href="https://shkspr.mobi/">shkspr.mobi</a>: All of Shakespeare's plays and sonnets, paginated and formatted for mobile.</li>
 <li><a href="https://indieweb.org/">indieweb.org</a>, naturally.</li>
-<li><a href="https://chat.indieweb.org/">chat.indieweb.org</a>: IRC transcripts from #indieweb[camp], #indieweb-dev, #microformats, and more.</li>
+<li><a href="https://chat.indieweb.org/">chat.indieweb.org</a>: <a href="https://indieweb.org/discuss">IRC</a> transcripts from #indieweb[camp], #indieweb-dev, #microformats, and more.</li>
 <li><a href="https://aaronparecki.com/">aaronparecki.com</a>,
+<a href="https://adactio.com/">adactio.com</a>,
 <a href="http://caseorganic.com/">caseorganic.com</a>,
 <a href="http://crystalbeasley.com/">crystalbeasley.com</a>,
-<a href="http://tantek.com/">tantek.com</a>,
-<a href="https://adactio.com/">adactio.com</a>,
 <a href="http://www.kevinmarks.com/">kevinmarks.com</a>,
+<a href="http://tantek.com/">tantek.com</a>,
 <a href="http://werd.io/">werd.io</a>: IndieWebCamp founders and elders!</li>
 </ul>
 
 
 <h3 id="exceptions">Exceptions</h3>
 
-Sites or parts of sites that we initially crawled but later excluded.
+Sites or parts of sites that were excluded from the dataset.
 
 <ul>
-<li><a href="http://achor.net/">achor.net</a>: huge forum site, has mf2 but not really part of indieweb community.</li>
-<li><a href="http://adactio.com/extras/talklikeapirate/">adactio.com/extras/talklikeapirate/translate.php</a>: accepts any URL as input, injects into every link in output.</li>
-<li><a href="http://airbornesurfer.com/gallery/">airbornesurfer.com/gallery/</a>: massive set of photo galleries generated by <a href="http://piwigo.org">Piwigo</a></li>
-<li><a href="http://www.bakera.de/dokuwiki/doku.php/">www.bakera.de/dokuwiki/...</a>: wiki with lots of query params. Kept actual pages.</li>
+<li><a href="http://achor.net/">achor.net</a>: huge forum site with mf2.</li>
+<li><a href="http://adactio.com/extras/talklikeapirate/">adactio.com/extras/talklikeapirate/translate.php</a>: accepts any URL as input, transforms every link in output.</li>
+<li><a href="http://airbornesurfer.com/gallery/">airbornesurfer.com/gallery/...</a>: massive set of photo galleries generated by <a href="http://piwigo.org">Piwigo</a>.</li>
 <li><a href="http://c2.com/%7Eward/sudokant.cgi">c2.com/~ward/sudokant.cgi</a>: Sudoku solver CGI app, generates sudoku boards forever.</li>
 <li><a href="https://chat.indieweb.org/">chat.indieweb.org</a>: pages for single IRC messages, e.g. <code>/????-??-??/...</code>.</li>
-<li><a href="http://chriswarbo.net/git/">chriswarbo.net/git/…</a>: full git repos of many projects.</li>
-<li><a href="http://cyborganthropology.com/">cyborganthropology.com</a>: incomplete. MediaWiki, no mf2 or webmention or micropub.</li>
+<li><a href="http://chriswarbo.net/git/">chriswarbo.net/git/...</a>: web UI to large code repos.</li>
+<li><a href="http://cyborganthropology.com/">cyborganthropology.com</a>: MediaWiki special pages, e.g. revision history.</li>
 <li><a href="https://dentaku.wazong.de/">dentaku.wazong.de</a>: incomplete, but we do have 98k pages!</li>
-<li><a href="http://dev.subversive.audio/agenda/year:YYYY/month:MM">dev.subversive.audio/agenda/year:2101/month:06</a>: calendar that navigates into the future forever.</li>
-<li><a href="http://dracos.co.uk/made/bbc-news-archive/tardis/search-headline/?s=less">dracos.co.uk/made/bbc-news-archive/tardis/search-headline/…</a>: searchable archive of BBC News headlines.</li>
-<li><a href="http://dubiousdod.org/">dubiousdod.org</a>: domain expired.</li>
+<li><a href="http://dev.subversive.audio/agenda">dev.subversive.audio/agenda/...</a>: calendar that navigates into the future forever.</li>
+<li><a href="http://dracos.co.uk/made/bbc-news-archive/tardis/search-headline/">dracos.co.uk/made/bbc-news-archive/tardis/search-headline/...</a>: searchable archive of BBC News headlines.</li>
 <li><a href="http://fastwonderblog.com/category/ebook/speaking/consulting/speaking/speaking/">fastwonderblog.com/category/.../speaking/consulting/.../</a>: recursive URLs.</li>
 <li><a href="http://halfanhour.blogspot.com/search">halfanhour.blogspot.com/search</a>: search UI with infinite loop.</li>
-<li><a href="https://huffduffer.com/">huffduffer.com</a>: includes most users (~8k) and huffduffed items (~330k of ~410k total). Individual tag and login pages are omitted.</li>
+<li><a href="https://huffduffer.com/">huffduffer.com</a>: incomplete. Crawl only found 330k of estimated 410k items and 8k users. Tag and login pages are omitted.</li>
 <li><a href="https://indieweb.org/">indieweb.org</a>: pages for single IRC messages, e.g. <code>/irc/????-??-??/line/...</code>.</li>
 <li><a href="http://jothut.com/cgi-bin/junco.pl/">jothut.com/cgi-bin/junco.pl/blogpost/...%5C%22http://toledowinter.com/</a> (and toledotalk.com): odd recursive URL mirror.</li>
-<li><a href="http://kinderfilmblog.de/">kinderfilmblog.de/?yr=…</a>,</li>
-<li><a href="http://kinderfilmblog.de/feed/my-calendar-ics">kinderfilmblog.de/feed/my-calendar-ics?yr=…</a>,</li>
-<li><a href="http://kinderfilmblog.de/tolle-kinderfilme/neuerscheinungen-dvd-und-blu-ray/">kinderfilmblog.de/tolle-kinderfilme/neuerscheinungen-dvd-und-blu-ray/?yr=…</a>: infinite loops.</li>
-<li><a href="http://kirilind.me/%5C%22/%5C%22/faq/%5C%22/">kirilind.me/%5C%22/%5C%22/faq/%5C%22/…</a>: infinite loop.</li>
-<li><a href="http://michael.gorven.za.net/bzr/">michael.gorven.za.net/bzr/…</a>: many mirrors of large open source repos.</li>
+<li><a href="http://kinderfilmblog.de/">kinderfilmblog.de/?yr=...</a>,</li>
+<li><a href="http://kinderfilmblog.de/feed/my-calendar-ics">kinderfilmblog.de/feed/my-calendar-ics?yr=...</a>,</li>
+<li><a href="http://kinderfilmblog.de/tolle-kinderfilme/neuerscheinungen-dvd-und-blu-ray/">kinderfilmblog.de/tolle-kinderfilme/neuerscheinungen-dvd-und-blu-ray/?yr=...</a>: infinite loops.</li>
+<li><a href="http://kirilind.me/%5C%22/%5C%22/faq/%5C%22/">kirilind.me/%5C%22/%5C%22/faq/%5C%22/...</a>: infinite loop.</li>
+<li><a href="http://michael.gorven.za.net/bzr/">michael.gorven.za.net/bzr/...</a>:  web UI to large code repos.</li>
 <li><a href="http://nullroute.eu.org/mirrors/shoujoai.com/">nullroute.eu.org/mirrors/shoujoai.com/...</a>: large mirror of another unrelated site.</li>
-<li><a href="http://rhiaro.co.uk/">rhiaro.co.uk</a> defaults response content type to RDF (JSON), not HTML, so I sent it the Accept: text/html HTTP header to use content negotiation and get HTML. That header breaks Known, though, so I didn’t send it to any other sites.</li>
-<li><a href="http://thecommandline.net/">thecommandline.net</a>: <code>/w/</code> is a MediaWiki instance, special pages (e.g. revision history) are incomplete.</li>
+<!-- <li><a href="http://rhiaro.co.uk/">rhiaro.co.uk</a> defaults response content type to RDF (JSON), not HTML, so I sent it the Accept: text/html HTTP header to use content negotiation and get HTML. That header breaks Known, though, so I didn’t send it to any other sites.</li> -->
+<li><a href="http://thecommandline.net/wiki/">thecommandline.net/wiki/...</a>: MediaWiki special pages, e.g. revision history.</li>
 <li><a href="http://tilde.club/~odwyer/maze/...">tilde.club/~odwyer/maze/...</a>: random auto-generated maze.</li>
-<li><a href="https://unrelenting.technology/git/">unrelenting.technology/git/</a>: web interface to a bunch of git repos, including version history.</li>
-<li><a href="http://vasilis\.nl/random/daily/.../.*\.svg">vasilis.nl/random/daily/.../*.svg</a>: server-generated random images.</li>
-<li><a href="https://waterpigs.co.uk/mentions/webmention/">waterpigs.co.uk/mentions/webmention/?wmtoken=…</a>: generates a new token each time.</li>
+<li><a href="https://unrelenting.technology/git/">unrelenting.technology/git/...</a>: web UI to large code repos.</li>
+<li><a href="http://vasilis\.nl/random/daily/.../.*\.svg">vasilis.nl/random/daily/.../*.svg</a>: random generated images.</li>
+<li><a href="https://waterpigs.co.uk/mentions/webmention/">waterpigs.co.uk/mentions/webmention/?wmtoken=...</a>: infinite loop, with a new token each time.</li>
 <li><a href="https://webdesign.weisshart.de/suchen.php?">webdesign.weisshart.de/suchen.php?...</a>: search results.</li>
 <li><a href="http://wiki.projectnerdhaus.com/">wiki.projectnerdhaus.com</a>: MediaWiki special pages (e.g. revision history) are incomplete.</li>
+<li><a href="http://www.bakera.de/dokuwiki/doku.php/">www.bakera.de/dokuwiki/...</a>: wiki with lots of query params. Kept actual pages.</li>
 <li><a href="http://www.barbic.com.au/">www.barbic.com.au</a>: online shoe store.</li>
-<li><a href="http://www.downes.ca/">www.downes.ca</a>: a number of CGI pages that consistently 404ed all URLs: <code>dwiki/?id=...</code>, <code>/cgi-bin/website/refer.cgi?...</code>, <code>/cgi-bin/website/research.cgi?...</code>, <code>/cgi-bin/clist/clist.cgi?...</code></li>
+<li><a href="http://www.downes.ca/">www.downes.ca</a>: a number of CGI pages that consistently 404ed all URLs: <code>dwiki/?id=...</code> and <code>/cgi-bin/.../*.cgi?...</code></li>
 <li><a href="http://www.ogok.de/">www.ogok.de</a>: <code>/search?...</code>, combinatoric explosion of parameter values.</li>
-<li><a href="https://www.rmendes.net/">www.rmendes.net</a>: tag pages (<code>/tag/...</code>) are incomplete.</li>
+<li><a href="https://www.rmendes.net/">www.rmendes.net/tag/...</a>: incomplete.</li>
 <li><a href="http://www.xmlab.org/news/blog-post/">www.xmlab.org/news/blog-post/.../news/blog-post/...</a>: recursive URLs.</li>
 </ul>
 

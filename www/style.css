@@ -9,7 +9,7 @@ html, body {
   text-shadow: 1px 1px 2px black;
 }
 
-a:hover {
+#home a:hover, #docs-title a:hover {
   color: #dca;
 }
 
@@ -47,7 +47,6 @@ a:hover {
   background: url(map-of-the-world.jpg) no-repeat center top;
   background-size: cover;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
   -o-background-size: cover;
 }
 
@@ -64,6 +63,10 @@ a:hover {
 h1 {
   width: 100%;
   text-align: center;
+}
+
+#title h1
+{
   font-size: 3.5em;
   font-weight: 500;
   color: #fed;
@@ -73,9 +76,18 @@ h1 {
   line-height: 1.6em;
 }
 
+#docs-body h1, h2, h3 {
+  font-variant: small-caps;
+}
+
+#docs h2 {
+  margin-top: 2em;
+}
+
 #docs .body {
   background-color: papayawhip;
   padding: 1em;
+  font-size: 1.2em;
 }
 
 #docs-body {
@@ -84,4 +96,22 @@ h1 {
   margin-right: auto;
   padding-top: 1em;
   padding-bottom: 1em;
+}
+
+#docs-body a {
+  text-decoration: none;
+  color: #42f;
+}
+
+#docs-body a:hover {
+  color: #66f;
+}
+
+#docs-body a:visited {
+  color: #20b;
+}
+
+#docs-body img {
+  border: 1px solid silver;
+  box-shadow: .2em .2em .2em black;
 }
