@@ -17,7 +17,7 @@ echo $1 | ~/src/indie-map/src/sites_to_bigquery.py | gzip > site.$1.json.gz
 # bq load --source_format=NEWLINE_DELIMITED_JSON indiemap.sites site.$1.json.gz
 
 
-# # Social graph: links by mf2 (~50G)
+# # Social graph: links by mf2 (~50GB)
 # # https://bigquery.cloud.google.com/table/indie-map:indiemap.links_social_graph
 # bq --format=prettyjson query > links.$1.json <<EOF
 # SELECT * FROM indiemap.links_social_graph WHERE from_domain = $1 OR to_domain = $1
@@ -47,7 +47,7 @@ echo $1 | ~/src/indie-map/src/sites_to_bigquery.py | gzip > site.$1.json.gz
 # GROUP BY domain;
 # EOF
 
-# #  Sites: additional metadata: rels (~15G)
+# #  Sites: additional metadata: rels (~15GB)
 # # https://bigquery.cloud.google.com/savedquery/464705913036:2cf3275e38174a2a8f6a94811249af10
 # bq --format=prettyjson query > site_extra_rels.$1.json <<EOF
 # SELECT
@@ -70,7 +70,7 @@ echo $1 | ~/src/indie-map/src/sites_to_bigquery.py | gzip > site.$1.json.gz
 # GROUP BY domain;
 # EOF
 
-# #  Sites: additional metadata: mf2 classes (~15G)
+# #  Sites: additional metadata: mf2 classes (~15GB)
 # # https://bigquery.cloud.google.com/savedquery/464705913036:19a763c26f5440bdbcf2eeb12b806641
 # bq --format=prettyjson query > site_extra_mf2.$1.json <<EOF
 # SELECT domain, ARRAY_AGG(DISTINCT m IGNORE NULLS) AS mf2_classes

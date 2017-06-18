@@ -1,9 +1,47 @@
-huffduffer file counting:
-find huffduffer.com -type f | grep -c -E '/[^/]+/[0-9]+\.html$'
+stats
+---
+Statistics
+---
+* Total http requests, bytes (currently 77G of gzipped WARCs)
+* Complete crawl duration (start, end times)
+* HTML pages fetched (ie HTTP 200), bytes
+  bigquery: pages 4,056,693
+* Links: total, internal
+  bigquery: links 481,054,340, link classes 198,121,176
+* mf2 classes, instances
+* Pages with mf2, webmention endpoint, micropub endpoint, auth endpoint
+  * Distinct endpoints
+* Conversion time (WARC => BigQuery): ~60h, 5/25-5/27
 
-!!!
-CUTTING FOR STATS ETC ON 6/11/2017
-!!!
+from WARCs:
+* total WARC file size (compressed, uncompressed)
+* records
+* requests
+* responses
+* URLs (request and response):
+  * host
+  * pay level domain
+  * TLD
+  * SSL or no
+* HTTP status code
+* HTTP version
+
+from BigQuery pages:
+* # pages
+* response size
+* min, max timestamp
+* URLs (request and response):
+  * host
+  * pay level domain
+  * TLD
+  * https vs http
+* response headers:
+  * Content-Type, including encoding
+  * Server
+  * Content-Length
+  * X-Powered-By
+  * Last-Modified
+
 
 canonical pages view
 ---
@@ -15,44 +53,6 @@ canonical pages view
 3839650 in extras
 
 1927101 + 1911131 = 3838232
-
-
-extracting IWS 2017 domains
----
-cd ~/src/indie-map/crawl
-unset noclobber
-curl https://2017.indieweb.org/ | grep -A2 'class="profile-info"' | grep -o -E 'http[^"]+' | grep -v www.facebook.com | cut -d/ -f3 | sort | uniq | diff ~/src/indie-map/crawl/domains_iws2017.txt -
-
-
-extracting wiki user domains
----
-curl 'https://indieweb.org/wiki/index.php?title=Special:ListUsers&offset=Raik.co&limit=500' |grep -o -E '"User:[^" ]+' | cut -d: -f2 | grep .
-
-...and then follow 'next' links, e.g. &offset=Homefries.org , &offset=...
-
-
-kumu
----
-- views for individual tags (founder, elder, tool, people == not tool/community etc)
-- decorate links, change color by strength, blue gradient
-
-
-logos
----
-http://aomori.deviantart.com/art/Old-map-204506263
-old_map_by_aomori.png
-
-https://pixabay.com/en/map-of-the-world-old-historically-2241469/
-map-of-the-world.png
-
-https://pixabay.com/p-148263/
-cartoon-map.png
-
-https://pixabay.com/en/treasure-map-treasure-hunt-153425/
-cartoon-treasure-map.png
-
-https://pixabay.com/p-163722/?no_redirect
-compass-map.jpg
 
 
 duplicate pages
@@ -122,203 +122,7 @@ HAVING COUNT(*) > 1
 -- )
 
 
-top 20 by number of rows:
 
-domain	url 	COUNT(*) 	MIN(fetch_time) 	MAX(fetch_time)
-1 	singpolyma.net	https://singpolyma.net/2006/10/feed-links-in-beta/	18511	2017-04-25 09:52:40	2017-04-26 14:54:28
-2 	acegiak.net	https://acegiak.net/2015/06/09/acegiak/	13692	2017-04-23 22:42:46	2017-04-25 14:01:38
-3 	lostfocus.de	https://lostfocus.de/	3292	2017-04-29 14:39:19	2017-04-29 21:16:53
-4 	www.contrepoints.org	https://www.contrepoints.org/404-introuvable	2807	2017-05-06 08:16:35	2017-05-07 20:04:06
-5 	community.geoloqi.com	http://community.geoloqi.com/entry/signin/	2460	2017-04-30 22:28:44	2017-05-01 00:38:48
-6 	www.contrepoints.org	https://www.contrepoints.org/2015/05/26/208841-contrepoints-a-une-nouvelle-application-ios-android	2403	2017-05-06 08:19:22	2017-05-07 18:59:27
-7 	community.geoloqi.com	http://community.geoloqi.com/entry/register/	1555	2017-04-30 22:31:44	2017-05-01 00:38:49
-8 	www.contrepoints.org	http://www.contrepoints.org/	477	2017-05-06 09:12:25	2017-05-07 17:06:31
-9 	airbornesurfer.com	http://airbornesurfer.com/gallery/index.php?/categories/posted-monthly-list	195	2017-04-27 07:57:09	2017-04-28 04:23:14
-10 	www.contrepoints.org	https://www.contrepoints.org/	175	2017-05-06 07:19:21	2017-05-07 17:06:21
-11 	dasnuf.de	http://dasnuf.de/	162	2017-04-28 05:16:47	2017-04-28 08:35:51
-12 	www.jawl.net	https://www.jawl.net/	125	2017-05-06 07:19:22	2017-05-06 20:58:09
-13 	airbornesurfer.com	http://airbornesurfer.com/gallery/index.php?/category/2	115	2017-04-27 07:56:58	2017-04-28 03:24:26
-14 	airbornesurfer.com	http://airbornesurfer.com/gallery/index.php?/category/53	105	2017-04-27 07:56:34	2017-04-28 00:06:26
-15 	airbornesurfer.com	http://airbornesurfer.com/gallery/index.php?/categories/created-monthly-list	95	2017-04-27 07:57:10	2017-04-28 04:36:44
-16 	airbornesurfer.com	http://airbornesurfer.com/gallery/index.php?/category/79	89	2017-04-27 07:56:18	2017-04-28 13:02:36
-...
-751871 	https://colinwalker.blog/2017/05/02/02052017-1246/	2
-751872 	https://www.museum-digital.de/rdfetc/geonames_lesen.php?geon=3128760&tgn=7002808&lat=41.3850639&lon=2.1734035&zoom=9&lang=de	2
-751873 	https://www.museum-digital.de/bawue/singleimage.php?objektnum=7251&imagenr=18843	2
-751874 	https://www.museum-digital.de/rdfetc/gnd_lesen3.php?peid=31120	2
-751875 	https://www.museum-digital.de/st/index.php?t=objekt&oges=1219	2
-751876 	https://www.museum-digital.de/nat/index.php?&type=8&t=listen&inst_id=236&ort=4717&ftext=3	2
-751877 	https://www.museum-digital.de/nat/index.php?style=browse&type=4&instnr=72&t=listen&gesusa=469&oges=171500	2
-751878 	https://www.museum-digital.de/st/index.php?t=sammlung&gesusa=430
-
-
-add new sites
----
-# add to domains.txt
-~/src/indie-map/crawl/crawl.sh OR ~/src/indie-map/crawl/wget.sh DOMAIN
-gsutil cp DOMAIN.warc.gz gs://indie-map/crawl/
-
-~/src/indie-map/src/warc_to_bigquery.py DOMAIN.warc.gz
-bq load --autodetect --source_format=NEWLINE_DELIMITED_JSON indiemap.pages DOMAIN.json.gz
-
-# TODO convert to bigquery
-echo DOMAIN | ~/src/indie-map/src/sites_to_bigquery.py | gzip > sites.json.gz
-bq load --autodetect --source_format=NEWLINE_DELIMITED_JSON indiemap.sites sites.json.gz
-
-# Run and download these BigQuery queries as JSON. TODO: for just the new domain(s).
-#
-# Social graph: links by mf2
-# https://bigquery.cloud.google.com/table/indie-map:indiemap.links_social_graph?tab=details
-# SELECT * FROM indiemap.links_social_graph
-
-save to table, export to JSON GZ
-
-then these, can download directly:
-# Sites: additional metadata
-# https://bigquery.cloud.google.com/savedquery/464705913036:23c4b0104dc24dff8371af71b3605a5f
-# https://bigquery.cloud.google.com/savedquery/464705913036:2cf3275e38174a2a8f6a94811249af10
-# https://bigquery.cloud.google.com/savedquery/464705913036:19a763c26f5440bdbcf2eeb12b806641
-#
-# ...and then prune down waterpigs.co.uk's webmention endpoints manually in sites_extra_rels.json.
-
-~/src/indie-map/src/make_web.py sites.json.gz social_graph_links.json sites_extra.json sites_rels.json sites_mf2.json
-
-gsutil cp base/DOMAIN.json gs://www.indieweb.org/
-gsutil cp indieweb/DOMAIN.json gs://www.indieweb.org/indie/
-gsutil cp full/DOMAIN.json gs://www.indieweb.org/full/
-
-# all:
-cd ~/crawl
-gsutil -m cp -r indie full gs://www.indiemap.org/
-cd base
-gsutil -m cp * gs://www.indiemap.org/
-
-~/src/indie-map/src/make_kumu.py indie
-# Import kumu.elements.csv and kumu.connections.csv into https://kumu.io/
-
-
-
-to set up www.indiemap.org to serve from cloud storage
----
-# https://cloud.google.com/storage/docs/hosting-static-website
-
-gsutil cp www/index.html gs://www.indiemap.org/
-gsutil cp www/404.html gs://www.indiemap.org/
-gsutil acl ch -u AllUsers:R gs://www.indiemap.org/index.html
-gsutil web set -m index.html -e 404.html gs://www.example.com
-
-# https://cloud.google.com/storage/docs/access-control/create-manage-lists#defaultobjects
-gsutil defacl ch -u AllUsers:READER gs://www.indiemap.org
-
-
-to load warcs/json into bigquery
----
-https://cloud.google.com/bigquery/bq-command-line-tool
-
-gsutil -m cp -L cp.log *.warc.gz gs://indie-map/crawl/
-
-~/src/indie-map/src/warc_to_bigquery.py */*.warc.gz >>& warc_to_bigquery.log &
-
-bq load --replace --autodetect --source_format=NEWLINE_DELIMITED_JSON indiemap.pages
-
-bq load --replace --autodetect --source_format=NEWLINE_DELIMITED_JSON indiemap.sites sites.json
-
-https://bigquery.cloud.google.com/jobs/indie-map
-
-gsutil -m rsync ... as final sync
-
-then to check:
-
-# json
-# ---
-# files
-gsutil ls gs://indie-map/bigquery/\*.json.gz | wc
-1568
-ls -1 *.json.gz | wc
-1568
-
-# size
-gsutil du -sc gs://indie-map/bigquery/\*.json.gz
-39490981919
-du -c -b *.json.gz
-39490981919
-
-# warc
-# ---
-# files
-gsutil ls gs://indie-map/crawl/\*.warc.gz | wc
-1567
-ls -1 *.warc.gz | wc
-1567
-
-# size
-gsutil du -sc gs://indie-map/crawl/\*.warc.
-69869591482
-du -c -b *.warc.gz
-69869591482
-
-
-talk at IWS
----
-first slide: central FB vs decentralized indie web
-  central needs, not meaning only single implemention, just that implementations aggregate
-  auth
-  search
-  data mining, trends etc
-  social graph
-    strictly better than FB tw etc, since base on actual interaction!
-
-do more services examples:
-  woodwind
-  https://github.com/myfreeweb/micro-panel
-  p3k *, esp quill, OYG, OYS
-  unmung, hovercards
-  wm herokuapp, wm.io
-  indieauth servers: https://barryfrost.com/2017/05/acquiescence
-
-journey
-  two approaches w/projects like these: work with what people already have, or drive adoption of something new
-    indieweb does both. dns, web, blogs are former. webmention, micropub, mf2 (kinda) are latter
-    driving adoption is easier since you build exactly what you need...but slow and limited
-    it's for product ppl, i'm an eng, so i go with what exists, hence crawl!
-
-  taco bell programming (taco bell company logo)
-  common crawl (homepage screenshot)
-  grid of overlap btw crawls screenshot
-  nope, crawl myself
-  screenshot of wget.sh + crawl.sh
-  obeyed robots.txt
-  info wants to be free, data wants to be dirty
-
-criteria:
-  on exact domain
-  text/html
-  if rel-canonical, points to same page
-    overcounts! feeds vs posts, etc
-    (tried u-url but badly too many false positives. excluded 2.2M out of 5.1M)
-
-social graph:
-  basically what happens when your friend list meets pagerank
-
-spirit of indieweb is, anyone with web site as a primary identity online is indieweb!
-however, for this, needed concrete list of sites. wanted most addictive, central sites
-also, programmatic way to distinguish is mf2 or webmention or micropub, but didn't actually need that
-(estimate ~10k of those)
-not a service! a static dataset. (ok bigquery itself is a service. :P)
-
-two indieweb projects/sites named flutterby?!
-http://www.flutterby.run/  https://github.com/hmans/flutterby
-https://www.flutterby.net/
-
-flawed!
-  not all sites! missing some hosted known, micro.blog, others
-  static crawl. may update, may not.
-  dupe url rows!
-  couldn't de-dupe canonical pages by top-level u-url. some worked, some didn't.
-    bridgy is worst offender: u-url on user pages points to silo profile. (who the hell came up with that?)
-
-last slide:
-https://opencollective.com/indieweb
 
 
 stats
@@ -331,105 +135,3 @@ grep -E 'utf-?8' charsets |cut -d' ' -f -1
 5084713 canonical pages
 ( https://bigquery.cloud.google.com/results/indie-map:bquijob_3cce851a_15c9aa55bf9 )
 
-
-debugging warc records w/python
----
-import gzip
-from bs4 import BeautifulSoup, UnicodeDammit
-import mf2py
-import warcio
-
-with gzip.open('julieannenoying.com.warc.gz', 'rb') as input:
-  for i, record in enumerate(warcio.ArchiveIterator(input)):
-    if i == 178:
-      body = UnicodeDammit(record.content_stream().read()).unicode_markup
-      break
-
-record.rec_type
-record.rec_headers.get('WARC-Target-URI')
-print(body)
-
-
-fixing sites.json in place
----
-after eg:
-BigQuery error in load operation: Error processing job
-'indie-map:bqjob_r9dcbd6e76f81db0_0000015c29d469ee_1': JSON table encountered too many
-errors, giving up. Rows: 57; errors: 1.
-Failure details:
-- file-00000000: JSON parsing error in row starting at position
-3088711: . Only optional fields can be set to NULL. Field: names;
-Value: NULL
-
-
-grep '"names": \[[^]]*null[^]]*\]' sites.json |cut -d, -f1
-
-{"domain": "andrijevik.net"
-{"domain": "lispel.de"
-{"domain": "techlifeweb.com"
-{"domain": "wordpresstest.ndox.de"
-{"domain": "anny-cant-sleep.de"
-{"domain": "circusriot.tumblr.com"
-{"domain": "ryandc.wordpress.com"
-{"domain": "silencematters.com"
-{"domain": "traveltonic.net"
-
-sed -i '' 's/"names":\ \[null\]/"names":\ []/' sites.json
-sed -i '' 's/"names":\ \[null,\ /"names":\ [/' sites.json
-sed -i '' 's/"names":\ \["Jeremy Zilar",\ null,/"names":\ ["Jeremy Zilar",/' sites.json
-
-
-
-to find finished sites from wget logs
----
-zgrep -B1 -E ^FINISHED *.gz
-
-remove ones with connection failures just before FINISHED:
-Unable to establish SSL connection.
-Read error (Operation timed out) in headers.
-
-duplicate domain lines, one each with .warc.gz, one without. then:
-xargs mv -t old3_finished/ < finished
-
-
-to find redirected root domains
----
-
-foreach f (*.warc.gz)
-echo --
-echo $f
-gzcat $f | head -n 100 | grep -m 2 -A20 -E '^HTTP/1\.[01] (30.|403)' | grep -E '^(HTTP/1|Location:)'
-end
-
-then massage manually:
-
-.+\.warc\.gz
---
- 
-
-^\(.+\)\.warc\.gz
-.+
-[Ll]ocation: https://\1/?.*
-\(HTTP.*
-\)?--
- 
-
-^\(.+\)\.warc\.gz
-.+
-[Ll]ocation: /.*
-\(HTTP.*
-\)?--
- 
-
-^.+.warc.gz
-HTTP/1.1 403 Forbidden
---
- 
-
-
-^.+\.warc\.gz
-.+
-[Ll]ocation: https?://\([^/]+\)/?.*
-\(HTTP.*
-\)?--
- \1
