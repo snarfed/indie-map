@@ -17,15 +17,13 @@
   | <a href="https://indieweb.org/">#IndieWeb</a>
 </div>
 
-<div class="h-entry e-content">
-<div id="title">
+<div id="title" class="container">
 <h1><b><a href="/">Indie Map</a></b> is a public <a href="https://indieweb.org/">IndieWeb</a> social graph and dataset.</h1>
 </div>
 </div>
-</div>
 
-<div class="body">
-<div id="docs-body">
+<div class="body container">
+<div id="docs-body" class="h-entry e-content">
 
 <h1>Docs <!-- Documentation --></h1>
 
@@ -50,12 +48,21 @@
   </ul>
 </ul>
 
-<p>Indie Map is free, <a href="https://github.com/snarfed/indie-map">open source</a>, and placed into the public domain. It may also be used under the <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0 license</a>. Crawled content remains the property of each site's owner and author, and subject to their existing copyright.</p>
+
+<h2 id="intro">Introduction</h2>
+
+<p>Indie Map is a complete crawl of 2300 of the most active <a href="https://indieweb.org/">IndieWeb</a> sites, sliced and diced and piled up high in a few useful ways:</p>
+
+<ul>
+<li>Social graph <a href="/docs.html#api">API</a> and <a href="map.html">interactive map</a>.</li>
+<li><a href="/docs.html#dataset">SQL queryable dataset</a> and <a href="http://metabase.indiemap.org/">GUI analytics tool.</a>
+<li><a href="docs.html#crawl">Raw crawl data</a> in <a href="http://bibnum.bnf.fr/WARC/">WARC</a> format: <a href="https://github.com/snarfed/indie-map/blob/master/crawl/domains.txt">2300 sites</a>, 5.7M pages, 380GB HTML + <a href="http://microformats.org/wiki/microformats2">mf2</a>.</li>
+</ul>
+
+<p>Indie Map is free, <a href="https://github.com/snarfed/indie-map">open source</a>, and placed into the public domain. It may also be used under the <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0 license</a>. Crawled content remains the property of each site's owner and author, and subject to their existing copyrights.</p>
 
 <p>Support Indie Map by <a href="https://opencollective.com/indieweb">donating to the IndieWeb</a>!</p>
 
-
-<h2 id="intro">Introduction</h2>
 
 <h2 id="social-graph">Social graph</h2>
 
@@ -85,15 +92,14 @@ Microformats2 class:
 <li>other or none: 2x</li>
 </ul>
 
+<p>Webmention, Micropub, WebSub, and IndieAuth endpoints are only extracted from the first matching HTML <code>&lt;link&gt;</code> tag, not all, and not from HTTP headers. These bugs may be fixed in the future.</p>
+
 
 <h3 id="social-graph-viz">Interactive visualization</h3>
 
-<p><a href="https://kumu.io/snarfed/indie-map">Click here for an interactive map of the Indie Web social graph</a>, powered by <a href="https://kumu.io/">Kumu</a>. It renders all sites and links, by score, and lets you navigate and filter by connections, type, server, microformats2 classes, protocols supported (e.g. webmention and micropub), and more.</p>
+<p><a href="/map.html">Click here for an interactive map of the Indie Web social graph</a>, powered by <a href="https://kumu.io/">Kumu</a>. It renders all sites and links, by score, and lets you navigate and filter by connections, type, server, microformats2 classes, protocols supported (e.g. webmention and micropub), and more.</p>
 
-<p>
-  <a href="https://kumu.io/snarfed/indie-map">
-    <img src="social_graph.jpg" width="990" style="max-width: 100%" />
-</a></p>
+<p><a href="/map.html"><img src="social_graph.jpg" width="990" style="max-width: 100%" /></a></p>
 
 
 <h2 id="data-mining">Data mining</h2>
@@ -102,35 +108,112 @@ Microformats2 class:
 
 There's also a <a href="http://metabase.indiemap.org/public/dashboard/d46209c0-170d-49a7-a50d-8be64b577f36">Metabase dashboard</a> with analytics.
 
+<!--
 <p>The dataset consists of two tables, <code>pages</code> and <code>sites</code>. Here are their schemas:</p>
 
-<h3><code>pages</code></h3>
-<ul>
-<li><code>url</code>, string</li>
-<li><code>domain</code></li>
-<li><code>fetch_time</code>: fetch timestamp</li>
-<li><code>headers</code>: HTTP response headers, array of (name, value)</li>
-<li><code>HTML</code>: raw page content</li>
-<li><code>links</code>: outbound links extracted from <code>href</code>s of <code>a</code> and <code>link</code> tags. array of (URL, inner HTML, HTML tag (<code>a</code> or <code>link</code>), array of rel values, array of classes)</li>
-<li><code>mf2</code>: full JSON mf2 parsed from page by <a href="https://github.com/tommorris/mf2py/issues">mf2py</a> 1.0.5, encoded as string. Can query in BiqQuery with <a href="https://cloud.google.com/bigquery/docs/reference/legacy-sql#json_extract"><code>JSON_EXTRACT</code></a> plus <a href="https://code.google.com/p/jsonpath">JSONPath</a>.</li>
-<li><code>mf2_classes</code>: array of unique mf2 classes found in page</li>
-<li><code>rels</code>: array of <code>rel</code> values from parsed mf2</li>
-<li><code>u_urls</code>: array of unique top-level mf2 <code>u-url</code>s</li>
-</ul>
+TODO: mention canonical_pages
 
+<h3><code>pages</code></h3>
+
+<table class="schema">
+<tr>
+  <th>Field name</th>
+  <th>Type</th>
+  <th>Description</th>
+</tr><tr>
+  <td>url</td>
+  <td>string</td>
+  <td></td>
+</tr><tr>
+  <td>domain</td>
+  <td>string</td>
+  <td></td>
+</tr><tr>
+  <td>fetch_time</td>
+  <td>timestamp</td>
+  <td></td>
+</tr><tr>
+  <td>headers</td>
+  <td>array&lt; <br />&nbsp;
+      string name <br />&nbsp;
+      string value <br />
+      &gt;</td>
+  <td>HTTP response headers</td>
+</tr><tr>
+  <td>html</td>
+  <td>string</td>
+  <td></td>
+</tr><tr>
+  <td>mf2</td>
+  <td>string</td>
+  <td>parsed mf2, JSON encoded</td>
+</tr><tr>
+  <td>links</td>
+  <td>array&lt;<br />&nbsp;
+      tag string <br />&nbsp;
+      url string <br />&nbsp;
+      classes array&lt;string&gt; <br />&nbsp;
+      rels array&lt;string&gt; <br />&nbsp;
+      inner_html string <br />
+      &gt;</td>
+  <td>outbound links extracted from <code>a</code> and <code>link</code> tags</td>
+</tr><tr>
+  <td>mf2_classes</td>
+  <td>array&lt;string&gt;</td>
+  <td>all mf2 class names present in the page</td>
+</tr><tr>
+  <td>rels</td>
+  <td>array&lt; <br />&nbsp;
+      value string <br />&nbsp;
+      urls array&lt;string&gt; <br />
+      &gt;</td>
+  <td>links with <code>rel</code> values</td>
+</tr><tr>
+  <td>u_urls</td>
+  <td>array&lt;string&gt;</td>
+  <td>unique top-level mf2 <code>u-url</code>s</td>
+</tr>
+</table>
+
+<p>The <code>mf2</code> field is generated by <a href="https://github.com/tommorris/mf2py/issues">mf2py</a> 1.0.5. You can query it in BiqQuery with <a href="https://cloud.google.com/bigquery/docs/reference/legacy-sql#json_extract"><code>JSON_EXTRACT</code></a> and <a href="https://code.google.com/p/jsonpath">JSONPath</a>.</p>
+
+
+links_out 	INTEGER 	NULLABLE 	
+links_in 	INTEGER 	NULLABLE 	
+endpoints 	RECORD 	NULLABLE 	
+endpoints.token 	STRING 	REPEATED 	
+endpoints.authorization 	STRING 	REPEATED 	
+endpoints.micropub 	STRING 	REPEATED 	
+endpoints.websub 	STRING 	REPEATED 	
+endpoints.generator 	STRING 	REPEATED 	
+endpoints.webmention 	STRING 	REPEATED 	
+tags 	STRING 	REPEATED 	
+servers 	STRING 	REPEATED 	
+total_html_size 	INTEGER 	NULLABLE 	
+domain 	STRING 	NULLABLE 	
+names 	STRING 	REPEATED 	
+mf2_classes 	STRING 	REPEATED 	
+crawl_end 	TIMESTAMP 	NULLABLE 	
+descriptions 	STRING 	REPEATED 	
+crawl_start 	TIMESTAMP 	NULLABLE 	
+pictures 	STRING 	REPEATED 	
+hcard 	STRING 	NULLABLE 	
+urls 	STRING 	REPEATED 	
+rel_mes 	STRING 	REPEATED 	
+num_pages 	INTEGER 	NULLABLE 	
 
 <h3><code>sites</code></h3>
 <ul>
-<li><code>domain</code></li>
-<li><code>title</code></li>
+<tr><td>domain</code></li>
+<tr><td>title</code></li>
 <li>Open Graph data: <code><meta property="og:...">...</code></li>
 <li>rel links: micropub, webmention, authorization_endpoint</li>
 <li>rel-me links</li>
 <li>authorship: <a href="http://microformats.org/wiki/h-card#Properties"><code>h-card</code></a></li>
-<li><code>p-name</code></li>
-<li><code>u-photo</code> or <code>u-logo</code></li>
-<li><code>u-url</code></li>
-<li><code>p-label</code></li>
+<tr><td>p-name</code></li>
+<tr><td>u-photo</code> or <code>u-logo</code></li>
+<tr><td>u-url</code></li>
+<tr><td>p-label</code></li>
 <li>social graph</li>
 <li>other domains ranked by outbound links, by domain scored by type. maybe reply more then like, outbound more than inbound comment, etc.</li>
 <li>special case silos to include username in links</li>
@@ -146,7 +229,19 @@ There's also a <a href="http://metabase.indiemap.org/public/dashboard/d46209c0-1
 <li>pagerank?</li>
 </ul>
 
-<p>Webmention, Micropub, WebSub, and IndieAuth endpoints are only extracted from the first matching HTML <code>&lt;link&gt;</code> tag, not all, and not from HTTP headers. These bugs may be fixed in the future.</p>
+links
+from_url 	STRING 	NULLABLE
+from_domain 	STRING 	NULLABLE
+to_url 	STRING 	NULLABLE
+to_domain 	STRING 	NULLABLE
+mf2_class 	STRING 	NULLABLE 
+
+links_social_graph
+from_domain 	STRING 	NULLABLE
+to_domain 	STRING 	NULLABLE
+mf2_class 	STRING 	NULLABLE
+num 	INTEGER 	NULLABLE
+-->
 
 
 <h2 id="crawl">Crawl</h2>
@@ -161,7 +256,7 @@ There's also a <a href="http://metabase.indiemap.org/public/dashboard/d46209c0-1
 
 <h3 id="crawl-methodology">Methodology</h3>
 
-<p>Sites were crawled with with <code><a href="https://www.gnu.org/software/wget/">wget</a></code> v1.19.1, <a href="https://indiemap.herokuapp.com/public/question/e5b392a6-1b30-41a3-ae87-bad03b8bbaac">between April and June 2017</a>. Notable details:</p>
+<p>Sites were crawled with with <a href="https://www.gnu.org/software/wget/">GNU <code>wget</code></a> v1.19.1, on Mac OS X 10.11.6 on a mid-2014 MacBook Pro, over a Comcast 100Mbps residential account in San Francisco, <a href="http://metabase.indiemaporg/public/question/e5b392a6-1b30-41a3-ae87-bad03b8bbaac">between April and June 2017</a>. Notable details:</p>
 
 <ul>
 <li><a href="http://robotstxt.org/"><code>robots.txt</code> files</a> were respected.</li>
@@ -174,6 +269,7 @@ There's also a <a href="http://metabase.indiemap.org/public/dashboard/d46209c0-1
 <li>URLS ending in these file extensions were ignored: <code>as atom avi bz2 bzip bzip2 css csv doc docx dvf epub exe gif GIF gz GZ gzip ico iso jar jpeg JPEG jpg JPG js json m4a m4b m4v mov mp3 mp4 mpg odt ogg pdf PDF png PNG ppt pptx ps rar rdf rss svg swf SWF tar txt text wav wma wmv xml xls xlsx xpi Z zip</code>.</li>
 <li><a href="https://github.com/snarfed/indie-map/blob/30a32b6d201ec3326250d4e187a38412d3998e4f/crawl/wget.sh#L8">Other URL patterns were ignored</a> to avoid infinite loop, randomly generated, duplicate, or otherwise low value pages.</li>
 <li><code>wget</code>'s <code>--warc-file</code> flag was used to output <a href="http://bibnum.bnf.fr/WARC/">WARC</a> files.</li>
+<li>Sent <code>Accept: text/html</code> to <a href="https://rhiaro.co.uk/">rhiaro.co.uk</a> for content negotiation, since it returns RDF by default. Otherwise, didn't send the <code>Accept</code> header to any other sites.
 </ul>
 
 <p>Full invocation details in <a href="https://github.com/snarfed/indie-map/blob/master/crawl/wget.sh"><code>wget.sh</code></a>.</p>
@@ -183,7 +279,7 @@ There's also a <a href="http://metabase.indiemap.org/public/dashboard/d46209c0-1
 <p>I originally tried extracting IndieWeb sites from the <a href="http://commoncrawl.org/">Common Crawl</a>, but it turned out to be too incomplete and sparse. Each individual monthly crawl (averaging 2-3B pages) only includes a handful of sites, and only a handful of pages from those sites. They <a href="https://github.com/commoncrawl/cc-crawl-statistics/blob/master/plots/crawloverlap.md">deliberately spread out the URL space</a>, so I would have needed to process <em>all</em> of their crawls, and even then I probably wouldn't get all pages on the sites I care about.</p>
 
 <p>I considered ignoring domains in a blacklist that I know aren't IndieWeb, e.g. facebook.com and twitter.com. <a href="https://github.com/snarfed/bridgy/blob/master/domain_blacklist.txt">Bridgy's blacklist</a> and the Common Crawl's top 500 domains (<code>s3://commoncrawl/crawl-analysis/CC-MAIN-2017-13/stats/part-00000.gz</code>) were good sources. However, in the March 2017 crawl, those top 500 domains comprise just ~505M of the 3B total pages (ie 1/6), which isn't substantial enough to justify the risk of missing anything.</p>
-<p>Some parts of <a href="https://github.com/commoncrawl/cc-mrjob/">cc-mrjob</a> are included in the <code>commoncrawl/</code> subdirectory under the <a href="https://github.com/commoncrawl/cc-mrjob/blob/master/LICENSE">MIT License</a>.</p>
+
 <p>Related:</p>
 <ul>
 <li><a href="http://webdatacommons.org/structureddata/#toc1">Web Data Commons</a>: microformats etc</li>
@@ -279,6 +375,7 @@ Sites or parts of sites that were excluded from the dataset.
 <li><a href="http://www.xmlab.org/news/blog-post/">www.xmlab.org/news/blog-post/.../news/blog-post/...</a>: recursive URLs.</li>
 </ul>
 
+</div>
 </div>
 </div>
 </div>

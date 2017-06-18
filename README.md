@@ -4,6 +4,8 @@ Indie Map is a public IndieWeb [IndieWeb](https://indieweb.org/) social graph an
 
 The individual sites and pages retain their original copyright. The rest of the dataset and this project are placed into the public domain. You may also use it under the [CC0 license](http://creativecommons.org/publicdomain/zero/1.0/).
 
+Some parts of [cc-mrjob](https://github.com/commoncrawl/cc-mrjob/) are included in the `commoncrawl/` subdirectory under the [MIT License](https://github.com/commoncrawl/cc-mrjob/blob/master/LICENSE).
+
 
 Statistics
 ---
