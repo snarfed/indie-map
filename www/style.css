@@ -162,3 +162,8 @@ th, td {
 th {
   text-align: left;
 }
+
+p[fragmention] {
+  background-color: white;
+  transition: background-color 2s;
+}
