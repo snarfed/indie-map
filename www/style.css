@@ -167,3 +167,15 @@ p[fragmention] {
   background-color: white;
   transition: background-color 2s;
 }
+
+pre .keyword {
+  color: green;
+}
+
+pre .string {
+  color: sienna;
+}
+
+pre .number {
+  color: slateblue;
+}

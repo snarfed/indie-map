@@ -83,7 +83,50 @@
 
 <h3 id="social-graph-api">API</h3>
 
-<p>You can fetch each site's data and individual social graph, ie other sites it links to and from, by fetching <code>/<em>DOMAIN</em>.json</code> from this site. For example, my own personal web site is <a href="http://www.indiemap.org/snarfed.org.json"><code>http://www.indiemap.org/snarfed.org.json</code></a>.</p>
+<p>You can fetch each site's data and individual social graph, ie other sites it links to and from, by fetching <code>/<em>DOMAIN</em>.json</code> from this site. For example, my own personal web site is <a href="http://www.indiemap.org/snarfed.org.json"><code>http://www.indiemap.org/snarfed.org.json</code></a>. Here's an excerpt:</p>
+
+<pre>
+{
+  "<span class="field">domain</span>": "<span class="string">snarfed.org</span>",
+  "<span class="field">urls</span>": ["<span class="string">https://snarfed.org/</span>"],
+  "<span class="field">names</span>": ["<span class="string">Ryan Barrett</span>"],
+  "<span class="field">descriptions</span>": ["<span class="string">Ryan Barrett's blog</span>"],
+  "<span class="field">pictures</span>": ["<span class="string">https://snarfed.org/ryan.jpg</span>"],
+  "<span class="field">hcard</span>": {...},
+  "<span class="field">rel_mes</span>": ["<span class="string">https://twitter.com/schnarfed</span>", ...]
+  "<span class="field">crawl_start</span>": "<span class="string">2017-04-25T10:48:37</SPAN>",
+  "<span class="field">crawl_end</span>": "<span class="string">2017-04-26T10:56:19</SPAN>",
+  "<span class="field">num_pages</span>": <span class="number">6929</span>,
+  "<span class="field">total_html_size</span>": <span class="number">169794664</span>,
+  "<span class="field">servers</span>": ["<span class="string">Apache", "WordPress", "S5</span>"],
+  "<span class="field">mf2_classes</span>": ["<span class="string">h-feed", "h-card", "h-entry", "h-event</span>", ...]
+  "<span class="field">endpoints</span>": {
+    "<span class="field">webmention</span>": ["<span class="string">https://snarfed.org/wp-json/webmention</span>"],
+    "<span class="field">micropub</span>": ["<span class="string">http://snarfed.org/w/?micropub=endpoint</span>"],
+    "<span class="field">authorization</span>": ["<span class="string">https://indieauth.com/auth</span>"],
+    "<span class="field">token</span>": ["<span class="string">https://tokens.indieauth.com/token</span>"],
+  },
+  "<span class="field">links_out</span>": <span class="number">102689</span>,
+  "<span class="field">links_in</span>": <span class="number">81519</span>,
+  "<span class="field">links</span>": {
+    "<span class="string">indieweb.org</span>": {
+      "<span class="field">out</span>": {"<span class="string">other</span>": <span class="number">6750</span>},
+      "<span class="field">in</span>": {"<span class="string">other</span>": <span class="number">46800</span>},
+      "<span class="field">score</span>": <span class="number">1</span>
+    },
+    "<span class="string">kylewm.com</span>": {
+      "<span class="field">out</span>": {"<span class="string">like-of</span>": <span class="number">267</span>, "<span class="string">in-reply-to</span>": <span class="number">172</span>, ...},
+      "<span class="field">in</span>": {"<span class="string">other</span>": <span class="number">1041</span>, "<span class="string">invitee</span>": <span class="number">5</span>, "<span class="string">bookmark-of</span>": <span class="number">4</span>, ...},
+      "<span class="field">score</span>": <span class="number">0.783</span>
+    },
+    "<span class="string">werd.io</span>": {
+      "<span class="field">out</span>": {"<span class="string">in-reply-to</span>": <span class="number">68</span>, "<span class="string">like-of</span>": <span class="number">93</span>, "<span class="string">other</span>": <span class="number">51</span>},
+      "<span class="field">in</span>": {"<span class="string">other</span>": <span class="number">602</span>, "<span class="string">in-reply-to</span>": <span class="number">218</span>},
+      "<span class="field">score</span>": <span class="number">0.723</span>
+    },
+  ...
+</pre>
+
 
 <p>The links sections in these files are limited to the top 500 linked sites, by score. If there are more, the <code>links_truncated</code> field will be <code>true</code>. You can get the full contents by fetching <code>/full/<em>DOMAIN</em>.json</code>. You can also get just the links to/from the sites within this dataset by fetching <code>/indie/<em>DOMAIN</em>.json</code>.</p>
 
@@ -124,11 +167,11 @@ There's also a <a href="http://metabase.indiemap.org/public/dashboard/d46209c0-1
 <p>Here's an <a href="https://bigquery.cloud.google.com/savedquery/464705913036:f308e85acfdc4ba7b8416e5143150fda">example BigQuery SQL query</a> that finds the most common <code>rel-me</code> link domains, by number of sites:</p>
 
 <pre>
-SELECT NET.REG_DOMAIN(url) silo, COUNT(DISTINCT domain) sites
-FROM indiemap.pages p, p.rels r, r.urls url
-WHERE r.value = 'me' AND NET.REG_DOMAIN(url) IS NOT NULL
-GROUP BY silo
-ORDER BY sites DESC
+SELECT NET.REG_DOMAIN(<span class="keyword">url</span>) <span class="keyword">silo</span>, COUNT(DISTINCT <span class="keyword">domain</span>) <span class="keyword">sites</span>
+FROM <span class="keyword">indiemap.pages p, p.rels r, r.urls url</span>
+WHERE <span class="keyword">r.value</span> = <span class="string">'me'</span> AND NET.REG_DOMAIN(<span class="keyword">url</span>) IS NOT NULL
+GROUP BY <span class="keyword">silo</span>
+ORDER BY <span class="keyword">sites</span> DESC
 LIMIT 15
 </pre>
 
