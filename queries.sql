@@ -118,6 +118,37 @@ GROUP BY p.url
 HAVING c > 1
 ORDER BY c DESC
 
+-- Attempts at deleting the dupe URLs. (none work yet)
+STATE: insert into new table with ROW_NUMBER() 1?
+
+# https://stackoverflow.com/a/3822833/186123
+WITH partitions AS (
+  SELECT ROW_NUMBER() OVER (PARTITION BY url ORDER BY fetch_time) row_num
+  FROM indiemap.pages
+  ORDER BY url
+)
+DELETE FROM partitions
+WHERE row_num > 1;
+
+WITH dupes AS (
+SELECT domain, url, fetch_time, COUNT(*) c
+FROM indiemap.pages
+GROUP BY domain, url, fetch_time
+HAVING c > 1
+ORDER BY c DESC
+)
+SELECT DISTINCT domain FROM dupes
+
+
+delete from indiemap.pages p
+where p.url IN (
+SELECT url
+FROM indiemap.pages
+GROUP BY url
+HAVING COUNT(*) > 1
+)
+AND fetch_time > (SELECT MIN(fetch_time) from indiemap.pages where url = p.url)
+
 
 -- Find rows with the biggest values in each column. Useful since BigQuery has
 -- an undocumented 100MB limit on the amount of data processed per row in a
