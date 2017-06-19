@@ -18,7 +18,7 @@
 </div>
 
 <div id="title" class="container">
-<h1><b><a href="/">Indie Map</a></b> is a public <a href="https://indieweb.org/">IndieWeb</a> social graph and dataset.</h1>
+<h1><a href="/">Indie Map</a> is a public <a href="https://indieweb.org/">IndieWeb</a> social graph and dataset.</h1>
 </div>
 </div>
 
@@ -31,10 +31,18 @@
 <li><a href="#intro">Introduction</a></li>
 <li><a href="#social-graph">Social graph</a></li>
   <ul>
-  <li><a href="#social-graph-api">API</a></li>
   <li><a href="#social-graph-viz">Interactive visualization</li>
+  <li><a href="#social-graph-api">API</a></li>
   </ul>
 <li><a href="#data-mining">Data mining</a></li>
+  <ul>
+  <li><a href="#query-example">Example query</a></li>
+  <li><a href="#schema-pages"><code>pages</code></a></li>
+  <li><a href="#schema-sites"><code>sites</code></a></li>
+  <li><a href="#schema-canonical-pages"><code>canonical_pages</code></a></li>
+  <li><a href="#schema-links"><code>links</code></a></li>
+  <li><a href="#schema-links-social-graph"><code>links_social_graph</code></a></li>
+  </ul>
 <li><a href="#crawl">Crawl</a></li>
   <ul>
   <li><a href="#crawl-data">Data</a></li>
@@ -51,20 +59,27 @@
 
 <h2 id="intro">Introduction</h2>
 
-<p>Indie Map is a complete crawl of 2300 of the most active <a href="https://indieweb.org/">IndieWeb</a> sites, sliced and diced and piled up high in a few useful ways:</p>
+<p>Indie Map is a complete crawl of 2300 of the most active <a href="https://indieweb.org/">IndieWeb</a> sites, sliced and diced and rolled up in a few useful ways:</p>
 
 <ul>
 <li>Social graph <a href="/docs.html#api">API</a> and <a href="map.html">interactive map</a>.</li>
-<li><a href="/docs.html#dataset">SQL queryable dataset</a> and <a href="http://metabase.indiemap.org/">GUI analytics tool.</a>
+<li><a href="/docs.html#dataset">SQL queryable dataset</a> and <a href="http://metabase.indiemap.org/public/dashboard/d46209c0-170d-49a7-a50d-8be64b577f36">GUI analytics.</a>
 <li><a href="docs.html#crawl">Raw crawl data</a> in <a href="http://bibnum.bnf.fr/WARC/">WARC</a> format: <a href="https://github.com/snarfed/indie-map/blob/master/crawl/domains.txt">2300 sites</a>, 5.7M pages, 380GB HTML + <a href="http://microformats.org/wiki/microformats2">mf2</a>.</li>
 </ul>
 
 <p>Indie Map is free, <a href="https://github.com/snarfed/indie-map">open source</a>, and placed into the public domain. It may also be used under the <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0 license</a>. Crawled content remains the property of each site's owner and author, and subject to their existing copyrights.</p>
 
-<p>Support Indie Map by <a href="https://opencollective.com/indieweb">donating to the IndieWeb</a>!</p>
+<p>Indie Map was created by <a class="h-card u-author" href="https://snarfed.org/">Ryan Barrett</a>. Support Indie Map by <a href="https://opencollective.com/indieweb">donating to the IndieWeb</a>!</p>
 
 
 <h2 id="social-graph">Social graph</h2>
+
+<h3 id="social-graph-viz">Interactive visualization</h3>
+
+<p><a href="/map.html">Click here for an interactive map of the Indie Web social graph</a>, powered by <a href="https://kumu.io/">Kumu</a>. It renders all sites and links, by score, and lets you navigate and filter by connections, type, server, microformats2 classes, protocols supported (e.g. webmention and micropub), and more.</p>
+
+<p><a href="/map.html"><img src="social_graph.jpg" width="990" style="max-width: 100%" /></a></p>
+
 
 <h3 id="social-graph-api">API</h3>
 
@@ -95,25 +110,36 @@ Microformats2 class:
 <p>Webmention, Micropub, WebSub, and IndieAuth endpoints are only extracted from the first matching HTML <code>&lt;link&gt;</code> tag, not all, and not from HTTP headers. These bugs may be fixed in the future.</p>
 
 
-<h3 id="social-graph-viz">Interactive visualization</h3>
-
-<p><a href="/map.html">Click here for an interactive map of the Indie Web social graph</a>, powered by <a href="https://kumu.io/">Kumu</a>. It renders all sites and links, by score, and lets you navigate and filter by connections, type, server, microformats2 classes, protocols supported (e.g. webmention and micropub), and more.</p>
-
-<p><a href="/map.html"><img src="social_graph.jpg" width="990" style="max-width: 100%" /></a></p>
-
-
 <h2 id="data-mining">Data mining</h2>
 
 <p>The Indie Map dataset is available in Google's <a href="https://cloud.google.com/bigquery/">BigQuery</a> data warehouse, which supports modern Standard SQL queries. The dataset is <a href="https://bigquery.cloud.google.com/dataset/indie-map:indiemap"><code>indie-map:indiemap</code></a>. You'll need a Google account.</p>
 
 There's also a <a href="http://metabase.indiemap.org/public/dashboard/d46209c0-170d-49a7-a50d-8be64b577f36">Metabase dashboard</a> with analytics.
 
-<!--
-<p>The dataset consists of two tables, <code>pages</code> and <code>sites</code>. Here are their schemas:</p>
+<p>The dataset consists of two tables, <a href="#schema-pages"><code>pages</code></a> and <a href="#schema-pages"><code>sites</code></a>, and three views, <a href="#schema-canonical-pages"><code>canonical_pages</code></a>, <a href="#schema-links"><code>links</code></a>, and <a href="#schema-links-social-graph"><code>links_social_graph</code></a>. Each page's HTML was parsed for mf2 by <a href="https://github.com/tommorris/mf2py">mf2py</a> 1.0.5, which was then used to populate many fields. Some fields are JSON encoded strings, which you can query in BiqQuery with <a href="https://cloud.google.com/bigquery/docs/reference/legacy-sql#json_extract"><code>JSON_EXTRACT</code></a> and <a href="https://code.google.com/p/jsonpath">JSONPath</a>.</p>
 
-TODO: mention canonical_pages
 
-<h3><code>pages</code></h3>
+<h3 id="query-example">Example query</h3>
+
+<p>Here's an <a href="https://bigquery.cloud.google.com/savedquery/464705913036:f308e85acfdc4ba7b8416e5143150fda">example BigQuery SQL query</a> that finds the most common <code>rel-me</code> link domains, by number of sites:</p>
+
+<pre>
+SELECT NET.REG_DOMAIN(url) silo, COUNT(DISTINCT domain) sites
+FROM indiemap.pages p, p.rels r, r.urls url
+WHERE r.value = 'me' AND NET.REG_DOMAIN(url) IS NOT NULL
+GROUP BY silo
+ORDER BY sites DESC
+LIMIT 15
+</pre>
+
+<p>And here's a <a href="http://metabase.indiemap.org/public/question/20630356-75d8-4989-9138-db0fd22c2eb4">Metabase visualization</a> of that query:</p>
+
+<p><a href="http://metabase.indiemap.org/public/question/20630356-75d8-4989-9138-db0fd22c2eb4"><img src="metabase_rel_me_domains.png" width="1204" style="max-width: 100%" /></a></p>
+
+
+<h3 id="schema-pages"><code><a href="https://bigquery.cloud.google.com/table/indie-map:indiemap.pages">pages</a></code></h3>
+
+<p>All HTML pages crawled, from all sites in the dataset.</p>
 
 <table class="schema">
 <tr>
@@ -134,11 +160,11 @@ TODO: mention canonical_pages
   <td></td>
 </tr><tr>
   <td>headers</td>
-  <td>array&lt; <br />&nbsp;
-      string name <br />&nbsp;
-      string value <br />
+  <td>array&lt; <br />
+      &nbsp;string&nbsp;name, <br />
+      &nbsp;string&nbsp;value <br />
       &gt;</td>
-  <td>HTTP response headers</td>
+  <td>All HTTP response headers.</td>
 </tr><tr>
   <td>html</td>
   <td>string</td>
@@ -146,102 +172,183 @@ TODO: mention canonical_pages
 </tr><tr>
   <td>mf2</td>
   <td>string</td>
-  <td>parsed mf2, JSON encoded</td>
+  <td>Full parsed mf2, JSON encoded.</td>
 </tr><tr>
   <td>links</td>
-  <td>array&lt;<br />&nbsp;
-      tag string <br />&nbsp;
-      url string <br />&nbsp;
-      classes array&lt;string&gt; <br />&nbsp;
-      rels array&lt;string&gt; <br />&nbsp;
-      inner_html string <br />
+  <td>array&lt;<br />
+      &nbsp;tag&nbsp;string, <br />
+      &nbsp;url&nbsp;string, <br />
+      &nbsp;classes&nbsp;array&lt;string&gt;, <br />
+      &nbsp;rels&nbsp;array&lt;string&gt;, <br />
+      &nbsp;inner_html&nbsp;string <br />
       &gt;</td>
-  <td>outbound links extracted from <code>a</code> and <code>link</code> tags</td>
+  <td>All outbound <code>&lt;a&gt;</code> links.</td>
 </tr><tr>
   <td>mf2_classes</td>
   <td>array&lt;string&gt;</td>
-  <td>all mf2 class names present in the page</td>
+  <td>All mf2 classes present in the page.</td>
 </tr><tr>
   <td>rels</td>
-  <td>array&lt; <br />&nbsp;
-      value string <br />&nbsp;
-      urls array&lt;string&gt; <br />
+  <td>array&lt; <br />
+      &nbsp;value&nbsp;string, <br />
+      &nbsp;urls&nbsp;array&lt;string&gt; <br />
       &gt;</td>
-  <td>links with <code>rel</code> values</td>
+  <td>All links with <code>rel</code> values.</td>
 </tr><tr>
   <td>u_urls</td>
   <td>array&lt;string&gt;</td>
-  <td>unique top-level mf2 <code>u-url</code>s</td>
+  <td>Unique top-level mf2 <code>u-url</code>(s) on the page.</td>
 </tr>
 </table>
 
-<p>The <code>mf2</code> field is generated by <a href="https://github.com/tommorris/mf2py/issues">mf2py</a> 1.0.5. You can query it in BiqQuery with <a href="https://cloud.google.com/bigquery/docs/reference/legacy-sql#json_extract"><code>JSON_EXTRACT</code></a> and <a href="https://code.google.com/p/jsonpath">JSONPath</a>.</p>
+
+<h3 id="schema-sites"><code><a href="https://bigquery.cloud.google.com/table/indie-map:indiemap.sites">sites</a></code></h3>
+
+<p>All sites in the dataset. The <code>names, urls, descriptions,</code> and <code>pictures</code> fields are extracted from the site's home page's representative h-card, HTML title, <a href="http://ogp.me/">Open Graph</a> tags, and <a href="https://dev.twitter.com/cards/overview">Twitter card</a> tags.</p>
+
+<table class="schema">
+<tr>
+  <th>Field name</th>
+  <th>Type</th>
+  <th>Description</th></td>
+</tr><tr>
+  <td>domain</td>
+  <td>string</td>
+  <td></td>
+</tr><tr>
+  <td>urls</td>
+  <td>array&lt;string&gt;</td>
+  <td>This site's home page URL(s).</td>
+</tr><tr>
+  <td>names</td>
+  <td>array&lt;string&gt;</td>
+  <td></td>
+</tr><tr>
+  <td>descriptions</td>
+  <td>array&lt;string&gt;</td>
+  <td></td>
+</tr><tr>
+  <td>pictures</td>
+  <td>array&lt;string&gt;</td>
+  <td></td>
+</tr><tr>
+  <td>hcard</td>
+  <td>string</td>
+  <td><a href="http://microformats.org/wiki/representative-h-card-parsing">Representative h-card</a> for this site's home page, if any. JSON encoded.</td>
+</tr><tr>
+  <td>rel_mes</td>
+  <td>array&lt;string&gt;</td>
+  <td>All <code>rel-me</code> links on this site's home page.</td>
+</tr><tr>
+  <td>crawl_start</td>
+  <td>timestamp</td>
+  <td></td>
+</tr><tr>
+  <td>crawl_end</td>
+  <td>timestamp</td>
+  <td></td>
+</tr><tr>
+  <td>num_pages</td>
+  <td>integer</td>
+  <td>Total number of pages crawled on this site.</td>
+</tr><tr>
+  <td>links_out</td>
+  <td>integer</td>
+  <td>Total number of <code>&lt;a&gt;</code> links in crawled pages on this site to another domain.</td>
+</tr><tr>
+  <td>links_in</td>
+  <td>integer</td>
+  <td>Total number of <code>&lt;a&gt;</code> links in crawled pages on other sites to this site.</td>
+</tr><tr>
+  <td>endpoints</td>
+  <td>array&lt;<br />
+      &nbsp;authorization&nbsp;array&lt;string&gt;, <br />
+      &nbsp;token&nbsp;array&lt;string&gt;, <br />
+      &nbsp;webmention&nbsp;array&lt;string&gt;, <br />
+      &nbsp;micropub&nbsp;array&lt;string&gt;, <br />
+      &nbsp;generator&nbsp;array&lt;string&gt; <br />
+      &gt;</td>
+  <td>All discovered URL endpoints in this site's pages for these five <code>link rel</code> values.</td>
+</tr><tr>
+  <td>tags</td>
+  <td>array&lt;string&gt;</td>
+  <td>Curated list of tags that describe this site. Possible values: <code>bridgy</code>, <code>community</code>, <code>elder</code>, <code>founder</code>, <code>IRC</code>, <code>IWS2017</code>, <code>tool</code>, <code>webmention.io</code>, <code> Known</code>, <code> WordPress</code>, <code> relme</code></td>
+</tr><tr>
+  <td>servers</td>
+  <td>array&lt;string&gt;</td>
+  <td>List of possible web servers that serve this site. Inferred from the <code>Server</code> HTTP response header, <code>rel-generator</code> links, and <code>meta generator</cod> tags.</td>
+</tr><tr>
+  <td>total_html_size</td>
+  <td>integer</td>
+  <td>Total size of all crawled pages on this site, in bytes.</td>
+</tr><tr>
+</tr><tr>
+  <td>mf2_classes</td>
+  <td>array&lt;string&gt;</td>
+  <td>All mf2 classes observed on pages on this site.</td>
+</tr>
+</table>
 
 
-links_out 	INTEGER 	NULLABLE 	
-links_in 	INTEGER 	NULLABLE 	
-endpoints 	RECORD 	NULLABLE 	
-endpoints.token 	STRING 	REPEATED 	
-endpoints.authorization 	STRING 	REPEATED 	
-endpoints.micropub 	STRING 	REPEATED 	
-endpoints.websub 	STRING 	REPEATED 	
-endpoints.generator 	STRING 	REPEATED 	
-endpoints.webmention 	STRING 	REPEATED 	
-tags 	STRING 	REPEATED 	
-servers 	STRING 	REPEATED 	
-total_html_size 	INTEGER 	NULLABLE 	
-domain 	STRING 	NULLABLE 	
-names 	STRING 	REPEATED 	
-mf2_classes 	STRING 	REPEATED 	
-crawl_end 	TIMESTAMP 	NULLABLE 	
-descriptions 	STRING 	REPEATED 	
-crawl_start 	TIMESTAMP 	NULLABLE 	
-pictures 	STRING 	REPEATED 	
-hcard 	STRING 	NULLABLE 	
-urls 	STRING 	REPEATED 	
-rel_mes 	STRING 	REPEATED 	
-num_pages 	INTEGER 	NULLABLE 	
 
-<h3><code>sites</code></h3>
-<ul>
-<tr><td>domain</code></li>
-<tr><td>title</code></li>
-<li>Open Graph data: <code><meta property="og:...">...</code></li>
-<li>rel links: micropub, webmention, authorization_endpoint</li>
-<li>rel-me links</li>
-<li>authorship: <a href="http://microformats.org/wiki/h-card#Properties"><code>h-card</code></a></li>
-<tr><td>p-name</code></li>
-<tr><td>u-photo</code> or <code>u-logo</code></li>
-<tr><td>u-url</code></li>
-<tr><td>p-label</code></li>
-<li>social graph</li>
-<li>other domains ranked by outbound links, by domain scored by type. maybe reply more then like, outbound more than inbound comment, etc.</li>
-<li>special case silos to include username in links</li>
-<li>fetch start/end timestamps</li>
-<li># of pages crawled</li>
-<li># of canonical pages</li>
-<li>total html size?</li>
-<li>server (best guess)</li>
-<li>all mf2 classes seen</li>
-<li>webmention endpoints</li>
-<li>micropub endpoints</li>
-<li>source: bridgy, wm.io, irc people, 2017 iws, other</li>
-<li>pagerank?</li>
-</ul>
+<h3 id="schema-canonical-pages"><code><a href="https://bigquery.cloud.google.com/table/indie-map:indiemap.canonical_pages">canonical_pages</a></code></h3>
 
-links
-from_url 	STRING 	NULLABLE
-from_domain 	STRING 	NULLABLE
-to_url 	STRING 	NULLABLE
-to_domain 	STRING 	NULLABLE
-mf2_class 	STRING 	NULLABLE 
+<p>A view of <a href="#schema-pages">pages</a>. Same schema, but only includes canonical pages, ie that don't have a <code>rel-canonical</code> link pointing to a different page.
 
-links_social_graph
-from_domain 	STRING 	NULLABLE
-to_domain 	STRING 	NULLABLE
-mf2_class 	STRING 	NULLABLE
-num 	INTEGER 	NULLABLE
--->
+<h3 id="schema-links"><code><a href="https://bigquery.cloud.google.com/table/indie-map:indiemap.links">links</a></code></h3>
+
+<p>A view of <a href="#schema-pages">pages</a>. Every <code>&lt;a&gt;</code> links in a page in the dataset, one row per link.</p>
+
+<table class="schema">
+<tr>
+  <td>from_url</td>
+  <td>string</td>
+  <td></td>
+</tr><tr>
+  <td>from_domain</td>
+  <td>string</td>
+  <td></td>
+</tr><tr>
+  <td>to_url</td>
+  <td>string</td>
+  <td></td>
+</tr><tr>
+  <td>to_domain</td>
+  <td>string</td>
+  <td></td>
+</tr><tr>
+  <td>mf2_class</td>
+  <td>string</td>
+  <td><code>u-in-reply-to, u-repost-of, u-like-of, u-favorite-of, u-invitee, u-quotation-of, u-bookmark-of,</code> or <code>NULL</code></td>
+</tr>
+</table>
+
+
+<h3 id="schema-links-social-graph"><code><a href="https://bigquery.cloud.google.com/table/indie-map:indiemap.links_social_graph">links_social_graph</a></code></h3>
+
+<p>A view of <a href="#schema-pages">pages</a>. Counts of <code>&lt;a&gt;</code> links in pages in the dataset, grouped by source and destination domain and mf2 class (or none).</p>
+
+<table class="schema">
+<tr></td>
+</tr><tr>
+  <td>from_domain</td>
+  <td>string</td>
+  <td></td>
+</tr><tr>
+  <td>to_domain</td>
+  <td>string</td>
+  <td></td>
+</tr><tr>
+  <td>mf2_class</td>
+  <td>string</td>
+  <td><code>u-in-reply-to, u-repost-of, u-like-of, u-favorite-of, u-invitee, u-quotation-of, u-bookmark-of,</code> or <code>NULL</code></td>
+</tr><tr>
+  <td>num</td>
+  <td>integer</td>
+  <td>Number of links with the given mf2 class between these two domains.</td>
+</tr>
+</table>
+
 
 
 <h2 id="crawl">Crawl</h2>
@@ -302,7 +409,7 @@ num 	INTEGER 	NULLABLE
 <li>Sites <a href="https://brid.gy/">Bridgy</a> has successfully sent at least one webmention to, as of 2017-04-23.</li>
 </ul>
 
-<p>Notable <em>missing</em> collections of sites that we'd love to include:</p>
+<p>Notable <em>missing</em> collections of sites that I'd love to include:</p>
 
 <ul>
 <li>All hosted subdomains under <a href="https://withknown.com/">withknown.com</a>.</li>
@@ -329,7 +436,7 @@ num 	INTEGER 	NULLABLE
 <a href="http://crystalbeasley.com/">crystalbeasley.com</a>,
 <a href="http://www.kevinmarks.com/">kevinmarks.com</a>,
 <a href="http://tantek.com/">tantek.com</a>,
-<a href="http://werd.io/">werd.io</a>: IndieWebCamp founders and elders!</li>
+<a href="http://werd.io/">werd.io</a>: IndieWebCamp founders and elders.</li>
 </ul>
 
 
