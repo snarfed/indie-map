@@ -204,8 +204,8 @@ LIMIT 15
 </tr><tr>
   <td>headers</td>
   <td>array&lt; <br />
-      &nbsp;string&nbsp;name, <br />
-      &nbsp;string&nbsp;value <br />
+      &nbsp;<span class="field">name</span>&nbsp;string, <br />
+      &nbsp;<span class="field">value</span>&nbsp;string <br />
       &gt;</td>
   <td>All HTTP response headers.</td>
 </tr><tr>
@@ -219,11 +219,11 @@ LIMIT 15
 </tr><tr>
   <td>links</td>
   <td>array&lt;<br />
-      &nbsp;tag&nbsp;string, <br />
-      &nbsp;url&nbsp;string, <br />
-      &nbsp;classes&nbsp;array&lt;string&gt;, <br />
-      &nbsp;rels&nbsp;array&lt;string&gt;, <br />
-      &nbsp;inner_html&nbsp;string <br />
+      &nbsp;<span class="field">tag</span>&nbsp;string, <br />
+      &nbsp;<span class="field">url</span>&nbsp;string, <br />
+      &nbsp;<span class="field">classes</span>&nbsp;array&lt;string&gt;, <br />
+      &nbsp;<span class="field">rels</span>&nbsp;array&lt;string&gt;, <br />
+      &nbsp;<span class="field">inner_html</span>&nbsp;string <br />
       &gt;</td>
   <td>All outbound <code>&lt;a&gt;</code> links.</td>
 </tr><tr>
@@ -233,8 +233,8 @@ LIMIT 15
 </tr><tr>
   <td>rels</td>
   <td>array&lt; <br />
-      &nbsp;value&nbsp;string, <br />
-      &nbsp;urls&nbsp;array&lt;string&gt; <br />
+      &nbsp;<span class="field">value</span>&nbsp;string, <br />
+      &nbsp;<span class="field">urls</span>&nbsp;array&lt;string&gt; <br />
       &gt;</td>
   <td>All links with <code>rel</code> values.</td>
 </tr><tr>
@@ -305,21 +305,21 @@ LIMIT 15
 </tr><tr>
   <td>endpoints</td>
   <td>array&lt;<br />
-      &nbsp;authorization&nbsp;array&lt;string&gt;, <br />
-      &nbsp;token&nbsp;array&lt;string&gt;, <br />
-      &nbsp;webmention&nbsp;array&lt;string&gt;, <br />
-      &nbsp;micropub&nbsp;array&lt;string&gt;, <br />
-      &nbsp;generator&nbsp;array&lt;string&gt; <br />
+      &nbsp;<span class="field">authorization</span>&nbsp;array&lt;string&gt;, <br />
+      &nbsp;<span class="field">token</span>&nbsp;array&lt;string&gt;, <br />
+      &nbsp;<span class="field">webmention</span>&nbsp;array&lt;string&gt;, <br />
+      &nbsp;<span class="field">micropub</span>&nbsp;array&lt;string&gt;, <br />
+      &nbsp;<span class="field">generator</span>&nbsp;array&lt;string&gt; <br />
       &gt;</td>
   <td>All discovered URL endpoints in this site's pages for these five <code>link rel</code> values.</td>
 </tr><tr>
   <td>tags</td>
   <td>array&lt;string&gt;</td>
-  <td>Curated list of tags that describe this site. Possible values: <code>bridgy</code>, <code>community</code>, <code>elder</code>, <code>founder</code>, <code>IRC</code>, <code>IWS2017</code>, <code>tool</code>, <code>webmention.io</code>, <code> Known</code>, <code> WordPress</code>, <code> relme</code></td>
+  <td>Curated list of tags that describe this site. Possible values: <code class="string">bridgy community elder founder IRC IWS2017 tool webmention.io Known WordPress relme</code></td>
 </tr><tr>
   <td>servers</td>
   <td>array&lt;string&gt;</td>
-  <td>List of possible web servers that serve this site. Inferred from the <code>Server</code> HTTP response header, <code>rel-generator</code> links, and <code>meta generator</cod> tags.</td>
+  <td>List of possible web servers that serve this site. Inferred from the <code>Server</code> HTTP response header, <code>rel-generator</code> links, and <code>meta generator</code> tags.</td>
 </tr><tr>
   <td>total_html_size</td>
   <td>integer</td>
@@ -362,7 +362,7 @@ LIMIT 15
 </tr><tr>
   <td>mf2_class</td>
   <td>string</td>
-  <td><code>u-in-reply-to, u-repost-of, u-like-of, u-favorite-of, u-invitee, u-quotation-of, u-bookmark-of,</code> or <code>NULL</code></td>
+  <td>Possible values: <code class="string">u-in-reply-to u-repost-of u-like-of u-favorite-of u-invitee u-quotation-of u-bookmark-of NULL</code></td>
 </tr>
 </table>
 
@@ -384,7 +384,7 @@ LIMIT 15
 </tr><tr>
   <td>mf2_class</td>
   <td>string</td>
-  <td><code>u-in-reply-to, u-repost-of, u-like-of, u-favorite-of, u-invitee, u-quotation-of, u-bookmark-of,</code> or <code>NULL</code></td>
+  <td>Possible values: <code class="string">u-in-reply-to u-repost-of u-like-of u-favorite-of u-invitee u-quotation-of u-bookmark-of NULL</code></td>
 </tr><tr>
   <td>num</td>
   <td>integer</td>
@@ -446,8 +446,8 @@ LIMIT 15
 <p>For this dataset, I focused on web sites that have interacted with the IndieWeb community in some meaningful way. I tried to include as many of those as I could. The full list is in <a href="https://github.com/snarfed/indie-map/blob/master/crawl/domains.txt"><code>crawl/domains.txt</code></a>, which was compiled from:</p>
 
 <ul>
-<li><a href="https://indieweb.org/IRC_People">indieweb.org/IRC_People</a>, as of 2017-04-23.</li>
-<li><a href="https://indieweb.org/Special:ListUsers">indieweb.org/Special:ListUsers</a>,ie people who have logged into the IndieWeb wiki, as of 2017-06-09.</li>
+<!-- <li><a href="https://indieweb.org/IRC_People">indieweb.org/IRC_People</a>, as of 2017-04-23.</li> -->
+<li>People who have logged into the <a href="https://indieweb.org/">IndieWeb wiki</a> as of 2017-06-09, pulled from <a href="https://indieweb.org/Special:ListUsers">indieweb.org/Special:ListUsers</a>.</li>
 <li>Sites <a href="https://webmention.io/">webmention.io</a> has successfully sent at least one webmention to, as of 2017-04-29.</li>
 <li>Sites <a href="https://brid.gy/">Bridgy</a> has successfully sent at least one webmention to, as of 2017-04-23.</li>
 </ul>
