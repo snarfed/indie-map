@@ -20,7 +20,7 @@ echo $1 | ~/src/indie-map/src/sites_to_bigquery.py | gzip > site.$1.json.gz
 # # Social graph: links by mf2 (~50GB)
 # # https://bigquery.cloud.google.com/table/indie-map:indiemap.links_social_graph
 # bq --format=prettyjson query > links.$1.json <<EOF
-# SELECT * FROM indiemap.links_social_graph WHERE from_domain = $1 OR to_domain = $1
+# SELECT * FROM indiemap.links_social_graph WHERE from_domain = $1 OR to_site = $1
 # EOF
 
 # # Sites: additional metadata: singular columns (~200GB)

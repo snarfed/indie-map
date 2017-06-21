@@ -23,14 +23,14 @@ decimal.getcontext().prec = 3
 
 
 LINKS = [
-    {'from_domain': 'foo', 'to_domain': 'bar', 'num': '1', 'mf2_class': 'u-like-of'},
-    {'from_domain': 'foo', 'to_domain': 'bar', 'num': '2'},
-    {'from_domain': 'foo', 'to_domain': 'baz', 'num': '3'},
-    {'from_domain': 'bar', 'to_domain': 'foo', 'num': '4', 'mf2_class': 'u-quotation-of'},
-    {'from_domain': 'baz', 'to_domain': 'bar', 'num': '5'},
-    {'from_domain': 'baz', 'to_domain': 'foo', 'num': '7', 'mf2_class': 'u-quotation-of'},
-    {'from_domain': 'foo', 'to_domain': 'other.com', 'num': '8'},
-    {'from_domain': 'jenson.org', 'to_domain': 'foo', 'num': '1'},
+    {'from_domain': 'foo', 'to_site': 'bar', 'num': '1', 'mf2_class': 'u-like-of'},
+    {'from_domain': 'foo', 'to_site': 'bar', 'num': '2'},
+    {'from_domain': 'foo', 'to_site': 'baz', 'num': '3'},
+    {'from_domain': 'bar', 'to_site': 'foo', 'num': '4', 'mf2_class': 'u-quotation-of'},
+    {'from_domain': 'baz', 'to_site': 'bar', 'num': '5'},
+    {'from_domain': 'baz', 'to_site': 'foo', 'num': '7', 'mf2_class': 'u-quotation-of'},
+    {'from_domain': 'foo', 'to_site': 'other.com', 'num': '8'},
+    {'from_domain': 'jenson.org', 'to_site': 'foo', 'num': '1'},
 ]
 SITES = [
     {'domain': 'foo', 'urls': ['https://foo/ey', 'nope'], 'hcard': '{"a": "b"}'},

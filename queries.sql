@@ -19,12 +19,14 @@ WHERE ARRAY_LENGTH(u_urls) = 0 OR
    OR ARRAY_LENGTH(canonicals) = 0 OR
       norm_url IN (SELECT SPLIT(c_url, '://')[SAFE_OFFSET(1)] FROM UNNEST (canonicals) AS c_url)
 
--- View: links_with_domains_mf2
+-- View: links
+WITH links AS (
 SELECT
   p.url AS from_url,
   p.domain AS from_domain,
   l.url AS to_url,
-  NET.HOST(l.url) AS to_domain,
+  REGEXP_EXTRACT(l.url,
+    '^https?://(?:www\\.)?((?:twitter|facebook|plus.google)\\.com/[^/?]+)(?:/(?:posts|status(?:es)?)/?.*)?') AS to_site,
   CASE
     WHEN 'u-in-reply-to' IN UNNEST (l.classes) THEN 'u-in-reply-to'
     WHEN 'u-repost-of' IN UNNEST (l.classes) THEN 'u-repost-of'
@@ -38,14 +40,25 @@ SELECT
 FROM
   `indie-map.indiemap.canonical_pages` p,
   p.links l
-WHERE 'nofollow' NOT IN UNNEST (l.rels)
+WHERE l.tag = 'a'
+  AND 'nofollow' NOT IN UNNEST (l.rels)
+  AND 'u-syndication' NOT IN UNNEST (l.classes)
+)
 
--- Social graph links
-SELECT from_domain, to_domain, mf2_class, COUNT(*) num
-FROM indiemap.links_with_domains_mf2
-WHERE to_domain IS NOT NULL AND to_domain != from_domain
-GROUP BY from_domain, to_domain, mf2_class
-ORDER BY from_domain, to_domain, mf2_class;
+SELECT from_url, from_domain, to_url,
+  CASE WHEN to_site IS NOT NULL AND NOT ENDS_WITH(to_site, '.php')
+    THEN to_site
+    ELSE NET.HOST(to_url)
+  END AS to_site,
+  mf2_class
+FROM links
+
+-- View: links_social_graph
+SELECT from_domain, to_site, mf2_class, COUNT(*) num
+FROM `indie-map.indiemap.links`
+WHERE to_site IS NOT NULL AND to_site != from_domain
+GROUP BY from_domain, to_site, mf2_class
+ORDER BY from_domain, to_site, mf2_class;
 
 -- Per site info for JSON data files. Returns incomplete results since the
 -- implicit UNNESTs in the FROM clause do an inner join on the rels and

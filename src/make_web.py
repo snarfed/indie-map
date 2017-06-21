@@ -149,16 +149,16 @@ def load_links(links_in):
 
         from_domain = link['from_domain']
         from_domains.add(from_domain)
-        to_domain = link['to_domain']
+        to_site = link['to_site']
         num = int(link['num'])
         mf2 = link.get('mf2_class', 'other')
         if mf2.startswith('u-'):
             mf2 = mf2[2:]
 
-        links[from_domain][to_domain]['out'][mf2] += num
-        links[to_domain][from_domain]['in'][mf2] += num
+        links[from_domain][to_site]['out'][mf2] += num
+        links[to_site][from_domain]['in'][mf2] += num
         out_counts[from_domain] += num
-        in_counts[to_domain] += num
+        in_counts[to_site] += num
 
     return links, from_domains, out_counts, in_counts
 
