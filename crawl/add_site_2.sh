@@ -80,6 +80,7 @@ gsutil -m cp base/$1.json gs://www.indiemap.org/
 gsutil -m cp indie/$1.json gs://www.indiemap.org/indie/
 gsutil -m cp full/$1.json gs://www.indiemap.org/full/
 
-~/src/indie-map/src/web_to_bigquery.py indie
+~/src/indie-map/src/web_to_bigquery.py full
+bq load --replace --autodetect --source_format=NEWLINE_DELIMITED_JSON indiemap.sites sites.from_web.json
 
 ~/src/indie-map/src/make_kumu.py indie

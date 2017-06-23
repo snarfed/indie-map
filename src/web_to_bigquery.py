@@ -3,7 +3,8 @@
 
 Usage: web_to_bigquery.py DIR
 
-DIR is the 'full' directory output by make_web.py. Writes to site.json output file.
+DIR is the 'full' directory output by make_web.py. Writes to site.from_web.json
+output file.
 
 Doesn't do much, just strips the links field and JSON-encodes the hcard field.
 """
@@ -14,7 +15,7 @@ import sys
 
 
 def main(dir):
-    with open('sites.json', 'wt', encoding='utf-8') as outfile:
+    with open('sites.from_web.json', 'wt', encoding='utf-8') as outfile:
         for filename in os.listdir(dir):
             with open(os.path.join(dir, filename), 'rt', encoding='utf-8') as infile:
                 site = json.load(infile)
