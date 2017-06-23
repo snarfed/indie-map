@@ -1,8 +1,6 @@
-"""Miscellaneous blacklists."""
+"""URLs that are infinite loops, randomly generated, or otherwise low value."""
 import re
 
-# known WordPress URL query params that redirect back to the current page or to
-# silos, from e.g. the ShareDaddy plugin.
 URL_BLACKLIST_RE = re.compile(r"""
   [?&]
     (shared?=(email|facebook|google-plus-1|linkedin|pinterest|pocket|reddit|skype|telegram|tumblr|twitter|youtube) |
@@ -24,5 +22,6 @@ URL_BLACKLIST_RE = re.compile(r"""
   ^http://jothut\.com/cgi-bin/junco\.pl/.*/%5C%22http://toledo |
   ^http://pflanzen-bild\.de/.*/\?s= |
   ^http://www\.bakera\.de/dokuwiki/doku.php/.*\? |
-  ^http://www\.xmlab\.org/news/blog-post/.*/news/blog-post/
+  ^http://www\.xmlab\.org/news/blog-post/.*/news/blog-post/ |
+  ^http://amitp.blogspot.com/.*?widgetType=BlogArchive
   """, re.VERBOSE)
