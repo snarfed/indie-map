@@ -2,11 +2,11 @@
 <html>
 
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>Indie Map: Docs</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="mobile-web-app-capable" content="yes"/>
-<link rel="stylesheet" type="text/css" href="style.css" />
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body id="docs">
@@ -25,10 +25,25 @@
 <div class="body container">
 <div id="docs-body" class="h-entry e-content">
 
-<h1>Docs <!-- Documentation --></h1>
+
+<h2 id="intro">Introduction</h2>
+
+<p>Indie Map is a complete crawl of 2300 of the most active <a href="https://indieweb.org/">IndieWeb</a> sites, sliced and diced and rolled up in a few useful ways:</p>
 
 <ul>
-<li><a href="#intro">Introduction</a></li>
+<li>Social graph <a href="#social-graph-api">API</a> and <a href="map.html">interactive map</a>.</li>
+<li><a href="#data-mining">SQL queryable dataset</a> and <a href="http://metabase.indiemap.org/public/dashboard/d46209c0-170d-49a7-a50d-8be64b577f36">GUI analytics.</a>
+<li><a href="docs.html#crawl">Raw crawl data</a> in <a href="http://bibnum.bnf.fr/WARC/">WARC</a> format: <a href="https://github.com/snarfed/indie-map/blob/master/crawl/domains.txt">2300 sites</a>, 5.7M pages, 380GB HTML + <a href="http://microformats.org/wiki/microformats2">mf2</a>.</li>
+</ul>
+
+<p>Indie Map is free, <a href="https://github.com/snarfed/indie-map">open source</a>, and placed into the public domain. It may also be used under the <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0 license</a>. Crawled content remains the property of each site's owner and author, and subject to their existing copyrights.</p>
+
+<p>Indie Map was created by <a class="h-card u-author" href="https://snarfed.org/">Ryan Barrett</a>. Support Indie Map by <a href="https://opencollective.com/indieweb">donating to the IndieWeb</a>!</p>
+
+
+<h2 id="toc">Contents</h2>
+
+<ul>
 <li><a href="#social-graph">Social graph</a></li>
   <ul>
   <li><a href="#social-graph-viz">Interactive visualization</li>
@@ -57,28 +72,13 @@
 </ul>
 
 
-<h2 id="intro">Introduction</h2>
-
-<p>Indie Map is a complete crawl of 2300 of the most active <a href="https://indieweb.org/">IndieWeb</a> sites, sliced and diced and rolled up in a few useful ways:</p>
-
-<ul>
-<li>Social graph <a href="/docs.html#api">API</a> and <a href="map.html">interactive map</a>.</li>
-<li><a href="/docs.html#dataset">SQL queryable dataset</a> and <a href="http://metabase.indiemap.org/public/dashboard/d46209c0-170d-49a7-a50d-8be64b577f36">GUI analytics.</a>
-<li><a href="docs.html#crawl">Raw crawl data</a> in <a href="http://bibnum.bnf.fr/WARC/">WARC</a> format: <a href="https://github.com/snarfed/indie-map/blob/master/crawl/domains.txt">2300 sites</a>, 5.7M pages, 380GB HTML + <a href="http://microformats.org/wiki/microformats2">mf2</a>.</li>
-</ul>
-
-<p>Indie Map is free, <a href="https://github.com/snarfed/indie-map">open source</a>, and placed into the public domain. It may also be used under the <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0 license</a>. Crawled content remains the property of each site's owner and author, and subject to their existing copyrights.</p>
-
-<p>Indie Map was created by <a class="h-card u-author" href="https://snarfed.org/">Ryan Barrett</a>. Support Indie Map by <a href="https://opencollective.com/indieweb">donating to the IndieWeb</a>!</p>
-
-
 <h2 id="social-graph">Social graph</h2>
 
 <h3 id="social-graph-viz">Interactive visualization</h3>
 
-<p><a href="/map.html">Click here for an interactive map of the Indie Web social graph</a>, powered by <a href="https://kumu.io/">Kumu</a>. It renders all sites and links, by score, and lets you navigate and filter by connections, type, server, microformats2 classes, protocols supported (e.g. webmention and micropub), and more.</p>
+<p><a href="map.html">Click here for an interactive map of the Indie Web social graph</a>, powered by <a href="https://kumu.io/">Kumu</a>. It renders all sites and links, by score, and lets you navigate and filter by connections, type, server, microformats2 classes, protocols supported (e.g. webmention and micropub), and more.</p>
 
-<p><a href="/map.html"><img src="social_graph.jpg" width="990" style="max-width: 100%" /></a></p>
+<p><a href="map.html"><img src="social_graph.jpg" width="990" style="max-width: 100%" /></a></p>
 
 
 <h3 id="social-graph-api">API</h3>
@@ -128,10 +128,6 @@
 </pre>
 
 
-<p>The links sections in these files are limited to the top 500 linked sites, by score. If there are more, the <code>links_truncated</code> field will be <code>true</code>. You can get the full contents by fetching <code>/full/<em>DOMAIN</em>.json</code>. You can also get just the links to/from the sites within this dataset by fetching <code>/indie/<em>DOMAIN</em>.json</code>.</p>
-
-<p>Links with <code>rel="nofollow"</code> are excluded.</p>
-
 <p>The <code>hcard</code> field is the <a href="">representative h-card</a> from the site's home page, extracted by <a href="https://github.com/kylewm/mf2util">mf2util</a> 0.5.0's <code>representative_hcard()</code>.</p>
 
 <p>The <code>links</code> field is a list of other sites with links to and from this site, ordered by <code>score</code>, a calculated estimate of the connection strength. The formula is <code>ln(links) / ln (max links)</code>, where links is the total number of links to and from the site, <a href="https://github.com/snarfed/indie-map/blob/master/bigquery/make_web.py#L35">weighted by type</a>, and max links is the highest link count across all sites in this site's list. The weights are:</p>
@@ -150,12 +146,16 @@ Microformats2 class:
 <li>other or none: 2x</li>
 </ul>
 
+<p>Social network profile URLs are inferred for links to Facebook, Twitter, and Google+ profiles and posts. Those links will appear as e.g. separate objects for <code>twitter.com/schnarfed</code>, <code>twitter.com/indiewebcamp</code>, etc. instead of lumped together in a single <code>twitter.com</code> object. This is best effort only.</p>
+
+<p>The <code>links</code> object is limited to the top 500 linked sites, by score. If there are more, the <code>links_truncated</code> field will be <code>true</code>. You can get the full list of sites by fetching <code>/full/<em>DOMAIN</em>.json</code>. You can also get just the links to/from the sites within this dataset by fetching <code>/indie/<em>DOMAIN</em>.json</code>.</p>
+
 <p>Webmention, Micropub, WebSub, and IndieAuth endpoints are only extracted from the first matching HTML <code>&lt;link&gt;</code> tag, not all, and not from HTTP headers. These bugs may be fixed in the future.</p>
 
 
 <h2 id="data-mining">Data mining</h2>
 
-<p>The Indie Map dataset is available in Google's <a href="https://cloud.google.com/bigquery/">BigQuery</a> data warehouse, which supports modern Standard SQL queries. The dataset is <a href="https://bigquery.cloud.google.com/dataset/indie-map:indiemap"><code>indie-map:indiemap</code></a>. You'll need a Google account.</p>
+<p>The Indie Map dataset is available in Google's <a href="https://cloud.google.com/bigquery/">BigQuery</a> data warehouse, which supports Standard SQL queries. The dataset is <a href="https://bigquery.cloud.google.com/dataset/indie-map:indiemap"><code>indie-map:indiemap</code></a>. You'll need a Google account. <a href="https://cloud.google.com/bigquery/pricing#free-tier">You can query up to 1TB/month for free, but it costs $5/TB after that.</a></p>
 
 There's also a <a href="http://metabase.indiemap.org/public/dashboard/d46209c0-170d-49a7-a50d-8be64b577f36">Metabase dashboard</a> with analytics.
 
@@ -340,7 +340,7 @@ LIMIT 15
 
 <h3 id="schema-links"><code><a href="https://bigquery.cloud.google.com/table/indie-map:indiemap.links">links</a></code></h3>
 
-<p>A view of <a href="#schema-pages">pages</a>. Every <code>&lt;a&gt;</code> links in a page in the dataset, one row per link.</p>
+<p>A view of <a href="#schema-pages">pages</a>. Every <code>&lt;a&gt;</code> link in a page in the dataset, one row per link.</p>
 
 <table class="schema">
 <tr>
@@ -356,7 +356,7 @@ LIMIT 15
   <td>string</td>
   <td></td>
 </tr><tr>
-  <td>to_domain</td>
+  <td>to_site</td>
   <td>string</td>
   <td></td>
 </tr><tr>
@@ -378,7 +378,7 @@ LIMIT 15
   <td>string</td>
   <td></td>
 </tr><tr>
-  <td>to_domain</td>
+  <td>to_site</td>
   <td>string</td>
   <td></td>
 </tr><tr>
@@ -398,9 +398,9 @@ LIMIT 15
 
 <h3 id="crawl-data">Data</h3>
 
-<p>The raw crawl data from is available as a set of <a href="http://bibnum.bnf.fr/WARC/">WARC</a> files, one per site, which include full HTTP request and response metadata, headers, and raw response bodies.</p>
+<p>The raw crawl data is available as a set of <a href="http://bibnum.bnf.fr/WARC/">WARC</a> files, one per site, which include full HTTP request and response metadata, headers, and raw response bodies.</p>
 
-<p>The files are stored in <a href="https://cloud.google.com/storage/">Google Cloud Storage</a>, in the <code>gs://indie-map</code> bucket. You can access them for free <a href="https://console.cloud.google.com/storage/browser/indie-map/">via the web UI</a> and the <a href="https://cloud.google.com/storage/docs/quickstart-gsutil"><code>gsutil</code> CLI utility</a>, e.g. <code>gsutil cp gs://indie-map/crawl/<em>DOMAIN</em>.warc.gz</code>. You'll need a Google account.</p>
+<p>The files are stored in <a href="https://cloud.google.com/storage/">Google Cloud Storage</a>, in the <code>gs://indie-map</code> bucket. You can access them <a href="https://console.cloud.google.com/storage/browser/indie-map/">via the web UI</a> and the <a href="https://cloud.google.com/storage/docs/quickstart-gsutil"><code>gsutil</code> CLI utility</a>, e.g. <code>gsutil cp gs://indie-map/crawl/<em>DOMAIN</em>.warc.gz</code>. You'll need a Google account, but there's no cost.</p>
 
 <p>Individual pages and sites are timestamped. Indie Map may be extended and updated in the future with new crawls.</p>
 
@@ -417,7 +417,7 @@ LIMIT 15
 <li>Most sites were crawled at ~.3 <a href="http://en.wikipedia.org/wiki/Queries_per_second">qps</a> to prevent overloading them.</li>
 <li>Most HTTP requests used <code>User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:53.0) Gecko/20100101 Firefox/53.0</code>. Requests for some initial sites used <code>User-Agent: Wget/1.19.1</code>.</li>
 <li>URLS ending in these file extensions were ignored: <code>as atom avi bz2 bzip bzip2 css csv doc docx dvf epub exe gif GIF gz GZ gzip ico iso jar jpeg JPEG jpg JPG js json m4a m4b m4v mov mp3 mp4 mpg odt ogg pdf PDF png PNG ppt pptx ps rar rdf rss svg swf SWF tar txt text wav wma wmv xml xls xlsx xpi Z zip</code>.</li>
-<li><a href="https://github.com/snarfed/indie-map/blob/30a32b6d201ec3326250d4e187a38412d3998e4f/crawl/wget.sh#L8">Other URL patterns were ignored</a> to avoid infinite loop, randomly generated, duplicate, or otherwise low value pages.</li>
+<li><a href="https://github.com/snarfed/indie-map/blob/master/src/blacklist.py">Other URL patterns were ignored</a> to avoid infinite loop, randomly generated, duplicate, and otherwise low value pages.</li>
 <li><code>wget</code>'s <code>--warc-file</code> flag was used to output <a href="http://bibnum.bnf.fr/WARC/">WARC</a> files.</li>
 <li>Sent <code>Accept: text/html</code> to <a href="https://rhiaro.co.uk/">rhiaro.co.uk</a> for content negotiation, since it returns RDF by default. Otherwise, didn't send the <code>Accept</code> header to any other sites.
 </ul>
@@ -468,7 +468,7 @@ LIMIT 15
 <li><a href="https://www.museum-digital.de/">museum-digital.de</a>: massive digital catalog of over 34k museum artifacts from 84 museums. Includes h-cards and h-geos for many of the artifacts.</li>
 <li><a href="https://huffduffer.com/">huffduffer.com</a>: over 400k podcast links marked up with mf2.</li>
 <li><a href="https://www.contrepoints.org/">contrepoints.org</a>: online French newspaper with h-entrys and h-cards.</li>
-<li><a href="https://loadaverage.org/">loadaverage.org</a>: fairly big Gnu Social instance with mf2. <a href="https://wiki.loadaverage.org/about">Details.</a></li>
+<li><a href="https://loadaverage.org/">loadaverage.org</a>: fairly big GNU Social instance with mf2. <a href="https://wiki.loadaverage.org/about">Details.</a></li>
 <li><a href="https://wirres.net/">wirres.net</a>: large personal site with over 300k pages.</li>
 <li><a href="https://shkspr.mobi/">shkspr.mobi</a>: All of Shakespeare's plays and sonnets, paginated and formatted for mobile.</li>
 <li><a href="https://indieweb.org/">indieweb.org</a>, naturally.</li>

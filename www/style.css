@@ -75,11 +75,12 @@ html, body {
 }
 
 #home, #docs-title {
-  background: url(map-of-the-world.jpg) repeat-y center top;
+  background: url(map-of-the-world.jpg) no-repeat center top;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  overflow: hidden;
 }
 
 #home, #docs-title {

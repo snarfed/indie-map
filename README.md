@@ -1,16 +1,14 @@
 Indie Map
 ===
 
-[Indie Map](http://www.indiemap.org/) is a public IndieWeb [IndieWeb](https://indieweb.org/) social graph and dataset. [See the docs for details.](http://www.indiemap.org/docs.html)
-
-This file focuses on how to develop, run, and maintain Indie Map itself.
+[Indie Map](http://www.indiemap.org/) is a public [IndieWeb](https://indieweb.org/) social graph and dataset. [See the docs for details.](http://www.indiemap.org/docs.html) This doc focuses on how to develop, run, and maintain Indie Map itself.
 
 The individual sites and pages retain their original copyright. The rest of the dataset and this project are placed into the public domain. You may also use it under the [CC0 license](http://creativecommons.org/publicdomain/zero/1.0/).
 
 
 ### Crawl
 
-The crawler is basically just `xargs wget < domains.txt`. Details in [`crawl.sh`](https://github.com/snarfed/indie-map/blob/master/crawl/crawl.sh) and [`wget.sh`](https://github.com/snarfed/indie-map/blob/master/crawl/wget.sh).
+The crawler is basically just `xargs wget -r < domains.txt`. Details in [`crawl.sh`](https://github.com/snarfed/indie-map/blob/master/crawl/crawl.sh) and [`wget.sh`](https://github.com/snarfed/indie-map/blob/master/crawl/wget.sh).
 
 To add a site to the dataset, run `crawl/add_site_1.sh`, then `crawl/add_site_2.sh`. They're separate because `add_site_2.sh` runs ~300GB of BigQuery queries, which costs ~$1.50, so if you're adding lots of sites, run `add_site_1.sh` once for each site and then `add_site_2.sh` once for all the sites together.
 
