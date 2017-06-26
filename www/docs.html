@@ -50,6 +50,7 @@
   <ul>
   <li><a href="#social-graph-viz">Interactive visualization</li>
   <li><a href="#social-graph-api">API</a></li>
+  <li><a href="#social-graph-data">Data</a></li>
   </ul>
 <li><a href="#data-mining">Data mining</a></li>
   <ul>
@@ -153,6 +154,11 @@ Microformats2 class:
 <p>The <code>links</code> object is limited to the top 500 linked sites, by score. If there are more, the <code>links_truncated</code> field will be <code>true</code>. You can get the full list of sites by fetching <code>/full/<em>DOMAIN</em>.json</code>. You can also get just the links to/from the sites within this dataset by fetching <code>/indie/<em>DOMAIN</em>.json</code>.</p>
 
 <p>Webmention, Micropub, WebSub, and IndieAuth endpoints are only extracted from the first matching HTML <code>&lt;link&gt;</code> tag, not all, and not from HTTP headers. These bugs may be fixed in the future.</p>
+
+
+<h3 id="social-graph-data">Data</h3>
+
+<p>You can download the full set of JSON files, ie every site in the dataset, from <a href="https://cloud.google.com/storage/">Google Cloud Storage</a> in the <code>gs://www.indiemap.org</code> bucket. You can access them <a href="https://console.cloud.google.com/storage/browser/indie-map/">via the web UI</a> and the <a href="https://cloud.google.com/storage/docs/quickstart-gsutil"><code>gsutil</code> CLI utility</a>, e.g. <code>gsutil cp -r gs://www.indiemap.org/ .</code> You'll need a Google account, but there's no cost.</p>
 
 
 <h2 id="data-mining">Data mining</h2>
