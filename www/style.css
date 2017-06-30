@@ -53,6 +53,8 @@ html, body {
 
 #learn-more {
   margin-top: 4em;
+  margin-bottom: 0;
+  padding-bottom: 2em;
   text-align: center;
 }
 
@@ -80,7 +82,6 @@ html, body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  overflow: hidden;
 }
 
 #home, #docs-title {
