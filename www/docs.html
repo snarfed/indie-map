@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 <title>Indie Map: Docs</title>
@@ -22,19 +22,21 @@
 </div>
 </div>
 
-<div class="body container">
-<div id="docs-body" class="h-entry e-content">
+<div class="body container h-entry">
+<div id="docs-body" class="e-content">
 
 
 <h2 id="intro">Introduction</h2>
 
-<p>Indie Map is a complete crawl of 2300 of the most active <a href="https://indieweb.org/">IndieWeb</a> sites, sliced and diced and rolled up in a few useful ways:</p>
+<p><span class="p-name">Indie Map</span> is a complete crawl of 2300 of the most active <a href="https://indieweb.org/">IndieWeb</a> sites, sliced and diced and rolled up in a few useful ways:</p>
 
 <ul>
 <li>Social graph <a href="#social-graph-api">API</a> and <a href="https://kumu.io/snarfed/indie-map">interactive map</a>.</li>
 <li><a href="#data-mining">SQL queryable dataset</a> and <a href="http://metabase.indiemap.org/public/dashboard/d46209c0-170d-49a7-a50d-8be64b577f36">GUI analytics.</a>
 <li><a href="docs.html#crawl">Raw crawl data</a> in <a href="http://bibnum.bnf.fr/WARC/">WARC</a> format: <a href="https://github.com/snarfed/indie-map/blob/master/crawl/domains.txt">2300 sites</a>, 5.7M pages, 380GB HTML + <a href="http://microformats.org/wiki/microformats2">mf2</a>.</li>
 </ul>
+
+<p>Indie Map <a href="https://snarfed.org/2017-06-24_new-side-project-indie-map">was announced</a> at <a href="https://2017.indieweb.org/">IndieWeb Summit 2017</a>. Check out the <a href="https://www.youtube.com/watch?v=bkc5afFohmI">video of the talk</a> and <a href="https://snarfed.org/indiemap_iws2017/">slide deck</a> for an introduction.</p>
 
 <p>Indie Map is free, <a href="https://github.com/snarfed/indie-map">open source</a>, and placed into the public domain via the <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0 public domain dedication</a>. Crawled content remains the property of each site's owner and author, and subject to their existing copyrights.</p>
 
@@ -46,13 +48,13 @@
 <h2 id="toc">Contents</h2>
 
 <ul>
-<li><a href="#social-graph">Social graph</a></li>
+<li><a href="#social-graph">Social graph</a>
   <ul>
-  <li><a href="#social-graph-viz">Interactive visualization</li>
+  <li><a href="#social-graph-viz">Interactive visualization</a></li>
   <li><a href="#social-graph-api">API</a></li>
   <li><a href="#social-graph-data">Data</a></li>
-  </ul>
-<li><a href="#data-mining">Data mining</a></li>
+  </ul></li>
+<li><a href="#data-mining">Data mining</a>
   <ul>
   <li><a href="#query-example">Example query</a></li>
   <li><a href="#schema-pages"><code>pages</code></a></li>
@@ -60,18 +62,18 @@
   <li><a href="#schema-canonical-pages"><code>canonical_pages</code></a></li>
   <li><a href="#schema-links"><code>links</code></a></li>
   <li><a href="#schema-links-social-graph"><code>links_social_graph</code></a></li>
-  </ul>
-<li><a href="#crawl">Crawl</a></li>
+  </ul></li>
+<li><a href="#crawl">Crawl</a>
   <ul>
   <li><a href="#crawl-data">Data</a></li>
   <li><a href="#crawl-methodology">Methodology</a></li>
   <li><a href="#common-crawl">Common Crawl (historical)</a></li>
-  </ul>
-<li><a href="#sites">Sites included</a></li>
+  </ul></li>
+<li><a href="#sites">Sites included</a>
   <ul>
   <li><a href="#notable">Notable sites</a></li>
   <li><a href="#exceptions">Exceptions</a></li>
-  </ul>
+  </ul></li>
 <li><a href="#listings">External listings</a></li>
 </ul>
 
@@ -82,7 +84,7 @@
 
 <p><a href="https://kumu.io/snarfed/indie-map">Click here for an interactive map of the Indie Web social graph</a>, powered by <a href="https://kumu.io/">Kumu</a>. It renders all sites and links, by score, and lets you navigate and filter by connections, type, server, microformats2 classes, protocols supported (e.g. webmention and micropub), and more.</p>
 
-<p><a href="https://kumu.io/snarfed/indie-map"><img src="social_graph.jpg" width="990" style="max-width: 100%" /></a></p>
+<p><a href="https://kumu.io/snarfed/indie-map"><img alt="social graph" src="social_graph.jpg" width="990" style="max-width: 100%" /></a></p>
 
 
 <h3 id="social-graph-api">API</h3>
@@ -186,7 +188,7 @@ LIMIT 15
 
 <p>And here's a <a href="http://metabase.indiemap.org/public/question/20630356-75d8-4989-9138-db0fd22c2eb4">Metabase visualization</a> of that query:</p>
 
-<p><a href="http://metabase.indiemap.org/public/question/20630356-75d8-4989-9138-db0fd22c2eb4"><img src="metabase_rel_me_domains.png" width="1204" style="max-width: 100%" /></a></p>
+<p><a href="http://metabase.indiemap.org/public/question/20630356-75d8-4989-9138-db0fd22c2eb4"><img alt="rel-me link domains per site" src="metabase_rel_me_domains.png" width="1204" style="max-width: 100%" /></a></p>
 
 
 <h3 id="schema-pages"><code><a href="https://bigquery.cloud.google.com/table/indie-map:indiemap.pages">pages</a></code></h3>
@@ -262,7 +264,7 @@ LIMIT 15
 <tr>
   <th>Field name</th>
   <th>Type</th>
-  <th>Description</th></td>
+  <th>Description</th>
 </tr><tr>
   <td>domain</td>
   <td>string</td>
@@ -334,7 +336,6 @@ LIMIT 15
   <td>integer</td>
   <td>Total size of all crawled pages on this site, in bytes.</td>
 </tr><tr>
-</tr><tr>
   <td>mf2_classes</td>
   <td>array&lt;string&gt;</td>
   <td>All mf2 classes observed on pages on this site.</td>
@@ -381,8 +382,7 @@ LIMIT 15
 <p>A view of <a href="#schema-pages">pages</a>. Counts of <code>&lt;a&gt;</code> links in pages in the dataset, grouped by source and destination domain and mf2 class (or none).</p>
 
 <table class="schema">
-<tr></td>
-</tr><tr>
+<tr>
   <td>from_domain</td>
   <td>string</td>
   <td></td>
@@ -522,7 +522,7 @@ Sites or parts of sites that were excluded from the dataset.
 <li><a href="http://thecommandline.net/wiki/">thecommandline.net/wiki/...</a>: MediaWiki special pages, e.g. revision history.</li>
 <li><a href="http://tilde.club/~odwyer/maze/...">tilde.club/~odwyer/maze/...</a>: random auto-generated maze.</li>
 <li><a href="https://unrelenting.technology/git/">unrelenting.technology/git/...</a>: web UI to large code repos.</li>
-<li><a href="http://vasilis\.nl/random/daily/.../.*\.svg">vasilis.nl/random/daily/.../*.svg</a>: random generated images.</li>
+<li><a href="http://vasilis.nl/random/daily/">vasilis.nl/random/daily/.../*.svg</a>: random generated images.</li>
 <li><a href="https://waterpigs.co.uk/mentions/webmention/">waterpigs.co.uk/mentions/webmention/?wmtoken=...</a>: infinite loop, with a new token each time.</li>
 <li><a href="https://webdesign.weisshart.de/suchen.php?">webdesign.weisshart.de/suchen.php?...</a>: search results.</li>
 <li><a href="http://wiki.projectnerdhaus.com/">wiki.projectnerdhaus.com</a>: MediaWiki special pages (e.g. revision history) are incomplete.</li>
@@ -540,13 +540,12 @@ Sites or parts of sites that were excluded from the dataset.
 
 <ul>
 <li><a href="https://figshare.com/account/projects/23005/articles/5160793">figshare</a> (DOI: 10.6084/m9.figshare.5160793)</li>
+<li><a href="https://www.kaggle.com/snarfed/indiemap">Kaggle</a></li>
+<li><a href="https://datahub.io/dataset/indie-map">datahub</a></li>
 </ul>
 
 </div>
 </div>
-</div>
-</div>
-</body>
 
 <script src="fragmention.js"></script>
 <script>
@@ -558,4 +557,6 @@ Sites or parts of sites that were excluded from the dataset.
   ga('create', 'UA-11785301-3', 'auto');
   ga('send', 'pageview');
 </script>
+
+</body>
 </html>
