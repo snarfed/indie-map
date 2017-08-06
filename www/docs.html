@@ -54,6 +54,8 @@
   <li><a href="#social-graph-api">API</a></li>
   <li><a href="#social-graph-data">Data</a></li>
   </ul></li>
+<li><a href="#analytics">Analytics</a>
+  </li>
 <li><a href="#data-mining">Data mining</a>
   <ul>
   <li><a href="#query-example">Example query</a></li>
@@ -82,7 +84,7 @@
 
 <h3 id="social-graph-viz">Interactive visualization</h3>
 
-<p><a href="https://kumu.io/snarfed/indie-map">Click here for an interactive map of the Indie Web social graph</a>, powered by <a href="https://kumu.io/">Kumu</a>. It renders all sites and links, by score, and lets you navigate and filter by connections, type, server, microformats2 classes, protocols supported (e.g. webmention and micropub), and more.</p>
+<p><a href="https://kumu.io/snarfed/indie-map">Click here for an interactive map of the Indie Web social graph</a>, powered by <a href="https://kumu.io/">Kumu</a>. It renders all sites and links, by score, and lets you navigate and filter by connections, type, server, microformats2 classes, protocols supported (e.g. <a href="https://webmention.net/">Webmention</a> and <a href="https://micropub.net/">Micropub</a>), and more.</p>
 
 <p><a href="https://kumu.io/snarfed/indie-map"><img alt="social graph" src="social_graph.jpg" width="990" style="max-width: 100%" /></a></p>
 
@@ -156,12 +158,30 @@ Microformats2 class:
 
 <p>The <code>links</code> object is limited to the top 500 linked sites, by score. If there are more, the <code>links_truncated</code> field will be <code>true</code>. You can get the full list of sites by fetching <code>/full/<em>DOMAIN</em>.json</code>. You can also get just the links to/from the sites within this dataset by fetching <code>/indie/<em>DOMAIN</em>.json</code>.</p>
 
-<p>Webmention, Micropub, WebSub, and IndieAuth endpoints are only extracted from the first matching HTML <code>&lt;link&gt;</code> tag, not all, and not from HTTP headers. These bugs may be fixed in the future.</p>
+<p><a href="https://webmention.net/">Webmention</a>, <a href="https://micropub.net/">Micropub</a>, <a href="https://www.w3.org/TR/websub/">WebSub</a>, and <a href="https://indieweb.org/IndieAuth">IndieAuth</a> endpoints are only extracted from the first matching HTML <code>&lt;link&gt;</code> tag, not all, and not from HTTP headers. These bugs may be fixed in the future.</p>
 
 
 <h3 id="social-graph-data">Data</h3>
 
 <p>You can <a href="http://www.indiemap.org/all.zip">download a zip file with the full set of JSON files</a>. You can also look at the individual files in <a href="https://cloud.google.com/storage/">Google Cloud Storage</a>, in the <code>gs://www.indiemap.org</code> bucket. You can access them <a href="https://console.cloud.google.com/storage/browser/indie-map/">via the web UI</a> and the <a href="https://cloud.google.com/storage/docs/quickstart-gsutil"><code>gsutil</code> CLI utility</a>, e.g. <code>gsutil cp gs://www.indiemap.org/\*.json .</code> You'll need a Google account, but there's no cost.</p>
+
+
+<h2 id="analytics">Analytics</h2>
+
+<map name="graphs">
+  <area shape="rect" coords="45%,0,100%,8%" href="graphs/crawl.png">
+  <area shape="rect" coords="0,160,100%,552" href="graphs/sites.png">
+  <area shape="rect" coords="0,552,705,750" href="graphs/tlds.png">
+  <area shape="rect" coords="750,552,100%,750" href="graphs/domain_segments.png">
+  <area shape="rect" coords="0,750,640,945" href="graphs/mf2_by_sites.png">
+  <area shape="rect" coords="640,750,100%,945" href="graphs/mf2_by_pages.png">
+  <area shape="rect" coords="0,945,640,1285" href="graphs/link_rels.png">
+  <area shape="rect" coords="640,945,100%,1285" href="graphs/rel_me_sites.png">
+  <area shape="rect" coords="0,1285,100%,1485" href="graphs/rel_me_histogram.png">
+  <area shape="rect" coords="0,1485,100%,1957" href="graphs/servers.png">
+</map>
+<img usemap="#graphs" src="graphs/all.png" alt="all analytics graphs"
+     width="1280" style="max-width: 100%">
 
 
 <h2 id="data-mining">Data mining</h2>
@@ -407,9 +427,9 @@ LIMIT 15
 
 <h3 id="crawl-data">Data</h3>
 
-<p>The raw crawl data is available as a set of <a href="http://bibnum.bnf.fr/WARC/">WARC</a> files, one per site, which include full HTTP request and response metadata, headers, and raw response bodies.</p>
+<p>The raw crawl data is available as a set of <a href="http://bibnum.bnf.fr/WARC/">WARC</a> files, one per site, which include full HTTP request and response metadata, headers, and raw response bodies. It's also available as JSON files with the same metadata and parsed mf2.</p>
 
-<p>The files are stored in <a href="https://cloud.google.com/storage/">Google Cloud Storage</a>, in the <code>gs://indie-map</code> bucket. You can access them <a href="https://console.cloud.google.com/storage/browser/indie-map/">via the web UI</a> and the <a href="https://cloud.google.com/storage/docs/quickstart-gsutil"><code>gsutil</code> CLI utility</a>, e.g. <code>gsutil cp gs://indie-map/crawl/<em>DOMAIN</em>.warc.gz</code>. You'll need a Google account, but there's no cost.</p>
+<p>The files are stored in <a href="https://cloud.google.com/storage/">Google Cloud Storage</a>, in the <code>gs://indie-map</code> bucket. You can access them <a href="https://console.cloud.google.com/storage/browser/indie-map/">via the web UI</a> and the <a href="https://cloud.google.com/storage/docs/quickstart-gsutil"><code>gsutil</code> CLI utility</a>, e.g. <code>gsutil cp gs://indie-map/crawl/\*.warc.gz</code> or <code>gsutil cp gs://indie-map/bigquery/\*.json.gz</code>. You'll need a Google account, but there's no cost.</p>
 
 <p>Individual pages and sites are timestamped. Indie Map may be extended and updated in the future with new crawls.</p>
 
@@ -542,6 +562,8 @@ Sites or parts of sites that were excluded from the dataset.
 <li><a href="https://figshare.com/account/projects/23005/articles/5160793">figshare</a> (DOI: 10.6084/m9.figshare.5160793)</li>
 <li><a href="https://www.kaggle.com/snarfed/indiemap">Kaggle</a></li>
 <li><a href="https://datahub.io/dataset/indie-map">datahub</a></li>
+<li><a href="https://data.world/snarfed/indie-map">data.world</a></li>
+<li><a href="https://www.reddit.com/r/datasets/comments/6ljm6m/indie_map_a_social_network_of_the_most_active/">Reddit: /r/datasets</a></li>
 </ul>
 
 </div>
