@@ -189,6 +189,11 @@ p[fragmention] {
   color: indigo;
 }
 
+.graphs img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
 @media screen and (max-width: 744px) {
   #title h1 { font-size: 3em; }
   #header { font-size: 1.2em; }

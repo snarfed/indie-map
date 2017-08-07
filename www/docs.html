@@ -32,7 +32,7 @@
 
 <ul>
 <li>Social graph <a href="#social-graph-api">API</a> and <a href="https://kumu.io/snarfed/indie-map">interactive map</a>.</li>
-<li><a href="#data-mining">SQL queryable dataset</a> and <a href="http://metabase.indiemap.org/public/dashboard/d46209c0-170d-49a7-a50d-8be64b577f36">GUI analytics.</a>
+<li><a href="#data-mining">SQL queryable dataset</a> and <a href="#stats">example stats.</a>
 <li><a href="docs.html#crawl">Raw crawl data</a> in <a href="http://bibnum.bnf.fr/WARC/">WARC</a> format: <a href="https://github.com/snarfed/indie-map/blob/master/crawl/domains.txt">2300 sites</a>, 5.7M pages, 380GB HTML + <a href="http://microformats.org/wiki/microformats2">mf2</a>.</li>
 </ul>
 
@@ -54,7 +54,7 @@
   <li><a href="#social-graph-api">API</a></li>
   <li><a href="#social-graph-data">Data</a></li>
   </ul></li>
-<li><a href="#analytics">Analytics</a>
+<li><a href="#stats">Statistics and graphs</a>
   </li>
 <li><a href="#data-mining">Data mining</a>
   <ul>
@@ -166,29 +166,27 @@ Microformats2 class:
 <p>You can <a href="http://www.indiemap.org/all.zip">download a zip file with the full set of JSON files</a>. You can also look at the individual files in <a href="https://cloud.google.com/storage/">Google Cloud Storage</a>, in the <code>gs://www.indiemap.org</code> bucket. You can access them <a href="https://console.cloud.google.com/storage/browser/indie-map/">via the web UI</a> and the <a href="https://cloud.google.com/storage/docs/quickstart-gsutil"><code>gsutil</code> CLI utility</a>, e.g. <code>gsutil cp gs://www.indiemap.org/\*.json .</code> You'll need a Google account, but there's no cost.</p>
 
 
-<h2 id="analytics">Analytics</h2>
+<h2 id="stats">Statistics and graphs</h2>
 
-<map name="graphs">
-  <area shape="rect" coords="45%,0,100%,8%" href="graphs/crawl.png">
-  <area shape="rect" coords="0,160,100%,552" href="graphs/sites.png">
-  <area shape="rect" coords="0,552,705,750" href="graphs/tlds.png">
-  <area shape="rect" coords="750,552,100%,750" href="graphs/domain_segments.png">
-  <area shape="rect" coords="0,750,640,945" href="graphs/mf2_by_sites.png">
-  <area shape="rect" coords="640,750,100%,945" href="graphs/mf2_by_pages.png">
-  <area shape="rect" coords="0,945,640,1285" href="graphs/link_rels.png">
-  <area shape="rect" coords="640,945,100%,1285" href="graphs/rel_me_sites.png">
-  <area shape="rect" coords="0,1285,100%,1485" href="graphs/rel_me_histogram.png">
-  <area shape="rect" coords="0,1485,100%,1957" href="graphs/servers.png">
-</map>
-<img usemap="#graphs" src="graphs/all.png" alt="all analytics graphs"
-     width="1280" style="max-width: 100%">
+<p>Here are a few interesting breakdowns of the data, visualized with <a href="http://www.metabase.com/">Metabase</a>:</p>
+
+<div class="graphs">
+<a href="graphs/crawl.png"><img src="graphs/crawl.png"></a>
+<a href="graphs/sites.png"><img src="graphs/sites.png"></a>
+<a href="graphs/tlds.png"><img src="graphs/tlds.png"></a>
+<a href="graphs/domain_segments.png"><img src="graphs/domain_segments.png"></a>
+<a href="graphs/mf2_by_sites.png"><img src="graphs/mf2_by_sites.png"></a>
+<a href="graphs/mf2_by_pages.png"><img src="graphs/mf2_by_pages.png"></a>
+<a href="graphs/link_rels.png"><img src="graphs/link_rels.png"></a>
+<a href="graphs/rel_me_sites.png"><img src="graphs/rel_me_sites.png"></a>
+<a href="graphs/rel_me_histogram.png"><img src="graphs/rel_me_histogram.png"></a>
+<a href="graphs/servers.png"><img src="graphs/servers.png"></a>
+</div>
 
 
 <h2 id="data-mining">Data mining</h2>
 
-<p>The Indie Map dataset is available in Google's <a href="https://cloud.google.com/bigquery/">BigQuery</a> data warehouse, which supports Standard SQL queries. The dataset is <a href="https://bigquery.cloud.google.com/dataset/indie-map:indiemap"><code>indie-map:indiemap</code></a>. You'll need a Google account. <a href="https://cloud.google.com/bigquery/pricing#free-tier">You can query up to 1TB/month for free, but it costs $5/TB after that.</a></p>
-
-There's also a <a href="http://metabase.indiemap.org/public/dashboard/d46209c0-170d-49a7-a50d-8be64b577f36">Metabase dashboard</a> with analytics.
+<p>The Indie Map dataset is available in Google's <a href="https://cloud.google.com/bigquery/">BigQuery</a> data warehouse, which supports Standard SQL queries and integrates with <a href="https://cloud.google.com/bigquery/partners/#bianalytics-partners">many powerful analytics tools</a>. The dataset is <a href="https://bigquery.cloud.google.com/dataset/indie-map:indiemap"><code>indie-map:indiemap</code></a>. You'll need a Google account. <a href="https://cloud.google.com/bigquery/pricing#free-tier">You can query up to 1TB/month for free, but it costs $5/TB after that.</a></p>
 
 <p>The dataset consists of two tables, <a href="#schema-pages"><code>pages</code></a> and <a href="#schema-pages"><code>sites</code></a>, and three views, <a href="#schema-canonical-pages"><code>canonical_pages</code></a>, <a href="#schema-links"><code>links</code></a>, and <a href="#schema-links-social-graph"><code>links_social_graph</code></a>. Each page's HTML was parsed for mf2 by <a href="https://github.com/tommorris/mf2py">mf2py</a> 1.0.5, which was then used to populate many fields. Some fields are JSON encoded strings, which you can query in BiqQuery with <a href="https://cloud.google.com/bigquery/docs/reference/legacy-sql#json_extract"><code>JSON_EXTRACT</code></a> and <a href="https://code.google.com/p/jsonpath">JSONPath</a>.</p>
 
@@ -206,9 +204,12 @@ ORDER BY <span class="keyword">sites</span> DESC
 LIMIT 15
 </pre>
 
-<p>And here's a <a href="http://metabase.indiemap.org/public/question/20630356-75d8-4989-9138-db0fd22c2eb4">Metabase visualization</a> of that query:</p>
+<p>And here's a <a href="http://www.metabase.com/">Metabase</a> visualization of that query:</p>
 
-<p><a href="http://metabase.indiemap.org/public/question/20630356-75d8-4989-9138-db0fd22c2eb4"><img alt="rel-me link domains per site" src="metabase_rel_me_domains.png" width="1204" style="max-width: 100%" /></a></p>
+<p class="graphs">
+<a href="graphs/rel_me_sites.png">
+<img alt="rel-me link domains per site" src="graphs/rel_me_sites.png">
+</a></p>
 
 
 <h3 id="schema-pages"><code><a href="https://bigquery.cloud.google.com/table/indie-map:indiemap.pages">pages</a></code></h3>
@@ -435,7 +436,7 @@ LIMIT 15
 
 <h3 id="crawl-methodology">Methodology</h3>
 
-<p>Sites were crawled with with <a href="https://www.gnu.org/software/wget/">GNU <code>wget</code></a> v1.19.1, on Mac OS X 10.11.6 on a mid-2014 MacBook Pro, over a Comcast 100Mbps residential account in San Francisco, <a href="http://metabase.indiemaporg/public/question/e5b392a6-1b30-41a3-ae87-bad03b8bbaac">between April and June 2017</a>. Notable details:</p>
+<p>Sites were crawled with with <a href="https://www.gnu.org/software/wget/">GNU <code>wget</code></a> v1.19.1, on Mac OS X 10.11.6 on a mid-2014 MacBook Pro, over a Comcast 100Mbps residential account in San Francisco, <a href="graphs/crawl.png">between April and June 2017</a>. Notable details:</p>
 
 <ul>
 <li><a href="http://robotstxt.org/"><code>robots.txt</code> files</a> were respected.</li>
