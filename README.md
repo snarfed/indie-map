@@ -113,6 +113,7 @@ I did this to set up [www.indiemap.org](http://www.indiemap.org/) to [serve from
 ```sh
 gsutil mb www.indiemap.org
 gsutil cp www/index.html gs://www.indiemap.org/
+gsutil cp www/docs.html gs://www.indiemap.org/
 gsutil cp www/404.html gs://www.indiemap.org/
 gsutil acl ch -u AllUsers:R gs://www.indiemap.org/index.html
 gsutil web set -m index.html -e 404.html gs://www.example.com
