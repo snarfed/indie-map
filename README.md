@@ -108,7 +108,7 @@ HTTP/1.1 403 Forbidden
 
 #### Web site
 
-I did this to set up [www.indiemap.org](http://www.indiemap.org/) to [serve from Google Cloud Storage](https://cloud.google.com/storage/docs/hosting-static-website):
+I did this to set up [www.indiemap.org](http://www.indiemap.org/) to [serve from Google Cloud Storage](https://cloud.google.com/storage/docs/hosting-static-website) and store HTTP request logs in `gs://indie-map/`:
 
 ```sh
 gsutil mb www.indiemap.org
@@ -117,6 +117,10 @@ gsutil cp www/docs.html gs://www.indiemap.org/
 gsutil cp www/404.html gs://www.indiemap.org/
 gsutil acl ch -u AllUsers:R gs://www.indiemap.org/index.html
 gsutil web set -m index.html -e 404.html gs://www.example.com
+
+# https://cloud.google.com/storage/docs/access-logs
+gsutil acl ch -g cloud-storage-analytics@google.com:W gs://indie-map
+gsutil logging set on -b gs://indie-map -o logs/ gs://www.indiemap.org/
 
 # https://cloud.google.com/storage/docs/access-control/create-manage-lists#defaultobjects
 gsutil defacl ch -u AllUsers:READER gs://www.indiemap.org
