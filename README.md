@@ -108,7 +108,18 @@ HTTP/1.1 403 Forbidden
 
 #### Web site
 
-I did this to set up [www.indiemap.org](http://www.indiemap.org/) to [serve from Google Cloud Storage](https://cloud.google.com/storage/docs/hosting-static-website) and store HTTP request logs in `gs://indie-map/`:
+The Indie Map web site is [stored and served on Firebase Hosting](https://firebase.google.com/docs/hosting/). I [followed these instructions to set it up](https://firebase.google.com/docs/hosting/quickstart):
+
+```sh
+npm install -g firebase-tools
+firebase login
+firebase init
+firebase deploy
+```
+
+I could then see the site serving on [indie-map.firebaseapp.com](https://indie-map.firebaseapp.com/), and I could [manage it in the Firebase console](https://console.firebase.google.com/u/0/project/indie-map/hosting/main). All I had to do then was [connect the indiemap.org domain](https://firebase.google.com/docs/hosting/custom-domain) and the www subdomain, and I was all set.
+
+Indie Map _used to_ [serve from Google Cloud Storage](https://cloud.google.com/storage/docs/hosting-static-website). Here's what I did originally to set that up [www.indiemap.org](http://www.indiemap.org/), and to store HTTP request logs in `gs://indie-map/`:
 
 ```sh
 gsutil mb www.indiemap.org
