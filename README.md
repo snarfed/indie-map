@@ -1,7 +1,7 @@
 Indie Map
 ===
 
-[Indie Map](http://www.indiemap.org/) is a public [IndieWeb](https://indieweb.org/) social graph and dataset. [See the docs for details.](http://www.indiemap.org/docs.html) This doc focuses on how to develop, run, and maintain Indie Map itself.
+[Indie Map](https://indiemap.org/) is a public [IndieWeb](https://indieweb.org/) social graph and dataset. [See the docs for details.](https://indiemap.org/docs.html) This doc focuses on how to develop, run, and maintain Indie Map itself.
 
 The individual sites and pages retain their original copyright. The rest of the dataset and this project are placed into the public domain via the [CC0 public domain dedication](http://creativecommons.org/publicdomain/zero/1.0/).
 
@@ -119,7 +119,7 @@ firebase deploy
 
 I could then see the site serving on [indie-map.firebaseapp.com](https://indie-map.firebaseapp.com/), and I could [manage it in the Firebase console](https://console.firebase.google.com/u/0/project/indie-map/hosting/main). All I had to do then was [connect the indiemap.org domain](https://firebase.google.com/docs/hosting/custom-domain) and the www subdomain, and I was all set.
 
-Indie Map _used to_ [serve from Google Cloud Storage](https://cloud.google.com/storage/docs/hosting-static-website). Here's what I did originally to set that up [www.indiemap.org](http://www.indiemap.org/), and to store HTTP request logs in `gs://indie-map/`:
+Indie Map _used to_ [serve from Google Cloud Storage](https://cloud.google.com/storage/docs/hosting-static-website). Here's what I did originally to set that up, and to store HTTP request logs in `gs://indie-map/`:
 
 ```sh
 gsutil mb www.indiemap.org
