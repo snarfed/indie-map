@@ -186,14 +186,14 @@ Microformats2 class:
 
 <h2 id="data-mining">Data mining</h2>
 
-<p>The Indie Map dataset is available in Google's <a href="https://cloud.google.com/bigquery/">BigQuery</a> data warehouse, which supports Standard SQL queries and integrates with <a href="https://cloud.google.com/bigquery/partners/#bianalytics-partners">many powerful analytics tools</a>. The dataset is <a href="https://bigquery.cloud.google.com/dataset/indie-map:indiemap"><code>indie-map:indiemap</code></a>. You'll need a Google account. <a href="https://cloud.google.com/bigquery/pricing#free-tier">You can query up to 1TB/month for free, but it costs $5/TB after that.</a></p>
+<p>The Indie Map dataset is available in Google's <a href="https://cloud.google.com/bigquery/">BigQuery</a> data warehouse, which supports Standard SQL queries and integrates with <a href="https://cloud.google.com/bigquery/partners/#bianalytics-partners">many powerful analytics tools</a>. The dataset is <a href="https://console.cloud.google.com/bigquery?project=indie-map&d=indiemap&page=dataset&p=indie-map"><code>indie-map:indiemap</code></a>. You'll need a Google account. <a href="https://cloud.google.com/bigquery/pricing#free-tier">You can query up to 1TB/month for free, but it costs $5/TB after that.</a></p>
 
 <p>The dataset consists of two tables, <a href="#schema-pages"><code>pages</code></a> and <a href="#schema-pages"><code>sites</code></a>, and three views, <a href="#schema-canonical-pages"><code>canonical_pages</code></a>, <a href="#schema-links"><code>links</code></a>, and <a href="#schema-links-social-graph"><code>links_social_graph</code></a>. Each page's HTML was parsed for mf2 by <a href="https://github.com/tommorris/mf2py">mf2py</a> 1.0.5, which was then used to populate many fields. Some fields are JSON encoded strings, which you can query in BiqQuery with <a href="https://cloud.google.com/bigquery/docs/reference/legacy-sql#json_extract"><code>JSON_EXTRACT</code></a> and <a href="https://code.google.com/p/jsonpath">JSONPath</a>.</p>
 
 
 <h3 id="query-example">Example query</h3>
 
-<p>Here's an <a href="https://bigquery.cloud.google.com/savedquery/464705913036:f308e85acfdc4ba7b8416e5143150fda">example BigQuery SQL query</a> that finds the most common <code>rel-me</code> link domains, by number of sites:</p>
+<p>Here's an example BigQuery SQL query that finds the most common <code>rel-me</code> link domains, by number of sites:</p>
 
 <pre>
 SELECT NET.REG_DOMAIN(<span class="keyword">url</span>) <span class="keyword">silo</span>, COUNT(DISTINCT <span class="keyword">domain</span>) <span class="keyword">sites</span>
@@ -212,7 +212,7 @@ LIMIT 15
 </a></p>
 
 
-<h3 id="schema-pages"><code><a href="https://bigquery.cloud.google.com/table/indie-map:indiemap.pages">pages</a></code></h3>
+<h3 id="schema-pages"><code><a href="https://console.cloud.google.com/bigquery?project=indie-map&p=indie-map&d=indiemap&t=pages&page=table">pages</a></code></h3>
 
 <p>All HTML pages crawled, from all sites in the dataset.</p>
 
@@ -277,7 +277,7 @@ LIMIT 15
 </table>
 
 
-<h3 id="schema-sites"><code><a href="https://bigquery.cloud.google.com/table/indie-map:indiemap.sites">sites</a></code></h3>
+<h3 id="schema-sites"><code><a href="https://console.cloud.google.com/bigquery?project=indie-map&p=indie-map&d=indiemap&t=sites&page=table">sites</a></code></h3>
 
 <p>All sites in the dataset. The <code>names, urls, descriptions,</code> and <code>pictures</code> fields are extracted from the site's home page's representative h-card, HTML title, <a href="http://ogp.me/">Open Graph</a> tags, and <a href="https://dev.twitter.com/cards/overview">Twitter card</a> tags.</p>
 
@@ -365,11 +365,11 @@ LIMIT 15
 
 
 
-<h3 id="schema-canonical-pages"><code><a href="https://bigquery.cloud.google.com/table/indie-map:indiemap.canonical_pages">canonical_pages</a></code></h3>
+<h3 id="schema-canonical-pages"><code><a href="https://console.cloud.google.com/bigquery?project=indie-map&p=indie-map&d=indiemap&t=canonical_pages&page=table">canonical_pages</a></code></h3>
 
 <p>A view of <a href="#schema-pages">pages</a>. Same schema, but only includes canonical pages, ie that don't have a <code>rel-canonical</code> link pointing to a different page.
 
-<h3 id="schema-links"><code><a href="https://bigquery.cloud.google.com/table/indie-map:indiemap.links">links</a></code></h3>
+<h3 id="schema-links"><code><a href="https://console.cloud.google.com/bigquery?project=indie-map&p=indie-map&d=indiemap&t=links&page=table">links</a></code></h3>
 
 <p>A view of <a href="#schema-pages">pages</a>. Every <code>&lt;a&gt;</code> link in a page in the dataset, one row per link.</p>
 
@@ -398,7 +398,7 @@ LIMIT 15
 </table>
 
 
-<h3 id="schema-links-social-graph"><code><a href="https://bigquery.cloud.google.com/table/indie-map:indiemap.links_social_graph">links_social_graph</a></code></h3>
+<h3 id="schema-links-social-graph"><code><a href="https://console.cloud.google.com/bigquery?project=indie-map&p=indie-map&d=indiemap&t=links_social_graph&page=table">links_social_graph</a></code></h3>
 
 <p>A view of <a href="#schema-pages">pages</a>. Counts of <code>&lt;a&gt;</code> links in pages in the dataset, grouped by source and destination domain and mf2 class (or none).</p>
 
