@@ -20,6 +20,55 @@
 <meta name="twitter:title" content="Indie Map" />
 <meta name="twitter:description" content="Indie Map is a public IndieWeb social graph and dataset." />
 <meta name="twitter:image" content="http://www.indiemap.org/social_graph.jpg" />
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Dataset",
+  "name": "Indie Map",
+  "description": "A complete crawl of 2300 of the most active IndieWeb sites as of June 2017, parsed and annotated and linked in useful ways.",
+  "url": "https://indiemap.org/",
+  "sameAs": "https://indiemap.org/",
+  "sameAs": "https://indiemap.org/docs.html",
+  "keywords":[
+    "HTML",
+    "IndieWeb",
+    "Indie Web",
+    "indieweb",
+    "web",
+    "graph",
+    "microformats",
+    "network",
+    "social network"
+  ],
+  "image": "http://www.indiemap.org/social_graph.jpg",
+  "creator":{
+     "@type": "Person",
+     "url": "https://snarfed.org/",
+     "name": "Ryan Barrett"
+  },
+  "distribution":[
+     {
+       "@type": "DataDownload",
+       "encodingFormat": "WARC",
+       "url": "https://indiemap.org/docs.html#crawl",
+       "description": "The raw crawl data is available as a set of WARC files, one per site, which include full HTTP request and response metadata, headers, and raw response bodies."
+     },
+     {
+       "@type": "DataDownload",
+       "encodingFormat": "application/json",
+       "url": "https://indiemap.org/docs.html#social-graph-api",
+       "description": "Each site's extracted and generated metadata and link analyses to and from each other site in the dataset."
+     }
+  ],
+  "workExample": {
+    "@type": "CreativeWork",
+    "url": "https://kumu.io/snarfed/indie-map",
+    "description": "Interactive map of the Indie Web social graph, powered by Kumu. It renders all sites and links by score and lets you navigate and filter by connections, type, server, microformats2 classes, protocols supported (e.g. Webmention and Micropub), and more."
+  },
+  "temporalCoverage": "2017-04-01/2017-06-01"
+}
+</script>
 </head>
 
 <body id="home">
