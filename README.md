@@ -176,3 +176,28 @@ record.rec_type
 record.rec_headers.get('WARC-Target-URI')
 print(body)
 ```
+
+
+#### Removing a site
+
+I've gotten [one request so far to remove a site](https://github.com/snarfed/indie-map/issues/2). Here's what I did.
+
+* Ran `git grep DOMAIN` and removed all matches, notably in `crawl/domains*.txt`.
+* Ran these commands to remove the WARC, JSON, and other files:
+    ```sh
+    # in the repo root dir
+    rm www/DOMAIN.json
+    firebase deploy
+
+    gsutil rm gs://indie-map/crawl/DOMAIN.warc.gz
+    gsutil rm gs://indie-map/bigquery/DOMAIN.json.gz
+    # check that there's nothing left
+    gsutil ls 'gs://indie-map/**/*DOMAIN*'
+    ```
+* Ran these `DELETE` statements [in BigQuery](https://console.cloud.google.com/bigquery?project=indie-map):
+    ```sql
+    DELETE FROM indiemap.sites WHERE domain='DOMAIN'
+    DELETE FROM indiemap.pages WHERE domain='DOMAIN'
+    ```
+* Deleted the domain in Kumu manually. Try going to this URL: `https://kumu.io/snarfed/indie-map#indie-map/DOMAIN_WITHOUT_DOTS`. If that doesn't find it, search for the domain. Then click the Trash icon in the right pane.
+* [Added a note to the docs.](https://indiemap.org/docs.html#exceptions)
