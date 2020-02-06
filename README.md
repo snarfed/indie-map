@@ -13,9 +13,9 @@ The crawler is basically just `xargs wget -r < domains.txt`. Details in [`crawl.
 To add a site to the dataset, run `crawl/add_site_1.sh`, then `crawl/add_site_2.sh`. They're separate because `add_site_2.sh` runs ~300GB of BigQuery queries, which costs ~$1.50, so if you're adding lots of sites, run `add_site_1.sh` once for each site and then `add_site_2.sh` once for all the sites together.
 
 
-#### Extracting IWS 2017 domains
+#### Extracting IWS domains, eg 2017
 
-Run this shell command to fetch [2017.indieweb.org](https://2017.indieweb.org/), extract the attendees' web sites, and compare to [`domains_iws2017.txt`](https://github.com/snarfed/indie-map/blob/master/crawl/domains_iws2017.txt) to see if there are any new ones.
+Run this shell command to fetch [2017.indieweb.org](https://2017.indieweb.org/), extract the attendees' web sites, and compare to [`2017/domains_iws.txt`](https://github.com/snarfed/indie-map/blob/master/crawl/2017/domains_iws.txt) to see if there are any new ones.
 
 ```sh
 curl https://2017.indieweb.org/ \
@@ -23,7 +23,7 @@ curl https://2017.indieweb.org/ \
   | grep -o -E 'http[^"]+' \
   | grep -v www.facebook.com \
   | cut -d/ -f3 | sort | uniq \
-  | diff ~/src/indie-map/crawl/domains_iws2017.txt -
+  | diff ~/src/indie-map/crawl/2017/domains_iws.txt -
 ```
 
 #### Extracting wiki user domains
@@ -182,7 +182,7 @@ print(body)
 
 I've gotten [one request so far to remove a site](https://github.com/snarfed/indie-map/issues/2). Here's what I did.
 
-* Ran `git grep DOMAIN` and removed all matches, notably in `crawl/domains*.txt`.
+* Ran `git grep DOMAIN` and removed all matches, notably in `crawl/[YEAR]/domains*.txt`.
 * Ran these commands to remove the WARC, JSON, and other files:
     ```sh
     # in the repo root dir
