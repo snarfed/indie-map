@@ -111,7 +111,7 @@ HTTP/1.1 403 Forbidden
 The Indie Map web site is [stored and served on Firebase Hosting](https://firebase.google.com/docs/hosting/). I [followed these instructions to set it up](https://firebase.google.com/docs/hosting/quickstart):
 
 ```sh
-npm install -g firebase-tools
+npm install -g firebase-tools  # or brew install firebase-cli
 firebase login
 firebase init
 firebase deploy
