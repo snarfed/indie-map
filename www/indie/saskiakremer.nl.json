@@ -1,0 +1,90 @@
+{
+  "domain": "saskiakremer.nl",
+  "urls": [
+    "http://saskiakremer.nl/"
+  ],
+  "names": [
+    "Saskia Kremer"
+  ],
+  "descriptions": [
+    "Saskia Kremer"
+  ],
+  "pictures": [
+    "https://saskiakremer.nl/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T02:11:29",
+  "crawl_end": "2017-04-30T02:31:11",
+  "num_pages": 497,
+  "total_html_size": 13758290,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-recipe",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://saskiakremer.nl/webmention/"
+    ],
+    "micropub": [
+      "https://saskiakremer.nl/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://saskiakremer.nl/indieauth/auth"
+    ],
+    "token": [
+      "https://saskiakremer.nl/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 11467,
+  "links_in": 35,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 497
+      },
+      "score": 0.792
+    },
+    "tinokremer.nl": {
+      "out": {
+        "other": 226,
+        "in-reply-to": 4,
+        "repost-of": 15
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.731
+    },
+    "test.tinokremer.nl": {
+      "out": {
+        "other": 31
+      },
+      "score": 0.474
+    },
+    "brid.gy": {
+      "in": {
+        "other": 32
+      },
+      "score": 0.398
+    }
+  }
+}

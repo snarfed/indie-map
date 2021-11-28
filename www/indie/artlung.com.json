@@ -1,0 +1,132 @@
+{
+  "domain": "artlung.com",
+  "urls": [
+    "http://artlung.com/"
+  ],
+  "names": [
+    "ArtLung : a blog by Joe Crawford",
+    "ArtLung"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://g.twimg.com/Twitter_logo_blue.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-27T07:52:30",
+  "crawl_end": "2017-04-27T23:08:56",
+  "num_pages": 21639,
+  "total_html_size": 1095997776,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://artlung.com/blog/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 148947,
+  "links_in": 54,
+  "links": {
+    "www.ftrain.com": {
+      "out": {
+        "other": 75
+      },
+      "score": 0.491
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 8,
+        "other": 2
+      },
+      "score": 0.367
+    },
+    "adactio.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.362
+    },
+    "www.kryogenix.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.294
+    },
+    "pjf.id.au": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.283
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.235
+    },
+    "ftrain.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.225
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.225
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.175
+    },
+    "www.flutterby.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.158
+    },
+    "www.lifewithalacrity.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.136
+    },
+    "tantek.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.108
+    },
+    "tilde.club": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0679
+    },
+    "www.aaron-gustafson.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "thraxil.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

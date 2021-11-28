@@ -1,0 +1,256 @@
+{
+  "domain": "sebastiangreger.net",
+  "urls": [
+    "https://sebastiangreger.net/"
+  ],
+  "names": [
+    "Sebastian Greger // Sociologist and Interaction Designer",
+    "sebastiangreger.net"
+  ],
+  "descriptions": [
+    "Sebastian Greger is a sociologist and interaction designer, acting as the users' advocate in digital product and service design processes."
+  ],
+  "pictures": [
+    "https://sebastiangreger.net/wp-content/themes/sg-indie/img/favicon.png",
+    "https://sebastiangreger.net/wp-content/themes/sg-indie/img/sharing_image.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/sebastiangreger",
+    "https://github.com/sebastiangreger"
+  ],
+  "crawl_start": "2017-04-25T08:35:42",
+  "crawl_end": "2017-04-25T08:55:16",
+  "num_pages": 127,
+  "total_html_size": 15435772,
+  "servers": [
+    "Apache (CentOS)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-event",
+    "h-feed",
+    "h-card",
+    "h-entry",
+    "h-as-note"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://sebastiangreger.net/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://sebastiangreger.net/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://sebastiangreger.net/indieauth/"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 1126,
+  "links_in": 535,
+  "links": {
+    "chat.indieweb.org": {
+      "in": {
+        "other": 207
+      },
+      "score": 0.806
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 27
+      },
+      "in": {
+        "other": 139
+      },
+      "score": 0.796
+    },
+    "www.svenknebel.de": {
+      "in": {
+        "in-reply-to": 16
+      },
+      "out": {
+        "other": 7
+      },
+      "score": 0.687
+    },
+    "raretrack.uk": {
+      "in": {
+        "other": 56
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.614
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "bookmark-of": 16
+      },
+      "score": 0.566
+    },
+    "beyondtellerrand.com": {
+      "out": {
+        "other": 17
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.539
+    },
+    "www.raretrack.uk": {
+      "in": {
+        "other": 27
+      },
+      "score": 0.499
+    },
+    "news.indieweb.org": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "in-reply-to": 4,
+        "other": 4
+      },
+      "score": 0.493
+    },
+    "adactio.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 14
+      },
+      "score": 0.467
+    },
+    "brid.gy": {
+      "in": {
+        "other": 19
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.460
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.437
+    },
+    "wirres.net": {
+      "in": {
+        "other": 12
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.399
+    },
+    "tantek.com": {
+      "out": {
+        "other": 3
+      },
+      "in": {
+        "in-reply-to": 1,
+        "other": 2
+      },
+      "score": 0.387
+    },
+    "derhess.de": {
+      "in": {
+        "other": 5
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.333
+    },
+    "julieannenoying.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.315
+    },
+    "jothut.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "kylewm.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.244
+    },
+    "webmention.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "notizblog.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "thopex.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "oliver.gutperl.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "micro.blog": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "reclaim.fm": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "svenknebel.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "marcthiele.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "outforaride.net": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "domain": "yayadrian.withknown.com",
+  "urls": [
+    "https://yayadrian.withknown.com/profile/adrian",
+    "http://twitter.com/yayadrian"
+  ],
+  "names": [
+    "Adrian",
+    "adrian's Known"
+  ],
+  "descriptions": [
+    "I make things",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://yayadrian.withknown.com/gfx/users/default-04.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Adrian"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I make things</p>\n</div>",
+          "value": "\nI make things\n"
+        }
+      ],
+      "photo": [
+        "https://yayadrian.withknown.com/gfx/users/default-04.png"
+      ],
+      "profile": [
+        "Adrian"
+      ],
+      "url": [
+        "https://yayadrian.withknown.com/profile/adrian",
+        "https://yayadrian.withknown.com/profile/adrian",
+        "http://twitter.com/yayadrian"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/yayadrian"
+  ],
+  "crawl_start": "2017-05-06T10:02:37",
+  "crawl_end": "2017-05-06T10:02:44",
+  "num_pages": 17,
+  "total_html_size": 325458,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://yayadrian.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://yayadrian.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://yayadrian.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://yayadrian.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 37,
+  "links_in": 1,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

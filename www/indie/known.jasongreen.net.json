@@ -1,0 +1,148 @@
+{
+  "domain": "known.jasongreen.net",
+  "urls": [
+    "http://known.jasongreen.net/profile/jasongreen",
+    "https://blog.jasongreen.net"
+  ],
+  "names": [
+    "Jason Green",
+    "jasongreen's site"
+  ],
+  "descriptions": [
+    "USA, Distance Learning and Instructional Technology",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://known.jasongreen.net/file/30ccb875886de051be9e65c76ef30365/thumb.jpg",
+    "http://known.jasongreen.net/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Jason Green"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>USA, Distance Learning and Instructional Technology</p>\n</div>",
+          "value": "\nUSA, Distance Learning and Instructional Technology\n"
+        }
+      ],
+      "photo": [
+        "http://known.jasongreen.net/file/30ccb875886de051be9e65c76ef30365/thumb.jpg"
+      ],
+      "profile": [
+        "Jason Green"
+      ],
+      "url": [
+        "http://known.jasongreen.net/profile/jasongreen",
+        "http://known.jasongreen.net/profile/jasongreen",
+        "https://blog.jasongreen.net"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://blog.jasongreen.net"
+  ],
+  "crawl_start": "2017-04-29T04:34:29",
+  "crawl_end": "2017-04-29T04:39:05",
+  "num_pages": 328,
+  "total_html_size": 6771592,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.jasongreen.net/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1422,
+  "links_in": 8,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 328
+      },
+      "score": 1
+    },
+    "blog.jasongreen.net": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 152
+      },
+      "score": 0.881
+    },
+    "hapgood.us": {
+      "out": {
+        "in-reply-to": 5,
+        "other": 10
+      },
+      "score": 0.655
+    },
+    "klown.cogdogblog.com": {
+      "in": {
+        "in-reply-to": 7
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.579
+    },
+    "reclaimhosting.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.462
+    },
+    "timowens.io": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.320
+    },
+    "cogdogblog.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.214
+    },
+    "blog.jonudell.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.214
+    },
+    "kris.shaffermusic.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.214
+    },
+    "blog.mahabali.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.214
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "domain": "hanni.me",
+  "urls": [
+    "http://hanni.me/"
+  ],
+  "names": [
+    "Hanni Ross - Happily searching for the next cup of coffee",
+    "Hanni Ross"
+  ],
+  "descriptions": [
+    "Happily searching for the next cup of coffee"
+  ],
+  "pictures": [
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T23:33:31",
+  "crawl_end": "2017-04-28T23:34:34",
+  "num_pages": 65,
+  "total_html_size": 1303134,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-feed"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://hanni.me/?webmention=endpoint"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 338,
+  "links_in": 9,
+  "links": {
+    "independentpublisher.me": {
+      "out": {
+        "other": 65
+      },
+      "score": 0.972
+    },
+    "brid.gy": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.321
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.138
+    },
+    "irregularity.co": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

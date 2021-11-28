@@ -1,0 +1,274 @@
+{
+  "domain": "stream.tapestrymaker.net",
+  "urls": [
+    "http://stream.tapestrymaker.net/profile/jon",
+    "http://twitter.com/tapestrymaker"
+  ],
+  "names": [
+    "TapestryMaker",
+    "The TapestryMaker blog"
+  ],
+  "descriptions": [
+    "An open-source, diversity-friendly social software platform ... coming soon!",
+    "Social networks, diversity, privacy, civil liberties, and TapestryMaker"
+  ],
+  "pictures": [
+    "http://stream.tapestrymaker.net/file/9b28ab8642632aad7b6796a5273f4afc",
+    "http://stream.tapestrymaker.net/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "TapestryMaker"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>An open-source, diversity-friendly social software platform ... coming soon!</p>\n</div> ",
+          "value": "\nAn open-source, diversity-friendly social software platform ... coming soon!\n "
+        }
+      ],
+      "photo": [
+        "http://stream.tapestrymaker.net/file/9b28ab8642632aad7b6796a5273f4afc"
+      ],
+      "profile": [
+        "TapestryMaker"
+      ],
+      "url": [
+        "http://stream.tapestrymaker.net/profile/jon",
+        "http://stream.tapestrymaker.net/profile/jon",
+        "http://twitter.com/tapestrymaker"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/tapestrymaker"
+  ],
+  "crawl_start": "2017-04-30T02:28:27",
+  "crawl_end": "2017-04-30T02:30:32",
+  "num_pages": 159,
+  "total_html_size": 5128412,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-event",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://stream.tapestrymaker.net/webmention/"
+    ],
+    "micropub": [
+      "http://stream.tapestrymaker.net/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://stream.tapestrymaker.net/indieauth/auth"
+    ],
+    "token": [
+      "http://stream.tapestrymaker.net/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 2083,
+  "links_in": 211,
+  "links": {
+    "werd.io": {
+      "in": {
+        "other": 47
+      },
+      "out": {
+        "other": 13,
+        "in-reply-to": 23
+      },
+      "score": 0.878
+    },
+    "known.kevinmarks.com": {
+      "out": {
+        "other": 8,
+        "in-reply-to": 21
+      },
+      "in": {
+        "other": 12,
+        "in-reply-to": 5
+      },
+      "score": 0.857
+    },
+    "aaronparecki.com": {
+      "in": {
+        "bookmark-of": 13,
+        "other": 3
+      },
+      "out": {
+        "in-reply-to": 16
+      },
+      "score": 0.806
+    },
+    "stream.withknown.com": {
+      "out": {
+        "in-reply-to": 9
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.702
+    },
+    "xtof.withknown.com": {
+      "in": {
+        "other": 13,
+        "in-reply-to": 13
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.685
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 35
+      },
+      "score": 0.654
+    },
+    "adactio.com": {
+      "out": {
+        "in-reply-to": 5,
+        "other": 5
+      },
+      "in": {
+        "other": 8
+      },
+      "score": 0.649
+    },
+    "achangeiscoming.net": {
+      "out": {
+        "other": 29
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.629
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 54
+      },
+      "score": 0.614
+    },
+    "www.marcus-povey.co.uk": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.608
+    },
+    "caseorganic.com": {
+      "out": {
+        "in-reply-to": 5
+      },
+      "score": 0.602
+    },
+    "withknown.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.502
+    },
+    "dangillmor.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.502
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 23
+      },
+      "score": 0.483
+    },
+    "kirilind.withknown.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 9
+      },
+      "score": 0.435
+    },
+    "kallistixf.dreamwidth.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.382
+    },
+    "tantek.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.32
+    },
+    "lynncyrin.me": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.32
+    },
+    "ihatemornings.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.32
+    },
+    "theha.us": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.32
+    },
+    "srcr.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.214
+    },
+    "kevinmarks.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.214
+    },
+    "christopheducamp.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.214
+    },
+    "techlifeweb.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.214
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.169
+    }
+  }
+}

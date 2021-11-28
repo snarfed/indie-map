@@ -1,0 +1,56 @@
+{
+  "domain": "www.iandevlin.com",
+  "crawl_start": "2017-06-09T17:51:13",
+  "crawl_end": "2017-06-09T17:51:13",
+  "num_pages": 1,
+  "total_html_size": 12003,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-entry"
+  ],
+  "tags": [],
+  "endpoints": {},
+  "hcard": {},
+  "links_out": 2,
+  "links_in": 12,
+  "links": {
+    "yatil.net": {
+      "in": {
+        "other": 5
+      },
+      "score": 1
+    },
+    "www.aaron-gustafson.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.683
+    },
+    "mrjoe.uk": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.430
+    },
+    "walterebert.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.430
+    },
+    "alistapart.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.430
+    },
+    "twitter.com/iandevlin": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.430
+    }
+  }
+}

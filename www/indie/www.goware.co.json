@@ -1,0 +1,104 @@
+{
+  "domain": "www.goware.co",
+  "urls": [
+    "http://www.goware.co/profile/nicled",
+    "http://nicolas.le.douar.ec/"
+  ],
+  "names": [
+    "nicolas le douarec",
+    "step by step"
+  ],
+  "descriptions": [
+    "hacking corsair, coach, business angel and sometimes entrepreneur",
+    "snippets on who people move, in particular on the road"
+  ],
+  "pictures": [
+    "http://www.goware.co/file/81aa666aecdbdd5f3e138d94d8ec24e3/thumb.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "nicolas le douarec"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>hacking corsair, coach, business angel and sometimes entrepreneur</p>\n</div> ",
+          "value": "\nhacking corsair, coach, business angel and sometimes entrepreneur\n "
+        }
+      ],
+      "photo": [
+        "http://www.goware.co/file/81aa666aecdbdd5f3e138d94d8ec24e3/thumb.png"
+      ],
+      "profile": [
+        "nicolas le douarec"
+      ],
+      "url": [
+        "http://www.goware.co/profile/nicled",
+        "http://www.goware.co/profile/nicled",
+        "http://nicolas.le.douar.ec/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://nicolas.le.douar.ec/"
+  ],
+  "crawl_start": "2017-04-30T06:32:22",
+  "crawl_end": "2017-04-30T06:33:01",
+  "num_pages": 41,
+  "total_html_size": 983664,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-event"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.goware.co/webmention/"
+    ],
+    "micropub": [
+      "http://www.goware.co/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://www.goware.co/indieauth/auth"
+    ],
+    "token": [
+      "http://www.goware.co/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 154,
+  "links_in": 0,
+  "links": {
+    "indiewebcamp.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.594
+    },
+    "tinokremer.nl": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.537
+    }
+  }
+}

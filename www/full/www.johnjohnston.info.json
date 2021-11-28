@@ -1,0 +1,47 @@
+{
+  "domain": "www.johnjohnston.info",
+  "crawl_start": "2017-04-29T06:25:42",
+  "crawl_end": "2017-04-29T06:25:42",
+  "num_pages": 1,
+  "total_html_size": 2185,
+  "servers": [
+    "Apache",
+    "TextMate http://macromates.com/"
+  ],
+  "tags": [
+    "bridgy"
+  ],
+  "endpoints": {},
+  "hcard": {},
+  "links_out": 11,
+  "links_in": 400,
+  "links": {
+    "johnjohnston.info": {
+      "in": {
+        "other": 399
+      },
+      "out": {
+        "other": 7
+      },
+      "score": 1
+    },
+    "vmaps": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.297
+    },
+    "dl.dropboxusercontent.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.115
+    },
+    "cogdogblog.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

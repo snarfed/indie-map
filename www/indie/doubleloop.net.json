@@ -1,0 +1,197 @@
+{
+  "domain": "doubleloop.net",
+  "urls": [
+    "https://doubleloop.net",
+    "https://doubleloop.net/"
+  ],
+  "names": [
+    "Neil Mather",
+    "hello there. - doubleloop.net",
+    "doubleloop.net"
+  ],
+  "descriptions": [
+    "Keyboard shortcut enthusiast. Great ape.",
+    "This is my home on the web.  I’ve just moved from a Hexo-generated blog to WordPress, so quite a bit of old content is missing, and thinks look a little funky.  Regular service will resume shortly! To see what I’m currently up to: the stream of everything. the distributed self I’ve not yet got everything …",
+    "This is my home on the web.  I’ve just moved from a Hexo-generated blog to WordPress, so quite a bit of old content is missing, and thinks look a little funky.  Regular service will resume shortly! To see what I’m currently up to: the stream of everything. the distributed self I’ve not yet got everything […]"
+  ],
+  "pictures": [
+    "https://doubleloop.net/images/profile.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Neil Mather"
+      ],
+      "note": [
+        "Keyboard shortcut enthusiast. Great ape."
+      ],
+      "photo": [
+        "https://doubleloop.net/images/profile.jpg"
+      ],
+      "url": [
+        "https://doubleloop.net"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://github.com/ngm",
+    "https://twitter.com/loopdouble",
+    "https://last.fm/user/noodlemaps",
+    "http://twitter.com/loopdouble",
+    "http://doubleloop.wikity.cc",
+    "https://gitlab.com/ngm",
+    "http://stackoverflow.com/users/206297/ngm",
+    "https://hexmodemusic.bandcamp.com",
+    "https://soundcloud.com/hexmodemusic",
+    "https://github.com/hexmodemusic",
+    "http://last.fm/user/noodlemaps",
+    "https://doubleloop.net"
+  ],
+  "crawl_start": "2017-04-24T03:27:34",
+  "crawl_end": "2017-04-24T03:38:14",
+  "num_pages": 180,
+  "total_html_size": 4166549,
+  "servers": [
+    "Apache (Ubuntu)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-card",
+    "h-as-article",
+    "h-as-note",
+    "h-as-bookmark",
+    "h-as-page",
+    "h-entry",
+    "h-as-image",
+    "h-feed"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://doubleloop.net/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://doubleloop.net/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 918,
+  "links_in": 232,
+  "links": {
+    "notiz.blog": {
+      "out": {
+        "other": 179
+      },
+      "score": 0.995
+    },
+    "chat.indieweb.org": {
+      "out": {
+        "other": 6
+      },
+      "in": {
+        "other": 136
+      },
+      "score": 0.846
+    },
+    "jothut.com": {
+      "in": {
+        "other": 45
+      },
+      "score": 0.645
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 17
+      },
+      "in": {
+        "other": 8
+      },
+      "score": 0.633
+    },
+    "boffosocko.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 15
+      },
+      "score": 0.587
+    },
+    "stream.jeremycherfas.net": {
+      "in": {
+        "in-reply-to": 6
+      },
+      "score": 0.575
+    },
+    "ascraeus.org": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.575
+    },
+    "brid.gy": {
+      "in": {
+        "other": 18
+      },
+      "out": {
+        "other": 6
+      },
+      "score": 0.575
+    },
+    "barryfrost.com": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.352
+    },
+    "gregorlove.com": {
+      "in": {
+        "other": 3
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.330
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.117
+    },
+    "webmention.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.117
+    },
+    "boghop.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

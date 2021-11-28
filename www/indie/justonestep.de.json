@@ -1,0 +1,236 @@
+{
+  "domain": "justonestep.de",
+  "urls": [
+    "https://justonestep.de/"
+  ],
+  "names": [
+    "Bea David",
+    "justonestep | web development",
+    "justonestep"
+  ],
+  "descriptions": [
+    "Web development, CMS- and frontend integration."
+  ],
+  "pictures": [
+    "https://justonestep.de/me.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:info@justonestep.de"
+      ],
+      "locality": [
+        "Leipzig, Germany"
+      ],
+      "name": [
+        "Bea David"
+      ],
+      "photo": [
+        "https://justonestep.de/me.jpg"
+      ],
+      "url": [
+        "https://justonestep.de/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/justb3a",
+    "https://github.com/justb3a",
+    "mailto:info@justonestep.de",
+    "http://directory.processwire.com/developers/bea-dav-kf-interactive/"
+  ],
+  "crawl_start": "2017-04-29T04:31:37",
+  "crawl_end": "2017-04-29T04:32:01",
+  "num_pages": 35,
+  "total_html_size": 293653,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-url",
+    "h-feed",
+    "h-card",
+    "h-item",
+    "h-as-like"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://justonestep.de/webmention/"
+    ],
+    "micropub": [
+      "https://justonestep.de/micropub/"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 291,
+  "links_in": 246,
+  "links": {
+    "adactio.com": {
+      "in": {
+        "other": 89,
+        "in-reply-to": 2
+      },
+      "out": {
+        "like-of": 2,
+        "other": 1
+      },
+      "score": 0.967
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 54
+      },
+      "score": 0.823
+    },
+    "webmention.rocks": {
+      "out": {
+        "like-of": 1,
+        "other": 21
+      },
+      "score": 0.790
+    },
+    "waterpigs.co.uk": {
+      "out": {
+        "other": 3
+      },
+      "in": {
+        "other": 35
+      },
+      "score": 0.765
+    },
+    "jeena.net": {
+      "in": {
+        "other": 4,
+        "like-of": 4
+      },
+      "out": {
+        "other": 3,
+        "like-of": 2
+      },
+      "score": 0.672
+    },
+    "tantek.com": {
+      "out": {
+        "other": 7
+      },
+      "in": {
+        "like-of": 2,
+        "other": 2
+      },
+      "score": 0.619
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 19
+      },
+      "score": 0.606
+    },
+    "gregorlove.com": {
+      "out": {
+        "like-of": 1,
+        "other": 3
+      },
+      "in": {
+        "other": 8
+      },
+      "score": 0.596
+    },
+    "www.webrocker.de": {
+      "in": {
+        "other": 2,
+        "in-reply-to": 1
+      },
+      "out": {
+        "other": 5
+      },
+      "score": 0.584
+    },
+    "webgefrickel.de": {
+      "out": {
+        "like-of": 1,
+        "other": 4
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.528
+    },
+    "matthiasott.com": {
+      "in": {
+        "other": 3
+      },
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.402
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.369
+    },
+    "brid.gy": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.332
+    },
+    "wirres.net": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.287
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.227
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.227
+    },
+    "bigger-on-the-inside.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.143
+    },
+    "kevinmarks.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.143
+    },
+    "johannesdachsel.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

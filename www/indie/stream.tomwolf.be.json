@@ -1,0 +1,131 @@
+{
+  "domain": "stream.tomwolf.be",
+  "urls": [
+    "http://stream.tomwolf.be/profile/tomwolf",
+    "http://tomwolf.be",
+    "https://tomwolf.bandcamp.com",
+    "https://twitter.com/super8trash",
+    "https://www.facebook.com/tomwolf.be",
+    "https://soundcloud.com/tomwolf"
+  ],
+  "names": [
+    "Tom Cesar Wolf",
+    "stream.tomwolf.be"
+  ],
+  "descriptions": [
+    "Griffonage. The occasional bazár.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://stream.tomwolf.be/file/e55be76f8a9f6e22a3ea5ba75d18f9c4/thumb.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Tom Cesar Wolf"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Griffonage. The occasional bazár.</p>\n</div>",
+          "value": "\nGriffonage. The occasional bazár.\n"
+        }
+      ],
+      "photo": [
+        "http://stream.tomwolf.be/file/e55be76f8a9f6e22a3ea5ba75d18f9c4/thumb.png"
+      ],
+      "profile": [
+        "Tom Cesar Wolf"
+      ],
+      "url": [
+        "http://stream.tomwolf.be/profile/tomwolf",
+        "http://stream.tomwolf.be/profile/tomwolf",
+        "http://tomwolf.be",
+        "https://tomwolf.bandcamp.com",
+        "https://twitter.com/super8trash",
+        "https://www.facebook.com/tomwolf.be",
+        "https://soundcloud.com/tomwolf"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://tomwolf.be",
+    "https://tomwolf.bandcamp.com",
+    "https://twitter.com/super8trash",
+    "https://www.facebook.com/tomwolf.be",
+    "https://soundcloud.com/tomwolf"
+  ],
+  "crawl_start": "2017-04-30T02:30:26",
+  "crawl_end": "2017-04-30T02:31:15",
+  "num_pages": 62,
+  "total_html_size": 1159885,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://stream.tomwolf.be/webmention/"
+    ],
+    "micropub": [
+      "http://stream.tomwolf.be/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://stream.tomwolf.be/indieauth/auth"
+    ],
+    "token": [
+      "http://stream.tomwolf.be/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 418,
+  "links_in": 60,
+  "links": {
+    "tomwolf.be": {
+      "in": {
+        "other": 55
+      },
+      "out": {
+        "other": 54
+      },
+      "score": 0.906
+    },
+    "withknown.com": {
+      "out": {
+        "other": 62
+      },
+      "score": 0.858
+    },
+    "brid.gy": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.286
+    },
+    "www.tomwolf.be": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.247
+    }
+  }
+}

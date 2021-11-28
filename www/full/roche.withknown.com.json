@@ -1,0 +1,206 @@
+{
+  "domain": "roche.withknown.com",
+  "urls": [
+    "https://roche.withknown.com/profile/roche",
+    "http://thisor.work"
+  ],
+  "names": [
+    "Roche",
+    "ROCHE "
+  ],
+  "descriptions": [
+    "Film lover, cardigan enthusiast.",
+    "Film reviews and other writings."
+  ],
+  "pictures": [
+    "https://roche.withknown.com/file/7329e8f56f9ec198e391f448de559fe5/thumb.jpg",
+    "https://roche.withknown.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Roche"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Film lover, cardigan enthusiast.</p>\n</div> ",
+          "value": "\nFilm lover, cardigan enthusiast.\n "
+        }
+      ],
+      "photo": [
+        "https://roche.withknown.com/file/7329e8f56f9ec198e391f448de559fe5/thumb.jpg"
+      ],
+      "profile": [
+        "Roche"
+      ],
+      "url": [
+        "https://roche.withknown.com/profile/roche",
+        "https://roche.withknown.com/profile/roche",
+        "http://thisor.work"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://thisor.work"
+  ],
+  "crawl_start": "2017-04-30T02:08:29",
+  "crawl_end": "2017-04-30T02:09:25",
+  "num_pages": 69,
+  "total_html_size": 1775764,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://roche.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://roche.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://roche.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://roche.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 150,
+  "links_in": 1,
+  "links": {
+    "thisor.work": {
+      "out": {
+        "other": 53
+      },
+      "score": 1
+    },
+    "www.thisor.work": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.878
+    },
+    "twitter.com/roche_bp": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.830
+    },
+    "birthmoviesdeath.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.620
+    },
+    "medium.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.494
+    },
+    "twitter.com/thecanoncast": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.494
+    },
+    "twitter.com/element75": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.298
+    },
+    "twitter.com/PrecogLaughter": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.298
+    },
+    "thecanon.wolfpop.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.298
+    },
+    "twitter.com/TheAmyNicholson": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.298
+    },
+    "twitter.com/Lisa_Fav": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.298
+    },
+    "twitter.com/burnettski92": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.298
+    },
+    "twitter.com/federmonster": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.298
+    },
+    "twitter.com/nathanveshecco": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.298
+    },
+    "twitter.com/matthewpetz": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.298
+    },
+    "twitter.com/jpbateson": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.298
+    },
+    "twitter.com/kimmykazoo": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.298
+    },
+    "twitter.com/jasonjarmoosh": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.298
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

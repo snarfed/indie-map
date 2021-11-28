@@ -1,0 +1,450 @@
+{
+  "domain": "techlifeweb.com",
+  "urls": [
+    "http://techlifeweb.com/"
+  ],
+  "names": [],
+  "descriptions": [
+    "Exploring the digital life."
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://plus.google.com/+ScottKingery",
+    "https://twitter.com/techlifeweb",
+    "https://www.facebook.com/https://www.facebook.com/scottkingery",
+    "https://www.instagram.com/techlifeweb",
+    "mailto:scott@techlifeweb.com",
+    "https://plus.google.com/+ScottKingery/about/",
+    "https://www.linkedin.com/in/scottkingery",
+    "https://www.facebook.com/scottkingery",
+    "https://www.instagram.com/techlifeweb/",
+    "https://www.youtube.com/channel/UCZ7NoAPNzRBupCDyojnVt3A",
+    "http://techlifeweb.com/tlwpublicwiki/doku.php",
+    "https://github.com/TechLifeWeb"
+  ],
+  "crawl_start": "2017-04-26T03:01:48",
+  "crawl_end": "2017-04-26T11:16:59",
+  "num_pages": 8888,
+  "total_html_size": 227502306,
+  "servers": [
+    "nginx",
+    "DokuWiki"
+  ],
+  "mf2_classes": [
+    "h-as-note",
+    "h-feed",
+    "h-as-bookmark",
+    "h-entry",
+    "h-card",
+    "h-as-article",
+    "h-as-video",
+    "h-as-page",
+    "h-as-image"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://techlifeweb.com/wp-json/webmention/1.0/endpoint",
+      "http://techlifeweb.com/social/?webmention=endpoint"
+    ],
+    "micropub": [
+      "http://techlifeweb.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 100528,
+  "links_in": 1120,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 215
+      },
+      "out": {
+        "other": 2911
+      },
+      "score": 0.881
+    },
+    "stream.boffosocko.com": {
+      "out": {
+        "like-of": 16,
+        "in-reply-to": 16
+      },
+      "in": {
+        "like-of": 20,
+        "in-reply-to": 148,
+        "other": 100
+      },
+      "score": 0.708
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 333
+      },
+      "score": 0.657
+    },
+    "webmention.rocks": {
+      "out": {
+        "other": 84,
+        "like-of": 31,
+        "in-reply-to": 34
+      },
+      "score": 0.652
+    },
+    "adactio.com": {
+      "out": {
+        "other": 262
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.634
+    },
+    "boffosocko.com": {
+      "out": {
+        "in-reply-to": 23,
+        "like-of": 42
+      },
+      "in": {
+        "other": 50
+      },
+      "score": 0.617
+    },
+    "stream.techlifeweb.com": {
+      "out": {
+        "other": 3
+      },
+      "in": {
+        "other": 198
+      },
+      "score": 0.538
+    },
+    "brid.gy": {
+      "out": {
+        "other": 72
+      },
+      "in": {
+        "other": 48
+      },
+      "score": 0.532
+    },
+    "chrisaldrich.withknown.com": {
+      "out": {
+        "in-reply-to": 4,
+        "like-of": 12,
+        "other": 2
+      },
+      "in": {
+        "in-reply-to": 19,
+        "other": 4
+      },
+      "score": 0.531
+    },
+    "davidjohnmead.com": {
+      "in": {
+        "other": 3
+      },
+      "out": {
+        "in-reply-to": 12,
+        "other": 2,
+        "like-of": 8
+      },
+      "score": 0.513
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 146
+      },
+      "score": 0.504
+    },
+    "known.kylewm.com": {
+      "in": {
+        "other": 11,
+        "in-reply-to": 15
+      },
+      "score": 0.450
+    },
+    "traveltonic.net": {
+      "out": {
+        "in-reply-to": 6,
+        "like-of": 5
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.448
+    },
+    "kylewm.com": {
+      "out": {
+        "other": 4,
+        "like-of": 8
+      },
+      "in": {
+        "other": 14,
+        "in-reply-to": 4,
+        "like-of": 3
+      },
+      "score": 0.443
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 12
+      },
+      "out": {
+        "like-of": 16
+      },
+      "score": 0.438
+    },
+    "known.techlifeweb.com": {
+      "out": {
+        "in-reply-to": 4,
+        "like-of": 4
+      },
+      "score": 0.407
+    },
+    "scripting.com": {
+      "out": {
+        "other": 2,
+        "in-reply-to": 5
+      },
+      "score": 0.403
+    },
+    "jpreardon.com": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 2
+      },
+      "in": {
+        "other": 5
+      },
+      "score": 0.393
+    },
+    "snarfed.org": {
+      "in": {
+        "in-reply-to": 1,
+        "other": 6
+      },
+      "out": {
+        "other": 2,
+        "like-of": 8
+      },
+      "score": 0.389
+    },
+    "jothut.com": {
+      "in": {
+        "other": 33
+      },
+      "score": 0.354
+    },
+    "www.kevinmarks.com": {
+      "out": {
+        "like-of": 8
+      },
+      "score": 0.351
+    },
+    "dowe.io": {
+      "out": {
+        "like-of": 4,
+        "other": 2
+      },
+      "in": {
+        "other": 11
+      },
+      "score": 0.347
+    },
+    "daltoncaldwell.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.312
+    },
+    "bear.im": {
+      "out": {
+        "like-of": 5
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.307
+    },
+    "rawlinson.us": {
+      "out": {
+        "like-of": 4
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.303
+    },
+    "bgrier.withknown.com": {
+      "out": {
+        "other": 2,
+        "like-of": 4
+      },
+      "score": 0.303
+    },
+    "eddiehinkle.com": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.303
+    },
+    "known.stierand.org": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.303
+    },
+    "www.decentralizedweb.net": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.292
+    },
+    "aaronparecki.com": {
+      "out": {
+        "like-of": 4
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.292
+    },
+    "gregorlove.com": {
+      "out": {
+        "like-of": 4
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.286
+    },
+    "meyerweb.com": {
+      "out": {
+        "like-of": 4
+      },
+      "score": 0.280
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.251
+    },
+    "known.schwenzel.de": {
+      "in": {
+        "other": 9
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.243
+    },
+    "aralbalkan.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.210
+    },
+    "caseorganic.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.181
+    },
+    "pauljacobson.me": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "christopheducamp.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.rmendes.net": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.141
+    },
+    "blog.rawlinson.us": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.141
+    },
+    "werd.io": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.141
+    },
+    "fastwonderblog.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.downes.ca": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "epeus.blogspot.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "blog.bradgrier.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "stream.tapestrymaker.net": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0701
+    },
+    "webmention.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0701
+    },
+    "channy.creation.net": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "domain": "workstream.piccolboni.info",
+  "urls": [
+    "http://workstream.piccolboni.info",
+    "http://workstream.piccolboni.info/?og=1"
+  ],
+  "names": [
+    "Antonio's workstream",
+    "workstream-piccolbo"
+  ],
+  "descriptions": [
+    "A data scientist's microblog with events, project updates, interesting links and reads. Also @piccolbo",
+    "A data scientist's microblog with events, project updates, interesting links and reads. Also...",
+    "workstream-piccolbo"
+  ],
+  "pictures": [
+    "http://68.media.tumblr.com/avatar_366fb0508cc3_128.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T06:07:00",
+  "crawl_end": "2017-04-30T06:16:14",
+  "num_pages": 801,
+  "total_html_size": 64412786,
+  "servers": [
+    "openresty"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://brid.gy/webmention/tumblr"
+    ]
+  },
+  "links_out": 26870,
+  "links_in": 22,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 22
+      },
+      "score": 0.286
+    }
+  }
+}

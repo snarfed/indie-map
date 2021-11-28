@@ -1,0 +1,65 @@
+{
+  "domain": "judehopkins.withknown.com",
+  "urls": [
+    "http://judehopkins.withknown.com/"
+  ],
+  "names": [
+    "jude hopkins writing"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://judehopkins.withknown.com/gfx/users/default-03.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T04:31:37",
+  "crawl_end": "2017-04-29T04:31:47",
+  "num_pages": 17,
+  "total_html_size": 420623,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://judehopkins.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 25,
+  "links_in": 0,
+  "links": {
+    "issuu.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 1
+    },
+    "greysparrowpress.sharepoint.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 1
+    },
+    "www.latimes.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.767
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "domain": "www.nikolay.io",
+  "urls": [
+    "http://www.nikolay.io/profile/nikolay",
+    "https://nikolay.com",
+    "https://twitter.com/nikolay",
+    "https://www.facebook.com/nikolay",
+    "https://github.com/nikolay",
+    "https://www.linkedin.com/in/nikolay",
+    "https://alpha.app.net/nikolay",
+    "https://angel.co/nikolay",
+    "https://www.seedinvest.com/nikolay",
+    "https://news.ycombinator.com/user?id=nikolay",
+    "https://www.reddit.com/user/kolev/"
+  ],
+  "names": [
+    "Nikolay Kolev",
+    "Nikolay"
+  ],
+  "descriptions": [
+    "Full-Stack Web Architect, Cloud and DevOps Evangelist, Startup Junkie, Science Aficionado, Futurist, Biohacker, Bitcoin.",
+    "Nikolay's Indieweb Site"
+  ],
+  "pictures": [
+    "http://www.nikolay.io/file/0c29c7dc7e5579be4880b9cc7edc9275"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Nikolay Kolev"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Full-Stack Web Architect, Cloud and DevOps Evangelist, Startup Junkie, Science Aficionado, Futurist, Biohacker, Bitcoin.</p>\n</div>",
+          "value": "\nFull-Stack Web Architect, Cloud and DevOps Evangelist, Startup Junkie, Science Aficionado, Futurist, Biohacker, Bitcoin.\n"
+        }
+      ],
+      "photo": [
+        "http://www.nikolay.io/file/0c29c7dc7e5579be4880b9cc7edc9275"
+      ],
+      "profile": [
+        "Nikolay Kolev"
+      ],
+      "url": [
+        "http://www.nikolay.io/profile/nikolay",
+        "http://www.nikolay.io/profile/nikolay",
+        "https://nikolay.com",
+        "https://twitter.com/nikolay",
+        "https://www.facebook.com/nikolay",
+        "https://github.com/nikolay",
+        "https://www.linkedin.com/in/nikolay",
+        "https://alpha.app.net/nikolay",
+        "https://angel.co/nikolay",
+        "https://www.seedinvest.com/nikolay",
+        "https://news.ycombinator.com/user?id=nikolay",
+        "https://www.reddit.com/user/kolev/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://nikolay.com",
+    "https://twitter.com/nikolay",
+    "https://www.facebook.com/nikolay",
+    "https://github.com/nikolay",
+    "https://www.linkedin.com/in/nikolay",
+    "https://alpha.app.net/nikolay",
+    "https://angel.co/nikolay",
+    "https://www.seedinvest.com/nikolay",
+    "https://news.ycombinator.com/user?id=nikolay",
+    "https://www.reddit.com/user/kolev/"
+  ],
+  "crawl_start": "2017-04-30T08:10:21",
+  "crawl_end": "2017-04-30T08:10:28",
+  "num_pages": 15,
+  "total_html_size": 266088,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.nikolay.io/webmention/"
+    ],
+    "micropub": [
+      "http://www.nikolay.io/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://www.nikolay.io/indieauth/auth"
+    ],
+    "token": [
+      "http://www.nikolay.io/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 120,
+  "links_in": 5,
+  "links": {
+    "angel.co": {
+      "out": {
+        "other": 12
+      },
+      "score": 1
+    },
+    "nikolay.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 1
+    },
+    "github.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 1
+    },
+    "twitter.com/nikolay": {
+      "out": {
+        "other": 12
+      },
+      "score": 1
+    },
+    "news.ycombinator.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 1
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 1
+    },
+    "www.seedinvest.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 1
+    },
+    "facebook.com/nikolay": {
+      "out": {
+        "other": 12
+      },
+      "score": 1
+    },
+    "alpha.app.net": {
+      "out": {
+        "other": 12
+      },
+      "score": 1
+    },
+    "www.reddit.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.506
+    }
+  }
+}

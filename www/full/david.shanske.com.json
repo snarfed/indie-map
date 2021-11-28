@@ -1,0 +1,919 @@
+{
+  "domain": "david.shanske.com",
+  "urls": [
+    "https://david.shanske.com/"
+  ],
+  "names": [
+    "David Shanske - The Definitive Location",
+    "David Shanske"
+  ],
+  "descriptions": [
+    "The Definitive Location"
+  ],
+  "pictures": [
+    "https://david.shanske.com/wp-content/uploads/2015/11/davidsunset1-150x150.png",
+    "https://david.shanske.com/wp-content/uploads/2015/11/davidsunset1.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/dshanske",
+    "https://plus.google.com/dshanske",
+    "https://twitter.com/dshanske",
+    "https://www.facebook.com/dshanske",
+    "https://www.linkedin.com/in/davidshanske"
+  ],
+  "crawl_start": "2017-04-24T02:34:56",
+  "crawl_end": "2017-04-24T02:48:36",
+  "num_pages": 214,
+  "total_html_size": 5999611,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-note",
+    "h-geo",
+    "h-as-article",
+    "h-entry",
+    "h-cite",
+    "h-as-image",
+    "h-feed",
+    "h-as-bookmark"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "elder",
+    "IRC",
+    "IWS2017",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://david.shanske.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://david.shanske.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 1793,
+  "links_in": 102338,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 52410
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 32961
+      },
+      "score": 0.954
+    },
+    "acegiak.net": {
+      "in": {
+        "other": 14830
+      },
+      "score": 0.881
+    },
+    "stream.boffosocko.com": {
+      "out": {
+        "other": 10
+      },
+      "in": {
+        "like-of": 19,
+        "other": 157,
+        "in-reply-to": 161
+      },
+      "score": 0.636
+    },
+    "jothut.com": {
+      "in": {
+        "other": 885
+      },
+      "score": 0.623
+    },
+    "tiny.n9n.us": {
+      "in": {
+        "other": 429
+      },
+      "score": 0.556
+    },
+    "github.com": {
+      "out": {
+        "other": 199
+      },
+      "score": 0.550
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 194
+      },
+      "score": 0.547
+    },
+    "plus.google.com/dshanske": {
+      "out": {
+        "other": 190
+      },
+      "score": 0.545
+    },
+    "twitter.com/dshanske": {
+      "out": {
+        "other": 190
+      },
+      "score": 0.545
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 190
+      },
+      "score": 0.545
+    },
+    "facebook.com/dshanske": {
+      "out": {
+        "other": 190
+      },
+      "score": 0.545
+    },
+    "known.kylewm.com": {
+      "in": {
+        "other": 33,
+        "in-reply-to": 66
+      },
+      "score": 0.540
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 102
+      },
+      "score": 0.488
+    },
+    "www.openstreetmap.org": {
+      "out": {
+        "other": 101
+      },
+      "score": 0.487
+    },
+    "kylewm.com": {
+      "out": {
+        "other": 11
+      },
+      "in": {
+        "in-reply-to": 10,
+        "other": 28,
+        "like-of": 12,
+        "bookmark-of": 6
+      },
+      "score": 0.450
+    },
+    "aaronparecki.com": {
+      "in": {
+        "bookmark-of": 15,
+        "other": 1,
+        "in-reply-to": 7,
+        "like-of": 7
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.411
+    },
+    "www.ushmm.org": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.411
+    },
+    "2016.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "out": {
+        "in-reply-to": 7
+      },
+      "score": 0.394
+    },
+    "jeena.net": {
+      "in": {
+        "in-reply-to": 12,
+        "like-of": 2
+      },
+      "score": 0.382
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 31
+      },
+      "score": 0.379
+    },
+    "cleverdevil.io": {
+      "in": {
+        "other": 57
+      },
+      "score": 0.371
+    },
+    "facebook.com/100002356503167": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.370
+    },
+    "www.jewishvirtuallibrary.org": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.362
+    },
+    "newyork.cbslocal.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.362
+    },
+    "brid.gy": {
+      "in": {
+        "other": 49
+      },
+      "score": 0.357
+    },
+    "index.html": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.351
+    },
+    "waterpigs.co.uk": {
+      "in": {
+        "other": 28
+      },
+      "score": 0.306
+    },
+    "www.tabletmag.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.299
+    },
+    "barryfrost.com": {
+      "in": {
+        "other": 23
+      },
+      "score": 0.288
+    },
+    "consumerist.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.265
+    },
+    "boffosocko.com": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.265
+    },
+    "www.amazon.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.265
+    },
+    "ben.thatmustbe.me": {
+      "in": {
+        "other": 1,
+        "like-of": 2
+      },
+      "out": {
+        "other": 6
+      },
+      "score": 0.260
+    },
+    "tabletmag.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.254
+    },
+    "tantek.com": {
+      "out": {
+        "other": 3
+      },
+      "in": {
+        "other": 5,
+        "like-of": 2
+      },
+      "score": 0.249
+    },
+    "stationaryjourney.com": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.242
+    },
+    "barryf.uk": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.220
+    },
+    "www.tombruning.com": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.211
+    },
+    "www.nytimes.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.211
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 5
+      },
+      "score": 0.211
+    },
+    "kylewm.withknown.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.aerlingus.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.211
+    },
+    "www.arush.io": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.202
+    },
+    "abcnews.go.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.191
+    },
+    "voxpelli.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.191
+    },
+    "twitter.com/nycgov": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.191
+    },
+    "www.bethelwoodscenter.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.191
+    },
+    "www.jpost.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.191
+    },
+    "twitter.com/NYCMayorsOffice": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.191
+    },
+    "tommorris.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "www.the-digital-reader.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "rhiaro.co.uk": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.164
+    },
+    "twitter.com/TheRealNimoy": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "scripting.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "www.independent.ie": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "twitter.com/NY1headlines": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.164
+    },
+    "www.ny1.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.164
+    },
+    "www.dailymail.co.uk": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "www.upi.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "leoville.withknown.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "gigaom.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "facebook.com/Sullivan-Retrospect-152604468153637": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "www.washingtonpost.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "adactio.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.148
+    },
+    "miklb.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.148
+    },
+    "peterwilson.cc": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.148
+    },
+    "coverup.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "mobile.nytimes.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "www.liu.edu": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "holocaust2.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "www.grubstreet.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "kartikprabhu.com": {
+      "in": {
+        "like-of": 2
+      },
+      "score": 0.128
+    },
+    "www.teleread.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "ghettos.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "twitter.com/rosenfeldpr": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "ghettolife.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "holocaust.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "lifeinthecamps.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "berlinolympics.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "disposingofthevictims.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "plus.google.com/b": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "emigration.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "lj.libraryjournal.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "nuremberglaws.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "afterww1.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "variety.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "www.businessinsider.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "antisemitism.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "finalsolution.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "www.ithaca.edu": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "www.gapyear.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "gizmodo.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "theendofhitler.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "commons.wikipedia.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "deathinthecamps.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "teacherweb.sewanhaka.k12.ny.us": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "twitter.com/vidthekid": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "dubiousdod.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "survivors.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "greyvillet.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "blog.henrikcarlsson.se": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "nurembergtrials.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "americanresponse.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "gothamist.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "hitler.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "concentrationcamps.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "davidjohnmead.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.128
+    },
+    "jewishemigration.html": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "teacherweb.sewanhaka.k12.ny.us.": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "weneca.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "blog.lib.uiowa.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.bera.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.humanitas-international.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.shufsd.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "bear.im": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0636
+    },
+    "webmention.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.librarything.com,": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "gopostmatic.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "core.trac.wordpress.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.bxscience.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.wsg-hist.uni-linz.ac.at": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.yfu-usa.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "maps.google.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "books.google.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.bxscimuseum.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.tcatbus.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.webrocker.de": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "boghop.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "srikanthperinkulam.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "martymcgui.re": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "gregorlove.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

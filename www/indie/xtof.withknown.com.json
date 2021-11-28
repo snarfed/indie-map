@@ -1,0 +1,260 @@
+{
+  "domain": "xtof.withknown.com",
+  "urls": [
+    "https://xtof.withknown.com/profile/xtof",
+    "http://christopheducamp.com",
+    "http://twitter.com/xtof_fr"
+  ],
+  "names": [
+    "Christophe Ducamp",
+    "Exploration IndieWeb"
+  ],
+  "descriptions": [
+    "#Freelance",
+    "Exploration IndieWeb "
+  ],
+  "pictures": [
+    "https://xtof.withknown.com/file/9d476776666b94ca5e6a0c758929e41d"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Christophe Ducamp"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>#Freelance</p>\n</div> ",
+          "value": "\n#Freelance\n "
+        }
+      ],
+      "photo": [
+        "https://xtof.withknown.com/file/9d476776666b94ca5e6a0c758929e41d"
+      ],
+      "profile": [
+        "Christophe Ducamp"
+      ],
+      "url": [
+        "https://xtof.withknown.com/profile/xtof",
+        "https://xtof.withknown.com/profile/xtof",
+        "http://christopheducamp.com",
+        "http://twitter.com/xtof_fr"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://christopheducamp.com",
+    "http://twitter.com/xtof_fr"
+  ],
+  "crawl_start": "2017-05-06T09:19:29",
+  "crawl_end": "2017-05-06T10:39:23",
+  "num_pages": 8044,
+  "total_html_size": 170294907,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-event",
+    "h-cite",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://xtof.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://xtof.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://xtof.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://xtof.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 32351,
+  "links_in": 172,
+  "links": {
+    "christopheducamp.com": {
+      "out": {
+        "other": 7182
+      },
+      "score": 0.998
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 364
+      },
+      "score": 0.687
+    },
+    "tantek.com": {
+      "out": {
+        "other": 25,
+        "in-reply-to": 63
+      },
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.681
+    },
+    "caseorganic.com": {
+      "out": {
+        "in-reply-to": 62,
+        "other": 29
+      },
+      "score": 0.680
+    },
+    "microblog.pierre-o.fr": {
+      "out": {
+        "in-reply-to": 49,
+        "other": 8
+      },
+      "in": {
+        "in-reply-to": 12,
+        "other": 26
+      },
+      "score": 0.665
+    },
+    "mabulledu.net": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "in-reply-to": 34
+      },
+      "score": 0.608
+    },
+    "adactio.com": {
+      "in": {
+        "other": 14
+      },
+      "out": {
+        "in-reply-to": 25,
+        "other": 13
+      },
+      "score": 0.591
+    },
+    "www.kryogenix.org": {
+      "out": {
+        "other": 17,
+        "in-reply-to": 17
+      },
+      "score": 0.555
+    },
+    "thierry.marianne.io": {
+      "out": {
+        "in-reply-to": 17,
+        "other": 1
+      },
+      "score": 0.537
+    },
+    "stream.tapestrymaker.net": {
+      "out": {
+        "other": 13,
+        "in-reply-to": 13
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.530
+    },
+    "kirilind.withknown.com": {
+      "out": {
+        "in-reply-to": 15
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.526
+    },
+    "standblog.org": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.484
+    },
+    "indiewebify.me": {
+      "out": {
+        "other": 37
+      },
+      "score": 0.448
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 68
+      },
+      "score": 0.440
+    },
+    "huffduffer.com": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.408
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 17
+      },
+      "score": 0.380
+    },
+    "aaron-gustafson.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.368
+    },
+    "loic.mathaud.fr": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.368
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 33
+      },
+      "score": 0.365
+    },
+    "www.kevinmarks.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.340
+    },
+    "cyborgcamp.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 8
+      },
+      "score": 0.301
+    },
+    "www.aaron-gustafson.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0723
+    }
+  }
+}

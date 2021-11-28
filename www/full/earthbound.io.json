@@ -1,0 +1,363 @@
+{
+  "domain": "earthbound.io",
+  "urls": [
+    "http://earthbound.io/"
+  ],
+  "names": [
+    "A VERY PLAIN INDEX :)"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-09T17:39:05",
+  "crawl_end": "2017-06-09T18:07:48",
+  "num_pages": 503,
+  "total_html_size": 28277729,
+  "servers": [
+    "Apache",
+    "nginx",
+    "WordPress",
+    "DokuWiki"
+  ],
+  "mf2_classes": [
+    "h-as-video",
+    "h-entry",
+    "h-as-image",
+    "h-as-article",
+    "h-feed",
+    "h-card",
+    "h-as-audio"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://earthbound.io/blog/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://earthbound.io/blog/?micropub=endpoint",
+      "https://earthbound.io/blog/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 1895,
+  "links_in": 59,
+  "links": {
+    "s.earthbound.io": {
+      "out": {
+        "other": 324
+      },
+      "score": 1
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 230
+      },
+      "score": 0.947
+    },
+    "quickgallery.jv2.net": {
+      "out": {
+        "other": 226
+      },
+      "score": 0.944
+    },
+    "notiz.blog": {
+      "out": {
+        "other": 220
+      },
+      "score": 0.941
+    },
+    "www.imagekind.com": {
+      "out": {
+        "other": 121
+      },
+      "score": 0.849
+    },
+    "libertypod.org": {
+      "out": {
+        "other": 69
+      },
+      "score": 0.762
+    },
+    "adactio.com": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.734
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.734
+    },
+    "pixels.com": {
+      "out": {
+        "other": 57
+      },
+      "score": 0.733
+    },
+    "creativecommons.org": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.730
+    },
+    "javascript": {
+      "out": {
+        "other": 46
+      },
+      "score": 0.699
+    },
+    "vimeo.com": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.685
+    },
+    "dadamailproject.com": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.685
+    },
+    "fineartamerica.com": {
+      "out": {
+        "other": 37
+      },
+      "score": 0.665
+    },
+    "krita.org": {
+      "out": {
+        "other": 33
+      },
+      "score": 0.648
+    },
+    "brid.gy": {
+      "in": {
+        "other": 55
+      },
+      "score": 0.620
+    },
+    "dokuwiki.org": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.617
+    },
+    "www.amazon.com": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.592
+    },
+    "www.smashwords.com": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.592
+    },
+    "fountain.io": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.553
+    },
+    "www.filterforge.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.546
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.546
+    },
+    "www.reddit.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.536
+    },
+    "pinboard.in": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.536
+    },
+    "plus.google.com/share": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.536
+    },
+    "facebook.com/sharer": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.536
+    },
+    "sugar-beet.blogspot.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.491
+    },
+    "www.photoshopessentials.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.491
+    },
+    "web.archive.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.428
+    },
+    "github.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.428
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.428
+    },
+    "smofa.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.383
+    },
+    "julierogersart.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.383
+    },
+    "PROTECTED": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.383
+    },
+    "www.canopycanopycanopy.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.277
+    },
+    "twitter.com/earthbound19": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.277
+    },
+    "International_Art_English_styled_generated_gibberish": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "index.php": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.170
+    },
+    "www.michelleshop.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.107
+    },
+    "mixu.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.107
+    },
+    "www.haykranen.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.107
+    },
+    "wikialert.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.107
+    },
+    "sophie.stuart-chapman.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.107
+    },
+    "twitter.com/share": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.107
+    },
+    "www.opensource.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.107
+    },
+    "twitter.com/lokesh": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.107
+    },
+    "www.sphider.eu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.107
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

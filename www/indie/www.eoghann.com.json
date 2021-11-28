@@ -1,0 +1,121 @@
+{
+  "domain": "www.eoghann.com",
+  "urls": [
+    "http://www.eoghann.com/"
+  ],
+  "names": [
+    "Eoghann Irving — Fiction, Reviews and Geekery",
+    "Eoghann Irving"
+  ],
+  "descriptions": [
+    "Fiction, Reviews and Geekery"
+  ],
+  "pictures": [
+    "http://www.eoghann.com/wp-content/uploads/2014/10/E-5453b048_site_icon-32x32.png",
+    "http://www.eoghann.com/wp-content/uploads/2014/10/E-5453b048_site_icon-200x200.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://plus.google.com/https://plus.google.com/+EoghannIrving/posts",
+    "https://twitter.com/http://www.twitter.com/EoghannIrving",
+    "https://www.facebook.com/https://www.facebook.com/eoghann",
+    "https://www.flickr.com/people/https://www.flickr.com/photos/eoghann",
+    "https://plus.google.com/+EoghannIrving/posts",
+    "https://www.twitter.com/EoghannIrving",
+    "https://www.facebook.com/eoghann/about",
+    "https://www.flickr.com/people/eoghann/"
+  ],
+  "crawl_start": "2017-05-06T07:19:18",
+  "crawl_end": "2017-05-07T00:23:30",
+  "num_pages": 12711,
+  "total_html_size": 562663260,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "mf2_classes": [
+    "h-as-video",
+    "h-card",
+    "h-cite",
+    "h-as-page",
+    "h-as-article",
+    "h-feed",
+    "h-as-note",
+    "h-as-image",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.eoghann.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://www.eoghann.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://www.eoghann.com/really-cool-zombie-wolverine-artwork"
+    ]
+  },
+  "links_out": 48578,
+  "links_in": 456976,
+  "links": {
+    "eoghann.mill-irving.com": {
+      "in": {
+        "other": 456928
+      },
+      "score": 1
+    },
+    "eoghann.com": {
+      "out": {
+        "other": 576
+      },
+      "score": 0.542
+    },
+    "brid.gy": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 35
+      },
+      "score": 0.282
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.177
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.16
+    },
+    "technobabbl.es": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.107
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.0846
+    }
+  }
+}

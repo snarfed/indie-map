@@ -1,0 +1,206 @@
+{
+  "domain": "annbass.net",
+  "urls": [
+    "http://annbass.net/profile/annbass",
+    "http://twitter.com/annbass"
+  ],
+  "names": [
+    "annbass",
+    "AnnBass"
+  ],
+  "descriptions": [
+    "... a free agent, doing new things ...",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://annbass.net/file/54af19fda1524e91af46a04b0546ada0"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "annbass"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>... a free agent, doing new things ...</p>\n</div> ",
+          "value": "\n... a free agent, doing new things ...\n "
+        }
+      ],
+      "photo": [
+        "http://annbass.net/file/54af19fda1524e91af46a04b0546ada0"
+      ],
+      "profile": [
+        "annbass"
+      ],
+      "url": [
+        "http://annbass.net/profile/annbass",
+        "http://annbass.net/profile/annbass",
+        "http://twitter.com/annbass"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/annbass"
+  ],
+  "crawl_start": "2017-04-27T07:52:23",
+  "crawl_end": "2017-04-27T07:53:13",
+  "num_pages": 56,
+  "total_html_size": 1116913,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-cite",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://annbass.net/webmention/"
+    ],
+    "micropub": [
+      "http://annbass.net/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://annbass.net/indieauth/auth"
+    ],
+    "token": [
+      "http://annbass.net/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 141,
+  "links_in": 31,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 1
+    },
+    "twitter.com/annbass": {
+      "out": {
+        "other": 41
+      },
+      "score": 0.934
+    },
+    "ben.thatmustbe.me": {
+      "in": {
+        "other": 1,
+        "in-reply-to": 4
+      },
+      "out": {
+        "other": 8,
+        "in-reply-to": 4
+      },
+      "score": 0.919
+    },
+    "aaronparecki.com": {
+      "out": {
+        "in-reply-to": 4
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.797
+    },
+    "stream.boffosocko.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "in-reply-to": 5
+      },
+      "score": 0.742
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 3,
+        "in-reply-to": 3
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.691
+    },
+    "rhiaro.co.uk": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "in-reply-to": 2
+      },
+      "score": 0.612
+    },
+    "shevski.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.441
+    },
+    "tinokremer.nl": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.441
+    },
+    "unrelenting.technology": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.441
+    },
+    "hawke.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.441
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.294
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.147
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.147
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

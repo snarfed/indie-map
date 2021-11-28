@@ -1,0 +1,133 @@
+{
+  "domain": "walkmyworld2016.jgregorymcverry.com",
+  "urls": [
+    "http://walkmyworld2016.jgregorymcverry.com/profile/jgmac1106",
+    "http://jgregorymcverry.com",
+    "http://quickthoughts.jgregorymcverry.com",
+    "http://twitter.com//jgmac1106"
+  ],
+  "names": [
+    "Greg McVerry",
+    "WalkMyWorld 2016"
+  ],
+  "descriptions": [
+    "I am a facilitator and learner involved with #walkmyworld. I am excited to explore the different affordances of modes and story telling.",
+    "my journeys, our identities "
+  ],
+  "pictures": [
+    "http://walkmyworld2016.jgregorymcverry.com/file/546e2187f7b180edb1a521e6eff2ce8c"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Greg McVerry"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I am a facilitator and learner involved with #walkmyworld. I am excited to explore the different affordances of modes and story telling.</p>\n</div> ",
+          "value": "\nI am a facilitator and learner involved with #walkmyworld. I am excited to explore the different affordances of modes and story telling.\n "
+        }
+      ],
+      "photo": [
+        "http://walkmyworld2016.jgregorymcverry.com/file/546e2187f7b180edb1a521e6eff2ce8c"
+      ],
+      "profile": [
+        "Greg McVerry"
+      ],
+      "url": [
+        "http://walkmyworld2016.jgregorymcverry.com/profile/jgmac1106",
+        "http://walkmyworld2016.jgregorymcverry.com/profile/jgmac1106",
+        "http://jgregorymcverry.com",
+        "http://quickthoughts.jgregorymcverry.com",
+        "http://twitter.com//jgmac1106"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://jgregorymcverry.com",
+    "http://quickthoughts.jgregorymcverry.com",
+    "http://twitter.com//jgmac1106"
+  ],
+  "crawl_start": "2017-04-30T03:12:38",
+  "crawl_end": "2017-04-30T03:13:45",
+  "num_pages": 75,
+  "total_html_size": 1873151,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://walkmyworld2016.jgregorymcverry.com/webmention/"
+    ],
+    "micropub": [
+      "http://walkmyworld2016.jgregorymcverry.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "http://walkmyworld2016.jgregorymcverry.com/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 658,
+  "links_in": 6,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 80
+      },
+      "score": 0.882
+    },
+    "jgregorymcverry.com": {
+      "out": {
+        "other": 61
+      },
+      "score": 0.833
+    },
+    "quickthoughts.jgregorymcverry.com": {
+      "out": {
+        "other": 61
+      },
+      "score": 0.833
+    },
+    "wiobyrne.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.502
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.241
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.120
+    }
+  }
+}

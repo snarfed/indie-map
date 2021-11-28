@@ -1,0 +1,116 @@
+{
+  "domain": "known.lauragibbs.net",
+  "urls": [
+    "http://known.lauragibbs.net/profile/lauragibbs",
+    "http://mythfolklore.net/",
+    "https://twitter.com/OnlineCrsLady",
+    "https://plus.google.com/+LauraGibbs/posts",
+    "http://known.lauragibbs.net/tag/CLMOOC"
+  ],
+  "names": [
+    "Laura Gibbs",
+    "Laura Gibbs: Known Site"
+  ],
+  "descriptions": [
+    "Happily teaching online at University of Oklahoma for 10+ years.\n \n mythfolklore.net/\n\n\n twitter.com/OnlineCrsLady\n\n\n plus.google.com/+LauraGibbs/posts\n\n\n known.lauragibbs.net/tag/CLMOOC",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://known.lauragibbs.net/file/d4f45a919a6d53cc5095c03019567769"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Laura Gibbs"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Happily teaching online at University of Oklahoma for 10+ years.</p>\n</div> <p class=\"url-container\">\n<i class=\"fa fa-link\"></i> <a class=\"u-url\" href=\"http://mythfolklore.net/\" rel=\"me\">mythfolklore.net/</a>\n</p>\n<p class=\"url-container\">\n<i class=\"fa fa-twitter\"></i> <a class=\"u-url\" href=\"https://twitter.com/OnlineCrsLady\" rel=\"me\">twitter.com/OnlineCrsLady</a>\n</p>\n<p class=\"url-container\">\n<i class=\"fa fa-google-plus\"></i> <a class=\"u-url\" href=\"https://plus.google.com/+LauraGibbs/posts\" rel=\"me\">plus.google.com/+LauraGibbs/posts</a>\n</p>\n<p class=\"url-container\">\n<i class=\"fa fa-link\"></i> <a class=\"u-url\" href=\"http://known.lauragibbs.net/tag/CLMOOC\" rel=\"me\">known.lauragibbs.net/tag/CLMOOC</a>\n</p>\n",
+          "value": "\nHappily teaching online at University of Oklahoma for 10+ years.\n \n mythfolklore.net/\n\n\n twitter.com/OnlineCrsLady\n\n\n plus.google.com/+LauraGibbs/posts\n\n\n known.lauragibbs.net/tag/CLMOOC\n\n"
+        }
+      ],
+      "photo": [
+        "http://known.lauragibbs.net/file/d4f45a919a6d53cc5095c03019567769"
+      ],
+      "profile": [
+        "Laura Gibbs"
+      ],
+      "url": [
+        "http://known.lauragibbs.net/profile/lauragibbs",
+        "http://known.lauragibbs.net/profile/lauragibbs",
+        "http://mythfolklore.net/",
+        "https://twitter.com/OnlineCrsLady",
+        "https://plus.google.com/+LauraGibbs/posts",
+        "http://known.lauragibbs.net/tag/CLMOOC"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://mythfolklore.net/",
+    "https://twitter.com/OnlineCrsLady",
+    "https://plus.google.com/+LauraGibbs/posts",
+    "http://known.lauragibbs.net/tag/CLMOOC"
+  ],
+  "crawl_start": "2017-04-29T04:35:56",
+  "crawl_end": "2017-04-29T04:38:50",
+  "num_pages": 221,
+  "total_html_size": 5735283,
+  "servers": [
+    "Apache (Unix) mod_ssl OpenSSLe-fips Phusion_Passenger mod_bwlimited",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.lauragibbs.net/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 2899,
+  "links_in": 10,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 221
+      },
+      "score": 0.952
+    },
+    "onlinemythindia.lauragibbs.net": {
+      "out": {
+        "other": 68
+      },
+      "in": {
+        "other": 9
+      },
+      "score": 0.778
+    },
+    "stream.withknown.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.509
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "domain": "social.growthedream.com",
+  "urls": [
+    "http://social.growthedream.com/"
+  ],
+  "names": [
+    "Grow The Dream Social"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://social.growthedream.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T02:16:25",
+  "crawl_end": "2017-04-30T02:20:34",
+  "num_pages": 364,
+  "total_html_size": 12489612,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://social.growthedream.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 3081,
+  "links_in": 52,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 728
+      },
+      "score": 0.941
+    },
+    "social.thedavidjohnson.com": {
+      "out": {
+        "other": 8
+      },
+      "in": {
+        "in-reply-to": 20,
+        "other": 24
+      },
+      "score": 0.637
+    },
+    "www.leoville.net": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.268
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "domain": "www.dailypeeg.com",
+  "urls": [
+    "http://www.dailypeeg.com/profile/peeg",
+    "http://twitter.com/dailypeeg",
+    "http://facebook.com/dailypeeg"
+  ],
+  "names": [
+    "Peeg",
+    "Daily Peeg"
+  ],
+  "descriptions": [
+    "A suave, affluent Victorian.",
+    "A new cartoon, daily."
+  ],
+  "pictures": [
+    "http://www.dailypeeg.com/file/b7fab75ef8ee45283d3432c6d1829d1c/thumb.png",
+    "http://www.dailypeeg.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Peeg"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>A suave, affluent Victorian.</p>\n</div>",
+          "value": "\nA suave, affluent Victorian.\n"
+        }
+      ],
+      "photo": [
+        "http://www.dailypeeg.com/file/b7fab75ef8ee45283d3432c6d1829d1c/thumb.png"
+      ],
+      "profile": [
+        "Peeg"
+      ],
+      "url": [
+        "http://www.dailypeeg.com/profile/peeg",
+        "http://www.dailypeeg.com/profile/peeg",
+        "http://twitter.com/dailypeeg",
+        "http://facebook.com/dailypeeg"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/dailypeeg",
+    "http://facebook.com/dailypeeg"
+  ],
+  "crawl_start": "2017-04-30T06:07:39",
+  "crawl_end": "2017-04-30T06:08:19",
+  "num_pages": 42,
+  "total_html_size": 963463,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.dailypeeg.com/webmention/"
+    ],
+    "micropub": [
+      "http://www.dailypeeg.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://www.dailypeeg.com/indieauth/auth"
+    ],
+    "token": [
+      "http://www.dailypeeg.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 95,
+  "links_in": 14,
+  "links": {
+    "twitter.com/dailypeeg": {
+      "out": {
+        "other": 27
+      },
+      "score": 1
+    },
+    "facebook.com/dailypeeg": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.937
+    },
+    "www.cafepress.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.774
+    },
+    "twitter.com/problemsdog": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.662
+    },
+    "twitter.com/nicolepank": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.622
+    },
+    "brid.gy": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.576
+    },
+    "twitter.com/benwerd": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.576
+    },
+    "werd.io": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.521
+    },
+    "nicolepank.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.521
+    },
+    "twitter.com/cybiksana": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.449
+    },
+    "twitter.com/mhutchings": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.449
+    },
+    "www.matthewhutchings.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.348
+    },
+    "unknowncreatures.withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.348
+    },
+    "twitter.com/gungorkocak": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.348
+    }
+  }
+}

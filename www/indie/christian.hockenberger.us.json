@@ -1,0 +1,136 @@
+{
+  "domain": "christian.hockenberger.us",
+  "urls": [
+    "http://christian.hockenberger.us/",
+    "http://christian.hockenberger.us"
+  ],
+  "names": [
+    "Christian Hockenberger",
+    "christian.hockenberger.us",
+    "Hockenberger.us"
+  ],
+  "descriptions": [
+    "Father, Husband, Designer, Illustrator, Developer, Author and Soldier"
+  ],
+  "pictures": [
+    "http://christian.hockenberger.us/resources/images/avatar-900.jpg",
+    "http://hockenberger.us/favicon.ico?v=1.0.2",
+    "http://hockenberger.us/res/images/avatar-share-og.jpg",
+    "http://hockenberger.us/res/images/avatar-share-twtr.jpg"
+  ],
+  "hcard": {
+    "children": [
+      {
+        "properties": {
+          "country-name": [
+            "Germany"
+          ],
+          "locality": [
+            "Frankenthal"
+          ],
+          "name": [
+            "from Frankenthal, Germany"
+          ]
+        },
+        "type": [
+          "h-adr"
+        ]
+      }
+    ],
+    "properties": {
+      "family-name": [
+        "Hockenberger"
+      ],
+      "given-name": [
+        "Christian"
+      ],
+      "name": [
+        "Christian Hockenberger"
+      ],
+      "photo": [
+        "http://christian.hockenberger.us/resources/images/avatar-900.jpg"
+      ],
+      "url": [
+        "http://christian.hockenberger.us/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ],
+    "value": "Christian Hockenberger"
+  },
+  "rel_mes": [
+    "http://christian.hockenberger.us/",
+    "http://mediaberger.com",
+    "https://twitter.com/chrisbergr",
+    "https://www.facebook.com/chrisbergr",
+    "https://www.instagram.com/chrisbergr/",
+    "http://stackoverflow.com/users/1278475/chrisbergr",
+    "https://github.com/chrisbergr",
+    "https://www.pinterest.com/chrisbergr"
+  ],
+  "crawl_start": "2017-04-28T05:16:17",
+  "crawl_end": "2017-04-28T05:17:10",
+  "num_pages": 87,
+  "total_html_size": 1384013,
+  "servers": [
+    "Apache (Debian)"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://christian.hockenberger.us/webmention.php"
+    ],
+    "micropub": [
+      "http://christian.hockenberger.us/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 965,
+  "links_in": 64,
+  "links": {
+    "indieberger.mediaberger.com": {
+      "in": {
+        "other": 22,
+        "like-of": 3,
+        "in-reply-to": 10
+      },
+      "score": 0.714
+    },
+    "brid.gy": {
+      "in": {
+        "other": 24
+      },
+      "score": 0.520
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.227
+    },
+    "kylewm.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

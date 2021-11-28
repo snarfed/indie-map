@@ -1,0 +1,53 @@
+{
+  "domain": "oauth-dropins.appspot.com",
+  "urls": [
+    "http://oauth-dropins.appspot.com/"
+  ],
+  "names": [
+    "oauth-dropins demo"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-07T17:36:28",
+  "crawl_end": "2017-06-07T17:36:28",
+  "num_pages": 1,
+  "total_html_size": 3655,
+  "servers": [
+    "Google Frontend"
+  ],
+  "tags": [
+    "tool"
+  ],
+  "endpoints": {},
+  "links_out": 4,
+  "links_in": 38,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 20
+      },
+      "score": 1
+    },
+    "snarfed.org": {
+      "in": {
+        "other": 5,
+        "like-of": 4
+      },
+      "score": 0.853
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.733
+    },
+    "oauth.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.231
+    }
+  }
+}

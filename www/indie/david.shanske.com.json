@@ -1,0 +1,361 @@
+{
+  "domain": "david.shanske.com",
+  "urls": [
+    "https://david.shanske.com/"
+  ],
+  "names": [
+    "David Shanske - The Definitive Location",
+    "David Shanske"
+  ],
+  "descriptions": [
+    "The Definitive Location"
+  ],
+  "pictures": [
+    "https://david.shanske.com/wp-content/uploads/2015/11/davidsunset1-150x150.png",
+    "https://david.shanske.com/wp-content/uploads/2015/11/davidsunset1.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/dshanske",
+    "https://plus.google.com/dshanske",
+    "https://twitter.com/dshanske",
+    "https://www.facebook.com/dshanske",
+    "https://www.linkedin.com/in/davidshanske"
+  ],
+  "crawl_start": "2017-04-24T02:34:56",
+  "crawl_end": "2017-04-24T02:48:36",
+  "num_pages": 214,
+  "total_html_size": 5999611,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-note",
+    "h-geo",
+    "h-as-article",
+    "h-entry",
+    "h-cite",
+    "h-as-image",
+    "h-feed",
+    "h-as-bookmark"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "elder",
+    "IRC",
+    "IWS2017",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://david.shanske.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://david.shanske.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 1793,
+  "links_in": 102338,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 52410
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 32961
+      },
+      "score": 0.954
+    },
+    "acegiak.net": {
+      "in": {
+        "other": 14830
+      },
+      "score": 0.881
+    },
+    "stream.boffosocko.com": {
+      "out": {
+        "other": 10
+      },
+      "in": {
+        "like-of": 19,
+        "other": 157,
+        "in-reply-to": 161
+      },
+      "score": 0.636
+    },
+    "jothut.com": {
+      "in": {
+        "other": 885
+      },
+      "score": 0.623
+    },
+    "tiny.n9n.us": {
+      "in": {
+        "other": 429
+      },
+      "score": 0.556
+    },
+    "known.kylewm.com": {
+      "in": {
+        "other": 33,
+        "in-reply-to": 66
+      },
+      "score": 0.540
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 102
+      },
+      "score": 0.488
+    },
+    "kylewm.com": {
+      "out": {
+        "other": 11
+      },
+      "in": {
+        "in-reply-to": 10,
+        "other": 28,
+        "like-of": 12,
+        "bookmark-of": 6
+      },
+      "score": 0.450
+    },
+    "aaronparecki.com": {
+      "in": {
+        "bookmark-of": 15,
+        "other": 1,
+        "in-reply-to": 7,
+        "like-of": 7
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.411
+    },
+    "2016.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "out": {
+        "in-reply-to": 7
+      },
+      "score": 0.394
+    },
+    "jeena.net": {
+      "in": {
+        "in-reply-to": 12,
+        "like-of": 2
+      },
+      "score": 0.382
+    },
+    "cleverdevil.io": {
+      "in": {
+        "other": 57
+      },
+      "score": 0.371
+    },
+    "brid.gy": {
+      "in": {
+        "other": 49
+      },
+      "score": 0.357
+    },
+    "waterpigs.co.uk": {
+      "in": {
+        "other": 28
+      },
+      "score": 0.306
+    },
+    "barryfrost.com": {
+      "in": {
+        "other": 23
+      },
+      "score": 0.288
+    },
+    "boffosocko.com": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.265
+    },
+    "ben.thatmustbe.me": {
+      "in": {
+        "other": 1,
+        "like-of": 2
+      },
+      "out": {
+        "other": 6
+      },
+      "score": 0.260
+    },
+    "tantek.com": {
+      "out": {
+        "other": 3
+      },
+      "in": {
+        "other": 5,
+        "like-of": 2
+      },
+      "score": 0.249
+    },
+    "stationaryjourney.com": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.242
+    },
+    "www.tombruning.com": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.211
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 5
+      },
+      "score": 0.211
+    },
+    "kylewm.withknown.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "tommorris.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "rhiaro.co.uk": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.164
+    },
+    "scripting.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.164
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.164
+    },
+    "leoville.withknown.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "adactio.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.148
+    },
+    "miklb.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.148
+    },
+    "peterwilson.cc": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.148
+    },
+    "kartikprabhu.com": {
+      "in": {
+        "like-of": 2
+      },
+      "score": 0.128
+    },
+    "blog.henrikcarlsson.se": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "davidjohnmead.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.128
+    },
+    "bear.im": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0636
+    },
+    "webmention.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.webrocker.de": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "boghop.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "srikanthperinkulam.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "martymcgui.re": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "gregorlove.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

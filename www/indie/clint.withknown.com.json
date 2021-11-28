@@ -1,0 +1,106 @@
+{
+  "domain": "clint.withknown.com",
+  "urls": [
+    "https://clint.withknown.com/profile/ctkennedy",
+    "http://clintkennedy.wordpress.com",
+    "http://newliteracies.uconn.edu",
+    "http://www.nlstmhs.org",
+    "http://www.twitter.com/ctkennedy"
+  ],
+  "names": [
+    "Clint Kennedy",
+    "Hello World!"
+  ],
+  "descriptions": [
+    "Hello World!",
+    "A social website powered by Known and Clint"
+  ],
+  "pictures": [
+    "https://clint.withknown.com/file/8e37acd69b9de752749e3371e46919d7"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Clint Kennedy"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Hello World!</p>\n</div>",
+          "value": "\nHello World!\n"
+        }
+      ],
+      "photo": [
+        "https://clint.withknown.com/file/8e37acd69b9de752749e3371e46919d7"
+      ],
+      "profile": [
+        "Clint Kennedy"
+      ],
+      "url": [
+        "https://clint.withknown.com/profile/ctkennedy",
+        "https://clint.withknown.com/profile/ctkennedy",
+        "http://clintkennedy.wordpress.com",
+        "http://newliteracies.uconn.edu",
+        "http://www.nlstmhs.org",
+        "http://www.twitter.com/ctkennedy"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://clintkennedy.wordpress.com",
+    "http://newliteracies.uconn.edu",
+    "http://www.nlstmhs.org",
+    "http://www.twitter.com/ctkennedy"
+  ],
+  "crawl_start": "2017-04-28T05:16:19",
+  "crawl_end": "2017-04-28T07:26:16",
+  "num_pages": 7096,
+  "total_html_size": 175902731,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://clint.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 36067,
+  "links_in": 1,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 7096
+      },
+      "score": 1
+    },
+    "scripting.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.241
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

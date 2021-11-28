@@ -1,0 +1,77 @@
+{
+  "domain": "www.androidbuffet.com",
+  "urls": [
+    "https://www.androidbuffet.com/"
+  ],
+  "names": [
+    "Android Buffet - Hungry for Android? Get All You Can Eat at the Android Buffet",
+    "Android Buffet"
+  ],
+  "descriptions": [
+    "Hungry for Android? Get All You Can Eat at the Android Buffet"
+  ],
+  "pictures": [
+    "https://i1.wp.com/www.androidbuffet.com/wp-content/uploads/2015/09/cropped-AB-logo-1400x1400.jpg?fit=32%2C32&ssl=1",
+    "https://i1.wp.com/www.androidbuffet.com/wp-content/uploads/2015/09/cropped-AB-logo-1400x1400.jpg?fit=192%2C192&ssl=1"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T06:06:54",
+  "crawl_end": "2017-04-30T06:19:46",
+  "num_pages": 932,
+  "total_html_size": 47450787,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-mention",
+    "h-feed",
+    "h-as-repost",
+    "h-as-like",
+    "h-card",
+    "h-entry",
+    "h-as-reply"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.androidbuffet.com/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 15476,
+  "links_in": 28,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 23
+      },
+      "score": 0.382
+    },
+    "www.gadgetwisdom.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.280
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0843
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

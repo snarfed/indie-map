@@ -1,0 +1,461 @@
+{
+  "domain": "licit.li",
+  "urls": [
+    "http://vanderven.se/martijn/"
+  ],
+  "names": [
+    "Martijn",
+    "Martijn’s feed"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Martijn"
+      ],
+      "url": [
+        "http://vanderven.se/martijn/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ],
+    "value": "http://vanderven.se/martijn/"
+  },
+  "rel_mes": [
+    "http://vanderven.se/martijn/"
+  ],
+  "crawl_start": "2017-06-17T06:14:22",
+  "crawl_end": "2017-06-17T06:17:23",
+  "num_pages": 153,
+  "total_html_size": 413802,
+  "servers": [
+    "Apache (CentOS)"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-feed",
+    "h-cite",
+    "h-event",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://vanderven.se/martijn/mention.php"
+    ]
+  },
+  "links_out": 331,
+  "links_in": 76,
+  "links": {
+    "vanderven.se": {
+      "out": {
+        "other": 81
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 52,
+        "like-of": 2
+      },
+      "in": {
+        "other": 35
+      },
+      "score": 0.980
+    },
+    "seblog.nl": {
+      "in": {
+        "like-of": 2
+      },
+      "out": {
+        "like-of": 4,
+        "other": 8,
+        "in-reply-to": 6
+      },
+      "score": 0.896
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 27
+      },
+      "out": {
+        "other": 12
+      },
+      "score": 0.772
+    },
+    "www.svenknebel.de": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 2
+      },
+      "in": {
+        "in-reply-to": 2,
+        "like-of": 1
+      },
+      "score": 0.703
+    },
+    "github.com": {
+      "out": {
+        "other": 14,
+        "like-of": 2
+      },
+      "score": 0.703
+    },
+    "jeena.net": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.607
+    },
+    "2017.indieweb.org": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.589
+    },
+    "zegnat.net": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.544
+    },
+    "www.imdb.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.487
+    },
+    "colinwalker.blog": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.487
+    },
+    "webmention.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.487
+    },
+    "wiki.zegnat.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.487
+    },
+    "www.messenger.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.487
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.409
+    },
+    "www.myth-weavers.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.409
+    },
+    "www.getgrav.org": {
+      "out": {
+        "bookmark-of": 2
+      },
+      "score": 0.409
+    },
+    "freron.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.409
+    },
+    "microformats.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.409
+    },
+    "blog.fawny.org": {
+      "out": {
+        "bookmark-of": 2
+      },
+      "score": 0.409
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.409
+    },
+    "petermolnar.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.409
+    },
+    "thesweetsetup.com": {
+      "out": {
+        "bookmark-of": 2
+      },
+      "score": 0.409
+    },
+    "www.jeremycherfas.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "blog.instagram.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "micropub.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "reederapp.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "www.43folders.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "app.nos.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "indiewebweek.indieweb.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "quirksmode.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "www.fedex.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "isbndb.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "isabelforester.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "nl.wikipedia.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "www.panmacmillan.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "www.leewillis.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "brackets.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "tantek.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "www.foobar2000.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "gist.github.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "brew.sh": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "smbc-comics.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "www.kiesraad.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "www.telia.se": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "talky.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "www.slimframework.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "www.w3.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "askubuntu.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "waxy.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "chromium.woolyss.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "youmeher.directv.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "roundcube.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "pinboard.in": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "steamcommunity.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "adactio.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "www.netflix.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "www.postnl.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "www.isbnsearch.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "tollwerk.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "www.in-credible.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

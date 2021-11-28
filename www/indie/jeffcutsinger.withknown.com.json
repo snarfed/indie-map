@@ -1,0 +1,102 @@
+{
+  "domain": "jeffcutsinger.withknown.com",
+  "urls": [
+    "https://jeffcutsinger.withknown.com/profile/jeffcutsinger",
+    "http://jeff.cutsinger.org"
+  ],
+  "names": [
+    "Jeff Cutsinger"
+  ],
+  "descriptions": [
+    "Computer janitor. Once rented a hamster. Mr. Hooper is my hero.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://jeffcutsinger.withknown.com/file/f8dbbdcbb7af5845a2301ac865f606e6/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Jeff Cutsinger"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Computer janitor. Once rented a hamster. Mr. Hooper is my hero.</p>\n</div>",
+          "value": "\nComputer janitor. Once rented a hamster. Mr. Hooper is my hero.\n"
+        }
+      ],
+      "photo": [
+        "https://jeffcutsinger.withknown.com/file/f8dbbdcbb7af5845a2301ac865f606e6/thumb.jpg"
+      ],
+      "profile": [
+        "Jeff Cutsinger"
+      ],
+      "url": [
+        "https://jeffcutsinger.withknown.com/profile/jeffcutsinger",
+        "https://jeffcutsinger.withknown.com/profile/jeffcutsinger",
+        "http://jeff.cutsinger.org"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://jeff.cutsinger.org"
+  ],
+  "crawl_start": "2017-04-28T23:36:44",
+  "crawl_end": "2017-04-28T23:40:42",
+  "num_pages": 210,
+  "total_html_size": 5419489,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://jeffcutsinger.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://jeffcutsinger.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://jeffcutsinger.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://jeffcutsinger.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 552,
+  "links_in": 4,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.185
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

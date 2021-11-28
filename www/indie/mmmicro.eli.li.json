@@ -1,0 +1,108 @@
+{
+  "domain": "mmmicro.eli.li",
+  "urls": [
+    "https://mmmicro.eli.li/"
+  ],
+  "names": [
+    "mmmicro – on things briefly and in general",
+    "mmmicro"
+  ],
+  "descriptions": [
+    "on things briefly and in general"
+  ],
+  "pictures": [
+    "https://i0.wp.com/mmmicro.eli.li/wp-content/uploads/2017/05/apple-icon-114x114.png?fit=32%2C32&ssl=1",
+    "https://i0.wp.com/mmmicro.eli.li/wp-content/uploads/2017/05/apple-icon-114x114.png?fit=114%2C114&ssl=1",
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-05-16T14:46:17",
+  "crawl_end": "2017-05-16T14:47:33",
+  "num_pages": 124,
+  "total_html_size": 2587856,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-as-like",
+    "h-adr",
+    "h-cite",
+    "h-as-note",
+    "h-as-reply",
+    "h-entry",
+    "h-as-bookmark"
+  ],
+  "tags": [
+    "bridgy",
+    "IRC",
+    "webmention.io",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://mmmicro.eli.li/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://mmmicro.eli.li/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 1238,
+  "links_in": 0,
+  "links": {
+    "eli.li": {
+      "out": {
+        "other": 554
+      },
+      "score": 1
+    },
+    "micro.blog": {
+      "out": {
+        "other": 132
+      },
+      "score": 0.796
+    },
+    "indieweb.org": {
+      "out": {
+        "like-of": 10,
+        "other": 70,
+        "repost-of": 12
+      },
+      "score": 0.789
+    },
+    "independentpublisher.me": {
+      "out": {
+        "other": 120
+      },
+      "score": 0.782
+    },
+    "aaronparecki.com": {
+      "out": {
+        "like-of": 6
+      },
+      "score": 0.454
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.198
+    }
+  }
+}

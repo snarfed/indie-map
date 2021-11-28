@@ -1,0 +1,80 @@
+{
+  "domain": "www.apollotte13.de",
+  "urls": [
+    "http://www.apollotte13.de"
+  ],
+  "names": [
+    "Marcello Onstroni",
+    "Marcello Onstroni – La cucina di Marcello"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Marcello Onstroni"
+      ],
+      "url": [
+        "http://www.apollotte13.de"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/diehorde",
+    "http://www.apollotte13.de"
+  ],
+  "crawl_start": "2017-06-10T02:13:03",
+  "crawl_end": "2017-06-10T02:13:23",
+  "num_pages": 9,
+  "total_html_size": 85406,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-as-reply",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.apollotte13.de/?webmention=endpoint"
+    ]
+  },
+  "links_out": 26,
+  "links_in": 6,
+  "links": {
+    "www.webrocker.de": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 2
+      },
+      "in": {
+        "in-reply-to": 4,
+        "other": 2
+      },
+      "score": 1
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.969
+    },
+    "wordpress.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.737
+    }
+  }
+}

@@ -1,0 +1,747 @@
+{
+  "domain": "eddiehinkle.com",
+  "urls": [
+    "https://eddiehinkle.com/"
+  ],
+  "names": [
+    "Eddie Hinkle"
+  ],
+  "descriptions": [
+    "Believer, Husband, Software Engineer, Pastor. Read More",
+    "This is a simple website and blog by Eddie. I'm working on making it a lot nicer and a lot prettier soon. \n"
+  ],
+  "pictures": [
+    "https://eddiehinkle.com/images/profile.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Eddie Hinkle"
+      ],
+      "note": [
+        "Believer, Husband, Software Engineer, Pastor. Read More"
+      ],
+      "photo": [
+        "https://eddiehinkle.com/images/profile.jpg"
+      ],
+      "url": [
+        "https://eddiehinkle.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://eddiehinkle.com/",
+    "https://github.com/edwardhinkle",
+    "https://twitter.com/eddiehinkle",
+    "https://instagram.com/eddiehinkle",
+    "https://facebook.com/EdwardTHinkle",
+    "mailto:hello@eddiehinkle.com"
+  ],
+  "crawl_start": "2017-04-30T01:57:41",
+  "crawl_end": "2017-04-30T02:03:33",
+  "num_pages": 614,
+  "total_html_size": 21835324,
+  "servers": [
+    "nginx (Ubuntu)"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/eddiehinkle.com/webmention"
+    ],
+    "micropub": [
+      "https://eddiehinkle.com/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 5022,
+  "links_in": 1148,
+  "links": {
+    "github.com": {
+      "out": {
+        "other": 618
+      },
+      "score": 1
+    },
+    "facebook.com/EdwardTHinkle": {
+      "out": {
+        "other": 614
+      },
+      "score": 0.999
+    },
+    "apple.news": {
+      "out": {
+        "other": 614
+      },
+      "score": 0.999
+    },
+    "instagram.com": {
+      "out": {
+        "other": 614
+      },
+      "score": 0.999
+    },
+    "twitter.com/eddiehinkle": {
+      "out": {
+        "other": 614
+      },
+      "score": 0.999
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 729
+      },
+      "score": 0.926
+    },
+    "abc.go.com": {
+      "out": {
+        "other": 244
+      },
+      "score": 0.869
+    },
+    "www.cwtv.com": {
+      "out": {
+        "other": 204
+      },
+      "score": 0.844
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 119
+      },
+      "in": {
+        "like-of": 7,
+        "other": 82
+      },
+      "score": 0.816
+    },
+    "www.nbc.com": {
+      "out": {
+        "other": 136
+      },
+      "score": 0.788
+    },
+    "martymcgui.re": {
+      "out": {
+        "other": 71,
+        "in-reply-to": 5
+      },
+      "in": {
+        "other": 46
+      },
+      "score": 0.768
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 101
+      },
+      "out": {
+        "other": 50
+      },
+      "score": 0.744
+    },
+    "foursquare.com": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.729
+    },
+    "developer.apple.com": {
+      "out": {
+        "other": 84
+      },
+      "score": 0.719
+    },
+    "barryfrost.com": {
+      "in": {
+        "in-reply-to": 28,
+        "other": 28
+      },
+      "score": 0.719
+    },
+    "www.cbs.com": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.698
+    },
+    "nbc.com": {
+      "out": {
+        "other": 68
+      },
+      "score": 0.690
+    },
+    "www.netflix.com": {
+      "out": {
+        "other": 65
+      },
+      "score": 0.684
+    },
+    "www.fox.com": {
+      "out": {
+        "other": 54
+      },
+      "score": 0.657
+    },
+    "www.agentsofshield.com": {
+      "out": {
+        "other": 54
+      },
+      "score": 0.657
+    },
+    "relay.fm": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.622
+    },
+    "www.usanetwork.com": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.615
+    },
+    "barryf.uk": {
+      "in": {
+        "other": 13,
+        "in-reply-to": 13
+      },
+      "score": 0.612
+    },
+    "newchurches.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.584
+    },
+    "jonathanprozzi.net": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.574
+    },
+    "ownyourswarm.p3k.io": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.574
+    },
+    "cleverdevil.io": {
+      "out": {
+        "other": 13
+      },
+      "in": {
+        "other": 31
+      },
+      "score": 0.567
+    },
+    "cwtv.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.566
+    },
+    "teacup.p3k.io": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.549
+    },
+    "www.theincomparable.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.544
+    },
+    "fox.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.544
+    },
+    "www.desiringgod.org": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.544
+    },
+    "twit.tv": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.518
+    },
+    "youtu.be": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.496
+    },
+    "miklb.com": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 16
+      },
+      "score": 0.492
+    },
+    "freeform.go.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.487
+    },
+    "www.gospel-life.net": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.487
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "like-of": 13,
+        "other": 4
+      },
+      "score": 0.478
+    },
+    "azlobo.xyz": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.478
+    },
+    "news.indieweb.org": {
+      "in": {
+        "other": 24
+      },
+      "score": 0.447
+    },
+    "www.amazon.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.434
+    },
+    "markmhendrickson.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.421
+    },
+    "appstories.net": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.421
+    },
+    "brid.gy": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.406
+    },
+    "soundcloud.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.389
+    },
+    "tracking.feedpress.it": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.389
+    },
+    "www.mtv.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.389
+    },
+    "webmention.io": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.389
+    },
+    "atp.fm": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.389
+    },
+    "www.relay.fm": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.389
+    },
+    "jamesriver.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.371
+    },
+    "www.quiltednorthern.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.371
+    },
+    "yaml.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.348
+    },
+    "imdb.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.348
+    },
+    "themoviedb.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.348
+    },
+    "www.captainamericathewintersoldiermovie.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.323
+    },
+    "snarfed.org": {
+      "in": {
+        "in-reply-to": 2
+      },
+      "score": 0.323
+    },
+    "techlifeweb.com": {
+      "in": {
+        "like-of": 5
+      },
+      "score": 0.323
+    },
+    "itunes.apple.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.323
+    },
+    "www.imb.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.323
+    },
+    "imb.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.323
+    },
+    "captainamerica.marvel.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.323
+    },
+    "www.ghostbusters.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.292
+    },
+    "burntmovie.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.292
+    },
+    "snowdenfilm.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.292
+    },
+    "www.hacksawridge.movie": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.292
+    },
+    "www.silencemovie.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.292
+    },
+    "www.10cloverfieldlane.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.292
+    },
+    "twitter.com/elidchoi": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.292
+    },
+    "movies.disney.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.292
+    },
+    "www.momsnightoutmovie.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.292
+    },
+    "www.sully-movie.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.292
+    },
+    "www.apple.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.251
+    },
+    "homechurchfrederick.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.251
+    },
+    "ashleyhinkle.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.251
+    },
+    "www.goodreads.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.251
+    },
+    "boffosocko.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.226
+    },
+    "www.bible.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "studioh.software": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "angularjs.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "www.typescriptlang.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "twitter.com/EddieHinkle": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "slack.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "trakt.tv": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "www.google.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "twitter.com/NowNowNow": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "meetmaestro.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "csbible.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "goodreads.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "nownownow.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "www.ulyssesapp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "rodriguezcommaj.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "www.2doapp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "www.musepaintbar.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "www.dreamhost.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "evernote.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "getquip.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "nodejs.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "magnet.crowdcafe.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "twitter.com/mattgemmell": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "www.timtebowfoundation.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "twitter.com/travishinkle": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "gregorlove.com": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.0973
+    },
+    "sivers.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "swift.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "code.visualstudio.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0973
+    },
+    "www.jeremycherfas.net": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

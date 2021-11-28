@@ -1,0 +1,88 @@
+{
+  "domain": "xavierroy.com",
+  "urls": [
+    "http://xavierroy.com/"
+  ],
+  "names": [
+    "Odyssey"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/xavierroy",
+    "https://twitter.com/xavierroy",
+    "https://www.facebook.com/10153325336333867",
+    "https://www.instagram.com/xavierroy",
+    "https://www.facebook.com/xavierroy"
+  ],
+  "crawl_start": "2017-05-06T09:18:06",
+  "crawl_end": "2017-05-06T09:19:36",
+  "num_pages": 72,
+  "total_html_size": 5156325,
+  "servers": [
+    "Apache",
+    "WordPress-alpha-"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-geo",
+    "h-as-bookmark",
+    "h-entry",
+    "h-as-article",
+    "h-as-like",
+    "h-card",
+    "h-as-reply",
+    "h-as-note"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://xavierroy.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://xavierroy.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 980,
+  "links_in": 80,
+  "links": {
+    "indieweb.org": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.602
+    },
+    "brid.gy": {
+      "in": {
+        "other": 43
+      },
+      "score": 0.591
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 34
+      },
+      "score": 0.555
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.173
+    }
+  }
+}

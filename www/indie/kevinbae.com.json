@@ -1,0 +1,89 @@
+{
+  "domain": "kevinbae.com",
+  "urls": [
+    "http://kevinbae.com/"
+  ],
+  "names": [
+    "Kevin Bae – Non-Social in an Increasingly Socially Networked World",
+    "Kevin Bae"
+  ],
+  "descriptions": [
+    "Non-Social in an Increasingly Socially Networked World"
+  ],
+  "pictures": [
+    "https://i2.wp.com/kevinbae.com/wordpress/wp-content/uploads/2016/01/cropped-KJB-Site-Icon-Huge.png?fit=32%2C32",
+    "https://i2.wp.com/kevinbae.com/wordpress/wp-content/uploads/2016/01/cropped-KJB-Site-Icon-Huge.png?fit=192%2C192",
+    "https://i2.wp.com/kevinbae.com/wordpress/wp-content/uploads/2016/01/cropped-KJB-Site-Icon-Huge.png?fit=200%2C200"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/kevinbae",
+    "https://plus.google.com/+KevinBae",
+    "https://facebook.com/kevin.bae/about",
+    "http://quitter.no/bae/",
+    "http://kevinbae.com/feed/"
+  ],
+  "crawl_start": "2017-04-29T04:31:36",
+  "crawl_end": "2017-04-29T05:20:04",
+  "num_pages": 1573,
+  "total_html_size": 45772007,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-like",
+    "h-as-repost",
+    "h-as-reply",
+    "h-as-mention",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://kevinbae.com/wp-json/webmention/1.0/endpoint",
+      "http://kevinbae.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://kevinbae.com/wordpress/?micropub=endpoint",
+      "https://kevinbae.com/wordpress/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 13665,
+  "links_in": 4,
+  "links": {
+    "scripting.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.391
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.305
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.171
+    }
+  }
+}

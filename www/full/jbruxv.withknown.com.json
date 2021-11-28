@@ -1,0 +1,89 @@
+{
+  "domain": "jbruxv.withknown.com",
+  "urls": [
+    "http://jbruxv.withknown.com/"
+  ],
+  "names": [
+    "Learning and Teaching"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://jbruxv.withknown.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T23:35:48",
+  "crawl_end": "2017-04-28T23:35:56",
+  "num_pages": 18,
+  "total_html_size": 381980,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://jbruxv.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 38,
+  "links_in": 4,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 1
+    },
+    "synapse.pub": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.642
+    },
+    "practicaltheory.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.642
+    },
+    "www.edutopia.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.642
+    },
+    "www.psmag.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.642
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.194
+    }
+  }
+}

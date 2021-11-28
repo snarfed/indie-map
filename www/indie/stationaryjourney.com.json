@@ -1,0 +1,197 @@
+{
+  "domain": "stationaryjourney.com",
+  "urls": [
+    "https://stationaryjourney.com/"
+  ],
+  "names": [
+    "Terry Finney",
+    "Stationary Journey - One step forward, one step back",
+    "Stationary Journey"
+  ],
+  "descriptions": [
+    "My interests include computers, gadgets, photography, pens, inks and other stationery.",
+    "One step forward, one step back",
+    "Welcome to Stationary Journey - see blog posts"
+  ],
+  "pictures": [
+    "http://stationaryjourney.com/images/terryfinney-grey-48.jpg",
+    "https://stationaryjourney.com/wp-content/uploads/2015/01/greyscale-512-54a826c8v1_site_icon-32x32.png",
+    "https://stationaryjourney.com/wp-content/uploads/2015/01/greyscale-512-54a826c8v1_site_icon-256x256.png",
+    "http://stationaryjourney.com/wp-content/uploads/2014/11/2014-11-30_10-59-21.jpg",
+    "https://g.twimg.com/Twitter_logo_blue.png"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:me@terryfinney.com"
+      ],
+      "name": [
+        "Terry Finney"
+      ],
+      "note": [
+        "My interests include computers, gadgets, photography, pens, inks and other stationery."
+      ],
+      "photo": [
+        "http://stationaryjourney.com/images/terryfinney-grey-48.jpg"
+      ],
+      "url": [
+        "https://stationaryjourney.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://stationaryjourney.com/",
+    "https://www.facebook.com/terry.finney.39",
+    "https://plus.google.com/101441873801687388559",
+    "http://www.linkedin.com/in/terryfinney",
+    "https://twitter.com/terryfinney",
+    "https://www.flickr.com/people/terryfinney/",
+    "http://www.instagram.com/terryfinney/",
+    "http://www.pinterest.com/terryfinney/",
+    "http://tumblr.terryfinney.com",
+    "https://plus.google.com/+terryfinney"
+  ],
+  "crawl_start": "2017-05-06T01:58:10",
+  "crawl_end": "2017-05-06T02:23:15",
+  "num_pages": 761,
+  "total_html_size": 51698727,
+  "servers": [
+    "Apache (Ubuntu)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-image",
+    "h-as-note",
+    "h-cite",
+    "h-as-reply",
+    "h-entry",
+    "h-card",
+    "h-as-mention",
+    "h-as-article",
+    "h-feed"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://stationaryjourney.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://stationaryjourney.com/?micropub=endpoint",
+      "http://stationaryjourney.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 21586,
+  "links_in": 42,
+  "links": {
+    "david.shanske.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.358
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.358
+    },
+    "brid.gy": {
+      "in": {
+        "other": 19
+      },
+      "score": 0.316
+    },
+    "petermolnar.net": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.284
+    },
+    "tantek.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.284
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 5
+      },
+      "score": 0.266
+    },
+    "veganstraightedge.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.266
+    },
+    "www.kevin-marks.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.266
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.247
+    },
+    "adactio.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.247
+    },
+    "mademistakes.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.247
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.192
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.173
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0744
+    },
+    "lifestreamblog.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0744
+    }
+  }
+}

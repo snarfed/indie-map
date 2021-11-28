@@ -1,0 +1,140 @@
+{
+  "domain": "jihais.se",
+  "urls": [
+    "https://jihais.se/"
+  ],
+  "names": [
+    "JS, ma vie. – Je sais on s'en fout, mais bon…",
+    "JS, ma vie."
+  ],
+  "descriptions": [
+    "Je sais on s'en fout, mais bon...",
+    "Welcome to JS, ma vie. - see blog posts"
+  ],
+  "pictures": [
+    "http://jihais.se/wp-content/uploads/2013/07/Jihaisse-2-200x200.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/jihaisse",
+    "https://twitter.com/jihaisse"
+  ],
+  "crawl_start": "2017-04-24T07:05:58",
+  "crawl_end": "2017-04-24T10:14:43",
+  "num_pages": 1485,
+  "total_html_size": 45209545,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-note",
+    "h-as-bookmark",
+    "h-as-video",
+    "h-card",
+    "h-as-article",
+    "h-as-image",
+    "h-entry",
+    "h-feed"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "elder",
+    "IRC",
+    "webmention",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://jihais.se/wp-json/webmention/1.0/endpoint"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 8448,
+  "links_in": 2705,
+  "links": {
+    "notiz.blog": {
+      "out": {
+        "other": 1484
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 1739
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.932
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 943
+      },
+      "score": 0.856
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 41
+      },
+      "score": 0.551
+    },
+    "t37.net": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.494
+    },
+    "waterpigs.co.uk": {
+      "out": {
+        "other": 6
+      },
+      "in": {
+        "in-reply-to": 2,
+        "other": 4
+      },
+      "score": 0.408
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "repost-of": 6
+      },
+      "score": 0.361
+    },
+    "standblog.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.346
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.31
+    },
+    "brid.gy": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.3
+    },
+    "notizblog.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.288
+    },
+    "webmention.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0866
+    }
+  }
+}

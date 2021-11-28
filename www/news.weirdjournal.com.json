@@ -1,0 +1,418 @@
+{
+  "domain": "news.weirdjournal.com",
+  "urls": [
+    "http://news.weirdjournal.com/",
+    "http://news.weirdjournal.com"
+  ],
+  "names": [
+    "Weird Journal | News",
+    "Weird Journal - News",
+    "News"
+  ],
+  "descriptions": [
+    "STAY UP TO DATE Get headlines & Breaking News Delivered by email Click The Button Below"
+  ],
+  "pictures": [
+    "http://news.weirdjournal.com/wp-content/uploads/sites/26/2017/04/WJournal-Logo-1.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T21:32:16",
+  "crawl_end": "2017-04-29T21:42:23",
+  "num_pages": 192,
+  "total_html_size": 18753230,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-as-like",
+    "h-as-mention",
+    "h-as-reply"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://news.weirdjournal.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://news.weirdjournal.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 2759,
+  "links_in": 16,
+  "links": {
+    "javascript": {
+      "out": {
+        "other": 903
+      },
+      "score": 1
+    },
+    "weirdjournal.com": {
+      "in": {
+        "other": 10
+      },
+      "out": {
+        "other": 397
+      },
+      "score": 0.892
+    },
+    "facebook.com/weirdjournal": {
+      "out": {
+        "other": 263
+      },
+      "score": 0.836
+    },
+    "legal.weirdjournal.com": {
+      "out": {
+        "other": 191
+      },
+      "score": 0.793
+    },
+    "app.weirdjournal.com": {
+      "out": {
+        "other": 191
+      },
+      "score": 0.793
+    },
+    "plus.google.com/u": {
+      "out": {
+        "other": 191
+      },
+      "score": 0.793
+    },
+    "twitter.com/weirdjournal": {
+      "out": {
+        "other": 191
+      },
+      "score": 0.793
+    },
+    "instagram.com": {
+      "out": {
+        "other": 191
+      },
+      "score": 0.793
+    },
+    "send": {
+      "out": {
+        "other": 74
+      },
+      "score": 0.667
+    },
+    "i1.wp.com": {
+      "out": {
+        "other": 29
+      },
+      "score": 0.541
+    },
+    "i2.wp.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.504
+    },
+    "facebook.com/753940291405386": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.477
+    },
+    "i0.wp.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.463
+    },
+    "www.jamaicaobserver.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.352
+    },
+    "www.nbcnews.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.331
+    },
+    "www.cnn.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.307
+    },
+    "www.washingtonpost.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.307
+    },
+    "strengthinsisterhood.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.307
+    },
+    "jamaica-gleaner.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.277
+    },
+    "brid.gy": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.239
+    },
+    "twitter.com/realDonaldTrump": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.239
+    },
+    "www.independent.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.185
+    },
+    "jamaica-star.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.185
+    },
+    "m.jamaicaobserver.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.185
+    },
+    "wikileaks.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.185
+    },
+    "www.reuters.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.185
+    },
+    "www.whitehouse.gov": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.185
+    },
+    "people.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.185
+    },
+    "www.usatoday.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.185
+    },
+    "platform.twitter.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.185
+    },
+    "www.foxnews.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "twitter.com/FoxNews": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "www.theguardian.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "addictinginfo.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "edition.cnn.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "twitter.com/washingtonpost": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "twitter.com/NDKOTA": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "twitter.com/intent": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "twitter.com/RonHaag69": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "www.breitbart.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "www.revealnews.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "www.nytimes.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "www.nationalreview.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "snagfilms-a.akamaihd.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "www.loopjamaica.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "www.dailymail.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "www.marinecorpstimes.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "www.aol.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "www.thewarhorse.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "www.scribd.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "www.truthexaminer.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "triblive.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "libertywritersnews.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "heatst.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "www.bbc.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "twitter.com/loudmouthworld": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "www.cjc-ccm.gc.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    },
+    "hypelifemagazine.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    }
+  }
+}

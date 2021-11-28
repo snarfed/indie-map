@@ -1,0 +1,134 @@
+{
+  "domain": "known.mattbeckett.me",
+  "urls": [
+    "http://known.mattbeckett.me/profile/mbeckett",
+    "http://mattbeckett.me",
+    "https://github.com/beck24/",
+    "https://linkedin.com/pub/matt-beckett/57/b84/a31",
+    "https://twitter.com/Scuba_Beck"
+  ],
+  "names": [
+    "Matt Beckett",
+    "Many Fine Books"
+  ],
+  "descriptions": [
+    "I'm a self-employed web developer, family man, nerd, scuba diver, and author of many fine books. Manager/maintainer of the Elgg community site, and core Elgg development team member.",
+    "Random thoughts and reactions when I think of it.  No real theme or reason required, and definitely no schedule."
+  ],
+  "pictures": [
+    "http://known.mattbeckett.me/file/670e6c22a8a8cc80564caf7b55716275/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Matt Beckett"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I'm a self-employed web developer, family man, nerd, scuba diver, and author of many fine books. Manager/maintainer of the Elgg community site, and core Elgg development team member.</p>\n</div> ",
+          "value": "\nI'm a self-employed web developer, family man, nerd, scuba diver, and author of many fine books. Manager/maintainer of the Elgg community site, and core Elgg development team member.\n "
+        }
+      ],
+      "photo": [
+        "http://known.mattbeckett.me/file/670e6c22a8a8cc80564caf7b55716275/thumb.jpg"
+      ],
+      "profile": [
+        "Matt Beckett"
+      ],
+      "url": [
+        "http://known.mattbeckett.me/profile/mbeckett",
+        "http://known.mattbeckett.me/profile/mbeckett",
+        "http://mattbeckett.me",
+        "https://github.com/beck24/",
+        "https://linkedin.com/pub/matt-beckett/57/b84/a31",
+        "https://twitter.com/Scuba_Beck"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://mattbeckett.me",
+    "https://github.com/beck24/",
+    "https://linkedin.com/pub/matt-beckett/57/b84/a31",
+    "https://twitter.com/Scuba_Beck"
+  ],
+  "crawl_start": "2017-04-29T04:36:03",
+  "crawl_end": "2017-04-29T04:56:54",
+  "num_pages": 1469,
+  "total_html_size": 44787509,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-geo",
+    "h-cite",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.mattbeckett.me/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 12411,
+  "links_in": 61,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 1469
+      },
+      "score": 0.935
+    },
+    "blog.davidjohnmead.com": {
+      "in": {
+        "in-reply-to": 9,
+        "other": 15
+      },
+      "out": {
+        "other": 8,
+        "in-reply-to": 7
+      },
+      "score": 0.582
+    },
+    "werd.io": {
+      "in": {
+        "other": 17
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.356
+    },
+    "brid.gy": {
+      "in": {
+        "other": 20
+      },
+      "score": 0.351
+    },
+    "purkiss.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.163
+    },
+    "srokap.pl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.163
+    }
+  }
+}

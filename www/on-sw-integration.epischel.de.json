@@ -1,0 +1,193 @@
+{
+  "domain": "on-sw-integration.epischel.de",
+  "urls": [
+    "http://on-sw-integration.epischel.de/"
+  ],
+  "names": [
+    "Erik on software integration"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://plus.google.com/113714861275224397807",
+    "https://twitter.com/erikpischel",
+    "https://last.fm/user/epischel"
+  ],
+  "crawl_start": "2017-04-29T21:34:43",
+  "crawl_end": "2017-04-29T21:35:23",
+  "num_pages": 49,
+  "total_html_size": 2085147,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-as-article",
+    "h-entry",
+    "h-card",
+    "h-as-bookmark"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://on-sw-integration.epischel.de/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://on-sw-integration.epischel.de/?micropub=endpoint",
+      "https://on-sw-integration.epischel.de/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 309,
+  "links_in": 36,
+  "links": {
+    "wordpress.org": {
+      "out": {
+        "other": 96
+      },
+      "score": 1
+    },
+    "plus.google.com/+ErikPischel": {
+      "out": {
+        "other": 78
+      },
+      "score": 0.960
+    },
+    "independentpublisher.me": {
+      "out": {
+        "other": 47
+      },
+      "score": 0.863
+    },
+    "brid.gy": {
+      "in": {
+        "other": 31
+      },
+      "score": 0.652
+    },
+    "github.com": {
+      "out": {
+        "like-of": 7
+      },
+      "score": 0.633
+    },
+    "www.daedtech.com": {
+      "out": {
+        "like-of": 7
+      },
+      "score": 0.633
+    },
+    "www.epischel.de": {
+      "out": {
+        "other": 11
+      },
+      "in": {
+        "other": 5
+      },
+      "score": 0.627
+    },
+    "www.zenprogrammer.org": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.570
+    },
+    "dzone.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.549
+    },
+    "sparkjava.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.527
+    },
+    "ralfw.de": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.502
+    },
+    "alistair.cockburn.us": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.471
+    },
+    "jj09.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.471
+    },
+    "www.mountaingoatsoftware.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.471
+    },
+    "www.infoq.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.471
+    },
+    "devcareerboost.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.395
+    },
+    "twitter.com/erikpischel": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.264
+    },
+    "twitter.com/RonJeffries": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.132
+    },
+    "twitter.com/davidakoontz": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.132
+    },
+    "t.co": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.132
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.132
+    }
+  }
+}

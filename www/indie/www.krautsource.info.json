@@ -1,0 +1,83 @@
+{
+  "domain": "www.krautsource.info",
+  "urls": [
+    "http://www.krautsource.info/"
+  ],
+  "names": [
+    "Krautsource - Gedanken zu digitalen Produkten"
+  ],
+  "descriptions": [
+    "Gedanken zu digitalen Produkten"
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-09T18:16:04",
+  "crawl_end": "2017-06-10T08:47:37",
+  "num_pages": 1736,
+  "total_html_size": 36059935,
+  "servers": [
+    "UD Webspace 3.0",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-note",
+    "h-cite",
+    "h-as-article"
+  ],
+  "tags": [
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.krautsource.info/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://www.krautsource.info/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 2,
+  "links_in": 40,
+  "links": {
+    "wirres.net": {
+      "in": {
+        "other": 24
+      },
+      "score": 1
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.654
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.437
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.346
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

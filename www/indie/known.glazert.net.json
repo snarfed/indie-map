@@ -1,0 +1,119 @@
+{
+  "domain": "known.glazert.net",
+  "urls": [
+    "http://known.glazert.net/profile/douglas",
+    "http://twitter.com/doogiec",
+    "http://blog.glazert.net"
+  ],
+  "names": [
+    "Douglas Chappelle",
+    "Notes from the margins"
+  ],
+  "descriptions": [
+    "Professional contrarian. Idealist. Pro-nuclear green left-wing liberal republican.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://known.glazert.net/file/4b3252bb6f940c3b50c63ecf57912103/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Douglas Chappelle"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Professional contrarian. Idealist. Pro-nuclear green left-wing liberal republican.</p>\n</div>",
+          "value": "\nProfessional contrarian. Idealist. Pro-nuclear green left-wing liberal republican.\n"
+        }
+      ],
+      "photo": [
+        "http://known.glazert.net/file/4b3252bb6f940c3b50c63ecf57912103/thumb.jpg"
+      ],
+      "profile": [
+        "Douglas Chappelle"
+      ],
+      "url": [
+        "http://known.glazert.net/profile/douglas",
+        "http://known.glazert.net/profile/douglas",
+        "http://twitter.com/doogiec",
+        "http://blog.glazert.net"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/doogiec",
+    "http://blog.glazert.net"
+  ],
+  "crawl_start": "2017-04-29T04:33:21",
+  "crawl_end": "2017-04-29T04:39:19",
+  "num_pages": 511,
+  "total_html_size": 9077914,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.glazert.net/webmention/"
+    ],
+    "micropub": [
+      "http://known.glazert.net/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://known.glazert.net/indieauth/auth"
+    ],
+    "token": [
+      "http://known.glazert.net/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1562,
+  "links_in": 4,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 511
+      },
+      "score": 1
+    },
+    "blog.glazert.net": {
+      "out": {
+        "other": 295
+      },
+      "score": 0.921
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.1
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.1
+    }
+  }
+}

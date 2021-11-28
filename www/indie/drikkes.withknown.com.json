@@ -1,0 +1,146 @@
+{
+  "domain": "drikkes.withknown.com",
+  "urls": [
+    "https://drikkes.withknown.com/profile/drikkes",
+    "http://drikkes.com"
+  ],
+  "names": [
+    "drikkes",
+    "G.O.L.D. 3000"
+  ],
+  "descriptions": [
+    "Verkaufen, verkaufen, verkaufen!",
+    "Remember when we were premium?"
+  ],
+  "pictures": [
+    "https://drikkes.withknown.com/file/923272f63cd7919a964ba0f57c3d6258/thumb.jpg",
+    "https://drikkes.withknown.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "drikkes"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Verkaufen, verkaufen, verkaufen!</p>\n</div>",
+          "value": "\nVerkaufen, verkaufen, verkaufen!\n"
+        }
+      ],
+      "photo": [
+        "https://drikkes.withknown.com/file/923272f63cd7919a964ba0f57c3d6258/thumb.jpg"
+      ],
+      "profile": [
+        "drikkes"
+      ],
+      "url": [
+        "https://drikkes.withknown.com/profile/drikkes",
+        "https://drikkes.withknown.com/profile/drikkes",
+        "http://drikkes.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://drikkes.com"
+  ],
+  "crawl_start": "2017-04-28T05:24:53",
+  "crawl_end": "2017-04-28T05:28:52",
+  "num_pages": 230,
+  "total_html_size": 5425955,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://drikkes.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://drikkes.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://drikkes.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://drikkes.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 928,
+  "links_in": 62,
+  "links": {
+    "drikkes.com": {
+      "out": {
+        "in-reply-to": 34,
+        "other": 91
+      },
+      "in": {
+        "other": 16
+      },
+      "score": 1
+    },
+    "withknown.com": {
+      "out": {
+        "other": 230
+      },
+      "score": 0.975
+    },
+    "wirres.net": {
+      "out": {
+        "in-reply-to": 12
+      },
+      "in": {
+        "other": 16
+      },
+      "score": 0.781
+    },
+    "known.schwenzel.de": {
+      "out": {
+        "other": 18
+      },
+      "in": {
+        "other": 2,
+        "in-reply-to": 19
+      },
+      "score": 0.777
+    },
+    "www.sandeep.io": {
+      "out": {
+        "in-reply-to": 5
+      },
+      "score": 0.622
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.310
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.110
+    }
+  }
+}

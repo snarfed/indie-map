@@ -1,0 +1,44 @@
+{
+  "domain": "app.willsomeone.com",
+  "urls": [
+    "http://ask.willsomeone.com"
+  ],
+  "names": [
+    "Will someone?"
+  ],
+  "descriptions": [
+    "Turn a task into an ask"
+  ],
+  "pictures": [
+    "http://ask.willsomeone.com/static/images/ws_app_icon-whitebg.png",
+    "http://ask.willsomeone.com/static/images/logo.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "tags": [],
+  "endpoints": {},
+  "crawl_start": "2017-06-11T14:32:13.611330",
+  "crawl_end": "2017-06-11T14:32:13.611330",
+  "links_out": 0,
+  "links_in": 32,
+  "links": {
+    "known.kevinmarks.com": {
+      "in": {
+        "in-reply-to": 5
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.898
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.683
+    }
+  }
+}

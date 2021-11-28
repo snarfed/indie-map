@@ -1,0 +1,94 @@
+{
+  "domain": "mm0hai.net",
+  "urls": [
+    "https://mm0hai.net"
+  ],
+  "names": [
+    "River MacLeod",
+    "\nRiver MacLeod\n"
+  ],
+  "descriptions": [
+    "The homepage of River MacLeod and his amateur radio station, MM0HAI"
+  ],
+  "pictures": [
+    "https://secure.gravatar.com/avatar/e19b19f5bd75b951c0fb3521b025b7b7.png?s=150"
+  ],
+  "hcard": {
+    "properties": {
+      "key": [
+        "https://mm0hai.net/river_macleod_pgp_key.asc"
+      ],
+      "name": [
+        "River MacLeod"
+      ],
+      "photo": [
+        "https://secure.gravatar.com/avatar/e19b19f5bd75b951c0fb3521b025b7b7.png?s=150"
+      ],
+      "url": [
+        "https://mm0hai.net"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://mm0hai.net",
+    "https://www.flickr.com/photos/mm0hai",
+    "https://twitter.com/macleodan",
+    "https://github.com/anm",
+    "https://stackoverflow.com/users/214343/anm"
+  ],
+  "crawl_start": "2017-04-30T01:57:48",
+  "crawl_end": "2017-04-30T02:00:24",
+  "num_pages": 179,
+  "total_html_size": 1406924,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/mm0hai.net/webmention"
+    ]
+  },
+  "links_out": 706,
+  "links_in": 33,
+  "links": {
+    "indieweb.org": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 18
+      },
+      "score": 0.502
+    },
+    "werd.io": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.385
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.232
+    },
+    "indiewebcat.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

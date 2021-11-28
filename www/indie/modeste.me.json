@@ -1,0 +1,88 @@
+{
+  "domain": "modeste.me",
+  "urls": [
+    "http://modeste.me/"
+  ],
+  "names": [
+    "Melancholie Modeste"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T21:31:41",
+  "crawl_end": "2017-04-30T01:19:49",
+  "num_pages": 1818,
+  "total_html_size": 105313691,
+  "servers": [
+    "Apache (Unix)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-as-article",
+    "h-feed",
+    "h-cite",
+    "h-as-reply",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://modeste.me/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 60673,
+  "links_in": 7438,
+  "links": {
+    "www.buddenbohm-und-soehne.de": {
+      "in": {
+        "other": 7416
+      },
+      "score": 1
+    },
+    "dasnuf.de": {
+      "in": {
+        "other": 9
+      },
+      "out": {
+        "other": 1698
+      },
+      "score": 0.912
+    },
+    "isabelbogdan.de": {
+      "out": {
+        "other": 1690
+      },
+      "score": 0.912
+    },
+    "wirres.net": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.389
+    },
+    "brid.gy": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.269
+    },
+    "katiakelm.de": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "klagefall.de": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

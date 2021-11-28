@@ -1,0 +1,56 @@
+{
+  "domain": "libralop.lacerta.uberspace.de",
+  "urls": [
+    "http://libralop.lacerta.uberspace.de/"
+  ],
+  "names": [
+    "Libralop Hulot | Home",
+    "Home"
+  ],
+  "descriptions": [
+    "Als sähe niemand zu.",
+    "Hi, ich bin Libralop.\nIch vermesse meine Umgebung mit Bildern aus Sprache und Licht. Kein großes Ding."
+  ],
+  "pictures": [
+    "http://libralop.lacerta.uberspace.de/assets/images/favicons/android-icon-192x192.png",
+    "http://libralop.lacerta.uberspace.de/assets/images/favicons/favicon-32x32.png",
+    "http://libralop.lacerta.uberspace.de/assets/images/favicons/favicon-96x96.png",
+    "http://libralop.lacerta.uberspace.de/assets/images/favicons/favicon-16x16.png",
+    "https://libralop.de/assets/avatars/libralop.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/LibralopHulot"
+  ],
+  "crawl_start": "2017-04-29T14:38:37",
+  "crawl_end": "2017-04-29T14:39:42",
+  "num_pages": 34,
+  "total_html_size": 143108,
+  "servers": [
+    "Apache (CentOS)"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "authorization"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://libralop.lacerta.uberspace.de/webmention"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ]
+  },
+  "links_out": 50,
+  "links_in": 1,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

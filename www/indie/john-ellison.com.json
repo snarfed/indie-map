@@ -1,0 +1,124 @@
+{
+  "domain": "john-ellison.com",
+  "urls": [
+    "http://john-ellison.com",
+    "index"
+  ],
+  "names": [
+    "John Ellison",
+    " John Ellison: a digital product designer passionate about crafting social change.",
+    "John Ellison | Storyteller & UX Designer"
+  ],
+  "descriptions": [
+    "I'm a digital product designer passionate about crafting social change.",
+    "UX Designer John Ellison shares his story of finding himself and the purpose and his work."
+  ],
+  "pictures": [
+    "http://john-ellison.com/images/john-ellison-wedding-headshot-right-150x150.png",
+    "http://john-ellison.com/favicon.png",
+    "assets/img/john-ellison-wedding-headshot-1201x630.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:john@john-ellison.com?Saw%20Your%20Website"
+      ],
+      "name": [
+        "John Ellison"
+      ],
+      "note": [
+        "I'm a digital product designer passionate about crafting social change."
+      ],
+      "photo": [
+        "http://john-ellison.com/images/john-ellison-wedding-headshot-right-150x150.png"
+      ],
+      "url": [
+        "http://john-ellison.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://john-ellison.com",
+    "https://github.com/johnellison",
+    "https://twitter.com/iamjohnellison"
+  ],
+  "crawl_start": "2017-06-09T18:09:00",
+  "crawl_end": "2017-06-09T18:09:04",
+  "num_pages": 7,
+  "total_html_size": 151217,
+  "servers": [
+    "nginx (Ubuntu)"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 179,
+  "links_in": 464,
+  "links": {
+    "90days.john-ellison.com": {
+      "in": {
+        "in-reply-to": 2,
+        "other": 338
+      },
+      "out": {
+        "other": 11
+      },
+      "score": 1
+    },
+    "adactio.com": {
+      "in": {
+        "other": 71
+      },
+      "score": 0.721
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 26
+      },
+      "score": 0.552
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.352
+    },
+    "tommorris.org": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.272
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.186
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.186
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.186
+    },
+    "www.lottejackson.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

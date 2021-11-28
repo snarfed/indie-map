@@ -1,0 +1,6936 @@
+{
+  "domain": "indieweb.org",
+  "urls": [
+    "http://indieweb.org/"
+  ],
+  "names": [
+    "IndieWeb"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://indieweb.org/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-05-06T22:29:40",
+  "crawl_end": "2017-05-07T02:25:25",
+  "num_pages": 16547,
+  "total_html_size": 1279553988,
+  "servers": [
+    "nginx",
+    "MediaWiki"
+  ],
+  "mf2_classes": [
+    "h-x-app",
+    "h-card",
+    "h-expense",
+    "h-cite",
+    "h-feed",
+    "h-entry",
+    "h-event"
+  ],
+  "tags": [
+    "bridgy",
+    "community",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/indiewebcamp/webmention"
+    ]
+  },
+  "links_out": 1832143,
+  "links_in": 413254,
+  "links": {
+    "aaronparecki.com": {
+      "in": {
+        "other": 228509,
+        "in-reply-to": 10,
+        "bookmark-of": 22
+      },
+      "out": {
+        "other": 137897
+      },
+      "score": 1
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 235392
+      },
+      "score": 1
+    },
+    "loqi.me": {
+      "out": {
+        "other": 73356
+      },
+      "score": 0.908
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 112918
+      },
+      "out": {
+        "other": 3627
+      },
+      "score": 0.893
+    },
+    "david.shanske.com": {
+      "out": {
+        "other": 52410
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.885
+    },
+    "snarfed.org": {
+      "in": {
+        "other": 6750
+      },
+      "out": {
+        "other": 46800
+      },
+      "score": 0.878
+    },
+    "kartikprabhu.com": {
+      "out": {
+        "other": 42314
+      },
+      "in": {
+        "other": 10
+      },
+      "score": 0.863
+    },
+    "waterpigs.co.uk": {
+      "out": {
+        "other": 38511
+      },
+      "in": {
+        "other": 10
+      },
+      "score": 0.863
+    },
+    "kevinmarks.com": {
+      "out": {
+        "other": 38616
+      },
+      "score": 0.863
+    },
+    "kylewm.com": {
+      "in": {
+        "other": 10
+      },
+      "out": {
+        "other": 38222
+      },
+      "score": 0.855
+    },
+    "ben.thatmustbe.me": {
+      "out": {
+        "other": 29940
+      },
+      "score": 0.840
+    },
+    "tantek.com": {
+      "in": {
+        "in-reply-to": 21,
+        "other": 103
+      },
+      "out": {
+        "other": 24543
+      },
+      "score": 0.824
+    },
+    "acegiak.net": {
+      "in": {
+        "other": 12195
+      },
+      "out": {
+        "other": 9180
+      },
+      "score": 0.786
+    },
+    "gregorlove.com": {
+      "in": {
+        "other": 107
+      },
+      "out": {
+        "other": 14492
+      },
+      "score": 0.786
+    },
+    "tollwerk.de": {
+      "out": {
+        "other": 13038
+      },
+      "score": 0.779
+    },
+    "beyondtellerrand.com": {
+      "out": {
+        "other": 13063
+      },
+      "in": {
+        "other": 9
+      },
+      "score": 0.779
+    },
+    "nlnet.nl": {
+      "out": {
+        "other": 12999
+      },
+      "score": 0.779
+    },
+    "superfeedr.com": {
+      "out": {
+        "other": 12983
+      },
+      "score": 0.779
+    },
+    "cweiske.de": {
+      "out": {
+        "other": 12275
+      },
+      "in": {
+        "other": 16
+      },
+      "score": 0.771
+    },
+    "veganstraightedge.com": {
+      "out": {
+        "other": 10033
+      },
+      "in": {
+        "other": 21
+      },
+      "score": 0.756
+    },
+    "kodfabrik.se": {
+      "out": {
+        "other": 9803
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.754
+    },
+    "rhiaro.co.uk": {
+      "out": {
+        "other": 9170
+      },
+      "in": {
+        "other": 9
+      },
+      "score": 0.749
+    },
+    "petermolnar.net": {
+      "out": {
+        "other": 7660
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.736
+    },
+    "jeena.net": {
+      "in": {
+        "other": 18
+      },
+      "out": {
+        "other": 7146
+      },
+      "score": 0.731
+    },
+    "jonnybarnes.uk": {
+      "out": {
+        "other": 5420
+      },
+      "in": {
+        "other": 1223
+      },
+      "score": 0.717
+    },
+    "rascul.xyz": {
+      "out": {
+        "other": 5876
+      },
+      "score": 0.716
+    },
+    "boffosocko.com": {
+      "out": {
+        "other": 1230
+      },
+      "in": {
+        "other": 7743
+      },
+      "score": 0.705
+    },
+    "kbsriram.com": {
+      "out": {
+        "other": 4305
+      },
+      "score": 0.692
+    },
+    "miklb.com": {
+      "in": {
+        "other": 1963
+      },
+      "out": {
+        "other": 2647
+      },
+      "score": 0.679
+    },
+    "vanderven.se": {
+      "out": {
+        "other": 3289
+      },
+      "score": 0.671
+    },
+    "t37.net": {
+      "out": {
+        "other": 3215
+      },
+      "score": 0.669
+    },
+    "belp.audio": {
+      "out": {
+        "other": 3152
+      },
+      "score": 0.668
+    },
+    "greptilian.com": {
+      "out": {
+        "other": 3111
+      },
+      "score": 0.667
+    },
+    "jonathantneal.com": {
+      "out": {
+        "other": 2895
+      },
+      "score": 0.661
+    },
+    "notiz.blog": {
+      "in": {
+        "other": 5392
+      },
+      "out": {
+        "other": 3
+      },
+      "score": 0.656
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 4711
+      },
+      "out": {
+        "other": 367
+      },
+      "score": 0.656
+    },
+    "werd.io": {
+      "out": {
+        "other": 2265
+      },
+      "in": {
+        "other": 78
+      },
+      "score": 0.644
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3317
+      },
+      "out": {
+        "other": 577
+      },
+      "score": 0.642
+    },
+    "mowens.com": {
+      "out": {
+        "other": 2163
+      },
+      "score": 0.639
+    },
+    "vendaria.net": {
+      "out": {
+        "other": 2018
+      },
+      "score": 0.634
+    },
+    "adactio.com": {
+      "out": {
+        "other": 991
+      },
+      "in": {
+        "other": 1866
+      },
+      "score": 0.631
+    },
+    "www.svenknebel.de": {
+      "in": {
+        "other": 16
+      },
+      "out": {
+        "other": 1871
+      },
+      "score": 0.628
+    },
+    "bengo.is": {
+      "out": {
+        "other": 1775
+      },
+      "score": 0.624
+    },
+    "jihais.se": {
+      "out": {
+        "other": 1739
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.622
+    },
+    "pauloppenheim.com": {
+      "out": {
+        "other": 1719
+      },
+      "score": 0.621
+    },
+    "techlifeweb.com": {
+      "out": {
+        "other": 215
+      },
+      "in": {
+        "other": 2911
+      },
+      "score": 0.619
+    },
+    "melvincarvalho.com": {
+      "out": {
+        "other": 1567
+      },
+      "score": 0.615
+    },
+    "wagle.io": {
+      "out": {
+        "other": 1526
+      },
+      "score": 0.612
+    },
+    "unicyclic.com": {
+      "out": {
+        "other": 1489
+      },
+      "in": {
+        "other": 16
+      },
+      "score": 0.611
+    },
+    "singpolyma.net": {
+      "out": {
+        "other": 1471
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.610
+    },
+    "hmans.io": {
+      "out": {
+        "other": 1374
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.605
+    },
+    "4c4d.com": {
+      "out": {
+        "other": 1309
+      },
+      "score": 0.601
+    },
+    "cleverdevil.io": {
+      "in": {
+        "other": 235
+      },
+      "out": {
+        "other": 1190
+      },
+      "score": 0.601
+    },
+    "www.reedstrom.org": {
+      "out": {
+        "other": 1297
+      },
+      "score": 0.6
+    },
+    "michielbdejong.com": {
+      "out": {
+        "other": 1277
+      },
+      "score": 0.598
+    },
+    "christopheducamp.com": {
+      "out": {
+        "other": 1173
+      },
+      "score": 0.592
+    },
+    "pop64.com": {
+      "in": {
+        "other": 2289
+      },
+      "score": 0.591
+    },
+    "bret.io": {
+      "out": {
+        "other": 1141
+      },
+      "score": 0.590
+    },
+    "www.kevinmarks.com": {
+      "out": {
+        "other": 1129
+      },
+      "in": {
+        "other": 19
+      },
+      "score": 0.590
+    },
+    "donpark.org": {
+      "out": {
+        "other": 1123
+      },
+      "score": 0.589
+    },
+    "www.islay.org.uk": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 2200
+      },
+      "score": 0.588
+    },
+    "www.rmendes.net": {
+      "in": {
+        "other": 10
+      },
+      "out": {
+        "other": 1087
+      },
+      "score": 0.587
+    },
+    "jonathanfrei.com": {
+      "out": {
+        "other": 22
+      },
+      "in": {
+        "other": 2129
+      },
+      "score": 0.586
+    },
+    "willnorris.com": {
+      "out": {
+        "other": 1056
+      },
+      "in": {
+        "other": 23
+      },
+      "score": 0.585
+    },
+    "tommorris.org": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "other": 1049
+      },
+      "score": 0.584
+    },
+    "indiewebcat.com": {
+      "out": {
+        "other": 84
+      },
+      "in": {
+        "other": 1855
+      },
+      "score": 0.581
+    },
+    "davidjohnmead.com": {
+      "out": {
+        "other": 867
+      },
+      "in": {
+        "other": 252
+      },
+      "score": 0.579
+    },
+    "luxagraf.net": {
+      "out": {
+        "other": 991
+      },
+      "score": 0.579
+    },
+    "webmention.io": {
+      "out": {
+        "other": 959
+      },
+      "score": 0.577
+    },
+    "bear.im": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 933
+      },
+      "score": 0.575
+    },
+    "kongaloosh.com": {
+      "out": {
+        "other": 917
+      },
+      "score": 0.573
+    },
+    "pin13.net": {
+      "out": {
+        "other": 900
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.573
+    },
+    "caseorganic.com": {
+      "out": {
+        "other": 904
+      },
+      "score": 0.573
+    },
+    "unrelenting.technology": {
+      "in": {
+        "other": 18
+      },
+      "out": {
+        "other": 829
+      },
+      "score": 0.567
+    },
+    "notenoughneon.com": {
+      "out": {
+        "other": 831
+      },
+      "score": 0.566
+    },
+    "prtksxna.com": {
+      "out": {
+        "other": 810
+      },
+      "score": 0.564
+    },
+    "known.kevinmarks.com": {
+      "out": {
+        "other": 689
+      },
+      "in": {
+        "other": 191
+      },
+      "score": 0.562
+    },
+    "dunlaps.net": {
+      "out": {
+        "other": 756
+      },
+      "score": 0.559
+    },
+    "npdoty.name": {
+      "out": {
+        "other": 748
+      },
+      "score": 0.558
+    },
+    "markmurfin.com": {
+      "out": {
+        "other": 744
+      },
+      "score": 0.558
+    },
+    "indieauth.com": {
+      "in": {
+        "other": 82
+      },
+      "out": {
+        "other": 699
+      },
+      "score": 0.557
+    },
+    "exppad.com": {
+      "out": {
+        "other": 739
+      },
+      "score": 0.557
+    },
+    "fiatjaf.alhur.es": {
+      "out": {
+        "other": 730
+      },
+      "score": 0.556
+    },
+    "alanpearce.uk": {
+      "out": {
+        "other": 716
+      },
+      "score": 0.555
+    },
+    "peterwilson.cc": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 709
+      },
+      "score": 0.554
+    },
+    "rkn.la": {
+      "out": {
+        "other": 673
+      },
+      "score": 0.550
+    },
+    "www.tombruning.com": {
+      "out": {
+        "other": 637
+      },
+      "score": 0.546
+    },
+    "sebastian.kip.pe": {
+      "out": {
+        "other": 636
+      },
+      "score": 0.546
+    },
+    "sixtwothree.org": {
+      "out": {
+        "other": 612
+      },
+      "score": 0.543
+    },
+    "lancey.space": {
+      "out": {
+        "other": 599
+      },
+      "score": 0.541
+    },
+    "indiewebify.me": {
+      "out": {
+        "other": 600
+      },
+      "score": 0.541
+    },
+    "www.sandeep.io": {
+      "out": {
+        "other": 592
+      },
+      "score": 0.540
+    },
+    "wolftune.com": {
+      "out": {
+        "other": 580
+      },
+      "score": 0.539
+    },
+    "bigbluehat.com": {
+      "out": {
+        "other": 584
+      },
+      "score": 0.539
+    },
+    "harryreeder.co.uk": {
+      "out": {
+        "other": 584
+      },
+      "score": 0.539
+    },
+    "upon2020.com": {
+      "out": {
+        "other": 567
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.537
+    },
+    "randall.bleeds.info": {
+      "out": {
+        "other": 572
+      },
+      "score": 0.537
+    },
+    "josephg.com": {
+      "out": {
+        "other": 555
+      },
+      "score": 0.535
+    },
+    "petermolnar.eu": {
+      "out": {
+        "other": 557
+      },
+      "score": 0.535
+    },
+    "j4y.co": {
+      "out": {
+        "other": 552
+      },
+      "score": 0.534
+    },
+    "notizblog.org": {
+      "out": {
+        "other": 552
+      },
+      "score": 0.534
+    },
+    "stefanovski.io": {
+      "out": {
+        "other": 542
+      },
+      "score": 0.533
+    },
+    "phyks.me": {
+      "out": {
+        "other": 538
+      },
+      "score": 0.533
+    },
+    "owenshepherd.net": {
+      "out": {
+        "other": 529
+      },
+      "score": 0.532
+    },
+    "metafluff.com": {
+      "out": {
+        "other": 531
+      },
+      "score": 0.532
+    },
+    "jkphl.is": {
+      "in": {
+        "other": 26
+      },
+      "out": {
+        "other": 515
+      },
+      "score": 0.532
+    },
+    "nicolas-hoizey.com": {
+      "in": {
+        "other": 1023
+      },
+      "score": 0.529
+    },
+    "jothut.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 996
+      },
+      "score": 0.527
+    },
+    "colintedford.com": {
+      "out": {
+        "other": 499
+      },
+      "score": 0.527
+    },
+    "mattl.us": {
+      "out": {
+        "other": 478
+      },
+      "score": 0.524
+    },
+    "altsalt.net": {
+      "out": {
+        "other": 466
+      },
+      "score": 0.522
+    },
+    "brennannovak.com": {
+      "out": {
+        "other": 459
+      },
+      "in": {
+        "other": 19
+      },
+      "score": 0.522
+    },
+    "erikmaarten.com": {
+      "out": {
+        "other": 459
+      },
+      "score": 0.521
+    },
+    "withknown.com": {
+      "out": {
+        "other": 444
+      },
+      "score": 0.518
+    },
+    "ascraeus.org": {
+      "out": {
+        "other": 19
+      },
+      "in": {
+        "other": 844
+      },
+      "score": 0.518
+    },
+    "joskar.se": {
+      "out": {
+        "other": 441
+      },
+      "score": 0.518
+    },
+    "jenson.org": {
+      "out": {
+        "other": 428
+      },
+      "score": 0.515
+    },
+    "www.atoddswithclarity.com": {
+      "out": {
+        "other": 416
+      },
+      "score": 0.513
+    },
+    "glennjones.net": {
+      "out": {
+        "other": 409
+      },
+      "score": 0.512
+    },
+    "barryfrost.com": {
+      "out": {
+        "other": 294
+      },
+      "in": {
+        "other": 202
+      },
+      "score": 0.509
+    },
+    "epeus.blogspot.com": {
+      "out": {
+        "other": 390
+      },
+      "in": {
+        "other": 10
+      },
+      "score": 0.509
+    },
+    "marcthiele.com": {
+      "out": {
+        "other": 386
+      },
+      "in": {
+        "other": 9
+      },
+      "score": 0.508
+    },
+    "iamshane.com": {
+      "out": {
+        "other": 370
+      },
+      "score": 0.505
+    },
+    "robin.millette.info": {
+      "out": {
+        "other": 352
+      },
+      "score": 0.501
+    },
+    "lukasrosenstock.net": {
+      "out": {
+        "other": 336
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.497
+    },
+    "notes.whatthefuck.computer": {
+      "out": {
+        "other": 332
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.496
+    },
+    "achangeiscoming.net": {
+      "out": {
+        "other": 334
+      },
+      "score": 0.496
+    },
+    "microblog.pierre-o.fr": {
+      "in": {
+        "other": 16
+      },
+      "out": {
+        "other": 314
+      },
+      "score": 0.494
+    },
+    "martymcgui.re": {
+      "out": {
+        "other": 253
+      },
+      "in": {
+        "other": 130
+      },
+      "score": 0.493
+    },
+    "dangillmor.com": {
+      "in": {
+        "other": 16
+      },
+      "out": {
+        "other": 293
+      },
+      "score": 0.489
+    },
+    "webmention.herokuapp.com": {
+      "out": {
+        "other": 297
+      },
+      "score": 0.488
+    },
+    "dougmckown.com": {
+      "out": {
+        "other": 298
+      },
+      "score": 0.488
+    },
+    "example.com": {
+      "out": {
+        "other": 294
+      },
+      "score": 0.487
+    },
+    "silencematters.com": {
+      "out": {
+        "other": 292
+      },
+      "score": 0.486
+    },
+    "2016.indieweb.org": {
+      "out": {
+        "other": 290
+      },
+      "score": 0.485
+    },
+    "jonathan.is": {
+      "out": {
+        "other": 286
+      },
+      "score": 0.485
+    },
+    "peat.org": {
+      "out": {
+        "other": 285
+      },
+      "score": 0.485
+    },
+    "dpk.io": {
+      "out": {
+        "other": 283
+      },
+      "score": 0.484
+    },
+    "kraft.blog": {
+      "in": {
+        "other": 563
+      },
+      "score": 0.483
+    },
+    "tiny.n9n.us": {
+      "out": {
+        "other": 188
+      },
+      "in": {
+        "other": 149
+      },
+      "score": 0.478
+    },
+    "calumryan.com": {
+      "out": {
+        "other": 252
+      },
+      "in": {
+        "other": 10
+      },
+      "score": 0.476
+    },
+    "eschnou.com": {
+      "out": {
+        "other": 254
+      },
+      "score": 0.476
+    },
+    "webmention.rocks": {
+      "out": {
+        "other": 123
+      },
+      "in": {
+        "other": 231
+      },
+      "score": 0.471
+    },
+    "stream.withknown.com": {
+      "out": {
+        "other": 237
+      },
+      "score": 0.470
+    },
+    "wirres.net": {
+      "out": {
+        "other": 222
+      },
+      "in": {
+        "other": 30
+      },
+      "score": 0.470
+    },
+    "bjb.io": {
+      "out": {
+        "other": 233
+      },
+      "score": 0.469
+    },
+    "shanehudson.net": {
+      "out": {
+        "other": 229
+      },
+      "score": 0.468
+    },
+    "johnjohnston.info": {
+      "out": {
+        "other": 24
+      },
+      "in": {
+        "other": 407
+      },
+      "score": 0.467
+    },
+    "freekurt.com": {
+      "in": {
+        "other": 49
+      },
+      "out": {
+        "other": 203
+      },
+      "score": 0.467
+    },
+    "jden.us": {
+      "out": {
+        "other": 222
+      },
+      "score": 0.466
+    },
+    "sandeep.io": {
+      "out": {
+        "other": 223
+      },
+      "score": 0.466
+    },
+    "scripting.com": {
+      "out": {
+        "other": 205
+      },
+      "score": 0.460
+    },
+    "shiflett.org": {
+      "out": {
+        "other": 208
+      },
+      "score": 0.460
+    },
+    "channy.creation.net": {
+      "out": {
+        "other": 201
+      },
+      "score": 0.458
+    },
+    "s.ly": {
+      "out": {
+        "other": 198
+      },
+      "score": 0.456
+    },
+    "news.indieweb.org": {
+      "in": {
+        "other": 374
+      },
+      "out": {
+        "other": 10
+      },
+      "score": 0.456
+    },
+    "aralbalkan.com": {
+      "out": {
+        "other": 193
+      },
+      "score": 0.455
+    },
+    "lmorchard.com": {
+      "out": {
+        "other": 187
+      },
+      "score": 0.452
+    },
+    "blog.ministryofpropaganda.co.uk": {
+      "in": {
+        "other": 368
+      },
+      "score": 0.451
+    },
+    "danbri.org": {
+      "out": {
+        "other": 183
+      },
+      "score": 0.450
+    },
+    "timowens.io": {
+      "out": {
+        "other": 183
+      },
+      "score": 0.450
+    },
+    "hupili.net": {
+      "out": {
+        "other": 183
+      },
+      "score": 0.450
+    },
+    "atomicules.co.uk": {
+      "out": {
+        "other": 181
+      },
+      "score": 0.450
+    },
+    "www.alohastone.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 343
+      },
+      "score": 0.447
+    },
+    "natwelch.com": {
+      "out": {
+        "other": 175
+      },
+      "score": 0.447
+    },
+    "www.iangreenleaf.com": {
+      "out": {
+        "other": 175
+      },
+      "score": 0.447
+    },
+    "elliottucker.net": {
+      "out": {
+        "other": 176
+      },
+      "score": 0.447
+    },
+    "ignite.digitalignition.net": {
+      "out": {
+        "other": 170
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.445
+    },
+    "andysylvester.com": {
+      "out": {
+        "other": 169
+      },
+      "score": 0.444
+    },
+    "edward.oconnor.cx": {
+      "out": {
+        "other": 166
+      },
+      "score": 0.444
+    },
+    "mabulledu.net": {
+      "out": {
+        "other": 30
+      },
+      "in": {
+        "other": 271
+      },
+      "score": 0.443
+    },
+    "svgur.com": {
+      "out": {
+        "other": 163
+      },
+      "score": 0.442
+    },
+    "seblog.nl": {
+      "in": {
+        "in-reply-to": 4,
+        "other": 7
+      },
+      "out": {
+        "other": 147
+      },
+      "score": 0.440
+    },
+    "sebastiangreger.net": {
+      "in": {
+        "other": 27
+      },
+      "out": {
+        "other": 139
+      },
+      "score": 0.437
+    },
+    "mlncn.withknown.com": {
+      "out": {
+        "other": 150
+      },
+      "score": 0.435
+    },
+    "anomalily.net": {
+      "out": {
+        "other": 150
+      },
+      "score": 0.435
+    },
+    "olivermak.es": {
+      "out": {
+        "other": 148
+      },
+      "score": 0.434
+    },
+    "bjoern.stierand.org": {
+      "out": {
+        "other": 146
+      },
+      "score": 0.434
+    },
+    "pius.me": {
+      "out": {
+        "other": 142
+      },
+      "score": 0.431
+    },
+    "gavin.carothers.name": {
+      "out": {
+        "other": 139
+      },
+      "score": 0.430
+    },
+    "skippy.net": {
+      "out": {
+        "other": 140
+      },
+      "score": 0.430
+    },
+    "tombruning.com": {
+      "out": {
+        "other": 136
+      },
+      "score": 0.428
+    },
+    "vrypan.net": {
+      "out": {
+        "other": 135
+      },
+      "score": 0.427
+    },
+    "sandeep.shetty.in": {
+      "out": {
+        "other": 131
+      },
+      "score": 0.425
+    },
+    "ownyourgram.com": {
+      "in": {
+        "other": 5
+      },
+      "out": {
+        "other": 128
+      },
+      "score": 0.424
+    },
+    "eddiehinkle.com": {
+      "out": {
+        "other": 101
+      },
+      "in": {
+        "other": 50
+      },
+      "score": 0.422
+    },
+    "rawlinson.us": {
+      "out": {
+        "other": 126
+      },
+      "score": 0.422
+    },
+    "www.kryogenix.org": {
+      "out": {
+        "other": 123
+      },
+      "score": 0.421
+    },
+    "quill.p3k.io": {
+      "in": {
+        "other": 7
+      },
+      "out": {
+        "other": 120
+      },
+      "score": 0.421
+    },
+    "www.funwhilelost.com": {
+      "in": {
+        "other": 58
+      },
+      "out": {
+        "other": 96
+      },
+      "score": 0.421
+    },
+    "miche.lv": {
+      "out": {
+        "other": 122
+      },
+      "score": 0.420
+    },
+    "tiagopinto.pt": {
+      "out": {
+        "other": 121
+      },
+      "score": 0.419
+    },
+    "silo.pub": {
+      "out": {
+        "other": 119
+      },
+      "score": 0.418
+    },
+    "alexhartley.me": {
+      "out": {
+        "other": 114
+      },
+      "score": 0.415
+    },
+    "markwunsch.com": {
+      "out": {
+        "other": 112
+      },
+      "score": 0.413
+    },
+    "jonrichter.de": {
+      "out": {
+        "other": 109
+      },
+      "score": 0.411
+    },
+    "inkdroid.org": {
+      "out": {
+        "other": 109
+      },
+      "score": 0.411
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 56
+      },
+      "out": {
+        "other": 79
+      },
+      "score": 0.410
+    },
+    "getpop.org": {
+      "in": {
+        "other": 208
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.409
+    },
+    "paulmunday.net": {
+      "out": {
+        "other": 106
+      },
+      "score": 0.409
+    },
+    "www.marcus-povey.co.uk": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 103
+      },
+      "score": 0.408
+    },
+    "tylerfontaine.me": {
+      "out": {
+        "other": 104
+      },
+      "score": 0.408
+    },
+    "loic.mathaud.fr": {
+      "out": {
+        "other": 105
+      },
+      "score": 0.408
+    },
+    "tinokremer.nl": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 100
+      },
+      "score": 0.406
+    },
+    "agaric.com": {
+      "out": {
+        "other": 102
+      },
+      "score": 0.406
+    },
+    "benwerd.com": {
+      "out": {
+        "other": 101
+      },
+      "score": 0.405
+    },
+    "blog.superfeedr.com": {
+      "out": {
+        "other": 101
+      },
+      "score": 0.405
+    },
+    "roblord.org": {
+      "out": {
+        "other": 101
+      },
+      "score": 0.405
+    },
+    "marcus-povey.co.uk": {
+      "out": {
+        "other": 96
+      },
+      "score": 0.402
+    },
+    "granary-demo.appspot.com": {
+      "out": {
+        "other": 93
+      },
+      "score": 0.399
+    },
+    "joel.franusic.com": {
+      "out": {
+        "other": 92
+      },
+      "score": 0.398
+    },
+    "www.mediablends.com": {
+      "in": {
+        "other": 183
+      },
+      "score": 0.398
+    },
+    "mz-80k.com": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.396
+    },
+    "www.onebigfluke.com": {
+      "out": {
+        "other": 88
+      },
+      "score": 0.395
+    },
+    "csarven.ca": {
+      "out": {
+        "other": 88
+      },
+      "score": 0.395
+    },
+    "www.manton.org": {
+      "in": {
+        "other": 87
+      },
+      "out": {
+        "other": 44
+      },
+      "score": 0.394
+    },
+    "pdx.esri.com": {
+      "out": {
+        "other": 85
+      },
+      "score": 0.392
+    },
+    "indieboxproject.org": {
+      "out": {
+        "other": 85
+      },
+      "score": 0.392
+    },
+    "strugee.net": {
+      "in": {
+        "other": 6
+      },
+      "out": {
+        "other": 80
+      },
+      "score": 0.390
+    },
+    "chloeweil.com": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.390
+    },
+    "davidpeach.co.uk": {
+      "out": {
+        "other": 82
+      },
+      "score": 0.389
+    },
+    "ttk.me": {
+      "out": {
+        "other": 79
+      },
+      "score": 0.386
+    },
+    "erinjorichey.com": {
+      "out": {
+        "other": 79
+      },
+      "score": 0.386
+    },
+    "marclaporte.com": {
+      "out": {
+        "other": 79
+      },
+      "score": 0.386
+    },
+    "www.wordyard.com": {
+      "out": {
+        "other": 78
+      },
+      "score": 0.385
+    },
+    "jancborchardt.net": {
+      "out": {
+        "other": 76
+      },
+      "score": 0.383
+    },
+    "standblog.org": {
+      "in": {
+        "other": 24
+      },
+      "out": {
+        "other": 63
+      },
+      "score": 0.382
+    },
+    "matej.ceplovi.cz": {
+      "out": {
+        "other": 73
+      },
+      "score": 0.380
+    },
+    "emmahodge.org": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.379
+    },
+    "ike.io": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.379
+    },
+    "lionzan.me": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.379
+    },
+    "debbie.today": {
+      "in": {
+        "other": 144
+      },
+      "score": 0.379
+    },
+    "blog.davidjohnmead.com": {
+      "out": {
+        "other": 70
+      },
+      "score": 0.377
+    },
+    "fberriman.com": {
+      "out": {
+        "other": 70
+      },
+      "score": 0.377
+    },
+    "xtof.withknown.com": {
+      "out": {
+        "other": 68
+      },
+      "score": 0.375
+    },
+    "brandonrozek.com": {
+      "out": {
+        "other": 66
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.373
+    },
+    "scottgruber.me": {
+      "out": {
+        "other": 66
+      },
+      "score": 0.373
+    },
+    "acegiak.machinespirit.net": {
+      "out": {
+        "other": 66
+      },
+      "score": 0.373
+    },
+    "twitter-atom.appspot.com": {
+      "out": {
+        "other": 64
+      },
+      "score": 0.370
+    },
+    "licit.li": {
+      "in": {
+        "other": 52,
+        "like-of": 2
+      },
+      "out": {
+        "other": 35
+      },
+      "score": 0.369
+    },
+    "zzzen.com": {
+      "out": {
+        "other": 63
+      },
+      "score": 0.369
+    },
+    "mmmicro.eli.li": {
+      "in": {
+        "like-of": 10,
+        "other": 70,
+        "repost-of": 12
+      },
+      "score": 0.369
+    },
+    "monocle.p3k.io": {
+      "out": {
+        "other": 60
+      },
+      "score": 0.366
+    },
+    "mention-tech.appspot.com": {
+      "out": {
+        "other": 60
+      },
+      "score": 0.366
+    },
+    "markmhendrickson.com": {
+      "out": {
+        "other": 61
+      },
+      "score": 0.366
+    },
+    "guerillero.net": {
+      "out": {
+        "other": 61
+      },
+      "score": 0.366
+    },
+    "hodgestar.za.net": {
+      "out": {
+        "other": 59
+      },
+      "score": 0.364
+    },
+    "tokens.indieauth.com": {
+      "out": {
+        "other": 59
+      },
+      "score": 0.364
+    },
+    "larrykooper.com": {
+      "out": {
+        "other": 6
+      },
+      "in": {
+        "other": 105
+      },
+      "score": 0.363
+    },
+    "thierry.marianne.io": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.363
+    },
+    "christophe.ducamp.me": {
+      "out": {
+        "other": 56
+      },
+      "in": {
+        "other": 5
+      },
+      "score": 0.363
+    },
+    "telegraph.p3k.io": {
+      "out": {
+        "other": 56
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.362
+    },
+    "www.davethewebguy.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.360
+    },
+    "distresssignal.org": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.360
+    },
+    "ashersilberman.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.360
+    },
+    "trodrigues.net": {
+      "out": {
+        "other": 55
+      },
+      "score": 0.359
+    },
+    "justonestep.de": {
+      "out": {
+        "other": 54
+      },
+      "score": 0.357
+    },
+    "bupk.es": {
+      "out": {
+        "other": 54
+      },
+      "score": 0.357
+    },
+    "jrenslin.de": {
+      "out": {
+        "other": 53
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.357
+    },
+    "stream.tapestrymaker.net": {
+      "out": {
+        "other": 54
+      },
+      "score": 0.357
+    },
+    "www.tuxed.net": {
+      "out": {
+        "other": 54
+      },
+      "score": 0.357
+    },
+    "www.madmode.com": {
+      "out": {
+        "other": 53
+      },
+      "score": 0.356
+    },
+    "micropub.net": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 52
+      },
+      "score": 0.355
+    },
+    "updates.kip.pe": {
+      "in": {
+        "other": 21
+      },
+      "out": {
+        "other": 40
+      },
+      "score": 0.353
+    },
+    "facebook-atom.appspot.com": {
+      "out": {
+        "other": 51
+      },
+      "score": 0.353
+    },
+    "www.decentralizedweb.net": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.352
+    },
+    "geoloqi.com": {
+      "out": {
+        "other": 49
+      },
+      "score": 0.350
+    },
+    "paulrobertlloyd.com": {
+      "out": {
+        "other": 49
+      },
+      "score": 0.350
+    },
+    "woodwind.xyz": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 48
+      },
+      "score": 0.349
+    },
+    "dogada.org": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.348
+    },
+    "known.networkeffects.ca": {
+      "out": {
+        "other": 47
+      },
+      "score": 0.347
+    },
+    "www.webrocker.de": {
+      "out": {
+        "other": 46
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.346
+    },
+    "gonze.com": {
+      "out": {
+        "other": 46
+      },
+      "score": 0.345
+    },
+    "c2.com": {
+      "out": {
+        "other": 46
+      },
+      "score": 0.345
+    },
+    "felixniklas.de": {
+      "out": {
+        "other": 45
+      },
+      "score": 0.344
+    },
+    "tuxed.net": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.342
+    },
+    "chreekat.net": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.342
+    },
+    "john.onolan.org": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.342
+    },
+    "social-igniter.com": {
+      "out": {
+        "other": 43
+      },
+      "score": 0.340
+    },
+    "tobilehman.com": {
+      "out": {
+        "other": 43
+      },
+      "score": 0.340
+    },
+    "pfefferle.github.io": {
+      "out": {
+        "other": 43
+      },
+      "score": 0.340
+    },
+    "julieannenoying.com": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.338
+    },
+    "webgefrickel.de": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.338
+    },
+    "michaelverdi.com": {
+      "out": {
+        "other": 41
+      },
+      "score": 0.337
+    },
+    "xray.p3k.io": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.334
+    },
+    "butterwell.exploratori.us": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.334
+    },
+    "keithjgrant.com": {
+      "in": {
+        "other": 80
+      },
+      "score": 0.334
+    },
+    "bastianallgeier.com": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.334
+    },
+    "teacup.p3k.io": {
+      "out": {
+        "other": 39
+      },
+      "score": 0.333
+    },
+    "hapgood.us": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.331
+    },
+    "ouvre-boite.com": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.331
+    },
+    "www.downes.ca": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.331
+    },
+    "colinwalker.blog": {
+      "out": {
+        "other": 24
+      },
+      "in": {
+        "other": 28
+      },
+      "score": 0.331
+    },
+    "matthiasott.com": {
+      "in": {
+        "other": 3
+      },
+      "out": {
+        "other": 36
+      },
+      "score": 0.330
+    },
+    "www.boffosocko.com": {
+      "out": {
+        "other": 37
+      },
+      "score": 0.328
+    },
+    "www.monkinetic.com": {
+      "out": {
+        "other": 37
+      },
+      "score": 0.328
+    },
+    "idolstarastronomer.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.327
+    },
+    "h2vx.com": {
+      "out": {
+        "other": 35
+      },
+      "score": 0.324
+    },
+    "mey.vn": {
+      "out": {
+        "other": 35
+      },
+      "score": 0.324
+    },
+    "derhess.de": {
+      "out": {
+        "other": 24
+      },
+      "in": {
+        "other": 21
+      },
+      "score": 0.323
+    },
+    "aribadernatal.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.322
+    },
+    "alexlinsker.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.322
+    },
+    "dougbeal.com": {
+      "in": {
+        "other": 60
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.322
+    },
+    "airbornesurfer.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.322
+    },
+    "whatthefuck.computer": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.322
+    },
+    "dreev.es": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.322
+    },
+    "fmarx.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.322
+    },
+    "www.flutterby.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.322
+    },
+    "aaron-gustafson.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.322
+    },
+    "andrew.hedges.name": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.318
+    },
+    "blog.danielpietzsch.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.318
+    },
+    "me.gidzit.org": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.318
+    },
+    "grant.codes": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.318
+    },
+    "shevski.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.318
+    },
+    "instagram-atom.appspot.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.318
+    },
+    "quickthoughts.jgregorymcverry.com": {
+      "out": {
+        "other": 18
+      },
+      "in": {
+        "other": 29
+      },
+      "score": 0.318
+    },
+    "blog.vrypan.net": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.318
+    },
+    "retout.co.uk": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.318
+    },
+    "benward.me": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.318
+    },
+    "psyhigh.com": {
+      "out": {
+        "other": 31
+      },
+      "score": 0.315
+    },
+    "nicoletollefson.com": {
+      "out": {
+        "other": 31
+      },
+      "score": 0.315
+    },
+    "johannesdachsel.com": {
+      "out": {
+        "other": 26
+      },
+      "in": {
+        "other": 9
+      },
+      "score": 0.314
+    },
+    "theporouscity.com": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.312
+    },
+    "rudigermeyer.com": {
+      "out": {
+        "other": 26
+      },
+      "in": {
+        "other": 8
+      },
+      "score": 0.312
+    },
+    "tyler.cat": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.312
+    },
+    "nxd4n.nixekinder.be": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.312
+    },
+    "angelo.lahacker.net": {
+      "out": {
+        "other": 28
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.310
+    },
+    "tilde.club": {
+      "out": {
+        "other": 29
+      },
+      "score": 0.310
+    },
+    "mapkyca.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.308
+    },
+    "nightlight.ws": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.308
+    },
+    "webmention.net": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 28
+      },
+      "score": 0.308
+    },
+    "reidbeels.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.308
+    },
+    "cyborgcamp.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.308
+    },
+    "kris.shaffermusic.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.308
+    },
+    "srikanthperinkulam.com": {
+      "out": {
+        "other": 27
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.308
+    },
+    "darius.dunlaps.net": {
+      "out": {
+        "other": 28
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.308
+    },
+    "kirilind.me": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.308
+    },
+    "hamhut1066.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.308
+    },
+    "killerog.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.308
+    },
+    "known.phyks.me": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.308
+    },
+    "pushpullfork.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.308
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 19
+      },
+      "out": {
+        "other": 18
+      },
+      "score": 0.306
+    },
+    "demisflanagan.com": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.305
+    },
+    "chromic.org": {
+      "in": {
+        "other": 5
+      },
+      "out": {
+        "other": 24
+      },
+      "score": 0.303
+    },
+    "switchboard.p3k.io": {
+      "out": {
+        "other": 26
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.303
+    },
+    "wwwtech.de": {
+      "out": {
+        "other": 24
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.302
+    },
+    "mf2.kylewm.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.302
+    },
+    "nicolas-bermond.com": {
+      "out": {
+        "other": 8
+      },
+      "in": {
+        "other": 36
+      },
+      "score": 0.302
+    },
+    "john-ellison.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.302
+    },
+    "jedahan.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.302
+    },
+    "chrisroos.co.uk": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.302
+    },
+    "onebigfluke.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.302
+    },
+    "raretrack.uk": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.302
+    },
+    "blog.henrikcarlsson.se": {
+      "in": {
+        "other": 7
+      },
+      "out": {
+        "other": 22
+      },
+      "score": 0.3
+    },
+    "kevinbeynon.com": {
+      "out": {
+        "other": 25
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.3
+    },
+    "martin.atkins.me.uk": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.298
+    },
+    "www.flutterby.net": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.298
+    },
+    "www.dentonjacobs.com": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.298
+    },
+    "sensible.mn": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.298
+    },
+    "tomwolf.be": {
+      "in": {
+        "other": 49
+      },
+      "score": 0.297
+    },
+    "flickstagram.org": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.295
+    },
+    "2017.indieweb.org": {
+      "out": {
+        "other": 18
+      },
+      "in": {
+        "other": 12
+      },
+      "score": 0.295
+    },
+    "tent.io": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.295
+    },
+    "snowydog.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.295
+    },
+    "wavis.org": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.295
+    },
+    "wiobyrne.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.295
+    },
+    "wordius.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.295
+    },
+    "fmarier.org": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.295
+    },
+    "hello.idno.co": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.295
+    },
+    "yatil.net": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.295
+    },
+    "jimpick.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.295
+    },
+    "wholewheattoast.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.295
+    },
+    "ar.al": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.295
+    },
+    "meyerweb.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.295
+    },
+    "iboxifoo.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.295
+    },
+    "ubos.net": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.292
+    },
+    "hawke.org": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.292
+    },
+    "www.darrenmothersele.com": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.292
+    },
+    "expandrew.com": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.292
+    },
+    "www.andrewmarks.media": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.289
+    },
+    "stromgeber.lischka.cc": {
+      "in": {
+        "other": 44
+      },
+      "score": 0.289
+    },
+    "microformatshiv.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.289
+    },
+    "suda.co.uk": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.289
+    },
+    "stefan-auditor.de": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.289
+    },
+    "www.matthewgraybosch.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.289
+    },
+    "dblogit.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.289
+    },
+    "new.islayblog.com": {
+      "in": {
+        "other": 44
+      },
+      "score": 0.289
+    },
+    "romeda.org": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.289
+    },
+    "jere.my": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.289
+    },
+    "www.jboy.us": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.289
+    },
+    "andrijevik.net": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.285
+    },
+    "fran.io": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.285
+    },
+    "crystalbeasley.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.285
+    },
+    "known.stierand.org": {
+      "out": {
+        "other": 16
+      },
+      "in": {
+        "other": 10
+      },
+      "score": 0.285
+    },
+    "matienzo.org": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.282
+    },
+    "wentsch.me": {
+      "in": {
+        "other": 40
+      },
+      "score": 0.282
+    },
+    "daltoncaldwell.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.282
+    },
+    "traviswellman.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.282
+    },
+    "jansauer.de": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.282
+    },
+    "scottbullard.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.282
+    },
+    "www.dmrutherford.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.282
+    },
+    "davidmead.withknown.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.282
+    },
+    "oauth-dropins.appspot.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.282
+    },
+    "kylewm.withknown.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.282
+    },
+    "log.koehr.in": {
+      "in": {
+        "in-reply-to": 8
+      },
+      "score": 0.282
+    },
+    "social.thedavidjohnson.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.282
+    },
+    "eli.li": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.282
+    },
+    "indiechat.search.cweiske.de": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.282
+    },
+    "ollehost.dk": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.282
+    },
+    "documentation.superfeedr.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.282
+    },
+    "adaburrows.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.282
+    },
+    "brucewang.net": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.282
+    },
+    "fcns.eu": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.282
+    },
+    "purkiss.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.282
+    },
+    "pierre-o.fr": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.282
+    },
+    "skinnywhitegirl.com": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.278
+    },
+    "www.lottejackson.com": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.278
+    },
+    "search.cweiske.de": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.278
+    },
+    "eric.pdxhub.org": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.278
+    },
+    "thatemil.com": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.278
+    },
+    "paultibbetts.uk": {
+      "out": {
+        "other": 18
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.278
+    },
+    "charles.stanho.pe": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.278
+    },
+    "jarofgreen.co.uk": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.278
+    },
+    "stefangrund.de": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.278
+    },
+    "mm0hai.net": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 18
+      },
+      "score": 0.276
+    },
+    "www.1500wordmtu.com": {
+      "in": {
+        "other": 37
+      },
+      "score": 0.276
+    },
+    "lifeofaudrey.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.273
+    },
+    "www.christydena.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.273
+    },
+    "sammachin.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.273
+    },
+    "social.andrejstefanovski.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.273
+    },
+    "sebastianlasse.de": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.273
+    },
+    "davidakennedy.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.273
+    },
+    "known.kylewm.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.273
+    },
+    "rabbit.withknown.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.273
+    },
+    "joshrussell.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.273
+    },
+    "app.willsomeone.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.273
+    },
+    "blog.indie.host": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.273
+    },
+    "andyleap.net": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.273
+    },
+    "thelocalyarn.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.273
+    },
+    "emmah.net": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.273
+    },
+    "www.ksazit.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.273
+    },
+    "known.jenniferenglund.net": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.273
+    },
+    "bethaknee.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.273
+    },
+    "machinespirit.net": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.273
+    },
+    "thierry.marianne.weaving-the-web.org": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.273
+    },
+    "vasilis.nl": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.269
+    },
+    "lawver.net": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.269
+    },
+    "davemenninger.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.269
+    },
+    "doubleloop.net": {
+      "in": {
+        "other": 17
+      },
+      "out": {
+        "other": 8
+      },
+      "score": 0.267
+    },
+    "www.kevinpolley.com": {
+      "out": {
+        "other": 12
+      },
+      "in": {
+        "other": 9
+      },
+      "score": 0.267
+    },
+    "stream.jeremycherfas.net": {
+      "out": {
+        "other": 6
+      },
+      "in": {
+        "other": 20
+      },
+      "score": 0.265
+    },
+    "gnb.io": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.265
+    },
+    "blog.bl00cyb.org": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.265
+    },
+    "walteryu.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.265
+    },
+    "www.nicolas-bermond.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.265
+    },
+    "oauth.net": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.265
+    },
+    "borasky-research.net": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.265
+    },
+    "bradfitz.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.265
+    },
+    "gibberish.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.265
+    },
+    "ialsowent.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.265
+    },
+    "www.konradlischka.info": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.265
+    },
+    "www.wholewheattoast.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.265
+    },
+    "benjaminchait.net": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.265
+    },
+    "kyledrake.net": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.265
+    },
+    "herestomwiththeweather.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 15
+      },
+      "score": 0.265
+    },
+    "www.altsalt.net": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.265
+    },
+    "matthewlevine.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.265
+    },
+    "exts.ch": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.265
+    },
+    "smus.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.265
+    },
+    "murphysw.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.265
+    },
+    "www.aaron-gustafson.com": {
+      "in": {
+        "other": 5
+      },
+      "out": {
+        "other": 13
+      },
+      "score": 0.262
+    },
+    "pump.io": {
+      "out": {
+        "other": 14
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.260
+    },
+    "jonpierce.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.260
+    },
+    "reclaimhosting.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.260
+    },
+    "yourmom.io": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.260
+    },
+    "pjf.id.au": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.260
+    },
+    "kupad.net": {
+      "in": {
+        "other": 30
+      },
+      "score": 0.260
+    },
+    "wrk3.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.260
+    },
+    "www.jeremycherfas.net": {
+      "out": {
+        "other": 10
+      },
+      "in": {
+        "other": 9
+      },
+      "score": 0.257
+    },
+    "jameschivers.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.254
+    },
+    "ignaciodenuevo.com": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "xavierbadosa.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.254
+    },
+    "ngoldman.me": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.254
+    },
+    "seanbmcgregor.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.254
+    },
+    "www.ouvre-boite.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.254
+    },
+    "amandamaclean.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.254
+    },
+    "jessicard.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.254
+    },
+    "mshook.withknown.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.254
+    },
+    "emil.hemdal.se": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.254
+    },
+    "giudici.us": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.254
+    },
+    "robertbrook.fastmail.fm": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.254
+    },
+    "www.ashersilberman.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.254
+    },
+    "todrobbins.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.254
+    },
+    "russnelson.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.254
+    },
+    "mattheweppelsheimer.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.254
+    },
+    "alpower.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.254
+    },
+    "auli.haldjas.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.254
+    },
+    "danielkoening.de": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.254
+    },
+    "vaviblog.com": {
+      "out": {
+        "other": 6
+      },
+      "in": {
+        "other": 15
+      },
+      "score": 0.252
+    },
+    "alexarmstrong.net": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.249
+    },
+    "cldstr.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.249
+    },
+    "huffduff-video.snarfed.org": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.249
+    },
+    "dmitri.shuralyov.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.249
+    },
+    "jeremycherfas.net": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.249
+    },
+    "darkmatterapp.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.249
+    },
+    "timkadlec.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.249
+    },
+    "cyborganthropology.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.249
+    },
+    "blog.jasongreen.net": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "www.esri.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "blog.andrewshell.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "martas.me": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "davystevenson.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "maxogden.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "chrischerrett.co.uk": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "geo.gs": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "donaldmcintosh.net": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "jgregorymcverry.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "term.ie": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "elladurham.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "www.diveintomark.link": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "tedcurran.net": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "jorgee.net": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "camerongray.me": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "tyson.vanoverhill.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "theoutpost.io": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "www.evdemon.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "silverbucket.net": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "digitalbliss.uk.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "www.petersell.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "theha.us": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "benjamin.parry.is": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "www.jimtyhurst.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "hublog.hubmed.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "anth.ro": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "wehavetoask.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "jessykate.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "sockethub.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.243
+    },
+    "cmal.info": {
+      "out": {
+        "other": 10
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.240
+    },
+    "xavierroy.com": {
+      "in": {
+        "other": 23
+      },
+      "score": 0.240
+    },
+    "amy-mac.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.236
+    },
+    "www.harryreeder.co.uk": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.236
+    },
+    "atlas.p3k.io": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.236
+    },
+    "anthonydreessen.herokuapp.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.236
+    },
+    "walterebert.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.236
+    },
+    "dowe.io": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 17
+      },
+      "score": 0.232
+    },
+    "fastwonderblog.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "dennisimo.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "stationaryjourney.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "hongpong.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "xyncro.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "thecommandline.net": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "www.identitywoman.net": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "rachelwente.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "kimberlyhirsh.com": {
+      "in": {
+        "other": 12
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.229
+    },
+    "www.eoghann.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "jfrndz.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "dobrado.net": {
+      "out": {
+        "other": 8
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.229
+    },
+    "nicolaischwarz.de": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "www.leal.io": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "throwingbones.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "adam.souzis.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "fmarx.de": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "nadreck.me": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "carlo.zottmann.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "ericholscher.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "www.kokladunyayi.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "jschweinsberg.de": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "kash.space": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "jnymck.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "jnu.benwerd.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "benward.uk": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "indieberger.mediaberger.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "indiecomputing.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "lostfocus.de": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "silona.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "patrick.craftycorvid.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "tristanthomas.me": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "jcn.me": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "vanderwal.net": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "aegibson.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "auggernaut.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "micro.blog": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "perltraining.com.au": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "www.jjuran.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.229
+    },
+    "ownyourswarm.p3k.io": {
+      "in": {
+        "other": 7
+      },
+      "out": {
+        "other": 6
+      },
+      "score": 0.224
+    },
+    "boffosockobooks.com": {
+      "in": {
+        "other": 19
+      },
+      "score": 0.224
+    },
+    "lowfill.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.221
+    },
+    "www.leitmedium.de": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.221
+    },
+    "indiescripter.com": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.221
+    },
+    "6a68.net": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.221
+    },
+    "michalstefanow.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "plusstreamfeed.appspot.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "byzero.de": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "petersell.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "www.css-manufaktur.de": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "www.jonathantneal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "justinavery.me": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "lyza.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "anarchivi.st": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "collectiveagency.co": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "www.metamage.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "darrenmothersele.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "johneckman.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "kallistixf.dreamwidth.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "paddy.io": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "aaronegibson.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "katieconforti.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "www.devinrolsen.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "maymay.net": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "www.jeanmrussell.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "ben.thatmustbe.us": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "lifestreamblog.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "pfauth.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "kryogenix.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "reclaim.fm": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "alexkearney.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "surfthedream.com.au": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "known.techlifeweb.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "ihatemornings.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "jonudell.net": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "dustin.younse.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "joshemerson.co.uk": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "blog.kallerhoff.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "jacksenechal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "jgraham909.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "indiewebweek.indieweb.org": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 12
+      },
+      "score": 0.211
+    },
+    "kyleponce.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "webrocker.de": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "adambrault.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "jammy.co": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "aakritishroff.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "colbyaley.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "ebdesign.se": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "loadaverage.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "robert-brook.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "www.leoville.net": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "codemonkey.withknown.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "justagwailo.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "moiz.ca": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "siebennull.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "www.gregfalken.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "consultingcentral.ch": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "ncollig.net": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "wavelist.xyz": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "www.wavis.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "christiaanconover.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "fjhirsch.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "giugee.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "www.danielpietzsch.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "www.headsuptutoring.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.211
+    },
+    "www.donaldmcintosh.net": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 6
+      },
+      "score": 0.202
+    },
+    "internationalbusinessresearch.wordpress.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 10
+      },
+      "score": 0.202
+    },
+    "www.bmannconsulting.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.202
+    },
+    "www.znmeb.mobi": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.202
+    },
+    "notes.adamcroom.com": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.202
+    },
+    "marinin.xyz": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 6
+      },
+      "score": 0.202
+    },
+    "begriffs.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.202
+    },
+    "www.christopheducamp.com": {
+      "out": {
+        "other": 6
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.195
+    },
+    "adam.thebeckmeyers.xyz": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 9
+      },
+      "score": 0.195
+    },
+    "jackjamieson.net": {
+      "in": {
+        "other": 13
+      },
+      "score": 0.195
+    },
+    "brynnevans.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "marginalventures.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "markdilley.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "zackfischmann.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "julian.foad.me.uk": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "chrisaldrich.withknown.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "fanals.fr": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "stephentpollard.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "joshharrington.co.uk": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "ftrain.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "www.derhess.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "tigo.rhiaro.co.uk": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "www.dirkmurschall.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "known.aegibson.me": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.189
+    },
+    "1500wordmtu.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "frederic-hemberger.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "jxn.is": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "www.tiagopinto.pt": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "blog.lmorchard.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "satra.cogitatum.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "technobabbl.es": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "friedcell.si": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "portenkirchner.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "bitdroid.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "jeancflanagan.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "amirchaudhry.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "www.euwatch.eu": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "cygnoir.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "kenzoid.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "transportini.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "blog.mahabali.me": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "arcocene.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "ahoy.fischaelameer.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "aroncarroll.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "identitywoman.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "absolonkent.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "colepeters.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "mff.io": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "miikka.me": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "artbrock.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "shkspr.mobi": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "timapple.me": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "johnkastler.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "known.jimgroom.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "wordyard.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "www.hannahdonovan.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "calmtechnology.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "iandevlin.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "rey.sc": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "rhydd.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "equivalentideas.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "brian.behlendorf.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "hiwelo.co": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "www.masteringdfsanalytics.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "iwrabbit.boffosocko.com": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.189
+    },
+    "blog.chooch.us": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "mattchamlee.withknown.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "melkeramik.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "www.epischel.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "lewisnyman.co.uk": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "camp.ouisharelabs.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "haystack.co.uk": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "maker.sfeld.eu": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "jonericbenson.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "davidized.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "www.kitb.pw": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "raw-text.io": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "tomalexander.withknown.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "toolness.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "www.harlantwood.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "yehudakatz.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "gwenbell.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "teknot.us": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "maniaravings.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "www.yourmom.io": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "ashleynye.co.uk": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "mlsrv.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "root.wirres.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "tessahorehled.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "prettygoodhat.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "www.desparoz.com": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.189
+    },
+    "atomickiva.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "indiejs.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "www.dissociatedpress.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "anarchogeek.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "grant-richmond.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "martinsgraphic.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "srcr.nl": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "known.schwenzel.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "richardbrammer.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.189
+    },
+    "mxuribe.com": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.183
+    },
+    "boghop.com": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.183
+    },
+    "readwriterespond.com": {
+      "in": {
+        "other": 6
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.176
+    },
+    "reitnauer.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.176
+    },
+    "aheadrobot.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.176
+    },
+    "techdesignpsych.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "mrshll.uk": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.176
+    },
+    "esham.io": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.176
+    },
+    "almereyda.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.176
+    },
+    "zambaldi.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.176
+    },
+    "commentpara.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.176
+    },
+    "orbific.com": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.176
+    },
+    "jenniferenglund.net": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.176
+    },
+    "virtkick.io": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.176
+    },
+    "littlemisadventuretime.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.176
+    },
+    "noahread.net": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "lettuceshare.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.176
+    },
+    "amberwilson.co.uk": {
+      "in": {
+        "other": 6
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.176
+    },
+    "www.taksrud.net": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.168
+    },
+    "jorge.at.anteris.net": {
+      "in": {
+        "other": 7
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.168
+    },
+    "lence.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "seanconnell.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "walkmyworld2016.jgregorymcverry.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "dosch.it": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "jboy.us": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "tjvanslyke.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.eidenschink.eu": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "strk.kbt.io": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.burntfen.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.ike.io": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "hnz.io": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "ryandc.wordpress.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "timklapdor.wordpress.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.bakera.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.savethis.space": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "inane.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.stereoartist.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "jgerhold.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "rchrd.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.grzbielok.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "creation.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "kevinyank.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.tyler.cat": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "2012.aaronparecki.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "blog.joschmidt.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "larryhalff.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "markos.gaivo.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "pilchernet.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "mikirk.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "baer.works": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "elsif.fr": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "oliver.gutperl.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "akraland.eu": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "personandplace.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "pilch.me": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "timburks.me": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "dool.in": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "kim.gorzilla.co.uk": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "pants.morgvom.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.danieldemmel.me": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "bmann.ca": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "elliotdickison.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "jpreardon.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "jdmcnicholas.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "coreypein.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "micrypt.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "fourtonfish.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "pniedzielski.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "solomonkinard.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "webdesign.weisshart.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "marcjenkins.co.uk": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "reddoric.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.reichert.io": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "amblin.io": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "blog.jonudell.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "epfafenrot.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "joelpurra.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "jonathanprozzi.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.clintpatty.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "marcoraaphorst.nl": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "jacobmiles.withknown.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "known.cphyc.me": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "tobiastom.name": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.walterjessen.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "headcrash.ascraeus.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.bielinski.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.saschareeka.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "hillelarnold.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "io.donbain.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "hofweber.se": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "gorzilla.co.uk": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "launch.orbit.do": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "moisesdeniz.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "aexoxea.id.au": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "isabelanastasa.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "lmjabreu.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "michael.limiero.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "samharrelson.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.ftrain.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.jaywong.co": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "dissociatedpress.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "michael.silverton.palo-alto.ca.us": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "grantmorrison.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "jefflarkin.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "hardergeneration.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "yasuhisa.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "liamkavanagh.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "dhornbein.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "hupili.github.io": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "saschareeka.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.epiphanydigest.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "benmichel.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "jc00ke.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "championix.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.hennevogel.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.sevilturner.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "billbennett.co.nz": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "jml.is": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "michaelw.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "portfolio.toolness.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "rtaibah.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "ruk.ca": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "ti.gt": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "caitlingannon.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "holdingbay.co.uk": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.krautsource.info": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "francescoboffa.com": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.159
+    },
+    "yatil.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "randalmatheny.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "annbass.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "mohitgupta.me": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "antipolar.tumblr.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "chawathe.iprocess.firm.in": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "developers.geoloqi.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "timkrins.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.nightlight.ws": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "daveredfern.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.149
+    },
+    "ryagas.me": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.149
+    },
+    "hwc.brussels": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.137
+    },
+    "pauljacobson.me": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.137
+    },
+    "blog.creation.net": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.137
+    },
+    "faire.soule-reeves.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.137
+    },
+    "www.darkglass.org": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.137
+    },
+    "www.raretrack.uk": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.137
+    },
+    "www.jakewilkins.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.137
+    },
+    "www.793kmrhein.net": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.137
+    },
+    "developers.arcgis.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.137
+    },
+    "earthbound.io": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.137
+    },
+    "gkbrk.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.137
+    },
+    "pixelroiber.de": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.123
+    },
+    "idallas.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.123
+    },
+    "benclark.studio": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.123
+    },
+    "www.rossgoodman.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "alex.caro.us": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "acti.link": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "auth.sanchitkarve.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "danielindqvist.withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "nullroute.eu.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "thraxil.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.timapple.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "cogdogblog.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "kaipahl.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "leibniz.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "blog.unclenate.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "jasrandal.withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "tonyfleming.withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "freze.it": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "need.computer": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "daiyi.co": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "hanni.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "punkworks.wordpress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "alexhartley.withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "hylozoist.ascraeus.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "leoville.withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "isabelforester.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "isgeek.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "treora.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.androidbuffet.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.markwunsch.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "c.micro.blog": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "fabianmichael.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "html5test.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "altabor.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "amygdala.machinespirit.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "inoxygen.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "pitchdesignunion.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "rhizo15.jgregorymcverry.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "emmakarayiannis.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "j0n.se": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.chreekat.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.mathewingram.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "eric-zieger.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "hoos.spadial.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "jesselisser.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "known.johnj.info": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "offray.withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "alex-cio.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.gibberish.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "ascher.ca": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "jjb.cc": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "mediablends.withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "new.aaronparecki.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "dirkdoering.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "independentpublisher.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "maban.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.kunimiya.info": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "jessman5.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "known.matthias.welling.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.vellosa.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "andrewwoods.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "jp.dune.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "social.kovenjsmith.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.joshrussell.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "blok.tiyun.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "resources.arcgis.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "ricm.ac": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "averymiller.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "blog.kenbauer.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "lynncyrin.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.kickflop.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "community.geoloqi.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.comandich.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "aoeu.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "hpincket.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "ownyourcheckin.wirres.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "ahmetmert.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "blog.feez.xyz": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "josephratliff.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "exploratori.us": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "simon.withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "clneagu.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "dybskiy.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "lispel.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.okcinfo.news": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "halfanhour.blogspot.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "t73f.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "itskevin.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "rlskoeser.github.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "jameswheaton.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "known.georgkaser.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "lunamoth.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "povu.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.evgenykuznetsov.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "blog.bindthis.cc": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "nicola.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "adhipg.in": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "clmooc.jgregorymcverry.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "comandich.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "davewiner.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "timapple.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "bergie.iki.fi": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "bkf.withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "lukasbestle.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "memolot.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "milkmiruku.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.edpatonwilliams.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.psyhigh.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "maegashira.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.vanoverhill.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "megaphone.geeb.us": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "websub.rocks": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "line-mode.cern.ch": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "paulmeyers.ca": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "reichert.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.erskine.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.mylesbyrne.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.toolness.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "glow.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "josephboyle.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "progrium.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.erskine.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "eliduke.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "gelatindesign.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "antoniojesus.spadial.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "garradkiss.tk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "unmung.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "zetacentauri.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "danielpietzsch.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "dracos.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "prlbr.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.garradkiss.tk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.glenux.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.jsdr.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "jakewilkins.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "polytechnic.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "brianflagg.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "leonieke.eu": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "macbodachland.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "jonathan.garbee.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "stream.jaduncan.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "another.ink": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "known.npdoty.name": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "pfefferle.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.jorgee.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "bischoff.media": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "compass.p3k.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "known.0x539.se": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.andigalpern.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "www.isgeek.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "artlung.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.0840
+    },
+    "rene.tk": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0529
+    },
+    "www.obscuritus.ca": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0529
+    },
+    "inhji.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0529
+    },
+    "mark.beech.org.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0529
+    },
+    "microformats.io": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0529
+    },
+    "aegibson.me": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0529
+    },
+    "perlkonig.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0529
+    },
+    "known.mattchamlee.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0529
+    },
+    "jj.isgeek.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0529
+    },
+    "www.simongriffee.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0529
+    },
+    "chegalabonga.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0529
+    },
+    "www.bret.io": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "plasisent.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.richardcarls.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.futurehosting.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "hugo.soucy.cc": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.hayescreative.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.ogok.de": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "nicola.withknown.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "masoud.abkenar.net": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.eranmeir.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "blog.simonwood.info": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

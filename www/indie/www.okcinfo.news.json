@@ -1,0 +1,101 @@
+{
+  "domain": "www.okcinfo.news",
+  "urls": [
+    "http://www.okcinfo.news/"
+  ],
+  "names": [
+    "Verdict : Guilty ! Secte OKC aka Ogyen Kunzang Choling Spatzisme: une dérive sectaire nuisible déguisé en \"Bouddhisme Tibétain\"",
+    "#OKCinfo"
+  ],
+  "descriptions": [
+    "#okcinfo was a project to jail Robert Spatz alias Lama Kunzang for the crimes of sexual abuse, paedophilia, torture & mental abuse. "
+  ],
+  "pictures": [
+    "http://www.okcinfo.news/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T08:12:16",
+  "crawl_end": "2017-04-30T08:30:30",
+  "num_pages": 901,
+  "total_html_size": 47395025,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-cite",
+    "h-event",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.okcinfo.news/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 7514,
+  "links_in": 76,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 901
+      },
+      "score": 0.932
+    },
+    "www.indignez-vous.be": {
+      "out": {
+        "other": 66
+      },
+      "score": 0.606
+    },
+    "www.rmendes.net": {
+      "out": {
+        "other": 41
+      },
+      "in": {
+        "other": 41
+      },
+      "score": 0.598
+    },
+    "brid.gy": {
+      "in": {
+        "other": 28
+      },
+      "score": 0.414
+    },
+    "www.euwatch.eu": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.373
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.173
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0861
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

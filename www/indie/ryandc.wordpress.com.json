@@ -1,0 +1,100 @@
+{
+  "domain": "ryandc.wordpress.com",
+  "urls": [
+    "https://ryandc.wordpress.com/"
+  ],
+  "names": [
+    "(no title)"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://s2.wp.com/i/favicon.ico",
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T02:09:55",
+  "crawl_end": "2017-04-30T02:10:01",
+  "num_pages": 10,
+  "total_html_size": 338131,
+  "servers": [
+    "nginx",
+    "WordPress.com"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.brid.gy/webmention/wordpress"
+    ],
+    "micropub": [
+      "https://silo.pub/micropub"
+    ],
+    "authorization": [
+      "https://silo.pub/indieauth"
+    ],
+    "token": [
+      "https://silo.pub/token"
+    ]
+  },
+  "links_out": 240,
+  "links_in": 48,
+  "links": {
+    "silo.pub": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.962
+    },
+    "brid.gy": {
+      "in": {
+        "other": 31
+      },
+      "score": 0.807
+    },
+    "known.kylewm.com": {
+      "in": {
+        "in-reply-to": 6
+      },
+      "score": 0.8
+    },
+    "kylewm.com": {
+      "in": {
+        "in-reply-to": 2,
+        "other": 2
+      },
+      "score": 0.584
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.421
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.327
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.163
+    }
+  }
+}

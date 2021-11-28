@@ -1,0 +1,175 @@
+{
+  "domain": "mabulledu.net",
+  "urls": [
+    "https://mabulledu.net/"
+  ],
+  "names": [
+    "Bienvenue dans ma bulle du net"
+  ],
+  "descriptions": [
+    "Site/blog perso (développement et expérimentations) compatible selon les principes de l'IndieWeb."
+  ],
+  "pictures": [
+    "https://mabulledu.net/uploads/2017/05/cropped-IMG_20170422_172310-1-32x32.jpg",
+    "https://mabulledu.net/uploads/2017/05/cropped-IMG_20170422_172310-1-192x192.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://mastodon.social/@nicolascluz",
+    "https://plus.google.com/112715802070079781160",
+    "https://twitter.com/nicolascluz",
+    "https://www.instagram.com/nicolascluz",
+    "https://github.com/nicolascluz",
+    "https://framasphere.org/people/ed03c3c0676e013349b22a0000053625"
+  ],
+  "crawl_start": "2017-04-29T14:39:54",
+  "crawl_end": "2017-04-29T15:02:00",
+  "num_pages": 474,
+  "total_html_size": 21429633,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-as-page",
+    "h-as-bookmark",
+    "h-as-article",
+    "h-as-video",
+    "h-feed",
+    "h-as-image",
+    "h-card",
+    "h-as-note",
+    "h-entry",
+    "h-as-audio"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://mabulledu.net/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://mabulledu.net/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 9229,
+  "links_in": 144,
+  "links": {
+    "notiz.blog": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 474
+      },
+      "score": 0.794
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 30
+      },
+      "out": {
+        "other": 271
+      },
+      "score": 0.735
+    },
+    "xtof.withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "in-reply-to": 34
+      },
+      "score": 0.597
+    },
+    "webmention.rocks": {
+      "out": {
+        "in-reply-to": 2,
+        "like-of": 18,
+        "other": 23,
+        "repost-of": 1
+      },
+      "score": 0.575
+    },
+    "stream.boffosocko.com": {
+      "out": {
+        "other": 12,
+        "like-of": 6
+      },
+      "in": {
+        "other": 8
+      },
+      "score": 0.466
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 26
+      },
+      "out": {
+        "other": 10
+      },
+      "score": 0.443
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "like-of": 5,
+        "other": 11
+      },
+      "score": 0.433
+    },
+    "ncollig.net": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "like-of": 4
+      },
+      "score": 0.347
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 17
+      },
+      "score": 0.328
+    },
+    "www.leoville.net": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "other": 3
+      },
+      "score": 0.306
+    },
+    "brid.gy": {
+      "in": {
+        "other": 13
+      },
+      "score": 0.296
+    },
+    "christopheducamp.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.287
+    },
+    "t37.net": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.207
+    }
+  }
+}

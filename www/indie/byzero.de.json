@@ -1,0 +1,108 @@
+{
+  "domain": "byzero.de",
+  "urls": [
+    "http://byzero.de/"
+  ],
+  "names": [
+    "byzero.de | convenience for nothin",
+    "byzero.de"
+  ],
+  "descriptions": [
+    "convenience for nothin"
+  ],
+  "pictures": [
+    "http://www.gravatar.com/avatar/e0f2fe9176be5fafc6669a186f40c671?s=16",
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/muhh",
+    "https://plus.google.com/+MarkusHeurung",
+    "https://twitter.com/muhh",
+    "sms:+491791025659"
+  ],
+  "crawl_start": "2017-04-28T02:19:48",
+  "crawl_end": "2017-04-28T02:34:39",
+  "num_pages": 486,
+  "total_html_size": 11408712,
+  "servers": [
+    "cloudflare-nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-article",
+    "h-card",
+    "h-feed",
+    "h-as-image",
+    "h-entry",
+    "h-as-page",
+    "h-as-note",
+    "h-as-bookmark",
+    "h-as-video"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://byzero.de/wp-json/webmention/1.0/endpoint"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 8579,
+  "links_in": 160,
+  "links": {
+    "notizblog.org": {
+      "out": {
+        "other": 970
+      },
+      "score": 1
+    },
+    "wirres.net": {
+      "in": {
+        "other": 96,
+        "like-of": 32
+      },
+      "out": {
+        "other": 17
+      },
+      "score": 0.696
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.431
+    },
+    "brid.gy": {
+      "in": {
+        "other": 13
+      },
+      "score": 0.338
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.275
+    },
+    "yatil.de": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.258
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.184
+    }
+  }
+}

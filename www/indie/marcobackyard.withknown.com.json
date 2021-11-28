@@ -1,0 +1,60 @@
+{
+  "domain": "marcobackyard.withknown.com",
+  "urls": [
+    "http://marcobackyard.withknown.com/"
+  ],
+  "names": [
+    "MarcoBackyard"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://marcobackyard.withknown.com/file/b50f940652188c383f8de844cf82fa87"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T14:42:31",
+  "crawl_end": "2017-04-29T14:46:48",
+  "num_pages": 359,
+  "total_html_size": 9872867,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://marcobackyard.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1697,
+  "links_in": 9,
+  "links": {
+    "blog.kenbauer.me": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.464
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.321
+    }
+  }
+}

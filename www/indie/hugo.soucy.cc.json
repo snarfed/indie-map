@@ -1,0 +1,151 @@
+{
+  "domain": "hugo.soucy.cc",
+  "urls": [
+    "http://hugo.soucy.cc",
+    "http://hugo.soucy.cc/"
+  ],
+  "names": [
+    "Hugo Soucy",
+    "Hugo Soucy, dÃ©veloppeur Web frontend qui habite la ville de QuÃ©bec, et ceci est sa page Web — hugo.soucy.cc"
+  ],
+  "descriptions": [
+    "Dans ma soupe je vois le FLOSS, l'IndieWeb, le Peer-to-peer, Emacs, Bash, ownCloud, le JavaScript, la politique sans les politiciens, la lecture, le vÃ©lo et les sandwichs",
+    "DÃ©veloppeur Web frontend ayant presque de 15 ans d'expÃ©rience dans le milieu des technologies de l'information. Il habite dans le quartier Limoilou Ã  QuÃ©bec."
+  ],
+  "pictures": [
+    "http://assets.soucy.cc/images/hugosoucy/hs-automne-2012-372x430.jpg",
+    "http://assets.soucy.cc/images/hugosoucy/favicon/hs-autoportrait-2010-nb-favion-32x32.png"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "hugo@soucy.cc"
+      ],
+      "job-title": [
+        "DÃ©veloppeur Web frontend"
+      ],
+      "locality": [
+        "QuÃ©bec"
+      ],
+      "name": [
+        "Hugo Soucy"
+      ],
+      "nickname": [
+        "hs0ucy"
+      ],
+      "note": [
+        "Dans ma soupe je vois le FLOSS, l'IndieWeb, le Peer-to-peer, Emacs, Bash, ownCloud, le JavaScript, la politique sans les politiciens, la lecture, le vÃ©lo et les sandwichs"
+      ],
+      "photo": [
+        "http://assets.soucy.cc/images/hugosoucy/hs-automne-2012-372x430.jpg"
+      ],
+      "url": [
+        "http://hugo.soucy.cc"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://shr.soucy.cc/",
+    "https://bandcamp.com/hs0ucy",
+    "https://framasphere.org/u/hs0ucy",
+    "http://twitter.com/hs0ucy",
+    "https://github.com/hs0ucy",
+    "sms:+15819966481",
+    "http://hugo.soucy.cc",
+    "mailto:hugo@soucy.cc"
+  ],
+  "crawl_start": "2017-04-28T23:33:31",
+  "crawl_end": "2017-04-28T23:34:08",
+  "num_pages": 65,
+  "total_html_size": 344537,
+  "servers": [
+    "Apache (Debian)",
+    "FakeStache SSG"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-cite",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.herokuapp.com/api/webmention"
+    ]
+  },
+  "links_out": 178,
+  "links_in": 43,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 23
+      },
+      "out": {
+        "other": 45
+      },
+      "score": 1
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "in-reply-to": 3
+      },
+      "score": 0.573
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.378
+    },
+    "www.rmendes.net": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.294
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "soucy.cc": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "werd.io": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.294
+    },
+    "known.networkeffects.ca": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.147
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "mention-tech.appspot.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

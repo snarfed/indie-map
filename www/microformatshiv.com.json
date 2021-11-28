@@ -1,0 +1,404 @@
+{
+  "domain": "microformatshiv.com",
+  "urls": [
+    "http://glennjones.net/"
+  ],
+  "names": [
+    "Glenn Jones",
+    "microformat-shiv"
+  ],
+  "descriptions": [
+    "microformat-shiv - A cross browser javascript microformats parser"
+  ],
+  "pictures": [
+    "http://microformatshiv.com/images/logo16.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Glenn Jones"
+      ],
+      "url": [
+        "http://glennjones.net/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://glennjones.net/"
+  ],
+  "crawl_start": "2017-06-07T17:36:28",
+  "crawl_end": "2017-06-07T17:36:42",
+  "num_pages": 21,
+  "total_html_size": 143809,
+  "servers": [],
+  "mf2_classes": [
+    "h-news",
+    "h-entry",
+    "h-adr",
+    "h-event",
+    "h-product",
+    "h-geo",
+    "h-review",
+    "h-resume",
+    "h-recipe",
+    "h-card",
+    "h-review-aggregate"
+  ],
+  "tags": [
+    "relme",
+    "tool"
+  ],
+  "endpoints": {},
+  "links_out": 503,
+  "links_in": 423,
+  "links": {
+    "notiz.blog": {
+      "in": {
+        "other": 220
+      },
+      "score": 1
+    },
+    "adactio.com": {
+      "in": {
+        "bookmark-of": 40
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.818
+    },
+    "microformats.org": {
+      "out": {
+        "other": 33
+      },
+      "score": 0.777
+    },
+    "glennjones.net": {
+      "in": {
+        "other": 5
+      },
+      "out": {
+        "other": 23
+      },
+      "score": 0.729
+    },
+    "extensions.html": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.711
+    },
+    "code.html": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.711
+    },
+    "h-adr.html": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.711
+    },
+    "github.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.701
+    },
+    "license.html": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.694
+    },
+    "jothut.com": {
+      "in": {
+        "other": 39
+      },
+      "score": 0.679
+    },
+    "editor.html": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.675
+    },
+    "h-review.html": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.675
+    },
+    "h-news.html": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.675
+    },
+    "h-resume.html": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.675
+    },
+    "changelog.html": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.675
+    },
+    "h-event.html": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.675
+    },
+    "h-review-aggregate.html": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.675
+    },
+    "h-product.html": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.675
+    },
+    "index.html": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.675
+    },
+    "rel.html": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.675
+    },
+    "h-entry.html": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.675
+    },
+    "h-geo.html": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.675
+    },
+    "xfn.html": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.675
+    },
+    "h-recipe.html": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.675
+    },
+    "compatibility.html": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.675
+    },
+    "h-card.html": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.675
+    },
+    "barryfrost.com": {
+      "in": {
+        "other": 34
+      },
+      "score": 0.655
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 22
+      },
+      "score": 0.573
+    },
+    "waterpigs.co.uk": {
+      "in": {
+        "other": 21
+      },
+      "score": 0.564
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 17
+      },
+      "score": 0.525
+    },
+    "barryf.uk": {
+      "in": {
+        "other": 15
+      },
+      "score": 0.503
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.427
+    },
+    "tantek.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 5
+      },
+      "score": 0.408
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.258
+    },
+    "www.codacy.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.258
+    },
+    "travis-ci.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.258
+    },
+    "coveralls.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.258
+    },
+    "andybudd.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.129
+    },
+    "www.webfoundation.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.129
+    },
+    "veganstraightedge.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.129
+    },
+    "creativecommons.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.129
+    },
+    "lanyrd.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.129
+    },
+    "twitter.com/glennjones": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.129
+    },
+    "jameswragg.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.129
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.129
+    },
+    "www.slideshare.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.129
+    },
+    "www.raspberrypi.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.129
+    },
+    "delicious.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.129
+    },
+    "plus.google.com/u": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.129
+    },
+    "www.madgex.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.129
+    },
+    "madgex.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.129
+    },
+    "asyncjs.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.129
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.129
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "snarfed.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

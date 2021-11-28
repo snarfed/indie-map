@@ -1,0 +1,65 @@
+{
+  "domain": "robludwick.withknown.com",
+  "urls": [
+    "http://robludwick.withknown.com/"
+  ],
+  "names": [
+    "Unknown Knowns"
+  ],
+  "descriptions": [
+    "Random writing scrawled on the wall."
+  ],
+  "pictures": [
+    "https://robludwick.withknown.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T02:07:52",
+  "crawl_end": "2017-04-30T02:11:26",
+  "num_pages": 229,
+  "total_html_size": 5408276,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://robludwick.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://robludwick.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://robludwick.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://robludwick.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 683,
+  "links_in": 12,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.437
+    }
+  }
+}

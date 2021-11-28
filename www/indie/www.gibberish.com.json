@@ -1,0 +1,66 @@
+{
+  "domain": "www.gibberish.com",
+  "urls": [
+    "http://www.gibberish.com/"
+  ],
+  "names": [
+    "Gibberish Dot Com"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "http://twitter.com/misuba",
+    "http://github.com/misuba"
+  ],
+  "crawl_start": "2017-04-30T06:31:19",
+  "crawl_end": "2017-04-30T06:31:24",
+  "num_pages": 12,
+  "total_html_size": 91832,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-entry",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IWS2017"
+  ],
+  "endpoints": {},
+  "links_out": 136,
+  "links_in": 13,
+  "links": {
+    "gibberish.com": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "other": 49
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.149
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.149
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

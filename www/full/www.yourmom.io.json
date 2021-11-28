@@ -1,0 +1,431 @@
+{
+  "domain": "www.yourmom.io",
+  "urls": [
+    "http://www.yourmom.io/"
+  ],
+  "names": [
+    "On docs, learning to code, and life"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/bradamant3",
+    "https://twitter.com/bradamante",
+    "https://www.linkedin.com/in/jenniferrondeau"
+  ],
+  "crawl_start": "2017-05-06T09:15:26",
+  "crawl_end": "2017-06-10T02:35:20",
+  "num_pages": 38,
+  "total_html_size": 1308714,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-article",
+    "h-entry",
+    "h-feed",
+    "h-as-page",
+    "h-as-note"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.yourmom.io/?webmention=endpoint"
+    ],
+    "micropub": [
+      "http://www.yourmom.io/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 507,
+  "links_in": 52,
+  "links": {
+    "twitter.com/Bradamante": {
+      "out": {
+        "other": 80
+      },
+      "score": 1
+    },
+    "aaronparecki.com": {
+      "in": {
+        "in-reply-to": 11,
+        "other": 7
+      },
+      "out": {
+        "in-reply-to": 8,
+        "other": 2
+      },
+      "score": 0.980
+    },
+    "twitter.com/bradamante": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.852
+    },
+    "notizblog.org": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.852
+    },
+    "github.com": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.852
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.852
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.852
+    },
+    "2016.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "out": {
+        "in-reply-to": 7
+      },
+      "score": 0.844
+    },
+    "twitter.com/plaindocs": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.717
+    },
+    "twitter.com/matt_gourd": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.717
+    },
+    "twitter.com/jaredmorgs": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.705
+    },
+    "apievangelist.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.656
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.545
+    },
+    "launchany.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.520
+    },
+    "tools.ietf.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.520
+    },
+    "launchany.us2.list-manage1.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.520
+    },
+    "www.ics.uci.edu": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.520
+    },
+    "www.programmableweb.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.520
+    },
+    "voxpop.co": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.520
+    },
+    "nordicapis.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.520
+    },
+    "www.stc-siliconvalley.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.520
+    },
+    "tinyletter.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.520
+    },
+    "twitter.com/APIEconomist": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.520
+    },
+    "microformats.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.520
+    },
+    "webapi.events": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.520
+    },
+    "apieconomist.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.520
+    },
+    "brid.gy": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.488
+    },
+    "twitter.com/apihandyman": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.409
+    },
+    "twitter.com/chrisjrn": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.409
+    },
+    "twitter.com/wiredferret": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.409
+    },
+    "twitter.com/NealKaplan": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.409
+    },
+    "twitter.com/meker": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.352
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.352
+    },
+    "kinlane.withknown.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.352
+    },
+    "twitter.com/joshsimmons": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.274
+    },
+    "twitter.com/rekiwi": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.274
+    },
+    "twitter.com/TheMikeJang": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.274
+    },
+    "twitter.com/DMStevens": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.274
+    },
+    "twitter.com/JackieKazil": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.274
+    },
+    "twitter.com/anindita_basu": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.274
+    },
+    "twitter.com/AzureApiMgmt": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.274
+    },
+    "twitter.com/AFresh1": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.274
+    },
+    "twitter.com/Heronymus": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.274
+    },
+    "twitter.com/bobwatsonphd": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.274
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.217
+    },
+    "twitter.com/yo_bj": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.136
+    },
+    "twitter.com/libel_vox": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.136
+    },
+    "jeena.net": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.136
+    },
+    "twitter.com/DoerrfeldBill": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.136
+    },
+    "twitter.com/CapitalOneDevEx": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.136
+    },
+    "twitter.com/restlet": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.136
+    },
+    "twitter.com/David_Spitz": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.136
+    },
+    "twitter.com/mgboydcom": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.136
+    },
+    "twitter.com/rbrtwnklr": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.136
+    },
+    "twitter.com/PChbx": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.136
+    },
+    "twitter.com/karen_meep": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.136
+    },
+    "twitter.com/ankinson": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.136
+    },
+    "twitter.com/jkriggins": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.136
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

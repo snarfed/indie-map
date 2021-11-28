@@ -1,0 +1,125 @@
+{
+  "domain": "io.schiessle.org",
+  "urls": [
+    "http://io.schiessle.org/"
+  ],
+  "names": [
+    "Network public timeline - GNU Social"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://io.schiessle.org/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T23:33:48",
+  "crawl_end": "2017-04-29T17:59:56",
+  "num_pages": 13383,
+  "total_html_size": 227941823,
+  "servers": [
+    "Apache (Debian)"
+  ],
+  "mf2_classes": [
+    "h-event",
+    "h-entry",
+    "h-card",
+    "h-feed"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention.io"
+  ],
+  "endpoints": {},
+  "links_out": 421109,
+  "links_in": 2449,
+  "links": {
+    "www.schiessle.org": {
+      "in": {
+        "other": 30
+      },
+      "out": {
+        "other": 53582
+      },
+      "score": 0.983
+    },
+    "loadaverage.org": {
+      "out": {
+        "other": 5099,
+        "repost-of": 7,
+        "in-reply-to": 176
+      },
+      "in": {
+        "in-reply-to": 201,
+        "repost-of": 23,
+        "other": 2194
+      },
+      "score": 0.817
+    },
+    "2muchin4mation.com": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.338
+    },
+    "aegibson.me": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.299
+    },
+    "singpolyma.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "hagen.cocoate.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "withknown.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "blog.indie.host": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.118
+    },
+    "joelpurra.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0587
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0587
+    },
+    "chromic.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0587
+    },
+    "mattl.us": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0587
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "domain": "www.milway.ca",
+  "urls": [
+    "http://www.milway.ca/"
+  ],
+  "names": [
+    "Dan Milway"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/thrilway",
+    "https://www.facebook.com/dan.milway/about",
+    "https://plus.google.com/+DanMilway/about",
+    "https://github.com/thrilway",
+    "https://milway.withknown.com"
+  ],
+  "crawl_start": "2017-06-10T02:28:53",
+  "crawl_end": "2017-06-10T02:28:53",
+  "num_pages": 1,
+  "total_html_size": 8161,
+  "servers": [
+    "GitHub.com",
+    "Bluefish"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "micropub": [
+      "https://milway.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://milway.withknown.com/indieauth/token"
+    ]
+  },
+  "links_out": 20,
+  "links_in": 12,
+  "links": {
+    "huffduffer.com": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.654
+    },
+    "werd.io": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.437
+    }
+  }
+}

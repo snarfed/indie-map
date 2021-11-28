@@ -1,0 +1,65 @@
+{
+  "domain": "michael.limiero.com",
+  "urls": [
+    "http://michael.limiero.com/"
+  ],
+  "names": [
+    "Michael Limiero"
+  ],
+  "descriptions": [
+    "This song has been a long time in the making. I wrote it over a year ago, in October and November 2014, but the core idea goes back years beyond …"
+  ],
+  "pictures": [
+    "https://michael.limiero.com/favicon.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://www.facebook.com/michael.limiero",
+    "https://twitter.com/michaellimiero",
+    "https://github.com/DeltaWhy",
+    "https://www.linkedin.com/in/michaellimiero"
+  ],
+  "crawl_start": "2017-04-29T21:31:43",
+  "crawl_end": "2017-04-29T21:32:02",
+  "num_pages": 27,
+  "total_html_size": 212649,
+  "servers": [
+    "Caddy"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.herokuapp.com/api/webmention"
+    ]
+  },
+  "links_out": 145,
+  "links_in": 15,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.538
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.340
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.169
+    }
+  }
+}

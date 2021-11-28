@@ -1,0 +1,97 @@
+{
+  "domain": "wortheimat.de",
+  "urls": [
+    "https://wortheimat.de/profile/wanderer",
+    "https://karijambo.de",
+    "http://www.twitter.com/karijambo"
+  ],
+  "names": [
+    "Kari Jambo",
+    "Oidaah pumpn muas's - geht scho - gemma voigas!",
+    "Wortheimat"
+  ],
+  "descriptions": [
+    "Egal. Ich lass das jetzt so.",
+    "Aufgefallen und notiert"
+  ],
+  "pictures": [
+    "https://wortheimat.de/gfx/users/default-05.png",
+    "https://wortheimat.de/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Kari Jambo"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Egal. Ich lass das jetzt so.</p>\n</div> ",
+          "value": "\nEgal. Ich lass das jetzt so.\n "
+        }
+      ],
+      "photo": [
+        "https://wortheimat.de/gfx/users/default-05.png"
+      ],
+      "profile": [
+        "Kari Jambo"
+      ],
+      "url": [
+        "https://wortheimat.de/profile/wanderer",
+        "https://wortheimat.de/profile/wanderer",
+        "https://karijambo.de",
+        "http://www.twitter.com/karijambo"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://karijambo.de",
+    "http://www.twitter.com/karijambo"
+  ],
+  "crawl_start": "2017-04-30T06:06:55",
+  "crawl_end": "2017-04-30T06:18:35",
+  "num_pages": 972,
+  "total_html_size": 18451938,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-event",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://wortheimat.de/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 3074,
+  "links_in": 5,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 972
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.213
+    }
+  }
+}

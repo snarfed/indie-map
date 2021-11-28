@@ -1,0 +1,122 @@
+{
+  "domain": "stream.nigelfish.com",
+  "urls": [
+    "http://stream.nigelfish.com/profile/nfish",
+    "https://www.facebook.com/nigel.fish",
+    "https://twitter.com/nigelfish",
+    "https://www.linkedin.com/in/fishnigel",
+    "https://plus.google.com/+NigelFish/",
+    "http://instagram.com/dphrag",
+    "http://16TTRq3VKip4iQ8d67j8wMveaTeUiXXjqU",
+    "https://www.strava.com/athletes/4476850",
+    "http://steamcommunity.com/id/dphrag/",
+    "https://github.com/dphrag"
+  ],
+  "names": [
+    "Nigel Fish",
+    "Nigel Fish Stream"
+  ],
+  "descriptions": [
+    "I am a web developer. I've done a bunch of stuff.. I think. Recently, launched a new pencilkings.com, and an energy visualization data analytics tool with Blue Terminal.\nCurrently living in Canada.\nI like running,\nI am a fan of Jebediah Kerman.",
+    "A stream of my social postings. Controlled by me. Not those other guys."
+  ],
+  "pictures": [
+    "http://stream.nigelfish.com/file/d17f581d11782c1d22c28cdb43f394c0/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Nigel Fish"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I am a web developer. I've done a bunch of stuff.. I think. Recently, launched a new <a href=\"https://pencilkings.com\">pencilkings.com</a>, and an energy visualization data analytics tool with Blue Terminal.</p>\n<p>Currently living in Canada.</p>\n<p>I like running,</p>\n<p>I am a fan of Jebediah Kerman. <img src=\"https://gp5.googleusercontent.com/-Lo_rC3x11j0/AAAAAAAAAAI/AAAAAAAAAAA/uG4b4TxPGjg/s48-c-k-no/photo.jpg\"/></p>\n</div>",
+          "value": "\nI am a web developer. I've done a bunch of stuff.. I think. Recently, launched a new pencilkings.com, and an energy visualization data analytics tool with Blue Terminal.\nCurrently living in Canada.\nI like running,\nI am a fan of Jebediah Kerman. \n"
+        }
+      ],
+      "photo": [
+        "http://stream.nigelfish.com/file/d17f581d11782c1d22c28cdb43f394c0/thumb.jpg"
+      ],
+      "profile": [
+        "Nigel Fish"
+      ],
+      "url": [
+        "http://stream.nigelfish.com/profile/nfish",
+        "http://stream.nigelfish.com/profile/nfish",
+        "https://www.facebook.com/nigel.fish",
+        "https://twitter.com/nigelfish",
+        "https://www.linkedin.com/in/fishnigel",
+        "https://plus.google.com/+NigelFish/",
+        "http://instagram.com/dphrag",
+        "http://16TTRq3VKip4iQ8d67j8wMveaTeUiXXjqU",
+        "https://www.strava.com/athletes/4476850",
+        "http://steamcommunity.com/id/dphrag/",
+        "https://github.com/dphrag"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://www.facebook.com/nigel.fish",
+    "https://twitter.com/nigelfish",
+    "https://www.linkedin.com/in/fishnigel",
+    "https://plus.google.com/+NigelFish/",
+    "http://instagram.com/dphrag",
+    "http://16TTRq3VKip4iQ8d67j8wMveaTeUiXXjqU",
+    "https://www.strava.com/athletes/4476850",
+    "http://steamcommunity.com/id/dphrag/",
+    "https://github.com/dphrag"
+  ],
+  "crawl_start": "2017-04-30T02:25:58",
+  "crawl_end": "2017-04-30T02:50:53",
+  "num_pages": 2688,
+  "total_html_size": 50571663,
+  "servers": [
+    "cloudflare-nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-geo",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://stream.nigelfish.com/webmention/"
+    ],
+    "micropub": [
+      "http://stream.nigelfish.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "http://stream.nigelfish.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 16147,
+  "links_in": 0,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 2688
+      },
+      "score": 1
+    }
+  }
+}

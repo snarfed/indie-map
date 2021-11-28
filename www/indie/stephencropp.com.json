@@ -1,0 +1,76 @@
+{
+  "domain": "stephencropp.com",
+  "urls": [
+    "http://stephencropp.com/"
+  ],
+  "names": [
+    "Just Steve"
+  ],
+  "descriptions": [
+    "A Place I Put Stuff"
+  ],
+  "pictures": [
+    "http://stephencropp.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/arandomsteve",
+    "https://plus.google.com/+StephenCroppNZ"
+  ],
+  "crawl_start": "2017-04-30T02:21:10",
+  "crawl_end": "2017-04-30T02:55:09",
+  "num_pages": 3322,
+  "total_html_size": 93776139,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://stephencropp.com/webmention/"
+    ],
+    "micropub": [
+      "http://stephencropp.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://stephencropp.com/indieauth/auth"
+    ],
+    "token": [
+      "http://stephencropp.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 11040,
+  "links_in": 2,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 3322
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0788
+    }
+  }
+}

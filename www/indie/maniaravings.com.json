@@ -1,0 +1,89 @@
+{
+  "domain": "maniaravings.com",
+  "urls": [
+    "https://maniaravings.com/"
+  ],
+  "names": [
+    "ManiaRavings.com – a blog about life, stuff, and everything else …",
+    "ManiaRavings.com"
+  ],
+  "descriptions": [
+    "a blog about life, stuff, and everything else ..."
+  ],
+  "pictures": [
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/maniaravings",
+    "https://github.com/jaffermaniar",
+    "https://alpha.app.net/jaffermaniar",
+    "https://facebook.com/jaffermaniar",
+    "https://www.linkedin.com/in/jaffermaniar",
+    "https://plus.google.com/+JafferManiar",
+    "http://www.goodreads.com/jaffermaniar",
+    "https://foursquare.com/user/36014",
+    "https://www.youtube.com/user/maniaravings",
+    "https://www.pinterest.com/maniaravings/",
+    "https://gravatar.com/jaffermaniar",
+    "http://weibo.com/JafferManiar"
+  ],
+  "crawl_start": "2017-06-09T18:28:34",
+  "crawl_end": "2017-06-09T18:28:36",
+  "num_pages": 3,
+  "total_html_size": 50965,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-as-article",
+    "h-entry",
+    "h-feed"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://maniaravings.com/md/?webmention=endpoint"
+    ],
+    "micropub": [
+      "https://maniaravings.com/md/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 7,
+  "links_in": 17,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 8
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.861
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.529
+    }
+  }
+}

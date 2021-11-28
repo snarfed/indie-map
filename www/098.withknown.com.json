@@ -1,0 +1,102 @@
+{
+  "domain": "098.withknown.com",
+  "urls": [
+    "https://098.withknown.com/profile/cero98",
+    "http://www.twitter.com/cer098"
+  ],
+  "names": [
+    "Leoardo Ramírez-Ordóñez",
+    "098"
+  ],
+  "descriptions": [
+    "Bibliotecólogo",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://098.withknown.com/gfx/users/default-02.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Leoardo Ramírez-Ordóñez"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Bibliotecólogo</p>\n</div>",
+          "value": "\nBibliotecólogo\n"
+        }
+      ],
+      "photo": [
+        "https://098.withknown.com/gfx/users/default-02.png"
+      ],
+      "profile": [
+        "Leoardo Ramírez-Ordóñez"
+      ],
+      "url": [
+        "https://098.withknown.com/profile/cero98",
+        "https://098.withknown.com/profile/cero98",
+        "http://www.twitter.com/cer098"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.twitter.com/cer098"
+  ],
+  "crawl_start": "2017-04-27T07:44:50",
+  "crawl_end": "2017-04-27T07:44:57",
+  "num_pages": 15,
+  "total_html_size": 278000,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://098.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 13,
+  "links_in": 6,
+  "links": {
+    "twitter.com/cer098": {
+      "out": {
+        "other": 9
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.619
+    },
+    "mutabit.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.481
+    },
+    "twitter.com/offrayLC": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.481
+    }
+  }
+}

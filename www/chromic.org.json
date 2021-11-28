@@ -1,0 +1,573 @@
+{
+  "domain": "chromic.org",
+  "urls": [
+    "https://chromic.org/index.php",
+    "//chromic.org/index.php"
+  ],
+  "names": [
+    "\r\n    \r\n      Stuff and Things – \r\n    \r\n    Chromic\r\n",
+    "Stuff and Things",
+    "Chromic"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://chromic.org/favicon.ico",
+    "https://chromic.org/favicon.png",
+    "//chromic.org/images/site-logo.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "mailto:chimo@chromic.org",
+    "http://twitter.com/chim0",
+    "http://github.com/chimo",
+    "http://sn.chromic.org/chimo"
+  ],
+  "crawl_start": "2017-04-23T23:28:41",
+  "crawl_end": "2017-04-24T00:54:16",
+  "num_pages": 39,
+  "total_html_size": 612701,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.chromic.org/chromic.org/webmention"
+    ],
+    "micropub": [
+      "https://micropub.chromic.org/micropub/main"
+    ],
+    "authorization": [
+      "https://auth.chromic.org/auth"
+    ],
+    "token": [
+      "https://tokens.chromic.org/token"
+    ],
+    "websub": [
+      "https://push.chromic.org"
+    ]
+  },
+  "links_out": 667,
+  "links_in": 52,
+  "links": {
+    "sn.chromic.org": {
+      "out": {
+        "other": 90
+      },
+      "score": 1
+    },
+    "f-droid.org": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.958
+    },
+    "github.com": {
+      "out": {
+        "other": 64
+      },
+      "score": 0.934
+    },
+    "code.chromic.org": {
+      "out": {
+        "other": 62
+      },
+      "score": 0.929
+    },
+    "media.chromic.org": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.854
+    },
+    "fm.chromic.org": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.844
+    },
+    "creativecommons.org": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.825
+    },
+    "twitter.com/chim0": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.825
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.690
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "other": 24
+      },
+      "score": 0.680
+    },
+    "pullet.chromic.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.613
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.595
+    },
+    "gnu.io": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.578
+    },
+    "gogs.io": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.534
+    },
+    "jekyllrb.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.534
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.478
+    },
+    "nextcloud.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.478
+    },
+    "sn.gunmonkeynet.net": {
+      "out": {
+        "like-of": 1,
+        "other": 3
+      },
+      "score": 0.443
+    },
+    "notenoughneon.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "like-of": 2
+      },
+      "score": 0.443
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.443
+    },
+    "loadaverage.org": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.424
+    },
+    "theru.xyz": {
+      "out": {
+        "other": 2,
+        "like-of": 1
+      },
+      "score": 0.401
+    },
+    "oracle.skilledtests.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.401
+    },
+    "cweiske.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.401
+    },
+    "git.gnu.io": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.401
+    },
+    "kylewm.com": {
+      "out": {
+        "like-of": 2
+      },
+      "score": 0.401
+    },
+    "blog.grobox.de": {
+      "out": {
+        "like-of": 2
+      },
+      "score": 0.401
+    },
+    "www.courier-mta.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.401
+    },
+    "kodi.tv": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.401
+    },
+    "cadams.ca": {
+      "out": {
+        "like-of": 2
+      },
+      "score": 0.401
+    },
+    "git-scm.herokuapp.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.401
+    },
+    "mediagoblin.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.401
+    },
+    "later.chromic.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.401
+    },
+    "www.ubnt.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.401
+    },
+    "marcthiele.com": {
+      "out": {
+        "like-of": 2
+      },
+      "score": 0.401
+    },
+    "wiki.gkbrk.com": {
+      "out": {
+        "like-of": 2
+      },
+      "score": 0.401
+    },
+    "search.chromic.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "gmail.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "www.trusteddomain.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "xray.chromic.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "linuxoutlaws.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "www.yourhtmlsource.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "mirakel.azapps.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "feeds.chromic.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "files.chromic.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "push.chromic.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "mademistakes.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "www.cyanogenmod.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "webmention.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "wallabag.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "sufficientlysecure.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "www.wallabag.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "help.dreamhost.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "linode.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "prosody.im": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "last.fm": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "www.raspberrypi.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "example.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "forum.xda-developers.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "www.opendkim.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "webmention.chromic.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "switchboard.p3k.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "minecraft.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "spamassassin.apache.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "davdroid.bitfire.at": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "posativ.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "avatars.chromic.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "auth.chromic.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "www.libravatar.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "dreamhost.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "foocorp.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "mail.chromic.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "searx.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "whird.jpope.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "roundcube.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "comments.chromic.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "www.openstreetmap.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "sourceforge.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "www.postfix.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "unrelenting.technology": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.212
+    },
+    "werd.io": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.134
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.134
+    },
+    "io.schiessle.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

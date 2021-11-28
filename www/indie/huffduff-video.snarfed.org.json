@@ -1,0 +1,93 @@
+{
+  "domain": "huffduff-video.snarfed.org",
+  "urls": [
+    "http://huffduff-video.snarfed.org/"
+  ],
+  "names": [
+    "huffduff-video"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-07T17:53:43",
+  "crawl_end": "2017-06-07T17:53:43",
+  "num_pages": 1,
+  "total_html_size": 1662,
+  "servers": [
+    "Apache (Amazon) OpenSSLk-fips mod_wsgi Python mod_perl Perl/v5.16.3"
+  ],
+  "tags": [
+    "bridgy",
+    "IRC",
+    "IWS2017",
+    "tool",
+    "webmention.io"
+  ],
+  "endpoints": {},
+  "links_out": 5,
+  "links_in": 208,
+  "links": {
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 32,
+        "other": 74
+      },
+      "score": 1
+    },
+    "adactio.com": {
+      "in": {
+        "other": 41
+      },
+      "score": 0.679
+    },
+    "davidjohnmead.com": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.484
+    },
+    "boffosocko.com": {
+      "in": {
+        "other": 13
+      },
+      "score": 0.469
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 13
+      },
+      "score": 0.469
+    },
+    "snarfed.org": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.403
+    },
+    "blog.davidjohnmead.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.295
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.295
+    },
+    "stream.jeremycherfas.net": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.127
+    },
+    "huffduffer.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.127
+    }
+  }
+}

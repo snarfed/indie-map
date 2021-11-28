@@ -1,0 +1,121 @@
+{
+  "domain": "teacup.p3k.io",
+  "urls": [
+    "http://teacup.p3k.io/"
+  ],
+  "names": [
+    "Teacup"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://teacup.p3k.io/images/teacup-16px.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T02:35:50",
+  "crawl_end": "2017-04-30T02:35:53",
+  "num_pages": 3,
+  "total_html_size": 17767,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-x-app"
+  ],
+  "tags": [
+    "bridgy",
+    "tool",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/aaronpk/webmention"
+    ]
+  },
+  "links_out": 14,
+  "links_in": 9249,
+  "links": {
+    "aaronparecki.com": {
+      "in": {
+        "other": 8541
+      },
+      "out": {
+        "other": 3
+      },
+      "score": 1
+    },
+    "indiewebcat.com": {
+      "in": {
+        "other": 622
+      },
+      "score": 0.710
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 39
+      },
+      "score": 0.404
+    },
+    "eddiehinkle.com": {
+      "in": {
+        "other": 25
+      },
+      "score": 0.356
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.292
+    },
+    "github.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.274
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.198
+    },
+    "telegraph.p3k.io": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.122
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0766
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0766
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0766
+    },
+    "tokens.indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0766
+    },
+    "micropub.net": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

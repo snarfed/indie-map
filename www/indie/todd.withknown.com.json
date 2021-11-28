@@ -1,0 +1,65 @@
+{
+  "domain": "todd.withknown.com",
+  "urls": [
+    "http://todd.withknown.com/"
+  ],
+  "names": [
+    "Todd"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://todd.withknown.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T02:54:46",
+  "crawl_end": "2017-04-30T02:55:38",
+  "num_pages": 47,
+  "total_html_size": 1062213,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://todd.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 199,
+  "links_in": 2,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 47
+      },
+      "score": 1
+    },
+    "scripting.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.733
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.153
+    }
+  }
+}

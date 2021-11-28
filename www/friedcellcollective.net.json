@@ -1,0 +1,83 @@
+{
+  "domain": "friedcellcollective.net",
+  "urls": [
+    "http://friedcell.si/"
+  ],
+  "names": [
+    "Marko MrdjenoviÄ",
+    "friedcell, also known as Marko MrdjenoviÄ"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {
+    "properties": {
+      "adr": [
+        {
+          "properties": {
+            "name": [
+              "Ljubljana, Slovenia"
+            ],
+            "url": [
+              "http://maps.google.com/maps?f=q&hl=en&geocode=&q=ljubljana,+slovenia&ie=UTF8&s=AARTsJqaLINrxFaNCwFuIdZTJ9lGFQbvJA&ll=46.078947,14.507446&spn=1.080238,2.359314&t=h&z=11&iwloc=addr"
+            ]
+          },
+          "type": [
+            "h-adr"
+          ],
+          "value": "Ljubljana, Slovenia"
+        }
+      ],
+      "name": [
+        "Marko MrdjenoviÄ"
+      ],
+      "url": [
+        "http://friedcell.si/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://github.com/friedcell",
+    "http://friedcell.si/",
+    "http://friedcell.si/outbreak/",
+    "https://twitter.com/friedcell",
+    "http://linkedin.com/in/friedcell",
+    "http://facebook.com/friedcell"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "crawl_start": "2017-06-11T14:52:52.894668",
+  "crawl_end": "2017-06-11T14:52:52.894668",
+  "links_out": 0,
+  "links_in": 471,
+  "links": {
+    "friedcell.si": {
+      "in": {
+        "other": 405
+      },
+      "score": 1
+    },
+    "adactio.com": {
+      "in": {
+        "other": 46
+      },
+      "score": 0.638
+    },
+    "markos.gaivo.net": {
+      "in": {
+        "other": 16
+      },
+      "score": 0.462
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.232
+    }
+  }
+}

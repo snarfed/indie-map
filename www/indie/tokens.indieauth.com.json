@@ -1,0 +1,91 @@
+{
+  "domain": "tokens.indieauth.com",
+  "urls": [
+    "http://tokens.indieauth.com/"
+  ],
+  "names": [
+    "IndieAuth Token Endpoint"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T02:55:41",
+  "crawl_end": "2017-04-30T02:55:41",
+  "num_pages": 1,
+  "total_html_size": 5082,
+  "servers": [
+    "nginx"
+  ],
+  "tags": [
+    "tool",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://webmention.io/aaronpk/webmention"
+    ]
+  },
+  "links_out": 7,
+  "links_in": 98,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 59
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 24
+      },
+      "score": 0.779
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 10
+      },
+      "score": 0.608
+    },
+    "ownyourgram.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.341
+    },
+    "quill.p3k.io": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.170
+    },
+    "snarfed.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.170
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.170
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.170
+    },
+    "teacup.p3k.io": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

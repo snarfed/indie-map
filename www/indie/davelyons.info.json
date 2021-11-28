@@ -1,0 +1,105 @@
+{
+  "domain": "davelyons.info",
+  "urls": [
+    "http://davelyons.info/profile/davesgonechina",
+    "http://mutantpalm.org",
+    "http://www.rectified.name",
+    "https://github.com/davesgonechina",
+    "http://cn.linkedin.com/in/davealyons"
+  ],
+  "names": [
+    "dave",
+    "Backpfeifengesicht",
+    "Bladorian Frankles"
+  ],
+  "descriptions": [
+    "yo.",
+    "where I'm at"
+  ],
+  "pictures": [
+    "http://davelyons.info/file/f1f3c834cb0f429153861f1f0efaaed6/thumb.jpg",
+    "http://davelyons.info/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "dave"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>yo.</p>\n</div>",
+          "value": "\nyo.\n"
+        }
+      ],
+      "photo": [
+        "http://davelyons.info/file/f1f3c834cb0f429153861f1f0efaaed6/thumb.jpg"
+      ],
+      "profile": [
+        "dave"
+      ],
+      "url": [
+        "http://davelyons.info/profile/davesgonechina",
+        "http://davelyons.info/profile/davesgonechina",
+        "http://mutantpalm.org",
+        "http://www.rectified.name",
+        "https://github.com/davesgonechina",
+        "http://cn.linkedin.com/in/davealyons"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://mutantpalm.org",
+    "http://www.rectified.name",
+    "https://github.com/davesgonechina",
+    "http://cn.linkedin.com/in/davealyons"
+  ],
+  "crawl_start": "2017-04-28T05:16:57",
+  "crawl_end": "2017-04-28T05:27:17",
+  "num_pages": 899,
+  "total_html_size": 24367010,
+  "servers": [
+    "Apache (Ubuntu)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://davelyons.info/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 6243,
+  "links_in": 25,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 899
+      },
+      "score": 1
+    },
+    "rational.agency": {
+      "in": {
+        "other": 25
+      },
+      "out": {
+        "other": 84
+      },
+      "score": 0.701
+    }
+  }
+}

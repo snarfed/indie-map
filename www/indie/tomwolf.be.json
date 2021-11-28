@@ -1,0 +1,138 @@
+{
+  "domain": "tomwolf.be",
+  "urls": [
+    "https://tomwolf.be/",
+    "https://twitter.com/super8trash"
+  ],
+  "names": [
+    "Tom Cesar Wolf",
+    "tom cesar wolf | ravings from the back room",
+    "tom cesar wolf"
+  ],
+  "descriptions": [
+    "ravings from the back room"
+  ],
+  "pictures": [
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Tom Cesar Wolf"
+      ],
+      "uid": [
+        "https://tomwolf.be/"
+      ],
+      "url": [
+        "https://tomwolf.be/",
+        "https://twitter.com/super8trash"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "sms:+32 495 944917",
+    "https://github.com/super8trash",
+    "https://twitter.com/super8trash",
+    "https://www.facebook.com/534129116",
+    "https://www.instagram.com/super8trash",
+    "https://tomwolf.bandcamp.com",
+    "https://soundcloud.com/tomwolf"
+  ],
+  "crawl_start": "2017-04-30T02:55:50",
+  "crawl_end": "2017-04-30T03:01:21",
+  "num_pages": 55,
+  "total_html_size": 1399999,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-page",
+    "h-card",
+    "h-entry",
+    "h-as-article",
+    "h-feed"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://tomwolf.be/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://tomwolf.be/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 662,
+  "links_in": 85,
+  "links": {
+    "www.tomwolf.be": {
+      "out": {
+        "other": 101
+      },
+      "score": 0.987
+    },
+    "stream.tomwolf.be": {
+      "out": {
+        "other": 55
+      },
+      "in": {
+        "other": 54
+      },
+      "score": 0.948
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 49
+      },
+      "score": 0.851
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 14
+      },
+      "score": 0.790
+    },
+    "brid.gy": {
+      "in": {
+        "other": 15
+      },
+      "out": {
+        "other": 5
+      },
+      "score": 0.599
+    },
+    "www.onebigfluke.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.428
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.129
+    }
+  }
+}

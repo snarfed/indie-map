@@ -1,0 +1,316 @@
+{
+  "domain": "gibberish.com",
+  "urls": [
+    "http://gibberish.com/"
+  ],
+  "names": [
+    "Mike Sugarbaker",
+    "Gibberish Dot Com"
+  ],
+  "descriptions": [
+    "Web developer"
+  ],
+  "pictures": [
+    "http://gibberish.com/gifs/colormisuba_400x400.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:misuba@gibberish.com"
+      ],
+      "name": [
+        "Mike Sugarbaker"
+      ],
+      "note": [
+        "Web developer"
+      ],
+      "photo": [
+        "http://gibberish.com/gifs/colormisuba_400x400.jpg"
+      ],
+      "url": [
+        "http://gibberish.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/misuba",
+    "http://github.com/misuba"
+  ],
+  "crawl_start": "2017-06-09T17:44:52",
+  "crawl_end": "2017-06-09T17:44:55",
+  "num_pages": 6,
+  "total_html_size": 44512,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IWS2017"
+  ],
+  "endpoints": {},
+  "links_out": 56,
+  "links_in": 134,
+  "links": {
+    "www.gibberish.com": {
+      "out": {
+        "other": 8
+      },
+      "in": {
+        "other": 49
+      },
+      "score": 1
+    },
+    "theha.us": {
+      "in": {
+        "other": 38
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.885
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 16
+      },
+      "score": 0.664
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "like-of": 6
+      },
+      "score": 0.595
+    },
+    "twitter.com/misuba": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.595
+    },
+    "github.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.595
+    },
+    "getpelican.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.552
+    },
+    "werd.io": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.429
+    },
+    "tilde.club": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.429
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.333
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.333
+    },
+    "storybythethroat.wordpress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.333
+    },
+    "kylewm.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.333
+    },
+    "known.kylewm.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.333
+    },
+    "ello.co": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.333
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.166
+    },
+    "www.w3.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "books.google.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "maps4html.github.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "rdfa.info": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "webcomponents.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "withknown.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "www.theguardian.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "www.newsweek.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "blocktogether.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "peanuts.wikia.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "twitter.com/webbedspace": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "microformats.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "www.forbes.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "air.mozilla.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "indiewebcamp.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.166
+    },
+    "www.thedailybeast.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "thinkagainmyfriend.show": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "www.theverge.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "www.feedicons.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "dashes.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "notenoughneon.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

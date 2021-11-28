@@ -1,0 +1,61 @@
+{
+  "domain": "businessenit.nl",
+  "urls": [
+    "http://businessenit.nl/"
+  ],
+  "names": [
+    "Business & IT"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://businessenit.nl/wp-content/themes/linen_pro/images/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T02:19:12",
+  "crawl_end": "2017-04-28T03:11:25",
+  "num_pages": 1562,
+  "total_html_size": 45711496,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://businessenit.nl/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 23802,
+  "links_in": 13,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.298
+    },
+    "cloudworks.nu": {
+      "out": {
+        "other": 3
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.258
+    },
+    "datacenterworks.nl": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.222
+    }
+  }
+}

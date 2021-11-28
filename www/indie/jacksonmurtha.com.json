@@ -1,0 +1,81 @@
+{
+  "domain": "jacksonmurtha.com",
+  "urls": [
+    "http://jacksonmurtha.com/"
+  ],
+  "names": [
+    "Jackson Murtha"
+  ],
+  "descriptions": [
+    "Demo Known POSSE site"
+  ],
+  "pictures": [
+    "http://jacksonmurtha.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T23:34:20",
+  "crawl_end": "2017-04-28T23:34:55",
+  "num_pages": 47,
+  "total_html_size": 1370449,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://jacksonmurtha.com/webmention/"
+    ],
+    "micropub": [
+      "http://jacksonmurtha.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://jacksonmurtha.com/indieauth/auth"
+    ],
+    "token": [
+      "http://jacksonmurtha.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 244,
+  "links_in": 5,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 47
+      },
+      "score": 1
+    },
+    "jxn.is": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.485
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.306
+    }
+  }
+}

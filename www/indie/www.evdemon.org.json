@@ -1,0 +1,214 @@
+{
+  "domain": "www.evdemon.org",
+  "urls": [
+    "http://www.evdemon.org/profile/jevdemon",
+    "http://twitter.com/jevdemon",
+    "https://www.linkedin.com/in/jevdemon",
+    "https://medium.com/@jevdemon",
+    "https://www.facebook.com/john.evdemon",
+    "http://google.com/+johnevdemon",
+    "https://ello.co/jevdemon",
+    "http://blogs.msdn.com/jevdemon",
+    "http://blog.looselycoupledthinking.com/",
+    "http://evdemon.cloud/content/posts/?_t=rss"
+  ],
+  "names": [
+    "John Evdemon",
+    "Loosely Coupled Thinking"
+  ],
+  "descriptions": [
+    "Web enthusiast, writer, editor, former standards wonk. Architect with Microsoft. Opinions on this site are my own and might disagree with those of my employer. jevdemon@acm.org",
+    "John Evdemon's Personal Place on the Web"
+  ],
+  "pictures": [
+    "http://www.evdemon.org/file/0aae61a0a8ce09d4b55c152a2baa5e13/thumb.png"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "jevdemon@acm.org"
+      ],
+      "name": [
+        "John Evdemon"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Web enthusiast, writer, editor, former standards wonk.<br/> Architect with Microsoft. <br/>Opinions on this site are my own and might disagree with those of my employer. <br/><a class=\"u-email hiddenTab\" rel=\"me\">jevdemon@acm.org</a></p>\n</div> ",
+          "value": "\nWeb enthusiast, writer, editor, former standards wonk. Architect with Microsoft. Opinions on this site are my own and might disagree with those of my employer. jevdemon@acm.org\n "
+        }
+      ],
+      "photo": [
+        "http://www.evdemon.org/file/0aae61a0a8ce09d4b55c152a2baa5e13/thumb.png"
+      ],
+      "profile": [
+        "John Evdemon"
+      ],
+      "url": [
+        "http://www.evdemon.org/profile/jevdemon",
+        "http://www.evdemon.org/profile/jevdemon",
+        "http://twitter.com/jevdemon",
+        "https://www.linkedin.com/in/jevdemon",
+        "https://medium.com/@jevdemon",
+        "https://www.facebook.com/john.evdemon",
+        "http://google.com/+johnevdemon",
+        "https://ello.co/jevdemon",
+        "http://blogs.msdn.com/jevdemon",
+        "http://blog.looselycoupledthinking.com/",
+        "http://evdemon.cloud/content/posts/?_t=rss"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/jevdemon",
+    "https://www.linkedin.com/in/jevdemon",
+    "https://medium.com/@jevdemon",
+    "https://www.facebook.com/john.evdemon",
+    "http://google.com/+johnevdemon",
+    "https://ello.co/jevdemon",
+    "http://blogs.msdn.com/jevdemon",
+    "http://blog.looselycoupledthinking.com/",
+    "http://evdemon.cloud/content/posts/?_t=rss",
+    "http://evdemon.org",
+    "http://www.evdemon.org/www.linkedin.com/in/jevdemon",
+    "http://www.evdemon.org/"
+  ],
+  "crawl_start": "2017-04-30T06:17:31",
+  "crawl_end": "2017-06-09T17:42:21",
+  "num_pages": 2115,
+  "total_html_size": 119768397,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-event",
+    "h-entry",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.evdemon.org/webmention/"
+    ],
+    "micropub": [
+      "http://www.evdemon.org/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://www.evdemon.org/indieauth/auth"
+    ],
+    "token": [
+      "http://www.evdemon.org/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 21605,
+  "links_in": 39,
+  "links": {
+    "scripting.com": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 162
+      },
+      "score": 0.696
+    },
+    "davewiner.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.498
+    },
+    "evdemon.org": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.482
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.475
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "in-reply-to": 4
+      },
+      "score": 0.446
+    },
+    "2016.indieweb.org": {
+      "out": {
+        "in-reply-to": 3
+      },
+      "score": 0.401
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "like-of": 7
+      },
+      "score": 0.364
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.292
+    },
+    "brid.gy": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.271
+    },
+    "withknown.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.271
+    },
+    "www.decentralizedweb.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.245
+    },
+    "kevinmarks.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.245
+    },
+    "quill.p3k.io": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.245
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.211
+    }
+  }
+}

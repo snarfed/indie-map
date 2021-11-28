@@ -1,0 +1,60 @@
+{
+  "domain": "black-puppydog.withknown.com",
+  "urls": [
+    "http://black-puppydog.withknown.com/"
+  ],
+  "names": [
+    "Some personal notes"
+  ],
+  "descriptions": [
+    "Stuff I find interesting and/or nice."
+  ],
+  "pictures": [
+    "https://black-puppydog.withknown.com/file/79dd304ccc52d4fc81ceecf97461e438/thumb.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T02:15:54",
+  "crawl_end": "2017-04-28T02:25:48",
+  "num_pages": 753,
+  "total_html_size": 16470681,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-cite",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://black-puppydog.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1614,
+  "links_in": 7,
+  "links": {
+    "www.kryogenix.org": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.547
+    },
+    "brid.gy": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.298
+    }
+  }
+}

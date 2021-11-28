@@ -1,0 +1,94 @@
+{
+  "domain": "ryagas.me",
+  "urls": [
+    "https://ryagas.me/",
+    "https://ryagas.me"
+  ],
+  "names": [
+    "Ryagas.me – This isn't even my final form!",
+    "Ryagas.me"
+  ],
+  "descriptions": [
+    "Mac fan, reader, anime, movie, and gaming otaku. Dreamhost tech support.",
+    "This isn't even my final form!",
+    "Mac fan, reader, anime, movie, and gaming otaku. Saber Guild Jedi. DreamHost Support QA."
+  ],
+  "pictures": [
+    "http://ryagas.me/wp-content/themes/cubic-wpcom/favicon.png",
+    "https://i0.wp.com/ryagas.me/wp-content/uploads/2013/09/cropped-cropped-wpid-523a75722b6181.38079940-1.jpg?fit=32%2C32&ssl=1",
+    "https://i0.wp.com/ryagas.me/wp-content/uploads/2013/09/cropped-cropped-wpid-523a75722b6181.38079940-1.jpg?fit=192%2C192&ssl=1"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://micro.blog/ryagas",
+    "https://twitter.com/ryagas",
+    "https://github.com/ryagas",
+    "https://plus.google.com/u/1/109438752658027010241",
+    "sms:+119099928289",
+    "mailto:me@ryancampbell.name",
+    "https://www.instagram.com/ryagas"
+  ],
+  "crawl_start": "2017-04-30T02:09:38",
+  "crawl_end": "2017-04-30T02:27:41",
+  "num_pages": 782,
+  "total_html_size": 28311226,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-as-note",
+    "h-as-reply",
+    "h-as-article",
+    "h-feed",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://ryagas.me/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://ryagas.me/?micropub=endpoint",
+      "http://ryagas.me/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 8689,
+  "links_in": 16,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 16
+      },
+      "score": 0.344
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.328
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.222
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "domain": "markmurfin.com",
+  "urls": [
+    "http://markmurfin.com/"
+  ],
+  "names": [
+    "Mark A. Murfin III"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/mmurfin87"
+  ],
+  "crawl_start": "2017-04-24T13:06:19",
+  "crawl_end": "2017-04-24T13:06:21",
+  "num_pages": 3,
+  "total_html_size": 7620,
+  "servers": [
+    "Apache (Ubuntu)"
+  ],
+  "tags": [
+    "relme",
+    "IRC",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "micropub": [
+      "http://markmurfin.com/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 4,
+  "links_in": 1133,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 744
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 389
+      },
+      "score": 0.902
+    }
+  }
+}

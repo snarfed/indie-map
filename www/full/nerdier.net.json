@@ -1,0 +1,96 @@
+{
+  "domain": "nerdier.net",
+  "urls": [
+    "http://nerdier.net/"
+  ],
+  "names": [
+    "Nerdier dot net"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://nerdier.net/gfx/users/default-03.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T21:31:59",
+  "crawl_end": "2017-04-29T21:32:23",
+  "num_pages": 22,
+  "total_html_size": 367447,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-cite"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://nerdier.net/webmention/"
+    ],
+    "micropub": [
+      "http://nerdier.net/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://nerdier.net/indieauth/auth"
+    ],
+    "token": [
+      "http://nerdier.net/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 43,
+  "links_in": 5,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 1
+    },
+    "www.withknown.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.794
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.608
+    },
+    "twitter.com/henrys25th": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.550
+    },
+    "brid.gy": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.426
+    },
+    "twitter.com/jb_henry": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.368
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "domain": "ownyourswarm.p3k.io",
+  "urls": [
+    "http://ownyourswarm.p3k.io/"
+  ],
+  "names": [
+    "OwnYourSwarm"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-07T17:36:29",
+  "crawl_end": "2017-06-07T17:36:30",
+  "num_pages": 6,
+  "total_html_size": 27158,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-entry"
+  ],
+  "tags": [
+    "tool",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/webmention/aaronpk"
+    ]
+  },
+  "links_out": 38,
+  "links_in": 1009,
+  "links": {
+    "aaronparecki.com": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 7,
+        "like-of": 1
+      },
+      "in": {
+        "other": 599
+      },
+      "score": 1
+    },
+    "cleverdevil.io": {
+      "in": {
+        "other": 278
+      },
+      "score": 0.872
+    },
+    "known.aegibson.me": {
+      "in": {
+        "other": 52
+      },
+      "score": 0.611
+    },
+    "eddiehinkle.com": {
+      "in": {
+        "other": 30
+      },
+      "score": 0.526
+    },
+    "aegibson.me": {
+      "in": {
+        "other": 26
+      },
+      "score": 0.505
+    },
+    "github.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.492
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 7
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.464
+    },
+    "itskevin.net": {
+      "in": {
+        "other": 16
+      },
+      "score": 0.429
+    },
+    "www.w3.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.277
+    },
+    "foursquare.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "swarmapp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.107
+    },
+    "microformats.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.107
+    },
+    "micropub.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.107
+    },
+    "developer.foursquare.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.107
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.107
+    }
+  }
+}

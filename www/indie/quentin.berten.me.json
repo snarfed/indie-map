@@ -1,0 +1,115 @@
+{
+  "domain": "quentin.berten.me",
+  "urls": [
+    "https://quentin.berten.me/profile/qb",
+    "http://www.facebook.com/#/quenbert",
+    "http://twitter.com/qberten",
+    "https://www.linkedin.com/in/quentin-berten-26801816"
+  ],
+  "names": [
+    "Quentin Berten",
+    "Quentin's little web corner"
+  ],
+  "descriptions": [
+    "Engineer, enthusiast Maker",
+    "QB's website"
+  ],
+  "pictures": [
+    "https://quentin.berten.me/file/85cc6c3d58add7941d17132f0d72340f/thumb.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Quentin Berten"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Engineer, enthusiast Maker</p>\n</div> ",
+          "value": "\nEngineer, enthusiast Maker\n "
+        }
+      ],
+      "photo": [
+        "https://quentin.berten.me/file/85cc6c3d58add7941d17132f0d72340f/thumb.png"
+      ],
+      "profile": [
+        "Quentin Berten"
+      ],
+      "url": [
+        "https://quentin.berten.me/profile/qb",
+        "https://quentin.berten.me/profile/qb",
+        "http://www.facebook.com/#/quenbert",
+        "http://twitter.com/qberten",
+        "https://www.linkedin.com/in/quentin-berten-26801816"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.facebook.com/#/quenbert",
+    "http://twitter.com/qberten",
+    "https://www.linkedin.com/in/quentin-berten-26801816"
+  ],
+  "crawl_start": "2017-04-30T02:03:37",
+  "crawl_end": "2017-04-30T02:04:58",
+  "num_pages": 81,
+  "total_html_size": 2352798,
+  "servers": [
+    "Apache (Debian)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://quentin.berten.me/webmention/"
+    ],
+    "micropub": [
+      "https://quentin.berten.me/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://quentin.berten.me/indieauth/auth"
+    ],
+    "token": [
+      "https://quentin.berten.me/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 633,
+  "links_in": 22,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 81
+      },
+      "score": 0.953
+    },
+    "brid.gy": {
+      "in": {
+        "other": 22
+      },
+      "score": 0.579
+    },
+    "standblog.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.431
+    }
+  }
+}

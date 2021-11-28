@@ -1,0 +1,44 @@
+{
+  "domain": "caitlingannon.com",
+  "urls": [
+    "http://caitlingannon.com/"
+  ],
+  "names": [
+    "Caitlin Gannon"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-09T17:34:30",
+  "crawl_end": "2017-06-09T17:34:30",
+  "num_pages": 1,
+  "total_html_size": 777,
+  "servers": [
+    "nginx"
+  ],
+  "tags": [],
+  "endpoints": {},
+  "links_out": 1,
+  "links_in": 10,
+  "links": {
+    "stream.withknown.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.499
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "domain": "www.pixelbande.de",
+  "urls": [
+    "http://www.pixelbande.de/"
+  ],
+  "names": [
+    "Pixelbande Webdesign - Gestaltung und Konzeption professioneller Webseiten in Detmold und Paderborn - Home"
+  ],
+  "descriptions": [
+    "Webdesign aus Detmold - Pixelbande Webdesign erstellt kreativ und professionell Ihren neuen Internetauftritt!"
+  ],
+  "pictures": [
+    "http://www.pixelbande.de/assets/images/favicon.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "http://instagram.com/Pixelbande",
+    "http://twitter.com/Pixelbande"
+  ],
+  "crawl_start": "2017-04-30T08:17:23",
+  "crawl_end": "2017-04-30T08:17:34",
+  "num_pages": 20,
+  "total_html_size": 107955,
+  "servers": [
+    "Apache"
+  ],
+  "tags": [
+    "relme",
+    "webmention.io",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.pixelbande.de/webmention"
+    ],
+    "micropub": [
+      "https://www.pixelbande.de/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 111,
+  "links_in": 2,
+  "links": {
+    "bastianallgeier.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.183
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.183
+    }
+  }
+}

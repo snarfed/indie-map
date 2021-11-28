@@ -1,0 +1,69 @@
+{
+  "domain": "lobpreiscamp.ostwind.zone",
+  "urls": [
+    "http://lobpreiscamp.ostwind.zone/"
+  ],
+  "names": [
+    "Lobpreiscamp"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T14:38:50",
+  "crawl_end": "2017-04-29T14:46:23",
+  "num_pages": 62,
+  "total_html_size": 2853912,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-feed"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://lobpreiscamp.ostwind.zone/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://lobpreiscamp.ostwind.zone/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 92,
+  "links_in": 7,
+  "links": {
+    "ostwind.zone": {
+      "out": {
+        "other": 11
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.691
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

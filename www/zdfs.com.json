@@ -1,0 +1,84 @@
+{
+  "domain": "zdfs.com",
+  "urls": [
+    "https://zdfs.com",
+    "https://zdfs.com/"
+  ],
+  "names": [
+    "Zachary Forrest y Salazar",
+    "zdfs.com",
+    "zdfs-com"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://www.gravatar.com/avatar/b89ef2190726b72f1060ce3e3e3799aa.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:zdfs@zdfs.com"
+      ],
+      "name": [
+        "Zachary Forrest y Salazar"
+      ],
+      "photo": [
+        "https://www.gravatar.com/avatar/b89ef2190726b72f1060ce3e3e3799aa.jpg"
+      ],
+      "url": [
+        "https://zdfs.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/zdfs",
+    "https://github.com/zdfs",
+    "https://zdfs.com"
+  ],
+  "crawl_start": "2017-05-06T10:02:46",
+  "crawl_end": "2017-05-06T10:02:46",
+  "num_pages": 1,
+  "total_html_size": 7242,
+  "servers": [
+    "Netlify"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/zdfs.com/webmention"
+    ]
+  },
+  "links_out": 2,
+  "links_in": 1,
+  "links": {
+    "github.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 1
+    },
+    "twitter.com/zdfs": {
+      "out": {
+        "other": 1
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

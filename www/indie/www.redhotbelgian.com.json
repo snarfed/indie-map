@@ -1,0 +1,110 @@
+{
+  "domain": "www.redhotbelgian.com",
+  "urls": [
+    "http://www.redhotbelgian.com/uk.linkedin.com/in/pauleechapman",
+    "http://www.redhotbelgian.com/profile/pauleec",
+    "https://twitter.com/pauleec",
+    "https://www.facebook.com/pauleec",
+    "http://uk.linkedin.com/in/pauleechapman"
+  ],
+  "names": [
+    "Paul Chapman",
+    "RedHotBelgian"
+  ],
+  "descriptions": [
+    "My profile.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://www.redhotbelgian.com/file/c3a47ec10ad26775a2606e4220dd069c",
+    "http://www.redhotbelgian.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Paul Chapman"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>My profile.</p>\n</div>",
+          "value": "\nMy profile.\n"
+        }
+      ],
+      "photo": [
+        "http://www.redhotbelgian.com/file/c3a47ec10ad26775a2606e4220dd069c"
+      ],
+      "profile": [
+        "Paul Chapman"
+      ],
+      "url": [
+        "http://www.redhotbelgian.com/uk.linkedin.com/in/pauleechapman",
+        "http://www.redhotbelgian.com/profile/pauleec",
+        "http://www.redhotbelgian.com/profile/pauleec",
+        "https://twitter.com/pauleec",
+        "https://www.facebook.com/pauleec",
+        "http://uk.linkedin.com/in/pauleechapman"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.redhotbelgian.com/uk.linkedin.com/in/pauleechapman",
+    "https://twitter.com/pauleec",
+    "https://www.facebook.com/pauleec",
+    "http://uk.linkedin.com/in/pauleechapman"
+  ],
+  "crawl_start": "2017-04-30T08:25:14",
+  "crawl_end": "2017-04-30T08:26:20",
+  "num_pages": 66,
+  "total_html_size": 1607349,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.redhotbelgian.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 414,
+  "links_in": 82,
+  "links": {
+    "redhotbelgian.com": {
+      "out": {
+        "other": 102
+      },
+      "in": {
+        "other": 55
+      },
+      "score": 1
+    },
+    "withknown.com": {
+      "out": {
+        "other": 66
+      },
+      "score": 0.878
+    },
+    "brid.gy": {
+      "in": {
+        "other": 27
+      },
+      "score": 0.594
+    }
+  }
+}

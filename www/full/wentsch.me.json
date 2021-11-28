@@ -1,0 +1,137 @@
+{
+  "domain": "wentsch.me",
+  "urls": [
+    "http://wentsch.me/"
+  ],
+  "names": [
+    "Daniel Wentsch – this, that, pineapple"
+  ],
+  "descriptions": [
+    "this, that, pineapple"
+  ],
+  "pictures": [
+    "https://i0.wp.com/wentsch.me/wp-content/uploads/2016/12/cropped-android-chrome-512x512-1.png?fit=32%2C32&ssl=1",
+    "https://i0.wp.com/wentsch.me/wp-content/uploads/2016/12/cropped-android-chrome-512x512-1.png?fit=192%2C192&ssl=1"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/klickreflex",
+    "https://github.com/klickreflex",
+    "https://www.instagram.com/klickreflex/",
+    "https://micro.blog/klickreflex"
+  ],
+  "crawl_start": "2017-06-17T06:19:00",
+  "crawl_end": "2017-06-17T06:20:26",
+  "num_pages": 62,
+  "total_html_size": 1435841,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://wentsch.me/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://wentsch.me/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 181,
+  "links_in": 0,
+  "links": {
+    "independentpublisher.me": {
+      "out": {
+        "other": 62
+      },
+      "score": 1
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 62
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.909
+    },
+    "micro.blog": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.515
+    },
+    "www.brid.gy": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.432
+    },
+    "www.klickreflex.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.144
+    },
+    "www.nimius.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.144
+    },
+    "mastodon.social": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.144
+    },
+    "www.instagram.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.144
+    },
+    "twitter.com/klickreflex": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.144
+    },
+    "signal.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.144
+    },
+    "links.wentsch.me": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.144
+    }
+  }
+}

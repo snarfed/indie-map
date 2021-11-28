@@ -1,0 +1,58 @@
+{
+  "domain": "trailmikks.withknown.com",
+  "urls": [
+    "http://trailmikks.withknown.com/"
+  ],
+  "names": [
+    "trailmikks"
+  ],
+  "descriptions": [
+    "Straßenstaub und Mückenstiche"
+  ],
+  "pictures": [
+    "https://trailmikks.withknown.com/file/e93d3fd3fe886c4f2224ccf320d7e469/thumb.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T03:01:01",
+  "crawl_end": "2017-04-30T03:01:07",
+  "num_pages": 12,
+  "total_html_size": 202966,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://trailmikks.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://trailmikks.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://trailmikks.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://trailmikks.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 0,
+  "links_in": 0,
+  "links": {}
+}

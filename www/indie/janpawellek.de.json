@@ -1,0 +1,73 @@
+{
+  "domain": "janpawellek.de",
+  "urls": [
+    "http://janpawellek.de/"
+  ],
+  "names": [
+    "Jan's Fabulous Travel Log"
+  ],
+  "descriptions": [
+    "Jan's Fabulous Travel Log"
+  ],
+  "pictures": [
+    "https://janpawellek.de/file/f35ef1fd72aa07643535d4e9c394e8e0/thumb.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T23:35:05",
+  "crawl_end": "2017-04-28T23:59:21",
+  "num_pages": 749,
+  "total_html_size": 22360256,
+  "servers": [
+    "Apache (CentOS)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-card",
+    "h-geo",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://janpawellek.de/webmention/"
+    ],
+    "micropub": [
+      "https://janpawellek.de/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://janpawellek.de/indieauth/auth"
+    ],
+    "token": [
+      "https://janpawellek.de/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 817,
+  "links_in": 11,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 749
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.328
+    }
+  }
+}

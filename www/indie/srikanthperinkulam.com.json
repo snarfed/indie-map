@@ -1,0 +1,167 @@
+{
+  "domain": "srikanthperinkulam.com",
+  "urls": [
+    "https://srikanthperinkulam.com/"
+  ],
+  "names": [
+    "Srikanth Perinkulam |",
+    "Srikanth Perinkulam"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://i2.wp.com/sriperi.s3.amazonaws.com/wp-content/uploads/2015/03/21012357/cropped-SP01-550afdebv1_site_icon.png?fit=32%2C32&ssl=1",
+    "https://i2.wp.com/sriperi.s3.amazonaws.com/wp-content/uploads/2015/03/21012357/cropped-SP01-550afdebv1_site_icon.png?fit=192%2C192&ssl=1"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/sriperinkulam",
+    "https://www.linkedin.com/in/srikanthperinkulam",
+    "https://www.facebook.com/srikanth.perinkulam",
+    "https://www.instagram.com/sriperinkulam/",
+    "https://www.instagram.com/sriperinkulam"
+  ],
+  "crawl_start": "2017-04-30T02:18:41",
+  "crawl_end": "2017-04-30T02:49:20",
+  "num_pages": 1066,
+  "total_html_size": 71977376,
+  "servers": [
+    "cloudflare-nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-image",
+    "h-as-reply",
+    "h-as-article",
+    "h-as-like",
+    "h-entry",
+    "h-as-bookmark",
+    "h-cite",
+    "h-feed",
+    "h-as-mention",
+    "h-card",
+    "h-as-note"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://srikanthperinkulam.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://srikanthperinkulam.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 11469,
+  "links_in": 191,
+  "links": {
+    "dougbeal.com": {
+      "in": {
+        "other": 68
+      },
+      "score": 0.486
+    },
+    "brid.gy": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 57
+      },
+      "score": 0.473
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 27
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.395
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1,
+        "other": 8
+      },
+      "out": {
+        "other": 5
+      },
+      "score": 0.345
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.333
+    },
+    "colinwalker.blog": {
+      "out": {
+        "like-of": 1,
+        "other": 1
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "boffosocko.com": {
+      "out": {
+        "other": 1,
+        "like-of": 2
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.276
+    },
+    "miklb.com": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.160
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.160
+    },
+    "david.shanske.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0797
+    },
+    "tantek.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0797
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0797
+    },
+    "srkn.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

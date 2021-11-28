@@ -1,0 +1,603 @@
+{
+  "domain": "jammy.co",
+  "urls": [
+    "https://jammy.co/profile/jammy",
+    "https://twitter.com/Jammy_Stuff",
+    "https://www.facebook.com/jwheatley"
+  ],
+  "names": [
+    "James Wheatley",
+    "Jammy's Blog"
+  ],
+  "descriptions": [
+    "Musings of a Software Engineer"
+  ],
+  "pictures": [
+    "https://jammy.co/file/54762d888e2ea1cb0f12b0c2d204ced9/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "James Wheatley"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "https://jammy.co/file/54762d888e2ea1cb0f12b0c2d204ced9/thumb.jpg"
+      ],
+      "profile": [
+        "James Wheatley"
+      ],
+      "url": [
+        "https://jammy.co/profile/jammy",
+        "https://jammy.co/profile/jammy",
+        "https://twitter.com/Jammy_Stuff",
+        "https://www.facebook.com/jwheatley"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/Jammy_Stuff",
+    "https://www.facebook.com/jwheatley"
+  ],
+  "crawl_start": "2017-04-28T23:35:01",
+  "crawl_end": "2017-04-28T23:36:42",
+  "num_pages": 97,
+  "total_html_size": 2830522,
+  "servers": [
+    "Apache (Ubuntu)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-geo",
+    "h-event",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://jammy.co/webmention/"
+    ],
+    "micropub": [
+      "https://jammy.co/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://jammy.co/indieauth/auth"
+    ],
+    "token": [
+      "https://jammy.co/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1676,
+  "links_in": 41,
+  "links": {
+    "facebook.com/10156106146915298": {
+      "out": {
+        "other": 640
+      },
+      "score": 1
+    },
+    "www.jammy.co": {
+      "out": {
+        "other": 156
+      },
+      "score": 0.803
+    },
+    "withknown.com": {
+      "out": {
+        "other": 97
+      },
+      "score": 0.737
+    },
+    "twitter.com/Jammy_Stuff": {
+      "out": {
+        "other": 59
+      },
+      "score": 0.667
+    },
+    "facebook.com/10202544678935707": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.649
+    },
+    "facebook.com/10153877968677551": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.638
+    },
+    "facebook.com/10153730233901345": {
+      "out": {
+        "other": 46
+      },
+      "score": 0.632
+    },
+    "facebook.com/10204578218163609": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.582
+    },
+    "facebook.com/jwheatley": {
+      "out": {
+        "other": 31
+      },
+      "score": 0.578
+    },
+    "kongaloosh.com": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 2
+      },
+      "in": {
+        "other": 17
+      },
+      "score": 0.575
+    },
+    "facebook.com/1016542731798276": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.572
+    },
+    "facebook.com/10209949901251594": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.572
+    },
+    "facebook.com/10207146867577699": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.516
+    },
+    "facebook.com/669508136518596": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.501
+    },
+    "facebook.com/10209255116147673": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.501
+    },
+    "facebook.com/10154671765282148": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.501
+    },
+    "facebook.com/10153696248946683": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.501
+    },
+    "facebook.com/10153712285724207": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.485
+    },
+    "facebook.com/10101440648885491": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.485
+    },
+    "facebook.com/10156828603910114": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.485
+    },
+    "facebook.com/1104329756314975": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.466
+    },
+    "facebook.com/10156410568320538": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.466
+    },
+    "twitter.com/kongaloosh": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.456
+    },
+    "facebook.com/10155233198703135": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.445
+    },
+    "facebook.com/10207271412117918": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.445
+    },
+    "facebook.com/10154401723173930": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.420
+    },
+    "twitter.com/EdinburghWatch": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.420
+    },
+    "facebook.com/10154955761336490": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.420
+    },
+    "facebook.com/10102756032317919": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.387
+    },
+    "facebook.com/10154028987643915": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.387
+    },
+    "facebook.com/10154430663076678": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.347
+    },
+    "facebook.com/10154710429599638": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.347
+    },
+    "facebook.com/10154346784744546": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.347
+    },
+    "facebook.com/352894788380637": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.347
+    },
+    "facebook.com/10102756032312929": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.347
+    },
+    "azure.microsoft.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.347
+    },
+    "facebook.com/1005723079470579": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.347
+    },
+    "facebook.com/320166855023204": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.347
+    },
+    "facebook.com/10153984549873284": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.347
+    },
+    "facebook.com/1172855336061148": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.347
+    },
+    "facebook.com/194171667680382": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.347
+    },
+    "twitter.com/DePhraser": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.347
+    },
+    "twitter.com/marksutherland": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.347
+    },
+    "brid.gy": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "facebook.com/10154585063243746": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.347
+    },
+    "twitter.com/zebonite": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.322
+    },
+    "www.theguardian.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.322
+    },
+    "www.nextplatform.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.322
+    },
+    "t.co": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.322
+    },
+    "facebook.com/10207825073370628": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.291
+    },
+    "facebook.com/10154223566584818": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.291
+    },
+    "facebook.com/514152348773498": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.291
+    },
+    "facebook.com/10153833989916078": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.291
+    },
+    "facebook.com/10153451456961231": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.291
+    },
+    "facebook.com/10154457670633446": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.291
+    },
+    "facebook.com/1292896320721130": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.291
+    },
+    "facebook.com/1239943009360049": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.291
+    },
+    "facebook.com/1246857658674705": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.291
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.291
+    },
+    "facebook.com/10157383670705153": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.291
+    },
+    "twitter.com/bacam64": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.291
+    },
+    "facebook.com/10154287278014251": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.291
+    },
+    "facebook.com/10155274901539972": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.291
+    },
+    "facebook.com/10157463899455013": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.291
+    },
+    "twitter.com/EZsthetic": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "facebook.com/1203241366381307": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "facebook.com/10207812091755357": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "facebook.com/10209257298142686": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "facebook.com/10153856190284327": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.194
+    },
+    "facebook.com/916444855102654": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "facebook.com/10210840423072404": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "facebook.com/10101806694232681": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "metanom.tumblr.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "facebook.com/10154534318299288": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "facebook.com/10154372288946007": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "twitter.com/larronarmstead": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "twitter.com/ThePressCorpse_": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "facebook.com/1018677554838709": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "facebook.com/10157610196140360": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "facebook.com/10207812514126215": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "twitter.com/Norgg": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "facebook.com/1077978005585024": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "facebook.com/10154487145289715": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    }
+  }
+}

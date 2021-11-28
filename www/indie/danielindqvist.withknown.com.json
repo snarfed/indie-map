@@ -1,0 +1,138 @@
+{
+  "domain": "danielindqvist.withknown.com",
+  "urls": [
+    "http://danielindqvist.withknown.com/profile/linqan",
+    "https://twitter.com/danielindqvist",
+    "http://instagram.com/danielindqvist"
+  ],
+  "names": [
+    "Daniel Lindqvist",
+    "Discovering Daniel Lindqvist"
+  ],
+  "descriptions": [
+    "Slightly taller than average, loving father of two and husband of a true geek.",
+    "The life and adventures of Daniel Lindqvist. Slightly taller than average, loving father of two, and husband of a beautiful true geek."
+  ],
+  "pictures": [
+    "http://danielindqvist.withknown.com/file/9d8bb6e7afc380f51b3cee708bcba097"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Daniel Lindqvist"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Slightly taller than average, loving father of two and husband of a true geek.</p>\n</div> ",
+          "value": "\nSlightly taller than average, loving father of two and husband of a true geek.\n "
+        }
+      ],
+      "photo": [
+        "http://danielindqvist.withknown.com/file/9d8bb6e7afc380f51b3cee708bcba097"
+      ],
+      "profile": [
+        "Daniel Lindqvist"
+      ],
+      "url": [
+        "http://danielindqvist.withknown.com/profile/linqan",
+        "http://danielindqvist.withknown.com/profile/linqan",
+        "https://twitter.com/danielindqvist",
+        "http://instagram.com/danielindqvist"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/danielindqvist",
+    "http://instagram.com/danielindqvist"
+  ],
+  "crawl_start": "2017-04-28T05:16:28",
+  "crawl_end": "2017-04-28T05:28:41",
+  "num_pages": 618,
+  "total_html_size": 19000376,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://danielindqvist.withknown.com/webmention/",
+      "https://danielindqvist.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "http://danielindqvist.withknown.com/micropub/endpoint",
+      "https://danielindqvist.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://danielindqvist.withknown.com/indieauth/auth",
+      "http://danielindqvist.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://danielindqvist.withknown.com/indieauth/token",
+      "http://danielindqvist.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 3526,
+  "links_in": 31,
+  "links": {
+    "werd.io": {
+      "out": {
+        "other": 8
+      },
+      "in": {
+        "in-reply-to": 15
+      },
+      "score": 0.572
+    },
+    "withknown.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.352
+    },
+    "brid.gy": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.305
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0879
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0879
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

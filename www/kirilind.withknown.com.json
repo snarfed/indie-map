@@ -1,0 +1,983 @@
+{
+  "domain": "kirilind.withknown.com",
+  "urls": [
+    "https://kirilind.withknown.com/profile/kirilind",
+    "http://twitter.com/kirilind",
+    "http://facebook.com/haldjas",
+    "http://auli.haldjas.org"
+  ],
+  "names": [
+    "kirilind"
+  ],
+  "descriptions": [
+    "Decentralization & indieweb hacktivist connecting techies in collaborative economy",
+    "indiefeed"
+  ],
+  "pictures": [
+    "https://kirilind.withknown.com/file/197a70c044d250cca8e3cb796abaec27"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "kirilind"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Decentralization &amp; indieweb hacktivist connecting techies in collaborative economy</p>\n</div> ",
+          "value": "\nDecentralization & indieweb hacktivist connecting techies in collaborative economy\n "
+        }
+      ],
+      "photo": [
+        "https://kirilind.withknown.com/file/197a70c044d250cca8e3cb796abaec27"
+      ],
+      "profile": [
+        "kirilind"
+      ],
+      "url": [
+        "https://kirilind.withknown.com/profile/kirilind",
+        "https://kirilind.withknown.com/profile/kirilind",
+        "http://twitter.com/kirilind",
+        "http://facebook.com/haldjas",
+        "http://auli.haldjas.org"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/kirilind",
+    "http://facebook.com/haldjas",
+    "http://auli.haldjas.org"
+  ],
+  "crawl_start": "2017-04-29T04:31:46",
+  "crawl_end": "2017-04-29T04:40:57",
+  "num_pages": 1005,
+  "total_html_size": 20634947,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://kirilind.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://kirilind.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://kirilind.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://kirilind.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 4161,
+  "links_in": 28,
+  "links": {
+    "twitter.com/kirilind": {
+      "out": {
+        "other": 992
+      },
+      "score": 1
+    },
+    "facebook.com/haldjas": {
+      "out": {
+        "other": 902
+      },
+      "score": 0.988
+    },
+    "auli.haldjas.org": {
+      "out": {
+        "other": 902
+      },
+      "score": 0.988
+    },
+    "thierry.marianne.io": {
+      "out": {
+        "other": 10,
+        "in-reply-to": 25
+      },
+      "score": 0.738
+    },
+    "jaycousins.wordpress.com": {
+      "out": {
+        "other": 21,
+        "in-reply-to": 21
+      },
+      "score": 0.729
+    },
+    "facebook.com/events": {
+      "out": {
+        "in-reply-to": 17,
+        "other": 17
+      },
+      "score": 0.701
+    },
+    "events.numa.paris": {
+      "out": {
+        "other": 13,
+        "in-reply-to": 13
+      },
+      "score": 0.665
+    },
+    "facebook.com/10155208165595215": {
+      "out": {
+        "other": 78
+      },
+      "score": 0.665
+    },
+    "twitter.com/almereyda": {
+      "out": {
+        "other": 26,
+        "in-reply-to": 10
+      },
+      "score": 0.661
+    },
+    "twitter.com/iamronen": {
+      "out": {
+        "other": 16,
+        "in-reply-to": 9
+      },
+      "score": 0.632
+    },
+    "www.indiegogo.com": {
+      "out": {
+        "other": 57
+      },
+      "score": 0.625
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 47
+      },
+      "score": 0.598
+    },
+    "xtof.withknown.com": {
+      "in": {
+        "in-reply-to": 15
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.582
+    },
+    "youtu.be": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.556
+    },
+    "blog.p2pfoundation.net": {
+      "out": {
+        "other": 33
+      },
+      "score": 0.552
+    },
+    "metamaps.cc": {
+      "out": {
+        "other": 33
+      },
+      "score": 0.552
+    },
+    "twitter.com/thierrymarianne": {
+      "out": {
+        "other": 33
+      },
+      "score": 0.552
+    },
+    "twitter.com/boutier_c": {
+      "out": {
+        "in-reply-to": 5,
+        "other": 5
+      },
+      "score": 0.539
+    },
+    "twitter.com/mapkyca": {
+      "out": {
+        "other": 5,
+        "in-reply-to": 5
+      },
+      "score": 0.539
+    },
+    "withknown.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.531
+    },
+    "www.theguardian.com": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.526
+    },
+    "waldenlabs.com": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.515
+    },
+    "e-estonia.com": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.515
+    },
+    "known.allmende.io": {
+      "out": {
+        "in-reply-to": 5
+      },
+      "score": 0.515
+    },
+    "charlotteboutier.withknown.com": {
+      "out": {
+        "in-reply-to": 5
+      },
+      "score": 0.515
+    },
+    "rt.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.498
+    },
+    "venturebeat.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.498
+    },
+    "unhosted.org": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.493
+    },
+    "arileht.delfi.ee": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.493
+    },
+    "www.shareable.net": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.465
+    },
+    "www.cyberpsychology.eu": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.465
+    },
+    "gds.blog.gov.uk": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.465
+    },
+    "wiki.namecoin.info": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.465
+    },
+    "aralbalkan.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.465
+    },
+    "lively-lines-abc.tumblr.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.465
+    },
+    "www.open-steps.org": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.465
+    },
+    "www.programmableweb.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.465
+    },
+    "werd.io": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "other": 12
+      },
+      "score": 0.457
+    },
+    "www.coindesk.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.430
+    },
+    "ubos.net": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.430
+    },
+    "twitter.com/IndieHosters": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.430
+    },
+    "www.rubyparis.org": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.430
+    },
+    "magazine.ouishare.net": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.430
+    },
+    "mentalfloss.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.430
+    },
+    "www.stuff.co.nz": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.430
+    },
+    "www.pcworld.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.430
+    },
+    "medium.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.430
+    },
+    "twitter.com/OuiShareLabs": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.419
+    },
+    "stream.tapestrymaker.net": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 9
+      },
+      "score": 0.407
+    },
+    "www.maidsafe.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.381
+    },
+    "tantek.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.381
+    },
+    "air.mozilla.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.381
+    },
+    "lifehacker.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.381
+    },
+    "english.lasindias.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.381
+    },
+    "www.wired.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.381
+    },
+    "facebook.com/10152804286799147": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.365
+    },
+    "labs.ouishare.net": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.365
+    },
+    "facebook.com/879756305410112": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.365
+    },
+    "Array": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.365
+    },
+    "twitter.com/withknown": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.365
+    },
+    "twitter.com/CitizenCloak": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.348
+    },
+    "facebook.com/610571989080007": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.327
+    },
+    "indiehosters.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.327
+    },
+    "iamronen.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.327
+    },
+    "hackpledge.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.303
+    },
+    "www.npr.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.303
+    },
+    "blakemasters.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.303
+    },
+    "www.mixprize.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.303
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.303
+    },
+    "twitter.com/numaparis": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.303
+    },
+    "www.meetup.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.303
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.303
+    },
+    "xkcd.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.303
+    },
+    "techcrunch.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.303
+    },
+    "freemydata.co": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.303
+    },
+    "twitter.com/waako": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.303
+    },
+    "twitter.com/ouisharelabs": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.303
+    },
+    "facebook.com/834271946632504": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.274
+    },
+    "facebook.com/10206853296595850": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.274
+    },
+    "twitter.com/xtof_fr": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.274
+    },
+    "jonrichter.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.274
+    },
+    "twitter.com/SebFalque": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.274
+    },
+    "facebook.com/10153298308829169": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.274
+    },
+    "facebook.com/1136994836317815": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.274
+    },
+    "twitter.com/lasindias": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.236
+    },
+    "twitter.com/POC21cc": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.236
+    },
+    "twitter.com/popupfarm": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.236
+    },
+    "twitter.com/pierreozoux": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.236
+    },
+    "twitter.com/yodeuh": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.236
+    },
+    "twitter.com/benwerd": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.236
+    },
+    "twitter.com/LaCharbonnerie": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.236
+    },
+    "twitter.com/ledouarec": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.236
+    },
+    "twitter.com/MyCozyCloud": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.236
+    },
+    "twitter.com/marcobdv": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/Alex131089": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/OpenSourceRDT": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/LinkPlugger": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "www.pierre-o.fr": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "facebook.com/10153333207062439": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "nicolas.le.douar.ec": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/Marvin_Mathew": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "facebook.com/10153109635489797": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/JedBreed": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/GuideLikeYou": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "500px.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/MySocialMgr": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "www.lacharbonnerie.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "facebook.com/662081383920093": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/Freerange_Inc": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "facebook.com/10203944195428615": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "facebook.com/842248722516304": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/sb_io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "bitly.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "facebook.com/10152173336097758": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "facebook.com/10206944529194399": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "facebook.com/1162020820490365": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/CarbonStory": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/badgermind": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/linaresa": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "kevinmarks.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/SemanticWebBlog": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/mildouze": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/revieweddotcom": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "facebook.com/10153389608648013": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "grupolasindias.coop": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "facebook.com/1101627749853944": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/geraldoramos": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "cozy.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "facebook.com/10152887034158785": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "facebook.com/822061497870090": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "foundation.rocks": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "about.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/chrtwt": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "facebook.com/10152486988486891": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "facebook.com/10155508666670322": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "facebook.com/906253816099101": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "facebook.com/403026559870514": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "facebook.com/906513072705428": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/assisantunes": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/ZaypoProject": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/danielcawrey": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/bgt731": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "facebook.com/10153230519871223": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "twitter.com/bartux": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

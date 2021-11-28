@@ -1,0 +1,305 @@
+{
+  "domain": "petermolnar.net",
+  "urls": [
+    "https://petermolnar.net",
+    "https://github.com/petermolnar",
+    "https://www.flickr.com/people/petermolnareu",
+    "https://petermolnar.net/"
+  ],
+  "names": [
+    "Peter Molnar",
+    "\n   Peter Molnar | petermolnar.net\n  ",
+    "Peter Molnar | petermolnar.net"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://petermolnar.net/files/molnar_peter_avatar.jpg",
+    "https://petermolnar.net/theme/favicon.png"
+  ],
+  "hcard": {
+    "properties": {
+      "avatar": [
+        "https://petermolnar.net/files/molnar_peter_avatar.jpg"
+      ],
+      "email": [
+        "mailto:hello@petermolnar.net"
+      ],
+      "flickr": [
+        "https://www.flickr.com/people/petermolnareu"
+      ],
+      "github": [
+        "https://github.com/petermolnar"
+      ],
+      "gpg": [
+        "https://petermolnar.net/pgp.asc"
+      ],
+      "name": [
+        "Peter Molnar"
+      ],
+      "photo": [
+        "https://petermolnar.net/files/molnar_peter_avatar.jpg"
+      ],
+      "uid": [
+        "https://petermolnar.net"
+      ],
+      "url": [
+        "https://petermolnar.net",
+        "https://github.com/petermolnar",
+        "https://www.flickr.com/people/petermolnareu"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "mailto:hello@petermolnar.net",
+    "https://petermolnar.net/pgp.asc",
+    "https://github.com/petermolnar",
+    "https://www.flickr.com/people/petermolnareu"
+  ],
+  "crawl_start": "2017-04-25T03:35:56",
+  "crawl_end": "2017-04-25T07:10:16",
+  "num_pages": 1230,
+  "total_html_size": 51232758,
+  "servers": [],
+  "mf2_classes": [
+    "h-article",
+    "h-note",
+    "h-card",
+    "h-entry",
+    "h-photo",
+    "h-status",
+    "h-feed"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://petermolnar.net/webmention"
+    ],
+    "micropub": [
+      "https://petermolnar.net/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 9005,
+  "links_in": 14135,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 7660
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 6308
+      },
+      "score": 0.979
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 24,
+        "bookmark-of": 13,
+        "like-of": 7
+      },
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.496
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 24,
+        "bookmark-of": 6
+      },
+      "score": 0.479
+    },
+    "known.aegibson.me": {
+      "in": {
+        "in-reply-to": 10
+      },
+      "score": 0.437
+    },
+    "brid.gy": {
+      "in": {
+        "other": 40
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.418
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 9,
+        "like-of": 6
+      },
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.415
+    },
+    "unrelenting.technology": {
+      "in": {
+        "other": 33
+      },
+      "score": 0.391
+    },
+    "aegibson.me": {
+      "in": {
+        "in-reply-to": 5
+      },
+      "score": 0.360
+    },
+    "werd.io": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 2
+      },
+      "score": 0.356
+    },
+    "rhiaro.co.uk": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.336
+    },
+    "tantek.com": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.336
+    },
+    "tinokremer.nl": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.336
+    },
+    "barryfrost.com": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.336
+    },
+    "lancey.space": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.336
+    },
+    "dogada.org": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.336
+    },
+    "daltoncaldwell.com": {
+      "out": {
+        "bookmark-of": 4
+      },
+      "score": 0.310
+    },
+    "simplyfixit.co.uk": {
+      "out": {
+        "bookmark-of": 4
+      },
+      "score": 0.310
+    },
+    "pvagner.tk": {
+      "in": {
+        "like-of": 5
+      },
+      "score": 0.257
+    },
+    "t37.net": {
+      "out": {
+        "bookmark-of": 2
+      },
+      "score": 0.233
+    },
+    "stationaryjourney.com": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.218
+    },
+    "hardergeneration.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.200
+    },
+    "adactio.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.200
+    },
+    "include.aorcsik.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.200
+    },
+    "withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.155
+    },
+    "licit.li": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.155
+    },
+    "www.kevinmarks.com": {
+      "out": {
+        "bookmark-of": 1
+      },
+      "score": 0.155
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.0775
+    },
+    "seblog.nl": {
+      "in": {
+        "bookmark-of": 1
+      },
+      "score": 0.0775
+    },
+    "petermolnar.eu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0775
+    },
+    "anomalily.net": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0775
+    }
+  }
+}

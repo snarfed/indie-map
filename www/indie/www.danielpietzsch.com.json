@@ -1,0 +1,117 @@
+{
+  "domain": "www.danielpietzsch.com",
+  "urls": [
+    "http://www.danielpietzsch.com"
+  ],
+  "names": [
+    "Daniel Pietzsch"
+  ],
+  "descriptions": [
+    "Iâm a professional freelance software developer from DÃ¼sseldorf, Germany. I make software for the web, iOS and Android."
+  ],
+  "pictures": [
+    "http://www.danielpietzsch.com/daniel_pietzsch_portrait.jpeg",
+    "http://www.danielpietzsch.com/favicon.png"
+  ],
+  "hcard": {
+    "properties": {
+      "adr": [
+        {
+          "properties": {
+            "country-name": [
+              "Germany"
+            ],
+            "locality": [
+              "DÃ¼sseldorf"
+            ],
+            "name": [
+              "DÃ¼sseldorf, Germany"
+            ]
+          },
+          "type": [
+            "h-adr"
+          ],
+          "value": "DÃ¼sseldorf, Germany"
+        }
+      ],
+      "job-title": [
+        "software developer"
+      ],
+      "name": [
+        "Daniel Pietzsch"
+      ],
+      "note": [
+        "Iâm a professional freelance software developer from DÃ¼sseldorf, Germany. I make software for the web, iOS and Android."
+      ],
+      "photo": [
+        "http://www.danielpietzsch.com/daniel_pietzsch_portrait.jpeg"
+      ],
+      "url": [
+        "http://www.danielpietzsch.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.danielpietzsch.com",
+    "http://photojournal.danielpietzsch.com",
+    "http://blog.danielpietzsch.com",
+    "http://danielandnicole.net",
+    "https://twitter.com/danielpietzsch",
+    "https://www.flickr.com/people/pie4dan/",
+    "https://github.com/danielpietzsch",
+    "http://stackexchange.com/users/72925/daniel-pietzsch",
+    "https://www.xing.com/profile/Daniel_Pietzsch2",
+    "https://www.linkedin.com/in/danielpietzsch"
+  ],
+  "crawl_start": "2017-06-10T02:22:56",
+  "crawl_end": "2017-06-10T02:22:57",
+  "num_pages": 2,
+  "total_html_size": 16798,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 15,
+  "links_in": 3344,
+  "links": {
+    "blog.danielpietzsch.com": {
+      "in": {
+        "other": 3334
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.256
+    },
+    "danielpietzsch.com": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.136
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

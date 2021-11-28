@@ -1,0 +1,816 @@
+{
+  "domain": "io.donbain.com",
+  "urls": [
+    "http://io.donbain.com/profile/donbain",
+    "http://donbain.com",
+    "http://linkedin.com/in/donbain",
+    "http://facebook.com/don.m.bain",
+    "http://twitter.com/don_bain",
+    "http://ghginstitute.org/who-we-are/personnel/don-bain2"
+  ],
+  "names": [
+    "Don Bain",
+    "bain bits"
+  ],
+  "descriptions": [
+    "engineer",
+    "don bain's message center"
+  ],
+  "pictures": [
+    "http://io.donbain.com/file/fa583d34334ebda47dacfa814554c0cb/thumb.jpg",
+    "http://io.donbain.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Don Bain"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>engineer</p>\n</div>",
+          "value": "\nengineer\n"
+        }
+      ],
+      "photo": [
+        "http://io.donbain.com/file/fa583d34334ebda47dacfa814554c0cb/thumb.jpg"
+      ],
+      "profile": [
+        "Don Bain"
+      ],
+      "url": [
+        "http://io.donbain.com/profile/donbain",
+        "http://io.donbain.com/profile/donbain",
+        "http://donbain.com",
+        "http://linkedin.com/in/donbain",
+        "http://facebook.com/don.m.bain",
+        "http://twitter.com/don_bain",
+        "http://ghginstitute.org/who-we-are/personnel/don-bain2"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://donbain.com",
+    "http://linkedin.com/in/donbain",
+    "http://facebook.com/don.m.bain",
+    "http://twitter.com/don_bain",
+    "http://ghginstitute.org/who-we-are/personnel/don-bain2"
+  ],
+  "crawl_start": "2017-04-28T23:33:44",
+  "crawl_end": "2017-04-28T23:37:04",
+  "num_pages": 361,
+  "total_html_size": 11520696,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-cite",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://io.donbain.com/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 2348,
+  "links_in": 22,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 318
+      },
+      "score": 1
+    },
+    "openlibrary.org": {
+      "out": {
+        "other": 228
+      },
+      "score": 0.947
+    },
+    "facebook.com/552346179": {
+      "out": {
+        "other": 224
+      },
+      "score": 0.944
+    },
+    "ghginstitute.org": {
+      "out": {
+        "other": 101
+      },
+      "score": 0.822
+    },
+    "facebook.com/don.m.bain": {
+      "out": {
+        "other": 94
+      },
+      "score": 0.811
+    },
+    "linkedin.com": {
+      "out": {
+        "other": 94
+      },
+      "score": 0.811
+    },
+    "twitter.com/don_bain": {
+      "out": {
+        "other": 94
+      },
+      "score": 0.811
+    },
+    "donbain.com": {
+      "out": {
+        "other": 94
+      },
+      "score": 0.811
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.714
+    },
+    "stephenschneider.stanford.edu": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.693
+    },
+    "37signals.com": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.693
+    },
+    "www.worldwithoutice.com": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.693
+    },
+    "books.google.com": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.686
+    },
+    "press.princeton.edu": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.663
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.624
+    },
+    "www.nasa.gov": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.611
+    },
+    "facebook.com/1037075562986441": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.599
+    },
+    "web.stanford.edu": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.585
+    },
+    "www.brainrules.net": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.585
+    },
+    "www.cluetrain.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.585
+    },
+    "flawofaverages.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.585
+    },
+    "www.longtail.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.554
+    },
+    "twit.tv": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.537
+    },
+    "crustybytes.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "www.free-culture.cc": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "www.rburton.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "www.gnu.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "lyleestill.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "totalengagement.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "www.singularity.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "theatlantic.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "www.mcdonough.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "www.buzsakilab.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "oixypea2.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "facebook.com/814108285321732": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "www.totalengagement.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "creativecommons.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "www.bitsbook.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "www.fooledbyrandomness.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "www.roughtype.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "brainsciencepodcast.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "www.sethgodin.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "www.sandrablakeslee.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "users.nber.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "www.nicholascarr.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "howardbloom.net": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.515
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.492
+    },
+    "facebook.com/997761870251945": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.492
+    },
+    "christophermeyer.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.464
+    },
+    "www.kurzweilai.net": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.464
+    },
+    "facebook.com/100000493346579": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.464
+    },
+    "www.pik-potsdam.de": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.464
+    },
+    "erinjo.is": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.464
+    },
+    "twitter.com/Don_Bain": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.464
+    },
+    "facebook.com/10152474884511184": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.429
+    },
+    "facebook.com/1546439818929043": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.429
+    },
+    "brid.gy": {
+      "in": {
+        "other": 15
+      },
+      "score": 0.420
+    },
+    "w2.vatican.va": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.409
+    },
+    "medium.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.409
+    },
+    "www.columbia.edu": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.409
+    },
+    "facebook.com/10205573280957084": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.384
+    },
+    "facebook.com/10206181479964765": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.384
+    },
+    "www.edmed11online.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.384
+    },
+    "facebook.com/10205138232712125": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.384
+    },
+    "viagra9dosage9.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.384
+    },
+    "facebook.com/10206875574114696": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.384
+    },
+    "werd.io": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.384
+    },
+    "tadalfil6online.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.384
+    },
+    "news.stanford.edu": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.384
+    },
+    "github.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.384
+    },
+    "bit.ly": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.384
+    },
+    "facebook.com/100000544256976": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.384
+    },
+    "www.nature.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.384
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.356
+    },
+    "facebook.com/914918505208752": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.322
+    },
+    "ceckedbeekgdegfc.blogspot.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.322
+    },
+    "facebook.com/100006421621520": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.322
+    },
+    "facebook.com/1403821679": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.322
+    },
+    "facebook.com/10200621700702842": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.322
+    },
+    "facebook.com/911879828831458": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.322
+    },
+    "cox.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.322
+    },
+    "ddeedafcgkddddfg.blogspot.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.322
+    },
+    "facebook.com/10153557322939097": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.322
+    },
+    "facebook.com/104156689919381": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.322
+    },
+    "facebook.com/766565920096715": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.322
+    },
+    "facebook.com/700887330": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.322
+    },
+    "facebook.com/10203557332389539": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.322
+    },
+    "facebook.com/10205930705532452": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.322
+    },
+    "facebook.com/1607596352797737": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "viagra6price6.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "viagra9sale9.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "facebook.com/1127981677": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "facebook.com/1316187": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "facebook.com/100007675815011": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "cialis9dosage9.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "viagra6professional.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "twitter.com/jbardeen": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "facebook.com/10152653347560678": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "cialis5sale.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "facebook.com/100006461460075": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "pillsofviagra5.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "twitter.com/llhoellen": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "facebook.com/1762113274014038": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "med11cheap.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.215
+    },
+    "facebook.com/10152762912223929": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "facebook.com/1047047635321671": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "facebook.com/1501025426": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "twitter.com/TerryDThomasJR": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "facebook.com/1101804293": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "facebook.com/699711183": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "cialis9sale9.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "facebook.com/10152508032712331": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "facebook.com/846640325377851": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "facebook.com/10202845452896794": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "facebook.com/995143230497116": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "facebook.com/10206771755514849": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "facebook.com/784860552": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "facebook.com/100000485194101": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.107
+    }
+  }
+}

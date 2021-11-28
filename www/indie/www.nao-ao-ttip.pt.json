@@ -1,0 +1,51 @@
+{
+  "domain": "www.nao-ao-ttip.pt",
+  "urls": [
+    "https://www.nao-ao-ttip.pt/"
+  ],
+  "names": [
+    " Não ao Tratado Transatlântico – Não ao TTIP"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T07:49:38",
+  "crawl_end": "2017-04-30T08:25:08",
+  "num_pages": 1349,
+  "total_html_size": 74417086,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.nao-ao-ttip.pt/?webmention=endpoint"
+    ]
+  },
+  "links_out": 60623,
+  "links_in": 89,
+  "links": {
+    "www.d19-20.be": {
+      "out": {
+        "other": 1349
+      },
+      "score": 0.996
+    },
+    "microblog.pierre-o.fr": {
+      "in": {
+        "other": 82,
+        "in-reply-to": 7
+      },
+      "score": 0.600
+    }
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "domain": "stream.jeremycherfas.net",
+  "urls": [
+    "http://stream.jeremycherfas.net/profile/jeremy",
+    "https://jeremycherfas.net/",
+    "https://github.com/jeremycherfas",
+    "https://twitter.com/EatPodcast",
+    "https://www.instagram.com/eatthispodcast/",
+    "https://pnut.io/@jeremycherfas",
+    "https://micro.blog/jeremycherfas"
+  ],
+  "names": [
+    "Jeremy Cherfas"
+  ],
+  "descriptions": [
+    "Mostly microblogging and indieweb"
+  ],
+  "pictures": [
+    "http://stream.jeremycherfas.net/file/5323e86f4819ad962c270ffe7abdb3f4"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Jeremy Cherfas"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "http://stream.jeremycherfas.net/file/5323e86f4819ad962c270ffe7abdb3f4"
+      ],
+      "profile": [
+        "Jeremy Cherfas"
+      ],
+      "url": [
+        "http://stream.jeremycherfas.net/profile/jeremy",
+        "http://stream.jeremycherfas.net/profile/jeremy",
+        "https://jeremycherfas.net/",
+        "https://github.com/jeremycherfas",
+        "https://twitter.com/EatPodcast",
+        "https://www.instagram.com/eatthispodcast/",
+        "https://pnut.io/@jeremycherfas",
+        "https://micro.blog/jeremycherfas"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://jeremycherfas.net/",
+    "https://github.com/jeremycherfas",
+    "https://twitter.com/EatPodcast",
+    "https://www.instagram.com/eatthispodcast/",
+    "https://pnut.io/@jeremycherfas",
+    "https://micro.blog/jeremycherfas"
+  ],
+  "crawl_start": "2017-04-30T02:22:27",
+  "crawl_end": "2017-04-30T02:37:40",
+  "num_pages": 1195,
+  "total_html_size": 37135308,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://stream.jeremycherfas.net/webmention/",
+      "http://stream.jeremycherfas.net/webmention/"
+    ],
+    "micropub": [
+      "http://stream.jeremycherfas.net/micropub/endpoint",
+      "https://stream.jeremycherfas.net/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://stream.jeremycherfas.net/indieauth/auth",
+      "http://stream.jeremycherfas.net/indieauth/auth"
+    ],
+    "token": [
+      "http://stream.jeremycherfas.net/indieauth/token",
+      "https://stream.jeremycherfas.net/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 11703,
+  "links_in": 2799,
+  "links": {
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 440,
+        "like-of": 52,
+        "other": 42
+      },
+      "out": {
+        "in-reply-to": 96,
+        "other": 164
+      },
+      "score": 0.877
+    },
+    "www.jeremycherfas.net": {
+      "out": {
+        "in-reply-to": 42,
+        "other": 193
+      },
+      "in": {
+        "other": 2071
+      },
+      "score": 0.852
+    },
+    "boffosocko.com": {
+      "in": {
+        "in-reply-to": 12,
+        "other": 56
+      },
+      "out": {
+        "other": 96,
+        "in-reply-to": 144
+      },
+      "score": 0.799
+    },
+    "micro.blog": {
+      "out": {
+        "other": 506
+      },
+      "score": 0.740
+    },
+    "jeremycherfas.net": {
+      "out": {
+        "other": 490
+      },
+      "score": 0.737
+    },
+    "aaronparecki.com": {
+      "out": {
+        "in-reply-to": 68
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.698
+    },
+    "www.eatthispodcast.com": {
+      "out": {
+        "other": 90,
+        "in-reply-to": 48
+      },
+      "score": 0.694
+    },
+    "martymcgui.re": {
+      "in": {
+        "other": 22
+      },
+      "out": {
+        "other": 88,
+        "in-reply-to": 18
+      },
+      "score": 0.634
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "in-reply-to": 30
+      },
+      "score": 0.612
+    },
+    "blog.henrikcarlsson.se": {
+      "out": {
+        "in-reply-to": 18
+      },
+      "score": 0.555
+    },
+    "www.manton.org": {
+      "out": {
+        "in-reply-to": 18
+      },
+      "score": 0.555
+    },
+    "cleverdevil.io": {
+      "out": {
+        "in-reply-to": 12,
+        "other": 8
+      },
+      "in": {
+        "other": 8
+      },
+      "score": 0.532
+    },
+    "hylozoist.ascraeus.org": {
+      "out": {
+        "other": 16,
+        "in-reply-to": 6
+      },
+      "in": {
+        "other": 4,
+        "in-reply-to": 4,
+        "like-of": 5
+      },
+      "score": 0.518
+    },
+    "stream.techlifeweb.com": {
+      "out": {
+        "in-reply-to": 12
+      },
+      "in": {
+        "other": 5
+      },
+      "score": 0.517
+    },
+    "ascraeus.org": {
+      "out": {
+        "other": 14,
+        "in-reply-to": 6
+      },
+      "score": 0.479
+    },
+    "huffduffer.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.458
+    },
+    "adactio.com": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.445
+    },
+    "known.networkeffects.ca": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.437
+    },
+    "doubleloop.net": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.437
+    },
+    "www.kevinmarks.com": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.437
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "out": {
+        "other": 20
+      },
+      "score": 0.410
+    },
+    "colinwalker.blog": {
+      "in": {
+        "like-of": 6,
+        "other": 4
+      },
+      "out": {
+        "other": 10
+      },
+      "score": 0.383
+    },
+    "brid.gy": {
+      "in": {
+        "other": 24
+      },
+      "score": 0.340
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 20
+      },
+      "score": 0.321
+    },
+    "kimberlyhirsh.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "www.boffosocko.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "ar.al": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "headcrash.ascraeus.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "withknown.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "huffduff-video.snarfed.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.149
+    },
+    "ownyourgram.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0741
+    }
+  }
+}

@@ -1,0 +1,498 @@
+{
+  "domain": "notiz.blog",
+  "urls": [
+    "http://notiz.blog/"
+  ],
+  "names": [
+    "notiz.Blog – a weblog about the open, portable, interoperable, social, synaptic, semantic, structured, distributed, decentralized, independent, microformatted and federated social web",
+    "notiz.Blog"
+  ],
+  "descriptions": [
+    "a weblog about the open, portable, interoperable, social, synaptic, semantic, structured, distributed, decentralized, independent, microformatted and federated social web"
+  ],
+  "pictures": [
+    "https://notiz.blog/wp-content/uploads/2015/09/cropped-notizblog-logo-32x32.png",
+    "https://notiz.blog/wp-content/uploads/2015/09/cropped-notizblog-logo-192x192.png",
+    "https://notiz.blog/wp-content/uploads/2015/09/cropped-notizblog-logo.png",
+    "https://notiz.blog/wp-content/uploads/2017/02/cropped-Unknown.jpeg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "http://openwebpodcast.de/",
+    "http://microform.at",
+    "http://12things.de/",
+    "http://ichmagrot.de/",
+    "https://plus.google.com/+MatthiasPfefferle?rel=author",
+    "http://twitter.com/pfefferle",
+    "https://www.bloglovin.com/blog/18821433/?claim=skshx5azbaf",
+    "https://www.crunchbase.com/person/matthias-pfefferle",
+    "https://github.com/pfefferle",
+    "https://indieweb.org/User:Notizblog.org",
+    "https://keybase.io/pfefferle",
+    "https://www.linkedin.com/in/pfefferle/",
+    "https://mastodon.social/@pfefferle",
+    "https://micro.blog/pfefferle",
+    "http://microformats.org/wiki/User:Pfefferle",
+    "https://www.npmjs.com/~pfefferle",
+    "https://packagist.org/packages/pfefferle/",
+    "http://www.slideshare.net/pfefferle",
+    "http://stackoverflow.com/cv/pfefferle",
+    "http://profiles.wordpress.org/pfefferle",
+    "https://www.xing.com/profile/Matthias_Pfefferle"
+  ],
+  "crawl_start": "2017-04-29T21:33:05",
+  "crawl_end": "2017-04-30T01:00:16",
+  "num_pages": 3985,
+  "total_html_size": 124059427,
+  "servers": [
+    "Apache (CentOS)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-note",
+    "h-as-video",
+    "h-review",
+    "h-entry",
+    "h-as-image",
+    "h-event",
+    "h-as-bookmark",
+    "h-as-audio",
+    "h-as-article",
+    "h-feed",
+    "h-card",
+    "h-geo",
+    "h-as-page"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "elder",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://notiz.blog/wp-api/webmention/1.0/endpoint",
+      "https://notiz.blog/wp-api/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://notiz.blog/?micropub=endpoint",
+      "http://notiz.blog/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 227646,
+  "links_in": 2539,
+  "links": {
+    "indieweb.org": {
+      "out": {
+        "other": 5392
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.837
+    },
+    "suda.co.uk": {
+      "out": {
+        "other": 4245
+      },
+      "score": 0.815
+    },
+    "adactio.com": {
+      "out": {
+        "other": 4098
+      },
+      "score": 0.812
+    },
+    "jihais.se": {
+      "in": {
+        "other": 1484
+      },
+      "score": 0.658
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 412
+      },
+      "score": 0.605
+    },
+    "willnorris.com": {
+      "out": {
+        "other": 220,
+        "in-reply-to": 18
+      },
+      "score": 0.579
+    },
+    "tantek.com": {
+      "out": {
+        "other": 271
+      },
+      "score": 0.568
+    },
+    "oauth.net": {
+      "out": {
+        "other": 246
+      },
+      "score": 0.559
+    },
+    "mabulledu.net": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 474
+      },
+      "score": 0.557
+    },
+    "microformatshiv.com": {
+      "out": {
+        "other": 220
+      },
+      "score": 0.549
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 114,
+        "in-reply-to": 18
+      },
+      "score": 0.542
+    },
+    "www.sandeep.io": {
+      "out": {
+        "other": 96,
+        "in-reply-to": 14
+      },
+      "score": 0.523
+    },
+    "werd.io": {
+      "out": {
+        "other": 56,
+        "in-reply-to": 18
+      },
+      "score": 0.512
+    },
+    "martin.atkins.me.uk": {
+      "out": {
+        "other": 128
+      },
+      "score": 0.5
+    },
+    "earthbound.io": {
+      "in": {
+        "other": 220
+      },
+      "score": 0.486
+    },
+    "eschnou.com": {
+      "out": {
+        "in-reply-to": 18,
+        "other": 12
+      },
+      "score": 0.479
+    },
+    "tommorris.org": {
+      "out": {
+        "in-reply-to": 18
+      },
+      "score": 0.468
+    },
+    "waterpigs.co.uk": {
+      "out": {
+        "in-reply-to": 18
+      },
+      "score": 0.468
+    },
+    "doubleloop.net": {
+      "in": {
+        "other": 179
+      },
+      "score": 0.468
+    },
+    "wirres.net": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.448
+    },
+    "dougbeal.com": {
+      "in": {
+        "other": 128
+      },
+      "score": 0.437
+    },
+    "www.monkinetic.com": {
+      "out": {
+        "other": 60
+      },
+      "score": 0.432
+    },
+    "pfefferle.org": {
+      "out": {
+        "other": 50
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.416
+    },
+    "singpolyma.net": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.411
+    },
+    "nicolaischwarz.de": {
+      "out": {
+        "other": 46
+      },
+      "score": 0.407
+    },
+    "news.indieweb.org": {
+      "out": {
+        "other": 38
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.395
+    },
+    "glennjones.net": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.395
+    },
+    "blog.superfeedr.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.386
+    },
+    "kevinmarks.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.356
+    },
+    "withknown.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.356
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.356
+    },
+    "bradfitz.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.349
+    },
+    "danbri.org": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.349
+    },
+    "caseorganic.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.349
+    },
+    "crystalbeasley.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.341
+    },
+    "micropub.net": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.341
+    },
+    "yatil.de": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.341
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.341
+    },
+    "glow.io": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.332
+    },
+    "anarchogeek.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.332
+    },
+    "tent.io": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.332
+    },
+    "reclaim.fm": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.332
+    },
+    "andysylvester.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.323
+    },
+    "www.nerdcore.de": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.323
+    },
+    "superfeedr.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.323
+    },
+    "daltoncaldwell.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.318
+    },
+    "pin13.net": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.318
+    },
+    "johnfallsopp.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.313
+    },
+    "portenkirchner.net": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.313
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.260
+    },
+    "bupk.es": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.250
+    },
+    "nxd4n.nixekinder.be": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.223
+    },
+    "brid.gy": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.223
+    },
+    "davidjohnmead.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.187
+    },
+    "commentpara.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.187
+    },
+    "killerog.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.187
+    },
+    "known.schwenzel.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.187
+    },
+    "afanatical.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.161
+    },
+    "jeena.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.125
+    },
+    "zzzen.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.125
+    },
+    "pfefferle.github.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.125
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.125
+    },
+    "technobabbl.es": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

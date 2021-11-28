@@ -1,0 +1,88 @@
+{
+  "domain": "scottros.withknown.com",
+  "urls": [
+    "https://scottros.withknown.com/profile/scottros",
+    "http://wordyard.com",
+    "https://medium.com/@scottros"
+  ],
+  "names": [
+    "Scott Rosenberg",
+    "Authentiac"
+  ],
+  "descriptions": [
+    "Writing about the web since forever",
+    "Be yourself? Sure! Just try "
+  ],
+  "pictures": [
+    "https://scottros.withknown.com/file/d9b6484afcb10039f62cff18710bdb32"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Scott Rosenberg"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Writing about the web since forever</p>\n</div>",
+          "value": "\nWriting about the web since forever\n"
+        }
+      ],
+      "photo": [
+        "https://scottros.withknown.com/file/d9b6484afcb10039f62cff18710bdb32"
+      ],
+      "profile": [
+        "Scott Rosenberg"
+      ],
+      "url": [
+        "https://scottros.withknown.com/profile/scottros",
+        "https://scottros.withknown.com/profile/scottros",
+        "http://wordyard.com",
+        "https://medium.com/@scottros"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://wordyard.com",
+    "https://medium.com/@scottros"
+  ],
+  "crawl_start": "2017-04-30T02:12:33",
+  "crawl_end": "2017-04-30T02:12:42",
+  "num_pages": 14,
+  "total_html_size": 266025,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://scottros.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 26,
+  "links_in": 0,
+  "links": {
+    "wordyard.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 1
+    }
+  }
+}

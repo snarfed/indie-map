@@ -1,0 +1,77 @@
+{
+  "domain": "weirdjournal.com",
+  "urls": [
+    "http://weirdjournal.com/",
+    "http://weirdjournal.com"
+  ],
+  "names": [
+    "We Informs, Inspires And Entertains On | Weird Journal",
+    "We Informs, Inspires And Entertains On - Weird Journal",
+    "Weird Journal"
+  ],
+  "descriptions": [
+    "Finally A Site You Can Trust Get New headlines & Breaking News As They Drops Click The Button Below"
+  ],
+  "pictures": [
+    "http://weirdjournal.com/wp-content/uploads/2017/04/WJournal-Logo-1.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-05-06T01:58:24",
+  "crawl_end": "2017-05-06T01:59:15",
+  "num_pages": 10,
+  "total_html_size": 360253,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://weirdjournal.com/sites/wp-json/webmention/1.0/endpoint",
+      "http://weirdjournal.com/sites/garenthoms/wp-json/webmention/1.0/endpoint",
+      "http://weirdjournal.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://weirdjournal.com/sites/garenthoms/?micropub=endpoint",
+      "http://weirdjournal.com/?micropub=endpoint",
+      "http://weirdjournal.com/sites/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 106,
+  "links_in": 419,
+  "links": {
+    "news.weirdjournal.com": {
+      "out": {
+        "other": 10
+      },
+      "in": {
+        "other": 397
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 22
+      },
+      "score": 0.512
+    }
+  }
+}

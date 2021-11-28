@@ -1,0 +1,105 @@
+{
+  "domain": "tintouli.withknown.com",
+  "urls": [
+    "https://tintouli.withknown.com/profile/tintouli",
+    "http://tintouli.gitlab.io",
+    "http://journalduhacker.net"
+  ],
+  "names": [
+    "Tintouli",
+    "Don't Panic"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://tintouli.withknown.com/file/cd2f47d8f5a025a8d8d6bf336372ed16"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Tintouli"
+      ],
+      "note": [
+        {
+          "html": " ",
+          "value": " "
+        }
+      ],
+      "photo": [
+        "https://tintouli.withknown.com/file/cd2f47d8f5a025a8d8d6bf336372ed16"
+      ],
+      "profile": [
+        "Tintouli"
+      ],
+      "url": [
+        "https://tintouli.withknown.com/profile/tintouli",
+        "https://tintouli.withknown.com/profile/tintouli",
+        "http://tintouli.gitlab.io",
+        "http://journalduhacker.net"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://tintouli.gitlab.io",
+    "http://journalduhacker.net"
+  ],
+  "crawl_start": "2017-04-30T02:52:13",
+  "crawl_end": "2017-04-30T03:13:31",
+  "num_pages": 1784,
+  "total_html_size": 57652940,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://tintouli.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://tintouli.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://tintouli.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://tintouli.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 10903,
+  "links_in": 3,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.409
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.141
+    }
+  }
+}

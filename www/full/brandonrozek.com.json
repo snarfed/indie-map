@@ -1,0 +1,548 @@
+{
+  "domain": "brandonrozek.com",
+  "urls": [
+    "https://brandonrozek.com",
+    "irc://chat.freenode.net/brandonrozek,isnick",
+    "https://github.com/brandonrozek",
+    "https://bitbucket.org/brandonrozek/",
+    "https://www.npmjs.com/~brandonrozek/",
+    "http://codepen.io/brandonrozek/",
+    "https://sentenceworthy.com",
+    "https://indiewebcamp.com/User:Brandonrozek.com",
+    "https://brandonrozek.com/"
+  ],
+  "names": [
+    "Brandon Rozek",
+    "Home | Brandon Rozek"
+  ],
+  "descriptions": [
+    "A front-end developer who helps build websites."
+  ],
+  "pictures": [
+    "https://brandonrozek.com/wp-content/themes/developersLife/assets/profile152x152.png",
+    "https://brandonrozek.com/favicon.ico"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:rozekbrandon@gmail.com"
+      ],
+      "name": [
+        "Brandon Rozek"
+      ],
+      "photo": [
+        "https://brandonrozek.com/wp-content/themes/developersLife/assets/profile152x152.png"
+      ],
+      "url": [
+        "https://brandonrozek.com",
+        "irc://chat.freenode.net/brandonrozek,isnick",
+        "https://github.com/brandonrozek",
+        "https://bitbucket.org/brandonrozek/",
+        "https://www.npmjs.com/~brandonrozek/",
+        "http://codepen.io/brandonrozek/",
+        "https://sentenceworthy.com",
+        "https://indiewebcamp.com/User:Brandonrozek.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://brandonrozek.com/",
+    "mailto:rozekbrandon@gmail.com",
+    "irc://chat.freenode.net/brandonrozek,isnick",
+    "https://github.com/brandonrozek",
+    "https://bitbucket.org/brandonrozek/",
+    "https://www.npmjs.com/~brandonrozek/",
+    "http://codepen.io/brandonrozek/"
+  ],
+  "crawl_start": "2017-04-23T23:10:48",
+  "crawl_end": "2017-04-23T23:13:02",
+  "num_pages": 33,
+  "total_html_size": 407242,
+  "servers": [
+    "Apache (Ubuntu)"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://brandonrozek.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://brandonrozek.com/?micropub=endpoint",
+      "https://brandonrozek.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 532,
+  "links_in": 627,
+  "links": {
+    "adactio.com": {
+      "out": {
+        "other": 3
+      },
+      "in": {
+        "bookmark-of": 43,
+        "other": 423
+      },
+      "score": 1
+    },
+    "codepen.io": {
+      "out": {
+        "other": 55
+      },
+      "score": 0.753
+    },
+    "github.com": {
+      "out": {
+        "other": 43
+      },
+      "score": 0.713
+    },
+    "sentenceworthy.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.686
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 66
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.676
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 33
+      },
+      "score": 0.671
+    },
+    "medium.com": {
+      "out": {
+        "other": 33
+      },
+      "score": 0.671
+    },
+    "chat.freenode.net": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.667
+    },
+    "brandonrozek.tumblr.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.667
+    },
+    "bitbucket.org": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.667
+    },
+    "twitter.com/B_RozekJournal": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.667
+    },
+    "gmail.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.667
+    },
+    "www.npmjs.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.667
+    },
+    "developer.mozilla.org": {
+      "out": {
+        "other": 31
+      },
+      "score": 0.662
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "bookmark-of": 15,
+        "other": 6
+      },
+      "score": 0.591
+    },
+    "docs.webplatform.org": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.574
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 33
+      },
+      "score": 0.561
+    },
+    "brid.gy": {
+      "in": {
+        "other": 24
+      },
+      "score": 0.510
+    },
+    "toridayton.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.423
+    },
+    "gist.github.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.397
+    },
+    "math-io.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.369
+    },
+    "www.webrocker.de": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.369
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.333
+    },
+    "research.swtch.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.287
+    },
+    "microformats.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.287
+    },
+    "www.passwordstore.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.287
+    },
+    "www.w3.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.287
+    },
+    "brew.sh": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.223
+    },
+    "davidcthames.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.223
+    },
+    "jakearchibald.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.223
+    },
+    "floating-point-gui.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.223
+    },
+    "www.brid.gy": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.223
+    },
+    "plus.google.com/116810148281701144465": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.223
+    },
+    "news.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.223
+    },
+    "play.google.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.223
+    },
+    "ponyfoo.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.223
+    },
+    "blogs.adobe.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "saurabhmoody.wordpress.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.greasespot.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.mathsisfun.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "webmention.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.gimp.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "webcheatsheet.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.gnu.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.worldlifeexpectancy.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "tldrlegal.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "javascriptissexy.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "repos.brandonrozek.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "css-tricks.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "octave.sourceforge.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "lea.verou.me": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "javascript.info": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "picturesofpeoplescanningqrcodes.tumblr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "glennjones.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "royal.pingdom.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "aarontgrogg.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.nltk.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.christinaxu.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.cloudflare.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "alistapart.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.aaron-gustafson.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.111
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "share.zeropointshift.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "hypervolu.me": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "text": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "csstriggers.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.webdesignerdepot.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "letsencrypt.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "tools.ietf.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "azadzahoory.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "wooledge.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "calumryan.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "domain": "jessprince.com",
+  "urls": [
+    "http://jessprince.com",
+    "http://jessprince.com/"
+  ],
+  "names": [
+    "Jessamyn Prince",
+    "Jessamyn Midori Prince"
+  ],
+  "descriptions": [
+    "Writer and Artist at JMP Media\nPasadena, CA United States",
+    "Visual Fixation - The blog and internet home of artist, author, and photographer Jessamyn Midori Prince"
+  ],
+  "pictures": [
+    "http://jessprince.com/wp-content/uploads/2015/10/jpm-512x512.jpg",
+    "https://i2.wp.com/jessprince.com/wp-content/uploads/2015/10/cropped-jpm-512x512.jpg?fit=32%2C32",
+    "https://i2.wp.com/jessprince.com/wp-content/uploads/2015/10/cropped-jpm-512x512.jpg?fit=192%2C192",
+    "http://jessprince.com/wp-content/uploads/2015/11/Be-Brave.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "country-name": [
+        "United States"
+      ],
+      "email": [
+        "mailto:jess@jessprince.com"
+      ],
+      "job-title": [
+        "Writer"
+      ],
+      "locality": [
+        "Pasadena, CA"
+      ],
+      "name": [
+        "Jessamyn Prince"
+      ],
+      "note": [
+        "Writer and Artist at JMP Media\nPasadena, CA United States"
+      ],
+      "org": [
+        "JMP Media"
+      ],
+      "photo": [
+        "http://jessprince.com/wp-content/uploads/2015/10/jpm-512x512.jpg"
+      ],
+      "role": [
+        "Artist"
+      ],
+      "tel": [
+        "+1(805)850-9838"
+      ],
+      "url": [
+        "http://jessprince.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://jessprince.com/sms:3107510548",
+    "sms:+18058509838",
+    "mailto:jess@jessprince.com",
+    "mailto:jessamynmidoriprince@gmail.com",
+    "http://jessprince.com",
+    "tel:+18058509838",
+    "https://www.facebook.com/jessamyn.prince",
+    "https://twitter.com/JessamynPrince",
+    "https://plus.google.com/u/0/109275275072529529827/posts",
+    "https://instagram.com/jessamynmprince/",
+    "https://vimeo.com/jessamynprince/"
+  ],
+  "crawl_start": "2017-04-28T23:37:05",
+  "crawl_end": "2017-04-29T00:35:46",
+  "num_pages": 451,
+  "total_html_size": 33850413,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-as-mention",
+    "h-as-reply",
+    "h-feed"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://jessprince.com/?webmention=endpoint"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 7737,
+  "links_in": 54,
+  "links": {
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 6,
+        "in-reply-to": 8
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.512
+    },
+    "brid.gy": {
+      "in": {
+        "other": 33
+      },
+      "score": 0.459
+    },
+    "boffosocko.com": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.256
+    }
+  }
+}

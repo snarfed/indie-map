@@ -1,0 +1,185 @@
+{
+  "domain": "kimberlyblessing.me",
+  "urls": [
+    "http://kimberlyblessing.me/profile/kb",
+    "http://kimberlyblessing.com/",
+    "https://www.twitter.com/obiwankimberly",
+    "https://www.flickr.com/photos/kimberlyblessing/",
+    "https://www.instagram.com/obiwankimberly/",
+    "https://lanyrd.com/profile/obiwankimberly/",
+    "https://www.linkedin.com/in/kimberlyblessing/",
+    "https://soundcloud.com/meridianafterburn",
+    "https://www.thinkcompany.com/team/kimberly-blessing"
+  ],
+  "names": [
+    "Kimberly Blessing"
+  ],
+  "descriptions": [
+    "Technologist. Leader. Music lover. Noise maker. Philadelphian.",
+    "All my web stuff in one place"
+  ],
+  "pictures": [
+    "http://kimberlyblessing.me/file/74e176b982a37e55f59aafcc84a976b3/thumb.jpg",
+    "http://kimberlyblessing.me/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Kimberly Blessing"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Technologist. Leader. Music lover. Noise maker. Philadelphian.</p>\n</div>",
+          "value": "\nTechnologist. Leader. Music lover. Noise maker. Philadelphian.\n"
+        }
+      ],
+      "photo": [
+        "http://kimberlyblessing.me/file/74e176b982a37e55f59aafcc84a976b3/thumb.jpg"
+      ],
+      "profile": [
+        "Kimberly Blessing"
+      ],
+      "url": [
+        "http://kimberlyblessing.me/profile/kb",
+        "http://kimberlyblessing.me/profile/kb",
+        "http://kimberlyblessing.com/",
+        "https://www.twitter.com/obiwankimberly",
+        "https://www.flickr.com/photos/kimberlyblessing/",
+        "https://www.instagram.com/obiwankimberly/",
+        "https://lanyrd.com/profile/obiwankimberly/",
+        "https://www.linkedin.com/in/kimberlyblessing/",
+        "https://soundcloud.com/meridianafterburn",
+        "https://www.thinkcompany.com/team/kimberly-blessing"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://kimberlyblessing.com/",
+    "https://www.twitter.com/obiwankimberly",
+    "https://www.flickr.com/photos/kimberlyblessing/",
+    "https://www.instagram.com/obiwankimberly/",
+    "https://lanyrd.com/profile/obiwankimberly/",
+    "https://www.linkedin.com/in/kimberlyblessing/",
+    "https://soundcloud.com/meridianafterburn",
+    "https://www.thinkcompany.com/team/kimberly-blessing"
+  ],
+  "crawl_start": "2017-04-29T04:31:38",
+  "crawl_end": "2017-04-29T05:33:20",
+  "num_pages": 4838,
+  "total_html_size": 130808051,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://kimberlyblessing.me/webmention/"
+    ],
+    "micropub": [
+      "http://kimberlyblessing.me/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://kimberlyblessing.me/indieauth/auth"
+    ],
+    "token": [
+      "http://kimberlyblessing.me/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 73820,
+  "links_in": 36,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 4900
+      },
+      "score": 1
+    },
+    "kimberlyblessing.com": {
+      "out": {
+        "other": 3496
+      },
+      "score": 0.963
+    },
+    "line-mode.cern.ch": {
+      "out": {
+        "other": 313
+      },
+      "score": 0.701
+    },
+    "skinnywhitegirl.com": {
+      "out": {
+        "other": 134
+      },
+      "score": 0.608
+    },
+    "adactio.com": {
+      "out": {
+        "other": 89
+      },
+      "in": {
+        "other": 30
+      },
+      "score": 0.581
+    },
+    "sixtwothree.org": {
+      "out": {
+        "other": 94
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.571
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 94
+      },
+      "score": 0.570
+    },
+    "lawver.net": {
+      "out": {
+        "other": 74
+      },
+      "score": 0.544
+    },
+    "meyerweb.com": {
+      "out": {
+        "other": 37
+      },
+      "score": 0.468
+    },
+    "tantek.com": {
+      "out": {
+        "other": 37
+      },
+      "score": 0.468
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.151
+    }
+  }
+}

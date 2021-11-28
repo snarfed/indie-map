@@ -1,0 +1,74 @@
+{
+  "domain": "marchawkins.com",
+  "urls": [
+    "http://marchawkins.com/"
+  ],
+  "names": [
+    "Welcome to Known"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://marchawkins.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T14:42:19",
+  "crawl_end": "2017-04-29T14:42:37",
+  "num_pages": 4,
+  "total_html_size": 55576,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-register"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://marchawkins.com/webmention/"
+    ],
+    "micropub": [
+      "http://marchawkins.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://marchawkins.com/indieauth/auth"
+    ],
+    "token": [
+      "http://marchawkins.com/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 3,
+  "links_in": 6,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.777
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.387
+    }
+  }
+}

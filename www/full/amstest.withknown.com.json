@@ -1,0 +1,52 @@
+{
+  "domain": "amstest.withknown.com",
+  "urls": [
+    "http://amstest.withknown.com/"
+  ],
+  "names": [
+    "Audrey's Test Site"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://amstest.withknown.com/gfx/users/default-05.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-27T07:52:21",
+  "crawl_end": "2017-04-27T07:52:30",
+  "num_pages": 11,
+  "total_html_size": 166246,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://amstest.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 0,
+  "links_in": 1,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

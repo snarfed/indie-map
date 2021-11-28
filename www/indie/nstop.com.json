@@ -1,0 +1,60 @@
+{
+  "domain": "nstop.com",
+  "urls": [
+    "http://nstop.com/"
+  ],
+  "names": [
+    "Nonstop Pop"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T21:33:08",
+  "crawl_end": "2017-04-29T21:34:12",
+  "num_pages": 126,
+  "total_html_size": 2849776,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-note",
+    "h-card",
+    "h-entry",
+    "h-feed",
+    "h-as-article"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://nstop.com/?webmention=endpoint"
+    ]
+  },
+  "links_out": 1674,
+  "links_in": 9,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.342
+    },
+    "tilde.club": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.122
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    }
+  }
+}

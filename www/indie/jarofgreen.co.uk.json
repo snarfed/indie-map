@@ -1,0 +1,64 @@
+{
+  "domain": "jarofgreen.co.uk",
+  "urls": [
+    "http://jarofgreen.co.uk/"
+  ],
+  "names": [
+    "James Baster – Developer, Photographer in Scotland"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-09T18:06:14",
+  "crawl_end": "2017-06-09T18:08:43",
+  "num_pages": 160,
+  "total_html_size": 3501670,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-feed"
+  ],
+  "tags": [
+    "WordPress"
+  ],
+  "endpoints": {},
+  "links_out": 830,
+  "links_in": 52,
+  "links": {
+    "micropub-test-blog.voxpelli.com": {
+      "in": {
+        "in-reply-to": 24
+      },
+      "score": 0.740
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 19
+      },
+      "score": 0.454
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.301
+    },
+    "rhiaro.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.215
+    },
+    "werd.io": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.107
+    }
+  }
+}

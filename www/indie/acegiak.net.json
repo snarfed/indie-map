@@ -1,0 +1,332 @@
+{
+  "domain": "acegiak.net",
+  "urls": [
+    "http://acegiak.net/"
+  ],
+  "names": [
+    "Acegiak.net"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://acegiak.net/wp-content/uploads/gwpf_icon/favicon.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/acegiak",
+    "http://acegiak.tumblr.com",
+    "http://youtube.com/user/acegiak",
+    "http://google.com/+AshtonMcAllan",
+    "http://steamcommunity.com/id/acegiak",
+    "https://github.com/acegiak",
+    "https://acegiak.net/www.last.fm/user/acegiak"
+  ],
+  "crawl_start": "2017-04-23T22:42:37",
+  "crawl_end": "2017-04-25T14:01:36",
+  "num_pages": 14831,
+  "total_html_size": 393263884,
+  "servers": [
+    "Apache (Ubuntu)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-feed",
+    "h-cite",
+    "h-as-reply",
+    "h-as-mention",
+    "h-as-article",
+    "h-as-note"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://acegiak.net/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://acegiak.net/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 382522,
+  "links_in": 15185,
+  "links": {
+    "indieweb.org": {
+      "out": {
+        "other": 12195
+      },
+      "in": {
+        "other": 9180
+      },
+      "score": 0.874
+    },
+    "machinespirit.net": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 14926
+      },
+      "score": 0.866
+    },
+    "david.shanske.com": {
+      "out": {
+        "other": 14830
+      },
+      "score": 0.866
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4805
+      },
+      "score": 0.713
+    },
+    "known.kylewm.com": {
+      "in": {
+        "other": 132,
+        "in-reply-to": 327
+      },
+      "score": 0.629
+    },
+    "kylewm.com": {
+      "out": {
+        "other": 252
+      },
+      "in": {
+        "in-reply-to": 92,
+        "like-of": 51,
+        "other": 173
+      },
+      "score": 0.598
+    },
+    "werd.io": {
+      "out": {
+        "other": 309
+      },
+      "in": {
+        "other": 101,
+        "in-reply-to": 36
+      },
+      "score": 0.571
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "in-reply-to": 42,
+        "other": 50
+      },
+      "out": {
+        "other": 31
+      },
+      "score": 0.485
+    },
+    "acegiak.machinespirit.net": {
+      "out": {
+        "other": 100
+      },
+      "score": 0.445
+    },
+    "jeena.net": {
+      "out": {
+        "other": 18
+      },
+      "in": {
+        "other": 28,
+        "in-reply-to": 15
+      },
+      "score": 0.414
+    },
+    "waterpigs.co.uk": {
+      "out": {
+        "other": 29
+      },
+      "in": {
+        "other": 81
+      },
+      "score": 0.414
+    },
+    "aaronparecki.com": {
+      "out": {
+        "in-reply-to": 3,
+        "other": 35
+      },
+      "in": {
+        "other": 22
+      },
+      "score": 0.403
+    },
+    "tantek.com": {
+      "out": {
+        "other": 38,
+        "in-reply-to": 3
+      },
+      "score": 0.392
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 51
+      },
+      "score": 0.388
+    },
+    "kevinmarks.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.318
+    },
+    "monadnock.machinespirit.net": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.310
+    },
+    "adactio.com": {
+      "out": {
+        "other": 12
+      },
+      "in": {
+        "other": 12
+      },
+      "score": 0.301
+    },
+    "notizblog.org": {
+      "out": {
+        "other": 5,
+        "in-reply-to": 2
+      },
+      "score": 0.286
+    },
+    "amygdala.machinespirit.net": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.286
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 5
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.277
+    },
+    "tommorris.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "eschnou.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.260
+    },
+    "lancey.space": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.252
+    },
+    "unrelenting.technology": {
+      "out": {
+        "other": 7
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "kartikprabhu.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "in-reply-to": 2
+      },
+      "score": 0.222
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "like-of": 2
+      },
+      "score": 0.208
+    },
+    "hammocktime.withknown.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.193
+    },
+    "caseorganic.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.193
+    },
+    "bret.io": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.175
+    },
+    "dowe.io": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.150
+    },
+    "tiny.n9n.us": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.150
+    },
+    "brid.gy": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.135
+    },
+    "webmention.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0582
+    },
+    "unicyclic.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0582
+    },
+    "mention-tech.appspot.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "community.geoloqi.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "domain": "konzertheld.de",
+  "urls": [
+    "http://konzertheld.de/"
+  ],
+  "names": [
+    "Konzertheld.de | Umwege verbessern die Ortskenntnis"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T22:28:41",
+  "crawl_end": "2017-05-01T01:17:34",
+  "num_pages": 8242,
+  "total_html_size": 455382543,
+  "servers": [
+    "nginx",
+    "Habari"
+  ],
+  "mf2_classes": [
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.herokuapp.com/api/webmention"
+    ]
+  },
+  "links_out": 64668,
+  "links_in": 8,
+  "links": {
+    "www.spiller.me": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.414
+    },
+    "www.nerdcore.de": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.318
+    },
+    "brid.gy": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.214
+    }
+  }
+}

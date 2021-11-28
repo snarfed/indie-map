@@ -1,0 +1,55 @@
+{
+  "domain": "rchrd.net",
+  "urls": [
+    "http://rchrd.net/"
+  ],
+  "names": [
+    "Richard Caceres"
+  ],
+  "descriptions": [
+    "This website is a timeline. It's a hybrid blog and portfolio. A catalog of my work."
+  ],
+  "pictures": [
+    "http://rchrd.net/favicon.ico",
+    "http://rchrd.net/content/images/2015/07/pianola2-1.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/rchrd2",
+    "https://twitter.com/rchrd2"
+  ],
+  "crawl_start": "2017-06-10T01:42:11",
+  "crawl_end": "2017-06-10T01:43:24",
+  "num_pages": 77,
+  "total_html_size": 1157427,
+  "servers": [
+    "nginx",
+    "Ghost"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 742,
+  "links_in": 5,
+  "links": {
+    "www.decentralizedweb.net": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.492
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.247
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

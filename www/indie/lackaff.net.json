@@ -1,0 +1,122 @@
+{
+  "domain": "lackaff.net",
+  "urls": [
+    "http://lackaff.net/profile/lackaff",
+    "https://twitter.com/lackaff",
+    "https://github.com/lackaff"
+  ],
+  "names": [
+    "Derek Lackaff",
+    "lackaff.net"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://lackaff.net/file/ce963e9de50ab1b9518c57cf3ff69863/thumb.jpg",
+    "http://lackaff.net/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Derek Lackaff"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "http://lackaff.net/file/ce963e9de50ab1b9518c57cf3ff69863/thumb.jpg"
+      ],
+      "profile": [
+        "Derek Lackaff"
+      ],
+      "url": [
+        "http://lackaff.net/profile/lackaff",
+        "http://lackaff.net/profile/lackaff",
+        "https://twitter.com/lackaff",
+        "https://github.com/lackaff"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/lackaff",
+    "https://github.com/lackaff"
+  ],
+  "crawl_start": "2017-04-29T14:38:36",
+  "crawl_end": "2017-04-29T14:46:11",
+  "num_pages": 402,
+  "total_html_size": 6899575,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://lackaff.net/webmention/",
+      "https://lackaff.net/webmention/"
+    ],
+    "micropub": [
+      "https://lackaff.net/micropub/endpoint",
+      "http://lackaff.net/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://lackaff.net/indieauth/auth",
+      "https://lackaff.net/indieauth/auth"
+    ],
+    "token": [
+      "https://lackaff.net/indieauth/token",
+      "http://lackaff.net/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1320,
+  "links_in": 9,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.315
+    },
+    "werd.io": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.105
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

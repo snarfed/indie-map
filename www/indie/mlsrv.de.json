@@ -1,0 +1,42 @@
+{
+  "domain": "mlsrv.de",
+  "urls": [
+    "http://mlsrv.de/"
+  ],
+  "names": [
+    "mlsrv.de"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/mraerino"
+  ],
+  "crawl_start": "2017-06-09T18:55:56",
+  "crawl_end": "2017-06-09T18:55:56",
+  "num_pages": 1,
+  "total_html_size": 194,
+  "servers": [
+    "nginx (Ubuntu)"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 1,
+  "links_in": 9,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.615
+    }
+  }
+}

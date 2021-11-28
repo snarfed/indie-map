@@ -1,0 +1,89 @@
+{
+  "domain": "wimpuls.withknown.com",
+  "urls": [
+    "https://wimpuls.withknown.com/profile/wimpuls",
+    "http://wimlijstop.blogspot.be/",
+    "http://twitter.com/WimVanSchel"
+  ],
+  "names": [
+    "Wim Van Schel",
+    "Wimpuls"
+  ],
+  "descriptions": [
+    "I write stuff sometimes. Mostly harmless",
+    "Where it all happens. At times."
+  ],
+  "pictures": [
+    "https://wimpuls.withknown.com/file/dc4d5e432248929118e1ea84451d0bfc/thumb.jpg",
+    "https://wimpuls.withknown.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Wim Van Schel"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I write stuff sometimes. Mostly harmless</p>\n</div>",
+          "value": "\nI write stuff sometimes. Mostly harmless\n"
+        }
+      ],
+      "photo": [
+        "https://wimpuls.withknown.com/file/dc4d5e432248929118e1ea84451d0bfc/thumb.jpg"
+      ],
+      "profile": [
+        "Wim Van Schel"
+      ],
+      "url": [
+        "https://wimpuls.withknown.com/profile/wimpuls",
+        "https://wimpuls.withknown.com/profile/wimpuls",
+        "http://wimlijstop.blogspot.be/",
+        "http://twitter.com/WimVanSchel"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://wimlijstop.blogspot.be/",
+    "http://twitter.com/WimVanSchel"
+  ],
+  "crawl_start": "2017-05-06T02:03:12",
+  "crawl_end": "2017-05-06T02:03:26",
+  "num_pages": 17,
+  "total_html_size": 511824,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://wimpuls.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 35,
+  "links_in": 0,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 1
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "domain": "rosetree.de",
+  "urls": [
+    "http://rosetree.de/"
+  ],
+  "names": [
+    "Micha Rosenbaum: my Indieweb Page"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/rosetree",
+    "https://twitter.com/plasisent",
+    "https://de.wikipedia.org/wiki/Benutzer:MRosetree",
+    "https://stackoverflow.com/users/1482294/rosetree",
+    "https://plus.google.com/118348996138833493054"
+  ],
+  "crawl_start": "2017-06-10T01:42:58",
+  "crawl_end": "2017-06-10T01:43:26",
+  "num_pages": 22,
+  "total_html_size": 388164,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "WordPress"
+  ],
+  "endpoints": {},
+  "links_out": 148,
+  "links_in": 330,
+  "links": {
+    "plasisent.org": {
+      "in": {
+        "other": 328
+      },
+      "out": {
+        "other": 8
+      },
+      "score": 1
+    },
+    "adactio.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.119
+    }
+  }
+}

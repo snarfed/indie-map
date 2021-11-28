@@ -1,0 +1,79 @@
+{
+  "domain": "www.anoldinternational.co.uk",
+  "urls": [
+    "https://www.anoldinternational.co.uk/"
+  ],
+  "names": [
+    "An Old International"
+  ],
+  "descriptions": [
+    "football at the crossroads with culture and history",
+    "FOOTBALL AT THE CROSSROADS WITH CULTURE AND HISTORY",
+    "Football at the crossroads of history, society and culture, est. 2010"
+  ],
+  "pictures": [
+    "https://www.anoldinternational.co.uk/wp-content/uploads/download.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://plus.google.com/https://plus.google.com/111118512474652472564/posts/p/pub",
+    "https://twitter.com/wagnerc23"
+  ],
+  "crawl_start": "2017-04-30T06:06:55",
+  "crawl_end": "2017-04-30T07:23:29",
+  "num_pages": 1221,
+  "total_html_size": 30208679,
+  "servers": [
+    "Apache (CentOS)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-repost",
+    "h-as-like",
+    "h-as-mention",
+    "h-as-reply",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.anoldinternational.co.uk/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://www.anoldinternational.co.uk/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 13643,
+  "links_in": 962,
+  "links": {
+    "donotmentionthewar.wordpress.com": {
+      "out": {
+        "other": 12
+      },
+      "in": {
+        "other": 944
+      },
+      "score": 0.787
+    },
+    "brid.gy": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.331
+    }
+  }
+}

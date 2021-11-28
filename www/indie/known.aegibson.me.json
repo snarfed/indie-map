@@ -1,0 +1,252 @@
+{
+  "domain": "known.aegibson.me",
+  "urls": [
+    "http://known.aegibson.me/profile/aaron",
+    "https://aegibson.me/profile/aaron",
+    "https://plus.google.com/u/0/+aegibson",
+    "https://twitter.com/aegibson73",
+    "https://www.instagram.com/aegibson73/",
+    "xmpp:aaron@aegibson.me"
+  ],
+  "names": [
+    "Aaron Gibson",
+    "Aaron's Indieweb, powered by Known"
+  ],
+  "descriptions": [
+    "Self hosting baby!",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://known.aegibson.me/file/c194ff479c3d9fed61621786f31fefcd"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:aaron@aegibson.me"
+      ],
+      "name": [
+        "Aaron Gibson"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Self hosting baby!</p>\n</div>",
+          "value": "\nSelf hosting baby!\n"
+        }
+      ],
+      "photo": [
+        "http://known.aegibson.me/file/c194ff479c3d9fed61621786f31fefcd"
+      ],
+      "profile": [
+        "Aaron Gibson"
+      ],
+      "url": [
+        "http://known.aegibson.me/profile/aaron",
+        "http://known.aegibson.me/profile/aaron",
+        "https://aegibson.me/profile/aaron",
+        "https://plus.google.com/u/0/+aegibson",
+        "https://twitter.com/aegibson73",
+        "https://www.instagram.com/aegibson73/",
+        "xmpp:aaron@aegibson.me"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://aegibson.me/profile/aaron",
+    "https://plus.google.com/u/0/+aegibson",
+    "https://twitter.com/aegibson73",
+    "https://www.instagram.com/aegibson73/",
+    "xmpp:aaron@aegibson.me",
+    "mailto:aaron@aegibson.me"
+  ],
+  "crawl_start": "2017-04-29T04:31:54",
+  "crawl_end": "2017-04-29T04:41:15",
+  "num_pages": 911,
+  "total_html_size": 23584047,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-food",
+    "h-entry",
+    "h-card",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.aegibson.me/webmention/",
+      "https://known.aegibson.me/webmention/"
+    ],
+    "micropub": [
+      "http://known.aegibson.me/micropub/endpoint",
+      "https://known.aegibson.me/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://known.aegibson.me/indieauth/auth",
+      "https://known.aegibson.me/indieauth/auth"
+    ],
+    "token": [
+      "https://known.aegibson.me/indieauth/token",
+      "http://known.aegibson.me/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 3262,
+  "links_in": 218,
+  "links": {
+    "aegibson.me": {
+      "in": {
+        "other": 33
+      },
+      "out": {
+        "other": 1356
+      },
+      "score": 1
+    },
+    "stream.boffosocko.com": {
+      "out": {
+        "in-reply-to": 60,
+        "other": 56
+      },
+      "in": {
+        "in-reply-to": 46,
+        "like-of": 13,
+        "other": 32
+      },
+      "score": 0.872
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 4,
+        "in-reply-to": 21
+      },
+      "out": {
+        "in-reply-to": 6,
+        "other": 8
+      },
+      "score": 0.659
+    },
+    "raretrack.uk": {
+      "in": {
+        "in-reply-to": 10,
+        "other": 8
+      },
+      "out": {
+        "other": 12,
+        "in-reply-to": 6
+      },
+      "score": 0.626
+    },
+    "ownyourswarm.p3k.io": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.586
+    },
+    "petermolnar.net": {
+      "out": {
+        "in-reply-to": 10
+      },
+      "score": 0.582
+    },
+    "davidjohnmead.com": {
+      "out": {
+        "in-reply-to": 10
+      },
+      "score": 0.582
+    },
+    "ben.thatmustbe.me": {
+      "in": {
+        "in-reply-to": 4
+      },
+      "out": {
+        "in-reply-to": 6,
+        "other": 8
+      },
+      "score": 0.576
+    },
+    "aaronparecki.com": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 8
+      },
+      "in": {
+        "other": 7
+      },
+      "score": 0.558
+    },
+    "tantek.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.489
+    },
+    "www.raretrack.uk": {
+      "in": {
+        "in-reply-to": 4,
+        "other": 4
+      },
+      "score": 0.402
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.402
+    },
+    "ascraeus.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.350
+    },
+    "brid.gy": {
+      "in": {
+        "other": 16
+      },
+      "score": 0.350
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.313
+    },
+    "loadaverage.org": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.278
+    },
+    "www.boffosocko.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.263
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.139
+    }
+  }
+}

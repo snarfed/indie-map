@@ -1,0 +1,44 @@
+{
+  "domain": "www.jsdr.org",
+  "urls": [
+    "http://www.jsdr.org/"
+  ],
+  "names": [
+    "JS;DR:  JavaScript required; Didn't Read"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-05-21T05:02:57",
+  "crawl_end": "2017-05-21T05:02:57",
+  "num_pages": 2,
+  "total_html_size": 1156,
+  "servers": [
+    "Apache"
+  ],
+  "tags": [],
+  "endpoints": {},
+  "links_out": 2,
+  "links_in": 4,
+  "links": {
+    "tantek.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.499
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.499
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "domain": "ruihildt.xyz",
+  "urls": [
+    "http://ruihildt.xyz/"
+  ],
+  "names": [
+    "Rui Hildt – words, some of them"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://ruihildt.xyz/wp-content/uploads/2016/11/ruihildt-150x150.jpg",
+    "https://ruihildt.xyz/wp-content/uploads/2016/11/ruihildt-300x300.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T02:09:31",
+  "crawl_end": "2017-04-30T02:09:38",
+  "num_pages": 7,
+  "total_html_size": 70785,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-as-article"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://ruihildt.xyz/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://ruihildt.xyz/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 18,
+  "links_in": 157,
+  "links": {
+    "www.rmendes.net": {
+      "in": {
+        "like-of": 12,
+        "repost-of": 23,
+        "other": 115
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.335
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

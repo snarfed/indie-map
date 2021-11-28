@@ -1,0 +1,564 @@
+{
+  "domain": "known.johnj.info",
+  "urls": [
+    "http://known.johnj.info/profile/johnjohnston",
+    "http://johnjohnston.info/blog",
+    "http://johnjohnston.info/106",
+    "http://twitter.com/johnjohnston",
+    "http://flickr.com/troutcolor"
+  ],
+  "names": [
+    "John Johnston",
+    "What do I Know?"
+  ],
+  "descriptions": [
+    "A primary school teacher, in Glasgow Scotland. Currently employed as an ICT staff Development Officer in North Lanarkshire & seconded to Glow Scotland's national online environment to support learning as a 'product owner' mostly working in the blogs team.",
+    "testing known"
+  ],
+  "pictures": [
+    "http://known.johnj.info/file/6a19638f14af7c3f7b4bb3ef9842d981/thumb.png",
+    "http://known.johnj.info/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "John Johnston"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>A primary school teacher, in Glasgow Scotland. Currently employed as an ICT staff Development Officer in North Lanarkshire &amp; seconded to Glow Scotland's national online environment to support learning as a 'product owner' mostly working in the blogs team.</p>\n</div>",
+          "value": "\nA primary school teacher, in Glasgow Scotland. Currently employed as an ICT staff Development Officer in North Lanarkshire & seconded to Glow Scotland's national online environment to support learning as a 'product owner' mostly working in the blogs team.\n"
+        }
+      ],
+      "photo": [
+        "http://known.johnj.info/file/6a19638f14af7c3f7b4bb3ef9842d981/thumb.png"
+      ],
+      "profile": [
+        "John Johnston"
+      ],
+      "url": [
+        "http://known.johnj.info/profile/johnjohnston",
+        "http://known.johnj.info/profile/johnjohnston",
+        "http://johnjohnston.info/blog",
+        "http://johnjohnston.info/106",
+        "http://twitter.com/johnjohnston",
+        "http://flickr.com/troutcolor"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://johnjohnston.info/blog",
+    "http://johnjohnston.info/106",
+    "http://twitter.com/johnjohnston",
+    "http://flickr.com/troutcolor"
+  ],
+  "crawl_start": "2017-04-29T04:35:23",
+  "crawl_end": "2017-04-29T04:59:38",
+  "num_pages": 1772,
+  "total_html_size": 37748797,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-geo",
+    "h-entry",
+    "h-card",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.johnj.info/webmention/"
+    ],
+    "micropub": [
+      "http://known.johnj.info/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://known.johnj.info/indieauth/auth"
+    ],
+    "token": [
+      "http://known.johnj.info/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 8851,
+  "links_in": 429,
+  "links": {
+    "johnjohnston.info": {
+      "out": {
+        "other": 2183
+      },
+      "in": {
+        "other": 393
+      },
+      "score": 1
+    },
+    "withknown.com": {
+      "out": {
+        "other": 1798
+      },
+      "score": 0.967
+    },
+    "johnj.info": {
+      "out": {
+        "other": 1378
+      },
+      "score": 0.935
+    },
+    "twitter.com/johnjohnston": {
+      "out": {
+        "other": 1132
+      },
+      "score": 0.911
+    },
+    "flickr.com": {
+      "out": {
+        "other": 1083
+      },
+      "score": 0.907
+    },
+    "daily.stillweb.org": {
+      "out": {
+        "other": 294
+      },
+      "score": 0.753
+    },
+    "islayian.withknown.com": {
+      "out": {
+        "in-reply-to": 18,
+        "other": 18
+      },
+      "score": 0.635
+    },
+    "werd.io": {
+      "out": {
+        "other": 11,
+        "in-reply-to": 9
+      },
+      "in": {
+        "other": 4,
+        "in-reply-to": 15
+      },
+      "score": 0.620
+    },
+    "t.co": {
+      "out": {
+        "other": 92
+      },
+      "score": 0.615
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.613
+    },
+    "twitter.com/livedtime": {
+      "out": {
+        "other": 62
+      },
+      "score": 0.569
+    },
+    "stream.withknown.com": {
+      "out": {
+        "in-reply-to": 10,
+        "other": 5
+      },
+      "in": {
+        "other": 12
+      },
+      "score": 0.567
+    },
+    "twitter.com/hashtag": {
+      "out": {
+        "other": 51
+      },
+      "score": 0.545
+    },
+    "johnjohnston.name": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.517
+    },
+    "edte.ch": {
+      "out": {
+        "in-reply-to": 5,
+        "other": 2
+      },
+      "score": 0.471
+    },
+    "vimeo.com": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.471
+    },
+    "generationetc.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.466
+    },
+    "thelocalyarn.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.466
+    },
+    "33moments.tumblr.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.457
+    },
+    "github.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.446
+    },
+    "medium.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.446
+    },
+    "twitter.com/mdvfunes": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.417
+    },
+    "twitter.com/benwerd": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.417
+    },
+    "gist.github.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.417
+    },
+    "soundcloud.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.410
+    },
+    "betterphotography.in": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.410
+    },
+    "twitter.com/timmmmyboy": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.401
+    },
+    "marianafunes.co.uk": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.393
+    },
+    "mobile.twitter.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.393
+    },
+    "futurism.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.385
+    },
+    "creativecommons.org": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.385
+    },
+    "www.theguardian.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.385
+    },
+    "timowens.io": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.385
+    },
+    "www.lionsroar.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.385
+    },
+    "www.fulfillmentdaily.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.385
+    },
+    "pi.johnj.info": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.385
+    },
+    "fivethirtyeight.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.385
+    },
+    "m.youtube.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.375
+    },
+    "zenhabits.net": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.375
+    },
+    "archive.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.375
+    },
+    "scripting.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.354
+    },
+    "twitter.com/ronald_2008": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.354
+    },
+    "newrepublic.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.341
+    },
+    "pinboard.in": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.341
+    },
+    "wordle.net": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.341
+    },
+    "ccsubs.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.341
+    },
+    "hackeducation.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.341
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.341
+    },
+    "dl.dropboxusercontent.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.293
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.272
+    },
+    "reader.liveblog.co": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.272
+    },
+    "ift.tt": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.272
+    },
+    "twitter.com/eyebeams": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.272
+    },
+    "tantek.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.272
+    },
+    "www.independent.co.uk": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.272
+    },
+    "twitter.com/IanStuart66": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.272
+    },
+    "cogdogblog.com": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.260
+    },
+    "twitter.com/dajbelshaw": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.246
+    },
+    "konarheim.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.246
+    },
+    "myword.io": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.246
+    },
+    "mdvfunes.withknown.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.246
+    },
+    "twitter.com/AloyanMikhail": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "twitter.com/HTdhughes": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "twitter.com/AnnyCow": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "twitter.com/ciaracreative": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "twitter.com/miss_jwo": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "twitter.com/tombarrett": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.L4L.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "twitter.com/indiewebcamp": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "annacow.wordpress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "webmention.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "twitter.com/EbookGlue": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0818
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0818
+    }
+  }
+}

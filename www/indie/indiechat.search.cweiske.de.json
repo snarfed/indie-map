@@ -1,0 +1,46 @@
+{
+  "domain": "indiechat.search.cweiske.de",
+  "urls": [
+    "http://indiechat.search.cweiske.de/"
+  ],
+  "names": [
+    " search chat.indieweb.org"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://indiechat.search.cweiske.de/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-07T17:36:29",
+  "crawl_end": "2017-06-07T17:36:30",
+  "num_pages": 2,
+  "total_html_size": 3991,
+  "servers": [
+    "Apache (Debian) SVN mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_jk PHP-0+deb8u1 mod_python Python OpenSSLk",
+    "phinde"
+  ],
+  "tags": [
+    "bridgy",
+    "elder",
+    "IRC",
+    "tool"
+  ],
+  "endpoints": {},
+  "links_out": 2,
+  "links_in": 57,
+  "links": {
+    "chat.indieweb.org": {
+      "in": {
+        "other": 37
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 20
+      },
+      "score": 0.831
+    }
+  }
+}

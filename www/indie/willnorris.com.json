@@ -1,0 +1,383 @@
+{
+  "domain": "willnorris.com",
+  "urls": [
+    "https://willnorris.com/",
+    "https://plus.google.com/+willnorris",
+    "https://github.com/willnorris",
+    "https://twitter.com/willnorris",
+    "https://facebook.com/willnorris"
+  ],
+  "names": [
+    "Will Norris",
+    "willnorris.com"
+  ],
+  "descriptions": [
+    "Hi, I'm Will.  I'm a follower of Jesus, a\n        husband to Elisabeth, a father to Gabriel, a citizen of the indie web, and a software\n        engineer at Google.  In that order.",
+    "there's more to life than this"
+  ],
+  "pictures": [
+    "https://willnorris.com/logo.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Will Norris"
+      ],
+      "note": [
+        "Hi, I'm Will.  I'm a follower of Jesus, a\n        husband to Elisabeth, a father to Gabriel, a citizen of the indie web, and a software\n        engineer at Google.  In that order."
+      ],
+      "org": [
+        "Google"
+      ],
+      "photo": [
+        "https://willnorris.com/logo.jpg"
+      ],
+      "role": [
+        "software\n        engineer"
+      ],
+      "url": [
+        "https://willnorris.com/",
+        "https://plus.google.com/+willnorris",
+        "https://github.com/willnorris",
+        "https://twitter.com/willnorris",
+        "https://facebook.com/willnorris"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://plus.google.com/+willnorris",
+    "https://github.com/willnorris",
+    "https://twitter.com/willnorris",
+    "https://facebook.com/willnorris"
+  ],
+  "crawl_start": "2017-04-26T12:01:29",
+  "crawl_end": "2017-04-26T12:04:16",
+  "num_pages": 253,
+  "total_html_size": 2266282,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-event"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "elder",
+    "IRC",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://willnorris.com/api/webmention"
+    ]
+  },
+  "links_out": 1670,
+  "links_in": 4782,
+  "links": {
+    "jothut.com": {
+      "in": {
+        "other": 2766
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 1056
+      },
+      "out": {
+        "other": 23
+      },
+      "score": 0.884
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 496
+      },
+      "score": 0.783
+    },
+    "notiz.blog": {
+      "in": {
+        "other": 220,
+        "in-reply-to": 18
+      },
+      "score": 0.724
+    },
+    "known.kylewm.com": {
+      "in": {
+        "other": 105
+      },
+      "score": 0.586
+    },
+    "kylewm.com": {
+      "in": {
+        "other": 26
+      },
+      "out": {
+        "in-reply-to": 1
+      },
+      "score": 0.451
+    },
+    "aaronparecki.com": {
+      "in": {
+        "bookmark-of": 11
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.401
+    },
+    "waterpigs.co.uk": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "in-reply-to": 1,
+        "other": 2
+      },
+      "score": 0.390
+    },
+    "tantek.com": {
+      "in": {
+        "other": 3
+      },
+      "out": {
+        "other": 9
+      },
+      "score": 0.383
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1,
+        "in-reply-to": 3
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.383
+    },
+    "brid.gy": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 13
+      },
+      "score": 0.357
+    },
+    "singpolyma.net": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 9
+      },
+      "score": 0.323
+    },
+    "2016.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "out": {
+        "in-reply-to": 1
+      },
+      "score": 0.323
+    },
+    "eschnou.com": {
+      "out": {
+        "other": 1,
+        "in-reply-to": 1
+      },
+      "score": 0.313
+    },
+    "caseorganic.com": {
+      "out": {
+        "in-reply-to": 1
+      },
+      "score": 0.290
+    },
+    "oauth.net": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.226
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.226
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.226
+    },
+    "ttk.me": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.226
+    },
+    "anomalily.net": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.downes.ca": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.175
+    },
+    "werd.io": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.139
+    },
+    "darius.dunlaps.net": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0874
+    },
+    "bradfitz.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0874
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0874
+    },
+    "dunlaps.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0874
+    },
+    "extrafuture.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0874
+    },
+    "dangillmor.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0874
+    },
+    "jenson.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0874
+    },
+    "brucewang.net": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0874
+    },
+    "webmention.herokuapp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0874
+    },
+    "matienzo.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0874
+    },
+    "www.onebigfluke.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0874
+    },
+    "martin.atkins.me.uk": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0874
+    },
+    "indiewebify.me": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0874
+    },
+    "bear.im": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0874
+    },
+    "joel.franusic.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0874
+    },
+    "iamshane.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0874
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0874
+    },
+    "scripting.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "webmention.net": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "boghop.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "davidakennedy.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "t37.net": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

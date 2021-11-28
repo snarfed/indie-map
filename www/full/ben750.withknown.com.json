@@ -1,0 +1,206 @@
+{
+  "domain": "ben750.withknown.com",
+  "urls": [
+    "https://ben750.withknown.com/profile/benwerd",
+    "http://werd.io/",
+    "https://withknown.com/"
+  ],
+  "names": [
+    "Ben Werdmuller",
+    "Ben's 750 Words a Day"
+  ],
+  "descriptions": [
+    "Co-founder of Known. These are my 750 words a day of unfiltered, stream of consciousness writing.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://ben750.withknown.com/file/9d424f0f760bfb5c8c27603ca310b544"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Ben Werdmuller"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Co-founder of Known. These are my 750 words a day of unfiltered, stream of consciousness writing.</p>\n</div>",
+          "value": "\nCo-founder of Known. These are my 750 words a day of unfiltered, stream of consciousness writing.\n"
+        }
+      ],
+      "photo": [
+        "https://ben750.withknown.com/file/9d424f0f760bfb5c8c27603ca310b544"
+      ],
+      "profile": [
+        "Ben Werdmuller"
+      ],
+      "url": [
+        "https://ben750.withknown.com/profile/benwerd",
+        "https://ben750.withknown.com/profile/benwerd",
+        "http://werd.io/",
+        "https://withknown.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://werd.io/",
+    "https://withknown.com/"
+  ],
+  "crawl_start": "2017-04-27T07:52:50",
+  "crawl_end": "2017-04-27T07:53:41",
+  "num_pages": 37,
+  "total_html_size": 1419455,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://ben750.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 136,
+  "links_in": 47,
+  "links": {
+    "werd.io": {
+      "in": {
+        "other": 40
+      },
+      "out": {
+        "other": 23
+      },
+      "score": 1
+    },
+    "brid-gy.appspot.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.870
+    },
+    "withknown.com": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.818
+    },
+    "mapkyca.com": {
+      "out": {
+        "other": 12
+      },
+      "in": {
+        "in-reply-to": 2
+      },
+      "score": 0.793
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "in-reply-to": 5
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.787
+    },
+    "twitter.com/ShaunKing": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.649
+    },
+    "aclu.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.649
+    },
+    "mat.tl": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.557
+    },
+    "webmention.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.517
+    },
+    "michaelbyrne.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.467
+    },
+    "brightmeadow.co.uk": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.467
+    },
+    "github.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.467
+    },
+    "twitter.com/dajbelshaw": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.312
+    },
+    "twitter.com/mrclay_org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.312
+    },
+    "twitter.com/funnymonkey": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.312
+    },
+    "webseitz.fluxent.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.312
+    },
+    "twitter.com/SheepzDave": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.312
+    },
+    "twitter.com/emarcroft": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.312
+    },
+    "rickontheater.blogspot.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    }
+  }
+}

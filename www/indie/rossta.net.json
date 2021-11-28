@@ -1,0 +1,73 @@
+{
+  "domain": "rossta.net",
+  "urls": [
+    "http://rossta.net/"
+  ],
+  "names": [
+    "Ross Kaffenberger - rossta.net",
+    "rossta.net",
+    "Ross Kaffenberger"
+  ],
+  "descriptions": [
+    "Ross Kaffenberger writes about software engineering, computer programming, and web development in Ruby, Javascript, Clojure, HTML, and CSS"
+  ],
+  "pictures": [
+    "https://rossta.net/touch-icon-192x192.png",
+    "https://rossta.net/touch-icon-144x144.png",
+    "https://rossta.net/touch-icon-96x96.png",
+    "https://rossta.net/touch-icon-72x72.png",
+    "https://rossta.net/assets/images/turtle-favicon.ico",
+    "https://rossta.net/assets/images/blog/stock/louvre-pexels-photo.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://rossta.net/cdn-cgi/l/email-protection#e795889494a7958894949386c9898293",
+    "https://twitter.com/rossta",
+    "https://medium.com/@rossta",
+    "https://github.com/rossta",
+    "https://www.linkedin.com/in/rosskaffenberger"
+  ],
+  "crawl_start": "2017-04-30T02:08:47",
+  "crawl_end": "2017-04-30T02:10:06",
+  "num_pages": 145,
+  "total_html_size": 2878802,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "tags": [
+    "relme",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/rossta.net/webmention"
+    ]
+  },
+  "links_out": 2099,
+  "links_in": 75,
+  "links": {
+    "adactio.com": {
+      "in": {
+        "other": 2,
+        "bookmark-of": 69
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.779
+    },
+    "yehudakatz.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.326
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.218
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "domain": "www.craftycorvid.com",
+  "urls": [
+    "https://www.craftycorvid.com/"
+  ],
+  "names": [
+    "Crafty Corvid"
+  ],
+  "descriptions": [
+    "The adventures of Brittney and Patrick."
+  ],
+  "pictures": [
+    "https://www.craftycorvid.com/favicon.ico",
+    "https://www.craftycorvid.com/content/images/2016/11/Mossy-Tree.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-17T06:19:29",
+  "crawl_end": "2017-06-17T06:19:32",
+  "num_pages": 9,
+  "total_html_size": 89768,
+  "servers": [
+    "nginx",
+    "Ghost"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "IWS2017"
+  ],
+  "endpoints": {},
+  "links_out": 69,
+  "links_in": 0,
+  "links": {
+    "2017.indieweb.org": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 1
+    },
+    "patrick.craftycorvid.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.693
+    },
+    "brittney.craftycorvid.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.597
+    }
+  }
+}

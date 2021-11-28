@@ -1,0 +1,87 @@
+{
+  "domain": "antoniojesus.spadial.com",
+  "urls": [
+    "http://antoniojesus.spadial.com"
+  ],
+  "names": [
+    "Antonio JesÃºs SÃ¡nchez Padial",
+    "ajspadial ::: Antonio JesÃºs SÃ¡nchez Padial"
+  ],
+  "descriptions": [
+    "Pongo bits a trabajar al servicio de la Ciencia"
+  ],
+  "pictures": [
+    "http://antoniojesus.spadial.com/img/ajspadial.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "country-name": [
+        "Spain"
+      ],
+      "family-name": [
+        "SÃ¡nchez Padial"
+      ],
+      "given-name": [
+        "Antonio JesÃºs"
+      ],
+      "locality": [
+        "Madrid"
+      ],
+      "name": [
+        "Antonio JesÃºs SÃ¡nchez Padial"
+      ],
+      "note": [
+        "Pongo bits a trabajar al servicio de la Ciencia"
+      ],
+      "photo": [
+        "http://antoniojesus.spadial.com/img/ajspadial.jpg"
+      ],
+      "url": [
+        "http://antoniojesus.spadial.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/ajspadial",
+    "http://antoniojesus.spadial.com"
+  ],
+  "crawl_start": "2017-06-09T17:33:26",
+  "crawl_end": "2017-06-09T17:33:26",
+  "num_pages": 1,
+  "total_html_size": 1291,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 1,
+  "links_in": 3,
+  "links": {
+    "twitter.com/ajspadial": {
+      "out": {
+        "other": 1
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

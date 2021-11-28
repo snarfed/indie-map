@@ -1,0 +1,110 @@
+{
+  "domain": "mikirk.com",
+  "urls": [
+    "http://mikirk.com/"
+  ],
+  "names": [
+    "\r\nMikirk artist/designer/editor @ Mikirk"
+  ],
+  "descriptions": [
+    "Michael Kirk's work & online presence"
+  ],
+  "pictures": [
+    "http://mikirk.com/wp-content/uploads/2013/07/1373904172Allrite_Favicon.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        ""
+      ],
+      "uid": [
+        "http://mikirk.com/"
+      ],
+      "url": [
+        "http://mikirk.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://mikirk.com/",
+    "sms:+19513231098",
+    "http://mikirk.com/sms:9513231098",
+    "mailto:mikirkdesign@gmail.com",
+    "https://www.instagram.com/mikirk",
+    "https://www.facebook.com/mikirk112",
+    "https://plus.google.com/u/0/114897595830978618044",
+    "https://www.flickr.com/photos/mikirk",
+    "https://twitter.com/mikirk1"
+  ],
+  "crawl_start": "2017-04-29T21:31:41",
+  "crawl_end": "2017-04-29T21:32:21",
+  "num_pages": 10,
+  "total_html_size": 331978,
+  "servers": [],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://mikirk.com/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 354,
+  "links_in": 32,
+  "links": {
+    "boffosocko.com": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.526
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.419
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.253
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.253
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.126
+    },
+    "gregorlove.com": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.126
+    },
+    "tantek.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

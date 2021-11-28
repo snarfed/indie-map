@@ -1,0 +1,53 @@
+{
+  "domain": "parempibisnes.withknown.com",
+  "urls": [
+    "http://parempibisnes.withknown.com/"
+  ],
+  "names": [
+    "ParempiBisnes.fi"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://parempibisnes.withknown.com/gfx/users/default-01.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T01:58:22",
+  "crawl_end": "2017-04-30T01:58:30",
+  "num_pages": 16,
+  "total_html_size": 328454,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://parempibisnes.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 29,
+  "links_in": 2,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.159
+    }
+  }
+}

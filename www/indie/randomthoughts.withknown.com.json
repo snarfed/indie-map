@@ -1,0 +1,117 @@
+{
+  "domain": "randomthoughts.withknown.com",
+  "urls": [
+    "https://randomthoughts.withknown.com/profile/jwlehane",
+    "http://kickball.com",
+    "http://facebook.com/johnnykickball",
+    "http://twitter.com/johnnykickball",
+    "http://johnnysrandomthoughts.blogspot.com",
+    "http://Http://linkedIn.com/in/jwlehane"
+  ],
+  "names": [
+    "Johnny",
+    "Random thoughts all in one place",
+    "Random Thoughts"
+  ],
+  "descriptions": [
+    "Lover of life, seeker of truth",
+    "Testing a community"
+  ],
+  "pictures": [
+    "https://randomthoughts.withknown.com/file/36202996ee31a96cd85e36e6a8f9babb"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Johnny"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Lover of life, seeker of truth</p>\n</div>",
+          "value": "\nLover of life, seeker of truth\n"
+        }
+      ],
+      "photo": [
+        "https://randomthoughts.withknown.com/file/36202996ee31a96cd85e36e6a8f9babb"
+      ],
+      "profile": [
+        "Johnny"
+      ],
+      "url": [
+        "https://randomthoughts.withknown.com/profile/jwlehane",
+        "https://randomthoughts.withknown.com/profile/jwlehane",
+        "http://kickball.com",
+        "http://facebook.com/johnnykickball",
+        "http://twitter.com/johnnykickball",
+        "http://johnnysrandomthoughts.blogspot.com",
+        "http://Http://linkedIn.com/in/jwlehane"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://kickball.com",
+    "http://facebook.com/johnnykickball",
+    "http://twitter.com/johnnykickball",
+    "http://johnnysrandomthoughts.blogspot.com",
+    "http://Http://linkedIn.com/in/jwlehane"
+  ],
+  "crawl_start": "2017-04-30T02:04:59",
+  "crawl_end": "2017-04-30T02:05:44",
+  "num_pages": 39,
+  "total_html_size": 1202997,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://randomthoughts.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://randomthoughts.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://randomthoughts.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://randomthoughts.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 241,
+  "links_in": 3,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 39
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.252
+    }
+  }
+}

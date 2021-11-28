@@ -1,0 +1,113 @@
+{
+  "domain": "blog.danielpietzsch.com",
+  "urls": [
+    "http://blog.danielpietzsch.com/",
+    "http://blog.danielpietzsch.com",
+    "http://blog.danielpietzsch.com/?og=1"
+  ],
+  "names": [
+    "Daniel Pietzsch",
+    "danielpietzsch"
+  ],
+  "descriptions": [
+    "Personal blog. Mostly photos.",
+    "danielpietzsch"
+  ],
+  "pictures": [
+    "http://68.media.tumblr.com/avatar_7431014c58cc_128.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Daniel Pietzsch"
+      ],
+      "note": [
+        "Personal blog. Mostly photos."
+      ],
+      "url": [
+        "http://blog.danielpietzsch.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://blog.danielpietzsch.com/",
+    "http://www.danielpietzsch.com"
+  ],
+  "crawl_start": "2017-04-30T01:57:41",
+  "crawl_end": "2017-04-30T03:09:38",
+  "num_pages": 4251,
+  "total_html_size": 235983674,
+  "servers": [
+    "openresty"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-cite",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/www.danielpietzsch.com/webmention"
+    ]
+  },
+  "links_out": 48361,
+  "links_in": 160,
+  "links": {
+    "www.danielpietzsch.com": {
+      "out": {
+        "other": 3334
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.780
+    },
+    "danielpietzsch.com": {
+      "out": {
+        "other": 1198
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.688
+    },
+    "adactio.com": {
+      "in": {
+        "other": 91
+      },
+      "score": 0.399
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 32
+      },
+      "score": 0.307
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 16
+      },
+      "score": 0.245
+    },
+    "aaronparecki.com": {
+      "in": {
+        "like-of": 7
+      },
+      "score": 0.234
+    },
+    "brid.gy": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.219
+    }
+  }
+}

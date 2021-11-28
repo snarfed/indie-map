@@ -1,0 +1,279 @@
+{
+  "domain": "www.petersell.com",
+  "urls": [
+    "http://www.petersell.com/profile/petersell",
+    "http://www.seminarwork.com",
+    "https://www.flickr.com/photos/petersell",
+    "https://twitter.com/petersell",
+    "https://github.com/petersell",
+    "https://instagram.com/_putbus/"
+  ],
+  "names": [
+    "Andreas Petersell"
+  ],
+  "descriptions": [
+    "Technical Writer (DITA) and European CitizenThanks to my Family.",
+    "Technical Writer (DITA XML) and Self Publisher from Berlin."
+  ],
+  "pictures": [
+    "http://www.petersell.com/file/e85cede89248c6296e09930bbf4d3d68",
+    "http://www.petersell.com/petersell.ico",
+    "http://www.petersell.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Andreas Petersell"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p><a href=\"http://www.petersell.com/tag/technicalwriting\">Technical Writer</a> <a href=\"http://www.petersell.com/tag/ditaxml\">(DITA)</a> and European Citizen<br/>Thanks to my Family.</p>\n</div> ",
+          "value": "\nTechnical Writer (DITA) and European CitizenThanks to my Family.\n "
+        }
+      ],
+      "photo": [
+        "http://www.petersell.com/file/e85cede89248c6296e09930bbf4d3d68"
+      ],
+      "profile": [
+        "Andreas Petersell"
+      ],
+      "url": [
+        "http://www.petersell.com/profile/petersell",
+        "http://www.petersell.com/profile/petersell",
+        "http://www.seminarwork.com",
+        "https://www.flickr.com/photos/petersell",
+        "https://twitter.com/petersell",
+        "https://github.com/petersell",
+        "https://instagram.com/_putbus/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.seminarwork.com",
+    "https://www.flickr.com/photos/petersell",
+    "https://twitter.com/petersell",
+    "https://github.com/petersell",
+    "https://instagram.com/_putbus/"
+  ],
+  "crawl_start": "2017-04-30T01:59:25",
+  "crawl_end": "2017-04-30T08:39:28",
+  "num_pages": 1561,
+  "total_html_size": 46672739,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.petersell.com/webmention/"
+    ],
+    "micropub": [
+      "http://www.petersell.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://www.petersell.com/indieauth/auth"
+    ],
+    "token": [
+      "http://www.petersell.com/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 13223,
+  "links_in": 1026,
+  "links": {
+    "petersell.com": {
+      "out": {
+        "other": 2048
+      },
+      "in": {
+        "other": 899
+      },
+      "score": 1
+    },
+    "withknown.com": {
+      "out": {
+        "other": 1700
+      },
+      "score": 0.954
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "other": 16,
+        "in-reply-to": 32
+      },
+      "score": 0.691
+    },
+    "www.leoville.net": {
+      "out": {
+        "in-reply-to": 25,
+        "other": 12
+      },
+      "in": {
+        "other": 20
+      },
+      "score": 0.667
+    },
+    "quill.p3k.io": {
+      "out": {
+        "other": 84
+      },
+      "score": 0.601
+    },
+    "kash.space": {
+      "out": {
+        "in-reply-to": 13
+      },
+      "score": 0.572
+    },
+    "stream.withknown.com": {
+      "out": {
+        "in-reply-to": 10
+      },
+      "in": {
+        "other": 8
+      },
+      "score": 0.549
+    },
+    "werd.io": {
+      "out": {
+        "in-reply-to": 10
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.547
+    },
+    "known.stierand.org": {
+      "out": {
+        "in-reply-to": 10
+      },
+      "score": 0.541
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 28
+      },
+      "in": {
+        "bookmark-of": 14
+      },
+      "score": 0.520
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 35
+      },
+      "score": 0.499
+    },
+    "known.matthias.welling.io": {
+      "in": {
+        "other": 4,
+        "in-reply-to": 8
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.464
+    },
+    "tinokremer.nl": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.454
+    },
+    "blog.davidjohnmead.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.433
+    },
+    "kartikprabhu.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.407
+    },
+    "brid.gy": {
+      "in": {
+        "other": 19
+      },
+      "score": 0.345
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.291
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "vaviblog.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.189
+    },
+    "www.michi.wtf": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.189
+    },
+    "news.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.163
+    },
+    "www.boffosocko.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.163
+    },
+    "nxd4n.nixekinder.be": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.163
+    },
+    "stromgeber.lischka.cc": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.129
+    },
+    "boffosocko.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

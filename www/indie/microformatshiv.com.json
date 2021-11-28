@@ -1,0 +1,146 @@
+{
+  "domain": "microformatshiv.com",
+  "urls": [
+    "http://glennjones.net/"
+  ],
+  "names": [
+    "Glenn Jones",
+    "microformat-shiv"
+  ],
+  "descriptions": [
+    "microformat-shiv - A cross browser javascript microformats parser"
+  ],
+  "pictures": [
+    "http://microformatshiv.com/images/logo16.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Glenn Jones"
+      ],
+      "url": [
+        "http://glennjones.net/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://glennjones.net/"
+  ],
+  "crawl_start": "2017-06-07T17:36:28",
+  "crawl_end": "2017-06-07T17:36:42",
+  "num_pages": 21,
+  "total_html_size": 143809,
+  "servers": [],
+  "mf2_classes": [
+    "h-news",
+    "h-entry",
+    "h-adr",
+    "h-event",
+    "h-product",
+    "h-geo",
+    "h-review",
+    "h-resume",
+    "h-recipe",
+    "h-card",
+    "h-review-aggregate"
+  ],
+  "tags": [
+    "relme",
+    "tool"
+  ],
+  "endpoints": {},
+  "links_out": 503,
+  "links_in": 423,
+  "links": {
+    "notiz.blog": {
+      "in": {
+        "other": 220
+      },
+      "score": 1
+    },
+    "adactio.com": {
+      "in": {
+        "bookmark-of": 40
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.818
+    },
+    "glennjones.net": {
+      "in": {
+        "other": 5
+      },
+      "out": {
+        "other": 23
+      },
+      "score": 0.729
+    },
+    "jothut.com": {
+      "in": {
+        "other": 39
+      },
+      "score": 0.679
+    },
+    "barryfrost.com": {
+      "in": {
+        "other": 34
+      },
+      "score": 0.655
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 22
+      },
+      "score": 0.573
+    },
+    "waterpigs.co.uk": {
+      "in": {
+        "other": 21
+      },
+      "score": 0.564
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 17
+      },
+      "score": 0.525
+    },
+    "tantek.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 5
+      },
+      "score": 0.408
+    },
+    "veganstraightedge.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.129
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "snarfed.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

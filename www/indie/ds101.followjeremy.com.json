@@ -1,0 +1,56 @@
+{
+  "domain": "ds101.followjeremy.com",
+  "urls": [
+    "http://ds101.followjeremy.com/"
+  ],
+  "names": [
+    "Follow Jeremy DS101"
+  ],
+  "descriptions": [
+    "A social website powered by the thoughts of Jeremy"
+  ],
+  "pictures": [
+    "http://ds101.followjeremy.com/",
+    "http://ds101.followjeremy.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T05:25:42",
+  "crawl_end": "2017-04-28T05:26:07",
+  "num_pages": 38,
+  "total_html_size": 865186,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://ds101.followjeremy.com/webmention/"
+    ]
+  },
+  "links_out": 85,
+  "links_in": 6,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 38
+      },
+      "score": 1
+    },
+    "known.jimgroom.com": {
+      "in": {
+        "in-reply-to": 6
+      },
+      "score": 0.785
+    }
+  }
+}

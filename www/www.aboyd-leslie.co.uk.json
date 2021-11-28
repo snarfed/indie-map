@@ -1,0 +1,53 @@
+{
+  "domain": "www.aboyd-leslie.co.uk",
+  "crawl_start": "2017-06-09T17:33:27",
+  "crawl_end": "2017-06-09T17:33:27",
+  "num_pages": 1,
+  "total_html_size": 2795,
+  "servers": [
+    "Apache"
+  ],
+  "tags": [],
+  "endpoints": {},
+  "hcard": {},
+  "links_out": 6,
+  "links_in": 135,
+  "links": {
+    "adactio.com": {
+      "in": {
+        "other": 133
+      },
+      "score": 1
+    },
+    "twitter.com/aboydleslie": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.284
+    },
+    "gmail.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.284
+    },
+    "HorrorMovie": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.142
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.142
+    },
+    "isthismoviegood": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.142
+    }
+  }
+}

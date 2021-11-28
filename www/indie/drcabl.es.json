@@ -1,0 +1,72 @@
+{
+  "domain": "drcabl.es",
+  "urls": [
+    "http://drcabl.es/"
+  ],
+  "names": [
+    "drcable's Known"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://drcabl.es/file/1cc0a43220c47b2dc8fb0fd22cca1c93/thumb.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T05:23:42",
+  "crawl_end": "2017-04-28T05:24:23",
+  "num_pages": 57,
+  "total_html_size": 1311414,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-cite",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://drcabl.es/webmention/"
+    ],
+    "micropub": [
+      "https://drcabl.es/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://drcabl.es/indieauth/auth"
+    ],
+    "token": [
+      "https://drcabl.es/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 416,
+  "links_in": 1,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 57
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "domain": "tigo.rhiaro.co.uk",
+  "urls": [
+    "http://tigo.rhiaro.co.uk/"
+  ],
+  "names": [
+    "Tigo"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "http://twitter.com/tigobirdtweets"
+  ],
+  "crawl_start": "2017-06-10T01:56:03",
+  "crawl_end": "2017-06-10T01:56:03",
+  "num_pages": 1,
+  "total_html_size": 648,
+  "servers": [
+    "LiteSpeed"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "elder",
+    "IRC",
+    "webmention.io",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "micropub": [
+      "http://tigo.rhiaro.co.uk/activitypub.php"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 1,
+  "links_in": 19,
+  "links": {
+    "rhiaro.co.uk": {
+      "in": {
+        "other": 11
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.746
+    },
+    "twitter.com/tigobirdtweets": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.289
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

@@ -1,0 +1,702 @@
+{
+  "domain": "known.cphyc.me",
+  "urls": [
+    "http://known.cphyc.me/profile/cphyc",
+    "https://www.facebook.com/corentin.cadiou",
+    "https://twitter.com/cphyc",
+    "http://github.com/cphyc/"
+  ],
+  "names": [
+    "Corentin Cadiou",
+    "cphyc's blog"
+  ],
+  "descriptions": [
+    "A blog about computer sciences, physics and much more"
+  ],
+  "pictures": [
+    "http://known.cphyc.me/file/8d19b5da448977fe1d2ef4188ef3b150/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Corentin Cadiou"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\"></div> ",
+          "value": " "
+        }
+      ],
+      "photo": [
+        "http://known.cphyc.me/file/8d19b5da448977fe1d2ef4188ef3b150/thumb.jpg"
+      ],
+      "profile": [
+        "Corentin Cadiou"
+      ],
+      "url": [
+        "http://known.cphyc.me/profile/cphyc",
+        "http://known.cphyc.me/profile/cphyc",
+        "https://www.facebook.com/corentin.cadiou",
+        "https://twitter.com/cphyc",
+        "http://github.com/cphyc/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://www.facebook.com/corentin.cadiou",
+    "https://twitter.com/cphyc",
+    "http://github.com/cphyc/"
+  ],
+  "crawl_start": "2017-04-29T04:32:35",
+  "crawl_end": "2017-04-29T04:34:52",
+  "num_pages": 136,
+  "total_html_size": 3588541,
+  "servers": [
+    "Apache (Debian)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-geo",
+    "h-entry",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.cphyc.me/webmention/"
+    ],
+    "micropub": [
+      "http://known.cphyc.me/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://known.cphyc.me/indieauth/auth"
+    ],
+    "token": [
+      "http://known.cphyc.me/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1125,
+  "links_in": 38,
+  "links": {
+    "facebook.com/1435852441": {
+      "out": {
+        "other": 178
+      },
+      "score": 1
+    },
+    "withknown.com": {
+      "out": {
+        "other": 136
+      },
+      "score": 0.956
+    },
+    "github.com": {
+      "out": {
+        "other": 98
+      },
+      "score": 0.899
+    },
+    "known.hackens.org": {
+      "out": {
+        "other": 2,
+        "in-reply-to": 15
+      },
+      "in": {
+        "other": 8
+      },
+      "score": 0.867
+    },
+    "twitter.com/cphyc": {
+      "out": {
+        "other": 60
+      },
+      "score": 0.816
+    },
+    "werd.io": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "other": 2,
+        "in-reply-to": 10
+      },
+      "score": 0.804
+    },
+    "facebook.com/corentin.cadiou": {
+      "out": {
+        "other": 54
+      },
+      "score": 0.797
+    },
+    "michielbdejong.com": {
+      "out": {
+        "in-reply-to": 10
+      },
+      "score": 0.785
+    },
+    "known.phyks.me": {
+      "out": {
+        "other": 8,
+        "in-reply-to": 6
+      },
+      "score": 0.738
+    },
+    "jeena.net": {
+      "out": {
+        "other": 5,
+        "in-reply-to": 5
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.714
+    },
+    "known.exppad.com": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.697
+    },
+    "YOURDOMAIN.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.687
+    },
+    "wiki.archlinux.org": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.673
+    },
+    "framablog.org": {
+      "out": {
+        "in-reply-to": 5
+      },
+      "score": 0.666
+    },
+    "www.pgroup.com": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.666
+    },
+    "git.cphyc.me": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.620
+    },
+    "indiewebify.me": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.610
+    },
+    "stream.withknown.com": {
+      "out": {
+        "other": 13
+      },
+      "in": {
+        "other": 8
+      },
+      "score": 0.601
+    },
+    "facebook.com/1058312337528377": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.591
+    },
+    "facebook.com/768459493243330": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.591
+    },
+    "blog.marcelsel.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.567
+    },
+    "www.fortran90.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.511
+    },
+    "jupyter.readthedocs.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.511
+    },
+    "tuhdo.github.io": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.492
+    },
+    "www.chickensinenvelopes.net": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.492
+    },
+    "pypi.python.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.492
+    },
+    "ryansechrest.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.492
+    },
+    "www.cyberciti.biz": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.492
+    },
+    "support.hifiberry.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.492
+    },
+    "blog.vitalis.io": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.492
+    },
+    "home.thep.lu.se": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.492
+    },
+    "andy.wordpress.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.492
+    },
+    "fortranwiki.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.422
+    },
+    "git.wiki.kernel.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.422
+    },
+    "www.laquadrature.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.422
+    },
+    "www.cs.cmu.edu": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.422
+    },
+    "facebook.com/10205268658658176": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.422
+    },
+    "facebook.com/1298290871": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.422
+    },
+    "blog.fdn.fr": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.422
+    },
+    "facebook.com/100002378607735": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.422
+    },
+    "facebook.com/10204932784053906": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.422
+    },
+    "facebook.com/10205997973773231": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.422
+    },
+    "www.gnu.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.422
+    },
+    "medium.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.422
+    },
+    "coderwall.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.422
+    },
+    "3millions7.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.392
+    },
+    "ploum.net": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.392
+    },
+    "truongtx.me": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.392
+    },
+    "jonls.dk": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.392
+    },
+    "www.unixmen.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.392
+    },
+    "www.emacswiki.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.392
+    },
+    "www.atlassian.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.392
+    },
+    "ternjs.net": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.392
+    },
+    "www.ldh-france.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.392
+    },
+    "shout-irc.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.392
+    },
+    "www.gelsheet.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.392
+    },
+    "www.numerama.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.392
+    },
+    "phonebloks.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.392
+    },
+    "ldn-fai.net": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.392
+    },
+    "dhtmlx.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.392
+    },
+    "company-mode.github.io": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.392
+    },
+    "web-mode.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.392
+    },
+    "xkcd.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.392
+    },
+    "facebook.com/417214648437281": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.354
+    },
+    "facebook.com/10152971498217808": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.354
+    },
+    "facebook.com/900952126601668": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.354
+    },
+    "facebook.com/10205415700449428": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.354
+    },
+    "facebook.com/10205712374357624": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.354
+    },
+    "facebook.com/193065037530696": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.354
+    },
+    "facebook.com/10205443572396045": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.354
+    },
+    "prout.me": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.354
+    },
+    "twitter.com/javascriptd": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.305
+    },
+    "twitter.com/DroplitHome": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "facebook.com/100004816024277": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "facebook.com/628580251": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "twitter.com/cbonnerot": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "SimbaSystems.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "facebook.com/100000606671240": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "facebook.com/10204643332537010": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "facebook.com/100000488622835": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "facebook.com/10152493945162161": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "facebook.com/10205751508256521": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "facebook.com/100004462485553": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "facebook.com/10153002467017427": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "facebook.com/1566942866857368": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "facebook.com/1607908809438939": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "facebook.com/659922160": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "facebook.com/1503293324": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "facebook.com/10205508035637868": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "facebook.com/1069858080": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "facebook.com/1157267279": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "facebook.com/100006250085764": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "facebook.com/782592807": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "facebook.com/968179966525576": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "facebook.com/10204793917461456": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.118
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.118
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "domain": "known.adamcroom.com",
+  "urls": [
+    "http://known.adamcroom.com/profile/adamcroom",
+    "http://adamcroom.com",
+    "https://www.flickr.com/photos/acroom/",
+    "https://github.com/adamcroom"
+  ],
+  "names": [
+    "Adam Croom"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://known.adamcroom.com/file/50bf0fe7dc51de911318f7d34cf2af5a/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Adam Croom"
+      ],
+      "note": [
+        {
+          "html": " ",
+          "value": " "
+        }
+      ],
+      "photo": [
+        "http://known.adamcroom.com/file/50bf0fe7dc51de911318f7d34cf2af5a/thumb.jpg"
+      ],
+      "profile": [
+        "Adam Croom"
+      ],
+      "url": [
+        "http://known.adamcroom.com/profile/adamcroom",
+        "http://known.adamcroom.com/profile/adamcroom",
+        "http://adamcroom.com",
+        "https://www.flickr.com/photos/acroom/",
+        "https://github.com/adamcroom"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://adamcroom.com",
+    "https://www.flickr.com/photos/acroom/",
+    "https://github.com/adamcroom"
+  ],
+  "crawl_start": "2017-04-29T04:31:52",
+  "crawl_end": "2017-04-29T04:33:16",
+  "num_pages": 99,
+  "total_html_size": 2096009,
+  "servers": [
+    "Apache (Unix) mod_ssl OpenSSLe-fips Phusion_Passenger mod_bwlimited",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.adamcroom.com/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 972,
+  "links_in": 16,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 99
+      },
+      "score": 0.935
+    },
+    "werd.io": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.466
+    },
+    "known.networkeffects.ca": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.246
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.122
+    }
+  }
+}

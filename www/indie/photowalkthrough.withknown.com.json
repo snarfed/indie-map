@@ -1,0 +1,97 @@
+{
+  "domain": "photowalkthrough.withknown.com",
+  "urls": [
+    "https://photowalkthrough.withknown.com/profile/photowalkthrough",
+    "http://www.photowalkthrough.com",
+    "http://www.daddycoder.com",
+    "http://www.parentalgeekery.com"
+  ],
+  "names": [
+    "John Arnold",
+    "PhotoWalkthrough"
+  ],
+  "descriptions": [
+    "I teach photography and stuff",
+    "A simple blog for John Arnold to share whatever the hell he fancies."
+  ],
+  "pictures": [
+    "https://photowalkthrough.withknown.com/file/143cab1c6f965c77e59e90633f3ce46d/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "John Arnold"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I teach photography and stuff</p>\n</div>",
+          "value": "\nI teach photography and stuff\n"
+        }
+      ],
+      "photo": [
+        "https://photowalkthrough.withknown.com/file/143cab1c6f965c77e59e90633f3ce46d/thumb.jpg"
+      ],
+      "profile": [
+        "John Arnold"
+      ],
+      "url": [
+        "https://photowalkthrough.withknown.com/profile/photowalkthrough",
+        "https://photowalkthrough.withknown.com/profile/photowalkthrough",
+        "http://www.photowalkthrough.com",
+        "http://www.daddycoder.com",
+        "http://www.parentalgeekery.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.photowalkthrough.com",
+    "http://www.daddycoder.com",
+    "http://www.parentalgeekery.com"
+  ],
+  "crawl_start": "2017-04-30T01:59:20",
+  "crawl_end": "2017-04-30T02:03:26",
+  "num_pages": 215,
+  "total_html_size": 6319907,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://photowalkthrough.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 639,
+  "links_in": 3,
+  "links": {
+    "www.marccooper.photography": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.240
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.190
+    }
+  }
+}

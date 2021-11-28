@@ -1,0 +1,161 @@
+{
+  "domain": "jonathanfrei.com",
+  "urls": [
+    "https://jonathanfrei.com"
+  ],
+  "names": [
+    "Jonathan Frei – Based on a true story",
+    "Jonathan Frei"
+  ],
+  "descriptions": [
+    "Based on a true story"
+  ],
+  "pictures": [
+    "https://i2.wp.com/jonathanfrei.com/wp-content/uploads/2015/08/favicon-160x1601.png?fit=32%2C32&ssl=1",
+    "https://i2.wp.com/jonathanfrei.com/wp-content/uploads/2015/08/favicon-160x1601.png?fit=160%2C160&ssl=1"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://jonathanfrei.com",
+    "https://twitter.com/jonathanfrei"
+  ],
+  "crawl_start": "2017-04-29T04:31:36",
+  "crawl_end": "2017-04-29T05:24:58",
+  "num_pages": 4236,
+  "total_html_size": 87501977,
+  "servers": [
+    "cloudflare-nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-reply",
+    "h-card",
+    "h-feed",
+    "h-as-mention",
+    "h-entry",
+    "h-as-like"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://jonathanfrei.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://jonathanfrei.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 33624,
+  "links_in": 130,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 22
+      },
+      "out": {
+        "other": 2129
+      },
+      "score": 0.924
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.490
+    },
+    "scripting.com": {
+      "out": {
+        "other": 37
+      },
+      "score": 0.475
+    },
+    "tilde.club": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.460
+    },
+    "brid.gy": {
+      "in": {
+        "other": 44
+      },
+      "score": 0.418
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 42
+      },
+      "score": 0.413
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 11
+      },
+      "in": {
+        "like-of": 3
+      },
+      "score": 0.368
+    },
+    "adactio.com": {
+      "out": {
+        "other": 8
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.319
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 6
+      },
+      "out": {
+        "other": 6
+      },
+      "score": 0.319
+    },
+    "davewiner.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.306
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.265
+    },
+    "markwunsch.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.254
+    },
+    "independentpublisher.me": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0766
+    },
+    "raamdev.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0766
+    }
+  }
+}

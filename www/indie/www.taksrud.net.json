@@ -1,0 +1,113 @@
+{
+  "domain": "www.taksrud.net",
+  "urls": [
+    "http://www.taksrud.net/profile/morten",
+    "https://twitter.com/mtaksrud",
+    "https://www.facebook.com/morten.taksrud",
+    "https://www.linkedin.com/in/mtaksrud"
+  ],
+  "names": [
+    "Morten Taksrud",
+    "taksrud.net",
+    "My corner of the web"
+  ],
+  "descriptions": [
+    "Welcome to my corner of the web.Here you will find contemplations about Life, the Universe and Everything",
+    "Reflections on life, the universe and everything"
+  ],
+  "pictures": [
+    "http://www.taksrud.net/file/93789e873be3b9c4505bca619fe76845/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Morten Taksrud"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Welcome to my corner of the web.<br/>Here you will find contemplations about Life, the Universe and Everything</p>\n</div> ",
+          "value": "\nWelcome to my corner of the web.Here you will find contemplations about Life, the Universe and Everything\n "
+        }
+      ],
+      "photo": [
+        "http://www.taksrud.net/file/93789e873be3b9c4505bca619fe76845/thumb.jpg"
+      ],
+      "profile": [
+        "Morten Taksrud"
+      ],
+      "url": [
+        "http://www.taksrud.net/profile/morten",
+        "http://www.taksrud.net/profile/morten",
+        "https://twitter.com/mtaksrud",
+        "https://www.facebook.com/morten.taksrud",
+        "https://www.linkedin.com/in/mtaksrud"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/mtaksrud",
+    "https://www.facebook.com/morten.taksrud",
+    "https://www.linkedin.com/in/mtaksrud"
+  ],
+  "crawl_start": "2017-05-06T08:01:23",
+  "crawl_end": "2017-06-10T01:52:48",
+  "num_pages": 358,
+  "total_html_size": 9164406,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.taksrud.net/webmention/"
+    ],
+    "micropub": [
+      "http://www.taksrud.net/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://www.taksrud.net/indieauth/auth"
+    ],
+    "token": [
+      "http://www.taksrud.net/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 2698,
+  "links_in": 17,
+  "links": {
+    "brid.gy": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "other": 17
+      },
+      "score": 0.487
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.426
+    }
+  }
+}

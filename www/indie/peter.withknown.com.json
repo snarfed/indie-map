@@ -1,0 +1,89 @@
+{
+  "domain": "peter.withknown.com",
+  "urls": [
+    "https://peter.withknown.com/profile/p33tr",
+    "https://twitter.com/petermarshall",
+    "https://skydrive.live.com/view.aspx?resid=5099FD58F1491948%21574735&app=Word"
+  ],
+  "names": [
+    "Peter Marshall",
+    "peter"
+  ],
+  "descriptions": [
+    "I develop software,I run",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://peter.withknown.com/file/821453f769a720e90c4d9f6d4241434b/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Peter Marshall"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I develop software,<br/>I run</p>\n</div>",
+          "value": "\nI develop software,I run\n"
+        }
+      ],
+      "photo": [
+        "https://peter.withknown.com/file/821453f769a720e90c4d9f6d4241434b/thumb.jpg"
+      ],
+      "profile": [
+        "Peter Marshall"
+      ],
+      "url": [
+        "https://peter.withknown.com/profile/p33tr",
+        "https://peter.withknown.com/profile/p33tr",
+        "https://twitter.com/petermarshall",
+        "https://skydrive.live.com/view.aspx?resid=5099FD58F1491948%21574735&app=Word"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/petermarshall",
+    "https://skydrive.live.com/view.aspx?resid=5099FD58F1491948%21574735&app=Word"
+  ],
+  "crawl_start": "2017-04-30T01:58:44",
+  "crawl_end": "2017-04-30T02:04:01",
+  "num_pages": 304,
+  "total_html_size": 7674900,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-event",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://peter.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1029,
+  "links_in": 2,
+  "links": {
+    "werd.io": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.132
+    }
+  }
+}

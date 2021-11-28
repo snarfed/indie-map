@@ -1,0 +1,94 @@
+{
+  "domain": "borregoruido.ca",
+  "urls": [
+    "http://borregoruido.ca/profile/brian",
+    "http://abject/ca"
+  ],
+  "names": [
+    "Brian",
+    "borrego ruido"
+  ],
+  "descriptions": [
+    "Abjecter",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://borregoruido.ca/file/78b3dce7756115085fe61b53c9f496de/thumb.gif"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Brian"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Abjecter</p>\n</div>",
+          "value": "\nAbjecter\n"
+        }
+      ],
+      "photo": [
+        "http://borregoruido.ca/file/78b3dce7756115085fe61b53c9f496de/thumb.gif"
+      ],
+      "profile": [
+        "Brian"
+      ],
+      "url": [
+        "http://borregoruido.ca/profile/brian",
+        "http://borregoruido.ca/profile/brian",
+        "http://abject/ca"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://abject/ca"
+  ],
+  "crawl_start": "2017-04-28T02:16:41",
+  "crawl_end": "2017-04-28T02:16:54",
+  "num_pages": 17,
+  "total_html_size": 378445,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://borregoruido.ca/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 130,
+  "links_in": 4,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.903
+    },
+    "known.followersoftheapocalyp.se": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "in-reply-to": 4
+      },
+      "score": 0.852
+    }
+  }
+}

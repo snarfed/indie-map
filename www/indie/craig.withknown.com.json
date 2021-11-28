@@ -1,0 +1,101 @@
+{
+  "domain": "craig.withknown.com",
+  "urls": [
+    "https://craig.withknown.com/profile/codecraig",
+    "http://twitter.com/mind_scratch",
+    "https://github.com/mindscratch"
+  ],
+  "names": [
+    "Craig",
+    "Craig Wickesser"
+  ],
+  "descriptions": [
+    "I write software.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://craig.withknown.com/gfx/users/default-04.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Craig"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I write software.</p>\n</div>",
+          "value": "\nI write software.\n"
+        }
+      ],
+      "photo": [
+        "https://craig.withknown.com/gfx/users/default-04.png"
+      ],
+      "profile": [
+        "Craig"
+      ],
+      "url": [
+        "https://craig.withknown.com/profile/codecraig",
+        "https://craig.withknown.com/profile/codecraig",
+        "http://twitter.com/mind_scratch",
+        "https://github.com/mindscratch"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/mind_scratch",
+    "https://github.com/mindscratch"
+  ],
+  "crawl_start": "2017-04-28T05:16:19",
+  "crawl_end": "2017-04-28T05:35:38",
+  "num_pages": 2338,
+  "total_html_size": 52043224,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://craig.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 12435,
+  "links_in": 24,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 2338
+      },
+      "score": 0.981
+    },
+    "brid.gy": {
+      "in": {
+        "other": 20
+      },
+      "score": 0.348
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.161
+    }
+  }
+}

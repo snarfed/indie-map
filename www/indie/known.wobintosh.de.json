@@ -1,0 +1,108 @@
+{
+  "domain": "known.wobintosh.de",
+  "urls": [
+    "http://known.wobintosh.de/profile/wobintosh",
+    "http://twitter.com/wobintosh",
+    "http://blog.wobintosh.de"
+  ],
+  "names": [
+    "WobIntosh",
+    "WobIntoshs Linkschleuder",
+    "Linkschleuder"
+  ],
+  "descriptions": [
+    "| Fotoliebhaber, Medienjunkie, Pendler| Ausbildung zum FaMI Archiv| Open Access, Geschichte, Sammlungsmanagement| Lesen, Linux, Gaming, Software",
+    "WobIntoshs Linkschleuder"
+  ],
+  "pictures": [
+    "http://known.wobintosh.de/file/ef8fb797f5f7c0814a5bd186b50f5ab9"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "WobIntosh"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>| Fotoliebhaber, Medienjunkie, Pendler<br/>| Ausbildung zum FaMI Archiv<br/>| Open Access, Geschichte, Sammlungsmanagement<br/>| Lesen, Linux, Gaming, Software</p>\n</div>",
+          "value": "\n| Fotoliebhaber, Medienjunkie, Pendler| Ausbildung zum FaMI Archiv| Open Access, Geschichte, Sammlungsmanagement| Lesen, Linux, Gaming, Software\n"
+        }
+      ],
+      "photo": [
+        "http://known.wobintosh.de/file/ef8fb797f5f7c0814a5bd186b50f5ab9"
+      ],
+      "profile": [
+        "WobIntosh"
+      ],
+      "url": [
+        "http://known.wobintosh.de/profile/wobintosh",
+        "http://known.wobintosh.de/profile/wobintosh",
+        "http://twitter.com/wobintosh",
+        "http://blog.wobintosh.de"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/wobintosh",
+    "http://blog.wobintosh.de"
+  ],
+  "crawl_start": "2017-04-29T14:38:36",
+  "crawl_end": "2017-04-29T15:01:12",
+  "num_pages": 1401,
+  "total_html_size": 25727086,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-event",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.wobintosh.de/webmention/"
+    ],
+    "micropub": [
+      "http://known.wobintosh.de/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://known.wobintosh.de/indieauth/auth"
+    ],
+    "token": [
+      "http://known.wobintosh.de/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 2709,
+  "links_in": 3,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.145
+    },
+    "withknown.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0915
+    }
+  }
+}

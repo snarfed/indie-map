@@ -1,0 +1,63 @@
+{
+  "domain": "www.vanoverhill.com",
+  "urls": [
+    "http://www.vanoverhill.com/"
+  ],
+  "names": [
+    "Vanoverhill",
+    "Mawwage"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://www.vanoverhill.com/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-10T02:06:49",
+  "crawl_end": "2017-06-10T05:45:22",
+  "num_pages": 2,
+  "total_html_size": 386088,
+  "servers": [],
+  "tags": [],
+  "endpoints": {},
+  "links_out": 5,
+  "links_in": 3,
+  "links": {
+    "www.squarespace.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 1
+    },
+    "donate.doctorswithoutborders.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.499
+    },
+    "secure.ppaction.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.499
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.499
+    },
+    "ghotmail.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.499
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

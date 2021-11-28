@@ -1,0 +1,121 @@
+{
+  "domain": "wisdomscry.withknown.com",
+  "urls": [
+    "https://wisdomscry.withknown.com/profile/cedorsett",
+    "http://www.wisdomscry.com"
+  ],
+  "names": [
+    "Eric Dorsett",
+    "Wisdom's Cry"
+  ],
+  "descriptions": [
+    "a seeker of truth",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://wisdomscry.withknown.com/file/577d3980bcc40080242ed756a5e32e9b/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Eric Dorsett"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>a seeker of truth</p>\n</div>",
+          "value": "\na seeker of truth\n"
+        }
+      ],
+      "photo": [
+        "https://wisdomscry.withknown.com/file/577d3980bcc40080242ed756a5e32e9b/thumb.jpg"
+      ],
+      "profile": [
+        "Eric Dorsett"
+      ],
+      "url": [
+        "https://wisdomscry.withknown.com/profile/cedorsett",
+        "https://wisdomscry.withknown.com/profile/cedorsett",
+        "http://www.wisdomscry.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.wisdomscry.com"
+  ],
+  "crawl_start": "2017-04-30T06:06:54",
+  "crawl_end": "2017-04-30T06:07:15",
+  "num_pages": 29,
+  "total_html_size": 562304,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://wisdomscry.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 33,
+  "links_in": 2,
+  "links": {
+    "www.wisdomscry.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 1
+    },
+    "facebook.com/508112368": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.556
+    },
+    "facebook.com/10205674407073176": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.372
+    },
+    "facebook.com/625860127549357": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.372
+    },
+    "facebook.com/1590442464536498": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.372
+    },
+    "facebook.com/451433531584865": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.372
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.185
+    }
+  }
+}

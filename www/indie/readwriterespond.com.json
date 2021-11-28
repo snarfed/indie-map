@@ -1,0 +1,227 @@
+{
+  "domain": "readwriterespond.com",
+  "urls": [
+    "http://readwriterespond.com/"
+  ],
+  "names": [
+    "Read Write Respond - Read is to write, write is to respond.",
+    "Read Write Respond"
+  ],
+  "descriptions": [
+    "Read is to write, write is to respond."
+  ],
+  "pictures": [
+    "http://readwriterespond.com/wp-content/uploads/2015/03/cropped-14056991887_b858926f5a_o-1-32x32.jpg",
+    "http://readwriterespond.com/wp-content/uploads/2015/03/cropped-14056991887_b858926f5a_o-1-192x192.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/mrkrndvs"
+  ],
+  "crawl_start": "2017-04-30T22:35:43",
+  "crawl_end": "2017-05-01T09:22:38",
+  "num_pages": 2760,
+  "total_html_size": 124908689,
+  "servers": [
+    "Apache",
+    "Known",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-reply",
+    "h-entry",
+    "h-card",
+    "h-feed",
+    "h-cite",
+    "h-as-mention"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://readwriterespond.com/?rest_route=/webmention/1.0/endpoint",
+      "http://readwriterespond.com/whatif/webmention/",
+      "https://readwriterespond.com/?rest_route=/webmention/1.0/endpoint",
+      "http://readwriterespond.com/c/webmention/"
+    ],
+    "micropub": [
+      "http://readwriterespond.com/?micropub=endpoint",
+      "http://readwriterespond.com/whatif/micropub/endpoint",
+      "https://readwriterespond.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "http://readwriterespond.com/whatif/indieauth/auth",
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "http://readwriterespond.com/whatif/indieauth/token",
+      "https://tokens.indieauth.com/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 42037,
+  "links_in": 1177,
+  "links": {
+    "johnjohnston.info": {
+      "out": {
+        "other": 14
+      },
+      "in": {
+        "other": 1025
+      },
+      "score": 0.760
+    },
+    "withknown.com": {
+      "out": {
+        "other": 375
+      },
+      "score": 0.723
+    },
+    "cogdogblog.com": {
+      "in": {
+        "other": 13
+      },
+      "out": {
+        "other": 71
+      },
+      "score": 0.550
+    },
+    "www.saylearner.com": {
+      "out": {
+        "other": 12
+      },
+      "in": {
+        "other": 92
+      },
+      "score": 0.519
+    },
+    "wiobyrne.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 43
+      },
+      "score": 0.489
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.391
+    },
+    "blog.mahabali.me": {
+      "out": {
+        "other": 12
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.356
+    },
+    "hapgood.us": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "scripting.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "reclaimhosting.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "brid.gy": {
+      "in": {
+        "other": 15
+      },
+      "score": 0.296
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 6
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.288
+    },
+    "adactio.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.288
+    },
+    "stream.withknown.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.288
+    },
+    "benwerd.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.251
+    },
+    "known.jimgroom.com": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.227
+    },
+    "cyborganthropology.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.152
+    },
+    "jgregorymcverry.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.152
+    },
+    "werd.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.152
+    },
+    "paru.withknown.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.152
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0757
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "domain": "danielriggins.withknown.com",
+  "urls": [
+    "https://danielriggins.withknown.com/profile/andthewings",
+    "http://danielriggins.com"
+  ],
+  "names": [
+    "Daniel Riggins",
+    "Riggles and the Wings"
+  ],
+  "descriptions": [
+    "Hi, I'm Daniel Riggins, a third-year medical student at Albert Einstein College of Medicine in Bronx, NY.",
+    "Daniel Riggins' Social Hub"
+  ],
+  "pictures": [
+    "https://danielriggins.withknown.com/file/57f4cb2de74a25416cf080a2718ebc1b/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Daniel Riggins"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Hi, I'm Daniel Riggins, a third-year medical student at Albert Einstein College of Medicine in Bronx, NY.</p>\n</div> ",
+          "value": "\nHi, I'm Daniel Riggins, a third-year medical student at Albert Einstein College of Medicine in Bronx, NY.\n "
+        }
+      ],
+      "photo": [
+        "https://danielriggins.withknown.com/file/57f4cb2de74a25416cf080a2718ebc1b/thumb.jpg"
+      ],
+      "profile": [
+        "Daniel Riggins"
+      ],
+      "url": [
+        "https://danielriggins.withknown.com/profile/andthewings",
+        "https://danielriggins.withknown.com/profile/andthewings",
+        "http://danielriggins.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://danielriggins.com"
+  ],
+  "crawl_start": "2017-04-28T05:16:32",
+  "crawl_end": "2017-04-28T05:17:47",
+  "num_pages": 64,
+  "total_html_size": 1863377,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://danielriggins.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://danielriggins.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://danielriggins.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://danielriggins.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 320,
+  "links_in": 8,
+  "links": {
+    "werd.io": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.48
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.253
+    }
+  }
+}

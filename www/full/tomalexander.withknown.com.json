@@ -1,0 +1,174 @@
+{
+  "domain": "tomalexander.withknown.com",
+  "urls": [
+    "https://tomalexander.withknown.com/profile/tomlxndr",
+    "http://tomalexander.org"
+  ],
+  "names": [
+    "Tom Alexander",
+    "Notebook"
+  ],
+  "descriptions": [
+    "Make books mainly",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://tomalexander.withknown.com/file/23a9220f07bfb016c267095f60a92eed/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Tom Alexander"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Make books mainly</p>\n</div>",
+          "value": "\nMake books mainly\n"
+        }
+      ],
+      "photo": [
+        "https://tomalexander.withknown.com/file/23a9220f07bfb016c267095f60a92eed/thumb.jpg"
+      ],
+      "profile": [
+        "Tom Alexander"
+      ],
+      "url": [
+        "https://tomalexander.withknown.com/profile/tomlxndr",
+        "https://tomalexander.withknown.com/profile/tomlxndr",
+        "http://tomalexander.org"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://tomalexander.withknown.com/tomalexander.org",
+    "http://tomalexander.org"
+  ],
+  "crawl_start": "2017-04-30T02:55:42",
+  "crawl_end": "2017-04-30T02:56:12",
+  "num_pages": 36,
+  "total_html_size": 829675,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://tomalexander.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 105,
+  "links_in": 27,
+  "links": {
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 18
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 1
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "in-reply-to": 7,
+        "other": 1
+      },
+      "score": 0.934
+    },
+    "withknown.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.934
+    },
+    "tomalexander.org": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.806
+    },
+    "tinokremer.nl": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.605
+    },
+    "www.makeuseof.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.541
+    },
+    "www.alphr.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.502
+    },
+    "twitter.com/Psythor": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.502
+    },
+    "jamesomalley.co.uk": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.454
+    },
+    "www.rmendes.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.454
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.391
+    },
+    "twitter.com/tomlxndr": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.303
+    },
+    "twitter.com/WildeThingy": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.303
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.240
+    },
+    "quill.p3k.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.151
+    }
+  }
+}

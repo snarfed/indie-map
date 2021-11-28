@@ -1,0 +1,75 @@
+{
+  "domain": "www.lenastark.com",
+  "urls": [
+    "http://www.lenastark.com/"
+  ],
+  "names": [
+    "Lena Stark | Random Piffle for the Very Bored",
+    "Lena Stark"
+  ],
+  "descriptions": [
+    "Random Piffle for the Very Bored",
+    "Welcome to Just another WordPress site - see blog posts"
+  ],
+  "pictures": [
+    "https://g.twimg.com/Twitter_logo_blue.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://plus.google.com/108029945439289695810",
+    "https://twitter.com/LenaStarkWrites",
+    "https://www.facebook.com/LenaStarkWrites",
+    "https://www.instagram.com/lenastarkwrites"
+  ],
+  "crawl_start": "2017-06-09T18:20:59",
+  "crawl_end": "2017-06-10T05:48:04",
+  "num_pages": 75,
+  "total_html_size": 6885361,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.lenastark.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://www.lenastark.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 970,
+  "links_in": 16,
+  "links": {
+    "lenastark.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.646
+    },
+    "brid.gy": {
+      "in": {
+        "other": 16
+      },
+      "score": 0.453
+    }
+  }
+}

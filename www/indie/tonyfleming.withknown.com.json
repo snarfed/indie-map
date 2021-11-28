@@ -1,0 +1,150 @@
+{
+  "domain": "tonyfleming.withknown.com",
+  "urls": [
+    "https://tonyfleming.withknown.com/profile/mtony75",
+    "http://mylife.tonyfleming.me",
+    "https://google.com/+TonyFleming",
+    "http://trakt.tv/user/mtony75",
+    "http://twitter.com/mtony75",
+    "https://instagram.com/mtony75/",
+    "https://www.facebook.com/mtony75",
+    "https://mastodon.at/@mtony75"
+  ],
+  "names": [
+    "Tony Fleming",
+    "Life of a Geek Dad"
+  ],
+  "descriptions": [
+    "Geeky dad of two who is desperately hoping 40 is the new 16. Comic nut. Linux user. Aspiring programmer.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://tonyfleming.withknown.com/file/bcf3957dcabf1731da9694b3e8cbb87f/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Tony Fleming"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Geeky dad of two who is desperately hoping 40 is the new 16. Comic nut. Linux user. Aspiring programmer.</p>\n</div>",
+          "value": "\nGeeky dad of two who is desperately hoping 40 is the new 16. Comic nut. Linux user. Aspiring programmer.\n"
+        }
+      ],
+      "photo": [
+        "https://tonyfleming.withknown.com/file/bcf3957dcabf1731da9694b3e8cbb87f/thumb.jpg"
+      ],
+      "profile": [
+        "Tony Fleming"
+      ],
+      "url": [
+        "https://tonyfleming.withknown.com/profile/mtony75",
+        "https://tonyfleming.withknown.com/profile/mtony75",
+        "http://mylife.tonyfleming.me",
+        "https://google.com/+TonyFleming",
+        "http://trakt.tv/user/mtony75",
+        "http://twitter.com/mtony75",
+        "https://instagram.com/mtony75/",
+        "https://www.facebook.com/mtony75",
+        "https://mastodon.at/@mtony75"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://mylife.tonyfleming.me",
+    "https://google.com/+TonyFleming",
+    "http://trakt.tv/user/mtony75",
+    "http://twitter.com/mtony75",
+    "https://instagram.com/mtony75/",
+    "https://www.facebook.com/mtony75",
+    "https://mastodon.at/@mtony75"
+  ],
+  "crawl_start": "2017-05-06T01:58:11",
+  "crawl_end": "2017-05-06T02:18:01",
+  "num_pages": 1083,
+  "total_html_size": 34265137,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-event",
+    "h-cite",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://tonyfleming.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://tonyfleming.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://tonyfleming.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://tonyfleming.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 7544,
+  "links_in": 55,
+  "links": {
+    "leoville.withknown.com": {
+      "out": {
+        "in-reply-to": 13
+      },
+      "score": 0.685
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "in-reply-to": 7
+      },
+      "score": 0.605
+    },
+    "www.leoville.net": {
+      "in": {
+        "other": 40
+      },
+      "score": 0.519
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.226
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.195
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0975
+    }
+  }
+}

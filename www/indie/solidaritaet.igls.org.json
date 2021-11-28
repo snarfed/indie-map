@@ -1,0 +1,72 @@
+{
+  "domain": "solidaritaet.igls.org",
+  "urls": [
+    "http://solidaritaet.igls.org/"
+  ],
+  "names": [
+    "Solidarität Igls"
+  ],
+  "descriptions": [
+    "Plattform der Initiative Beherbergung und Integration von Geflüchteten"
+  ],
+  "pictures": [
+    "http://solidaritaet.igls.org/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T02:17:49",
+  "crawl_end": "2017-04-30T02:22:15",
+  "num_pages": 182,
+  "total_html_size": 5249845,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://solidaritaet.igls.org/webmention/"
+    ],
+    "micropub": [
+      "http://solidaritaet.igls.org/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://solidaritaet.igls.org/indieauth/auth"
+    ],
+    "token": [
+      "http://solidaritaet.igls.org/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 562,
+  "links_in": 11,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 183
+      },
+      "score": 0.992
+    },
+    "brid.gy": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.403
+    }
+  }
+}

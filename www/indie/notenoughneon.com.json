@@ -1,0 +1,365 @@
+{
+  "domain": "notenoughneon.com",
+  "urls": [
+    "http://notenoughneon.com"
+  ],
+  "names": [
+    "Emma Kuo",
+    "Not Enough Neon\n    "
+  ],
+  "descriptions": [
+    "Software development, music production. .NET Â· Node Â· Akai MPC Â· vinyl"
+  ],
+  "pictures": [
+    "http://notenoughneon.com/m/emma-2016-128.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Emma Kuo"
+      ],
+      "note": [
+        "Software development, music production. .NET Â· Node Â· Akai MPC Â· vinyl"
+      ],
+      "photo": [
+        "http://notenoughneon.com/m/emma-2016-128.jpg"
+      ],
+      "uid": [
+        "http://notenoughneon.com"
+      ],
+      "url": [
+        "http://notenoughneon.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://notenoughneon.com",
+    "https://twitter.com/notenoughneon",
+    "http://instagram.com/emmackuo",
+    "https://soundcloud.com/notenoughneon",
+    "https://github.com/notenoughneon",
+    "http://www.linkedin.com/pub/emma-kuo/25/15a/586"
+  ],
+  "crawl_start": "2017-04-25T03:31:09",
+  "crawl_end": "2017-04-25T03:32:54",
+  "num_pages": 158,
+  "total_html_size": 1102338,
+  "servers": [
+    "AmazonS3"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "elder",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://api.notenoughneon.com/api/webmention"
+    ],
+    "micropub": [
+      "https://api.notenoughneon.com/api/micropub"
+    ],
+    "authorization": [
+      "https://api.notenoughneon.com/api/auth"
+    ],
+    "token": [
+      "https://api.notenoughneon.com/api/token"
+    ]
+  },
+  "links_out": 1778,
+  "links_in": 1886,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 831
+      },
+      "score": 0.977
+    },
+    "kylewm.com": {
+      "out": {
+        "other": 64,
+        "in-reply-to": 22
+      },
+      "in": {
+        "in-reply-to": 22,
+        "other": 71,
+        "like-of": 12
+      },
+      "score": 0.919
+    },
+    "known.kylewm.com": {
+      "in": {
+        "other": 47,
+        "in-reply-to": 81
+      },
+      "score": 0.888
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 409
+      },
+      "score": 0.874
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 31,
+        "like-of": 7,
+        "in-reply-to": 39
+      },
+      "out": {
+        "other": 10,
+        "in-reply-to": 1
+      },
+      "score": 0.814
+    },
+    "adactio.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "bookmark-of": 123
+      },
+      "score": 0.802
+    },
+    "brid.gy": {
+      "out": {
+        "other": 83
+      },
+      "in": {
+        "other": 26
+      },
+      "score": 0.765
+    },
+    "barryfrost.com": {
+      "in": {
+        "like-of": 32,
+        "other": 32
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.674
+    },
+    "jeena.net": {
+      "in": {
+        "other": 6,
+        "like-of": 6,
+        "in-reply-to": 4
+      },
+      "out": {
+        "other": 6,
+        "in-reply-to": 2
+      },
+      "score": 0.618
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 8,
+        "in-reply-to": 5
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.539
+    },
+    "bret.io": {
+      "out": {
+        "other": 4,
+        "in-reply-to": 2
+      },
+      "score": 0.484
+    },
+    "veganstraightedge.com": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 3
+      },
+      "score": 0.474
+    },
+    "2016.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "out": {
+        "other": 1,
+        "in-reply-to": 2
+      },
+      "score": 0.468
+    },
+    "unrelenting.technology": {
+      "out": {
+        "other": 3
+      },
+      "in": {
+        "other": 18
+      },
+      "score": 0.462
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 2,
+        "in-reply-to": 2,
+        "other": 1
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.427
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.360
+    },
+    "j4y.co": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.360
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.334
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.334
+    },
+    "waterpigs.co.uk": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.334
+    },
+    "jimpick.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.334
+    },
+    "chromic.org": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "like-of": 2
+      },
+      "score": 0.302
+    },
+    "bear.im": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.260
+    },
+    "tantek.com": {
+      "in": {
+        "like-of": 1
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.260
+    },
+    "kevinmarks.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.202
+    },
+    "quill.p3k.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.202
+    },
+    "news.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "metafluff.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.101
+    },
+    "jkphl.is": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.101
+    },
+    "gibberish.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.101
+    },
+    "www.rmendes.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.101
+    },
+    "werd.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.101
+    },
+    "eric.pdxhub.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.101
+    },
+    "maxogden.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.101
+    },
+    "www.masteringdfsanalytics.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.101
+    },
+    "www.znmeb.mobi": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.101
+    },
+    "gregorlove.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

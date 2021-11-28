@@ -1,0 +1,143 @@
+{
+  "domain": "www.desparoz.com",
+  "urls": [
+    "http://www.desparoz.com/"
+  ],
+  "names": [
+    "BalancedLight – Des Paroz' blog on exploration and story telling"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://i0.wp.com/www.desparoz.com/wp-content/uploads/2013/03/cropped-wrasse-in-the-blue.jpg?fit=32%2C32",
+    "https://i0.wp.com/www.desparoz.com/wp-content/uploads/2013/03/cropped-wrasse-in-the-blue.jpg?fit=192%2C192"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://plus.google.com/+DesParoz",
+    "https://twitter.com/desparoz",
+    "https://www.instagram.com/desparoz",
+    "https://www.flickr.com/people/bluebeyond",
+    "https://micro.blog/desparoz",
+    "https://github.com/desparoz",
+    "mailto:des@paroz.com"
+  ],
+  "crawl_start": "2017-06-09T17:37:41",
+  "crawl_end": "2017-06-10T06:13:07",
+  "num_pages": 745,
+  "total_html_size": 22736781,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-as-article",
+    "h-as-note",
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.desparoz.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://www.desparoz.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 14759,
+  "links_in": 27,
+  "links": {
+    "desparoz.com": {
+      "out": {
+        "other": 985
+      },
+      "score": 1
+    },
+    "independentpublisher.me": {
+      "out": {
+        "other": 745
+      },
+      "score": 0.963
+    },
+    "micro.blog": {
+      "out": {
+        "other": 487
+      },
+      "score": 0.906
+    },
+    "colinwalker.blog": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "like-of": 13,
+        "other": 33
+      },
+      "score": 0.638
+    },
+    "scripting.com": {
+      "out": {
+        "other": 12,
+        "like-of": 6
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.513
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.419
+    },
+    "noahread.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.327
+    },
+    "www.manton.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.327
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.303
+    },
+    "brid.gy": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.257
+    },
+    "boghop.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

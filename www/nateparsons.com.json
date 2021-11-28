@@ -1,0 +1,122 @@
+{
+  "domain": "nateparsons.com",
+  "urls": [
+    "https://nateparsons.com/"
+  ],
+  "names": [
+    "Nate Parsons"
+  ],
+  "descriptions": [
+    "I'm a software developer for Planet in San Francisco, CA.  I also do improv and other things.",
+    "Nate Parsons is a software developer for Planet in San Francisco, CA. I also do improv and other things."
+  ],
+  "pictures": [
+    "https://nateparsons.com/images/nate.jpg",
+    "https://nateparsons.com/images/logo.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:parsons.nate+npcom@gmail.com"
+      ],
+      "name": [
+        "Nate Parsons"
+      ],
+      "note": [
+        "I'm a software developer for Planet in San Francisco, CA.  I also do improv and other things."
+      ],
+      "photo": [
+        "https://nateparsons.com/images/nate.jpg",
+        "https://nateparsons.com/images/nate.jpg"
+      ],
+      "url": [
+        "https://nateparsons.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://nateparsons.com/",
+    "https://twitter.com/thenatealator",
+    "https://github.com/nsp/",
+    "https://plus.google.com/105396706265294422326/about",
+    "mailto:parsons.nate+npcom@gmail.com"
+  ],
+  "crawl_start": "2017-06-10T01:40:10",
+  "crawl_end": "2017-06-10T01:40:10",
+  "num_pages": 1,
+  "total_html_size": 3369,
+  "servers": [
+    "nginx (Ubuntu)"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 4,
+  "links_in": 7,
+  "links": {
+    "twitter.com/thenatealator": {
+      "out": {
+        "other": 1
+      },
+      "score": 1
+    },
+    "plus.google.com/105396706265294422326": {
+      "out": {
+        "other": 1
+      },
+      "score": 1
+    },
+    "gmail.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 1
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 1
+    },
+    "github.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 1
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 1
+    },
+    "martymcgui.re": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

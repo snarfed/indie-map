@@ -1,0 +1,44 @@
+{
+  "domain": "www.digital-sailors.de",
+  "urls": [
+    "https://www.digital-sailors.de/"
+  ],
+  "names": [
+    "Digital Sailors"
+  ],
+  "descriptions": [
+    "Engineering for your digital business"
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-10T02:23:32",
+  "crawl_end": "2017-06-10T02:23:57",
+  "num_pages": 13,
+  "total_html_size": 107779,
+  "servers": [],
+  "tags": [
+    "authorization"
+  ],
+  "endpoints": {
+    "authorization": [
+      "https://www.digital-sailors.de/indieauth/code"
+    ]
+  },
+  "links_out": 88,
+  "links_in": 4,
+  "links": {
+    "oliver.gutperl.de": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.204
+    },
+    "gutperl.de": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.204
+    }
+  }
+}

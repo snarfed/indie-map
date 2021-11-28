@@ -1,0 +1,82 @@
+{
+  "domain": "blog.ministryofpropaganda.co.uk",
+  "urls": [
+    "http://blog.ministryofpropaganda.co.uk/"
+  ],
+  "names": [
+    "Ministry of Propaganda | Nothing but the truth…",
+    "Ministry of Propaganda"
+  ],
+  "descriptions": [
+    "Nothing but the truth…"
+  ],
+  "pictures": [
+    "http://blog.ministryofpropaganda.co.uk/wp-content/uploads/2015/08/cropped-mop-icon-new-32x32.png",
+    "http://blog.ministryofpropaganda.co.uk/wp-content/uploads/2015/08/cropped-mop-icon-new-192x192.png",
+    "http://blog.ministryofpropaganda.co.uk/wp-content/uploads/2015/08/cropped-mop-icon-new-270x270.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T02:15:50",
+  "crawl_end": "2017-04-28T03:42:56",
+  "num_pages": 620,
+  "total_html_size": 28275635,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-feed",
+    "h-as-reply",
+    "h-card",
+    "h-as-mention"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://blog.ministryofpropaganda.co.uk/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 4791,
+  "links_in": 29,
+  "links": {
+    "indieweb.org": {
+      "out": {
+        "other": 368
+      },
+      "score": 0.786
+    },
+    "www.islay.org.uk": {
+      "out": {
+        "other": 15
+      },
+      "in": {
+        "other": 11
+      },
+      "score": 0.442
+    },
+    "armingrewe.tumblr.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.314
+    },
+    "new.islayblog.com": {
+      "in": {
+        "other": 13
+      },
+      "score": 0.305
+    },
+    "brid.gy": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.192
+    }
+  }
+}

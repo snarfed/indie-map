@@ -1,0 +1,80 @@
+{
+  "domain": "bcr.withknown.com",
+  "urls": [
+    "https://bcr.withknown.com/profile/cat",
+    "http://bigcatrescue.org"
+  ],
+  "names": [
+    "Big Cat Rescue"
+  ],
+  "descriptions": [
+    "Caring for big cats - Ending the trade",
+    "A Place for Herding Cat News"
+  ],
+  "pictures": [
+    "https://bcr.withknown.com/file/07aa42c6aae4abd57d20d6ba4d2254f3/thumb.jpg",
+    "https://bcr.withknown.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Big Cat Rescue"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Caring for big cats - Ending the trade</p>\n</div>",
+          "value": "\nCaring for big cats - Ending the trade\n"
+        }
+      ],
+      "photo": [
+        "https://bcr.withknown.com/file/07aa42c6aae4abd57d20d6ba4d2254f3/thumb.jpg"
+      ],
+      "profile": [
+        "Big Cat Rescue"
+      ],
+      "url": [
+        "https://bcr.withknown.com/profile/cat",
+        "https://bcr.withknown.com/profile/cat",
+        "http://bigcatrescue.org"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://bigcatrescue.org"
+  ],
+  "crawl_start": "2017-04-27T07:52:42",
+  "crawl_end": "2017-04-27T07:53:16",
+  "num_pages": 34,
+  "total_html_size": 684288,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-entry",
+    "h-event",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://bcr.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 36,
+  "links_in": 0,
+  "links": {}
+}

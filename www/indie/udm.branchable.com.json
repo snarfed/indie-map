@@ -1,0 +1,52 @@
+{
+  "domain": "udm.branchable.com",
+  "urls": [
+    "http://udm.branchable.com/"
+  ],
+  "names": [
+    "user data manifesto"
+  ],
+  "descriptions": [
+    "This manifesto aims at defining users’ fundamental rights to their own data in the Internet age. People ought to be free and should not have to pay allegiance to service providers."
+  ],
+  "pictures": [
+    "https://udm.branchable.com/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T03:03:56",
+  "crawl_end": "2017-04-30T03:14:45",
+  "num_pages": 692,
+  "total_html_size": 4773085,
+  "servers": [
+    "Apache (Debian)"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.herokuapp.com/api/webmention"
+    ]
+  },
+  "links_out": 824,
+  "links_in": 15,
+  "links": {
+    "hroy.eu": {
+      "in": {
+        "other": 11
+      },
+      "out": {
+        "other": 5
+      },
+      "score": 0.477
+    },
+    "www.downes.ca": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.218
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "domain": "own.jakewilkins.com",
+  "urls": [
+    "http://own.jakewilkins.com/profile/jsw",
+    "http://jakewilkins.com",
+    "https://www.instagram.com/jakewilkinssnaps/"
+  ],
+  "names": [
+    "Jake Wilkins",
+    "index.html"
+  ],
+  "descriptions": [
+    "Programming Pilot trying to change the world.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://own.jakewilkins.com/file/a2d5404c1d161f065e06b92ded7cab52/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Jake Wilkins"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Programming Pilot trying to change the world.</p>\n</div>",
+          "value": "\nProgramming Pilot trying to change the world.\n"
+        }
+      ],
+      "photo": [
+        "http://own.jakewilkins.com/file/a2d5404c1d161f065e06b92ded7cab52/thumb.jpg"
+      ],
+      "profile": [
+        "Jake Wilkins"
+      ],
+      "url": [
+        "http://own.jakewilkins.com/profile/jsw",
+        "http://own.jakewilkins.com/profile/jsw",
+        "http://jakewilkins.com",
+        "https://www.instagram.com/jakewilkinssnaps/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://jakewilkins.com",
+    "https://www.instagram.com/jakewilkinssnaps/"
+  ],
+  "crawl_start": "2017-04-30T01:57:52",
+  "crawl_end": "2017-04-30T01:59:24",
+  "num_pages": 77,
+  "total_html_size": 1993382,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://own.jakewilkins.com/webmention/"
+    ],
+    "micropub": [
+      "http://own.jakewilkins.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://own.jakewilkins.com/indieauth/auth"
+    ],
+    "token": [
+      "http://own.jakewilkins.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 338,
+  "links_in": 16,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 82
+      },
+      "score": 1
+    },
+    "jakewilkins.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.733
+    },
+    "brid.gy": {
+      "in": {
+        "other": 16
+      },
+      "score": 0.543
+    }
+  }
+}

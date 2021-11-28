@@ -1,0 +1,182 @@
+{
+  "domain": "michael.runcieman.com",
+  "urls": [
+    "http://michael.runcieman.com/profile/mruncieman",
+    "http://www.twitter.com/mruncieman",
+    "http://www.facebook.com/michael.runcieman",
+    "https://www.instagram.com/mruncieman/",
+    "https://github.com/mruncieman",
+    "https://mastodon.social/@mruncieman",
+    "http://mruncieman.tumblr.com",
+    "http://www.flickr.com/mruncieman"
+  ],
+  "names": [
+    "Michael Runcieman"
+  ],
+  "descriptions": [
+    "I like all things internety.",
+    "Collection of things from around the internets"
+  ],
+  "pictures": [
+    "http://michael.runcieman.com/file/55ba9f834f02309099b74e5f0483fde3/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:michael@runcieman.com"
+      ],
+      "name": [
+        "Michael Runcieman"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I like all things internety.</p>\n</div> ",
+          "value": "\nI like all things internety.\n "
+        }
+      ],
+      "photo": [
+        "http://michael.runcieman.com/file/55ba9f834f02309099b74e5f0483fde3/thumb.jpg"
+      ],
+      "profile": [
+        "Michael Runcieman"
+      ],
+      "url": [
+        "http://michael.runcieman.com/profile/mruncieman",
+        "http://michael.runcieman.com/profile/mruncieman",
+        "http://www.twitter.com/mruncieman",
+        "http://www.facebook.com/michael.runcieman",
+        "https://www.instagram.com/mruncieman/",
+        "https://github.com/mruncieman",
+        "https://mastodon.social/@mruncieman",
+        "http://mruncieman.tumblr.com",
+        "http://www.flickr.com/mruncieman"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.twitter.com/mruncieman",
+    "http://www.facebook.com/michael.runcieman",
+    "https://www.instagram.com/mruncieman/",
+    "mailto:michael@runcieman.com",
+    "https://github.com/mruncieman",
+    "https://mastodon.social/@mruncieman",
+    "http://mruncieman.tumblr.com",
+    "http://www.flickr.com/mruncieman"
+  ],
+  "crawl_start": "2017-04-29T21:31:43",
+  "crawl_end": "2017-04-29T21:48:23",
+  "num_pages": 1505,
+  "total_html_size": 45461772,
+  "servers": [
+    "Apache (Ubuntu)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-cite",
+    "h-card",
+    "h-geo"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://michael.runcieman.com/webmention/",
+      "http://michael.runcieman.com/webmention/"
+    ],
+    "micropub": [
+      "https://michael.runcieman.com/micropub/endpoint",
+      "http://michael.runcieman.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://michael.runcieman.com/indieauth/auth",
+      "https://michael.runcieman.com/indieauth/auth"
+    ],
+    "token": [
+      "http://michael.runcieman.com/indieauth/token",
+      "https://michael.runcieman.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 13505,
+  "links_in": 73,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 1505
+      },
+      "score": 1
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 11,
+        "other": 30
+      },
+      "out": {
+        "like-of": 50,
+        "other": 8,
+        "in-reply-to": 30
+      },
+      "score": 0.799
+    },
+    "known.canadiancentral.ca": {
+      "out": {
+        "other": 86
+      },
+      "score": 0.643
+    },
+    "cleverdevil.io": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "like-of": 32
+      },
+      "score": 0.609
+    },
+    "www.marcus-povey.co.uk": {
+      "out": {
+        "other": 4,
+        "in-reply-to": 10
+      },
+      "score": 0.584
+    },
+    "known.phyks.me": {
+      "out": {
+        "like-of": 18
+      },
+      "score": 0.534
+    },
+    "brid.gy": {
+      "in": {
+        "other": 25
+      },
+      "score": 0.402
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.0865
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0865
+    }
+  }
+}

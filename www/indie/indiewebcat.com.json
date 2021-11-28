@@ -1,0 +1,298 @@
+{
+  "domain": "indiewebcat.com",
+  "urls": [
+    "https://indiewebcat.com/"
+  ],
+  "names": [
+    "Dora",
+    "IndieWebCat"
+  ],
+  "descriptions": [
+    "Meow! I'm Dora, aaronpk's kitty! I like naps, boxes, and sparkly balls."
+  ],
+  "pictures": [
+    "https://indiewebcat.com/images/profile.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "bday": [
+        "2014-06-28"
+      ],
+      "name": [
+        "Dora"
+      ],
+      "note": [
+        "Meow! I'm Dora, aaronpk's kitty! I like naps, boxes, and sparkly balls."
+      ],
+      "photo": [
+        "https://indiewebcat.com/images/profile.jpg"
+      ],
+      "uid": [
+        "https://indiewebcat.com/"
+      ],
+      "url": [
+        "https://indiewebcat.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/indiewebcat",
+    "https://instagram.com/indiewebcat",
+    "http://flickr.com/indiewebcat"
+  ],
+  "crawl_start": "2017-04-24T06:15:51",
+  "crawl_end": "2017-04-24T06:44:00",
+  "num_pages": 2517,
+  "total_html_size": 24981854,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention.io",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/indiewebcat.com/webmention"
+    ],
+    "micropub": [
+      "https://indiewebcat.com/micropub"
+    ],
+    "authorization": [
+      "https://indiewebcat.com/auth"
+    ],
+    "token": [
+      "https://indiewebcat.com/auth/token"
+    ]
+  },
+  "links_out": 22877,
+  "links_in": 872,
+  "links": {
+    "aaronparecki.com": {
+      "in": {
+        "other": 247,
+        "in-reply-to": 24,
+        "like-of": 49
+      },
+      "out": {
+        "other": 2575
+      },
+      "score": 0.987
+    },
+    "webmention.net": {
+      "out": {
+        "other": 2517
+      },
+      "score": 0.975
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 84
+      },
+      "out": {
+        "other": 1855
+      },
+      "score": 0.943
+    },
+    "teacup.p3k.io": {
+      "out": {
+        "other": 622
+      },
+      "score": 0.815
+    },
+    "quill.p3k.io": {
+      "out": {
+        "other": 535
+      },
+      "score": 0.799
+    },
+    "ownyourgram.com": {
+      "out": {
+        "other": 219
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.697
+    },
+    "kylewm.com": {
+      "in": {
+        "like-of": 54,
+        "in-reply-to": 20,
+        "other": 70
+      },
+      "out": {
+        "other": 64
+      },
+      "score": 0.688
+    },
+    "known.kylewm.com": {
+      "in": {
+        "in-reply-to": 78
+      },
+      "score": 0.683
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "like-of": 6,
+        "other": 109
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.550
+    },
+    "kylewm.withknown.com": {
+      "out": {
+        "in-reply-to": 7
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.492
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 4,
+        "in-reply-to": 3
+      },
+      "in": {
+        "like-of": 1,
+        "other": 2,
+        "in-reply-to": 1
+      },
+      "score": 0.441
+    },
+    "rhiaro.co.uk": {
+      "in": {
+        "other": 12
+      },
+      "out": {
+        "other": 13
+      },
+      "score": 0.416
+    },
+    "adactio.com": {
+      "in": {
+        "bookmark-of": 18
+      },
+      "score": 0.410
+    },
+    "brid.gy": {
+      "in": {
+        "other": 31
+      },
+      "score": 0.392
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 30
+      },
+      "score": 0.389
+    },
+    "tantek.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "repost-of": 4
+      },
+      "score": 0.373
+    },
+    "unrelenting.technology": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 9
+      },
+      "score": 0.324
+    },
+    "werd.io": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "like-of": 3
+      },
+      "score": 0.302
+    },
+    "ben.thatmustbe.me": {
+      "in": {
+        "other": 2,
+        "like-of": 2
+      },
+      "out": {
+        "other": 3
+      },
+      "score": 0.284
+    },
+    "lukasrosenstock.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.284
+    },
+    "boffosocko.com": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.223
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "tommorris.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.126
+    },
+    "mm0hai.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0793
+    },
+    "micropub.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0793
+    },
+    "vaviblog.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "jimpick.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "gregorlove.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

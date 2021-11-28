@@ -1,0 +1,94 @@
+{
+  "domain": "anny-cant-sleep.de",
+  "urls": [
+    "http://anny-cant-sleep.de/"
+  ],
+  "names": [
+    "(kein Titel)"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://plus.google.com/https://google.com/+AnnePelz",
+    "https://twitter.com/sahnelinchen",
+    "https://www.facebook.com/https://www.facebook.com/aenny.cant.sleep",
+    "https://www.instagram.com/https://instagram.com/sahnelinchen/"
+  ],
+  "crawl_start": "2017-04-27T07:52:23",
+  "crawl_end": "2017-04-27T09:05:01",
+  "num_pages": 1176,
+  "total_html_size": 50573284,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-article",
+    "h-as-note",
+    "h-as-reply",
+    "h-cite",
+    "h-entry",
+    "h-as-image"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://anny-cant-sleep.de/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://anny-cant-sleep.de/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 14994,
+  "links_in": 768,
+  "links": {
+    "papapelz.de": {
+      "out": {
+        "other": 17
+      },
+      "in": {
+        "other": 758
+      },
+      "score": 0.788
+    },
+    "brid.gy": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.272
+    },
+    "www.spiller.me": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0819
+    },
+    "dasnuf.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0819
+    }
+  }
+}

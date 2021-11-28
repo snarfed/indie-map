@@ -1,0 +1,62 @@
+{
+  "domain": "bewegteuch.com",
+  "crawl_start": "2017-05-06T22:42:50",
+  "crawl_end": "2017-05-06T22:44:26",
+  "num_pages": 58,
+  "total_html_size": 2365813,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-feed",
+    "h-entry",
+    "h-as-note"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://bewegteuch.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://bewegteuch.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "hcard": {},
+  "links_out": 69,
+  "links_in": 14,
+  "links": {
+    "twitter.com/@bewegteuch": {
+      "out": {
+        "other": 58
+      },
+      "score": 1
+    },
+    "www.stadtmobil.de": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.651
+    },
+    "brid.gy": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.556
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "domain": "svgshare.com",
+  "urls": [
+    "http://svgshare.com/"
+  ],
+  "names": [
+    "svgshare.com - share SVG vector files"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://svgshare.com/static/svgshare.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T02:31:49",
+  "crawl_end": "2017-04-30T02:32:51",
+  "num_pages": 119,
+  "total_html_size": 525146,
+  "servers": [
+    "Google Frontend"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "tool",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.herokuapp.com/api/webmention"
+    ]
+  },
+  "links_out": 414,
+  "links_in": 77,
+  "links": {
+    "kevinmarks.com": {
+      "out": {
+        "other": 119
+      },
+      "score": 1
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 66
+      },
+      "score": 0.766
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.402
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

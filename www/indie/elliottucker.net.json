@@ -1,0 +1,108 @@
+{
+  "domain": "elliottucker.net",
+  "urls": [
+    "http://elliottucker.net/"
+  ],
+  "names": [
+    "Elliot's Stuff"
+  ],
+  "descriptions": [
+    "Elliot's Stuff"
+  ],
+  "pictures": [
+    "https://elliottucker.net/images/me.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-24T04:19:02",
+  "crawl_end": "2017-04-24T04:19:27",
+  "num_pages": 40,
+  "total_html_size": 344398,
+  "servers": [
+    "nginx (Ubuntu)"
+  ],
+  "tags": [
+    "bridgy",
+    "IRC"
+  ],
+  "endpoints": {},
+  "links_out": 404,
+  "links_in": 401,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 176
+      },
+      "score": 1
+    },
+    "werd.io": {
+      "in": {
+        "other": 30,
+        "in-reply-to": 15
+      },
+      "score": 0.899
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 83
+      },
+      "score": 0.855
+    },
+    "known.kylewm.com": {
+      "in": {
+        "in-reply-to": 15,
+        "other": 2
+      },
+      "score": 0.839
+    },
+    "microblog.pierre-o.fr": {
+      "in": {
+        "other": 22
+      },
+      "score": 0.598
+    },
+    "barryfrost.com": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.559
+    },
+    "kylewm.com": {
+      "in": {
+        "in-reply-to": 2,
+        "other": 3
+      },
+      "score": 0.495
+    },
+    "brid.gy": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.464
+    },
+    "withknown.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.445
+    },
+    "www.leoville.net": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.402
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.269
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.269
+    }
+  }
+}

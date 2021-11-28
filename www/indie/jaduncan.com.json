@@ -1,0 +1,129 @@
+{
+  "domain": "jaduncan.com",
+  "urls": [
+    "https://jaduncan.com/profile/jaduncan",
+    "https://twitter.com/jaduncan",
+    "https://facebook.com/jaduncan",
+    "https://github.com/jaduncan",
+    "https://plus.google.com/+JamesDuncan",
+    "https://keybase.io/jaduncan",
+    "https://foursquare.com/user/6923305",
+    "https://www.strava.com/athletes/11979674",
+    "https://mastodon.cloud/@jaduncan"
+  ],
+  "names": [
+    "James Duncan",
+    "jaduncan"
+  ],
+  "descriptions": [
+    "Currently writing, involved in startups and cycling around the world.",
+    "My home page. I'm currently writing, involved in startups and cycling around the world."
+  ],
+  "pictures": [
+    "https://jaduncan.com/file/4efeb9001537d1f3554fabaf027b31d1/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "James Duncan"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Currently writing, involved in startups and cycling around the world.</p>\n</div>",
+          "value": "\nCurrently writing, involved in startups and cycling around the world.\n"
+        }
+      ],
+      "photo": [
+        "https://jaduncan.com/file/4efeb9001537d1f3554fabaf027b31d1/thumb.jpg"
+      ],
+      "profile": [
+        "James Duncan"
+      ],
+      "url": [
+        "https://jaduncan.com/profile/jaduncan",
+        "https://jaduncan.com/profile/jaduncan",
+        "https://twitter.com/jaduncan",
+        "https://facebook.com/jaduncan",
+        "https://github.com/jaduncan",
+        "https://plus.google.com/+JamesDuncan",
+        "https://keybase.io/jaduncan",
+        "https://foursquare.com/user/6923305",
+        "https://www.strava.com/athletes/11979674",
+        "https://mastodon.cloud/@jaduncan"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/jaduncan",
+    "https://facebook.com/jaduncan",
+    "https://github.com/jaduncan",
+    "https://plus.google.com/+JamesDuncan",
+    "https://keybase.io/jaduncan",
+    "https://foursquare.com/user/6923305",
+    "https://www.strava.com/athletes/11979674",
+    "https://mastodon.cloud/@jaduncan"
+  ],
+  "crawl_start": "2017-04-30T01:57:42",
+  "crawl_end": "2017-04-30T02:18:00",
+  "num_pages": 1625,
+  "total_html_size": 40406713,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://jaduncan.com/webmention/"
+    ],
+    "micropub": [
+      "https://jaduncan.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://jaduncan.com/indieauth/auth"
+    ],
+    "token": [
+      "https://jaduncan.com/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 9823,
+  "links_in": 4,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 1625
+      },
+      "score": 1
+    },
+    "colinwalker.blog": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.307
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.172
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "domain": "brands.mediaberger.com",
+  "urls": [
+    "http://brands.mediaberger.com/"
+  ],
+  "names": [
+    "Froxlor Defaultpage"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T02:17:26",
+  "crawl_end": "2017-04-28T02:17:26",
+  "num_pages": 1,
+  "total_html_size": 1520,
+  "servers": [
+    "Apache (Debian)"
+  ],
+  "tags": [
+    "bridgy"
+  ],
+  "endpoints": {},
+  "links_out": 2,
+  "links_in": 114,
+  "links": {
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 23
+      },
+      "score": 1
+    },
+    "indieberger.mediaberger.com": {
+      "in": {
+        "in-reply-to": 7,
+        "bookmark-of": 3,
+        "other": 73
+      },
+      "score": 1
+    },
+    "ignite.digitalignition.net": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.340
+    },
+    "www.froxlor.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.293
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.232
+    }
+  }
+}

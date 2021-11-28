@@ -1,0 +1,201 @@
+{
+  "domain": "darius.dunlaps.net",
+  "urls": [
+    "https://darius.dunlaps.net",
+    "https://twitter.com/dariusdunlap",
+    "https://github.com/dariusdunlap",
+    "https://plus.google.com/+DariusDunlap",
+    "https://app.net/darius",
+    "https://darius.dunlaps.net/"
+  ],
+  "names": [
+    "Darius Dunlap",
+    "Darius"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://darius.dunlaps.net/wp-content/uploads/2014/10/DariusWoods-Small-258x300.jpg",
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "country-name": [
+        "United States"
+      ],
+      "email": [
+        "mailto:darius@dunlaps.net"
+      ],
+      "locality": [
+        "Half Moon Bay, CA"
+      ],
+      "name": [
+        "Darius Dunlap"
+      ],
+      "photo": [
+        "https://darius.dunlaps.net/wp-content/uploads/2014/10/DariusWoods-Small-258x300.jpg"
+      ],
+      "url": [
+        "https://darius.dunlaps.net",
+        "https://twitter.com/dariusdunlap",
+        "https://github.com/dariusdunlap",
+        "https://plus.google.com/+DariusDunlap",
+        "https://app.net/darius"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://darius.dunlaps.net",
+    "mailto:darius@dunlaps.net",
+    "https://twitter.com/dariusdunlap",
+    "https://github.com/dariusdunlap",
+    "https://plus.google.com/+DariusDunlap",
+    "https://app.net/darius"
+  ],
+  "crawl_start": "2017-04-24T20:42:02",
+  "crawl_end": "2017-04-24T20:53:07",
+  "num_pages": 280,
+  "total_html_size": 11010147,
+  "servers": [
+    "nginx (Ubuntu)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-image",
+    "h-as-note",
+    "h-as-mention",
+    "h-entry",
+    "h-as-like",
+    "h-feed",
+    "h-as-reply",
+    "h-cite",
+    "h-as-article",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "elder",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://darius.dunlaps.net/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://darius.dunlaps.net/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 4575,
+  "links_in": 72,
+  "links": {
+    "dunlaps.net": {
+      "out": {
+        "other": 282
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.905
+    },
+    "www.squarepegfoundation.org": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.677
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 39
+      },
+      "score": 0.621
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 28
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.484
+    },
+    "epeus.blogspot.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.427
+    },
+    "known.kevinmarks.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.412
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.376
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.342
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.342
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.296
+    },
+    "kylewm.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.255
+    },
+    "willnorris.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.198
+    },
+    "tantek.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0987
+    },
+    "webmention.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0987
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0987
+    }
+  }
+}

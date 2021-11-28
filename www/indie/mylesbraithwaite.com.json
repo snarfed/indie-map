@@ -1,0 +1,79 @@
+{
+  "domain": "mylesbraithwaite.com",
+  "urls": [
+    "https://mylesbraithwaite.com/"
+  ],
+  "names": [
+    "Myles Braithwaite"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://mylesbraithwaite.com/assets/favicon16x16.png?cb=e5a031d9e93445c1490f77b89606ac2a",
+    "https://mylesbraithwaite.com/assets/favicon32x32.png?cb=c2539a99e486e423b5cc53a619f96658",
+    "https://mylesbraithwaite.com/assets/favicon96x96.png?cb=e61e8fc8e47fe659c8ca0183568a5e09",
+    "https://mylesbraithwaite.com/assets/favicon192x192.png?cb=9be456ea668973b8c4d99c0e8ada0f0b",
+    "https://mylesbraithwaite.com/assets/favicon.ico?cb=ada2c4fcf899e1a411e3442a0e70877d"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/mylesb",
+    "https://github.com/myles",
+    "https://pinterest.com/mylesb/",
+    "https://instagram.com/myles",
+    "https://plus.google.com/+MylesBraithwaite"
+  ],
+  "crawl_start": "2017-06-10T01:40:11",
+  "crawl_end": "2017-06-10T02:12:22",
+  "num_pages": 1269,
+  "total_html_size": 26496329,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/mylesbraithwaite.com/webmention"
+    ]
+  },
+  "links_out": 9337,
+  "links_in": 29,
+  "links": {
+    "mylesb.ca": {
+      "out": {
+        "other": 1269
+      },
+      "score": 0.989
+    },
+    "social.mylesb.ca": {
+      "in": {
+        "other": 26
+      },
+      "score": 0.411
+    },
+    "www.onebigfluke.com": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.378
+    },
+    "c2.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.139
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "domain": "www.sebastian-langer.net",
+  "urls": [
+    "http://www.sebastian-langer.net/www.sebastian-langer.net"
+  ],
+  "names": [
+    "Sebastian Langer",
+    "Sebastian Langer – Wennschondennschon!"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Sebastian Langer"
+      ],
+      "url": [
+        "http://www.sebastian-langer.net/www.sebastian-langer.net"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://www.instagram.com/regnales/",
+    "https://twitter.com/selanger",
+    "sms:+1799491872",
+    "mailto:sl@sebastian-langer.net",
+    "http://www.sebastian-langer.net/www.sebastian-langer.net"
+  ],
+  "crawl_start": "2017-05-06T07:27:13",
+  "crawl_end": "2017-05-06T08:14:28",
+  "num_pages": 1417,
+  "total_html_size": 66784104,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-reply",
+    "h-card",
+    "h-entry",
+    "h-feed"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.sebastian-langer.net/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://www.sebastian-langer.net/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://www.sebastian-langer.net/token"
+    ]
+  },
+  "links_out": 20101,
+  "links_in": 4,
+  "links": {
+    "wirres.net": {
+      "out": {
+        "other": 1447
+      },
+      "score": 0.960
+    },
+    "www.leitmedium.de": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.471
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.167
+    }
+  }
+}

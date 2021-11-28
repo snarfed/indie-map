@@ -1,0 +1,3344 @@
+{
+  "domain": "techlifeweb.com",
+  "urls": [
+    "http://techlifeweb.com/"
+  ],
+  "names": [],
+  "descriptions": [
+    "Exploring the digital life."
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://plus.google.com/+ScottKingery",
+    "https://twitter.com/techlifeweb",
+    "https://www.facebook.com/https://www.facebook.com/scottkingery",
+    "https://www.instagram.com/techlifeweb",
+    "mailto:scott@techlifeweb.com",
+    "https://plus.google.com/+ScottKingery/about/",
+    "https://www.linkedin.com/in/scottkingery",
+    "https://www.facebook.com/scottkingery",
+    "https://www.instagram.com/techlifeweb/",
+    "https://www.youtube.com/channel/UCZ7NoAPNzRBupCDyojnVt3A",
+    "http://techlifeweb.com/tlwpublicwiki/doku.php",
+    "https://github.com/TechLifeWeb"
+  ],
+  "crawl_start": "2017-04-26T03:01:48",
+  "crawl_end": "2017-04-26T11:16:59",
+  "num_pages": 8888,
+  "total_html_size": 227502306,
+  "servers": [
+    "nginx",
+    "DokuWiki"
+  ],
+  "mf2_classes": [
+    "h-as-note",
+    "h-feed",
+    "h-as-bookmark",
+    "h-entry",
+    "h-card",
+    "h-as-article",
+    "h-as-video",
+    "h-as-page",
+    "h-as-image"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://techlifeweb.com/wp-json/webmention/1.0/endpoint",
+      "http://techlifeweb.com/social/?webmention=endpoint"
+    ],
+    "micropub": [
+      "http://techlifeweb.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 100528,
+  "links_in": 1120,
+  "links": {
+    "ift.tt": {
+      "out": {
+        "repost-of": 3118,
+        "other": 552
+      },
+      "score": 1
+    },
+    "yourkarma.com": {
+      "out": {
+        "other": 8606
+      },
+      "score": 0.986
+    },
+    "creativecommons.org": {
+      "out": {
+        "other": 8135
+      },
+      "score": 0.981
+    },
+    "twitter.com/techlifeweb": {
+      "out": {
+        "other": 6698
+      },
+      "score": 0.961
+    },
+    "plus.google.com/+ScottKingery": {
+      "out": {
+        "other": 4839
+      },
+      "score": 0.928
+    },
+    "del.icio.us": {
+      "out": {
+        "other": 4724
+      },
+      "score": 0.925
+    },
+    "facebook.com/pages": {
+      "out": {
+        "other": 4312
+      },
+      "score": 0.916
+    },
+    "validator.w3.org": {
+      "out": {
+        "other": 4065
+      },
+      "score": 0.910
+    },
+    "dokuwiki.org": {
+      "out": {
+        "other": 4065
+      },
+      "score": 0.910
+    },
+    "getbootstrap.com": {
+      "out": {
+        "other": 4065
+      },
+      "score": 0.910
+    },
+    "www.php.net": {
+      "out": {
+        "other": 4065
+      },
+      "score": 0.910
+    },
+    "jigsaw.w3.org": {
+      "out": {
+        "other": 4065
+      },
+      "score": 0.910
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 215
+      },
+      "out": {
+        "other": 2911
+      },
+      "score": 0.881
+    },
+    "t.co": {
+      "out": {
+        "other": 1670
+      },
+      "score": 0.820
+    },
+    "www.instagram.com": {
+      "out": {
+        "other": 1499
+      },
+      "score": 0.810
+    },
+    "techcrunch.com": {
+      "out": {
+        "other": 1450
+      },
+      "score": 0.806
+    },
+    "bit.ly": {
+      "out": {
+        "other": 1374
+      },
+      "score": 0.801
+    },
+    "technorati.com": {
+      "out": {
+        "other": 1280
+      },
+      "score": 0.794
+    },
+    "mashable.com": {
+      "out": {
+        "other": 1136
+      },
+      "score": 0.782
+    },
+    "www.nytimes.com": {
+      "out": {
+        "other": 764
+      },
+      "score": 0.741
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 605,
+        "repost-of": 6
+      },
+      "score": 0.721
+    },
+    "stream.boffosocko.com": {
+      "out": {
+        "like-of": 16,
+        "in-reply-to": 16
+      },
+      "in": {
+        "like-of": 20,
+        "in-reply-to": 148,
+        "other": 100
+      },
+      "score": 0.708
+    },
+    "www.brid.gy": {
+      "out": {
+        "other": 533
+      },
+      "score": 0.706
+    },
+    "plus.google.com/101567686389173421706": {
+      "out": {
+        "other": 484
+      },
+      "score": 0.696
+    },
+    "play.google.com": {
+      "out": {
+        "in-reply-to": 7,
+        "other": 364
+      },
+      "score": 0.675
+    },
+    "www.dokuwiki.org": {
+      "out": {
+        "other": 336
+      },
+      "score": 0.658
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 333
+      },
+      "score": 0.657
+    },
+    "webmention.rocks": {
+      "out": {
+        "other": 84,
+        "like-of": 31,
+        "in-reply-to": 34
+      },
+      "score": 0.652
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 304
+      },
+      "score": 0.648
+    },
+    "facebook.com/scottkingery": {
+      "out": {
+        "other": 300
+      },
+      "score": 0.647
+    },
+    "twitter.com/SDITSystems": {
+      "out": {
+        "other": 283
+      },
+      "score": 0.641
+    },
+    "gigaom.com": {
+      "out": {
+        "other": 265,
+        "like-of": 4
+      },
+      "score": 0.637
+    },
+    "adactio.com": {
+      "out": {
+        "other": 262
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.634
+    },
+    "www.techlifeweb.com": {
+      "out": {
+        "other": 254
+      },
+      "score": 0.630
+    },
+    "www.zdnet.com": {
+      "out": {
+        "in-reply-to": 8,
+        "other": 190,
+        "repost-of": 6
+      },
+      "score": 0.628
+    },
+    "boffosocko.com": {
+      "out": {
+        "in-reply-to": 23,
+        "like-of": 42
+      },
+      "in": {
+        "other": 50
+      },
+      "score": 0.617
+    },
+    "thenextweb.com": {
+      "out": {
+        "other": 205,
+        "repost-of": 5
+      },
+      "score": 0.616
+    },
+    "www.businessinsider.com": {
+      "out": {
+        "other": 221
+      },
+      "score": 0.616
+    },
+    "i2.wp.com": {
+      "out": {
+        "other": 221
+      },
+      "score": 0.616
+    },
+    "feedproxy.google.com": {
+      "out": {
+        "other": 209
+      },
+      "score": 0.611
+    },
+    "i1.wp.com": {
+      "out": {
+        "other": 208
+      },
+      "score": 0.610
+    },
+    "i0.wp.com": {
+      "out": {
+        "other": 203
+      },
+      "score": 0.608
+    },
+    "twitter.com/bpulsetech": {
+      "out": {
+        "other": 45,
+        "repost-of": 51
+      },
+      "score": 0.605
+    },
+    "blog.twitter.com": {
+      "out": {
+        "other": 149,
+        "repost-of": 11
+      },
+      "score": 0.597
+    },
+    "twitter.com/TechLifeWeb": {
+      "out": {
+        "other": 182
+      },
+      "score": 0.597
+    },
+    "www.maximumpc.com": {
+      "out": {
+        "repost-of": 5,
+        "other": 168
+      },
+      "score": 0.597
+    },
+    "twitter.com/ChrisAldrich": {
+      "out": {
+        "like-of": 39,
+        "repost-of": 13,
+        "other": 56
+      },
+      "score": 0.592
+    },
+    "blogs.zdnet.com": {
+      "out": {
+        "other": 173
+      },
+      "score": 0.592
+    },
+    "www.readwriteweb.com": {
+      "out": {
+        "other": 169
+      },
+      "score": 0.588
+    },
+    "www.wired.com": {
+      "out": {
+        "other": 167
+      },
+      "score": 0.587
+    },
+    "www.aljazeera.com": {
+      "out": {
+        "other": 164
+      },
+      "score": 0.585
+    },
+    "online.wsj.com": {
+      "out": {
+        "other": 160
+      },
+      "score": 0.583
+    },
+    "facebook.com/680321043": {
+      "out": {
+        "other": 154
+      },
+      "score": 0.579
+    },
+    "twitter.com/NASA": {
+      "out": {
+        "repost-of": 37,
+        "other": 40
+      },
+      "score": 0.577
+    },
+    "news.cnet.com": {
+      "out": {
+        "other": 138
+      },
+      "score": 0.568
+    },
+    "twitter.com/TLWNewsPump": {
+      "out": {
+        "repost-of": 34,
+        "other": 34
+      },
+      "score": 0.567
+    },
+    "www.theverge.com": {
+      "out": {
+        "other": 136
+      },
+      "score": 0.567
+    },
+    "twitter.com/kevinmarks": {
+      "out": {
+        "like-of": 14,
+        "repost-of": 20,
+        "other": 46
+      },
+      "score": 0.565
+    },
+    "bits.blogs.nytimes.com": {
+      "out": {
+        "other": 131
+      },
+      "score": 0.563
+    },
+    "www.engadget.com": {
+      "out": {
+        "other": 97,
+        "repost-of": 11
+      },
+      "score": 0.562
+    },
+    "twitter.com/ProductHunt": {
+      "out": {
+        "repost-of": 30,
+        "other": 30
+      },
+      "score": 0.554
+    },
+    "arstechnica.com": {
+      "out": {
+        "other": 119
+      },
+      "score": 0.553
+    },
+    "allthingsd.com": {
+      "out": {
+        "other": 116
+      },
+      "score": 0.551
+    },
+    "www.google.com": {
+      "out": {
+        "other": 112
+      },
+      "score": 0.547
+    },
+    "j.mp": {
+      "out": {
+        "other": 104
+      },
+      "score": 0.540
+    },
+    "stream.techlifeweb.com": {
+      "out": {
+        "other": 3
+      },
+      "in": {
+        "other": 198
+      },
+      "score": 0.538
+    },
+    "brid.gy": {
+      "out": {
+        "other": 72
+      },
+      "in": {
+        "other": 48
+      },
+      "score": 0.532
+    },
+    "pandodaily.com": {
+      "out": {
+        "other": 96
+      },
+      "score": 0.532
+    },
+    "chrisaldrich.withknown.com": {
+      "out": {
+        "in-reply-to": 4,
+        "like-of": 12,
+        "other": 2
+      },
+      "in": {
+        "in-reply-to": 19,
+        "other": 4
+      },
+      "score": 0.531
+    },
+    "lifehacker.com": {
+      "out": {
+        "other": 93
+      },
+      "score": 0.529
+    },
+    "chris.pirillo.com": {
+      "out": {
+        "other": 92
+      },
+      "score": 0.527
+    },
+    "twitpic.com": {
+      "out": {
+        "other": 92
+      },
+      "score": 0.527
+    },
+    "www.microsoft.com": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.525
+    },
+    "venturebeat.com": {
+      "out": {
+        "other": 88
+      },
+      "score": 0.523
+    },
+    "ifttt.com": {
+      "out": {
+        "other": 87
+      },
+      "score": 0.522
+    },
+    "ow.ly": {
+      "out": {
+        "other": 87
+      },
+      "score": 0.522
+    },
+    "ff.im": {
+      "out": {
+        "other": 85
+      },
+      "score": 0.520
+    },
+    "ping.fm": {
+      "out": {
+        "other": 85
+      },
+      "score": 0.520
+    },
+    "twitter.com/NASAJPL": {
+      "out": {
+        "other": 24,
+        "repost-of": 20
+      },
+      "score": 0.518
+    },
+    "thegreenbutton.com": {
+      "out": {
+        "other": 84
+      },
+      "score": 0.518
+    },
+    "vimeo.com": {
+      "out": {
+        "other": 84
+      },
+      "score": 0.518
+    },
+    "pipes.yahoo.com": {
+      "out": {
+        "other": 82
+      },
+      "score": 0.516
+    },
+    "www.amazon.com": {
+      "out": {
+        "other": 82
+      },
+      "score": 0.516
+    },
+    "davidjohnmead.com": {
+      "in": {
+        "other": 3
+      },
+      "out": {
+        "in-reply-to": 12,
+        "other": 2,
+        "like-of": 8
+      },
+      "score": 0.513
+    },
+    "www.cnn.com": {
+      "out": {
+        "other": 78
+      },
+      "score": 0.511
+    },
+    "www.imdb.com": {
+      "out": {
+        "other": 74
+      },
+      "score": 0.506
+    },
+    "googleblog.blogspot.com": {
+      "out": {
+        "other": 74
+      },
+      "score": 0.506
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 146
+      },
+      "score": 0.504
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 42,
+        "repost-of": 10
+      },
+      "score": 0.503
+    },
+    "twitter.com/t": {
+      "out": {
+        "other": 14,
+        "like-of": 9,
+        "in-reply-to": 5,
+        "repost-of": 5
+      },
+      "score": 0.503
+    },
+    "instagram.com": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.503
+    },
+    "live.twit.tv": {
+      "out": {
+        "other": 71
+      },
+      "score": 0.502
+    },
+    "www.ustream.tv": {
+      "out": {
+        "other": 70
+      },
+      "score": 0.499
+    },
+    "www.chrisbrogan.com": {
+      "out": {
+        "other": 70
+      },
+      "score": 0.499
+    },
+    "www.facebook.com": {
+      "out": {
+        "other": 69
+      },
+      "score": 0.498
+    },
+    "www.apple.com": {
+      "out": {
+        "other": 69
+      },
+      "score": 0.498
+    },
+    "www.washingtonpost.com": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 38
+      },
+      "score": 0.496
+    },
+    "Amazon.com": {
+      "out": {
+        "other": 66
+      },
+      "score": 0.493
+    },
+    "twitter.com/DailyKerouac": {
+      "out": {
+        "other": 16,
+        "repost-of": 16
+      },
+      "score": 0.490
+    },
+    "twitter.com/ResearchBuzz": {
+      "out": {
+        "repost-of": 16,
+        "other": 16
+      },
+      "score": 0.490
+    },
+    "www.guardian.co.uk": {
+      "out": {
+        "other": 62
+      },
+      "score": 0.487
+    },
+    "twitter.com/susankitchens": {
+      "out": {
+        "other": 18,
+        "repost-of": 14
+      },
+      "score": 0.484
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 60
+      },
+      "score": 0.484
+    },
+    "www.buzzfeed.com": {
+      "out": {
+        "other": 59
+      },
+      "score": 0.482
+    },
+    "www.nbcsandiego.com": {
+      "out": {
+        "other": 59
+      },
+      "score": 0.482
+    },
+    "news.bbc.co.uk": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.480
+    },
+    "nyti.ms": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.480
+    },
+    "twitter.com/NASASocial": {
+      "out": {
+        "other": 18,
+        "repost-of": 13
+      },
+      "score": 0.479
+    },
+    "www.bbc.co.uk": {
+      "out": {
+        "other": 55
+      },
+      "score": 0.475
+    },
+    "twitter.com/hashtag": {
+      "out": {
+        "other": 54
+      },
+      "score": 0.473
+    },
+    "twitter.com/davewiner": {
+      "out": {
+        "other": 15,
+        "repost-of": 13
+      },
+      "score": 0.473
+    },
+    "WordPress.com": {
+      "out": {
+        "other": 54
+      },
+      "score": 0.473
+    },
+    "twitter.com/Techmeme": {
+      "out": {
+        "other": 21,
+        "repost-of": 11
+      },
+      "score": 0.473
+    },
+    "thedigitallifestyle.com": {
+      "out": {
+        "other": 53
+      },
+      "score": 0.471
+    },
+    "twitter.com/Stratfor": {
+      "out": {
+        "other": 13,
+        "repost-of": 13
+      },
+      "score": 0.469
+    },
+    "twitter.com/SoCalEq": {
+      "out": {
+        "other": 16,
+        "repost-of": 12
+      },
+      "score": 0.469
+    },
+    "searchengineland.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.469
+    },
+    "www.yahoo.com": {
+      "out": {
+        "other": 10,
+        "in-reply-to": 8
+      },
+      "score": 0.466
+    },
+    "www.telegraph.co.uk": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.466
+    },
+    "www.theatlantic.com": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.466
+    },
+    "gizmodo.com": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.461
+    },
+    "twitter.com/trtworld": {
+      "out": {
+        "repost-of": 12,
+        "other": 12
+      },
+      "score": 0.461
+    },
+    "twitter.com/ikluft": {
+      "out": {
+        "other": 12,
+        "repost-of": 12
+      },
+      "score": 0.461
+    },
+    "www.huffingtonpost.com": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.461
+    },
+    "is.gd": {
+      "out": {
+        "other": 47
+      },
+      "score": 0.459
+    },
+    "www.missingremote.com": {
+      "out": {
+        "other": 46
+      },
+      "score": 0.457
+    },
+    "twitter.com/GonzalezCarmen": {
+      "out": {
+        "other": 46
+      },
+      "score": 0.457
+    },
+    "www.thurrott.com": {
+      "out": {
+        "other": 10,
+        "in-reply-to": 7
+      },
+      "score": 0.455
+    },
+    "www.netflix.com": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 3,
+        "repost-of": 4
+      },
+      "score": 0.455
+    },
+    "www.scrippsranch.org": {
+      "out": {
+        "in-reply-to": 9
+      },
+      "score": 0.455
+    },
+    "www.forbes.com": {
+      "out": {
+        "other": 45
+      },
+      "score": 0.455
+    },
+    "www.sandiegoreader.com": {
+      "out": {
+        "repost-of": 14,
+        "other": 2
+      },
+      "score": 0.453
+    },
+    "twitter.com/ZenProverbs": {
+      "out": {
+        "repost-of": 11,
+        "other": 11
+      },
+      "score": 0.453
+    },
+    "twitter.com/BBCBreaking": {
+      "out": {
+        "other": 17,
+        "repost-of": 9
+      },
+      "score": 0.453
+    },
+    "twitter.com/madscienceskill": {
+      "out": {
+        "repost-of": 11,
+        "other": 11
+      },
+      "score": 0.453
+    },
+    "known.kylewm.com": {
+      "in": {
+        "other": 11,
+        "in-reply-to": 15
+      },
+      "score": 0.450
+    },
+    "Salesforce.com": {
+      "out": {
+        "other": 43
+      },
+      "score": 0.450
+    },
+    "twitter.com/mklopez": {
+      "out": {
+        "like-of": 2,
+        "other": 11,
+        "repost-of": 9
+      },
+      "score": 0.448
+    },
+    "traveltonic.net": {
+      "out": {
+        "in-reply-to": 6,
+        "like-of": 5
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.448
+    },
+    "www.theskimm.com": {
+      "out": {
+        "other": 15,
+        "repost-of": 9
+      },
+      "score": 0.448
+    },
+    "support.microsoft.com": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.448
+    },
+    "time.com": {
+      "out": {
+        "repost-of": 14
+      },
+      "score": 0.448
+    },
+    "vellum.nytlabs.com": {
+      "out": {
+        "other": 7,
+        "in-reply-to": 7
+      },
+      "score": 0.448
+    },
+    "www.nasa.gov": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.448
+    },
+    "twitter.com/BoingBoing": {
+      "out": {
+        "repost-of": 4,
+        "other": 30
+      },
+      "score": 0.448
+    },
+    "www.twice.com": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.448
+    },
+    "theoatmeal.com": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.448
+    },
+    "addons.mozilla.org": {
+      "out": {
+        "other": 41
+      },
+      "score": 0.446
+    },
+    "www.poynter.org": {
+      "out": {
+        "other": 41
+      },
+      "score": 0.446
+    },
+    "twitter.com/NASAJuno": {
+      "out": {
+        "repost-of": 10,
+        "other": 10
+      },
+      "score": 0.443
+    },
+    "windowsreport.com": {
+      "out": {
+        "other": 10,
+        "repost-of": 10
+      },
+      "score": 0.443
+    },
+    "kylewm.com": {
+      "out": {
+        "other": 4,
+        "like-of": 8
+      },
+      "in": {
+        "other": 14,
+        "in-reply-to": 4,
+        "like-of": 3
+      },
+      "score": 0.443
+    },
+    "www.avc.com": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.443
+    },
+    "www.usatoday.com": {
+      "out": {
+        "repost-of": 5,
+        "other": 24
+      },
+      "score": 0.441
+    },
+    "twitter.com": {
+      "out": {
+        "other": 39
+      },
+      "score": 0.441
+    },
+    "www.kickstarter.com": {
+      "out": {
+        "other": 39
+      },
+      "score": 0.441
+    },
+    "gawker.com": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.438
+    },
+    "boingboing.net": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.438
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 12
+      },
+      "out": {
+        "like-of": 16
+      },
+      "score": 0.438
+    },
+    "twitter.com/nrek": {
+      "out": {
+        "like-of": 7,
+        "repost-of": 4,
+        "other": 11
+      },
+      "score": 0.435
+    },
+    "Twitter.com": {
+      "out": {
+        "other": 37
+      },
+      "score": 0.435
+    },
+    "money.cnn.com": {
+      "out": {
+        "other": 37
+      },
+      "score": 0.435
+    },
+    "www.reuters.com": {
+      "out": {
+        "other": 37
+      },
+      "score": 0.435
+    },
+    "github.com": {
+      "out": {
+        "other": 37
+      },
+      "score": 0.435
+    },
+    "twitter.com/SpaceflightNow": {
+      "out": {
+        "like-of": 8,
+        "other": 8,
+        "repost-of": 4
+      },
+      "score": 0.433
+    },
+    "cloudcomputing.sys-con.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.433
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.433
+    },
+    "ckmacleod.com": {
+      "out": {
+        "repost-of": 12
+      },
+      "score": 0.433
+    },
+    "twitter.com/kenoldp": {
+      "out": {
+        "other": 9,
+        "repost-of": 9
+      },
+      "score": 0.433
+    },
+    "twitter.com/WorldAndScience": {
+      "out": {
+        "repost-of": 9,
+        "other": 9
+      },
+      "score": 0.433
+    },
+    "twitter.com/SPACEdotcom": {
+      "out": {
+        "repost-of": 9,
+        "other": 9
+      },
+      "score": 0.433
+    },
+    "www.boingboing.net": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.433
+    },
+    "mediadecoder.blogs.nytimes.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.433
+    },
+    "medium.com": {
+      "out": {
+        "in-reply-to": 7
+      },
+      "score": 0.430
+    },
+    "twitter.com/davezatz": {
+      "out": {
+        "in-reply-to": 5,
+        "other": 10
+      },
+      "score": 0.430
+    },
+    "chrome.google.com": {
+      "out": {
+        "other": 35
+      },
+      "score": 0.430
+    },
+    "rhizome.org": {
+      "out": {
+        "in-reply-to": 7
+      },
+      "score": 0.430
+    },
+    "www.chicagotribune.com": {
+      "out": {
+        "other": 35
+      },
+      "score": 0.430
+    },
+    "www.informationweek.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.427
+    },
+    "twitter.com/NASASpaceflight": {
+      "out": {
+        "like-of": 6,
+        "repost-of": 4,
+        "other": 10
+      },
+      "score": 0.427
+    },
+    "twitter.com/SuuperG": {
+      "out": {
+        "other": 11,
+        "like-of": 11
+      },
+      "score": 0.424
+    },
+    "www.arush.io": {
+      "out": {
+        "in-reply-to": 5,
+        "like-of": 4
+      },
+      "score": 0.424
+    },
+    "news.com.com": {
+      "out": {
+        "other": 33
+      },
+      "score": 0.424
+    },
+    "news.yahoo.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.421
+    },
+    "goo.gl": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.421
+    },
+    "facebook.com/feeds": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.421
+    },
+    "twitter.com/amhistorymuseum": {
+      "out": {
+        "repost-of": 8,
+        "other": 8
+      },
+      "score": 0.421
+    },
+    "twitter.com/mental_floss": {
+      "out": {
+        "other": 8,
+        "repost-of": 8
+      },
+      "score": 0.421
+    },
+    "twitter.com/nbcsandiego": {
+      "out": {
+        "repost-of": 9,
+        "other": 5
+      },
+      "score": 0.421
+    },
+    "friendfeed.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.421
+    },
+    "twitter.com/breakingmoney": {
+      "out": {
+        "other": 8,
+        "repost-of": 8
+      },
+      "score": 0.421
+    },
+    "www.twittascope.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.421
+    },
+    "twitter.com/MitchWagner": {
+      "out": {
+        "like-of": 4,
+        "other": 11,
+        "repost-of": 4
+      },
+      "score": 0.418
+    },
+    "blogs.msdn.com": {
+      "out": {
+        "other": 31
+      },
+      "score": 0.418
+    },
+    "tinyurl.com": {
+      "out": {
+        "other": 31
+      },
+      "score": 0.418
+    },
+    "betakit.com": {
+      "out": {
+        "other": 31
+      },
+      "score": 0.418
+    },
+    "friendsplus.me": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.414
+    },
+    "www.whitehouse.gov": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.414
+    },
+    "twitter.com/NewCo": {
+      "out": {
+        "repost-of": 10
+      },
+      "score": 0.414
+    },
+    "missingremote.com": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.414
+    },
+    "www.newegg.com": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.414
+    },
+    "news.zdnet.com": {
+      "out": {
+        "other": 29
+      },
+      "score": 0.411
+    },
+    "ssl.washingtonpost.com": {
+      "out": {
+        "other": 29
+      },
+      "score": 0.411
+    },
+    "earthquake.usgs.gov": {
+      "out": {
+        "other": 29
+      },
+      "score": 0.411
+    },
+    "scobleizer.com": {
+      "out": {
+        "other": 29
+      },
+      "score": 0.411
+    },
+    "dealbook.nytimes.com": {
+      "out": {
+        "other": 29
+      },
+      "score": 0.411
+    },
+    "technet.microsoft.com": {
+      "out": {
+        "other": 29
+      },
+      "score": 0.411
+    },
+    "youtube.com": {
+      "out": {
+        "other": 29
+      },
+      "score": 0.411
+    },
+    "kara.allthingsd.com": {
+      "out": {
+        "other": 29
+      },
+      "score": 0.411
+    },
+    "twitter.com/grantpotter": {
+      "out": {
+        "other": 7,
+        "repost-of": 7
+      },
+      "score": 0.407
+    },
+    "dashes.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.407
+    },
+    "twitter.com/SugarJones": {
+      "out": {
+        "repost-of": 8,
+        "other": 4
+      },
+      "score": 0.407
+    },
+    "twitter.com/PadresFaithful": {
+      "out": {
+        "like-of": 4,
+        "in-reply-to": 4
+      },
+      "score": 0.407
+    },
+    "twitter.com/launchticker": {
+      "out": {
+        "other": 4,
+        "repost-of": 8
+      },
+      "score": 0.407
+    },
+    "r2.ly": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.407
+    },
+    "twitter.com/flexalert": {
+      "out": {
+        "repost-of": 7,
+        "other": 7
+      },
+      "score": 0.407
+    },
+    "twitter.com/BeTheBuddha": {
+      "out": {
+        "other": 7,
+        "repost-of": 7
+      },
+      "score": 0.407
+    },
+    "twitter.com/RetroNewsNow": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.407
+    },
+    "blogs.wsj.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.407
+    },
+    "known.techlifeweb.com": {
+      "out": {
+        "in-reply-to": 4,
+        "like-of": 4
+      },
+      "score": 0.407
+    },
+    "twitter.com/KevinBaird": {
+      "out": {
+        "other": 12,
+        "like-of": 8
+      },
+      "score": 0.407
+    },
+    "twitter.com/FOXSports": {
+      "out": {
+        "other": 7,
+        "repost-of": 7
+      },
+      "score": 0.407
+    },
+    "uncrunched.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.407
+    },
+    "windowsteamblog.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.407
+    },
+    "www.bbc.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.407
+    },
+    "twitter.com/dsup": {
+      "out": {
+        "like-of": 9,
+        "other": 9
+      },
+      "score": 0.403
+    },
+    "twitter.com/chrismessina": {
+      "out": {
+        "other": 9,
+        "repost-of": 6
+      },
+      "score": 0.403
+    },
+    "www.fastcodesign.com": {
+      "out": {
+        "repost-of": 7,
+        "other": 6
+      },
+      "score": 0.403
+    },
+    "scripting.com": {
+      "out": {
+        "other": 2,
+        "in-reply-to": 5
+      },
+      "score": 0.403
+    },
+    "www.greenbot.com": {
+      "out": {
+        "repost-of": 9
+      },
+      "score": 0.403
+    },
+    "www.techmeme.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.399
+    },
+    "www.noradsanta.org": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.399
+    },
+    "twitter.com/megarush1024": {
+      "out": {
+        "other": 6,
+        "in-reply-to": 4
+      },
+      "score": 0.399
+    },
+    "www.boston.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.399
+    },
+    "www.twentyfeet.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.399
+    },
+    "twitter.com/newsycombinator": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.395
+    },
+    "sarahmarshall.io": {
+      "out": {
+        "other": 5,
+        "in-reply-to": 4
+      },
+      "score": 0.395
+    },
+    "www.latimes.com": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.395
+    },
+    "javascript": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.395
+    },
+    "www.newyorker.com": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.395
+    },
+    "sourceforge.net": {
+      "out": {
+        "other": 7,
+        "repost-of": 6
+      },
+      "score": 0.395
+    },
+    "www.slate.com": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.395
+    },
+    "jpreardon.com": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 2
+      },
+      "in": {
+        "other": 5
+      },
+      "score": 0.393
+    },
+    "twitter.com/NBCOlympics": {
+      "out": {
+        "repost-of": 6,
+        "other": 6
+      },
+      "score": 0.391
+    },
+    "twitter.com/NationalMallNPS": {
+      "out": {
+        "other": 6,
+        "repost-of": 6
+      },
+      "score": 0.391
+    },
+    "twitter.com/NASA_Orion": {
+      "out": {
+        "repost-of": 6,
+        "other": 6
+      },
+      "score": 0.391
+    },
+    "twitter.com/nytimestravel": {
+      "out": {
+        "other": 6,
+        "repost-of": 6
+      },
+      "score": 0.391
+    },
+    "twitter.com/FastCoExist": {
+      "out": {
+        "other": 6,
+        "repost-of": 6
+      },
+      "score": 0.391
+    },
+    "www.livestream.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.391
+    },
+    "twitter.com/RedTheTrucker": {
+      "out": {
+        "like-of": 8,
+        "other": 8
+      },
+      "score": 0.391
+    },
+    "www.briansolis.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.391
+    },
+    "www.theonion.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.391
+    },
+    "www.npr.org": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.391
+    },
+    "twitter.com/itsDanielSuarez": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.391
+    },
+    "snarfed.org": {
+      "in": {
+        "in-reply-to": 1,
+        "other": 6
+      },
+      "out": {
+        "other": 2,
+        "like-of": 8
+      },
+      "score": 0.389
+    },
+    "blog.facebook.com": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.387
+    },
+    "www.businessweek.com": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.387
+    },
+    "twitter.com/YourNorthCounty": {
+      "out": {
+        "other": 9,
+        "like-of": 7
+      },
+      "score": 0.387
+    },
+    "thedigitalmediazone.com": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.387
+    },
+    "www.socialmediaexaminer.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.382
+    },
+    "firstfollower.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.382
+    },
+    "www.bloomberg.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.382
+    },
+    "twitter.com/homersapien619": {
+      "out": {
+        "other": 10,
+        "repost-of": 4
+      },
+      "score": 0.382
+    },
+    "www.utsandiego.com": {
+      "out": {
+        "other": 10,
+        "repost-of": 4
+      },
+      "score": 0.382
+    },
+    "reviews.cnet.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.382
+    },
+    "thecaucus.blogs.nytimes.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.382
+    },
+    "twitter.com/kylewmahan": {
+      "out": {
+        "other": 14,
+        "like-of": 4
+      },
+      "score": 0.382
+    },
+    "yfrog.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.382
+    },
+    "laughingsquid.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.382
+    },
+    "fivethirtyeight.blogs.nytimes.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.382
+    },
+    "blog.wired.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.382
+    },
+    "theskimm.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.382
+    },
+    "radar.oreilly.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.382
+    },
+    "labs.adobe.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.378
+    },
+    "twitter.com/ruihildt": {
+      "out": {
+        "like-of": 7,
+        "other": 7
+      },
+      "score": 0.378
+    },
+    "hauppauge.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.378
+    },
+    "twitter.com/aaronpk": {
+      "out": {
+        "other": 7,
+        "like-of": 7
+      },
+      "score": 0.378
+    },
+    "nymag.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.378
+    },
+    "cloose.github.io": {
+      "out": {
+        "repost-of": 7
+      },
+      "score": 0.378
+    },
+    "www.bing.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.378
+    },
+    "savethelink.org": {
+      "out": {
+        "repost-of": 7
+      },
+      "score": 0.378
+    },
+    "www.marco.org": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.378
+    },
+    "www.sandiegomagazine.com": {
+      "out": {
+        "repost-of": 7
+      },
+      "score": 0.378
+    },
+    "www.techdirt.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.378
+    },
+    "www.thinkwithgoogle.com": {
+      "out": {
+        "repost-of": 7
+      },
+      "score": 0.378
+    },
+    "i.imgur.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.378
+    },
+    "www.engadget.stfi.re": {
+      "out": {
+        "repost-of": 7
+      },
+      "score": 0.378
+    },
+    "imageresizer.codeplex.com": {
+      "out": {
+        "repost-of": 7
+      },
+      "score": 0.378
+    },
+    "twitter.com/RalphLauren": {
+      "out": {
+        "repost-of": 5,
+        "other": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/PetcoPark": {
+      "out": {
+        "repost-of": 5,
+        "other": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/TheHockeyVines": {
+      "out": {
+        "repost-of": 5,
+        "other": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/BaltimorePolice": {
+      "out": {
+        "other": 5,
+        "repost-of": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/MLBGIFs": {
+      "out": {
+        "repost-of": 5,
+        "other": 5
+      },
+      "score": 0.373
+    },
+    "www.safercar.gov": {
+      "out": {
+        "in-reply-to": 4
+      },
+      "score": 0.373
+    },
+    "twitter.com/bph": {
+      "out": {
+        "other": 5,
+        "repost-of": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/offrayLC": {
+      "out": {
+        "repost-of": 5,
+        "other": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/MLBcathedrals": {
+      "out": {
+        "other": 5,
+        "repost-of": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/NASAArmstrong": {
+      "out": {
+        "repost-of": 5,
+        "other": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/starsandstripes": {
+      "out": {
+        "repost-of": 5,
+        "other": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/FlagshipSD": {
+      "out": {
+        "other": 5,
+        "repost-of": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/LegoNASAWomen": {
+      "out": {
+        "other": 5,
+        "repost-of": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/OSIRISREx": {
+      "out": {
+        "repost-of": 5,
+        "other": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/mikamckinnon": {
+      "out": {
+        "other": 5,
+        "repost-of": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/rbrt1000": {
+      "out": {
+        "other": 5,
+        "repost-of": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/flightorg": {
+      "out": {
+        "other": 5,
+        "repost-of": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/sdzsafaripark": {
+      "out": {
+        "other": 5,
+        "repost-of": 5
+      },
+      "score": 0.373
+    },
+    "tech.fortune.cnn.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.373
+    },
+    "twitter.com/JeffRutherford": {
+      "out": {
+        "other": 5,
+        "repost-of": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/dsearls": {
+      "out": {
+        "other": 5,
+        "repost-of": 5
+      },
+      "score": 0.373
+    },
+    "google.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.373
+    },
+    "twitter.com/KPBSnews": {
+      "out": {
+        "other": 8,
+        "repost-of": 4
+      },
+      "score": 0.373
+    },
+    "twitter.com/wmyeoh": {
+      "out": {
+        "repost-of": 5,
+        "other": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/stevesilberman": {
+      "out": {
+        "other": 5,
+        "repost-of": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/dorrine": {
+      "out": {
+        "repost-of": 5,
+        "other": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/MIT": {
+      "out": {
+        "repost-of": 5,
+        "other": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/Zen_Moments": {
+      "out": {
+        "like-of": 4,
+        "other": 12
+      },
+      "score": 0.373
+    },
+    "twitter.com/5tefanK": {
+      "out": {
+        "repost-of": 5,
+        "other": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/HistoryNeedsYou": {
+      "out": {
+        "repost-of": 5,
+        "other": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/veganstraightedge": {
+      "out": {
+        "repost-of": 5,
+        "other": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/PedderSophie": {
+      "out": {
+        "repost-of": 5,
+        "other": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/USSMidwayMuseum": {
+      "out": {
+        "other": 5,
+        "repost-of": 5
+      },
+      "score": 0.373
+    },
+    "www.techcrunch.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.373
+    },
+    "blogs.hbr.org": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.373
+    },
+    "mail.google.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.373
+    },
+    "latimesblogs.latimes.com": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.368
+    },
+    "www.technologyreview.com": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.368
+    },
+    "itunes.apple.com": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.368
+    },
+    "twitter.com/bigshel99": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.368
+    },
+    "paidcontent.org": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.368
+    },
+    "wiki.twentyfeet.com": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.368
+    },
+    "io9.com": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.368
+    },
+    "daringfireball.net": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.362
+    },
+    "www.news.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.362
+    },
+    "twitter.com/astVintageSpace": {
+      "out": {
+        "other": 6,
+        "like-of": 6
+      },
+      "score": 0.362
+    },
+    "www.findchelsea.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.362
+    },
+    "cdixon.org": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.362
+    },
+    "plus.google.com/s": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.362
+    },
+    "apps.facebook.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.362
+    },
+    "twitter.com/RT_com": {
+      "out": {
+        "repost-of": 6
+      },
+      "score": 0.362
+    },
+    "twitter.com/HollywoodDebi": {
+      "out": {
+        "other": 6,
+        "like-of": 6
+      },
+      "score": 0.362
+    },
+    "findchelsea.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.362
+    },
+    "twitter.com/screencrushnews": {
+      "out": {
+        "other": 6,
+        "like-of": 6
+      },
+      "score": 0.362
+    },
+    "twitter.com/eveewing": {
+      "out": {
+        "like-of": 6,
+        "other": 6
+      },
+      "score": 0.362
+    },
+    "twitter.com/search": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.362
+    },
+    "twitter.com/Sonya_PDX": {
+      "out": {
+        "other": 6,
+        "like-of": 6
+      },
+      "score": 0.362
+    },
+    "twitter.com/randal_olson": {
+      "out": {
+        "like-of": 6,
+        "other": 6
+      },
+      "score": 0.362
+    },
+    "App.net": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.362
+    },
+    "twitter.com/CassiniSaturn": {
+      "out": {
+        "like-of": 6,
+        "other": 6
+      },
+      "score": 0.362
+    },
+    "tweetphoto.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.362
+    },
+    "twitter.com/GunnarJeannette": {
+      "out": {
+        "like-of": 6,
+        "other": 6
+      },
+      "score": 0.362
+    },
+    "recode.net": {
+      "out": {
+        "repost-of": 6
+      },
+      "score": 0.362
+    },
+    "twitter.com/RikMende": {
+      "out": {
+        "like-of": 6,
+        "other": 6
+      },
+      "score": 0.362
+    },
+    "microformats.org": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.362
+    },
+    "www.politico.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.362
+    },
+    "NYTimes.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.362
+    },
+    "www.dailymail.co.uk": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.362
+    },
+    "chilepersonfinder.appspot.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.362
+    },
+    "twitter.com/TomNovak": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.357
+    },
+    "1geek1tool.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.357
+    },
+    "platform.twitter.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.357
+    },
+    "www.ft.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.357
+    },
+    "shortyawards.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.357
+    },
+    "twitter.com/SDPhelan": {
+      "out": {
+        "other": 7,
+        "like-of": 5
+      },
+      "score": 0.357
+    },
+    "www.engadgethd.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.357
+    },
+    "xkcd.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.357
+    },
+    "tweetvite.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.357
+    },
+    "facebook.com/settings": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.357
+    },
+    "sethgodin.typepad.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.357
+    },
+    "userscripts.org": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.357
+    },
+    "socialmediatoday.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.357
+    },
+    "jothut.com": {
+      "in": {
+        "other": 33
+      },
+      "score": 0.354
+    },
+    "twitter.com/DepressedDarth": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/HistoricalPics": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/fcain": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/MilesSpace": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/WAWilsonIV": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/kcraFinan": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/sjnews": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/anniemal": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "blogs.reuters.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.351
+    },
+    "twitter.com/BenedictEvans": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/FlightLifeMars": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/LaughingSquid": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/markbao": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/12thmanTim": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/Bachscore": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/DaveTaylor": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/TravelLeisure": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/oewf": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/abbyhamblin": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/astro_kimbrough": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/ProductHuntGIF": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/neatorama": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/NASAhistory": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/YupThatExist": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/nypl": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/Astro_Jeff": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/elakdawalla": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/AlbertEinstein": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/Jacquelyn_Leahy": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/baseballpro": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "sports.yahoo.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.351
+    },
+    "twitter.com/QuitePerry": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/jeremyscahill": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "paulgraham.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.351
+    },
+    "twitter.com/NASAWatch": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/Gaohmee": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "sandiegobargainmama.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.351
+    },
+    "twitter.com/Snubs": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/thurrott": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/harrietb": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/synvila": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/10NewsAarons": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/SGgrc": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "post.ly": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.351
+    },
+    "twitter.com/jackbrewster": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.351
+    },
+    "noagendastream.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.351
+    },
+    "twitter.com/WindowsITPro": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/SDRadio": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/Space_Lectures": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/fox5sandiego": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/KING5Seattle": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "www.kevinmarks.com": {
+      "out": {
+        "like-of": 8
+      },
+      "score": 0.351
+    },
+    "twitter.com/CNTraveler": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/bnap48": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/pdrepard": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/Andy_Masur1": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/Gizmodo": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/brainpickings": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/little_wow": {
+      "out": {
+        "other": 4,
+        "repost-of": 4
+      },
+      "score": 0.351
+    },
+    "influencesd.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.351
+    },
+    "twitter.com/ISS101": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/levie": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "twitter.com/mzbat": {
+      "out": {
+        "repost-of": 4,
+        "other": 4
+      },
+      "score": 0.351
+    },
+    "www.smashingmagazine.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.351
+    },
+    "dowe.io": {
+      "out": {
+        "like-of": 4,
+        "other": 2
+      },
+      "in": {
+        "other": 11
+      },
+      "score": 0.347
+    },
+    "twitter.com/VeggieTorta": {
+      "out": {
+        "other": 5,
+        "like-of": 5
+      },
+      "score": 0.344
+    },
+    "twitter.com/TerminalPixel": {
+      "out": {
+        "like-of": 5,
+        "other": 5
+      },
+      "score": 0.344
+    },
+    "www.building43.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.344
+    },
+    "twitter.com/mikevardy": {
+      "out": {
+        "other": 5,
+        "like-of": 5
+      },
+      "score": 0.344
+    },
+    "twitter.com/timweston": {
+      "out": {
+        "like-of": 5,
+        "other": 5
+      },
+      "score": 0.344
+    },
+    "twitter.com/schnarfed": {
+      "out": {
+        "other": 5,
+        "like-of": 5
+      },
+      "score": 0.344
+    },
+    "www.independent.co.uk": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.344
+    },
+    "twitter.com/jimpick": {
+      "out": {
+        "other": 5,
+        "like-of": 5
+      },
+      "score": 0.344
+    },
+    "blogmaverick.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.344
+    },
+    "twitter.com/dissolve333": {
+      "out": {
+        "other": 5,
+        "like-of": 5
+      },
+      "score": 0.344
+    },
+    "twitter.com/erica_holloway": {
+      "out": {
+        "repost-of": 5
+      },
+      "score": 0.344
+    },
+    "twitter.com/schmarty": {
+      "out": {
+        "like-of": 5,
+        "other": 5
+      },
+      "score": 0.344
+    },
+    "twitter.com/CloudExpo": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.344
+    },
+    "twitter.com/SpaceX": {
+      "out": {
+        "other": 3,
+        "repost-of": 4
+      },
+      "score": 0.344
+    },
+    "www.whatsnextblog.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.344
+    },
+    "patch.com": {
+      "out": {
+        "repost-of": 5
+      },
+      "score": 0.344
+    },
+    "twitter.com/calum_ryan": {
+      "out": {
+        "other": 5,
+        "like-of": 5
+      },
+      "score": 0.344
+    },
+    "ring.cx": {
+      "out": {
+        "repost-of": 5
+      },
+      "score": 0.344
+    },
+    "daytweet.com": {
+      "out": {
+        "repost-of": 5
+      },
+      "score": 0.344
+    },
+    "wordpress.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.344
+    },
+    "www.geektonic.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.344
+    },
+    "windowssecrets.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.344
+    },
+    "paper.li": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.344
+    },
+    "www.nytimes.comhttp": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.344
+    },
+    "regviz.org": {
+      "out": {
+        "repost-of": 5
+      },
+      "score": 0.344
+    },
+    "www.fastcompany.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.337
+    },
+    "adage.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.337
+    },
+    "www.cbsnews.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.337
+    },
+    "gmail.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.337
+    },
+    "www.sciencedaily.com": {
+      "out": {
+        "other": 2,
+        "repost-of": 4
+      },
+      "score": 0.337
+    },
+    "twitter.com/AnthonyGadgetX": {
+      "out": {
+        "like-of": 4,
+        "other": 6
+      },
+      "score": 0.337
+    },
+    "twitter.com/BESorenson": {
+      "out": {
+        "other": 6,
+        "like-of": 4
+      },
+      "score": 0.337
+    },
+    "blog.louisgray.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.337
+    },
+    "mspoweruser.com": {
+      "out": {
+        "like-of": 7
+      },
+      "score": 0.337
+    },
+    "battellemedia.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.337
+    },
+    "feeds.feedburner.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.337
+    },
+    "twitter.com/Scobleizer": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.337
+    },
+    "www.productivityist.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.337
+    },
+    "twitter.com/sdmike": {
+      "out": {
+        "like-of": 4,
+        "other": 6
+      },
+      "score": 0.337
+    },
+    "publiceditor.blogs.nytimes.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.337
+    },
+    "www.collegehumor.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.337
+    },
+    "Monster.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.337
+    },
+    "babgvant.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.330
+    },
+    "howlonghaveyoubeentweeting.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.330
+    },
+    "www.mattcutts.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.330
+    },
+    "conferences.ted.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.330
+    },
+    "www.computerworld.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.330
+    },
+    "www.hulu.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.330
+    },
+    "twitter.com/jbruin": {
+      "out": {
+        "other": 5,
+        "like-of": 4
+      },
+      "score": 0.330
+    },
+    "www.web-strategist.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.330
+    },
+    "fb.59.to": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.330
+    },
+    "wiki.hydrogenaudio.org": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.330
+    },
+    "www.inc.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.330
+    },
+    "www.starbucks.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.330
+    },
+    "www.niemanlab.org": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.330
+    },
+    "blogs.forrester.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.330
+    },
+    "facebook.com/refresheverything": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.322
+    },
+    "twitter.com/HistoryInPics": {
+      "out": {
+        "like-of": 4,
+        "other": 4
+      },
+      "score": 0.322
+    },
+    "twitter.com/ScienceAllDay": {
+      "out": {
+        "repost-of": 4
+      },
+      "score": 0.322
+    },
+    "jetpack.me": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.322
+    },
+    "blog.linkedin.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.322
+    },
+    "twitter.com/googlenewslab": {
+      "out": {
+        "other": 3,
+        "repost-of": 3
+      },
+      "score": 0.322
+    },
+    "BarackObama.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.322
+    },
+    "twitter.com/karaswisher": {
+      "out": {
+        "like-of": 4,
+        "other": 4
+      },
+      "score": 0.322
+    }
+  },
+  "links_truncated": true
+}

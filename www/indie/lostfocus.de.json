@@ -1,0 +1,233 @@
+{
+  "domain": "lostfocus.de",
+  "urls": [
+    "http://dominikschwind.com/",
+    "http://lostfocus.de/"
+  ],
+  "names": [
+    "Dominik Schwind",
+    "LostFocus"
+  ],
+  "descriptions": [
+    "A weblog by Dominik Schwind"
+  ],
+  "pictures": [],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Dominik Schwind"
+      ],
+      "url": [
+        "http://dominikschwind.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ],
+    "value": "Dominik Schwind"
+  },
+  "rel_mes": [
+    "http://dominikschwind.com/",
+    "https://twitter.com/dominik",
+    "http://dominikschwind.com"
+  ],
+  "crawl_start": "2017-04-29T14:39:09",
+  "crawl_end": "2017-04-29T23:12:08",
+  "num_pages": 7650,
+  "total_html_size": 150621733,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-event",
+    "h-feed",
+    "h-review",
+    "h-adr",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://lostfocus.de/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://lostfocus.de/?micropub=endpoint",
+      "http://lostfocus.de/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 152504,
+  "links_in": 742,
+  "links": {
+    "irregularity.co": {
+      "out": {
+        "other": 7800
+      },
+      "in": {
+        "other": 628
+      },
+      "score": 0.914
+    },
+    "wirres.net": {
+      "in": {
+        "other": 36
+      },
+      "out": {
+        "like-of": 18,
+        "other": 206
+      },
+      "score": 0.590
+    },
+    "adactio.com": {
+      "out": {
+        "other": 153,
+        "like-of": 9
+      },
+      "in": {
+        "other": 12
+      },
+      "score": 0.554
+    },
+    "scripting.com": {
+      "out": {
+        "other": 54
+      },
+      "score": 0.442
+    },
+    "brid.gy": {
+      "out": {
+        "other": 9
+      },
+      "in": {
+        "other": 45
+      },
+      "score": 0.391
+    },
+    "notizblog.org": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.376
+    },
+    "benward.me": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.338
+    },
+    "andysylvester.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 9
+      },
+      "score": 0.283
+    },
+    "www.webrocker.de": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.273
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.273
+    },
+    "blog.lmorchard.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.273
+    },
+    "oauth.net": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.273
+    },
+    "bastianallgeier.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.273
+    },
+    "www.mathewingram.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.273
+    },
+    "yatil.de": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.273
+    },
+    "lifestreamblog.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.273
+    },
+    "meyerweb.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.261
+    },
+    "www.daily-pia.de": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.261
+    },
+    "c2.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.261
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.217
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.152
+    },
+    "www.ogok.de": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0654
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0654
+    }
+  }
+}

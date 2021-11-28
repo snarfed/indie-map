@@ -1,0 +1,121 @@
+{
+  "domain": "www.randpop.de",
+  "urls": [
+    "http://www.randpop.de/"
+  ],
+  "names": [
+    "Stephan\nKochs",
+    "RANDPOP » Blog über Popkultur, Design, Musik, Technik, Digitales, Gadgets und natürlich Essen",
+    "Randpop",
+    "RANDPOP"
+  ],
+  "descriptions": [
+    "Blog über Popkultur, Design, Musik, Technik, Digitales, Gadgets und natürlich Essen - Mit Donnerstagen kam ich noch zu Rande!",
+    "Ein Blog über Popkultur, Design, Musik, Technik, Gadgets und natürlich Essen - Mit Donnerstagen kam ich noch zu Rande!"
+  ],
+  "pictures": [
+    "https://i2.wp.com/www.randpop.de/wp-content/uploads/2015/01/Logo-54a9c0dev1_site_icon.png?fit=32%2C32",
+    "https://i2.wp.com/www.randpop.de/wp-content/uploads/2015/01/Logo-54a9c0dev1_site_icon.png?fit=192%2C192",
+    "http://www.randpop.de/wp-content/uploads/2015/01/standard-front.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "adr": [
+        {
+          "properties": {
+            "name": [
+              "Theaterstrasse 83\nAachen, \r\n    NRW,\r\n    52062\nDeutschland"
+            ]
+          },
+          "type": [
+            "h-adr"
+          ],
+          "value": "Theaterstrasse 83\nAachen, \r\n    NRW,\r\n    52062\nDeutschland"
+        }
+      ],
+      "email": [
+        "mailto:info@randpop.de"
+      ],
+      "family-name": [
+        "Kochs"
+      ],
+      "given-name": [
+        "Stephan"
+      ],
+      "name": [
+        "Stephan\nKochs"
+      ],
+      "url": [
+        "http://www.randpop.de/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [],
+  "crawl_start": "2017-05-06T07:19:48",
+  "crawl_end": "2017-05-06T11:28:11",
+  "num_pages": 5832,
+  "total_html_size": 329028958,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-as-reply",
+    "h-entry",
+    "h-as-article",
+    "h-card",
+    "h-as-note",
+    "h-cite",
+    "h-as-image"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.randpop.de/wp-json/webmention/1.0/endpoint",
+      "http://www.randpop.de/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://www.randpop.de/?micropub=endpoint",
+      "https://www.randpop.de/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 196546,
+  "links_in": 14,
+  "links": {
+    "loehrzeichen.de": {
+      "out": {
+        "other": 5832
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.928
+    },
+    "brid.gy": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.193
+    },
+    "www.nerdcore.de": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.177
+    }
+  }
+}

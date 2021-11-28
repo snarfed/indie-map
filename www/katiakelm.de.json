@@ -1,0 +1,3070 @@
+{
+  "domain": "katiakelm.de",
+  "urls": [
+    "http://katiakelm.de/"
+  ],
+  "names": [
+    "Katia Kelm – Archiv",
+    "Katia Kelm"
+  ],
+  "descriptions": [
+    "homepage, weblog, katalog, mappe und archiv von katia kelm."
+  ],
+  "pictures": [
+    "http://katiakelm.de/wp-content/uploads/neuesfavicon.jpg",
+    "http://katiakelm.de/wp-content/uploads/logo_fein.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T04:31:36",
+  "crawl_end": "2017-04-29T08:41:33",
+  "num_pages": 3093,
+  "total_html_size": 133548763,
+  "servers": [
+    "Apache (CentOS)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-mention",
+    "h-as-reply",
+    "h-card",
+    "h-entry",
+    "h-feed"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://katiakelm.de/wp-json/webmention/1.0/endpoint",
+      "http://katiakelm.de/blog/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://katiakelm.de/blog/?micropub=endpoint",
+      "http://katiakelm.de/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 10541,
+  "links_in": 4600,
+  "links": {
+    "wirres.net": {
+      "in": {
+        "bookmark-of": 88,
+        "other": 4460
+      },
+      "out": {
+        "other": 112
+      },
+      "score": 1
+    },
+    "twitter.com/knetagabo": {
+      "out": {
+        "other": 1729
+      },
+      "score": 0.960
+    },
+    "instagram.com": {
+      "out": {
+        "other": 1517
+      },
+      "score": 0.945
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 1519
+      },
+      "score": 0.945
+    },
+    "facebook.com/KatiasBlog": {
+      "out": {
+        "other": 1517
+      },
+      "score": 0.945
+    },
+    "de.wikipedia.org": {
+      "out": {
+        "other": 442
+      },
+      "score": 0.799
+    },
+    "facebook.com/997531380272085": {
+      "out": {
+        "other": 180
+      },
+      "score": 0.694
+    },
+    "www.amazon.de": {
+      "out": {
+        "other": 117
+      },
+      "score": 0.643
+    },
+    "www.berlinartweek.de": {
+      "out": {
+        "other": 105
+      },
+      "score": 0.630
+    },
+    "www.textem.de": {
+      "out": {
+        "other": 70
+      },
+      "score": 0.582
+    },
+    "www.art-magazin.de": {
+      "out": {
+        "other": 62
+      },
+      "score": 0.568
+    },
+    "dorotheaschlueter.com": {
+      "out": {
+        "other": 59
+      },
+      "score": 0.562
+    },
+    "www.google.de": {
+      "out": {
+        "other": 57
+      },
+      "score": 0.558
+    },
+    "www.tagesspiegel.de": {
+      "out": {
+        "other": 55
+      },
+      "score": 0.554
+    },
+    "www.taz.de": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.547
+    },
+    "maps.google.de": {
+      "out": {
+        "other": 51
+      },
+      "score": 0.544
+    },
+    "tilman-knop.de": {
+      "out": {
+        "other": 49
+      },
+      "score": 0.539
+    },
+    "www.stadtreinigung-hh.de": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.537
+    },
+    "www.abendblatt.de": {
+      "out": {
+        "other": 47
+      },
+      "score": 0.535
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 47
+      },
+      "score": 0.535
+    },
+    "www.spiegel.de": {
+      "out": {
+        "other": 46
+      },
+      "score": 0.532
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 43
+      },
+      "score": 0.524
+    },
+    "www.ankegroener.de": {
+      "out": {
+        "other": 41
+      },
+      "score": 0.519
+    },
+    "www.gallery-weekend-berlin.de": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.516
+    },
+    "www.smb.museum": {
+      "out": {
+        "other": 39
+      },
+      "score": 0.514
+    },
+    "www.google.com": {
+      "out": {
+        "other": 37
+      },
+      "score": 0.506
+    },
+    "www.westwerk.org": {
+      "out": {
+        "other": 35
+      },
+      "score": 0.501
+    },
+    "www.petersburger-salon.de": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.497
+    },
+    "www.kw-berlin.de": {
+      "out": {
+        "other": 33
+      },
+      "score": 0.494
+    },
+    "www.kornhaeuschen.de": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.490
+    },
+    "www.kunst-imbiss.de": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.482
+    },
+    "www.philippschewe.de": {
+      "out": {
+        "other": 29
+      },
+      "score": 0.478
+    },
+    "www.grossneumarkt-fleetinsel.de": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.475
+    },
+    "42loop.de": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.475
+    },
+    "www.welt.de": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.470
+    },
+    "www.sebastianzarius.de": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.470
+    },
+    "www.zeit.de": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.465
+    },
+    "www.faz.net": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.461
+    },
+    "www.nandor.de": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.456
+    },
+    "kochenmitschwadroneuse.twoday.net": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.451
+    },
+    "www.karinmissypaule.de": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.451
+    },
+    "www.vorspeisenplatte.de": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.451
+    },
+    "keithboadwee.blogspot.de": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.445
+    },
+    "twitter.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.445
+    },
+    "search.it.online.fr": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.445
+    },
+    "www.muhka.be": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.445
+    },
+    "www.instagram.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.445
+    },
+    "www.kunst-in-recklinghausen.de": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.445
+    },
+    "www.sammlung-falckenberg.de": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.445
+    },
+    "www.gaengeviertel.info": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.445
+    },
+    "www.hamburg.de": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.441
+    },
+    "vimeo.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.441
+    },
+    "www.dennisscholl.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.441
+    },
+    "www.gewerbemuseum.ch": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.435
+    },
+    "www.deichtorhallen.de": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.435
+    },
+    "www.hfbk-hamburg.de": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.435
+    },
+    "www.achimhoops.de": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.429
+    },
+    "www.hasenmanufaktur.de": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.429
+    },
+    "www.ingekrause.com": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.429
+    },
+    "www.competitionline.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.422
+    },
+    "www.wendenstrasse.org": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.422
+    },
+    "www.monopol-magazin.de": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.422
+    },
+    "gewerbemuseum.ch": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.416
+    },
+    "oelfrueh.org": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.416
+    },
+    "www.arte.tv": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.416
+    },
+    "imgur.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.409
+    },
+    "www.ellybroseeiermann.de": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.409
+    },
+    "www.kein-ikea-in-altona.de": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.409
+    },
+    "www.theguardian.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.409
+    },
+    "www.axelobiger.net": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.409
+    },
+    "www.galerietoolbox.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.409
+    },
+    "www.vonhundert.de": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.409
+    },
+    "www.jamesneedhamart.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.409
+    },
+    "www.banksyfilm.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.409
+    },
+    "facebook.com/theguardian": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.409
+    },
+    "www.betriebsausflug.cc": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.409
+    },
+    "www.joefig.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.400
+    },
+    "www.delirio.info": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.400
+    },
+    "umkleide.spreadshirt.de": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.400
+    },
+    "www.aptglobal.org": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.400
+    },
+    "www.kunstdk.dk": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.392
+    },
+    "www.bildkunst.de": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.392
+    },
+    "www.chezlinda.de": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.392
+    },
+    "www.dreiundsiebzig.de": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.392
+    },
+    "little-people.blogspot.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.392
+    },
+    "hafenbahnhof.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.392
+    },
+    "www.artnet.de": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.392
+    },
+    "thing-hamburg.de": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.392
+    },
+    "www.redensarten-index.de": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.392
+    },
+    "news.google.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.392
+    },
+    "www.textezurkunst.de": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.384
+    },
+    "www.zoumboulakis.gr": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.384
+    },
+    "www.henriekeribbe.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.384
+    },
+    "subvision.kulando.de": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.384
+    },
+    "dasnuf.de": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 24
+      },
+      "score": 0.384
+    },
+    "de.dawanda.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.384
+    },
+    "hoertauf.wordpress.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.384
+    },
+    "subvision.blogger.de": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.384
+    },
+    "www.heise.de": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.375
+    },
+    "www.dradio.de": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.375
+    },
+    "www.kunstbulletin.ch": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.375
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.375
+    },
+    "www.oelfrueh.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.375
+    },
+    "www.multiple-box.de": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.375
+    },
+    "www.bbk-berlin.de": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.375
+    },
+    "www.pilotprojekt-gropiusstadt.de": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.375
+    },
+    "www.corridorart.de": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.375
+    },
+    "www.kunstforum.de": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.375
+    },
+    "www.trottoir-hh.de": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.375
+    },
+    "happyschnitzel.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.375
+    },
+    "www.handelsblatt.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.375
+    },
+    "projekte.hafenrand.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.375
+    },
+    "www.kq-daily.de": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.364
+    },
+    "www.facebook.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.364
+    },
+    "www.hockneypictures.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.364
+    },
+    "wiki.piratenpartei.de": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.364
+    },
+    "www.SchwulesMuseum.de": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.364
+    },
+    "www.spreeblick.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.364
+    },
+    "www.tagesschau.de": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.364
+    },
+    "hockneypictures.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.364
+    },
+    "www.canhost.nrw": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.364
+    },
+    "www.hamburg1.de": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.364
+    },
+    "www.netzeitung.de": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.364
+    },
+    "barbarawille.de": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.364
+    },
+    "www.smkp.de": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.364
+    },
+    "www.museebernardbuffet.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.364
+    },
+    "www.nochetwassalz.de": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.364
+    },
+    "hadonejob.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.364
+    },
+    "www.bonnefanten.nl": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.353
+    },
+    "www.phototriennale.de": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.353
+    },
+    "www.bbk-bundesverband.de": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.353
+    },
+    "www.mariolabrillowska.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.353
+    },
+    "infol.antville.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.340
+    },
+    "www.thing-hamburg.de": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.340
+    },
+    "www.popkulturjunkie.de": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.340
+    },
+    "tonyoursler.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.326
+    },
+    "thevillagepetstoreandcharcoalgrill.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.311
+    },
+    "www.heikoseibel.de": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.311
+    },
+    "www.ina-bruchlos.de": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.311
+    },
+    "privatecurators.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.292
+    },
+    "neu.katiakelm.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.292
+    },
+    "brid.gy": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.292
+    },
+    "twitter.com/mykke_": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.292
+    },
+    "www.emoverkerk.nl": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.292
+    },
+    "www.nytimes.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.292
+    },
+    "reform.lt": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.292
+    },
+    "patrickfarzar.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.271
+    },
+    "www.donnerstag-blog.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.271
+    },
+    "www.artinfo.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.271
+    },
+    "www.artefakt-sz.net": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.271
+    },
+    "giordano-bruno-stiftung.ch": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.271
+    },
+    "facebook.com/boschblog": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.271
+    },
+    "www.buddenbohm-und-soehne.de": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.271
+    },
+    "facebook.com/dorothea.schlueter": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.271
+    },
+    "www.anja-steidinger.net": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.271
+    },
+    "kunst.verdi.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.271
+    },
+    "www.galeriemichaeljanssen.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.271
+    },
+    "hamburgartweek.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.271
+    },
+    "www.markus-wirthmann.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.271
+    },
+    "ask23.hfbk-hamburg.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.271
+    },
+    "twitter.com/mogelpony": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.245
+    },
+    "www.eigen-art.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.245
+    },
+    "www.cfa-berlin.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.245
+    },
+    "karen-koltermann.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.245
+    },
+    "twitter.com/diplix": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.245
+    },
+    "www.galerie-walden.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.245
+    },
+    "www.werbeblogger.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.245
+    },
+    "www.hamburger-kunsthalle.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.245
+    },
+    "www.barbara-zenner.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.245
+    },
+    "www.kunstverein.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.245
+    },
+    "www.artistweekend.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.245
+    },
+    "kreativgesellschaft.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.245
+    },
+    "henrikjacob.wordpress.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.245
+    },
+    "www.frankroeseler.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.duveberlin.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.arigoldmann.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "fikrirasy.id": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.produzentengalerie.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "netzpolitik.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "anja-steidinger.net": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.francalaufer.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "kunst-blog.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.kerimseiler.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.cfa-berlin.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.euroland.info": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.klaushartmann.eu": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.kulturstiftung-hh.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.bibliothek-ungelesener-buecher.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.jena.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.mariopalm.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "markmatthes.tumblr.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.karinludmann.tk": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.gunterreski.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.katharinakohl.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.figgevonrosen.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.jochenhempel.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.nadjaschoellhammer.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.tilman-knop.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.villa-merkel.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.tanyaleighton.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.3hamburgerfrauen.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.jurograu.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.kroko.name": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.berliner-zeitung.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.herzdamengeschichten.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "www.kmw.ch": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "youtu.be": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "twitter.com/wortschnittchen": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "henrikjacob.files.wordpress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.konradfischergalerie.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.peterpiller.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "blogs.taz.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "twitter.com/christl_klein": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.aqua-carre-berlin.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.klett-cotta.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "dorotheagoldschmidt.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "twitter.com/la23ng": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.susannering.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "fundamentalpainting.blogspot.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "ninakluth.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "twitter.com/maskenkatja": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.carta.info": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "twitter.com/m4rch": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "mwcapacity.wordpress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "twitter.com/Stoewhase": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "twitter.com/crahtgens": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.rebelart.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "theartblog.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "twitter.com/JulikaBrand": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "twitter.com/kittykoma": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.galerie-conradi.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.sempel.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.thisisexile.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.bpigs.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.gallerimagnuskarlsson.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.contemporaryartdaily.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.sautter-lackmann.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.guidoalfs.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.artberlincontemporary.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.kh-berlin.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "gurneyjourney.blogspot.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.except-sunday.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "kulturpalastwedding.wordpress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "twitter.com/katjaberlin": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.derhimmelistschoen.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.michaeldoerner.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.mw3000.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "twitter.com/journelle": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.weggler.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "articulatedartists.blogspot.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "kunst.birgitlindemann.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.sommerkohl.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "sebastianzarius.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.stefanieclemen.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "timthyzel.wordpress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "contemporaryartlinks.blogspot.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "sz-magazin.sueddeutsche.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.stefanpanhans.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.streyl.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "nillmuseum-gotohell.blogspot.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.ulubraun.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.galeriezink.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.bild.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.dfz-hh.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.projekthaus-hh.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.arcadia-unbound.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.saatchigallery.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "twitter.com/Menschette": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.artfagcity.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "twitter.com/ankegroener": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.e105.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.koerber-stiftung.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "commons.wikimedia.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.paintersbread.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "sommerkohl.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.blainsouthern.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.geroneumeister.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "londonpainting.blogspot.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.gwai.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.164
+    },
+    "www.jawl.net": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.130
+    },
+    "thinglabs.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "weddingweiser.wordpress.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.ingrid-scherr.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.ivc-ev.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.kunstraumkreuzberg.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.ohjong.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "hyperallergic.tumblr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.delphinehauen.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.ipdh.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.marnie-moldenhauer.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.xn--grandcaf-i1a.ch": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "books.google.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "facebook.com/events": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "ulrichkochinke.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.jornebner.info": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "artnews.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "artnicks.blogspot.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "marcus%20weber": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.caro-suerkemper.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.kulturstiftung-des-bundes.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.malte-welding.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.formschub.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.guidowbaudach.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.pop64.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "fr.wikipedia.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.aromatisches-blog.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.doener-usa.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.eas-munich.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.erfurt.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.openpr.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.ph-projects.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "goncourt.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "loiseaupresente.blogspot.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "raul.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.kulturstadt-hh.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.lauchcremesuppe.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.rosabarba.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.gal-mitte.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.galerie-czarnowska.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.henrikspohler.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.jakelovesyou.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.neugerriemschneider.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.schaffnerin.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "dragonauttt.blogspot.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "frauruth.tumblr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.denverartmuseum.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.kaihilgemann.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "bortolozzi.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "drmutti.wordpress.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "twitter.com/doppelhorn": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.alicjakwade.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.gloria-zein.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.holgerpriess.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.kunstnet.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "glaserei.blog.nzz.ch": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "markus-wirthmann.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.blog.polarlicht.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.fruehsorge.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.fuerstenwerder-seengebiet.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.sharkforum.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.texavery.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.vvork.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "mathiasguentner.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.dpma.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.galeriebarbaraweiss.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.gitteweisegallery.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.motomoto.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.galerie-schwind.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.jaylorenzini.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.picture-this.org.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.ubu.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "motomoto.bandcamp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.barbarawien.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.berlin.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.db-artmag.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.johannkoenig.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.roundtower.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.uni-hamburg.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.wortfeld.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "facebook.com/patrick.farzar": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "maps.google.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.lawblog.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "benjaminnickel.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "norulesnoshame.wordpress.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "paintingperceptions.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.alsterdorf.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.artberlin.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "<a href=": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.gflk.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.whitehotmagazine.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "wohnzimmermuseum.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.coffeeandtv.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.nerdcore.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "http": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "kiezneurotiker.blogspot.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "twitter.com/heibie": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.bbk-kulturwerk.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.daniaburger.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.gundlach-bau.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.johnengalerie.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.wuuul.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "glamourdick.me": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "mooonriver.blogspot.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.am-ende-des-tages.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.deste.gr": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.jonasburgert.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.lorch-seidel.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.re-title.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "achim hoops, news, 2014": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "cronegalerie.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.flatlandgallery.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.stuartbrisley.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "fragmente.me": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "kiezlage.wordpress.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.artreview100.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.gagosian.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.gorkysgranddaughter.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.hoeflichepaparazzi.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "klatschrose.wordpress.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "peterbreuer.wordpress.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.amhochsitz.at": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.caroleinsmit.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.nillmuseum.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.vam.ac.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "pop64.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0816
+    },
+    "blog.art21.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "blog.smb.museum": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.antonygormley.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.freies-museum.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.morgenpost.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.schlumper.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.whitetrashcontemporary.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "bov.antville.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "danvonanhalt.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "gaga.twoday.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "handlungsreisen.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.3sat.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.autocenterart.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.kultur-port.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.kunstfruehling.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.perlentaucher.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.thisislondon.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "ahoipolloi.blogger.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.geoportal-hamburg.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.katerholzig.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.myspace.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.sbp.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "scattercushion.tumblr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.biggerthanlife.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.canellwatkins.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.malfabrik.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.uhutrust.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "arminrohr.blogspot.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "ronsens.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "superbahnhof.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "twitter.com/rebekka_m": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.artinamericamagazine.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.djh-nordmark.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.fotogemeinschaft.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "anders-anziehen.blogspot.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "painters-table.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "saschalobo.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "twitter.com/monoxyd": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.independent.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.kerberverlag.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.sparked.biz": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.stefan-niggemeier.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "anneschuessler.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.mariolabrillowska.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "das-gaengeviertel.info": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "modeste.me": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.baunetz.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.dondahlmann.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.jarmuschek.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.party-arty.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.sfeir-semler.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "twitter.com/frau_momo": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "uberspace.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.art-in.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.hallsson.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.journelle.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.terjefinnsen.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.ucl.ac.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.we-find-wildness.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "anaba.blogspot.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "c-monster.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.goldrausch-kuenstlerinnen.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.szene-hamburg.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "lookintomyowl.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.izaplucinska.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "bloggy.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "creative.arte.tv": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "images.google.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.brandeins.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.capitainpetzel.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.hamburgskreative.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "salon-mutlu.tumblr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.artadvisors.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.jungewelt.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.worte.at": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "figurationfeminine.blogspot.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "goo.gl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "hellomynameisart.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.401contemporary.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.ohitsplastic.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.wetcanvas.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "antjeschrupp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "twitter.com/brigitte_zh": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.andronaco.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.carliergebauer.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "2.bp.blogspot.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "dongxuan-berlin.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "upload.wikimedia.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.galeriebuchholz.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.mobil.abendblatt.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "www.wortschnittchen.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "images.google.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "jameswagner.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "soycapitan.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    }
+  },
+  "links_truncated": true
+}

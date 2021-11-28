@@ -1,0 +1,129 @@
+{
+  "domain": "phyks.me",
+  "urls": [
+    "https://known.phyks.me/profile/phyks",
+    "http://phyks.me",
+    "http://github.com/phyks"
+  ],
+  "names": [
+    "Phyks",
+    "Phyks' blog"
+  ],
+  "descriptions": [
+    "Hello ! This is my blog powered by Known. I post articles and links about coding, FOSS, but not only, in French (mostly) or English (if I did not find anything related before).",
+    "A blog and more powered by Known."
+  ],
+  "pictures": [
+    "https://known.phyks.me/file/533955cb0f94c8b4a2ed86ff47999fdb"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:phyks@phyks.me"
+      ],
+      "name": [
+        "Phyks"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Hello ! This is my blog powered by <a href=\"http://withknown.com/\">Known</a>. I post articles and links about coding, FOSS, but not only, in French (mostly) or English (if I did not find anything related before).</p>\n</div> ",
+          "value": "\nHello ! This is my blog powered by Known. I post articles and links about coding, FOSS, but not only, in French (mostly) or English (if I did not find anything related before).\n "
+        }
+      ],
+      "photo": [
+        "https://known.phyks.me/file/533955cb0f94c8b4a2ed86ff47999fdb"
+      ],
+      "profile": [
+        "Phyks"
+      ],
+      "url": [
+        "https://known.phyks.me/profile/phyks",
+        "https://known.phyks.me/profile/phyks",
+        "http://phyks.me",
+        "http://github.com/phyks"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://phyks.me",
+    "http://github.com/phyks",
+    "mailto:phyks@phyks.me"
+  ],
+  "crawl_start": "2017-04-25T04:57:25",
+  "crawl_end": "2017-04-25T04:57:25",
+  "num_pages": 1,
+  "total_html_size": 83108,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.phyks.me/webmention/"
+    ],
+    "micropub": [
+      "http://known.phyks.me/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://known.phyks.me/indieauth/auth"
+    ],
+    "token": [
+      "http://known.phyks.me/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 219,
+  "links_in": 839,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 538
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 297
+      },
+      "score": 0.905
+    },
+    "known.phyks.me": {
+      "out": {
+        "other": 124
+      },
+      "score": 0.876
+    },
+    "kylewm.com": {
+      "in": {
+        "like-of": 3,
+        "other": 1
+      },
+      "score": 0.310
+    },
+    "withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.221
+    }
+  }
+}

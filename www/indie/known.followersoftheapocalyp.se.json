@@ -1,0 +1,177 @@
+{
+  "domain": "known.followersoftheapocalyp.se",
+  "urls": [
+    "http://known.followersoftheapocalyp.se/profile/dkernohan",
+    "http://followersoftheapocalyp.se"
+  ],
+  "names": [
+    "dkernohan",
+    "Feuilleton@FOTA"
+  ],
+  "descriptions": [
+    "It's me.\n \n followersoftheapocalyp.se",
+    "Like FOTA, but more KNOWN."
+  ],
+  "pictures": [
+    "http://known.followersoftheapocalyp.se/file/7c20743603fe6d836a98ead258c481c6/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "dkernohan"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>It's me.</p>\n</div> <p class=\"url-container\">\n<i class=\"fa fa-link\"></i> <a class=\"u-url\" href=\"http://followersoftheapocalyp.se\" rel=\"me\">followersoftheapocalyp.se</a>\n</p>\n",
+          "value": "\nIt's me.\n \n followersoftheapocalyp.se\n\n"
+        }
+      ],
+      "photo": [
+        "http://known.followersoftheapocalyp.se/file/7c20743603fe6d836a98ead258c481c6/thumb.jpg"
+      ],
+      "profile": [
+        "dkernohan"
+      ],
+      "url": [
+        "http://known.followersoftheapocalyp.se/profile/dkernohan",
+        "http://known.followersoftheapocalyp.se/profile/dkernohan",
+        "http://followersoftheapocalyp.se"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://followersoftheapocalyp.se"
+  ],
+  "crawl_start": "2017-04-29T04:33:18",
+  "crawl_end": "2017-04-29T04:38:36",
+  "num_pages": 368,
+  "total_html_size": 8468949,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-cite",
+    "h-entry",
+    "h-geo"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.followersoftheapocalyp.se/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 2778,
+  "links_in": 293,
+  "links": {
+    "mshook.withknown.com": {
+      "in": {
+        "other": 72,
+        "in-reply-to": 162
+      },
+      "out": {
+        "other": 8
+      },
+      "score": 1
+    },
+    "withknown.com": {
+      "out": {
+        "other": 377
+      },
+      "score": 0.975
+    },
+    "known.raptnrent.me": {
+      "in": {
+        "other": 10,
+        "in-reply-to": 5
+      },
+      "out": {
+        "in-reply-to": 5,
+        "other": 5
+      },
+      "score": 0.669
+    },
+    "raretrack.uk": {
+      "in": {
+        "in-reply-to": 12
+      },
+      "score": 0.601
+    },
+    "klown.cogdogblog.com": {
+      "in": {
+        "in-reply-to": 9
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.584
+    },
+    "borregoruido.ca": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "in-reply-to": 4
+      },
+      "score": 0.556
+    },
+    "www.raretrack.uk": {
+      "in": {
+        "in-reply-to": 5
+      },
+      "score": 0.474
+    },
+    "werd.io": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.338
+    },
+    "dougmckown.withknown.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.338
+    },
+    "cogdogblog.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.263
+    },
+    "networkeffects.ca": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.204
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "blog.kenbauer.me": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

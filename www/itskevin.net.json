@@ -1,0 +1,151 @@
+{
+  "domain": "itskevin.net",
+  "urls": [
+    "http://itskevin.net/profile/kevin",
+    "https://itskevin.com",
+    "https://twitter.com/itskevin",
+    "https://instagram.com/itskevin"
+  ],
+  "names": [
+    "Kevin Mohler",
+    "itskevin"
+  ],
+  "descriptions": [
+    "Hello. (It's me.)",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://itskevin.net/file/b083c0f493eabae06f22032424483a97/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Kevin Mohler"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Hello. (It's me.)</p>\n</div> ",
+          "value": "\nHello. (It's me.)\n "
+        }
+      ],
+      "photo": [
+        "http://itskevin.net/file/b083c0f493eabae06f22032424483a97/thumb.jpg"
+      ],
+      "profile": [
+        "Kevin Mohler"
+      ],
+      "url": [
+        "http://itskevin.net/profile/kevin",
+        "http://itskevin.net/profile/kevin",
+        "https://itskevin.com",
+        "https://twitter.com/itskevin",
+        "https://instagram.com/itskevin"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://itskevin.com",
+    "https://twitter.com/itskevin",
+    "https://instagram.com/itskevin"
+  ],
+  "crawl_start": "2017-04-28T23:33:54",
+  "crawl_end": "2017-04-28T23:35:04",
+  "num_pages": 86,
+  "total_html_size": 1793523,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://itskevin.net/webmention/"
+    ],
+    "micropub": [
+      "https://itskevin.net/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://itskevin.net/indieauth/auth"
+    ],
+    "token": [
+      "https://itskevin.net/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 705,
+  "links_in": 15,
+  "links": {
+    "www.instagram.com": {
+      "out": {
+        "other": 480
+      },
+      "score": 1
+    },
+    "itskevin.com": {
+      "out": {
+        "other": 63
+      },
+      "score": 0.705
+    },
+    "instagram.com": {
+      "out": {
+        "other": 63
+      },
+      "score": 0.705
+    },
+    "twitter.com/itskevin": {
+      "out": {
+        "other": 63
+      },
+      "score": 0.705
+    },
+    "ownyourswarm.p3k.io": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.505
+    },
+    "swarmapp.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.505
+    },
+    "brid.gy": {
+      "in": {
+        "other": 13
+      },
+      "score": 0.373
+    },
+    "www.today.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.303
+    },
+    "ownyourgram.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.101
+    }
+  }
+}

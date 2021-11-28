@@ -1,0 +1,2340 @@
+{
+  "domain": "bear.im",
+  "urls": [
+    "https://bear.im",
+    "xmpp://bear@bear.im",
+    "https://github.com/bear",
+    "https://twitter.com/codebear",
+    "https://plus.google.com/+MikeTaylor"
+  ],
+  "names": [
+    "Mike Taylor",
+    "Does a bear code in the woods?"
+  ],
+  "descriptions": [
+    "the babbling of a coder and cat herder"
+  ],
+  "pictures": [
+    "https://bear.im/images/bear_145x145.jpg",
+    "https://bear.im/images/bear_128x128.jpg",
+    "https://bear.im/images/bear_android-icon-192x192.png",
+    "https://bear.im/images/bear_favicon-32x32.png",
+    "https://bear.im/images/bear_favicon-96x96.png",
+    "https://bear.im/images/bear_favicon-16x16.png"
+  ],
+  "hcard": {
+    "properties": {
+      "country-name": [
+        "United States"
+      ],
+      "email": [
+        "mailto:bear@bear.im"
+      ],
+      "locality": [
+        "Philadelphia"
+      ],
+      "name": [
+        "Mike Taylor"
+      ],
+      "nickname": [
+        "codebear",
+        "bear"
+      ],
+      "photo": [
+        "https://bear.im/images/bear_145x145.jpg"
+      ],
+      "tz": [
+        "-0400"
+      ],
+      "url": [
+        "https://bear.im",
+        "xmpp://bear@bear.im",
+        "https://github.com/bear",
+        "https://twitter.com/codebear",
+        "https://plus.google.com/+MikeTaylor",
+        "https://bear.im"
+      ],
+      "uuid": [
+        "https://bear.im"
+      ],
+      "x-pronoun-nominative": [
+        "he"
+      ],
+      "x-pronoun-oblique": [
+        "him"
+      ],
+      "x-pronoun-possessive": [
+        "his"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "mailto:bear@bear.im",
+    "xmpp://bear@bear.im",
+    "https://github.com/bear",
+    "https://twitter.com/codebear",
+    "https://plus.google.com/+MikeTaylor",
+    "https://bear.im"
+  ],
+  "crawl_start": "2017-04-23T22:46:45",
+  "crawl_end": "2017-04-23T23:00:36",
+  "num_pages": 708,
+  "total_html_size": 4961065,
+  "servers": [
+    "nginx",
+    "S5"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-as-article",
+    "h-feed",
+    "h-as-note"
+  ],
+  "tags": [
+    "relme",
+    "elder",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://bear.im/webmention"
+    ],
+    "micropub": [
+      "https://bear.im/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://bear.im/token"
+    ],
+    "websub": [
+      "https://bear.im/websubhub",
+      "https://pubsubhubbub.superfeedr.com"
+    ]
+  },
+  "links_out": 3690,
+  "links_in": 1571,
+  "links": {
+    "creativecommons.org": {
+      "out": {
+        "other": 1413
+      },
+      "score": 1
+    },
+    "archives.html": {
+      "out": {
+        "other": 701
+      },
+      "score": 0.911
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 933
+      },
+      "score": 0.862
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 428
+      },
+      "score": 0.762
+    },
+    "known.kylewm.com": {
+      "in": {
+        "other": 13,
+        "in-reply-to": 39
+      },
+      "score": 0.672
+    },
+    "code.google.com": {
+      "out": {
+        "other": 96
+      },
+      "score": 0.662
+    },
+    "github.com": {
+      "out": {
+        "other": 73
+      },
+      "score": 0.626
+    },
+    "xmpp.org": {
+      "out": {
+        "other": 66
+      },
+      "score": 0.614
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.584
+    },
+    "aaronparecki.com": {
+      "in": {
+        "in-reply-to": 7,
+        "bookmark-of": 13,
+        "other": 23
+      },
+      "out": {
+        "other": 9
+      },
+      "score": 0.581
+    },
+    "www.technorati.com": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.545
+    },
+    "kylewm.com": {
+      "out": {
+        "other": 6
+      },
+      "in": {
+        "other": 24,
+        "in-reply-to": 6
+      },
+      "score": 0.527
+    },
+    "werd.io": {
+      "in": {
+        "other": 38
+      },
+      "out": {
+        "in-reply-to": 2,
+        "other": 4
+      },
+      "score": 0.527
+    },
+    "seesmic.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.497
+    },
+    "twitter.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.487
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.475
+    },
+    "code-bear.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.470
+    },
+    "twitter.com/public_timeline": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.464
+    },
+    "mozilla.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.450
+    },
+    "npmjs.org": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.436
+    },
+    "jaiku.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.419
+    },
+    "www.w3.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.419
+    },
+    "wiki.mozilla.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.419
+    },
+    "tantek.com": {
+      "out": {
+        "other": 12
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.410
+    },
+    "andyet.net": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.4
+    },
+    "identi.ca": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.4
+    },
+    "andyet.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.4
+    },
+    "plus.google.com/u": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.4
+    },
+    "www.marines.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.4
+    },
+    "www.sauria.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.4
+    },
+    "pypi.python.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.4
+    },
+    "logstash.net": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.4
+    },
+    "microformats.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.377
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.377
+    },
+    "www.viddler.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.377
+    },
+    "friendfeed.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.377
+    },
+    "2016.indieweb.org": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.377
+    },
+    "haproxy.1wt.eu": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.377
+    },
+    "osafoundation.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.377
+    },
+    "www.atomenabled.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.348
+    },
+    "www.xmpp.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.348
+    },
+    "snarfed.org": {
+      "in": {
+        "other": 2,
+        "like-of": 2
+      },
+      "out": {
+        "other": 5
+      },
+      "score": 0.348
+    },
+    "www.tigase.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.348
+    },
+    "chris.pirillo.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.348
+    },
+    "prosody.im": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.348
+    },
+    "feedparser.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.348
+    },
+    "www.rfc-editor.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.348
+    },
+    "python.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.348
+    },
+    "www.dangerouslyawesome.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.348
+    },
+    "merbivore.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.348
+    },
+    "kibana.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.348
+    },
+    "circleci.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.332
+    },
+    "www.tuaw.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.312
+    },
+    "stpeter.im": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.312
+    },
+    "www.gizmoproject.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.312
+    },
+    "cia.vc": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.312
+    },
+    "status.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.312
+    },
+    "blog.gnipcentral.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.312
+    },
+    "buildbot.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.312
+    },
+    "techlifeweb.com": {
+      "in": {
+        "like-of": 5
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.312
+    },
+    "www.getmiro.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.312
+    },
+    "chandler.osafoundation.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.312
+    },
+    "metajack.im": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.312
+    },
+    "www.randsinrepose.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.312
+    },
+    "disqus.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.312
+    },
+    "www.jaiku.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.312
+    },
+    "mcabber.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.312
+    },
+    "dev.twitter.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.312
+    },
+    "tinyurl.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.312
+    },
+    "www.python.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.289
+    },
+    "kartikprabhu.com": {
+      "in": {
+        "in-reply-to": 2
+      },
+      "score": 0.289
+    },
+    "subversion.tigris.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "pownce.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "me.dium.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "talky.io": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "www.seesmic.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "staynalive.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "www.leoville.net": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.262
+    },
+    "ftp.mozilla.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "the.taoofmac.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "www.mozilla.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.262
+    },
+    "mailroute.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "pyblosxom.sourceforge.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "scobleizer.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "blog.liftsecurity.io": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "incubator.apache.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "twitter.com/rands": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "www.wyldryde.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "urltea.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "claimid.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "irc.freenode.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "www.wikipedia.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "florianjensen.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "mndoci.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "www.adiumx.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "blogphiladelphia.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "www.weknowhtml.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "highscalability.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "wiki.codemongers.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "twitter.com/kosso": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "www.ietf.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "project.ioni.st": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "phillytip.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "meish.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "en.blog.wordpress.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "bit.ly": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "secure.wikimedia.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "www.rackspace.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "googleblog.blogspot.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "www.darcs.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "chandlerproject.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "www.ejabberd.im": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "www.mosoto.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "staff.tumblr.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "wiki.xmpp.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "blog.andyet.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "www.schwarzvogel.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "metaquark.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "indiewebify.me": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "twitter.com/cote": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "www.ubuntu.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "planetrdf.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "anarchaia.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "www.flock.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "www.apple.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "twitter.com/codebear": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.225
+    },
+    "pytwerp.googlecode.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.225
+    },
+    "notenoughneon.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.225
+    },
+    "groups.google.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.225
+    },
+    "www.red-bean.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.225
+    },
+    "brid.gy": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.203
+    },
+    "blogs.guardian.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "blogs.msdn.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "code-\nbear.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "cvs2svn.tigris.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "diveintomark.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "tegradeveloper.nvidia.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.getsatisfaction.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "xmpppy.sourceforge.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "xsf.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "twitter.com/Jack": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.docker.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "coreos.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "indie-stats.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "metamark.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "substack.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "twitter.com/climagic": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "election.twitter.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "nathan.fritzclan.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "twitter.com/factoryjoe": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "weblogs.m ozillazine.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.myelin.co.nz": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.usmcpress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "dannyayers.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "developer.apple.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "learnpythonthehardway.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "phaedo.cx": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "sourceforge.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "david.shanske.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "git.or.cz": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "plus.google.com/102699684098900408933": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "pystar.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.merlinmann.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "daringfireball.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "jabber.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "onaswarm.onaswarm.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "plus.google.com/107968525907303243288": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "versioncontrolblog.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "blog.digitalbackcountry.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "easyubuntu.freecontrib.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "participatoryculture.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "pyicu.osafoundation.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "scobleizer.posterous.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.ssllabs.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "blog.chandlerproject.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "code- bear.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.artima.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.mailchimp.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.newsgator.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.noodlesoft.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "blog.hasgeek.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "bluesock.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "greenteapress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "wiki.f8.facebook.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.adtmag.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "tech.slashdot.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.horsepigcow.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    " www.ourmaninside.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "developers.seesmic.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "labs.adobe.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "tinderbox.mozilla.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.fettig.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.vmware.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "new.seesmic.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "pagerduty.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "romefort.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "synergy2.sourceforge.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.opensearch.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "developers.facebook.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "j4y.co": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.301works.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "saint-andre.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "twitter.com/bpm140": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.geni.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.insidefacebook.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "cyber.law.harvard.edu": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "graphs.mozilla.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "linuxcontainers.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "pipes.yahoo.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "twitter.com/missrogue": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "twittervision.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.news.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.spartadata.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.startssl.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "danga.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "gaboogie.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "plus.google.com/113498798332314665976": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "twitter.com/tvachon": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.rabbitmq.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.turboexplorer.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "43folders.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.bugzilla.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.subtome.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.techcrunch.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "news.cnet.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "twitter.com/henrikjoreteg": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.byte.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.enjit.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.freebsd.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "activemq.apache.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "help.github.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "scoreboard.dailykos.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "twitter.com/blog": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.projectatomic.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "coloradostartups.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "fleegix.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "plagger.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "squareup.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "twitter.com/andyet": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.waveprotocol.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "xmppnews.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "labwithleo.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.microsoft.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.popfly.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "twitter.com/deadzebra": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "worldforge.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.independentshall.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.spacetelescope.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.umlatte.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "blog.intercom.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "community.qualys.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "link.brightcove.co m": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "people.mozilla.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "usefulinc.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "factoryjoe.tumblr.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "peak.telecommunity.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.lockergnome.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "bostonpythonworkshop.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "theappleblog.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "weknowhtml.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "foundat.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "keepingitrealtime.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "stikkit.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "tigase.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.43folders.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.chinapage.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "atompub.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "openmicroblogging.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "virb.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "weblogs.mozillazine.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.intertwingly.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "docs.python.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "logs.xmpp.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "tumblr.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.osafoundation.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "cookbook.logstash.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "upstart.ubuntu.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "willnorris.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.scripting.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "dougt.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.puppetlabs.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "tr.im": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "upcoming.yahoo.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "wiki.independentshall.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.onaswarm.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.salmon-protocol.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.xandadu.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "bazaar-vcs.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "tinyletter.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.decrem.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.facebook.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.markshuttleworth.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.philabundance.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "apple.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "four64.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "leoville.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "news.ycombinator.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "seesmicapi.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "svn\n.osafoundation.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.creaturesinmyhead.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.danga.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "activitystrea.ms": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "adwords.google.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "cheeseshop.python.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "silencematters.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "builds.osafoundation.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "twitter.com/insurgent": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.huffingtonpost.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "biz.yahoo.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "twitter.com/jackerhack": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.liveearth.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.selenic.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.tbray.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "eudict.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "logs.jabber.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "redhanded.hobix.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "morenews.blogspot.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.ircrelay.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "eagain.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "facebook.com/events": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.gluster.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "waterpigs.co.uk": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.175
+    },
+    "bugzilla.osafoundation.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "flask.pocoo.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.engadget.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "micropub.rocks": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "twit.tv": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "nginx.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "simonwillison.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.fleegix.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.mailroute.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "pelican.readthedocs.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "pyblosxom.github.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "twitter.com/padday": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "diveintomark.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "jira.codehaus.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "liftsecurity.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "wiki.python.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "www.videolan.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "is.gd": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "openhatch.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "twitter.com/blaine": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "gregorlove.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0872
+    },
+    "svn.debian.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0872
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0872
+    },
+    "pubkey_old.txt": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0872
+    },
+    "www.developerweek.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0872
+    },
+    "www.twitter.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0872
+    },
+    "tiny.n9n.us": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0872
+    },
+    "plus.google.com/+MikeTaylor": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0872
+    },
+    "embed.bonfyreapp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0872
+    },
+    "gazela.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0872
+    },
+    "pyTwerp-0.5.tar.gz": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0872
+    },
+    "pyTwerp-0.5-py2.5.egg": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0872
+    },
+    "pyTwerp-0.5-py2.4.egg": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0872
+    },
+    "pubkey.txt": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0872
+    },
+    "www.peterbouda.eu": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0872
+    },
+    "paddy.io": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "ben.thatmustbe.me": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "peterbouda.eu": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

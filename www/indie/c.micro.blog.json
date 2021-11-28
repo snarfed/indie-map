@@ -1,0 +1,89 @@
+{
+  "domain": "c.micro.blog",
+  "urls": [
+    "http://c.micro.blog/"
+  ],
+  "names": [
+    "Chris Aldrich"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://micro.blog/c",
+    "https://twitter.com/chrisaldrich",
+    "https://github.com/chrisaldrich"
+  ],
+  "crawl_start": "2017-06-09T17:34:23",
+  "crawl_end": "2017-06-09T17:34:29",
+  "num_pages": 15,
+  "total_html_size": 53150,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-feed"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://micro.blog/webmention"
+    ],
+    "micropub": [
+      "https://micro.blog/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 25,
+  "links_in": 22,
+  "links": {
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 19
+      },
+      "score": 1
+    },
+    "micro.blog": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.747
+    },
+    "quill.p3k.io": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.545
+    },
+    "boffosocko.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.457
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.152
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

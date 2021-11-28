@@ -1,0 +1,81 @@
+{
+  "domain": "physcocode.com",
+  "urls": [
+    "https://physcocode.com/"
+  ],
+  "names": [
+    "Pranjal Pandey "
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://i1.wp.com/physcocode.com/wp-content/uploads/2017/04/cropped-pranjal.jpg?fit=32%2C32&ssl=1",
+    "https://i1.wp.com/physcocode.com/wp-content/uploads/2017/04/cropped-pranjal.jpg?fit=192%2C192&ssl=1",
+    "https://i1.wp.com/physcocode.com/wp-content/uploads/2017/04/cropped-pranjal.jpg?fit=200%2C200&ssl=1"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T01:59:22",
+  "crawl_end": "2017-04-30T01:59:42",
+  "num_pages": 9,
+  "total_html_size": 113002,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-note",
+    "h-feed",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://physcocode.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://physcocode.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 32,
+  "links_in": 37,
+  "links": {
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 20
+      },
+      "score": 1
+    },
+    "werd.io": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.499
+    },
+    "brid.gy": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.423
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.388
+    }
+  }
+}

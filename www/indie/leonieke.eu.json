@@ -1,0 +1,100 @@
+{
+  "domain": "leonieke.eu",
+  "urls": [
+    "https://leonieke.eu/"
+  ],
+  "names": [
+    "Leonieke Net | \"Of course I have played outdoor games. I once played dominoes in an open air cafe in Paris.\" ~Oscar Wilde",
+    "Leonieke Net"
+  ],
+  "descriptions": [
+    "Leonieke Aalders, blog with automatic posts and personal blog items about travel in Europe.",
+    "\"Of course I have played outdoor games. I once played dominoes in an open air cafe in Paris.\" ~Oscar Wilde"
+  ],
+  "pictures": [
+    "https://leonieke.eu/wp-content/uploads/2017/05/PowerPuffGirls-static-clean_lines.png",
+    "https://i2.wp.com/leonieke.eu/wp-content/uploads/leonieke-logo-2-550b1aecv1_site_icon.png?fit=32%2C32&ssl=1",
+    "https://i2.wp.com/leonieke.eu/wp-content/uploads/leonieke-logo-2-550b1aecv1_site_icon.png?fit=192%2C192&ssl=1",
+    "https://i2.wp.com/leonieke.eu/wp-content/uploads/leonieke-logo-2-550b1aecv1_site_icon.png?fit=200%2C200&ssl=1",
+    "https://i2.wp.com/leonieke.eu/wp-content/uploads/leonieke-logo-2-550b1aecv1_site_icon.png?fit=240%2C240&ssl=1"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T22:28:42",
+  "crawl_end": "2017-05-01T12:48:11",
+  "num_pages": 9005,
+  "total_html_size": 652475298,
+  "servers": [
+    "Apache",
+    "Powered by Slider Revolution - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface."
+  ],
+  "mf2_classes": [
+    "h-widget",
+    "h-as-like",
+    "h-as-reply",
+    "h-toc",
+    "h-landmark",
+    "h-entry",
+    "h-comments-title",
+    "h-custom-headline",
+    "h-as-mention",
+    "h-feature-headline",
+    "h-alert",
+    "h-as-repost"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://leonieke.eu/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://leonieke.eu/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 337578,
+  "links_in": 13,
+  "links": {
+    "adactio.com": {
+      "out": {
+        "other": 3220
+      },
+      "score": 0.675
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 3220
+      },
+      "score": 0.675
+    },
+    "brid.gy": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.177
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0533
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

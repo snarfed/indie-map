@@ -1,0 +1,99 @@
+{
+  "domain": "achangeiscoming.net",
+  "urls": [
+    "http://achangeiscoming.net/"
+  ],
+  "names": [
+    "A Change Is Coming - Software, culture, social computing, diversity, and more",
+    "A Change Is Coming"
+  ],
+  "descriptions": [
+    "Software, culture, social computing, diversity, and more"
+  ],
+  "pictures": [
+    "http://achangeiscoming.net/wp-content/uploads/sites/7/2016/09/cropped-pink-background-32x32.jpg",
+    "http://achangeiscoming.net/wp-content/uploads/sites/7/2016/09/cropped-pink-background-192x192.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/jdp23",
+    "https://www.facebook.com/522a719281cee8222b000003"
+  ],
+  "crawl_start": "2017-04-23T22:42:35",
+  "crawl_end": "2017-04-23T22:46:06",
+  "num_pages": 41,
+  "total_html_size": 1001496,
+  "servers": [
+    "Apache (Ubuntu)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-article"
+  ],
+  "tags": [
+    "relme",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://achangeiscoming.net/?webmention=endpoint"
+    ],
+    "micropub": [
+      "http://achangeiscoming.net/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 385,
+  "links_in": 661,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 334
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 158
+      },
+      "score": 0.871
+    },
+    "kallistixf.dreamwidth.org": {
+      "in": {
+        "other": 122
+      },
+      "score": 0.826
+    },
+    "stream.tapestrymaker.net": {
+      "in": {
+        "other": 29
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.602
+    },
+    "brid.gy": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.413
+    },
+    "kylewm.com": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.336
+    }
+  }
+}

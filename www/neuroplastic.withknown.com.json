@@ -1,0 +1,90 @@
+{
+  "domain": "neuroplastic.withknown.com",
+  "urls": [
+    "https://neuroplastic.withknown.com/profile/neuroplastic",
+    "http://mylesbyrne.com"
+  ],
+  "names": [
+    "Myles Byrne",
+    "neuroplastic"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://neuroplastic.withknown.com/file/27a66e082b75f4a520bded3631c175a7"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Myles Byrne"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "https://neuroplastic.withknown.com/file/27a66e082b75f4a520bded3631c175a7"
+      ],
+      "profile": [
+        "Myles Byrne"
+      ],
+      "url": [
+        "https://neuroplastic.withknown.com/profile/neuroplastic",
+        "https://neuroplastic.withknown.com/profile/neuroplastic",
+        "http://mylesbyrne.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://mylesbyrne.com"
+  ],
+  "crawl_start": "2017-04-29T21:32:01",
+  "crawl_end": "2017-04-29T21:32:07",
+  "num_pages": 12,
+  "total_html_size": 216640,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://neuroplastic.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 9,
+  "links_in": 7,
+  "links": {
+    "mylesbyrne.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.675
+    }
+  }
+}

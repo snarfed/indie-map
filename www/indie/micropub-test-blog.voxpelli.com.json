@@ -1,0 +1,71 @@
+{
+  "domain": "micropub-test-blog.voxpelli.com",
+  "urls": [
+    "http://micropub-test-blog.voxpelli.com/"
+  ],
+  "names": [
+    "Micropub Test Blog"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "mailto:pelle@kodfabrik.se"
+  ],
+  "crawl_start": "2017-05-21T06:11:08",
+  "crawl_end": "2017-05-21T06:12:03",
+  "num_pages": 262,
+  "total_html_size": 3260600,
+  "servers": [
+    "GitHub.com"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-feed"
+  ],
+  "tags": [
+    "relme",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "micropub": [
+      "http://micropub.kodfabrik.se/micropub/test"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 664,
+  "links_in": 0,
+  "links": {
+    "tantek.com": {
+      "out": {
+        "in-reply-to": 24
+      },
+      "score": 0.762
+    },
+    "jarofgreen.co.uk": {
+      "out": {
+        "in-reply-to": 24
+      },
+      "score": 0.762
+    },
+    "example.com": {
+      "out": {
+        "bookmark-of": 6
+      },
+      "score": 0.442
+    },
+    "kodfabrik.se": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.193
+    }
+  }
+}

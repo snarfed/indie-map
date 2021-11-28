@@ -1,0 +1,84 @@
+{
+  "domain": "danielberger.withknown.com",
+  "urls": [
+    "https://danielberger.withknown.com/profile/dberger",
+    "http://danielberger.net/"
+  ],
+  "names": [
+    "Daniel Berger"
+  ],
+  "descriptions": [
+    "I write stories.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://danielberger.withknown.com/gfx/users/default-04.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Daniel Berger"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I write stories.</p>\n</div>",
+          "value": "\nI write stories.\n"
+        }
+      ],
+      "photo": [
+        "https://danielberger.withknown.com/gfx/users/default-04.png"
+      ],
+      "profile": [
+        "Daniel Berger"
+      ],
+      "url": [
+        "https://danielberger.withknown.com/profile/dberger",
+        "https://danielberger.withknown.com/profile/dberger",
+        "http://danielberger.net/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://danielberger.net/"
+  ],
+  "crawl_start": "2017-04-28T05:16:22",
+  "crawl_end": "2017-04-28T05:16:39",
+  "num_pages": 28,
+  "total_html_size": 563680,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://danielberger.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 40,
+  "links_in": 4,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.388
+    }
+  }
+}

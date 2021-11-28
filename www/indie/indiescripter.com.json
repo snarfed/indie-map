@@ -1,0 +1,96 @@
+{
+  "domain": "indiescripter.com",
+  "urls": [
+    "http://indiescripter.com/"
+  ],
+  "names": [
+    "Home"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/indiescripter",
+    "https://twitter.com/javascriptjj"
+  ],
+  "crawl_start": "2017-06-09T17:53:07",
+  "crawl_end": "2017-06-09T17:53:11",
+  "num_pages": 8,
+  "total_html_size": 37536,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://indiescripter.com/webmention/"
+    ]
+  },
+  "links_out": 87,
+  "links_in": 115,
+  "links": {
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 8,
+        "in-reply-to": 77
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 1
+    },
+    "aaronparecki.com": {
+      "in": {
+        "in-reply-to": 12,
+        "other": 5
+      },
+      "out": {
+        "other": 9
+      },
+      "score": 0.739
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.599
+    },
+    "kartikprabhu.com": {
+      "in": {
+        "in-reply-to": 2
+      },
+      "score": 0.385
+    },
+    "brid.gy": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.232
+    },
+    "www.svenknebel.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.116
+    },
+    "werd.io": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.116
+    }
+  }
+}

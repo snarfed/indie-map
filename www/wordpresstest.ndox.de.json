@@ -1,0 +1,77 @@
+{
+  "domain": "wordpresstest.ndox.de",
+  "urls": [
+    "http://wordpresstest.ndox.de"
+  ],
+  "names": [],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T06:06:54",
+  "crawl_end": "2017-04-30T06:07:55",
+  "num_pages": 42,
+  "total_html_size": 1250790,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-card",
+    "h-as-article",
+    "h-entry",
+    "h-cite",
+    "h-as-reply"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://wordpresstest.ndox.de/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://wordpresstest.ndox.de/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 136,
+  "links_in": 8,
+  "links": {
+    "wordpress.org": {
+      "out": {
+        "other": 122
+      },
+      "score": 1
+    },
+    "facebook.com/111658616014182": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.593
+    },
+    "brid.gy": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.378
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.126
+    }
+  }
+}

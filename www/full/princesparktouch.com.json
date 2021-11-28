@@ -1,0 +1,123 @@
+{
+  "domain": "princesparktouch.com",
+  "crawl_start": "2017-04-30T22:29:12",
+  "crawl_end": "2017-04-30T23:50:01",
+  "num_pages": 1216,
+  "total_html_size": 19851560,
+  "servers": [
+    "LiteSpeed",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-feed",
+    "h-geo",
+    "h-as-reply"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://princesparktouch.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://princesparktouch.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "hcard": {},
+  "links_out": 1530,
+  "links_in": 14,
+  "links": {
+    "facebook.com/103928729684092": {
+      "out": {
+        "other": 698
+      },
+      "score": 1
+    },
+    "twitter.com/parktouch": {
+      "out": {
+        "other": 636
+      },
+      "score": 0.988
+    },
+    "shawfactor.com": {
+      "out": {
+        "other": 135
+      },
+      "score": 0.773
+    },
+    "tel": {
+      "out": {
+        "other": 39
+      },
+      "score": 0.602
+    },
+    "brid.gy": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.365
+    },
+    "mailto": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.343
+    },
+    "membership.sportstg.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.318
+    },
+    "touchfootball.com.au": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    },
+    "www.sportingpulse.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    },
+    "princesparktouch.com,": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    },
+    "i0.wp.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    },
+    "princesparktouch.lhero.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    },
+    "i1.wp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0957
+    }
+  }
+}

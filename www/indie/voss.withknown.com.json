@@ -1,0 +1,88 @@
+{
+  "domain": "voss.withknown.com",
+  "urls": [
+    "https://voss.withknown.com/profile/voss",
+    "http://twitter.com/voss",
+    "http://google.com/+JonasVoss"
+  ],
+  "names": [
+    "Voss",
+    "voss"
+  ],
+  "descriptions": [
+    "blah",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://voss.withknown.com/gfx/users/default-05.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Voss"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>blah</p>\n</div>",
+          "value": "\nblah\n"
+        }
+      ],
+      "photo": [
+        "https://voss.withknown.com/gfx/users/default-05.png"
+      ],
+      "profile": [
+        "Voss"
+      ],
+      "url": [
+        "https://voss.withknown.com/profile/voss",
+        "https://voss.withknown.com/profile/voss",
+        "http://twitter.com/voss",
+        "http://google.com/+JonasVoss"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/voss",
+    "http://google.com/+JonasVoss"
+  ],
+  "crawl_start": "2017-04-30T03:12:32",
+  "crawl_end": "2017-04-30T03:12:39",
+  "num_pages": 17,
+  "total_html_size": 346958,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://voss.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 40,
+  "links_in": 9,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.761
+    }
+  }
+}

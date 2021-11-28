@@ -1,0 +1,148 @@
+{
+  "domain": "timweston.com",
+  "urls": [
+    "https://timweston.com/profile/timweston",
+    "https://twitter.com/timweston",
+    "https://www.linkedin.com/in/timweston",
+    "https://www.periscope.tv/timweston",
+    "https://www.snapchat.com/add/tim_weston"
+  ],
+  "names": [
+    "Tim Weston"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://timweston.com/file/ac18fe543108df6dd7cfbb059a9ceb47/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:tim@timweston.com"
+      ],
+      "name": [
+        "Tim Weston"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "https://timweston.com/file/ac18fe543108df6dd7cfbb059a9ceb47/thumb.jpg"
+      ],
+      "profile": [
+        "Tim Weston"
+      ],
+      "url": [
+        "https://timweston.com/profile/timweston",
+        "https://timweston.com/profile/timweston",
+        "https://twitter.com/timweston",
+        "https://www.linkedin.com/in/timweston",
+        "https://www.periscope.tv/timweston",
+        "https://www.snapchat.com/add/tim_weston"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/timweston",
+    "https://www.linkedin.com/in/timweston",
+    "https://www.periscope.tv/timweston",
+    "https://www.snapchat.com/add/tim_weston",
+    "mailto:tim@timweston.com"
+  ],
+  "crawl_start": "2017-04-30T02:51:00",
+  "crawl_end": "2017-04-30T03:02:15",
+  "num_pages": 647,
+  "total_html_size": 16202611,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-geo"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://timweston.com/webmention/"
+    ],
+    "micropub": [
+      "https://timweston.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://timweston.com/indieauth/auth"
+    ],
+    "token": [
+      "https://timweston.com/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 3333,
+  "links_in": 70,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 649
+      },
+      "score": 1
+    },
+    "werd.io": {
+      "in": {
+        "other": 50
+      },
+      "out": {
+        "in-reply-to": 5
+      },
+      "score": 0.643
+    },
+    "www.rmendes.net": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.290
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.194
+    },
+    "gregorlove.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.194
+    },
+    "known.stierand.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0967
+    },
+    "pvagner.tk": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0967
+    }
+  }
+}

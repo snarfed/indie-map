@@ -1,0 +1,87 @@
+{
+  "domain": "vanderven.se",
+  "urls": [
+    "http://vanderven.se/"
+  ],
+  "names": [
+    "Familie van der Ven"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-24T20:44:10",
+  "crawl_end": "2017-04-24T20:44:10",
+  "num_pages": 1,
+  "total_html_size": 4472,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "elder",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://vanderven.se/martijn/mention.php"
+    ]
+  },
+  "links_out": 13,
+  "links_in": 8163,
+  "links": {
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4736
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 3289
+      },
+      "score": 0.957
+    },
+    "licit.li": {
+      "in": {
+        "other": 81
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.522
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 36
+      },
+      "score": 0.423
+    },
+    "www.svenknebel.de": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.260
+    },
+    "seblog.nl": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.212
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.130
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.130
+    }
+  }
+}

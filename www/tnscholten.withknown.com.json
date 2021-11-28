@@ -1,0 +1,154 @@
+{
+  "domain": "tnscholten.withknown.com",
+  "urls": [
+    "https://tnscholten.withknown.com/profile/dmscholten",
+    "http://www.tnscholten.org",
+    "https://twitter.com/palanthas86",
+    "https://github.com/palanthas",
+    "https://google.com/+michaelscholten",
+    "https://instagram.com/palanthas1986/",
+    "https://www.facebook.com/Bifhop"
+  ],
+  "names": [
+    "Michael Scholten",
+    "TN Scholtens"
+  ],
+  "descriptions": [
+    "My wife and I are from West Michigan originally and now reside in Chattanooga Tennessee.\nI now work in the IT Field, fly RC planes and multirotors, linux user.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://tnscholten.withknown.com/file/aa886461eb599f023f96c12640e82d02/thumb.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Michael Scholten"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>My wife and I are from West Michigan originally and now reside in Chattanooga Tennessee.</p>\n<p>I now work in the IT Field, fly RC planes and multirotors, linux user.</p>\n</div>",
+          "value": "\nMy wife and I are from West Michigan originally and now reside in Chattanooga Tennessee.\nI now work in the IT Field, fly RC planes and multirotors, linux user.\n"
+        }
+      ],
+      "photo": [
+        "https://tnscholten.withknown.com/file/aa886461eb599f023f96c12640e82d02/thumb.png"
+      ],
+      "profile": [
+        "Michael Scholten"
+      ],
+      "url": [
+        "https://tnscholten.withknown.com/profile/dmscholten",
+        "https://tnscholten.withknown.com/profile/dmscholten",
+        "http://www.tnscholten.org",
+        "https://twitter.com/palanthas86",
+        "https://github.com/palanthas",
+        "https://google.com/+michaelscholten",
+        "https://instagram.com/palanthas1986/",
+        "https://www.facebook.com/Bifhop"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.tnscholten.org",
+    "https://twitter.com/palanthas86",
+    "https://github.com/palanthas",
+    "https://google.com/+michaelscholten",
+    "https://instagram.com/palanthas1986/",
+    "https://www.facebook.com/Bifhop"
+  ],
+  "crawl_start": "2017-04-30T02:52:43",
+  "crawl_end": "2017-04-30T02:52:59",
+  "num_pages": 25,
+  "total_html_size": 536311,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://tnscholten.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://tnscholten.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://tnscholten.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://tnscholten.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 112,
+  "links_in": 10,
+  "links": {
+    "facebook.com/Bifhop": {
+      "out": {
+        "other": 18
+      },
+      "score": 1
+    },
+    "google.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 1
+    },
+    "instagram.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 1
+    },
+    "twitter.com/palanthas86": {
+      "out": {
+        "other": 18
+      },
+      "score": 1
+    },
+    "www.tnscholten.org": {
+      "out": {
+        "other": 18
+      },
+      "score": 1
+    },
+    "github.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.642
+    },
+    "flitetest.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.581
+    }
+  }
+}

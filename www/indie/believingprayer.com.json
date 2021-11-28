@@ -1,0 +1,66 @@
+{
+  "domain": "believingprayer.com",
+  "urls": [
+    "http://believingprayer.com/"
+  ],
+  "names": [
+    "Believing Prayer"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://believingprayer.com/wp-content/uploads/fbrfg/favicon-32x32.png",
+    "http://believingprayer.com/wp-content/uploads/fbrfg/favicon-16x16.png",
+    "http://believingprayer.com/wp-content/uploads/fbrfg/favicon.ico",
+    "http://believingprayer.com/wp-content/uploads/2015/01/bprayer-favicon1-54afc98av1_site_icon-32x32.png",
+    "http://believingprayer.com/wp-content/uploads/2015/01/bprayer-favicon1-54afc98av1_site_icon-256x256.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-27T07:52:44",
+  "crawl_end": "2017-04-27T12:47:36",
+  "num_pages": 1628,
+  "total_html_size": 75225925,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-as-mention",
+    "h-entry",
+    "h-as-reply"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://believingprayer.com/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 3954,
+  "links_in": 1815,
+  "links": {
+    "jasrandal.withknown.com": {
+      "in": {
+        "other": 1665,
+        "in-reply-to": 78
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.951
+    },
+    "randalmatheny.com": {
+      "out": {
+        "other": 175
+      },
+      "in": {
+        "other": 72
+      },
+      "score": 0.754
+    }
+  }
+}

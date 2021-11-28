@@ -1,0 +1,109 @@
+{
+  "domain": "thoms.be",
+  "urls": [
+    "https://thoms.be/profile/thoms",
+    "http://www.onkel-thoms.de"
+  ],
+  "names": [
+    "Thoms Be",
+    "Thoms"
+  ],
+  "descriptions": [
+    "Single person social network"
+  ],
+  "pictures": [
+    "https://thoms.be/file/609010e77b523fdbd5c1a9d52a73e5d2/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Thoms Be"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "https://thoms.be/file/609010e77b523fdbd5c1a9d52a73e5d2/thumb.jpg"
+      ],
+      "profile": [
+        "Thoms Be"
+      ],
+      "url": [
+        "https://thoms.be/profile/thoms",
+        "https://thoms.be/profile/thoms",
+        "http://www.onkel-thoms.de"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.onkel-thoms.de"
+  ],
+  "crawl_start": "2017-04-30T02:42:38",
+  "crawl_end": "2017-04-30T02:43:09",
+  "num_pages": 28,
+  "total_html_size": 605561,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-geo"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://thoms.be/webmention/"
+    ],
+    "micropub": [
+      "https://thoms.be/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://thoms.be/indieauth/auth"
+    ],
+    "token": [
+      "https://thoms.be/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 49,
+  "links_in": 6,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 1
+    },
+    "www.onkel-thoms.de": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.928
+    },
+    "brid.gy": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.444
+    }
+  }
+}

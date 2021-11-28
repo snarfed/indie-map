@@ -1,0 +1,364 @@
+{
+  "domain": "dangillmor.com",
+  "urls": [
+    "http://dangillmor.com/"
+  ],
+  "names": [
+    "Dan Gillmor – Just in case you were still wondering…",
+    "Dan Gillmor"
+  ],
+  "descriptions": [
+    "Just in case you were still wondering…"
+  ],
+  "pictures": [
+    "http://dangillmor.com/wp-content/uploads/2016/08/cropped-dan512-32x32.jpg",
+    "http://dangillmor.com/wp-content/uploads/2016/08/cropped-dan512-192x192.jpg",
+    "http://dangillmor.com/wp-content/uploads/2014/03/danpicpr-300x300.png",
+    "https://i1.wp.com/dangillmor.com/wp-content/uploads/2014/03/danpicpr-300x300.png",
+    "http://dangillmor.com/wp-content/uploads/2014/03/danpicpr-300x300.png?w=1400"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/dsgiigh",
+    "https://twitter.com/dangillmor"
+  ],
+  "crawl_start": "2017-04-28T05:16:20",
+  "crawl_end": "2017-04-28T06:37:05",
+  "num_pages": 1010,
+  "total_html_size": 47183683,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-as-article",
+    "h-feed",
+    "h-as-note",
+    "h-entry",
+    "h-as-page",
+    "h-card",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "elder",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://dangillmor.com/wp-json/webmention/1.0/endpoint",
+      "http://dangillmor.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://dangillmor.com/?micropub=endpoint",
+      "http://dangillmor.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 16600,
+  "links_in": 1700,
+  "links": {
+    "notizblog.org": {
+      "out": {
+        "other": 1006
+      },
+      "score": 0.916
+    },
+    "epeus.blogspot.com": {
+      "in": {
+        "other": 680
+      },
+      "score": 0.785
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 16
+      },
+      "in": {
+        "other": 293
+      },
+      "score": 0.696
+    },
+    "adactio.com": {
+      "in": {
+        "other": 4,
+        "bookmark-of": 137
+      },
+      "score": 0.677
+    },
+    "www.decentralizedweb.net": {
+      "out": {
+        "other": 106
+      },
+      "score": 0.645
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 84
+      },
+      "score": 0.616
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 137
+      },
+      "score": 0.592
+    },
+    "jothut.com": {
+      "in": {
+        "other": 129
+      },
+      "score": 0.585
+    },
+    "werd.io": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 89
+      },
+      "score": 0.550
+    },
+    "ncollig.net": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 69
+      },
+      "score": 0.516
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 14
+      },
+      "score": 0.511
+    },
+    "tantek.com": {
+      "in": {
+        "in-reply-to": 2,
+        "other": 10,
+        "like-of": 1
+      },
+      "out": {
+        "other": 20
+      },
+      "score": 0.497
+    },
+    "snarfed.org": {
+      "in": {
+        "other": 1,
+        "repost-of": 1
+      },
+      "out": {
+        "other": 28
+      },
+      "score": 0.492
+    },
+    "caseorganic.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.418
+    },
+    "scripting.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 12
+      },
+      "score": 0.401
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 12
+      },
+      "score": 0.401
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 4,
+        "in-reply-to": 3
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.397
+    },
+    "dowe.io": {
+      "out": {
+        "other": 8
+      },
+      "in": {
+        "other": 8
+      },
+      "score": 0.383
+    },
+    "vrypan.net": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.361
+    },
+    "likeiwassayingblog.com": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.333
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 15
+      },
+      "score": 0.326
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 15
+      },
+      "score": 0.326
+    },
+    "stream.tapestrymaker.net": {
+      "in": {
+        "other": 13
+      },
+      "score": 0.308
+    },
+    "kylewm.com": {
+      "in": {
+        "other": 3
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.289
+    },
+    "upon2020.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.250
+    },
+    "www.kevinpolley.com": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.250
+    },
+    "brid.gy": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.235
+    },
+    "www.simongriffee.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.215
+    },
+    "www.christydena.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.194
+    },
+    "www.wordyard.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.194
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.167
+    },
+    "wwwtech.de": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.167
+    },
+    "kartikprabhu.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.132
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0834
+    },
+    "channy.creation.net": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0834
+    },
+    "thelocalyarn.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "rudigermeyer.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "willnorris.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "pauljacobson.me": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.mathewingram.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "derhess.de": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "boghop.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

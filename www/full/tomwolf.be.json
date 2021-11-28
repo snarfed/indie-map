@@ -1,0 +1,330 @@
+{
+  "domain": "tomwolf.be",
+  "urls": [
+    "https://tomwolf.be/",
+    "https://twitter.com/super8trash"
+  ],
+  "names": [
+    "Tom Cesar Wolf",
+    "tom cesar wolf | ravings from the back room",
+    "tom cesar wolf"
+  ],
+  "descriptions": [
+    "ravings from the back room"
+  ],
+  "pictures": [
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Tom Cesar Wolf"
+      ],
+      "uid": [
+        "https://tomwolf.be/"
+      ],
+      "url": [
+        "https://tomwolf.be/",
+        "https://twitter.com/super8trash"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "sms:+32 495 944917",
+    "https://github.com/super8trash",
+    "https://twitter.com/super8trash",
+    "https://www.facebook.com/534129116",
+    "https://www.instagram.com/super8trash",
+    "https://tomwolf.bandcamp.com",
+    "https://soundcloud.com/tomwolf"
+  ],
+  "crawl_start": "2017-04-30T02:55:50",
+  "crawl_end": "2017-04-30T03:01:21",
+  "num_pages": 55,
+  "total_html_size": 1399999,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-page",
+    "h-card",
+    "h-entry",
+    "h-as-article",
+    "h-feed"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://tomwolf.be/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://tomwolf.be/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 662,
+  "links_in": 85,
+  "links": {
+    "github.com": {
+      "out": {
+        "other": 109
+      },
+      "score": 1
+    },
+    "www.tomwolf.be": {
+      "out": {
+        "other": 101
+      },
+      "score": 0.987
+    },
+    "stream.tomwolf.be": {
+      "out": {
+        "other": 55
+      },
+      "in": {
+        "other": 54
+      },
+      "score": 0.948
+    },
+    "twitter.com/super8trash": {
+      "out": {
+        "other": 59
+      },
+      "score": 0.887
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 55
+      },
+      "score": 0.874
+    },
+    "facebook.com/tomwolf.be": {
+      "out": {
+        "other": 54
+      },
+      "score": 0.870
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 49
+      },
+      "score": 0.851
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 14
+      },
+      "score": 0.790
+    },
+    "facebook.com/10154540450424117": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.773
+    },
+    "tomwolf.bandcamp.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.619
+    },
+    "www.mixcloud.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.606
+    },
+    "brid.gy": {
+      "in": {
+        "other": 15
+      },
+      "out": {
+        "other": 5
+      },
+      "score": 0.599
+    },
+    "open.spotify.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.515
+    },
+    "wfmu.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.515
+    },
+    "llllllll.co": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.515
+    },
+    "azlobo.xyz": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.428
+    },
+    "www.onebigfluke.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.428
+    },
+    "soundcloud.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.428
+    },
+    "easyweb.easynet.co.uk": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.387
+    },
+    "www.courtisane.be": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.387
+    },
+    "www.rpmchallenge.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.387
+    },
+    "www.dustbreeding.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.387
+    },
+    "www.asymptotejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.387
+    },
+    "dublab.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.387
+    },
+    "www.mono-log.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.387
+    },
+    "twitter.com/flashtaggyblog": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.387
+    },
+    "www.12k.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.387
+    },
+    "sm-ll.bandcamp.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.387
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.387
+    },
+    "klara.be": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.387
+    },
+    "www.poetryfoundation.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.387
+    },
+    "marcus-fischer.bandcamp.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.387
+    },
+    "pitchfork.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.387
+    },
+    "books.google.be": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.387
+    },
+    "delia-derbyshire.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.387
+    },
+    "blog.sciencemuseum.org.uk": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.387
+    },
+    "www.vitalweekly.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.387
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.129
+    },
+    "tinyletter.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.129
+    }
+  }
+}

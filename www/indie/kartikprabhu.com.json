@@ -1,0 +1,628 @@
+{
+  "domain": "kartikprabhu.com",
+  "urls": [
+    "https://kartikprabhu.com/about#me",
+    "https://kartikprabhu.com/"
+  ],
+  "names": [
+    "Kartik Prabhu",
+    "Kartik Prabhu | Parallel Transport"
+  ],
+  "descriptions": [
+    "The web journal of Kartik Prabhu"
+  ],
+  "pictures": [
+    "https://kartikprabhu.com/static/images/avatar.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Kartik Prabhu"
+      ],
+      "photo": [
+        "https://kartikprabhu.com/static/images/avatar.jpg"
+      ],
+      "url": [
+        "https://kartikprabhu.com/about#me"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://kartikprabhu.com/about#me",
+    "https://plus.google.com/+KartikPrabhu",
+    "https://github.com/kartikprabhu"
+  ],
+  "crawl_start": "2017-04-24T08:32:27",
+  "crawl_end": "2017-04-24T08:38:56",
+  "num_pages": 495,
+  "total_html_size": 6731786,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-as-note",
+    "h-entry",
+    "h-card",
+    "h-feed",
+    "h-as-presentation",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "elder",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://kartikprabhu.com/webmention"
+    ],
+    "micropub": [
+      "https://kartikprabhu.com/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 2108,
+  "links_in": 67998,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 42314
+      },
+      "out": {
+        "other": 10
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 24392
+      },
+      "score": 0.944
+    },
+    "adactio.com": {
+      "in": {
+        "other": 253,
+        "bookmark-of": 188
+      },
+      "out": {
+        "in-reply-to": 26,
+        "like-of": 14,
+        "other": 11
+      },
+      "score": 0.642
+    },
+    "kylewm.com": {
+      "out": {
+        "like-of": 2,
+        "in-reply-to": 16,
+        "other": 19
+      },
+      "in": {
+        "like-of": 21,
+        "other": 81,
+        "in-reply-to": 15
+      },
+      "score": 0.561
+    },
+    "known.kylewm.com": {
+      "in": {
+        "in-reply-to": 45,
+        "other": 74
+      },
+      "score": 0.533
+    },
+    "werd.io": {
+      "out": {
+        "other": 6,
+        "like-of": 2,
+        "in-reply-to": 4
+      },
+      "in": {
+        "other": 78,
+        "in-reply-to": 30
+      },
+      "score": 0.529
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "like-of": 2,
+        "other": 95
+      },
+      "score": 0.494
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 52,
+        "like-of": 20,
+        "in-reply-to": 17
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.486
+    },
+    "waterpigs.co.uk": {
+      "out": {
+        "in-reply-to": 7,
+        "other": 3
+      },
+      "in": {
+        "other": 67
+      },
+      "score": 0.464
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 10,
+        "in-reply-to": 4,
+        "like-of": 2
+      },
+      "in": {
+        "in-reply-to": 7,
+        "like-of": 7,
+        "other": 14
+      },
+      "score": 0.456
+    },
+    "tantek.com": {
+      "out": {
+        "other": 12,
+        "in-reply-to": 4,
+        "like-of": 6
+      },
+      "in": {
+        "like-of": 1,
+        "other": 7
+      },
+      "score": 0.427
+    },
+    "wirres.net": {
+      "in": {
+        "other": 30,
+        "like-of": 30
+      },
+      "score": 0.421
+    },
+    "rudigermeyer.com": {
+      "out": {
+        "other": 2,
+        "in-reply-to": 4
+      },
+      "in": {
+        "in-reply-to": 6,
+        "other": 12
+      },
+      "score": 0.416
+    },
+    "known.kevinmarks.com": {
+      "out": {
+        "other": 1,
+        "like-of": 2,
+        "in-reply-to": 2
+      },
+      "in": {
+        "other": 26,
+        "in-reply-to": 5
+      },
+      "score": 0.410
+    },
+    "jeena.net": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 2,
+        "like-of": 2
+      },
+      "in": {
+        "in-reply-to": 8,
+        "other": 8
+      },
+      "score": 0.409
+    },
+    "boffosocko.com": {
+      "in": {
+        "other": 36
+      },
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.377
+    },
+    "ben.thatmustbe.me": {
+      "out": {
+        "other": 1,
+        "in-reply-to": 4
+      },
+      "in": {
+        "other": 2,
+        "in-reply-to": 2
+      },
+      "score": 0.373
+    },
+    "brid.gy": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 41
+      },
+      "score": 0.351
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 2,
+        "in-reply-to": 2
+      },
+      "in": {
+        "like-of": 3,
+        "other": 3,
+        "in-reply-to": 1
+      },
+      "score": 0.340
+    },
+    "mapkyca.com": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 1
+      },
+      "in": {
+        "other": 4,
+        "in-reply-to": 2
+      },
+      "score": 0.335
+    },
+    "gregorlove.com": {
+      "out": {
+        "other": 5,
+        "in-reply-to": 2
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.335
+    },
+    "meyerweb.com": {
+      "out": {
+        "other": 7,
+        "in-reply-to": 2
+      },
+      "score": 0.330
+    },
+    "www.kevinmarks.com": {
+      "out": {
+        "other": 3,
+        "in-reply-to": 2
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.318
+    },
+    "unicyclic.com": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "in": {
+        "other": 5
+      },
+      "score": 0.301
+    },
+    "www.clintpatty.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.297
+    },
+    "joskar.se": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 1
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.297
+    },
+    "chloeweil.com": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 1
+      },
+      "score": 0.289
+    },
+    "sixtwothree.org": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.289
+    },
+    "prtksxna.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.289
+    },
+    "acegiak.net": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.289
+    },
+    "miklb.com": {
+      "in": {
+        "in-reply-to": 4
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.289
+    },
+    "shanehudson.net": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.280
+    },
+    "bupk.es": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.280
+    },
+    "elliotdickison.com": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.280
+    },
+    "indiescripter.com": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.280
+    },
+    "belp.audio": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.280
+    },
+    "www.lottejackson.com": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.280
+    },
+    "timapple.com": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.280
+    },
+    "bear.im": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.280
+    },
+    "anomalily.net": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.280
+    },
+    "petersell.com": {
+      "in": {
+        "other": 16
+      },
+      "score": 0.259
+    },
+    "www.petersell.com": {
+      "in": {
+        "other": 16
+      },
+      "score": 0.259
+    },
+    "tommorris.org": {
+      "out": {
+        "repost-of": 2
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.253
+    },
+    "line-mode.cern.ch": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.215
+    },
+    "wwwtech.de": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "like-of": 2
+      },
+      "score": 0.215
+    },
+    "david.shanske.com": {
+      "out": {
+        "like-of": 2
+      },
+      "score": 0.194
+    },
+    "jkphl.is": {
+      "out": {
+        "other": 3
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.194
+    },
+    "michielbdejong.com": {
+      "out": {
+        "like-of": 2
+      },
+      "score": 0.194
+    },
+    "example.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.194
+    },
+    "blog.lmorchard.com": {
+      "out": {
+        "like-of": 2
+      },
+      "score": 0.194
+    },
+    "paulrobertlloyd.com": {
+      "out": {
+        "like-of": 2
+      },
+      "score": 0.194
+    },
+    "dangillmor.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.167
+    },
+    "dunlaps.net": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.167
+    },
+    "jonathantneal.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.130
+    },
+    "andysylvester.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.130
+    },
+    "webmention.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.130
+    },
+    "ttk.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.130
+    },
+    "aaron-gustafson.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.130
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.130
+    },
+    "withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.130
+    },
+    "silencematters.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.103
+    },
+    "ftrain.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0648
+    },
+    "tyler.cat": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0648
+    },
+    "cweiske.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0648
+    },
+    "vrypan.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0648
+    },
+    "blog.vrypan.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0648
+    },
+    "quill.p3k.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0648
+    },
+    "www.jonathantneal.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0648
+    },
+    "csarven.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0648
+    },
+    "michael.silverton.palo-alto.ca.us": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

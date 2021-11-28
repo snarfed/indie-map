@@ -1,0 +1,44 @@
+{
+  "domain": "randall.bleeds.info",
+  "urls": [
+    "http://randall.bleeds.info/"
+  ],
+  "names": [
+    "randall.bleeds.info"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/tilgovi",
+    "https://twitter.com/tilgovi"
+  ],
+  "crawl_start": "2017-04-25T05:13:01",
+  "crawl_end": "2017-04-25T05:13:01",
+  "num_pages": 1,
+  "total_html_size": 363,
+  "servers": [
+    "nginx"
+  ],
+  "tags": [
+    "relme",
+    "IRC"
+  ],
+  "endpoints": {},
+  "links_out": 2,
+  "links_in": 855,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 572
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 283
+      },
+      "score": 0.890
+    }
+  }
+}

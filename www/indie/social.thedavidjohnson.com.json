@@ -1,0 +1,214 @@
+{
+  "domain": "social.thedavidjohnson.com",
+  "urls": [
+    "http://social.thedavidjohnson.com/profile/thedavidjohnson",
+    "http://twitter.com/TheDavidJohnson",
+    "http://about.me/TheDavidJohnson",
+    "http://thedavidjohnson.com",
+    "https://GrowTheDream.com",
+    "https://plus.google.com/+DavidGJohnson",
+    "https://www.linkedin.com/in/davidgjohnson",
+    "http://github.com/TheDavidJohnson"
+  ],
+  "names": [
+    "David G. Johnson"
+  ],
+  "descriptions": [
+    "Husband. Father. Entrepreneur. Geek. Marketer. Writer. Speaker. Podcaster. Passionate About Helping Businesses & Business Owners Succeed.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://social.thedavidjohnson.com/file/2f0c4f90e3630e3c41803277c1da672a/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "David G. Johnson"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Husband. Father. Entrepreneur. Geek. Marketer. Writer. Speaker. Podcaster. Passionate About Helping Businesses &amp; Business Owners Succeed.</p>\n</div> ",
+          "value": "\nHusband. Father. Entrepreneur. Geek. Marketer. Writer. Speaker. Podcaster. Passionate About Helping Businesses & Business Owners Succeed.\n "
+        }
+      ],
+      "photo": [
+        "http://social.thedavidjohnson.com/file/2f0c4f90e3630e3c41803277c1da672a/thumb.jpg"
+      ],
+      "profile": [
+        "David G. Johnson"
+      ],
+      "url": [
+        "http://social.thedavidjohnson.com/profile/thedavidjohnson",
+        "http://social.thedavidjohnson.com/profile/thedavidjohnson",
+        "http://twitter.com/TheDavidJohnson",
+        "http://about.me/TheDavidJohnson",
+        "http://thedavidjohnson.com",
+        "https://GrowTheDream.com",
+        "https://plus.google.com/+DavidGJohnson",
+        "https://www.linkedin.com/in/davidgjohnson",
+        "http://github.com/TheDavidJohnson"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/TheDavidJohnson",
+    "http://about.me/TheDavidJohnson",
+    "http://thedavidjohnson.com",
+    "https://GrowTheDream.com",
+    "https://plus.google.com/+DavidGJohnson",
+    "https://www.linkedin.com/in/davidgjohnson",
+    "http://github.com/TheDavidJohnson"
+  ],
+  "crawl_start": "2017-04-25T11:59:35",
+  "crawl_end": "2017-04-25T12:28:35",
+  "num_pages": 580,
+  "total_html_size": 14730832,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://social.thedavidjohnson.com/webmention/"
+    ],
+    "micropub": [
+      "http://social.thedavidjohnson.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://social.thedavidjohnson.com/indieauth/auth"
+    ],
+    "token": [
+      "http://social.thedavidjohnson.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 4371,
+  "links_in": 120,
+  "links": {
+    "www.epiphanydigest.com": {
+      "out": {
+        "other": 144
+      },
+      "in": {
+        "other": 54
+      },
+      "score": 0.818
+    },
+    "social.growthedream.com": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "in-reply-to": 20,
+        "other": 24
+      },
+      "score": 0.778
+    },
+    "scripting.com": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 12
+      },
+      "score": 0.621
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 10
+      },
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.596
+    },
+    "werd.io": {
+      "out": {
+        "other": 16
+      },
+      "in": {
+        "other": 8
+      },
+      "score": 0.518
+    },
+    "withknown.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.502
+    },
+    "www.leoville.net": {
+      "out": {
+        "other": 11
+      },
+      "in": {
+        "other": 8
+      },
+      "score": 0.477
+    },
+    "quill.p3k.io": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.433
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 20
+      },
+      "score": 0.421
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.421
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.323
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.292
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0972
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

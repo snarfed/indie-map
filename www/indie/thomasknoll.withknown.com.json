@@ -1,0 +1,103 @@
+{
+  "domain": "thomasknoll.withknown.com",
+  "urls": [
+    "https://thomasknoll.withknown.com/profile/thomasknoll",
+    "http://l00p.co/tk",
+    "http://thomasknoll.info",
+    "http://twitter.com/thomasknoll",
+    "http://facebook.com/thomasknoll",
+    "http://instagram.com/thomasknoll"
+  ],
+  "names": [
+    "Thomas Knoll",
+    "@thomasknoll's draft folder"
+  ],
+  "descriptions": [
+    "Learning.",
+    "thoughts not fully thunked yet"
+  ],
+  "pictures": [
+    "https://thomasknoll.withknown.com/file/9e1cfc82b3f18f5d5e15290d15b97c02/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Thomas Knoll"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Learning.</p>\n</div> ",
+          "value": "\nLearning.\n "
+        }
+      ],
+      "photo": [
+        "https://thomasknoll.withknown.com/file/9e1cfc82b3f18f5d5e15290d15b97c02/thumb.jpg"
+      ],
+      "profile": [
+        "Thomas Knoll"
+      ],
+      "url": [
+        "https://thomasknoll.withknown.com/profile/thomasknoll",
+        "https://thomasknoll.withknown.com/profile/thomasknoll",
+        "http://l00p.co/tk",
+        "http://thomasknoll.info",
+        "http://twitter.com/thomasknoll",
+        "http://facebook.com/thomasknoll",
+        "http://instagram.com/thomasknoll"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://l00p.co/tk",
+    "http://thomasknoll.info",
+    "http://twitter.com/thomasknoll",
+    "http://facebook.com/thomasknoll",
+    "http://instagram.com/thomasknoll"
+  ],
+  "crawl_start": "2017-04-30T02:41:58",
+  "crawl_end": "2017-04-30T02:43:15",
+  "num_pages": 42,
+  "total_html_size": 1274337,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://thomasknoll.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://thomasknoll.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://thomasknoll.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://thomasknoll.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 379,
+  "links_in": 0,
+  "links": {}
+}

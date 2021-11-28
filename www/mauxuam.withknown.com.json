@@ -1,0 +1,106 @@
+{
+  "domain": "mauxuam.withknown.com",
+  "urls": [
+    "https://mauxuam.withknown.com/profile/mauxuam",
+    "http://mauxuam.net",
+    "http://mauxuam.xyz"
+  ],
+  "names": [
+    "mauxuam",
+    "acid.logs"
+  ],
+  "descriptions": [
+    "flow with the go",
+    "social website powered by Known"
+  ],
+  "pictures": [
+    "https://mauxuam.withknown.com/file/2473d2e18e7cc35046a500543c45194b/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "mauxuam"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>flow with the go</p>\n</div>",
+          "value": "\nflow with the go\n"
+        }
+      ],
+      "photo": [
+        "https://mauxuam.withknown.com/file/2473d2e18e7cc35046a500543c45194b/thumb.jpg"
+      ],
+      "profile": [
+        "mauxuam"
+      ],
+      "url": [
+        "https://mauxuam.withknown.com/profile/mauxuam",
+        "https://mauxuam.withknown.com/profile/mauxuam",
+        "http://mauxuam.net",
+        "http://mauxuam.xyz"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://mauxuam.net",
+    "http://mauxuam.xyz"
+  ],
+  "crawl_start": "2017-04-29T14:46:13",
+  "crawl_end": "2017-04-29T14:46:18",
+  "num_pages": 12,
+  "total_html_size": 207249,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://mauxuam.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://mauxuam.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://mauxuam.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://mauxuam.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 18,
+  "links_in": 0,
+  "links": {
+    "mauxuam.net": {
+      "out": {
+        "other": 9
+      },
+      "score": 1
+    },
+    "mauxuam.xyz": {
+      "out": {
+        "other": 9
+      },
+      "score": 1
+    }
+  }
+}

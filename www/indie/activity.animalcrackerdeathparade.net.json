@@ -1,0 +1,72 @@
+{
+  "domain": "activity.animalcrackerdeathparade.net",
+  "urls": [
+    "http://activity.animalcrackerdeathparade.net/"
+  ],
+  "names": [
+    "Online activity of ACDP Comics",
+    "ACDP Comics"
+  ],
+  "descriptions": [
+    "Online activity of ACDP Comics"
+  ],
+  "pictures": [
+    "http://activity.animalcrackerdeathparade.net/file/30c8d5a291f9bc43c17a9193b4fdcfe7/thumb.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-27T07:52:20",
+  "crawl_end": "2017-04-27T07:52:49",
+  "num_pages": 28,
+  "total_html_size": 679831,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://activity.animalcrackerdeathparade.net/webmention/"
+    ],
+    "micropub": [
+      "http://activity.animalcrackerdeathparade.net/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "http://activity.animalcrackerdeathparade.net/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 214,
+  "links_in": 1,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.874
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

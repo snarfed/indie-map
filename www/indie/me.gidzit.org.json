@@ -1,0 +1,152 @@
+{
+  "domain": "me.gidzit.org",
+  "urls": [
+    "http://me.gidzit.org",
+    "https://lab.nexedi.com/u/romain",
+    "https://github.com/gidzit"
+  ],
+  "names": [
+    "Romain Courteaud",
+    "free",
+    "softwares",
+    "This is my blog."
+  ],
+  "descriptions": [
+    "Hi. I'm Romain Courteaud (nospam1@gidzit.org).\nI work at Nexedi.\nI write free softwares."
+  ],
+  "pictures": [],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:nospam1@gidzit.org"
+      ],
+      "name": [
+        "Romain Courteaud",
+        "free",
+        "softwares"
+      ],
+      "note": [
+        "Hi. I'm Romain Courteaud (nospam1@gidzit.org).\nI work at Nexedi.\nI write free softwares."
+      ],
+      "url": [
+        "http://me.gidzit.org",
+        "https://lab.nexedi.com/u/romain",
+        "https://github.com/gidzit"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://me.gidzit.org",
+    "mailto:nospam1@gidzit.org",
+    "https://lab.nexedi.com/u/romain",
+    "https://github.com/gidzit"
+  ],
+  "crawl_start": "2017-04-24T13:20:19",
+  "crawl_end": "2017-04-24T13:20:24",
+  "num_pages": 2,
+  "total_html_size": 158290,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "IRC",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://webmention.gidzit.org/w/",
+      "https://webmention.gidzit.org/w/"
+    ]
+  },
+  "links_out": 386,
+  "links_in": 55,
+  "links": {
+    "indiewebcamp.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.938
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 32
+      },
+      "score": 0.861
+    },
+    "adactio.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 2,
+        "bookmark-of": 2
+      },
+      "score": 0.687
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 15
+      },
+      "score": 0.672
+    },
+    "indiewebify.me": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.516
+    },
+    "cweiske.de": {
+      "out": {
+        "bookmark-of": 2
+      },
+      "score": 0.516
+    },
+    "boffosocko.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.444
+    },
+    "www.marcus-povey.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.345
+    },
+    "petermolnar.eu": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.345
+    },
+    "scripting.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.345
+    },
+    "tilde.club": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.345
+    },
+    "news.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.172
+    }
+  }
+}

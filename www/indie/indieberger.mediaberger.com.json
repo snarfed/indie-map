@@ -1,0 +1,182 @@
+{
+  "domain": "indieberger.mediaberger.com",
+  "urls": [
+    "http://indieberger.mediaberger.com/",
+    "http://christian.hockenberger.us"
+  ],
+  "names": [
+    "Ari Rosenberger",
+    "Indieberger",
+    "Hockenberger.us",
+    "Christian Hockenberger at Hockenberger.us"
+  ],
+  "descriptions": [
+    "Father, Husband, Designer, Illustrator, Developer, Author and Soldier"
+  ],
+  "pictures": [
+    "http://indieberger.mediaberger.com/resources/images/avatar-900.jpg",
+    "http://hockenberger.us/favicon.ico?v=1.0.2",
+    "http://hockenberger.us/res/images/avatar-share-og.jpg",
+    "http://hockenberger.us/res/images/avatar-share-twtr.jpg"
+  ],
+  "hcard": {
+    "children": [
+      {
+        "properties": {
+          "country-name": [
+            "Germany"
+          ],
+          "locality": [
+            "Frankenthal"
+          ],
+          "name": [
+            "from Frankenthal, Germany"
+          ]
+        },
+        "type": [
+          "h-adr"
+        ]
+      }
+    ],
+    "properties": {
+      "family-name": [
+        "Rosenberger"
+      ],
+      "given-name": [
+        "Ari"
+      ],
+      "name": [
+        "Ari Rosenberger"
+      ],
+      "photo": [
+        "http://indieberger.mediaberger.com/resources/images/avatar-900.jpg"
+      ],
+      "url": [
+        "http://indieberger.mediaberger.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ],
+    "value": "Ari Rosenberger"
+  },
+  "rel_mes": [
+    "http://indieberger.mediaberger.com/",
+    "http://mediaberger.com",
+    "https://twitter.com/arirose_ny",
+    "https://www.facebook.com/ari.rosenberger.3",
+    "https://www.instagram.com/arirose_ny/",
+    "http://stackoverflow.com/users/1278475/chrisbergr",
+    "https://github.com/ariroseny",
+    "https://www.pinterest.com/chrisbergr"
+  ],
+  "crawl_start": "2017-04-28T23:33:32",
+  "crawl_end": "2017-04-28T23:34:21",
+  "num_pages": 77,
+  "total_html_size": 1104898,
+  "servers": [
+    "Apache (Debian)"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/indieberger.mediaberger.com/webmention"
+    ],
+    "micropub": [
+      "http://indieberger.mediaberger.com/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 759,
+  "links_in": 87,
+  "links": {
+    "brands.mediaberger.com": {
+      "out": {
+        "in-reply-to": 7,
+        "bookmark-of": 3,
+        "other": 73
+      },
+      "score": 1
+    },
+    "christian.hockenberger.us": {
+      "out": {
+        "other": 22,
+        "like-of": 3,
+        "in-reply-to": 10
+      },
+      "score": 0.930
+    },
+    "webmention.rocks": {
+      "out": {
+        "in-reply-to": 3,
+        "like-of": 3,
+        "other": 8,
+        "bookmark-of": 3
+      },
+      "score": 0.783
+    },
+    "brid.gy": {
+      "in": {
+        "other": 36
+      },
+      "score": 0.659
+    },
+    "jothut.com": {
+      "in": {
+        "other": 33
+      },
+      "score": 0.645
+    },
+    "ignite.digitalignition.net": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.552
+    },
+    "chrisbergr.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.424
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.424
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.297
+    },
+    "boghop.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

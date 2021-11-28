@@ -1,0 +1,99 @@
+{
+  "domain": "tomgrange.com",
+  "urls": [
+    "https://tomgrange.com/profile/tgrange",
+    "https://www.facebook.com/thomas.grange1",
+    "https://twitter.com/tom_grange",
+    "https://github.com/tgrange",
+    "https://www.linkedin.com/pub/tom-grange",
+    "https://plus.google.com/103944027848212028889/posts"
+  ],
+  "names": [
+    "Tom Grange"
+  ],
+  "descriptions": [
+    "A personal website for Tom Grange"
+  ],
+  "pictures": [
+    "https://tomgrange.com/file/3c00ef5988c10621cd383bf8a2f4b02b"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Tom Grange"
+      ],
+      "note": [
+        {
+          "html": " ",
+          "value": " "
+        }
+      ],
+      "photo": [
+        "https://tomgrange.com/file/3c00ef5988c10621cd383bf8a2f4b02b"
+      ],
+      "profile": [
+        "Tom Grange"
+      ],
+      "url": [
+        "https://tomgrange.com/profile/tgrange",
+        "https://tomgrange.com/profile/tgrange",
+        "https://www.facebook.com/thomas.grange1",
+        "https://twitter.com/tom_grange",
+        "https://github.com/tgrange",
+        "https://www.linkedin.com/pub/tom-grange",
+        "https://plus.google.com/103944027848212028889/posts"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://www.facebook.com/thomas.grange1",
+    "https://twitter.com/tom_grange",
+    "https://github.com/tgrange",
+    "https://www.linkedin.com/pub/tom-grange",
+    "https://plus.google.com/103944027848212028889/posts"
+  ],
+  "crawl_start": "2017-06-10T02:00:58",
+  "crawl_end": "2017-06-10T02:01:14",
+  "num_pages": 11,
+  "total_html_size": 158152,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://tomgrange.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 56,
+  "links_in": 2,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.224
+    }
+  }
+}

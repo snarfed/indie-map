@@ -1,0 +1,266 @@
+{
+  "domain": "mixedpuppy.withknown.com",
+  "urls": [
+    "https://mixedpuppy.withknown.com/profile/mixedpuppy",
+    "http://shane.caraveo.com",
+    "http://www.twitter.com/mixedpuppy",
+    "https://www.facebook.com/mixedpuppy"
+  ],
+  "names": [
+    "Shane Caraveo",
+    "mixedpuppy"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://mixedpuppy.withknown.com/gfx/users/default-05.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Shane Caraveo"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "https://mixedpuppy.withknown.com/gfx/users/default-05.png"
+      ],
+      "profile": [
+        "Shane Caraveo"
+      ],
+      "url": [
+        "https://mixedpuppy.withknown.com/profile/mixedpuppy",
+        "https://mixedpuppy.withknown.com/profile/mixedpuppy",
+        "http://shane.caraveo.com",
+        "http://www.twitter.com/mixedpuppy",
+        "https://www.facebook.com/mixedpuppy"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://shane.caraveo.com",
+    "http://www.twitter.com/mixedpuppy",
+    "https://www.facebook.com/mixedpuppy"
+  ],
+  "crawl_start": "2017-04-29T21:31:42",
+  "crawl_end": "2017-04-29T21:32:16",
+  "num_pages": 37,
+  "total_html_size": 780136,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://mixedpuppy.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://mixedpuppy.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://mixedpuppy.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://mixedpuppy.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 171,
+  "links_in": 2,
+  "links": {
+    "twitter.com/mixedpuppy": {
+      "out": {
+        "other": 30
+      },
+      "score": 1
+    },
+    "facebook.com/mixedpuppy": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.875
+    },
+    "shane.caraveo.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.875
+    },
+    "jacquesmattheij.com": {
+      "out": {
+        "other": 3,
+        "in-reply-to": 3
+      },
+      "score": 0.875
+    },
+    "brid-gy.appspot.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.778
+    },
+    "www.doityourselfrv.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.733
+    },
+    "webmention.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.645
+    },
+    "twitter.com/compwolf": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.606
+    },
+    "canuckistani.ca": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.509
+    },
+    "twitter.com/todpunk": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.509
+    },
+    "jrburke.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.509
+    },
+    "twitter.com/benwerd": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.509
+    },
+    "twitter.com/rtanglao": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.509
+    },
+    "doglet.ca": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.509
+    },
+    "whatever": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.509
+    },
+    "rolandtanglao.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.509
+    },
+    "twitter.com/asutherland": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.509
+    },
+    "twitter.com/damien_p": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.509
+    },
+    "bmann.ca": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.509
+    },
+    "twitter.com/bwinton": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.509
+    },
+    "www.brid.gy": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.509
+    },
+    "twitter.com/mike_ivanov": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.340
+    },
+    "twitter.com/justdoglet": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.340
+    },
+    "twitter.com/bmann": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.340
+    },
+    "twitter.com/canuckistani": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.340
+    },
+    "twitter.com/d94fa590551b41d": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.340
+    },
+    "twitter.com/jrburke": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.340
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.169
+    }
+  }
+}

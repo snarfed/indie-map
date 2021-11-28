@@ -1,0 +1,190 @@
+{
+  "domain": "known.johnj.info",
+  "urls": [
+    "http://known.johnj.info/profile/johnjohnston",
+    "http://johnjohnston.info/blog",
+    "http://johnjohnston.info/106",
+    "http://twitter.com/johnjohnston",
+    "http://flickr.com/troutcolor"
+  ],
+  "names": [
+    "John Johnston",
+    "What do I Know?"
+  ],
+  "descriptions": [
+    "A primary school teacher, in Glasgow Scotland. Currently employed as an ICT staff Development Officer in North Lanarkshire & seconded to Glow Scotland's national online environment to support learning as a 'product owner' mostly working in the blogs team.",
+    "testing known"
+  ],
+  "pictures": [
+    "http://known.johnj.info/file/6a19638f14af7c3f7b4bb3ef9842d981/thumb.png",
+    "http://known.johnj.info/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "John Johnston"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>A primary school teacher, in Glasgow Scotland. Currently employed as an ICT staff Development Officer in North Lanarkshire &amp; seconded to Glow Scotland's national online environment to support learning as a 'product owner' mostly working in the blogs team.</p>\n</div>",
+          "value": "\nA primary school teacher, in Glasgow Scotland. Currently employed as an ICT staff Development Officer in North Lanarkshire & seconded to Glow Scotland's national online environment to support learning as a 'product owner' mostly working in the blogs team.\n"
+        }
+      ],
+      "photo": [
+        "http://known.johnj.info/file/6a19638f14af7c3f7b4bb3ef9842d981/thumb.png"
+      ],
+      "profile": [
+        "John Johnston"
+      ],
+      "url": [
+        "http://known.johnj.info/profile/johnjohnston",
+        "http://known.johnj.info/profile/johnjohnston",
+        "http://johnjohnston.info/blog",
+        "http://johnjohnston.info/106",
+        "http://twitter.com/johnjohnston",
+        "http://flickr.com/troutcolor"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://johnjohnston.info/blog",
+    "http://johnjohnston.info/106",
+    "http://twitter.com/johnjohnston",
+    "http://flickr.com/troutcolor"
+  ],
+  "crawl_start": "2017-04-29T04:35:23",
+  "crawl_end": "2017-04-29T04:59:38",
+  "num_pages": 1772,
+  "total_html_size": 37748797,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-geo",
+    "h-entry",
+    "h-card",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.johnj.info/webmention/"
+    ],
+    "micropub": [
+      "http://known.johnj.info/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://known.johnj.info/indieauth/auth"
+    ],
+    "token": [
+      "http://known.johnj.info/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 8851,
+  "links_in": 429,
+  "links": {
+    "johnjohnston.info": {
+      "out": {
+        "other": 2183
+      },
+      "in": {
+        "other": 393
+      },
+      "score": 1
+    },
+    "withknown.com": {
+      "out": {
+        "other": 1798
+      },
+      "score": 0.967
+    },
+    "werd.io": {
+      "out": {
+        "other": 11,
+        "in-reply-to": 9
+      },
+      "in": {
+        "other": 4,
+        "in-reply-to": 15
+      },
+      "score": 0.620
+    },
+    "stream.withknown.com": {
+      "out": {
+        "in-reply-to": 10,
+        "other": 5
+      },
+      "in": {
+        "other": 12
+      },
+      "score": 0.567
+    },
+    "thelocalyarn.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.466
+    },
+    "timowens.io": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.385
+    },
+    "scripting.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.354
+    },
+    "tantek.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.272
+    },
+    "cogdogblog.com": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.260
+    },
+    "mdvfunes.withknown.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.246
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0818
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0818
+    }
+  }
+}

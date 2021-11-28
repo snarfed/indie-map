@@ -1,0 +1,137 @@
+{
+  "domain": "agaric.com",
+  "urls": [
+    "http://agaric.com/",
+    "http://agaric.com/we-build-online"
+  ],
+  "names": [
+    "Agaric",
+    "We build online. | Agaric"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://agaric.com/sites/all/themes/agaric_bootstrap/img/favicon.png"
+  ],
+  "hcard": {
+    "properties": {
+      "logo": [
+        "http://agaric.com/sites/all/themes/agaric_bootstrap/logo.png"
+      ],
+      "name": [
+        "Agaric"
+      ],
+      "url": [
+        "http://agaric.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://agaric.com/",
+    "https://twitter.com/agaric"
+  ],
+  "crawl_start": "2017-06-09T17:33:26",
+  "crawl_end": "2017-06-09T17:37:22",
+  "num_pages": 224,
+  "total_html_size": 3486107,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 1310,
+  "links_in": 1216,
+  "links": {
+    "mlncn.withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 1016,
+        "in-reply-to": 14
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 102
+      },
+      "score": 0.661
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 40
+      },
+      "score": 0.528
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.496
+    },
+    "aaronparecki.com": {
+      "in": {
+        "bookmark-of": 12
+      },
+      "score": 0.455
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.378
+    },
+    "rhiaro.co.uk": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.279
+    },
+    "indiewebify.me": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.256
+    },
+    "news.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.199
+    },
+    "www.funnymonkey.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0991
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0991
+    },
+    "tantek.com": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.0991
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0991
+    }
+  }
+}

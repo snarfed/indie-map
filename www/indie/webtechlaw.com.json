@@ -1,0 +1,63 @@
+{
+  "domain": "webtechlaw.com",
+  "urls": [
+    "http://webtechlaw.com/"
+  ],
+  "names": [
+    "Web•Tech•Law - At the intersection of the Web, technology and the law",
+    "Web•Tech•Law"
+  ],
+  "descriptions": [
+    "At the intersection of the Web, technology and the law"
+  ],
+  "pictures": [
+    "http://webtechlaw.com/wp-content/uploads/2014/06/cropped-BlackLogo_Vertical1.jpg",
+    "https://i1.wp.com/webtechlaw.com/wp-content/uploads/2014/06/cropped-BlackLogo_Vertical1.jpg?fit=32%2C32",
+    "https://i1.wp.com/webtechlaw.com/wp-content/uploads/2014/06/cropped-BlackLogo_Vertical1.jpg?fit=192%2C192"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-05-06T01:58:11",
+  "crawl_end": "2017-05-06T03:04:37",
+  "num_pages": 1559,
+  "total_html_size": 78328975,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-feed",
+    "h-entry",
+    "h-as-mention"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://webtechlaw.com/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 28003,
+  "links_in": 42,
+  "links": {
+    "pauljacobson.me": {
+      "in": {
+        "other": 42
+      },
+      "out": {
+        "other": 14
+      },
+      "score": 0.475
+    },
+    "oauth.net": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.428
+    }
+  }
+}

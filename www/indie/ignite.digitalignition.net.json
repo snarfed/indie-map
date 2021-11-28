@@ -1,0 +1,123 @@
+{
+  "domain": "ignite.digitalignition.net",
+  "urls": [
+    "https://ignite.digitalignition.net/"
+  ],
+  "names": [
+    "Ignite Blog by Ruxton | RuxtonAU | Greg Tangey | iTALM - iTunes Affiliate Link Maker Plugin"
+  ],
+  "descriptions": [
+    "The personal blog of Ruxton (Greg Tangey) about all things that are interesting or maybe uninteresting?"
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://plus.google.com/+GregTangey",
+    "https://www.flickr.com/people/ruxton/",
+    "https://github.com/ruxton/",
+    "https://twitter.com/ruxton",
+    "http://www.last.fm/user/Ruxton",
+    "https://www.facebook.com/greg.tangey",
+    "http://stackoverflow.com/users/2181156/ruxton?tab=profile",
+    "https://instagram.com/rhythmnpoetry/"
+  ],
+  "crawl_start": "2017-04-24T05:27:50",
+  "crawl_end": "2017-04-24T06:34:58",
+  "num_pages": 1075,
+  "total_html_size": 23304896,
+  "servers": [
+    "nginx (Ubuntu)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-as-note",
+    "h-feed",
+    "h-as-image",
+    "h-as-article",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://ignite.digitalignition.net/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://ignite.digitalignition.net/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 18722,
+  "links_in": 349,
+  "links": {
+    "independentpublisher.me": {
+      "out": {
+        "other": 1074
+      },
+      "score": 0.787
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "like-of": 6,
+        "in-reply-to": 35
+      },
+      "score": 0.536
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 170
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.528
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 136
+      },
+      "score": 0.504
+    },
+    "suda.co.uk": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.254
+    },
+    "indieberger.mediaberger.com": {
+      "in": {
+        "in-reply-to": 2
+      },
+      "score": 0.236
+    },
+    "brands.mediaberger.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.236
+    },
+    "webmention.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0711
+    }
+  }
+}

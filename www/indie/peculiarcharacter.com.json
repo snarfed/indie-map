@@ -1,0 +1,64 @@
+{
+  "domain": "peculiarcharacter.com",
+  "urls": [
+    "http://peculiarcharacter.com/"
+  ],
+  "names": [
+    "Of a Peculiar Character – Ruminations on food, drink, travel, life and reason."
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://i1.wp.com/peculiarcharacter.com/wp-content/uploads/2015/11/cropped-pc_site_identity.png?fit=32%2C32",
+    "http://i1.wp.com/peculiarcharacter.com/wp-content/uploads/2015/11/cropped-pc_site_identity.png?fit=192%2C192"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/cmdln",
+    "mailto:thomas@peculiarcharacter.com"
+  ],
+  "crawl_start": "2017-04-30T22:28:51",
+  "crawl_end": "2017-05-01T02:01:52",
+  "num_pages": 2145,
+  "total_html_size": 82805068,
+  "servers": [
+    "Apache (Ubuntu)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-as-like",
+    "h-as-mention",
+    "h-as-reply",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://peculiarcharacter.com/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 14733,
+  "links_in": 3909,
+  "links": {
+    "thecommandline.net": {
+      "in": {
+        "other": 3903
+      },
+      "out": {
+        "other": 2144
+      },
+      "score": 0.994
+    },
+    "kenzoid.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.198
+    }
+  }
+}

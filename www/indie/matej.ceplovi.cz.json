@@ -1,0 +1,128 @@
+{
+  "domain": "matej.ceplovi.cz",
+  "urls": [
+    "http://matej.ceplovi.cz/",
+    "sms:+420604893825",
+    "https://github.com/mcepl",
+    "https://twitter.com/mcepl",
+    "mailto:matej@ceplovi.cz",
+    "xmpp:matej@ceplovi.cz"
+  ],
+  "names": [
+    "Matěj Cepl",
+    "\n      Matej Cepl's homepage\n    "
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {
+    "properties": {
+      "adr": [
+        {
+          "properties": {
+            "name": [
+              "Květná 43\nPraha 3\n, \n  130 00\nCzechia"
+            ]
+          },
+          "type": [
+            "h-adr"
+          ],
+          "value": "Květná 43\nPraha 3\n, \n  130 00\nCzechia"
+        }
+      ],
+      "key": [
+        "https://matej.ceplovi.cz/key.asc"
+      ],
+      "name": [
+        "Matěj Cepl"
+      ],
+      "org": [
+        "Red Hat"
+      ],
+      "tel": [
+        "+420 604 893 825"
+      ],
+      "url": [
+        "http://matej.ceplovi.cz/",
+        "sms:+420604893825",
+        "https://github.com/mcepl",
+        "https://twitter.com/mcepl",
+        "mailto:matej@ceplovi.cz",
+        "xmpp:matej@ceplovi.cz"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "sms:+420604893825",
+    "https://github.com/mcepl",
+    "https://twitter.com/mcepl",
+    "mailto:matej@ceplovi.cz",
+    "xmpp:matej@ceplovi.cz",
+    "https://matej.ceplovi.cz/key.asc"
+  ],
+  "crawl_start": "2017-04-24T13:10:09",
+  "crawl_end": "2017-04-24T13:20:15",
+  "num_pages": 419,
+  "total_html_size": 5246887,
+  "servers": [
+    "Apache (CentOS)",
+    "S5",
+    "Docutils: http://docutils.sourceforge.net/"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "IRC"
+  ],
+  "endpoints": {},
+  "links_out": 3130,
+  "links_in": 112,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 73
+      },
+      "score": 0.716
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 35
+      },
+      "score": 0.594
+    },
+    "scripting.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.544
+    },
+    "c2.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.501
+    },
+    "ascher.ca": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.232
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.116
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.116
+    }
+  }
+}

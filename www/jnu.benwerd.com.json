@@ -1,0 +1,398 @@
+{
+  "domain": "jnu.benwerd.com",
+  "urls": [
+    "http://jnu.benwerd.com/profile/jnu",
+    "https://withknown.com/",
+    "http://werd.io/"
+  ],
+  "names": [
+    "JNU Tracker",
+    "JNU"
+  ],
+  "descriptions": [
+    "A living archive of news stories covering the protests at Jawaharlal Nehru University, Delhi.\nPowered by Known.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://jnu.benwerd.com/file/f17ebb364f0c647e421c664fbfd60fd5/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "JNU Tracker"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>A living archive of news stories covering the protests at Jawaharlal Nehru University, Delhi.</p>\n<p>Powered by Known.</p>\n</div> ",
+          "value": "\nA living archive of news stories covering the protests at Jawaharlal Nehru University, Delhi.\nPowered by Known.\n "
+        }
+      ],
+      "photo": [
+        "http://jnu.benwerd.com/file/f17ebb364f0c647e421c664fbfd60fd5/thumb.jpg"
+      ],
+      "profile": [
+        "JNU Tracker"
+      ],
+      "url": [
+        "http://jnu.benwerd.com/profile/jnu",
+        "http://jnu.benwerd.com/profile/jnu",
+        "https://withknown.com/",
+        "http://werd.io/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://withknown.com/",
+    "http://werd.io/"
+  ],
+  "crawl_start": "2017-04-28T23:40:22",
+  "crawl_end": "2017-04-28T23:41:11",
+  "num_pages": 74,
+  "total_html_size": 3345873,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "elder",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://jnu.benwerd.com/webmention/"
+    ],
+    "micropub": [
+      "http://jnu.benwerd.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://jnu.benwerd.com/indieauth/auth"
+    ],
+    "token": [
+      "http://jnu.benwerd.com/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 5204,
+  "links_in": 56,
+  "links": {
+    "timesofindia.indiatimes.com": {
+      "out": {
+        "other": 336
+      },
+      "score": 1
+    },
+    "www.indiatvnews.com": {
+      "out": {
+        "other": 288
+      },
+      "score": 0.977
+    },
+    "www.nyoooz.com": {
+      "out": {
+        "other": 280
+      },
+      "score": 0.972
+    },
+    "www.ndtv.com": {
+      "out": {
+        "other": 280
+      },
+      "score": 0.972
+    },
+    "www.india.com": {
+      "out": {
+        "other": 224
+      },
+      "score": 0.937
+    },
+    "bilbaoya.com": {
+      "out": {
+        "other": 224
+      },
+      "score": 0.937
+    },
+    "www.dnaindia.com": {
+      "out": {
+        "other": 224
+      },
+      "score": 0.937
+    },
+    "senegal-actu.com": {
+      "out": {
+        "other": 176
+      },
+      "score": 0.900
+    },
+    "www.firstpost.com": {
+      "out": {
+        "other": 168
+      },
+      "score": 0.894
+    },
+    "indianexpress.com": {
+      "out": {
+        "other": 168
+      },
+      "score": 0.894
+    },
+    "www.rediff.com": {
+      "out": {
+        "other": 168
+      },
+      "score": 0.894
+    },
+    "youdontknowfootball.com": {
+      "out": {
+        "other": 120
+      },
+      "score": 0.842
+    },
+    "theindianrepublic.com": {
+      "out": {
+        "other": 112
+      },
+      "score": 0.831
+    },
+    "thevillagessuntimes.com": {
+      "out": {
+        "other": 112
+      },
+      "score": 0.831
+    },
+    "nysepost.com": {
+      "out": {
+        "other": 112
+      },
+      "score": 0.831
+    },
+    "www.tribuneindia.com": {
+      "out": {
+        "other": 112
+      },
+      "score": 0.831
+    },
+    "economictimes.indiatimes.com": {
+      "out": {
+        "other": 112
+      },
+      "score": 0.831
+    },
+    "morungexpress.com": {
+      "out": {
+        "other": 112
+      },
+      "score": 0.831
+    },
+    "www.abplive.in": {
+      "out": {
+        "other": 112
+      },
+      "score": 0.831
+    },
+    "zeenews.india.com": {
+      "out": {
+        "other": 112
+      },
+      "score": 0.831
+    },
+    "www.deccanherald.com": {
+      "out": {
+        "other": 112
+      },
+      "score": 0.831
+    },
+    "www.newindianexpress.com": {
+      "out": {
+        "other": 112
+      },
+      "score": 0.831
+    },
+    "withknown.com": {
+      "out": {
+        "other": 95
+      },
+      "score": 0.806
+    },
+    "billsinsider.com": {
+      "out": {
+        "other": 88
+      },
+      "score": 0.794
+    },
+    "www.oneindia.com": {
+      "out": {
+        "other": 64
+      },
+      "score": 0.745
+    },
+    "gosporttimes.com": {
+      "out": {
+        "other": 64
+      },
+      "score": 0.745
+    },
+    "indiatoday.intoday.in": {
+      "out": {
+        "other": 64
+      },
+      "score": 0.745
+    },
+    "cbsport.org": {
+      "out": {
+        "other": 64
+      },
+      "score": 0.745
+    },
+    "www.financialexpress.com": {
+      "out": {
+        "other": 64
+      },
+      "score": 0.745
+    },
+    "wingatewire.com": {
+      "out": {
+        "other": 64
+      },
+      "score": 0.745
+    },
+    "deshgujarat.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.725
+    },
+    "cinemablaze.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.725
+    },
+    "abruzzo.tv": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.725
+    },
+    "farandulife.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.725
+    },
+    "blogs.timesofindia.indiatimes.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.725
+    },
+    "quadrangleonline.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.725
+    },
+    "www.ibnlive.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.725
+    },
+    "ecommerce-journal.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.725
+    },
+    "leadercall.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.725
+    },
+    "www.tjcnewspaper.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.725
+    },
+    "www.mid-day.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.725
+    },
+    "kashmirobserver.net": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.725
+    },
+    "m.indiatvnews.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.725
+    },
+    "post.jagran.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.725
+    },
+    "www.mumbaimirror.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.725
+    },
+    "werd.io": {
+      "out": {
+        "other": 21
+      },
+      "in": {
+        "other": 39
+      },
+      "score": 0.674
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.353
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.247
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

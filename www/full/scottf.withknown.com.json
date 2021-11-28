@@ -1,0 +1,171 @@
+{
+  "domain": "scottf.withknown.com",
+  "urls": [
+    "https://scottf.withknown.com/profile/mrcranky",
+    "http://scottf.wordpress.com",
+    "https://www.instagram.com/mrcranky"
+  ],
+  "names": [
+    "Scott Flowers",
+    "ScottF"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://scottf.withknown.com/file/f00241a8f4448a48f16f24a5441d66dc/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Scott Flowers"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "https://scottf.withknown.com/file/f00241a8f4448a48f16f24a5441d66dc/thumb.jpg"
+      ],
+      "profile": [
+        "Scott Flowers"
+      ],
+      "url": [
+        "https://scottf.withknown.com/profile/mrcranky",
+        "https://scottf.withknown.com/profile/mrcranky",
+        "http://scottf.wordpress.com",
+        "https://www.instagram.com/mrcranky"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://scottf.wordpress.com",
+    "https://www.instagram.com/mrcranky"
+  ],
+  "crawl_start": "2017-04-30T02:11:44",
+  "crawl_end": "2017-04-30T02:13:07",
+  "num_pages": 87,
+  "total_html_size": 2205249,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://scottf.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 126,
+  "links_in": 4,
+  "links": {
+    "scottf.wordpress.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 1
+    },
+    "www.instagram.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 1
+    },
+    "twitter.com/mrcranky": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.789
+    },
+    "twitter.com/robfarmeryeg": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.754
+    },
+    "twitter.com/CraigKamminga": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.656
+    },
+    "i.imgur.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.493
+    },
+    "brid-gy.appspot.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.493
+    },
+    "twitter.com/kleen": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.493
+    },
+    "twitter.com/funkyflowie": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.329
+    },
+    "twitter.com/associatedeng": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.329
+    },
+    "twitter.com/Laugharchive": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.329
+    },
+    "twitter.com/PaddockWoodGuy": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.329
+    },
+    "twitter.com/RelvuntMan": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.329
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.329
+    },
+    "twitter.com/stephenross": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.329
+    }
+  }
+}

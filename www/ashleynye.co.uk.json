@@ -1,0 +1,1002 @@
+{
+  "domain": "ashleynye.co.uk",
+  "urls": [
+    "http://ashleynye.co.uk/ashleys-tiles-using-phaser/"
+  ],
+  "names": [
+    "Digital media and design – Ashley Nye",
+    "Ashley’s Tiles using Phaser"
+  ],
+  "descriptions": [
+    "I created the game based on the concept set out here, and the storyboard here. I used Phaser, an extremely popular desktop and mobile HTML5 game framework. I highly recommend it. I could have used just HTML, Javascript and CSS but it did end up saving me time in the long run. I really didn't use it to it's full potential, as my game was so simple and didn't require using many of Phaser's amazing features, but nevertheless it will definitely be a go-to framework next time I want to create a game.\r\n\r\nThe trickiest bit was writing the checks for the tile matches. To recap, once all the tiles have moved, the aim was to check if there were any matches of three tiles or more (not diagonally, but they didn't have to be in straight lines as 'L' shapes are permitted). For a long time this function would cause the game to error. It turns out, the tiles were being checked before the animation was complete, and so empty tiles were being checked and causing a mess. Once the problem was identified, it was an easy fix.\r\n\r\nI'll put the game up on GitHub, but for now, the finished game can be played here.\r\n\r\n\r\n\r\nAshley's Tiles - feel free to let me know what you think."
+  ],
+  "pictures": [
+    "http://ashleynye.co.uk/wp-content/uploads/2015/02/favicon.ico",
+    "http://ashleynye.co.uk/wp-content/uploads/2016/01/Screen-Shot-2016-01-06-at-23.43.39.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/ashjnye"
+  ],
+  "crawl_start": "2017-06-09T17:33:32",
+  "crawl_end": "2017-06-09T17:38:33",
+  "num_pages": 206,
+  "total_html_size": 9846208,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "WordPress"
+  ],
+  "endpoints": {},
+  "links_out": 1877,
+  "links_in": 9,
+  "links": {
+    "javascript": {
+      "out": {
+        "other": 612
+      },
+      "score": 1
+    },
+    "twitter.com/ashjnye": {
+      "out": {
+        "other": 410
+      },
+      "score": 0.944
+    },
+    "www.specificfeeds.com": {
+      "out": {
+        "other": 204
+      },
+      "score": 0.845
+    },
+    "www.addthis.com": {
+      "out": {
+        "other": 204
+      },
+      "score": 0.845
+    },
+    "plus.google.com/u": {
+      "out": {
+        "other": 204
+      },
+      "score": 0.845
+    },
+    "play.google.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.406
+    },
+    "itunes.apple.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.371
+    },
+    "www.behance.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.349
+    },
+    "boshrun.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.349
+    },
+    "www.surveymonkey.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.323
+    },
+    "nyewebdesign.co.uk": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.323
+    },
+    "itsuite.it.brighton.ac.uk": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.293
+    },
+    "www.imdb.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.293
+    },
+    "coding.smashingmagazine.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.252
+    },
+    "getskeleton.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.252
+    },
+    "anitagunnschoolofdance.co.uk": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.252
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.252
+    },
+    "www.iflscience.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.252
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.252
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "www.google.co.uk": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.252
+    },
+    "www.boomf.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.252
+    },
+    "www.mrdoob.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.252
+    },
+    "eastbourneallotments.blogspot.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "arisgames.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "www.bbc.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "gabrielecirulli.github.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "www.unheap.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "instone.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "facebook.com/humansofnewyork": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "www.forestry.gov.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "www.bitstrips.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "validator.w3.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "www.fitbit.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "www.fullfatdesigns.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "www.fbomb.co": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "clearleft.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "instagram.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "www.planetdamage.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "appicontemplate.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "css-tricks.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "www.setupablogtoday.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "develop-a-website.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "mashable.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "www.independent.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "facebook.com/ScienceIsSeriouslyAwesome": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "etsy.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "shecodesbtn.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "www.royalgames.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "twitter.com/plotting_shed": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "s463910901.websitehome.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "fitbit.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "research.microsoft.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "twitter.com/hashtag": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "caniuse.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "developers.google.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "www.adhamdannaway.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.195
+    },
+    "www.aresluna.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.nytimes.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "badassideas.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "mcs.open.ac.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.favicon.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "twitter.com/SheCodesBtn": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "wearecolorblind.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.freedigitalphotos.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "luyu.co": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "phaser.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.merton.gov.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.sarahhyndman.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.gamezebo.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.victorpetit.fr": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "stackoverflow.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "xc8sl3.axshare.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "ironyca.wordpress.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "2015.dconstruct.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "desktoppub.about.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.geocaching.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.ginahomer.bigcartel.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.theguardian.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.buzzfeed.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.columbia.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.stumbleupon.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "kuler.adobe.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.gizmag.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.morfoapp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "dribbble.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "fansshare.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "medium.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "2015.ampersandconf.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.fuzzimo.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "womenshistory.about.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "alistapart.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.elegantthemes.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.pinterest.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "gracehopper.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.amazon.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.google.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "helpx.adobe.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "metro.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "intra.iam.hva.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "standfortrees.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "jigsaw.w3.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "facebook.com/Maqaroon": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "gmail.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "womenshistorymonth.gov": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "cargocollective.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "gabrielecirulli.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "phildub.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.sheket.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "jensimmons.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "ginahomer.tumblr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "styletil.es": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.destructoid.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.techabsorbents.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "readwrite.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.huffingtonpost.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.runnersworld.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "facebook.com/IFeakingLoveScience": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.facebook.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.usability.gov": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "inspiringsafetyawards.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.crunchwear.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.lattitudeproductions.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.townereastbourne.org.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.wired.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "nces.ed.gov": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "facebook.com/groups": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "mind42.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "foundation.zurb.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.colourblindawareness.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.washingtonexaminer.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "mogul.ws": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "anotherangryvoice.blogspot.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "liugle.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.humansofnewyork.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.optimalworkshop.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "7blog.7host.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.gamefaqs.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "adactio.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0975
+    },
+    "twitter.com/ampersandconf": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.mountainhardwear.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.rleonardi.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "invis.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.chiharu-shiota.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.sportingtex.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "getbootstrap.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "wespringforward.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.tommeetippee.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "mymymy.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "synodinos.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.coolcore.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.freecontactform.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.mumsnet.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.pelicanbooks.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "archive.dconstruct.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "www.webdesignerdepot.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "color.adobe.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0975
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

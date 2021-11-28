@@ -1,0 +1,317 @@
+{
+  "domain": "www.vellosa.com",
+  "urls": [
+    "https://www.vellosa.com/profile/ian",
+    "https://www.facebook.com/ianvellosa",
+    "https://twitter.com/ianvellosa",
+    "https://www.linkedin.com/in/ianvellosa",
+    "https://plus.google.com/+ianvellosa"
+  ],
+  "names": [
+    "Ian Vellosa",
+    "vellosa.com"
+  ],
+  "descriptions": [
+    "My random brain dumping ground"
+  ],
+  "pictures": [
+    "https://www.vellosa.com/file/0e1c84e9875764e79b6af4e62514a436/thumb.jpg",
+    "https://www.vellosa.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Ian Vellosa"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "https://www.vellosa.com/file/0e1c84e9875764e79b6af4e62514a436/thumb.jpg"
+      ],
+      "profile": [
+        "Ian Vellosa"
+      ],
+      "url": [
+        "https://www.vellosa.com/profile/ian",
+        "https://www.vellosa.com/profile/ian",
+        "https://www.facebook.com/ianvellosa",
+        "https://twitter.com/ianvellosa",
+        "https://www.linkedin.com/in/ianvellosa",
+        "https://plus.google.com/+ianvellosa"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://www.facebook.com/ianvellosa",
+    "https://twitter.com/ianvellosa",
+    "https://www.linkedin.com/in/ianvellosa",
+    "https://plus.google.com/+ianvellosa"
+  ],
+  "crawl_start": "2017-05-06T08:27:29",
+  "crawl_end": "2017-05-06T08:28:33",
+  "num_pages": 47,
+  "total_html_size": 1209331,
+  "servers": [
+    "Apache (Raspbian)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.vellosa.com/webmention/"
+    ],
+    "micropub": [
+      "https://www.vellosa.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://www.vellosa.com/indieauth/auth"
+    ],
+    "token": [
+      "https://www.vellosa.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 324,
+  "links_in": 44,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 47
+      },
+      "score": 1
+    },
+    "twitter.com/ianvellosa": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.954
+    },
+    "plus.google.com/+ianvellosa": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.861
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.861
+    },
+    "facebook.com/ianvellosa": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.861
+    },
+    "chromecast.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.789
+    },
+    "www2.meethue.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.789
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "in-reply-to": 3
+      },
+      "score": 0.778
+    },
+    "vellosa.com": {
+      "in": {
+        "other": 19
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.692
+    },
+    "downloads.sourceforge.net": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 6
+      },
+      "score": 0.681
+    },
+    "www.qnap.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.637
+    },
+    "brid.gy": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.637
+    },
+    "forum.qnap.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.637
+    },
+    "www.sonos.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.637
+    },
+    "www.code42.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.637
+    },
+    "store.google.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.637
+    },
+    "www.logitech.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.637
+    },
+    "yonomi.co": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.637
+    },
+    "sourceforge.net": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.581
+    },
+    "www.raspberrypi.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.581
+    },
+    "www.debian.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.581
+    },
+    "www.eventbrite.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.546
+    },
+    "x.ai": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.458
+    },
+    "bit.ly": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.458
+    },
+    "twitter.com/hhariri": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.306
+    },
+    "hadihariri.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.306
+    },
+    "twitter.com/tweethue": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.306
+    },
+    "twitter.com/XweaamX": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.306
+    },
+    "twitter.com/mdgrkb": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.306
+    },
+    "twitter.com/krlook4": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.306
+    },
+    "twitter.com/developertest09": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.306
+    },
+    "www.meethue.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.306
+    },
+    "twitter.com/OytgxyValentina": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.306
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.153
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

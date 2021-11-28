@@ -1,0 +1,224 @@
+{
+  "domain": "mshook.withknown.com",
+  "urls": [
+    "https://mshook.withknown.com/profile/mshook",
+    "https://delicious.com/mshook",
+    "https://twitter.com/mshook"
+  ],
+  "names": [
+    "Michael Shook",
+    "mshook with known"
+  ],
+  "descriptions": [
+    "Highly curated inchoate miscellany",
+    "inchoate miscellany "
+  ],
+  "pictures": [
+    "https://mshook.withknown.com/file/aea3eafb26f722060a50c13731ef2d8a",
+    "https://mshook.withknown.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Michael Shook"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Highly curated inchoate miscellany</p>\n</div>",
+          "value": "\nHighly curated inchoate miscellany\n"
+        }
+      ],
+      "photo": [
+        "https://mshook.withknown.com/file/aea3eafb26f722060a50c13731ef2d8a"
+      ],
+      "profile": [
+        "Michael Shook"
+      ],
+      "url": [
+        "https://mshook.withknown.com/profile/mshook",
+        "https://mshook.withknown.com/profile/mshook",
+        "https://delicious.com/mshook",
+        "https://twitter.com/mshook"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://delicious.com/mshook",
+    "https://twitter.com/mshook"
+  ],
+  "crawl_start": "2017-04-29T21:31:43",
+  "crawl_end": "2017-04-30T00:44:05",
+  "num_pages": 18448,
+  "total_html_size": 557173297,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://mshook.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 103360,
+  "links_in": 230,
+  "links": {
+    "stream.withknown.com": {
+      "in": {
+        "other": 111,
+        "in-reply-to": 3
+      },
+      "out": {
+        "in-reply-to": 168,
+        "other": 283
+      },
+      "score": 0.747
+    },
+    "hapgood.us": {
+      "out": {
+        "in-reply-to": 177,
+        "other": 255
+      },
+      "score": 0.743
+    },
+    "known.followersoftheapocalyp.se": {
+      "out": {
+        "other": 72,
+        "in-reply-to": 162
+      },
+      "in": {
+        "other": 8
+      },
+      "score": 0.719
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "in-reply-to": 104,
+        "other": 213
+      },
+      "score": 0.701
+    },
+    "known.kevinmarks.com": {
+      "out": {
+        "in-reply-to": 94,
+        "other": 174
+      },
+      "in": {
+        "other": 36
+      },
+      "score": 0.691
+    },
+    "www.kevinmarks.com": {
+      "out": {
+        "other": 74,
+        "in-reply-to": 74
+      },
+      "score": 0.653
+    },
+    "known.networkeffects.ca": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "in-reply-to": 74
+      },
+      "score": 0.636
+    },
+    "earlynovels.withknown.com": {
+      "out": {
+        "in-reply-to": 45,
+        "other": 45
+      },
+      "score": 0.605
+    },
+    "werd.io": {
+      "out": {
+        "other": 162
+      },
+      "in": {
+        "other": 32
+      },
+      "score": 0.564
+    },
+    "blog.jonudell.net": {
+      "out": {
+        "other": 101
+      },
+      "score": 0.511
+    },
+    "leoville.withknown.com": {
+      "out": {
+        "other": 96
+      },
+      "score": 0.506
+    },
+    "svgur.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.446
+    },
+    "krisshaffer.withknown.com": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.443
+    },
+    "cogdogblog.com": {
+      "out": {
+        "other": 46
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.436
+    },
+    "wavelist.xyz": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.416
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 19
+      },
+      "score": 0.283
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.254
+    },
+    "withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.134
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0666
+    }
+  }
+}

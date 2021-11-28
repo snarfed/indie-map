@@ -1,0 +1,70 @@
+{
+  "domain": "traveltonic.net",
+  "urls": [
+    "http://traveltonic.net/"
+  ],
+  "names": [
+    "Travel Tonic"
+  ],
+  "descriptions": [
+    "Travel News, Links and Photos"
+  ],
+  "pictures": [
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/traveltonic"
+  ],
+  "crawl_start": "2017-05-06T01:58:10",
+  "crawl_end": "2017-05-06T03:36:25",
+  "num_pages": 5185,
+  "total_html_size": 160441524,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-feed",
+    "h-cite",
+    "h-as-note",
+    "h-as-article",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://traveltonic.net/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 71489,
+  "links_in": 11,
+  "links": {
+    "indiewebcamp.com": {
+      "out": {
+        "other": 1597
+      },
+      "score": 0.799
+    },
+    "adactio.com": {
+      "out": {
+        "other": 1597
+      },
+      "score": 0.799
+    },
+    "techlifeweb.com": {
+      "in": {
+        "in-reply-to": 6,
+        "like-of": 5
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.383
+    }
+  }
+}

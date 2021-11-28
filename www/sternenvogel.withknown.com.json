@@ -1,0 +1,113 @@
+{
+  "domain": "sternenvogel.withknown.com",
+  "urls": [
+    "https://sternenvogel.withknown.com/profile/svenfb",
+    "http://www.svens-fiction.de",
+    "http://anderswwwo.de"
+  ],
+  "names": [
+    "Sven Lennartz",
+    "Nachrichten eines Sternenvogels"
+  ],
+  "descriptions": [
+    "Huhu,ich recherchiere für einen Artikel / eBook. Wer kennt sich hier aus? Wem darf ich ein paar Fragen stellen?\n---------\nWas schreibt man über sich? In aller Kürze liest sich das so: Sven Lennartz wurde 1962 in Schleswig-Holstein geboren. Er war unter anderem tätig als Webdesigner, Fachautor, Unternehmer. Er lebt im sonnigen Südbaden, wandert, fotografiert.",
+    "eine Test Site"
+  ],
+  "pictures": [
+    "https://sternenvogel.withknown.com/file/1ceaa9f720ea56675b65a97c2368cab6/thumb.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Sven Lennartz"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Huhu,<br/>ich recherchiere für einen Artikel / eBook. Wer kennt sich hier aus? Wem darf ich ein paar Fragen stellen?</p>\n<p>---------</p>\n<p>Was schreibt man über sich? In aller Kürze liest sich das so: Sven Lennartz wurde 1962 in Schleswig-Holstein geboren. Er war unter anderem tätig als Webdesigner, Fachautor, Unternehmer. Er lebt im sonnigen Südbaden, wandert, fotografiert.</p>\n</div>",
+          "value": "\nHuhu,ich recherchiere für einen Artikel / eBook. Wer kennt sich hier aus? Wem darf ich ein paar Fragen stellen?\n---------\nWas schreibt man über sich? In aller Kürze liest sich das so: Sven Lennartz wurde 1962 in Schleswig-Holstein geboren. Er war unter anderem tätig als Webdesigner, Fachautor, Unternehmer. Er lebt im sonnigen Südbaden, wandert, fotografiert.\n"
+        }
+      ],
+      "photo": [
+        "https://sternenvogel.withknown.com/file/1ceaa9f720ea56675b65a97c2368cab6/thumb.png"
+      ],
+      "profile": [
+        "Sven Lennartz"
+      ],
+      "url": [
+        "https://sternenvogel.withknown.com/profile/svenfb",
+        "https://sternenvogel.withknown.com/profile/svenfb",
+        "http://www.svens-fiction.de",
+        "http://anderswwwo.de"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.svens-fiction.de",
+    "http://anderswwwo.de"
+  ],
+  "crawl_start": "2017-04-30T02:21:37",
+  "crawl_end": "2017-04-30T02:21:52",
+  "num_pages": 18,
+  "total_html_size": 346513,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://sternenvogel.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 50,
+  "links_in": 1,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 23
+      },
+      "score": 1
+    },
+    "www.svens-fiction.de": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.906
+    },
+    "anderswwwo.de": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.755
+    },
+    "twitter.com/SvensFiction": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.363
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

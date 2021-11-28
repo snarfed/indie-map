@@ -1,0 +1,69 @@
+{
+  "domain": "ahoy.fischaelameer.de",
+  "urls": [
+    "http://fischaela.github.io"
+  ],
+  "names": [
+    "fischaela.github.io"
+  ],
+  "descriptions": [
+    "Personal portefolio page of Michaela Lehr"
+  ],
+  "pictures": [
+    "http://ahoy.fischaelameer.de/favicon.ico",
+    "http://ahoy.fischaelameer.de/32x32.png",
+    "http://ahoy.fischaelameer.de/16x16.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/FischaelaMeer",
+    "https://plus.google.com/+MichaelaLehr/",
+    "https://alpha.app.net/fischaelameer",
+    "https://github.com/Fischaela"
+  ],
+  "crawl_start": "2017-06-09T17:33:25",
+  "crawl_end": "2017-06-09T17:33:25",
+  "num_pages": 1,
+  "total_html_size": 5422,
+  "servers": [
+    "GitHub.com"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 5,
+  "links_in": 7,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 1
+    },
+    "{{ link.src }}": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.777
+    },
+    "geildanke.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.777
+    },
+    "{{ project.imagehref }}": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.387
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

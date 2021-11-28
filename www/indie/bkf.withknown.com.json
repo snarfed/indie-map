@@ -1,0 +1,124 @@
+{
+  "domain": "bkf.withknown.com",
+  "urls": [
+    "https://bkf.withknown.com/gmay.me",
+    "https://bkf.withknown.com/profile/gma",
+    "http://turkcebkf.wordpress.com",
+    "https://plus.google.com/u/0/+GokceAY/posts",
+    "http://gmay.me"
+  ],
+  "names": [
+    "Gökçe Mehmet AY",
+    "BKF ve fazlası"
+  ],
+  "descriptions": [
+    "Makine Mühendisi, koca, iki çocuk babası. Gelecek düşkuranı",
+    "Known ile çalışan bir bilim, bilim kurgu, fantastik ve sinema sitesi. Özünde aklıma gelenleri yazıyorum."
+  ],
+  "pictures": [
+    "https://bkf.withknown.com/file/5cee6f350b9492ad27f22e7c7764509f/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Gökçe Mehmet AY"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Makine Mühendisi, koca, iki çocuk babası. <br/>Gelecek düşkuranı</p>\n</div>",
+          "value": "\nMakine Mühendisi, koca, iki çocuk babası. Gelecek düşkuranı\n"
+        }
+      ],
+      "photo": [
+        "https://bkf.withknown.com/file/5cee6f350b9492ad27f22e7c7764509f/thumb.jpg"
+      ],
+      "profile": [
+        "Gökçe Mehmet AY"
+      ],
+      "url": [
+        "https://bkf.withknown.com/gmay.me",
+        "https://bkf.withknown.com/profile/gma",
+        "https://bkf.withknown.com/profile/gma",
+        "http://turkcebkf.wordpress.com",
+        "https://plus.google.com/u/0/+GokceAY/posts",
+        "http://gmay.me"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://turkcebkf.wordpress.com",
+    "https://plus.google.com/u/0/+GokceAY/posts",
+    "https://bkf.withknown.com/gmay.me",
+    "http://gmay.me"
+  ],
+  "crawl_start": "2017-04-28T02:15:55",
+  "crawl_end": "2017-04-28T02:19:02",
+  "num_pages": 209,
+  "total_html_size": 5358707,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://bkf.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://bkf.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://bkf.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://bkf.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1299,
+  "links_in": 3,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 209
+      },
+      "score": 1
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.381
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.115
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

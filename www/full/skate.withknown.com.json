@@ -1,0 +1,121 @@
+{
+  "domain": "skate.withknown.com",
+  "urls": [
+    "https://skate.withknown.com/profile/avunque",
+    "http://skateofweb.com",
+    "http://zenofteaching.com",
+    "http://antoniovantaggiato.net"
+  ],
+  "names": [
+    "Antonio Vantaggiato",
+    "Skate of the Web"
+  ],
+  "descriptions": [
+    "I fly (in my mind).",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://skate.withknown.com/gfx/users/default-04.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Antonio Vantaggiato"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I fly (in my mind).</p>\n</div>",
+          "value": "\nI fly (in my mind).\n"
+        }
+      ],
+      "photo": [
+        "https://skate.withknown.com/gfx/users/default-04.png"
+      ],
+      "profile": [
+        "Antonio Vantaggiato"
+      ],
+      "url": [
+        "https://skate.withknown.com/profile/avunque",
+        "https://skate.withknown.com/profile/avunque",
+        "http://skateofweb.com",
+        "http://zenofteaching.com",
+        "http://antoniovantaggiato.net"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://skateofweb.com",
+    "http://zenofteaching.com",
+    "http://antoniovantaggiato.net"
+  ],
+  "crawl_start": "2017-04-30T02:15:58",
+  "crawl_end": "2017-04-30T02:16:24",
+  "num_pages": 58,
+  "total_html_size": 1008919,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://skate.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 190,
+  "links_in": 4,
+  "links": {
+    "zenofteaching.com": {
+      "out": {
+        "other": 54
+      },
+      "score": 1
+    },
+    "antoniovantaggiato.net": {
+      "out": {
+        "other": 54
+      },
+      "score": 1
+    },
+    "skateofweb.com": {
+      "out": {
+        "other": 54
+      },
+      "score": 1
+    },
+    "spectrumculture.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.741
+    },
+    "www.forbes.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.679
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.297
+    }
+  }
+}

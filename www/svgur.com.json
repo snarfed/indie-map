@@ -1,0 +1,140 @@
+{
+  "domain": "svgur.com",
+  "urls": [
+    "http://svgur.com/"
+  ],
+  "names": [
+    "svgshare.com - share SVG vector files"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://svgur.com/static/svgshare.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T02:31:51",
+  "crawl_end": "2017-04-30T02:32:54",
+  "num_pages": 119,
+  "total_html_size": 525143,
+  "servers": [
+    "Google Frontend"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-feed",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "tool",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.herokuapp.com/api/webmention"
+    ]
+  },
+  "links_out": 414,
+  "links_in": 615,
+  "links": {
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 138,
+        "in-reply-to": 80
+      },
+      "score": 1
+    },
+    "kevinmarks.com": {
+      "out": {
+        "other": 119
+      },
+      "score": 0.870
+    },
+    "hash-archive.org": {
+      "out": {
+        "other": 118
+      },
+      "score": 0.868
+    },
+    "twitter.com/intent": {
+      "out": {
+        "other": 118
+      },
+      "score": 0.868
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 163
+      },
+      "score": 0.809
+    },
+    "web.archive.org": {
+      "out": {
+        "other": 59
+      },
+      "score": 0.758
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 117
+      },
+      "score": 0.757
+    },
+    "mshook.withknown.com": {
+      "in": {
+        "other": 52
+      },
+      "score": 0.628
+    },
+    "known.kylewm.com": {
+      "in": {
+        "in-reply-to": 6
+      },
+      "score": 0.541
+    },
+    "kylewm.com": {
+      "in": {
+        "other": 3,
+        "in-reply-to": 2,
+        "like-of": 6
+      },
+      "score": 0.512
+    },
+    "werd.io": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.459
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.350
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.350
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "mention-tech.appspot.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.175
+    },
+    "adactio.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.175
+    }
+  }
+}

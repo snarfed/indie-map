@@ -1,0 +1,227 @@
+{
+  "domain": "cassie.wtf",
+  "crawl_start": "2017-04-28T02:20:34",
+  "crawl_end": "2017-04-28T02:51:48",
+  "num_pages": 290,
+  "total_html_size": 7480895,
+  "servers": [
+    "Apache (Ubuntu)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-as-reply",
+    "h-as-article",
+    "h-entry",
+    "h-as-note",
+    "h-cite"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://cassie.wtf/?webmention=endpoint"
+    ],
+    "micropub": [
+      "https://cassie.wtf/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "hcard": {},
+  "links_out": 1894,
+  "links_in": 109,
+  "links": {
+    "twitter.com/myriadmystic": {
+      "out": {
+        "other": 594
+      },
+      "score": 1
+    },
+    "www.instagram.com": {
+      "out": {
+        "other": 580
+      },
+      "score": 0.997
+    },
+    "www.upwork.com": {
+      "out": {
+        "other": 290
+      },
+      "score": 0.898
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 290
+      },
+      "score": 0.898
+    },
+    "i0.wp.com": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.552
+    },
+    "werd.io": {
+      "in": {
+        "other": 40
+      },
+      "score": 0.521
+    },
+    "soundcloud.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.499
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 28
+      },
+      "score": 0.470
+    },
+    "i1.wp.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.460
+    },
+    "i2.wp.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.449
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 2,
+        "in-reply-to": 4
+      },
+      "score": 0.436
+    },
+    "motherboard.vice.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.408
+    },
+    "www.wired.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.391
+    },
+    "facebook.com/10100753401973659": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.391
+    },
+    "www.huffingtonpost.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.391
+    },
+    "www.cs.columbia.edu": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.391
+    },
+    "www.schneier.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.391
+    },
+    "dspace.mit.edu": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.391
+    },
+    "twitter.com/maymaymx": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.391
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.294
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.253
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.227
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.227
+    },
+    "www.cryptopartymn.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.196
+    },
+    "freekurt.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.196
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.196
+    },
+    "twitter.com/jimpick": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.196
+    },
+    "boycott-sony.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.196
+    },
+    "sensible.mn": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.196
+    },
+    "2016.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.155
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "domain": "kaleemsagard.withknown.com",
+  "urls": [
+    "https://kaleemsagard.withknown.com/profile/kaleemsagard",
+    "http://kaleemsagard.wordpress.com"
+  ],
+  "names": [
+    "Christian Ortega",
+    "KSite"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://kaleemsagard.withknown.com/file/af79fc1c73cb38ae4b085161b2c8f37c"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Christian Ortega"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "https://kaleemsagard.withknown.com/file/af79fc1c73cb38ae4b085161b2c8f37c"
+      ],
+      "profile": [
+        "Christian Ortega"
+      ],
+      "url": [
+        "https://kaleemsagard.withknown.com/profile/kaleemsagard",
+        "https://kaleemsagard.withknown.com/profile/kaleemsagard",
+        "http://kaleemsagard.wordpress.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://kaleemsagard.wordpress.com"
+  ],
+  "crawl_start": "2017-04-29T04:31:37",
+  "crawl_end": "2017-04-29T04:33:41",
+  "num_pages": 148,
+  "total_html_size": 3599444,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://kaleemsagard.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 673,
+  "links_in": 4,
+  "links": {
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.244
+    }
+  }
+}

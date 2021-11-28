@@ -1,0 +1,120 @@
+{
+  "domain": "timboucher.withknown.com",
+  "urls": [
+    "https://timboucher.withknown.com/profile/timboucher",
+    "https://payhip.com/b/HXG2",
+    "http://artplow.tumblr.com/commissions",
+    "http://www.invironment.ca/"
+  ],
+  "names": [
+    "Tim Boucher",
+    "tim.boucher"
+  ],
+  "descriptions": [
+    "Organic farmer & digital artist in Quebec"
+  ],
+  "pictures": [
+    "https://timboucher.withknown.com/gfx/users/default-01.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Tim Boucher"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Organic farmer &amp; digital artist in Quebec</p>\n</div>",
+          "value": "\nOrganic farmer & digital artist in Quebec\n"
+        }
+      ],
+      "photo": [
+        "https://timboucher.withknown.com/gfx/users/default-01.png"
+      ],
+      "profile": [
+        "Tim Boucher"
+      ],
+      "url": [
+        "https://timboucher.withknown.com/profile/timboucher",
+        "https://timboucher.withknown.com/profile/timboucher",
+        "https://payhip.com/b/HXG2",
+        "http://artplow.tumblr.com/commissions",
+        "http://www.invironment.ca/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://payhip.com/b/HXG2",
+    "http://artplow.tumblr.com/commissions",
+    "http://www.invironment.ca/"
+  ],
+  "crawl_start": "2017-04-30T02:47:44",
+  "crawl_end": "2017-04-30T02:48:00",
+  "num_pages": 35,
+  "total_html_size": 813042,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://timboucher.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 104,
+  "links_in": 1,
+  "links": {
+    "artplow.tumblr.com": {
+      "out": {
+        "other": 30
+      },
+      "score": 1
+    },
+    "www.invironment.ca": {
+      "out": {
+        "other": 30
+      },
+      "score": 1
+    },
+    "payhip.com": {
+      "out": {
+        "other": 30
+      },
+      "score": 1
+    },
+    "frommoontomoon.blogspot.ca": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.707
+    },
+    "woocommerce.wordpress.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.562
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "domain": "scottgruber.me",
+  "urls": [
+    "https://scottgruber.me/"
+  ],
+  "names": [
+    "Home | scottgruber.me",
+    "Hello from Scott Gruber"
+  ],
+  "descriptions": [
+    "Welcome to Scott Gruber's Website",
+    "This is the personal website of Scott Gruber. The site follows the POSSE style to publish once and syndicate to many sites."
+  ],
+  "pictures": [
+    "https://scottgruber.me/assets/img/favicon.ico",
+    "https://scottgruber.me/perch/resources/images/scottgruber-3-w1200.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://instagram.com/guyniche",
+    "https://twitter.com/scott_gruber",
+    "http://codepen.io/scottgruber/",
+    "https://github.com/scottgruber"
+  ],
+  "crawl_start": "2017-04-30T02:12:29",
+  "crawl_end": "2017-04-30T02:12:45",
+  "num_pages": 44,
+  "total_html_size": 776773,
+  "servers": [
+    "Apache (Ubuntu)"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/scottgruber.me/webmention"
+    ],
+    "micropub": [
+      "https://scottgruber.me/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 308,
+  "links_in": 122,
+  "links": {
+    "twitter.com/scott_gruber": {
+      "out": {
+        "other": 57
+      },
+      "score": 1
+    },
+    "codepen.io": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.973
+    },
+    "github.com": {
+      "out": {
+        "other": 45
+      },
+      "score": 0.949
+    },
+    "instagram.com": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.945
+    },
+    "twitter.com/intent": {
+      "out": {
+        "other": 39
+      },
+      "score": 0.920
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 66
+      },
+      "score": 0.884
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 26
+      },
+      "score": 0.688
+    },
+    "2016.indieweb.org": {
+      "out": {
+        "in-reply-to": 1
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.540
+    },
+    "docs.grabaperch.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.523
+    },
+    "twitter.com/search": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.485
+    },
+    "pixelpioneers.co": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.439
+    },
+    "twitter.com/pixelpioneers": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.439
+    },
+    "pglaf.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.439
+    },
+    "waterford.sz": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.439
+    },
+    "www.digitalocean.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.439
+    },
+    "twitter.com/WaterfordUWCSA": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.439
+    },
+    "twitter.com/boagworld": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.439
+    },
+    "brid.gy": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.378
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.378
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.340
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.340
+    },
+    "www.ssllabs.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.293
+    },
+    "html5doctor.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.293
+    },
+    "forum.grabaperch.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.293
+    },
+    "php.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.293
+    },
+    "abookapart.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.146
+    },
+    "www.gutenberg.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "gutenberg.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "developers.facebook.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "dev.twitter.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "sass-lang.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "www.google.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "www.abbytheia.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "prismjs.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "ogp.me": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "gist.github.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "grabaperch.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "spoti.fi": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "www.pglaf.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "eastasiastudent.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "furbo.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "www.accesstoinsight.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "werd.io": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.146
+    },
+    "webaim.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "adactio.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "twitter.com/@Abby_the_IA": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "colorsafe.co": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "example.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "twitter.com/@chockenberry": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "www.aaron-gustafson.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

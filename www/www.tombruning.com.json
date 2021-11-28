@@ -1,0 +1,608 @@
+{
+  "domain": "www.tombruning.com",
+  "urls": [
+    "http://tombruning.com/",
+    "http://www.tombruning.com/"
+  ],
+  "names": [
+    "Tom Bruning",
+    "Tom Bruning – Personal Site"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://i1.wp.com/www.tombruning.com/wp-content/uploads/2014/05/IMG_00011-e1412355126962.jpg?w=670",
+    "http://www.tombruning.com/wp-content/uploads/gwpf_icon/favicon.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Tom Bruning"
+      ],
+      "photo": [
+        "https://i1.wp.com/www.tombruning.com/wp-content/uploads/2014/05/IMG_00011-e1412355126962.jpg?w=670"
+      ],
+      "url": [
+        "http://tombruning.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "sms:201.204..0585",
+    "https://github.com/tbruning",
+    "https://twitter.com/tgb",
+    "http://tombruning.com/",
+    "https://micro.blog/tgb"
+  ],
+  "crawl_start": "2017-04-26T03:10:55",
+  "crawl_end": "2017-05-03T05:15:56",
+  "num_pages": 296,
+  "total_html_size": 11073861,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-bookmark",
+    "h-feed",
+    "h-as-page",
+    "h-card",
+    "h-as-article",
+    "h-as-image",
+    "h-cite",
+    "h-adr",
+    "h-entry",
+    "h-as-note"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.tombruning.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://www.tombruning.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 5132,
+  "links_in": 1002,
+  "links": {
+    "tgb.micro.blog": {
+      "out": {
+        "other": 2592
+      },
+      "score": 1
+    },
+    "creativecommons.org": {
+      "out": {
+        "other": 588
+      },
+      "score": 0.827
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 637
+      },
+      "score": 0.756
+    },
+    "notizblog.org": {
+      "out": {
+        "other": 294
+      },
+      "score": 0.746
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 296
+      },
+      "score": 0.746
+    },
+    "goo.gl": {
+      "out": {
+        "other": 273
+      },
+      "score": 0.737
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 182
+      },
+      "score": 0.690
+    },
+    "adactio.com": {
+      "out": {
+        "other": 165
+      },
+      "score": 0.678
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 318
+      },
+      "score": 0.674
+    },
+    "facebook.com/100000286723538": {
+      "out": {
+        "other": 71
+      },
+      "score": 0.580
+    },
+    "i2.wp.com": {
+      "out": {
+        "other": 71
+      },
+      "score": 0.580
+    },
+    "i1.wp.com": {
+      "out": {
+        "other": 61
+      },
+      "score": 0.561
+    },
+    "i0.wp.com": {
+      "out": {
+        "other": 43
+      },
+      "score": 0.520
+    },
+    "brid-gy.appspot.com": {
+      "out": {
+        "other": 39
+      },
+      "score": 0.510
+    },
+    "www.nytimes.com": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.506
+    },
+    "medium.com": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.457
+    },
+    "www.redwineandapplesauce.com": {
+      "out": {
+        "in-reply-to": 5
+      },
+      "score": 0.457
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.437
+    },
+    "facebook.com/app_scoped_user_id": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.426
+    },
+    "lastpass.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.413
+    },
+    "brid.gy": {
+      "in": {
+        "other": 30
+      },
+      "score": 0.398
+    },
+    "davidpeach.co.uk": {
+      "out": {
+        "like-of": 6
+      },
+      "score": 0.372
+    },
+    "david.shanske.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.351
+    },
+    "davidbrin.blogspot.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.351
+    },
+    "www.thehumorcolumnist.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.351
+    },
+    "www.fix.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.351
+    },
+    "arstechnica.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.351
+    },
+    "backchannel.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.338
+    },
+    "www.intrepidnow.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.338
+    },
+    "www.nextdoor.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.338
+    },
+    "vimeo.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.309
+    },
+    "www.ceatec.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.309
+    },
+    "www.eff.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.309
+    },
+    "www.tickld.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.290
+    },
+    "thinkprogress.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.290
+    },
+    "https": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.290
+    },
+    "kylewm.com": {
+      "in": {
+        "like-of": 5,
+        "other": 2
+      },
+      "score": 0.290
+    },
+    "http": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.290
+    },
+    "dealbook.nytimes.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.290
+    },
+    "twitter.com/jeffzeleny": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.290
+    },
+    "www.sciencedaily.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.290
+    },
+    "twitter.com/CNN": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.290
+    },
+    "twitter.com/jmartNYT": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.290
+    },
+    "twitter.com/HighonHillcrest": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.290
+    },
+    "unitedrescue.us": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.290
+    },
+    "kck.st": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.290
+    },
+    "twitter.com/realDonaldTrump": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.290
+    },
+    "www.yahoo.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.290
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.281
+    },
+    "tiny.n9n.us": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 5
+      },
+      "score": 0.281
+    },
+    "www.tylervigen.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "www.businessinsider.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "cwur.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "www.skymaul.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "twitter.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "twofactorauth.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "wh.gov": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "www.newyorker.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "www.abc.net.au": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "plus.google.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "www.itif.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "facebook.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "plus.google.com/u": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "twitter.com/kylewm2": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "www.ft.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "hpwritesblogs.wordpress.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "blog.safaribooksonline.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "www.newscientist.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "fivethirtyeight.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "happyplace.someecards.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "twit.tv": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "pbs.twimg.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.269
+    },
+    "twitter.com/tgb": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.243
+    },
+    "waterpigs.co.uk": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.243
+    },
+    "facebook.com/10204931775552727": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.209
+    },
+    "facebook.com/776909308995286": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.163
+    },
+    "facebook.com/10207000213668923": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.163
+    },
+    "plus.google.com/+TomBruning": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.163
+    },
+    "tombruning.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0811
+    },
+    "lifehacker.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0811
+    },
+    "dreamhost.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0811
+    },
+    "gmail.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0811
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0811
+    },
+    "tel": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0811
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "domain": "paulgrahamraven.com",
+  "urls": [
+    "http://paulgrahamraven.com/profile/paulgrahamraven",
+    "http://velcro-city.co.uk",
+    "http://orcid.org/0000-0002-3555-843X",
+    "http://www.sheffield.ac.uk/usp/researchschool/students/paulraven"
+  ],
+  "names": [
+    "Paul Graham Raven"
+  ],
+  "descriptions": [
+    "* researcher in infrastructure futures and theory (University of Sheffield, UK)* science fiction author and literary critic* writer, theorist, critical futurist* dishevelled mountebank",
+    "Writer, researcher, critic"
+  ],
+  "pictures": [
+    "http://paulgrahamraven.com/file/827bbf92af58c719948970d5170db3aa/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Paul Graham Raven"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>* researcher in infrastructure futures and theory (University of Sheffield, UK)<br/>* science fiction author and literary critic<br/>* writer, theorist, critical futurist<br/>* dishevelled mountebank</p>\n</div> ",
+          "value": "\n* researcher in infrastructure futures and theory (University of Sheffield, UK)* science fiction author and literary critic* writer, theorist, critical futurist* dishevelled mountebank\n "
+        }
+      ],
+      "photo": [
+        "http://paulgrahamraven.com/file/827bbf92af58c719948970d5170db3aa/thumb.jpg"
+      ],
+      "profile": [
+        "Paul Graham Raven"
+      ],
+      "url": [
+        "http://paulgrahamraven.com/profile/paulgrahamraven",
+        "http://paulgrahamraven.com/profile/paulgrahamraven",
+        "http://velcro-city.co.uk",
+        "http://orcid.org/0000-0002-3555-843X",
+        "http://www.sheffield.ac.uk/usp/researchschool/students/paulraven"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://velcro-city.co.uk",
+    "http://orcid.org/0000-0002-3555-843X",
+    "http://www.sheffield.ac.uk/usp/researchschool/students/paulraven"
+  ],
+  "crawl_start": "2017-04-30T01:58:23",
+  "crawl_end": "2017-04-30T02:12:29",
+  "num_pages": 853,
+  "total_html_size": 27811397,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://paulgrahamraven.com/webmention/"
+    ],
+    "micropub": [
+      "http://paulgrahamraven.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "http://paulgrahamraven.com/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 5824,
+  "links_in": 9,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 853
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.296
+    },
+    "blog.bl00cyb.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.187
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "domain": "www.tomlawrence.co.uk",
+  "urls": [
+    "https://www.tomlawrence.co.uk/profile/tomlawrence",
+    "https://twitter.com/tjlawrence",
+    "https://instagram.com/tomlawrence",
+    "https://github.com/tomlawrence",
+    "https://libre.fm/user/TC14",
+    "https://google.com/+TomLawrence"
+  ],
+  "names": [
+    "Tom Lawrence"
+  ],
+  "descriptions": [
+    "South Yorkshire, United Kingdom",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://www.tomlawrence.co.uk/file/64a468bd8f88188c974856d36bac6767"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Tom Lawrence"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>South Yorkshire, United Kingdom</p>\n</div>",
+          "value": "\nSouth Yorkshire, United Kingdom\n"
+        }
+      ],
+      "photo": [
+        "https://www.tomlawrence.co.uk/file/64a468bd8f88188c974856d36bac6767"
+      ],
+      "profile": [
+        "Tom Lawrence"
+      ],
+      "url": [
+        "https://www.tomlawrence.co.uk/profile/tomlawrence",
+        "https://www.tomlawrence.co.uk/profile/tomlawrence",
+        "https://twitter.com/tjlawrence",
+        "https://instagram.com/tomlawrence",
+        "https://github.com/tomlawrence",
+        "https://libre.fm/user/TC14",
+        "https://google.com/+TomLawrence"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/tjlawrence",
+    "https://instagram.com/tomlawrence",
+    "https://github.com/tomlawrence",
+    "https://libre.fm/user/TC14",
+    "https://google.com/+TomLawrence"
+  ],
+  "crawl_start": "2017-05-06T08:16:51",
+  "crawl_end": "2017-05-06T08:17:16",
+  "num_pages": 39,
+  "total_html_size": 914610,
+  "servers": [
+    "Apache (Ubuntu) PHP-1ubuntu4.20 OpenSSLf",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.tomlawrence.co.uk/webmention/"
+    ],
+    "micropub": [
+      "https://www.tomlawrence.co.uk/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://www.tomlawrence.co.uk/indieauth/auth"
+    ],
+    "token": [
+      "https://www.tomlawrence.co.uk/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 231,
+  "links_in": 24,
+  "links": {
+    "twitter.com/dueledge": {
+      "out": {
+        "in-reply-to": 14,
+        "other": 18
+      },
+      "score": 1
+    },
+    "twitter.com/desachieve": {
+      "out": {
+        "other": 7,
+        "in-reply-to": 7
+      },
+      "score": 0.857
+    },
+    "withknown.com": {
+      "out": {
+        "other": 39
+      },
+      "score": 0.843
+    },
+    "twitter.com/joshuatopolsky": {
+      "out": {
+        "other": 6,
+        "in-reply-to": 6
+      },
+      "score": 0.828
+    },
+    "twitter.com/tjlawrence": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.791
+    },
+    "github.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.731
+    },
+    "google.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.731
+    },
+    "instagram.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.731
+    },
+    "libre.fm": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.731
+    },
+    "brid.gy": {
+      "in": {
+        "other": 22
+      },
+      "score": 0.598
+    },
+    "open.spotify.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.536
+    },
+    "allen street 102": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.402
+    },
+    "twitter.com/rollbluetide": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.269
+    },
+    "twitter.com/carlospwk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.269
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.134
+    }
+  }
+}

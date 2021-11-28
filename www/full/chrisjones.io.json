@@ -1,0 +1,814 @@
+{
+  "domain": "chrisjones.io",
+  "urls": [
+    "https://chrisjones.io/about/"
+  ],
+  "names": [
+    "me",
+    "chrisjones.io"
+  ],
+  "descriptions": [
+    "This is the personal website of Chris Jones"
+  ],
+  "pictures": [
+    "https://chrisjones.io/favicon.ico",
+    "https://chrisjones.io/img/site-icons/favicon-16x16.png",
+    "https://chrisjones.io/img/site-icons/favicon-32x32.png",
+    "https://chrisjones.io/img/site-icons/favicon-96x96.png",
+    "https://chrisjones.io/img/site-icons/favicon-160x160.png",
+    "https://chrisjones.io/img/site-icons/favicon-196x196.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "me"
+      ],
+      "url": [
+        "https://chrisjones.io/about/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/chrisjonesio",
+    "https://www.instagram.com/chrisjonesio/",
+    "https://github.com/chrisjonesio",
+    "https://chrisjones.io/about/"
+  ],
+  "crawl_start": "2017-04-28T05:16:18",
+  "crawl_end": "2017-04-28T05:26:56",
+  "num_pages": 886,
+  "total_html_size": 15178871,
+  "servers": [
+    "Apache (CentOS)"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-geo"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "authorization"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://chrisjones.io/service/webmention/"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ]
+  },
+  "links_out": 3320,
+  "links_in": 22,
+  "links": {
+    "keybase.io": {
+      "out": {
+        "other": 679
+      },
+      "score": 1
+    },
+    "ca.linkedin.com": {
+      "out": {
+        "other": 677
+      },
+      "score": 0.999
+    },
+    "twitter.com/chrisjonesio": {
+      "out": {
+        "other": 677
+      },
+      "score": 0.999
+    },
+    "www.instagram.com": {
+      "out": {
+        "other": 677
+      },
+      "score": 0.999
+    },
+    "twitter.com/intent": {
+      "out": {
+        "other": 381
+      },
+      "score": 0.920
+    },
+    "betterleftunsaid.ca": {
+      "out": {
+        "other": 53
+      },
+      "score": 0.645
+    },
+    "cellar-chrisjones-io.s3.amazonaws.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.496
+    },
+    "www.pc.gc.ca": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.471
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.428
+    },
+    "brid.gy": {
+      "in": {
+        "other": 22
+      },
+      "score": 0.428
+    },
+    "www.gov.ns.ca": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.319
+    },
+    "www.gadventures.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.248
+    },
+    "www.trails.gov.ns.ca": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.248
+    },
+    "www.hikenovascotia.ca": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.193
+    },
+    "www.fairmont.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.193
+    },
+    "princegeorge.ca": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.193
+    },
+    "www.mec.ca": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.193
+    },
+    "lt.gov.ns.ca": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.193
+    },
+    "lu.mu": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.193
+    },
+    "cobequidecotrails.ca": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.193
+    },
+    "javablendcoffee.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.193
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.193
+    },
+    "www.planeterra.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.193
+    },
+    "www.castellanahotel.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.fastcodesign.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.pinholeday.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "resume.chrisjones.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.capebretonpost.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.capetocapetrail.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.fullhost.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.nsexplore.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.parl.gc.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.tancookislandtourism.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.librarything.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.wolfville.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.capechignecto.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.tambopatalodge.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.zencoder.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.thinknovascotia.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "laws-lois.justice.gc.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.seecoast.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "ablesense.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.aphotoeditor.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.crumpler.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "mapicons.nicolasmollet.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "film-stash.tumblr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "frankchimero.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "nownownow.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "blog.builthalifax.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "iat-sia.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "museum.gov.ns.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.maritimeconservatory.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.markhamdistrict.hs.yrdsb.edu.on.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.mcnabsisland.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "hikenovascotia.wordpress.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.cbcmusic.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.themeetingplacecusco.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.amospewter.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "api.betterleftunsaid.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.shipspotting.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.webat25.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "api.chrisjones.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.roundchurch.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.stpaulshalifax.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "enperublog.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.ilfordphoto.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.mtcw.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "stmatts.ns.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.leuchtturm1917.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.qmeats.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "torchystacos.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.nocturnehalifax.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.raffles.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.wilesfarmmarket.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "moreintelligentlife.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "cinematreasures.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.stmatts.ns.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.bhphotovideo.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "gallery.betterleftunsaid.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "http": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "nscad.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.bbc.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "shop.lomography.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "shop.magnumphotos.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.write-impressions.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.skydiggers.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "lens.blogs.nytimes.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "maps.google.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "springlandshotel.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.cipo.ic.gc.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.scotianhiker.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "sonyclassics.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "saqra.pe": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "trackingblaise.blogspot.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.biolitestove.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.williamarmstrongps.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.flightcentre.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.shootingfilm.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.stmbasilica.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.halifax.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.caffenol-cookbook.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.confederationbridge.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.glenmorangie.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.newyorker.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "zencoder.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "shop.lego.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.aperture.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.nsccnow.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "betterleftunsaod.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "llvn.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.trinitywallstreet.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "cpaws.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.hotelprismacusco.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.lowepro.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.nsaa.ns.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "chc.chebucto.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.dal.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "youtu.be": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "fundygeological.novascotia.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.mta-ns.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "doorsopenhalifax.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.podcamphalifax.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    },
+    "www.slimframework.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0960
+    }
+  }
+}

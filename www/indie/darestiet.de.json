@@ -1,0 +1,108 @@
+{
+  "domain": "darestiet.de",
+  "urls": [
+    "https://darestiet.de/profile/peter",
+    "https://www.hormanns-wenz.de",
+    "https://twitter.com/darestiet"
+  ],
+  "names": [
+    "Peter Hormanns",
+    "Guten Tag vom Niederrhein",
+    "Darestiet!"
+  ],
+  "descriptions": [
+    "DevOps, Java Technology, Free Software, Hostsharing eG",
+    "DevOps, Java Technology, Free Software"
+  ],
+  "pictures": [
+    "https://darestiet.de/file/4603144de19c2dd4ded71627c80dd6fa"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Peter Hormanns"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>DevOps, Java Technology, Free Software, Hostsharing eG</p>\n</div>",
+          "value": "\nDevOps, Java Technology, Free Software, Hostsharing eG\n"
+        }
+      ],
+      "photo": [
+        "https://darestiet.de/file/4603144de19c2dd4ded71627c80dd6fa"
+      ],
+      "profile": [
+        "Peter Hormanns"
+      ],
+      "url": [
+        "https://darestiet.de/profile/peter",
+        "https://darestiet.de/profile/peter",
+        "https://www.hormanns-wenz.de",
+        "https://twitter.com/darestiet"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://www.hormanns-wenz.de",
+    "https://twitter.com/darestiet"
+  ],
+  "crawl_start": "2017-04-28T05:16:40",
+  "crawl_end": "2017-04-28T05:16:55",
+  "num_pages": 22,
+  "total_html_size": 511157,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://darestiet.de/webmention/"
+    ],
+    "micropub": [
+      "https://darestiet.de/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://darestiet.de/indieauth/auth"
+    ],
+    "token": [
+      "https://darestiet.de/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 230,
+  "links_in": 1,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

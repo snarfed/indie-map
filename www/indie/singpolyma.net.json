@@ -1,0 +1,334 @@
+{
+  "domain": "singpolyma.net",
+  "urls": [
+    "https://singpolyma.net",
+    "xmpp:singpolyma@singpolyma.net",
+    "https://singpolyma.net/public.asc",
+    "https://singpolyma.net/"
+  ],
+  "names": [
+    "Stephen Paul Weber",
+    "Singpolyma "
+  ],
+  "descriptions": [
+    "I'm a geek. I'm employed to write code. I'm otherwise occupied in Libre Software and Culture movements, Open Web advocacy, and whatever else I think is a good idea.  I'm also an MK who grew up in Chad, Africa."
+  ],
+  "pictures": [
+    "https://singpolyma.net/avatar.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "additional-name": [
+        "Paul"
+      ],
+      "email": [
+        "mailto:singpolyma@singpolyma.net"
+      ],
+      "family-name": [
+        "Weber"
+      ],
+      "given-name": [
+        "Stephen"
+      ],
+      "key": [
+        "59E6 82C3 EAF3 9A21 0CA7  3534 D11C 2911 CE51 9CDE"
+      ],
+      "name": [
+        "Stephen Paul Weber"
+      ],
+      "nickname": [
+        "singpolyma"
+      ],
+      "note": [
+        "I'm a geek. I'm employed to write code. I'm otherwise occupied in Libre Software and Culture movements, Open Web advocacy, and whatever else I think is a good idea.  I'm also an MK who grew up in Chad, Africa."
+      ],
+      "photo": [
+        "https://singpolyma.net/avatar.jpg"
+      ],
+      "tel": [
+        "+1 226 666 9991"
+      ],
+      "uid": [
+        "https://singpolyma.net"
+      ],
+      "url": [
+        "https://singpolyma.net",
+        "xmpp:singpolyma@singpolyma.net",
+        "https://singpolyma.net/public.asc"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://singpolyma.net/",
+    "https://singpolyma.net/contacts/",
+    "https://singpolyma.net",
+    "xmpp:singpolyma@singpolyma.net",
+    "mailto:singpolyma@singpolyma.net",
+    "sms:+1.226.666.9991",
+    "https://singpolyma.net/public.asc",
+    "http://flickr.com/photos/singpolyma/",
+    "http://github.com/singpolyma",
+    "http://plancast.com/singpolyma",
+    "http://reddit.com/user/singpolyma/",
+    "http://www.youtube.com/user/singpolyma",
+    "http://singpolyma.net/"
+  ],
+  "crawl_start": "2017-04-25T09:49:13",
+  "crawl_end": "2017-04-26T14:54:25",
+  "num_pages": 19820,
+  "total_html_size": 483303942,
+  "servers": [
+    "Apache (Debian)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-event",
+    "h-feed",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "elder",
+    "IRC",
+    "webmention",
+    "authorization",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://singpolyma.net/wp-json/webmention/1.0/endpoint"
+    ],
+    "authorization": [
+      "https://indiecert.net/auth"
+    ]
+  },
+  "links_out": 193785,
+  "links_in": 2720,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 1471
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.675
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1064
+      },
+      "score": 0.645
+    },
+    "tantek.com": {
+      "out": {
+        "other": 79
+      },
+      "score": 0.469
+    },
+    "shkspr.mobi": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.379
+    },
+    "meyerweb.com": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.379
+    },
+    "loadaverage.org": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 41,
+        "in-reply-to": 3
+      },
+      "score": 0.376
+    },
+    "example.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.373
+    },
+    "brid.gy": {
+      "in": {
+        "other": 50
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.366
+    },
+    "notiz.blog": {
+      "in": {
+        "other": 48
+      },
+      "score": 0.358
+    },
+    "oauth.net": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.331
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 4,
+        "in-reply-to": 1
+      },
+      "in": {
+        "like-of": 1,
+        "other": 3
+      },
+      "score": 0.291
+    },
+    "adactio.com": {
+      "out": {
+        "other": 9
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.286
+    },
+    "willnorris.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 9
+      },
+      "score": 0.278
+    },
+    "charles.stanho.pe": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.244
+    },
+    "kevinmarks.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.230
+    },
+    "www.obscuritus.ca": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 5
+      },
+      "score": 0.222
+    },
+    "notizblog.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.193
+    },
+    "weber.teamchad.org": {
+      "in": {
+        "other": 3
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.wordyard.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.166
+    },
+    "lifestreamblog.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.166
+    },
+    "io.schiessle.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.166
+    },
+    "sandeep.shetty.in": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.149
+    },
+    "withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.129
+    },
+    "pump.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0642
+    },
+    "hapgood.us": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0642
+    },
+    "blog.superfeedr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0642
+    },
+    "webmention.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0642
+    },
+    "mat.tl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0642
+    },
+    "johneckman.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0642
+    },
+    "superfeedr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0642
+    },
+    "kylewm.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "benward.uk": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

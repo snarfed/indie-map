@@ -1,0 +1,54 @@
+{
+  "domain": "mydigitalself.org",
+  "urls": [
+    "http://mydigitalself.org/"
+  ],
+  "names": [
+    "Sign in",
+    "Show your own Gold"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://mydigitalself.org/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T21:31:47",
+  "crawl_end": "2017-04-29T21:31:50",
+  "num_pages": 4,
+  "total_html_size": 58196,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://mydigitalself.org/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 4,
+  "links_in": 3,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.529
+    }
+  }
+}

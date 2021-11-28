@@ -1,0 +1,115 @@
+{
+  "domain": "skippy.net",
+  "urls": [
+    "https://skippy.net/",
+    "https://skippy.is/"
+  ],
+  "names": [
+    "Scott Merrill",
+    "skippy.net"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://skippy.net/images/scott-merrill-2016.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:skippy@skippy.net"
+      ],
+      "name": [
+        "Scott Merrill"
+      ],
+      "photo": [
+        "https://skippy.net/images/scott-merrill-2016.jpg"
+      ],
+      "url": [
+        "https://skippy.net/",
+        "https://skippy.is/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://skippy.net/",
+    "https://skippy.is/",
+    "https://www.flickr.com/people/skippy",
+    "https://github.com/skpy",
+    "https://keybase.io/skippy",
+    "https://www.linkedin.com/in/scottdmerrill",
+    "https://twitter.com/smerrill"
+  ],
+  "crawl_start": "2017-04-25T10:38:25",
+  "crawl_end": "2017-04-25T10:48:36",
+  "num_pages": 747,
+  "total_html_size": 6332791,
+  "servers": [
+    "Caddy"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "IRC",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/skippy.net/webmention"
+    ]
+  },
+  "links_out": 9437,
+  "links_in": 361,
+  "links": {
+    "chat.indieweb.org": {
+      "in": {
+        "other": 190
+      },
+      "score": 0.670
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 140
+      },
+      "score": 0.630
+    },
+    "miklb.com": {
+      "in": {
+        "other": 20
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.425
+    },
+    "jothut.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.228
+    },
+    "meyerweb.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.177
+    },
+    "thecommandline.net": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.177
+    },
+    "boghop.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

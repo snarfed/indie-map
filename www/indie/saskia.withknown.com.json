@@ -1,0 +1,78 @@
+{
+  "domain": "saskia.withknown.com",
+  "urls": [
+    "http://saskia.withknown.com/"
+  ],
+  "names": [
+    "Saskia Kremer"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://saskia.withknown.com/file/1a72d116a2fa3591917934604c9e9650/thumb.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T02:11:27",
+  "crawl_end": "2017-04-30T02:17:54",
+  "num_pages": 317,
+  "total_html_size": 5998674,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://saskia.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://saskia.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://saskia.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://saskia.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 2162,
+  "links_in": 0,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 317
+      },
+      "score": 1
+    },
+    "test.tinokremer.nl": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.357
+    },
+    "tinokremer.nl": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.357
+    }
+  }
+}

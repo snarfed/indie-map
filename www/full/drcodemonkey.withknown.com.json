@@ -1,0 +1,109 @@
+{
+  "domain": "drcodemonkey.withknown.com",
+  "urls": [
+    "https://drcodemonkey.withknown.com/profile/dschrimpsher",
+    "https://twitter.com/dschrimpsher",
+    "https://plus.google.com/+DanSchrimpsher/posts",
+    "https://www.facebook.com/dan.schrimpsher"
+  ],
+  "names": [
+    "Dan Schrimpsher",
+    "Mobile Computing, Big Data, APIs, and Other Musings"
+  ],
+  "descriptions": [
+    "Exploring how mobile computing, APIs, web services, and big data are changing our lives.",
+    "Discussions on the world of technology from a solider in the trenches"
+  ],
+  "pictures": [
+    "https://drcodemonkey.withknown.com/file/e318bf71560f72a1ff7a4eb2c08923c0/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Dan Schrimpsher"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Exploring how mobile computing, APIs, web services, and big data are changing our lives.</p>\n</div> ",
+          "value": "\nExploring how mobile computing, APIs, web services, and big data are changing our lives.\n "
+        }
+      ],
+      "photo": [
+        "https://drcodemonkey.withknown.com/file/e318bf71560f72a1ff7a4eb2c08923c0/thumb.jpg"
+      ],
+      "profile": [
+        "Dan Schrimpsher"
+      ],
+      "url": [
+        "https://drcodemonkey.withknown.com/profile/dschrimpsher",
+        "https://drcodemonkey.withknown.com/profile/dschrimpsher",
+        "https://twitter.com/dschrimpsher",
+        "https://plus.google.com/+DanSchrimpsher/posts",
+        "https://www.facebook.com/dan.schrimpsher"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/dschrimpsher",
+    "https://plus.google.com/+DanSchrimpsher/posts",
+    "https://www.facebook.com/dan.schrimpsher"
+  ],
+  "crawl_start": "2017-04-28T05:23:42",
+  "crawl_end": "2017-04-28T05:24:59",
+  "num_pages": 107,
+  "total_html_size": 2451812,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://drcodemonkey.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 237,
+  "links_in": 4,
+  "links": {
+    "twitter.com/dschrimpsher": {
+      "out": {
+        "other": 79
+      },
+      "score": 1
+    },
+    "plus.google.com/+DanSchrimpsher": {
+      "out": {
+        "other": 79
+      },
+      "score": 1
+    },
+    "facebook.com/dan.schrimpsher": {
+      "out": {
+        "other": 79
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.275
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "domain": "herrpfarrfrau.de",
+  "urls": [
+    "http://herrpfarrfrau.de/"
+  ],
+  "names": [
+    "Herr Pfarrfrau | Aus dem Leben einer männlichen Pfarrfrau",
+    "Herr Pfarrfrau"
+  ],
+  "descriptions": [
+    "Aus dem Leben einer männlichen Pfarrfrau"
+  ],
+  "pictures": [
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T23:33:31",
+  "crawl_end": "2017-04-28T23:47:40",
+  "num_pages": 179,
+  "total_html_size": 5025800,
+  "servers": [
+    "Apache (Debian)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-as-reply",
+    "h-as-article",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "micropub": [
+      "http://herrpfarrfrau.de/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 797,
+  "links_in": 9,
+  "links": {
+    "dasnuf.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.415
+    },
+    "www.buddenbohm-und-soehne.de": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.270
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.233
+    }
+  }
+}

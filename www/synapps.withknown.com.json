@@ -1,0 +1,104 @@
+{
+  "domain": "synapps.withknown.com",
+  "urls": [
+    "https://synapps.withknown.com/profile/rafbuff",
+    "https://twitter.com/rafbuff"
+  ],
+  "names": [
+    "Rafael Laguna de la Vera",
+    "Synapps home",
+    "Synapps"
+  ],
+  "descriptions": [
+    "Trains, Planes, Automobiles.",
+    "The new home of Rafael's Synapps site"
+  ],
+  "pictures": [
+    "https://synapps.withknown.com/gfx/users/default-04.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Rafael Laguna de la Vera"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Trains, Planes, Automobiles.</p>\n</div>",
+          "value": "\nTrains, Planes, Automobiles.\n"
+        }
+      ],
+      "photo": [
+        "https://synapps.withknown.com/gfx/users/default-04.png"
+      ],
+      "profile": [
+        "Rafael Laguna de la Vera"
+      ],
+      "url": [
+        "https://synapps.withknown.com/profile/rafbuff",
+        "https://synapps.withknown.com/profile/rafbuff",
+        "https://twitter.com/rafbuff"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/rafbuff"
+  ],
+  "crawl_start": "2017-04-30T02:34:29",
+  "crawl_end": "2017-04-30T02:34:38",
+  "num_pages": 20,
+  "total_html_size": 416016,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://synapps.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 15,
+  "links_in": 5,
+  "links": {
+    "twitter.com/rafbuff": {
+      "out": {
+        "other": 11
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.521
+    },
+    "twitter.com/withknown": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.450
+    },
+    "withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.450
+    }
+  }
+}

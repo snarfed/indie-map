@@ -1,0 +1,65 @@
+{
+  "domain": "www.cannonic.com",
+  "urls": [
+    "http://www.cannonic.com/"
+  ],
+  "names": [
+    "cannonic | Tom Cannon's Life  Stream",
+    "cannonic"
+  ],
+  "descriptions": [
+    "Tom Cannon's Life  Stream"
+  ],
+  "pictures": [
+    "http://www.cannonic.com/wp-content/uploads/2014/06/favicon.png",
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T06:06:54",
+  "crawl_end": "2017-04-30T08:26:04",
+  "num_pages": 566,
+  "total_html_size": 20627510,
+  "servers": [
+    "Apache (Unix)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-as-article",
+    "h-as-note",
+    "h-feed",
+    "h-as-video"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.cannonic.com/?webmention=endpoint"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 5751,
+  "links_in": 10,
+  "links": {
+    "notizblog.org": {
+      "out": {
+        "other": 566
+      },
+      "score": 0.864
+    },
+    "brid.gy": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.283
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "domain": "wordius.com",
+  "urls": [
+    "http://wordius.com",
+    "http://twitter.com/wordius",
+    "https://ello.co/wordius"
+  ],
+  "names": [
+    "Jeff Porter",
+    "Wordius - Articles",
+    "Articles",
+    "The Wordius Blog"
+  ],
+  "descriptions": [
+    "End-to-end editorial production; design and build websites (mostly for fun); reformed motorcyclist; incrementally improving this site’s IndieWeb credentials; sign up for far too many betas. Oh, ello.",
+    "Notes about apps, publishing, technology, typography and web design, with occasional diversions"
+  ],
+  "pictures": [
+    "http://wordius.com/images/jeff-192-sq.jpg",
+    "http://wordius.com/images/wordius-favicon.ico?v=2",
+    "http://wordius.com/images/wordius-circle-180.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Jeff Porter"
+      ],
+      "note": [
+        "End-to-end editorial production; design and build websites (mostly for fun); reformed motorcyclist; incrementally improving this site’s IndieWeb credentials; sign up for far too many betas. Oh, ello."
+      ],
+      "photo": [
+        "http://wordius.com/images/jeff-192-sq.jpg"
+      ],
+      "url": [
+        "http://wordius.com",
+        "http://twitter.com/wordius",
+        "https://ello.co/wordius"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/wordius",
+    "https://www.facebook.com/jeff.p.porter",
+    "http://wordius.com/google.com/+JeffPorter-UK",
+    "https://github.com/Wordius",
+    "http://wordius.com",
+    "https://ello.co/wordius",
+    "mailto:info@wordius.com"
+  ],
+  "crawl_start": "2017-04-30T06:06:53",
+  "crawl_end": "2017-04-30T06:15:53",
+  "num_pages": 482,
+  "total_html_size": 6203830,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.herokuapp.com/api/webmention"
+    ]
+  },
+  "links_out": 6092,
+  "links_in": 89,
+  "links": {
+    "adactio.com": {
+      "in": {
+        "other": 4,
+        "bookmark-of": 30
+      },
+      "score": 0.522
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 24
+      },
+      "score": 0.399
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.311
+    },
+    "bupk.es": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.289
+    },
+    "brid.gy": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.289
+    },
+    "snarfed.org": {
+      "in": {
+        "in-reply-to": 1,
+        "like-of": 2
+      },
+      "score": 0.276
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.261
+    },
+    "withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.174
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.174
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0870
+    },
+    "webmention.herokuapp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0870
+    },
+    "desparoz.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0870
+    },
+    "tantek.com": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.0870
+    },
+    "indiewebify.me": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0870
+    },
+    "dowe.io": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

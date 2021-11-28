@@ -1,0 +1,333 @@
+{
+  "domain": "community.mitmassive.org",
+  "urls": [
+    "http://community.mitmassive.org/"
+  ],
+  "names": [
+    "MITmassive"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://community.mitmassive.org/file/026b8264ad20e2bc98b346326167303e/thumb.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T05:16:20",
+  "crawl_end": "2017-04-28T05:21:37",
+  "num_pages": 230,
+  "total_html_size": 7501600,
+  "servers": [
+    "Apache (Unix) OpenSSLe-fips Phusion_Passenger mod_bwlimited",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://community.mitmassive.org/webmention/"
+    ],
+    "micropub": [
+      "https://community.mitmassive.org/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://community.mitmassive.org/indieauth/auth"
+    ],
+    "token": [
+      "https://community.mitmassive.org/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 7594,
+  "links_in": 0,
+  "links": {
+    "learning-futures.com": {
+      "out": {
+        "other": 2259
+      },
+      "score": 1
+    },
+    "nushelle-mit.com": {
+      "out": {
+        "other": 1000,
+        "in-reply-to": 4
+      },
+      "score": 0.905
+    },
+    "chrisbuttimer.com": {
+      "out": {
+        "other": 752
+      },
+      "score": 0.868
+    },
+    "docs.google.com": {
+      "out": {
+        "other": 337
+      },
+      "score": 0.773
+    },
+    "powelljordan.com": {
+      "out": {
+        "other": 246
+      },
+      "score": 0.736
+    },
+    "katiemac.net": {
+      "out": {
+        "other": 242
+      },
+      "score": 0.734
+    },
+    "withknown.com": {
+      "out": {
+        "other": 230
+      },
+      "score": 0.728
+    },
+    "aaronlin.org": {
+      "out": {
+        "other": 184
+      },
+      "score": 0.702
+    },
+    "personal-api.com": {
+      "out": {
+        "other": 174
+      },
+      "score": 0.695
+    },
+    "lenamitmassive.com": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 159
+      },
+      "score": 0.691
+    },
+    "lizhuttnerloan.com": {
+      "out": {
+        "other": 168
+      },
+      "score": 0.691
+    },
+    "allisonlbishop.com": {
+      "out": {
+        "other": 159
+      },
+      "score": 0.684
+    },
+    "nushelle.com": {
+      "out": {
+        "other": 128,
+        "in-reply-to": 4
+      },
+      "score": 0.676
+    },
+    "katherinemc.com": {
+      "out": {
+        "other": 144
+      },
+      "score": 0.672
+    },
+    "sjroh.com": {
+      "out": {
+        "other": 144
+      },
+      "score": 0.672
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 111
+      },
+      "score": 0.641
+    },
+    "laweinstein.com": {
+      "out": {
+        "other": 102
+      },
+      "score": 0.632
+    },
+    "www.dropbox.com": {
+      "out": {
+        "other": 100
+      },
+      "score": 0.629
+    },
+    "human-learning.org": {
+      "out": {
+        "other": 92
+      },
+      "score": 0.619
+    },
+    "dl.acm.org": {
+      "out": {
+        "other": 70
+      },
+      "score": 0.587
+    },
+    "mahashady.com": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 59
+      },
+      "score": 0.586
+    },
+    "twitter.com/hashtag": {
+      "out": {
+        "other": 64
+      },
+      "score": 0.576
+    },
+    "marianagamba.com": {
+      "out": {
+        "other": 63
+      },
+      "score": 0.575
+    },
+    "mitmassive.org": {
+      "out": {
+        "other": 59
+      },
+      "score": 0.567
+    },
+    "bit.ly": {
+      "out": {
+        "other": 53
+      },
+      "score": 0.553
+    },
+    "www.elearnspace.org": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.526
+    },
+    "poeticlysense.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.508
+    },
+    "lak16.solaresearch.org": {
+      "out": {
+        "other": 35
+      },
+      "score": 0.505
+    },
+    "learningatscale.acm.org": {
+      "out": {
+        "other": 35
+      },
+      "score": 0.505
+    },
+    "twitter.com/search": {
+      "out": {
+        "other": 35
+      },
+      "score": 0.505
+    },
+    "cmsw.mit.edu": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.494
+    },
+    "www.p2pu.org": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.494
+    },
+    "olgaspage.org": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.494
+    },
+    "www.slate.com": {
+      "out": {
+        "other": 31
+      },
+      "score": 0.490
+    },
+    "cbcse.org": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.474
+    },
+    "papers.ssrn.com": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.474
+    },
+    "yoonjeonkim.com": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.474
+    },
+    "easterbon.net": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.460
+    },
+    "www.itdl.org": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.412
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.412
+    },
+    "www.edtechresearcher.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.356
+    },
+    "www.cultofmac.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.356
+    },
+    "www.dvrhs.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.329
+    },
+    "online-learning.harvard.edu": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.247
+    },
+    "www.edx.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.247
+    }
+  }
+}

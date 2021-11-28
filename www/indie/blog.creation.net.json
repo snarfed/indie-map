@@ -1,0 +1,98 @@
+{
+  "domain": "blog.creation.net",
+  "urls": [
+    "http://channy.creation.net",
+    "http://blog.creation.net/",
+    "http://blog.creation.net"
+  ],
+  "names": [
+    "Channy Yun",
+    " :: Channy's Blog",
+    "Channy's Blog"
+  ],
+  "descriptions": [
+    "Open Web Evangelist"
+  ],
+  "pictures": [
+    "http://channy.creation.net/images/channy-profile.png"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "channy@creation.net"
+      ],
+      "name": [
+        "Channy Yun"
+      ],
+      "note": [
+        "Open Web Evangelist"
+      ],
+      "photo": [
+        "http://channy.creation.net/images/channy-profile.png"
+      ],
+      "url": [
+        "http://channy.creation.net"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://channy.creation.net",
+    "https://facebook.com/channyblog",
+    "https://twitter.com/channyun",
+    "https://linkedin.com/in/channy",
+    "http://plus.google.com/108919073072673973649",
+    "http://youtube.com/user/channy",
+    "https://github.com/channy"
+  ],
+  "crawl_start": "2017-04-28T02:15:50",
+  "crawl_end": "2017-04-28T02:15:50",
+  "num_pages": 1,
+  "total_html_size": 23674,
+  "servers": [
+    "Apache (Amazon) DAV PHP mod_python Python mod_ssl OpenSSLk-fips mod_wsgi mod_perl Perl/v5.16.3",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "WordPress"
+  ],
+  "endpoints": {},
+  "links_out": 86,
+  "links_in": 1525,
+  "links": {
+    "channy.creation.net": {
+      "in": {
+        "other": 1521
+      },
+      "out": {
+        "other": 76
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.148
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0934
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

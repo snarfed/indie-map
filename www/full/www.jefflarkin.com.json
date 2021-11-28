@@ -1,0 +1,245 @@
+{
+  "domain": "www.jefflarkin.com",
+  "urls": [
+    "http://www.jefflarkin.com/profile/jefflarkin",
+    "http://about.me/jefflarkin",
+    "http://plus.google.com/+JeffLarkin",
+    "https://github.com/jefflarkin/",
+    "https://www.facebook.com/jefflarkin"
+  ],
+  "names": [
+    "Jeff Larkin",
+    "JeffLarkin.com"
+  ],
+  "descriptions": [
+    "I'm a follower of Christ, a Husband, and a Father. I'm a High Performance Computing professional. I'm a coder, hobbyist, maker, gamer, and occasional musician.",
+    "Jeff Larkin's personal site."
+  ],
+  "pictures": [
+    "http://www.jefflarkin.com/file/ef7e658f1c8cc35437466d35c4253b94"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Jeff Larkin"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I'm a follower of Christ, a Husband, and a Father. I'm a High Performance Computing professional. I'm a coder, hobbyist, maker, gamer, and occasional musician.</p>\n</div>",
+          "value": "\nI'm a follower of Christ, a Husband, and a Father. I'm a High Performance Computing professional. I'm a coder, hobbyist, maker, gamer, and occasional musician.\n"
+        }
+      ],
+      "photo": [
+        "http://www.jefflarkin.com/file/ef7e658f1c8cc35437466d35c4253b94"
+      ],
+      "profile": [
+        "Jeff Larkin"
+      ],
+      "url": [
+        "http://www.jefflarkin.com/profile/jefflarkin",
+        "http://www.jefflarkin.com/profile/jefflarkin",
+        "http://about.me/jefflarkin",
+        "http://plus.google.com/+JeffLarkin",
+        "https://github.com/jefflarkin/",
+        "https://www.facebook.com/jefflarkin"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://about.me/jefflarkin",
+    "http://plus.google.com/+JeffLarkin",
+    "https://github.com/jefflarkin/",
+    "https://www.facebook.com/jefflarkin"
+  ],
+  "crawl_start": "2017-05-21T06:11:08",
+  "crawl_end": "2017-06-09T18:08:42",
+  "num_pages": 153,
+  "total_html_size": 4098938,
+  "servers": [
+    "Apache (Red Hat)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.jefflarkin.com/webmention/"
+    ],
+    "micropub": [
+      "http://www.jefflarkin.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "http://www.jefflarkin.com/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 463,
+  "links_in": 0,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 153
+      },
+      "score": 1
+    },
+    "github.com": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 49
+      },
+      "score": 0.834
+    },
+    "plus.google.com/+JeffLarkin": {
+      "out": {
+        "other": 47
+      },
+      "score": 0.794
+    },
+    "facebook.com/jefflarkin": {
+      "out": {
+        "other": 43
+      },
+      "score": 0.778
+    },
+    "about.me": {
+      "out": {
+        "other": 43
+      },
+      "score": 0.778
+    },
+    "andyleap.net": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 8
+      },
+      "score": 0.705
+    },
+    "www.theplatform.net": {
+      "out": {
+        "in-reply-to": 4
+      },
+      "score": 0.645
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.645
+    },
+    "getchip.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.524
+    },
+    "docs.getchip.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.524
+    },
+    "gist.github.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.524
+    },
+    "jefflarkin.withknown.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.484
+    },
+    "keybase.io": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.484
+    },
+    "castar.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    },
+    "www.imdb.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    },
+    "commons.wikimedia.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    },
+    "appengine.google.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    },
+    "engt.co": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    },
+    "bluemix.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    },
+    "www.openshift.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    },
+    "cloudant.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    },
+    "heroku.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    },
+    "www.magicleap.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "domain": "cleoandcassia.withknown.com",
+  "urls": [
+    "http://cleoandcassia.withknown.com/"
+  ],
+  "names": [
+    "Cleo and Cassia"
+  ],
+  "descriptions": [
+    "A stream for cats"
+  ],
+  "pictures": [
+    "http://withknown.com/img/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T05:16:17",
+  "crawl_end": "2017-04-28T05:16:50",
+  "num_pages": 32,
+  "total_html_size": 528587,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://cleoandcassia.withknown.com/webmention/"
+    ]
+  },
+  "links_out": 59,
+  "links_in": 24,
+  "links": {
+    "werd.io": {
+      "out": {
+        "other": 3
+      },
+      "in": {
+        "in-reply-to": 15
+      },
+      "score": 1
+    },
+    "erinjo.is": {
+      "out": {
+        "other": 2,
+        "in-reply-to": 7
+      },
+      "score": 0.979
+    },
+    "withknown.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.948
+    },
+    "twitter.com/cleoandcassia": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.565
+    },
+    "twitter.com/erinjo": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.524
+    },
+    "brid.gy": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.444
+    },
+    "twitter.com/schnarfed": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.317
+    },
+    "twitter.com/benwerd": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.317
+    },
+    "chloesteinbeck.withknown.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.158
+    }
+  }
+}

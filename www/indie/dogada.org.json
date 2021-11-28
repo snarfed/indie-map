@@ -1,0 +1,119 @@
+{
+  "domain": "dogada.org",
+  "urls": [
+    "http://dogada.org/"
+  ],
+  "names": [
+    "dogada.org"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://dogada.org/favicon.ico",
+    "https://dogada.org/_static/icons/android-icon-192x192.png",
+    "https://dogada.org/_static/icons/favicon-32x32.png",
+    "https://dogada.org/_static/icons/favicon-96x96.png",
+    "https://dogada.org/_static/icons/favicon-16x16.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/dogada",
+    "https://twitter.com/d0gada"
+  ],
+  "crawl_start": "2017-04-28T05:22:02",
+  "crawl_end": "2017-04-28T05:22:48",
+  "num_pages": 63,
+  "total_html_size": 646978,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/dogada.org/webmention"
+    ]
+  },
+  "links_out": 110,
+  "links_in": 829,
+  "links": {
+    "jothut.com": {
+      "in": {
+        "other": 684
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 38
+      },
+      "out": {
+        "other": 47
+      },
+      "score": 0.747
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 48
+      },
+      "score": 0.593
+    },
+    "known.kylewm.com": {
+      "in": {
+        "in-reply-to": 6
+      },
+      "score": 0.521
+    },
+    "unicyclic.com": {
+      "in": {
+        "other": 8,
+        "in-reply-to": 4
+      },
+      "score": 0.510
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 28
+      },
+      "score": 0.510
+    },
+    "kylewm.com": {
+      "in": {
+        "other": 1,
+        "in-reply-to": 2
+      },
+      "score": 0.368
+    },
+    "petermolnar.net": {
+      "in": {
+        "in-reply-to": 2
+      },
+      "score": 0.352
+    },
+    "werd.io": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.274
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.106
+    },
+    "boghop.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

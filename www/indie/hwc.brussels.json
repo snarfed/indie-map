@@ -1,0 +1,127 @@
+{
+  "domain": "hwc.brussels",
+  "urls": [
+    "https://hwc.brussels/"
+  ],
+  "names": [
+    "Homebrew Website Club Brussels – Empowering individuals and organizations on the web",
+    "HWC.Brussels",
+    "Homebrew Website Club Brussels"
+  ],
+  "descriptions": [
+    "Homebrew Website Club Brussels\r\nNowadays' Internet companies, large and small, are increasingly after your private and personal data. They track your location, your communications, your consumption, cooking, travel, exercise and relationship habits, among many other things. This data is being aggregated in order to recreate a digital double of yourself. This"
+  ],
+  "pictures": [
+    "https://hwc.brussels/wp-content/uploads/2016/12/cube_logo_pixlr_vert.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-09T17:49:36",
+  "crawl_end": "2017-06-09T17:50:09",
+  "num_pages": 22,
+  "total_html_size": 974339,
+  "servers": [
+    "nginx (Ubuntu)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-article",
+    "h-entry",
+    "h-cite",
+    "h-as-note",
+    "h-event",
+    "h-as-page",
+    "h-card",
+    "h-feed"
+  ],
+  "tags": [
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://hwc.brussels/fr/wp-json/webmention/1.0/endpoint",
+      "https://hwc.brussels/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://hwc.brussels/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 172,
+  "links_in": 1708,
+  "links": {
+    "ncollig.net": {
+      "in": {
+        "other": 1531
+      },
+      "score": 1
+    },
+    "www.rmendes.net": {
+      "in": {
+        "in-reply-to": 2,
+        "other": 132
+      },
+      "score": 0.677
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 26
+      },
+      "score": 0.445
+    },
+    "brid.gy": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.327
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.244
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.190
+    },
+    "pdx.esri.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.190
+    },
+    "blog.indie.host": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0945
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "derhess.de": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

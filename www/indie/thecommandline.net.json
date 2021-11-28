@@ -1,0 +1,153 @@
+{
+  "domain": "thecommandline.net",
+  "urls": [
+    "http://thecommandline.net/"
+  ],
+  "names": [
+    "The Command Line – Exploring digital citizenry as a creator and a consumer."
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://thecommandline.net/files/favicon.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-05-06T01:58:10",
+  "crawl_end": "2017-05-06T05:06:43",
+  "num_pages": 4671,
+  "total_html_size": 174539835,
+  "servers": [
+    "Apache (Ubuntu)",
+    "MediaWiki+dfsg-1",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-feed",
+    "h-as-mention",
+    "h-as-reply"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://thecommandline.net/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 144401,
+  "links_in": 3426,
+  "links": {
+    "peculiarcharacter.com": {
+      "out": {
+        "other": 3903
+      },
+      "in": {
+        "other": 2144
+      },
+      "score": 0.886
+    },
+    "kenzoid.com": {
+      "in": {
+        "other": 1222
+      },
+      "score": 0.684
+    },
+    "huffduffer.com": {
+      "out": {
+        "other": 121
+      },
+      "in": {
+        "other": 30
+      },
+      "score": 0.539
+    },
+    "scripting.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.238
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.238
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.221
+    },
+    "tantek.com": {
+      "in": {
+        "like-of": 1
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.221
+    },
+    "brid.gy": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.212
+    },
+    "pjf.id.au": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.2
+    },
+    "skippy.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.2
+    },
+    "specficmedia.com": {
+      "out": {
+        "other": 3
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.188
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.155
+    },
+    "adactio.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0666
+    },
+    "www.nerdcore.de": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0666
+    },
+    "blog.vrypan.net": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "lifestreamblog.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

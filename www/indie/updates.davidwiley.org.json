@@ -1,0 +1,102 @@
+{
+  "domain": "updates.davidwiley.org",
+  "urls": [
+    "http://updates.davidwiley.org/profile/opencontent",
+    "http://opencontent.org/blog",
+    "http://davidwiley.org/",
+    "http://lumenlearning.com"
+  ],
+  "names": [
+    "David Wiley",
+    "random thoughts and updates"
+  ],
+  "descriptions": [
+    "Trying to make the world a better place.",
+    "Whatever's running through my mind at the moment"
+  ],
+  "pictures": [
+    "http://updates.davidwiley.org/file/86680fadc22777c263fc4ad0ce920f36/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "David Wiley"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Trying to make the world a better place.</p>\n</div> ",
+          "value": "\nTrying to make the world a better place.\n "
+        }
+      ],
+      "photo": [
+        "http://updates.davidwiley.org/file/86680fadc22777c263fc4ad0ce920f36/thumb.jpg"
+      ],
+      "profile": [
+        "David Wiley"
+      ],
+      "url": [
+        "http://updates.davidwiley.org/profile/opencontent",
+        "http://updates.davidwiley.org/profile/opencontent",
+        "http://opencontent.org/blog",
+        "http://davidwiley.org/",
+        "http://lumenlearning.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://opencontent.org/blog",
+    "http://davidwiley.org/",
+    "http://lumenlearning.com"
+  ],
+  "crawl_start": "2017-04-30T03:09:09",
+  "crawl_end": "2017-04-30T03:10:03",
+  "num_pages": 67,
+  "total_html_size": 1541565,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://updates.davidwiley.org/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 213,
+  "links_in": 0,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.546
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.546
+    },
+    "www.downes.ca": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.306
+    }
+  }
+}

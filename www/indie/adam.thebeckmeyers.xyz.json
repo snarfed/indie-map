@@ -1,0 +1,104 @@
+{
+  "domain": "adam.thebeckmeyers.xyz",
+  "urls": [
+    "http://adam.thebeckmeyers.xyz"
+  ],
+  "names": [
+    "Adam Beckmeyer",
+    "\n\t\n\tAdam Beckmeyer\n\t\n"
+  ],
+  "descriptions": [
+    "Adam Beckmeyer is a\n    chemical engineer, a father, and a\n    devout christian living in Vienna,\n    West Virginia. My interests include\n    programming, theology and generally learning new things. Hit me up\n    any time at \n    \n        @abeckmeyer:matrix.org."
+  ],
+  "pictures": [
+    "http://adam.thebeckmeyers.xyz/assets/logo.png"
+  ],
+  "hcard": {
+    "properties": {
+      "adr": [
+        {
+          "properties": {
+            "locality": [
+              "Vienna"
+            ],
+            "name": [
+              "Vienna,\n    West Virginia"
+            ],
+            "region": [
+              "West Virginia"
+            ]
+          },
+          "type": [
+            "h-adr"
+          ],
+          "value": "Vienna,\n    West Virginia"
+        }
+      ],
+      "impp": [
+        "https://matrix.to/#/@abeckmeyer:matrix.org"
+      ],
+      "job-title": [
+        "chemical engineer"
+      ],
+      "logo": [
+        "http://adam.thebeckmeyers.xyz/assets/logo.png"
+      ],
+      "name": [
+        "Adam Beckmeyer"
+      ],
+      "note": [
+        "Adam Beckmeyer is a\n    chemical engineer, a father, and a\n    devout christian living in Vienna,\n    West Virginia. My interests include\n    programming, theology and generally learning new things. Hit me up\n    any time at \n    \n        @abeckmeyer:matrix.org."
+      ],
+      "photo": [
+        "http://adam.thebeckmeyers.xyz/assets/logo.png"
+      ],
+      "url": [
+        "http://adam.thebeckmeyers.xyz"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://adam.thebeckmeyers.xyz",
+    "https://matrix.to/#/@abeckmeyer:matrix.org",
+    "https://github.com/non-Jedi",
+    "https://twitter.com/asarcasticmind"
+  ],
+  "crawl_start": "2017-04-23T22:42:36",
+  "crawl_end": "2017-04-23T22:42:48",
+  "num_pages": 10,
+  "total_html_size": 29713,
+  "servers": [
+    "AmazonS3"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "IRC"
+  ],
+  "endpoints": {},
+  "links_out": 51,
+  "links_in": 29,
+  "links": {
+    "chat.indieweb.org": {
+      "in": {
+        "other": 27
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 9
+      },
+      "score": 0.909
+    }
+  }
+}

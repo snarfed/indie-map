@@ -1,0 +1,129 @@
+{
+  "domain": "katiakelm.de",
+  "urls": [
+    "http://katiakelm.de/"
+  ],
+  "names": [
+    "Katia Kelm – Archiv",
+    "Katia Kelm"
+  ],
+  "descriptions": [
+    "homepage, weblog, katalog, mappe und archiv von katia kelm."
+  ],
+  "pictures": [
+    "http://katiakelm.de/wp-content/uploads/neuesfavicon.jpg",
+    "http://katiakelm.de/wp-content/uploads/logo_fein.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T04:31:36",
+  "crawl_end": "2017-04-29T08:41:33",
+  "num_pages": 3093,
+  "total_html_size": 133548763,
+  "servers": [
+    "Apache (CentOS)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-mention",
+    "h-as-reply",
+    "h-card",
+    "h-entry",
+    "h-feed"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://katiakelm.de/wp-json/webmention/1.0/endpoint",
+      "http://katiakelm.de/blog/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://katiakelm.de/blog/?micropub=endpoint",
+      "http://katiakelm.de/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 10541,
+  "links_in": 4600,
+  "links": {
+    "wirres.net": {
+      "in": {
+        "bookmark-of": 88,
+        "other": 4460
+      },
+      "out": {
+        "other": 112
+      },
+      "score": 1
+    },
+    "dasnuf.de": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 24
+      },
+      "score": 0.384
+    },
+    "brid.gy": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.292
+    },
+    "www.buddenbohm-und-soehne.de": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.271
+    },
+    "www.jawl.net": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.130
+    },
+    "www.nerdcore.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "pop64.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0816
+    },
+    "modeste.me": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0816
+    },
+    "isabelbogdan.de": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

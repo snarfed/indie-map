@@ -1,0 +1,108 @@
+{
+  "domain": "dpaulharrison.com",
+  "urls": [
+    "https://dpaulharrison.com/profile/dpaulharrison",
+    "http://twitter.com/dpaulharrison",
+    "https://www.facebook.com/dpaulharrison",
+    "https://www.linkedin.com/in/dpaulharrison"
+  ],
+  "names": [
+    "Paul Harrison"
+  ],
+  "descriptions": [
+    "Comedian, technologist, science enthusiast, and writer.",
+    "Comedian, futureproofer, expert expert"
+  ],
+  "pictures": [
+    "https://dpaulharrison.com/file/3a8444674723b8703f5360030da8a5f7/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Paul Harrison"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Comedian, technologist, science enthusiast, and writer.</p>\n</div> ",
+          "value": "\nComedian, technologist, science enthusiast, and writer.\n "
+        }
+      ],
+      "photo": [
+        "https://dpaulharrison.com/file/3a8444674723b8703f5360030da8a5f7/thumb.jpg"
+      ],
+      "profile": [
+        "Paul Harrison"
+      ],
+      "url": [
+        "https://dpaulharrison.com/profile/dpaulharrison",
+        "https://dpaulharrison.com/profile/dpaulharrison",
+        "http://twitter.com/dpaulharrison",
+        "https://www.facebook.com/dpaulharrison",
+        "https://www.linkedin.com/in/dpaulharrison"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/dpaulharrison",
+    "https://www.facebook.com/dpaulharrison",
+    "https://www.linkedin.com/in/dpaulharrison"
+  ],
+  "crawl_start": "2017-04-28T05:23:25",
+  "crawl_end": "2017-04-28T05:23:40",
+  "num_pages": 14,
+  "total_html_size": 307904,
+  "servers": [
+    "Apache (Ubuntu)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://dpaulharrison.com/webmention/"
+    ],
+    "micropub": [
+      "https://dpaulharrison.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://dpaulharrison.com/indieauth/auth"
+    ],
+    "token": [
+      "https://dpaulharrison.com/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 61,
+  "links_in": 1,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

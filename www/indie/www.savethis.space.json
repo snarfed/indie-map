@@ -1,0 +1,135 @@
+{
+  "domain": "www.savethis.space",
+  "urls": [
+    "http://www.savethis.space/"
+  ],
+  "names": [
+    "delicious blogoni",
+    "Save This Space."
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://www.savethis.space/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/sikkdays",
+    "https://instagram.com/sikkdays",
+    "mailto:christopher@sikkdays.com"
+  ],
+  "crawl_start": "2017-04-30T08:39:07",
+  "crawl_end": "2017-04-30T08:59:11",
+  "num_pages": 1626,
+  "total_html_size": 41342797,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.savethis.space/webmention/"
+    ],
+    "micropub": [
+      "http://www.savethis.space/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://www.savethis.space/indieauth/auth"
+    ],
+    "token": [
+      "http://www.savethis.space/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 11624,
+  "links_in": 99,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 1792
+      },
+      "score": 0.889
+    },
+    "jeena.net": {
+      "out": {
+        "in-reply-to": 25,
+        "other": 117
+      },
+      "in": {
+        "other": 30,
+        "like-of": 6,
+        "in-reply-to": 40
+      },
+      "score": 0.716
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 99
+      },
+      "score": 0.575
+    },
+    "tent.io": {
+      "out": {
+        "other": 54
+      },
+      "score": 0.509
+    },
+    "werd.io": {
+      "out": {
+        "other": 37
+      },
+      "score": 0.467
+    },
+    "tinokremer.nl": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.301
+    },
+    "wwwtech.de": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 5
+      },
+      "score": 0.287
+    },
+    "brid.gy": {
+      "in": {
+        "other": 13
+      },
+      "score": 0.278
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.151
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0753
+    }
+  }
+}

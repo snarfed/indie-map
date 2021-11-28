@@ -1,0 +1,105 @@
+{
+  "domain": "www.staycertified.co",
+  "urls": [
+    "http://www.staycertified.co/profile/certified",
+    "http://certifiedhq.com",
+    "https://twitter.com/certifiedhq",
+    "https://www.facebook.com/certifiedhq"
+  ],
+  "names": [
+    "Certified",
+    "Stay Certified!"
+  ],
+  "descriptions": [
+    "Bringing you the latest in continuing education news and technology.",
+    "The latest Accounting and Continuing Education news "
+  ],
+  "pictures": [
+    "http://www.staycertified.co/file/533dc33bdc6ba812cb6397f7b53b909d"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Certified"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Bringing you the latest in continuing education news and technology.</p>\n</div>",
+          "value": "\nBringing you the latest in continuing education news and technology.\n"
+        }
+      ],
+      "photo": [
+        "http://www.staycertified.co/file/533dc33bdc6ba812cb6397f7b53b909d"
+      ],
+      "profile": [
+        "Certified"
+      ],
+      "url": [
+        "http://www.staycertified.co/profile/certified",
+        "http://www.staycertified.co/profile/certified",
+        "http://certifiedhq.com",
+        "https://twitter.com/certifiedhq",
+        "https://www.facebook.com/certifiedhq"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://certifiedhq.com",
+    "https://twitter.com/certifiedhq",
+    "https://www.facebook.com/certifiedhq"
+  ],
+  "crawl_start": "2017-04-30T08:59:15",
+  "crawl_end": "2017-04-30T09:02:02",
+  "num_pages": 219,
+  "total_html_size": 5548186,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-cite",
+    "h-entry",
+    "h-event"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.staycertified.co/webmention/"
+    ],
+    "micropub": [
+      "http://www.staycertified.co/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://www.staycertified.co/indieauth/auth"
+    ],
+    "token": [
+      "http://www.staycertified.co/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 973,
+  "links_in": 0,
+  "links": {
+    "jamieontiveros.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.119
+    }
+  }
+}

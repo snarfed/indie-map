@@ -1,0 +1,72 @@
+{
+  "domain": "radtastical.com",
+  "urls": [
+    "http://timburks.me"
+  ],
+  "names": [
+    "Tim Burks",
+    "Radtastical"
+  ],
+  "descriptions": [
+    "Radtastical, Inc."
+  ],
+  "pictures": [
+    "http://radtastical.com/img/favicon.ico"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Tim Burks"
+      ],
+      "url": [
+        "http://timburks.me"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://timburks.me",
+    "https://twitter.com/timburks",
+    "https://github.com/timburks",
+    "https://linkedin.com/in/timburks"
+  ],
+  "crawl_start": "2017-06-10T01:41:25",
+  "crawl_end": "2017-06-10T02:10:18",
+  "num_pages": 1415,
+  "total_html_size": 193303477,
+  "servers": [
+    "Google Frontend"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 549336,
+  "links_in": 4,
+  "links": {
+    "timburks.me": {
+      "out": {
+        "other": 49
+      },
+      "score": 0.329
+    },
+    "indiewebify.me": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.129
+    },
+    "kinlane.withknown.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.1
+    }
+  }
+}

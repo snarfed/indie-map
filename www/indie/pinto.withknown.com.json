@@ -1,0 +1,97 @@
+{
+  "domain": "pinto.withknown.com",
+  "urls": [
+    "https://pinto.withknown.com/profile/jpinto",
+    "http://boundary.works",
+    "https://twitter.com/thepinto",
+    "https://soundcloud.com/gur5ky"
+  ],
+  "names": [
+    "Jeff Pinto",
+    "Pinto"
+  ],
+  "descriptions": [
+    "Educational technologist, grad student, musician.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://pinto.withknown.com/file/27d234166e2bb0c88b2a6c7d2e44f721/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Jeff Pinto"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Educational technologist, grad student, musician.</p>\n</div>",
+          "value": "\nEducational technologist, grad student, musician.\n"
+        }
+      ],
+      "photo": [
+        "https://pinto.withknown.com/file/27d234166e2bb0c88b2a6c7d2e44f721/thumb.jpg"
+      ],
+      "profile": [
+        "Jeff Pinto"
+      ],
+      "url": [
+        "https://pinto.withknown.com/profile/jpinto",
+        "https://pinto.withknown.com/profile/jpinto",
+        "http://boundary.works",
+        "https://twitter.com/thepinto",
+        "https://soundcloud.com/gur5ky"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://boundary.works",
+    "https://twitter.com/thepinto",
+    "https://soundcloud.com/gur5ky"
+  ],
+  "crawl_start": "2017-04-30T02:00:07",
+  "crawl_end": "2017-04-30T02:00:19",
+  "num_pages": 16,
+  "total_html_size": 351288,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://pinto.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 53,
+  "links_in": 2,
+  "links": {
+    "hapgood.us": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.599
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.200
+    }
+  }
+}

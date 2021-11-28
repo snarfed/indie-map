@@ -1,0 +1,150 @@
+{
+  "domain": "markmorvant.withknown.com",
+  "urls": [
+    "https://markmorvant.withknown.com/profile/mmorvant",
+    "http://markmorvant.com"
+  ],
+  "names": [
+    "mmorvant",
+    "Educational Insights"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://markmorvant.withknown.com/file/1aa117b69f03fd98b51d9afef84c9970/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "mmorvant"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "https://markmorvant.withknown.com/file/1aa117b69f03fd98b51d9afef84c9970/thumb.jpg"
+      ],
+      "profile": [
+        "mmorvant"
+      ],
+      "url": [
+        "https://markmorvant.withknown.com/profile/mmorvant",
+        "https://markmorvant.withknown.com/profile/mmorvant",
+        "http://markmorvant.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://markmorvant.com"
+  ],
+  "crawl_start": "2017-04-29T14:43:24",
+  "crawl_end": "2017-04-29T14:43:35",
+  "num_pages": 14,
+  "total_html_size": 268772,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://markmorvant.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 51,
+  "links_in": 1,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 1
+    },
+    "markmorvant.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.868
+    },
+    "twitter.com/TimoKos": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.691
+    },
+    "www.insidehighered.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.691
+    },
+    "www.ou.edu": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.625
+    },
+    "twitter.com/OUHOSCollection": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.538
+    },
+    "twitter.com/LakuC": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.538
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.417
+    },
+    "twitter.com/MarkMorvant": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.417
+    },
+    "www.laku.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.417
+    },
+    "ouhos.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.417
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "domain": "v1.elahn.com.au",
+  "urls": [
+    "http://v1.elahn.com.au/"
+  ],
+  "names": [
+    "Elahn's Insatiable Curiosity"
+  ],
+  "descriptions": [
+    "The personal blog of Elahn Ientile"
+  ],
+  "pictures": [
+    "http://v1.elahn.com.au/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://plus.google.com/116956876188285215536",
+    "https://twitter.com/elahn_i",
+    "https://github.com/elahn"
+  ],
+  "crawl_start": "2017-04-30T03:09:59",
+  "crawl_end": "2017-04-30T03:12:17",
+  "num_pages": 106,
+  "total_html_size": 2032239,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://v1.elahn.com.au/webmention/"
+    ],
+    "micropub": [
+      "http://v1.elahn.com.au/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "http://v1.elahn.com.au/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1651,
+  "links_in": 2,
+  "links": {
+    "example.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.421
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.140
+    }
+  }
+}

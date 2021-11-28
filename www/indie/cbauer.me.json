@@ -1,0 +1,73 @@
+{
+  "domain": "cbauer.me",
+  "urls": [
+    "http://cbauer.me/about",
+    "http://cbauer.me/"
+  ],
+  "names": [
+    "Christopher Bauer",
+    "Highlands & Annotations – Uncooked scribblings on backpacking and research",
+    "Highlands & Annotations"
+  ],
+  "descriptions": [
+    "Uncooked scribblings on backpacking and research"
+  ],
+  "pictures": [
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Christopher Bauer"
+      ],
+      "url": [
+        "http://cbauer.me/about"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://cbauer.me/about",
+    "mailto:chris@cbauer.me",
+    "https://twitter.com/ccarterbauer",
+    "https://facebook.com/christopher.bauer.378"
+  ],
+  "crawl_start": "2017-04-28T02:20:38",
+  "crawl_end": "2017-04-28T02:20:58",
+  "num_pages": 23,
+  "total_html_size": 443163,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-as-mention",
+    "h-card",
+    "h-feed",
+    "h-as-reply"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://cbauer.me/?webmention=endpoint"
+    ]
+  },
+  "links_out": 133,
+  "links_in": 27,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 27
+      },
+      "score": 0.727
+    }
+  }
+}

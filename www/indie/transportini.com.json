@@ -1,0 +1,128 @@
+{
+  "domain": "transportini.com",
+  "urls": [
+    "http://transportini.com",
+    "mailto:haveadrink@transportini.com",
+    "https://twitter.com/transportini",
+    "https://www.facebook.com/Transportinis",
+    "http://transportini.com/"
+  ],
+  "names": [
+    "Transportini",
+    "Transportini: Transportation economics one drink at a time"
+  ],
+  "descriptions": [
+    "Transportini is a podcast that explains transportation economics, one drink at a time. We bring expert economists together with expert bartending to make the wild world of transportation finance palatable to the masses."
+  ],
+  "pictures": [
+    "http://transportini.com/assets/transportini_itunes_large.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Transportini"
+      ],
+      "photo": [
+        "http://transportini.com/assets/transportini_itunes_large.png"
+      ],
+      "url": [
+        "http://transportini.com",
+        "mailto:haveadrink@transportini.com",
+        "https://twitter.com/transportini",
+        "https://www.facebook.com/Transportinis"
+      ]
+    },
+    "type": [
+      "h-card"
+    ],
+    "value": "Transportini"
+  },
+  "rel_mes": [
+    "http://transportini.com",
+    "mailto:haveadrink@transportini.com",
+    "https://twitter.com/transportini",
+    "https://www.facebook.com/Transportinis"
+  ],
+  "crawl_start": "2017-04-30T03:01:23",
+  "crawl_end": "2017-04-30T03:01:23",
+  "num_pages": 2,
+  "total_html_size": 15896,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-feed"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention",
+    "websub"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/transportini/webmention"
+    ],
+    "websub": [
+      "http://p3k.superfeedr.com/"
+    ]
+  },
+  "links_out": 14,
+  "links_in": 83,
+  "links": {
+    "aaronparecki.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 55
+      },
+      "score": 1
+    },
+    "werd.io": {
+      "in": {
+        "other": 15
+      },
+      "score": 0.664
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.439
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.341
+    },
+    "anomalily.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.341
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.270
+    },
+    "pdx.esri.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.170
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.170
+    }
+  }
+}

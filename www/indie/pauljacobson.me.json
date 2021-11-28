@@ -1,0 +1,150 @@
+{
+  "domain": "pauljacobson.me",
+  "urls": [
+    "http://pauljacobson.me/"
+  ],
+  "names": [
+    "Paul Jacobson - Life and its many opportunities",
+    "Paul Jacobson"
+  ],
+  "descriptions": [
+    "Life and its many opportunities",
+    "A personal blog about Life and its many opportunities"
+  ],
+  "pictures": [
+    "https://i0.wp.com/pauljacobson.me/wp-content/uploads/2015/04/Paul-Jacobson-headshot-552504ddv1_site_icon.png?fit=32%2C32",
+    "https://i0.wp.com/pauljacobson.me/wp-content/uploads/2015/04/Paul-Jacobson-headshot-552504ddv1_site_icon.png?fit=192%2C192",
+    "http://d3n8s63l7cnjvm.cloudfront.net/wp-content/uploads/2015/04/Paul-Jacobson-headshot-552504ddv1_site_icon.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://micro.blog/pauljacobson"
+  ],
+  "crawl_start": "2017-04-30T22:28:43",
+  "crawl_end": "2017-05-02T12:18:37",
+  "num_pages": 8932,
+  "total_html_size": 525871465,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-as-mention",
+    "h-as-reply",
+    "h-card",
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://pauljacobson.me/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://pauljacobson.me/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 238320,
+  "links_in": 34,
+  "links": {
+    "webtechlaw.com": {
+      "out": {
+        "other": 42
+      },
+      "in": {
+        "other": 14
+      },
+      "score": 0.428
+    },
+    "brid.gy": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.247
+    },
+    "scripting.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.247
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.167
+    },
+    "techlifeweb.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.130
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0648
+    },
+    "tent.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0648
+    },
+    "www.leoville.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0648
+    },
+    "withknown.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0648
+    },
+    "www.kevinmarks.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0648
+    },
+    "dangillmor.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0648
+    },
+    "bradfitz.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0648
+    }
+  }
+}

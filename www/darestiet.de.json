@@ -1,0 +1,288 @@
+{
+  "domain": "darestiet.de",
+  "urls": [
+    "https://darestiet.de/profile/peter",
+    "https://www.hormanns-wenz.de",
+    "https://twitter.com/darestiet"
+  ],
+  "names": [
+    "Peter Hormanns",
+    "Guten Tag vom Niederrhein",
+    "Darestiet!"
+  ],
+  "descriptions": [
+    "DevOps, Java Technology, Free Software, Hostsharing eG",
+    "DevOps, Java Technology, Free Software"
+  ],
+  "pictures": [
+    "https://darestiet.de/file/4603144de19c2dd4ded71627c80dd6fa"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Peter Hormanns"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>DevOps, Java Technology, Free Software, Hostsharing eG</p>\n</div>",
+          "value": "\nDevOps, Java Technology, Free Software, Hostsharing eG\n"
+        }
+      ],
+      "photo": [
+        "https://darestiet.de/file/4603144de19c2dd4ded71627c80dd6fa"
+      ],
+      "profile": [
+        "Peter Hormanns"
+      ],
+      "url": [
+        "https://darestiet.de/profile/peter",
+        "https://darestiet.de/profile/peter",
+        "https://www.hormanns-wenz.de",
+        "https://twitter.com/darestiet"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://www.hormanns-wenz.de",
+    "https://twitter.com/darestiet"
+  ],
+  "crawl_start": "2017-04-28T05:16:40",
+  "crawl_end": "2017-04-28T05:16:55",
+  "num_pages": 22,
+  "total_html_size": 511157,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://darestiet.de/webmention/"
+    ],
+    "micropub": [
+      "https://darestiet.de/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://darestiet.de/indieauth/auth"
+    ],
+    "token": [
+      "https://darestiet.de/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 230,
+  "links_in": 1,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 1
+    },
+    "www.hostsharing.net": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.976
+    },
+    "www.hormanns-wenz.de": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.899
+    },
+    "programm.openrheinruhr.de": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.899
+    },
+    "twitter.com/darestiet": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.881
+    },
+    "twitter.com/kirchenmobil": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.881
+    },
+    "www.kirchenmobil.de": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.817
+    },
+    "twitter.com/phormanns": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.794
+    },
+    "openrheinruhr.de": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.794
+    },
+    "luki.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.794
+    },
+    "twitter.com/letterus": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.698
+    },
+    "leichtlebig.wordpress.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.608
+    },
+    "fsfe.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.608
+    },
+    "unsplash.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.608
+    },
+    "www.arte.tv": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.608
+    },
+    "www.cusy.io": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.608
+    },
+    "www.selbstdatenschutz.info": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.608
+    },
+    "de.slideshare.net": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.608
+    },
+    "emailselfdefense.fsf.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.608
+    },
+    "www.democracy-film.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.608
+    },
+    "digitalcourage.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.608
+    },
+    "commons.wikimedia.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.608
+    },
+    "twitter.com/dpd_de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.550
+    },
+    "www.dpd.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.550
+    },
+    "johannes.brakensiek.info": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.550
+    },
+    "793kmRhein.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.550
+    },
+    "twitter.com/Barbara_Schnell": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.474
+    },
+    "twitter.com/cusyio": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.368
+    },
+    "www.bschnell.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.368
+    },
+    "twitter.com/SvenHilbert": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.368
+    },
+    "twitter.com/bbianchet": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.368
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

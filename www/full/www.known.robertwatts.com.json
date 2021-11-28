@@ -1,0 +1,232 @@
+{
+  "domain": "www.known.robertwatts.com",
+  "urls": [
+    "https://www.known.robertwatts.com/profile/robert",
+    "http://www.robertwatts.com",
+    "http://twitter.com/robertalanwatts"
+  ],
+  "names": [
+    "Robert Alan Watts",
+    "Know It All",
+    "Robert's home on the web..."
+  ],
+  "descriptions": [
+    "Rattler wants boa...",
+    "...powered by the mighty Raspberry Pi 2"
+  ],
+  "pictures": [
+    "https://www.known.robertwatts.com/file/ad8e567652a5e66aff18cd28946ec0cd/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Robert Alan Watts"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Rattler wants boa...</p>\n</div> ",
+          "value": "\nRattler wants boa...\n "
+        }
+      ],
+      "photo": [
+        "https://www.known.robertwatts.com/file/ad8e567652a5e66aff18cd28946ec0cd/thumb.jpg"
+      ],
+      "profile": [
+        "Robert Alan Watts"
+      ],
+      "url": [
+        "https://www.known.robertwatts.com/profile/robert",
+        "https://www.known.robertwatts.com/profile/robert",
+        "http://www.robertwatts.com",
+        "http://twitter.com/robertalanwatts"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/robertalanwatts",
+    "https://google.com/+RobertWatts1957",
+    "http://www.robertwatts.com",
+    "http://twitter.com/robertalanwatts"
+  ],
+  "crawl_start": "2017-04-30T07:02:15",
+  "crawl_end": "2017-04-30T07:04:44",
+  "num_pages": 101,
+  "total_html_size": 3318076,
+  "servers": [
+    "Apache (Debian)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-cite",
+    "h-entry",
+    "h-geo"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.known.robertwatts.com/webmention/"
+    ],
+    "micropub": [
+      "https://www.known.robertwatts.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://www.known.robertwatts.com/indieauth/auth"
+    ],
+    "token": [
+      "https://www.known.robertwatts.com/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 401,
+  "links_in": 20,
+  "links": {
+    "ipv6-test.com": {
+      "out": {
+        "other": 101
+      },
+      "score": 1
+    },
+    "withknown.com": {
+      "out": {
+        "other": 101
+      },
+      "score": 1
+    },
+    "twitter.com/robertalanwatts": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.721
+    },
+    "www.robertwatts.com": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.721
+    },
+    "twitter.com/RobertAlanWatts": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.712
+    },
+    "twitter.com/Gatophile": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.712
+    },
+    "twitter.com/YorkistMan": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.653
+    },
+    "www.theguardian.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.653
+    },
+    "goo.gl": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 8
+      },
+      "score": 0.614
+    },
+    "brid.gy": {
+      "in": {
+        "other": 20
+      },
+      "score": 0.565
+    },
+    "facebook.com/679657108830875": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.565
+    },
+    "www.samsung.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.522
+    },
+    "facebook.com/10205305628229054": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.522
+    },
+    "www.bbc.co.uk": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.522
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.522
+    },
+    "twitter.com/kevnjo6870": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.467
+    },
+    "twitter.com/Freyasblade": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.467
+    },
+    "Oh no I forgot it again": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.392
+    },
+    "twitter.com/ColinPears": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.392
+    },
+    "facebook.com/10153409456066185": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.262
+    },
+    "twitter.com/MorinMusselman": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.262
+    },
+    "twitter.com/Ryanpeghs": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.262
+    }
+  }
+}

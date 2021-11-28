@@ -1,0 +1,105 @@
+{
+  "domain": "blog.jornadahikers.com",
+  "urls": [
+    "http://blog.jornadahikers.com/profile/tamasrepus",
+    "https://samat.io/",
+    "https://twitter.com/samatjain"
+  ],
+  "names": [
+    "Samat Jain",
+    "tamasrepus's Known"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://blog.jornadahikers.com/file/968a6cb468aeac3b7c09b8c9f5a11299/thumb.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Samat Jain"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "http://blog.jornadahikers.com/file/968a6cb468aeac3b7c09b8c9f5a11299/thumb.png"
+      ],
+      "profile": [
+        "Samat Jain"
+      ],
+      "url": [
+        "http://blog.jornadahikers.com/profile/tamasrepus",
+        "http://blog.jornadahikers.com/profile/tamasrepus",
+        "https://samat.io/",
+        "https://twitter.com/samatjain"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://samat.io/",
+    "https://twitter.com/samatjain"
+  ],
+  "crawl_start": "2017-04-28T02:15:50",
+  "crawl_end": "2017-04-28T02:16:00",
+  "num_pages": 12,
+  "total_html_size": 218930,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://blog.jornadahikers.com/webmention/"
+    ],
+    "micropub": [
+      "http://blog.jornadahikers.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "http://blog.jornadahikers.com/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 30,
+  "links_in": 4,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.437
+    }
+  }
+}

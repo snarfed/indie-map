@@ -1,0 +1,76 @@
+{
+  "domain": "blog.simonwood.info",
+  "urls": [
+    "http://blog.simonwood.info/"
+  ],
+  "names": [
+    "Simon's Thought Development Oven – Half-baked ideas around learning and technology…",
+    "Simon's Thought Development Oven"
+  ],
+  "descriptions": [
+    "Half-baked ideas around learning and technology..."
+  ],
+  "pictures": [
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T02:15:56",
+  "crawl_end": "2017-04-28T02:16:28",
+  "num_pages": 21,
+  "total_html_size": 591183,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-feed",
+    "h-as-mention",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://blog.simonwood.info/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 441,
+  "links_in": 2,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.134
+    },
+    "littlestorping.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.134
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.134
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "lawriephipps.co.uk": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

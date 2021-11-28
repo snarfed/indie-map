@@ -1,0 +1,111 @@
+{
+  "domain": "jan.krutisch.de",
+  "urls": [
+    "http://twitter.com/halfbyte",
+    "https://jan.krutisch.de/"
+  ],
+  "names": [
+    "...via Email\n\n...via Skype\n\n...on Twitter\n...or by Phone: +49-175-2935345",
+    "jan krutisch - jan.krutisch.de",
+    "Jan Krutisch's Website",
+    "jan krutisch"
+  ],
+  "descriptions": [
+    "Jan Krutisch is a software developer, tech writer, speaker and multi purpose geek."
+  ],
+  "pictures": [
+    "https://secure.gravatar.com/avatar/b5b39c8f21b5bb1ab97852ed32c888ab?s=120&r=pg&d=https%3A%2F%2Fflattr.com%2F_img%2Faut11-user-placeholder-large.png"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:jan+www@krutisch.de"
+      ],
+      "name": [
+        "...via Email\n\n...via Skype\n\n...on Twitter\n...or by Phone: +49-175-2935345"
+      ],
+      "tel": [
+        "+49-175-2935345"
+      ],
+      "url": [
+        "http://twitter.com/halfbyte"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/halfbyte",
+    "http://github.com/halfbyte",
+    "https://www.flickr.com/photos/jankrutisch/",
+    "http://pants.halfbyte.org",
+    "mailto:jan+www@krutisch.de",
+    "skype:JanKrutisch?chat",
+    "tel:+49-175-2935345",
+    "http://lanyrd.com/profile/halfbyte/"
+  ],
+  "crawl_start": "2017-04-28T23:35:02",
+  "crawl_end": "2017-04-28T23:45:03",
+  "num_pages": 1033,
+  "total_html_size": 11223067,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-event",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/jan.krutisch.de/webmention"
+    ]
+  },
+  "links_out": 7007,
+  "links_in": 9,
+  "links": {
+    "adactio.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.333
+    },
+    "shiflett.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.298
+    },
+    "daverix.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.167
+    },
+    "wirres.net": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.167
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.132
+    },
+    "updates.kip.pe": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0832
+    }
+  }
+}

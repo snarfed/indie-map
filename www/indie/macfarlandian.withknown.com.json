@@ -1,0 +1,102 @@
+{
+  "domain": "macfarlandian.withknown.com",
+  "urls": [
+    "https://macfarlandian.withknown.com/profile/macfarlandian",
+    "http://macbodachland.com/ian"
+  ],
+  "names": [
+    "Ian MacFarland"
+  ],
+  "descriptions": [
+    "Designer, storyteller, all-around jerk",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://macfarlandian.withknown.com/file/3149e4a4ff332edbdfe57d08953c9068"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Ian MacFarland"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Designer, storyteller, all-around jerk</p>\n</div>",
+          "value": "\nDesigner, storyteller, all-around jerk\n"
+        }
+      ],
+      "photo": [
+        "https://macfarlandian.withknown.com/file/3149e4a4ff332edbdfe57d08953c9068"
+      ],
+      "profile": [
+        "Ian MacFarland"
+      ],
+      "url": [
+        "https://macfarlandian.withknown.com/profile/macfarlandian",
+        "https://macfarlandian.withknown.com/profile/macfarlandian",
+        "http://macbodachland.com/ian"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://macbodachland.com/ian"
+  ],
+  "crawl_start": "2017-04-29T14:40:25",
+  "crawl_end": "2017-04-29T14:46:35",
+  "num_pages": 249,
+  "total_html_size": 6119140,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://macfarlandian.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://macfarlandian.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://macfarlandian.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://macfarlandian.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 769,
+  "links_in": 1,
+  "links": {
+    "macbodachland.com": {
+      "out": {
+        "other": 97
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

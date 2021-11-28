@@ -1,0 +1,47 @@
+{
+  "domain": "another.ink",
+  "urls": [
+    "http://another.ink/"
+  ],
+  "names": [
+    "Home | another ink"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://another.ink/core/misc/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/tvnweb"
+  ],
+  "crawl_start": "2017-06-09T17:33:27",
+  "crawl_end": "2017-06-09T17:33:45",
+  "num_pages": 25,
+  "total_html_size": 259984,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-entry"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 30,
+  "links_in": 3,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.333
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "domain": "mtroymartin.com",
+  "urls": [
+    "http://mtroymartin.com/profile/divotmeister",
+    "https://twitter.com/MTroyMartin, https://www.facebook.com/Divotmeister"
+  ],
+  "names": [
+    "Troy Martin",
+    "Troy's Website"
+  ],
+  "descriptions": [
+    "Husband, father, grad student, academic technologies, OER, trail running, biking, sleeping.  In that order.",
+    "My personal space on the web"
+  ],
+  "pictures": [
+    "http://mtroymartin.com/file/edc0b617f3dffccf7092ee747200b290/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Troy Martin"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Husband, father, grad student, academic technologies, OER, trail running, biking, sleeping.  In that order.</p>\n</div> ",
+          "value": "\nHusband, father, grad student, academic technologies, OER, trail running, biking, sleeping.  In that order.\n "
+        }
+      ],
+      "photo": [
+        "http://mtroymartin.com/file/edc0b617f3dffccf7092ee747200b290/thumb.jpg"
+      ],
+      "profile": [
+        "Troy Martin"
+      ],
+      "url": [
+        "http://mtroymartin.com/profile/divotmeister",
+        "http://mtroymartin.com/profile/divotmeister",
+        "https://twitter.com/MTroyMartin, https://www.facebook.com/Divotmeister"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/MTroyMartin, https://www.facebook.com/Divotmeister"
+  ],
+  "crawl_start": "2017-04-29T21:31:43",
+  "crawl_end": "2017-04-29T21:32:00",
+  "num_pages": 16,
+  "total_html_size": 542377,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://mtroymartin.com/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 29,
+  "links_in": 0,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 1
+    },
+    "kelly.flanagan.io": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.663
+    }
+  }
+}

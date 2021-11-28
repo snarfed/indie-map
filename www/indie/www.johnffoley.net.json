@@ -1,0 +1,117 @@
+{
+  "domain": "www.johnffoley.net",
+  "urls": [
+    "http://www.johnffoley.net/profile/jffoley",
+    "https://twitter.com/foleyjf"
+  ],
+  "names": [
+    "John F. Foley",
+    "Thoughts and Reflections"
+  ],
+  "descriptions": [
+    "I'm an editor, very amateur photographer, and family history enthusiast from Ireland, but based in Washington, DC.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://www.johnffoley.net/file/74de0d72117aa5f8ec07f23d0a828f0a/thumb.jpg",
+    "http://www.johnffoley.net/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "John F. Foley"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I'm an editor, very amateur photographer, and family history enthusiast from Ireland, but based in Washington, DC.</p>\n</div>",
+          "value": "\nI'm an editor, very amateur photographer, and family history enthusiast from Ireland, but based in Washington, DC.\n"
+        }
+      ],
+      "photo": [
+        "http://www.johnffoley.net/file/74de0d72117aa5f8ec07f23d0a828f0a/thumb.jpg"
+      ],
+      "profile": [
+        "John F. Foley"
+      ],
+      "url": [
+        "http://www.johnffoley.net/profile/jffoley",
+        "http://www.johnffoley.net/profile/jffoley",
+        "https://twitter.com/foleyjf"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/foleyjf"
+  ],
+  "crawl_start": "2017-04-30T06:56:41",
+  "crawl_end": "2017-04-30T06:58:15",
+  "num_pages": 119,
+  "total_html_size": 2699360,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.johnffoley.net/webmention/"
+    ],
+    "micropub": [
+      "http://www.johnffoley.net/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://www.johnffoley.net/indieauth/auth"
+    ],
+    "token": [
+      "http://www.johnffoley.net/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 338,
+  "links_in": 3,
+  "links": {
+    "musings.withknown.com": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 5
+      },
+      "score": 0.790
+    },
+    "quill.p3k.io": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.558
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.515
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.204
+    }
+  }
+}

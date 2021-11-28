@@ -1,0 +1,71 @@
+{
+  "domain": "social.glennrice.net",
+  "urls": [
+    "http://social.glennrice.net/"
+  ],
+  "names": [
+    "Glenn's Web"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://social.glennrice.net/file/5f0e177c891d358c8f8acbb46d3956d2"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T02:16:26",
+  "crawl_end": "2017-04-30T02:16:44",
+  "num_pages": 27,
+  "total_html_size": 534182,
+  "servers": [
+    "Apache (Ubuntu)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://social.glennrice.net/webmention/"
+    ],
+    "micropub": [
+      "https://social.glennrice.net/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://social.glennrice.net/indieauth/auth"
+    ],
+    "token": [
+      "https://social.glennrice.net/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 31,
+  "links_in": 4,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 27
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.348
+    }
+  }
+}

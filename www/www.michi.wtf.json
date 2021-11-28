@@ -1,0 +1,648 @@
+{
+  "domain": "www.michi.wtf",
+  "urls": [
+    "http://www.michi.wtf/"
+  ],
+  "names": [
+    "michael",
+    "Basisstation"
+  ],
+  "descriptions": [
+    "Meine Internet-Basisstation"
+  ],
+  "pictures": [
+    "https://www.michi.wtf/file/40f9f9ef40c9f5e436f3676bdbd2ce68"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T21:31:43",
+  "crawl_end": "2017-04-30T07:25:29",
+  "num_pages": 171,
+  "total_html_size": 3723811,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.michi.wtf/webmention/"
+    ],
+    "micropub": [
+      "https://www.michi.wtf/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://www.michi.wtf/indieauth/auth"
+    ],
+    "token": [
+      "https://www.michi.wtf/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 967,
+  "links_in": 10,
+  "links": {
+    "facebook.com/1263180603698551": {
+      "out": {
+        "other": 304
+      },
+      "score": 1
+    },
+    "withknown.com": {
+      "out": {
+        "other": 186
+      },
+      "score": 0.924
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 71
+      },
+      "score": 0.774
+    },
+    "facebook.com/842948012493827": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.541
+    },
+    "facebook.com/524958584348930": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.520
+    },
+    "twitter.com/tancredipalmeri": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.509
+    },
+    "youtu.be": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.509
+    },
+    "github.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.509
+    },
+    "facebook.com/1357831254244052": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.496
+    },
+    "chaosradio.ccc.de": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.496
+    },
+    "facebook.com/994501193919172": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.496
+    },
+    "facebook.com/656704684467343": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.496
+    },
+    "facebook.com/1257525837595018": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.496
+    },
+    "facebook.com/10204298644985291": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.468
+    },
+    "www.zdf.de": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.468
+    },
+    "www.schwaebische.de": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.451
+    },
+    "www.kuketz-blog.de": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.451
+    },
+    "www.kuester.de": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.451
+    },
+    "re-publica.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.387
+    },
+    "www.konradlischka.info": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 5
+      },
+      "score": 0.387
+    },
+    "facebook.com/10153951965743524": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.387
+    },
+    "facebook.com/1724916804387367": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.387
+    },
+    "www.mein-grundeinkommen.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.387
+    },
+    "facebook.com/1034146083295090": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.387
+    },
+    "brid.gy": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.387
+    },
+    "facebook.com/1083388038349271": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.387
+    },
+    "www.zeit.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.387
+    },
+    "www.dueckantwortet.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.359
+    },
+    "www.heise.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.359
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.359
+    },
+    "www.br.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.359
+    },
+    "www.petersell.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.359
+    },
+    "tortenbefehl.wordpress.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.359
+    },
+    "facebook.com/1004593802939618": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.324
+    },
+    "facebook.com/1022237594478884": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.324
+    },
+    "facebook.com/1112722125428983": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.324
+    },
+    "facebook.com/10153497343133691": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.324
+    },
+    "facebook.com/1117462324953491": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.324
+    },
+    "facebook.com/552939428213339": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.324
+    },
+    "facebook.com/10153702556504823": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.324
+    },
+    "facebook.com/1113493192015410": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.324
+    },
+    "facebook.com/10206337505269723": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.324
+    },
+    "facebook.com/217108478647949": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.324
+    },
+    "facebook.com/10206110015494137": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.324
+    },
+    "facebook.com/945769915500846": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.324
+    },
+    "stromgeber.lischka.cc": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.279
+    },
+    "facebook.com/1084297154942522": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/10204697118422519": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/10153679763604843": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1227390010634077": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1742831765931540": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1292874920727524": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1585137538452679": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/911348362344285": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/10205927751338278": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/10207042395478321": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1128178710534600": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/10201480585412296": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1040201552704323": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/671931476290512": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1094309110657697": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1167162236668436": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1190830224261347": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1244292945611443": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1011177785620797": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1041314325945297": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1166664410039387": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/10205958138492608": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/10210183584214099": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1089852547742892": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/556843594483764": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1068203729906032": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1119255834805614": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/10153585078535303": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/10207432227463831": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1303391769678384": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/941720805938101": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/302895673385613": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1175255925851801": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1033768706731358": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/610089042477814": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1754413221471007": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/224695271256183": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1218277168186757": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1220057014700495": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/989824927774035": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/10208150640177056": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/10205702652909197": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/195766324112836": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/10153942051182692": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/965341530168154": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1001687259902799": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1095593163817592": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/1148939341803484": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "facebook.com/221235288277463": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "www.ard.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.108
+    },
+    "www.welt.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.108
+    }
+  }
+}

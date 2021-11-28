@@ -1,0 +1,376 @@
+{
+  "domain": "vaviblog.com",
+  "urls": [
+    "https://vaviblog.com/profile/jeremy",
+    "http://jeremycherfas.net",
+    "https://twitter.com/NIVavilov",
+    "https://www.facebook.com/jeremy.cherfas",
+    "https://alpha.app.net/jeremycherfas",
+    "http://twitter.com/eatpodcast",
+    "https://www.instagram.com/eatthispodcast/"
+  ],
+  "names": [
+    "Jeremy Cherfas"
+  ],
+  "descriptions": [
+    "I'm exploring the indieweb",
+    "Experiments in the indieweb"
+  ],
+  "pictures": [
+    "https://vaviblog.com/file/5cffa526a408ce6b074c5cf8c2bff9e6"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Jeremy Cherfas"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I'm exploring the indieweb</p>\n</div>",
+          "value": "\nI'm exploring the indieweb\n"
+        }
+      ],
+      "photo": [
+        "https://vaviblog.com/file/5cffa526a408ce6b074c5cf8c2bff9e6"
+      ],
+      "profile": [
+        "Jeremy Cherfas"
+      ],
+      "url": [
+        "https://vaviblog.com/profile/jeremy",
+        "https://vaviblog.com/profile/jeremy",
+        "http://jeremycherfas.net",
+        "https://twitter.com/NIVavilov",
+        "https://www.facebook.com/jeremy.cherfas",
+        "https://alpha.app.net/jeremycherfas",
+        "http://twitter.com/eatpodcast",
+        "https://www.instagram.com/eatthispodcast/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://jeremycherfas.net",
+    "https://twitter.com/NIVavilov",
+    "https://www.facebook.com/jeremy.cherfas",
+    "https://alpha.app.net/jeremycherfas",
+    "http://twitter.com/eatpodcast",
+    "https://www.instagram.com/eatthispodcast/"
+  ],
+  "crawl_start": "2017-05-06T01:58:12",
+  "crawl_end": "2017-05-06T02:12:52",
+  "num_pages": 1088,
+  "total_html_size": 29423363,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-geo",
+    "h-cite",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://vaviblog.com/webmention/"
+    ],
+    "micropub": [
+      "https://vaviblog.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://vaviblog.com/indieauth/auth"
+    ],
+    "token": [
+      "https://vaviblog.com/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 5684,
+  "links_in": 461,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 1090
+      },
+      "score": 0.911
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 313,
+        "other": 13,
+        "like-of": 6
+      },
+      "out": {
+        "in-reply-to": 8,
+        "other": 75
+      },
+      "score": 0.889
+    },
+    "www.jeremycherfas.net": {
+      "in": {
+        "other": 5
+      },
+      "out": {
+        "in-reply-to": 27,
+        "other": 64
+      },
+      "score": 0.711
+    },
+    "jeremycherfas.net": {
+      "out": {
+        "other": 174
+      },
+      "score": 0.693
+    },
+    "boffosocko.com": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "in-reply-to": 18,
+        "other": 22
+      },
+      "score": 0.646
+    },
+    "adactio.com": {
+      "out": {
+        "in-reply-to": 14,
+        "other": 10
+      },
+      "in": {
+        "other": 20
+      },
+      "score": 0.615
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 6,
+        "in-reply-to": 7
+      },
+      "out": {
+        "in-reply-to": 4,
+        "other": 14
+      },
+      "score": 0.556
+    },
+    "keithjgrant.com": {
+      "out": {
+        "in-reply-to": 10
+      },
+      "score": 0.546
+    },
+    "perlkonig.com": {
+      "out": {
+        "in-reply-to": 10
+      },
+      "score": 0.546
+    },
+    "headcrash.ascraeus.org": {
+      "out": {
+        "other": 13,
+        "in-reply-to": 4
+      },
+      "score": 0.496
+    },
+    "microblog.pierre-o.fr": {
+      "in": {
+        "other": 11
+      },
+      "out": {
+        "other": 5,
+        "in-reply-to": 4
+      },
+      "score": 0.487
+    },
+    "werd.io": {
+      "out": {
+        "other": 5,
+        "in-reply-to": 4
+      },
+      "in": {
+        "other": 10
+      },
+      "score": 0.485
+    },
+    "charlienovemb.re": {
+      "out": {
+        "in-reply-to": 5,
+        "other": 4
+      },
+      "score": 0.481
+    },
+    "stream.techlifeweb.com": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 4
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.468
+    },
+    "scripting.com": {
+      "out": {
+        "in-reply-to": 5
+      },
+      "score": 0.463
+    },
+    "www.peterbouda.eu": {
+      "out": {
+        "in-reply-to": 5
+      },
+      "score": 0.463
+    },
+    "stream.jaduncan.com": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 4
+      },
+      "score": 0.459
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 6
+      },
+      "out": {
+        "in-reply-to": 4
+      },
+      "score": 0.454
+    },
+    "www.marcus-povey.co.uk": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "in-reply-to": 4
+      },
+      "score": 0.448
+    },
+    "www.eatthispodcast.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.448
+    },
+    "tyler.cat": {
+      "out": {
+        "in-reply-to": 4
+      },
+      "score": 0.437
+    },
+    "miklb.com": {
+      "out": {
+        "in-reply-to": 4
+      },
+      "score": 0.437
+    },
+    "matthiasott.com": {
+      "out": {
+        "in-reply-to": 4
+      },
+      "score": 0.437
+    },
+    "rhiaro.co.uk": {
+      "out": {
+        "in-reply-to": 4
+      },
+      "score": 0.437
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "out": {
+        "other": 15
+      },
+      "score": 0.424
+    },
+    "ben.thatmustbe.me": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "in-reply-to": 4
+      },
+      "score": 0.395
+    },
+    "mapkyca.com": {
+      "in": {
+        "in-reply-to": 2
+      },
+      "out": {
+        "other": 6
+      },
+      "score": 0.366
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 20
+      },
+      "score": 0.355
+    },
+    "hylozoist.ascraeus.org": {
+      "in": {
+        "like-of": 5
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.342
+    },
+    "brid.gy": {
+      "in": {
+        "other": 11
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.303
+    },
+    "www.petersell.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.273
+    },
+    "huffduffer.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.273
+    },
+    "example.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.246
+    },
+    "silo.pub": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0821
+    },
+    "indiewebcat.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0821
+    }
+  }
+}

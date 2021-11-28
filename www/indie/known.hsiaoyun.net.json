@@ -1,0 +1,110 @@
+{
+  "domain": "known.hsiaoyun.net",
+  "urls": [
+    "http://known.hsiaoyun.net/profile/hsiaoyun",
+    "http://hsiaoyun.net/",
+    "https://groups.diigo.com/group/assessment-literacy"
+  ],
+  "names": [
+    "Hsiao-yun",
+    "hsiao-yun's known"
+  ],
+  "descriptions": [
+    "Educator, applied linguist, language tester.",
+    "Writing about assessment every Wednesday"
+  ],
+  "pictures": [
+    "http://known.hsiaoyun.net/file/a014a58123e3eb875324385e232ca00a/thumb.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Hsiao-yun"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Educator, applied linguist, language tester.</p>\n</div>",
+          "value": "\nEducator, applied linguist, language tester.\n"
+        }
+      ],
+      "photo": [
+        "http://known.hsiaoyun.net/file/a014a58123e3eb875324385e232ca00a/thumb.png"
+      ],
+      "profile": [
+        "Hsiao-yun"
+      ],
+      "url": [
+        "http://known.hsiaoyun.net/profile/hsiaoyun",
+        "http://known.hsiaoyun.net/profile/hsiaoyun",
+        "http://hsiaoyun.net/",
+        "https://groups.diigo.com/group/assessment-literacy"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://hsiaoyun.net/",
+    "https://groups.diigo.com/group/assessment-literacy"
+  ],
+  "crawl_start": "2017-04-29T04:33:52",
+  "crawl_end": "2017-04-29T04:35:17",
+  "num_pages": 101,
+  "total_html_size": 3967323,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.hsiaoyun.net/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1844,
+  "links_in": 10,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 101
+      },
+      "score": 1
+    },
+    "ashleytan.wordpress.com": {
+      "in": {
+        "other": 9
+      },
+      "out": {
+        "other": 40
+      },
+      "score": 0.846
+    },
+    "blog.mahabali.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.262
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

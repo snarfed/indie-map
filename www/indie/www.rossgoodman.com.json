@@ -1,0 +1,102 @@
+{
+  "domain": "www.rossgoodman.com",
+  "urls": [
+    "https://www.rossgoodman.com/"
+  ],
+  "names": [
+    "Ross Goodman – Me; What I Do; What I Like !",
+    "Ross Goodman"
+  ],
+  "descriptions": [
+    "Me; What I Do; What I Like !"
+  ],
+  "pictures": [
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://plus.google.com/https://plus.google.com/114252903082124775992",
+    "https://twitter.com/rossgoodman",
+    "https://www.facebook.com/https://www.facebook.com/rossgoodman1970",
+    "https://www.flickr.com/people/http://www.flickr.com/photos/ross_goodman"
+  ],
+  "crawl_start": "2017-05-06T07:19:53",
+  "crawl_end": "2017-05-06T09:10:13",
+  "num_pages": 2447,
+  "total_html_size": 148737943,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-as-mention",
+    "h-as-reply",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.rossgoodman.com/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 41094,
+  "links_in": 25,
+  "links": {
+    "www.kevinmarks.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.317
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.297
+    },
+    "brid.gy": {
+      "in": {
+        "other": 17
+      },
+      "score": 0.291
+    },
+    "kylewm.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "like-of": 3,
+        "other": 1
+      },
+      "score": 0.246
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.184
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0711
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

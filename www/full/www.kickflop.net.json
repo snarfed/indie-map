@@ -1,0 +1,479 @@
+{
+  "domain": "www.kickflop.net",
+  "urls": [
+    "http://www.kickflop.net/"
+  ],
+  "names": [
+    "Jeff Blaine"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "http://coderwall.com/jblaine",
+    "http://www.facebook.com/profile.php?id=702650683",
+    "http://www.flickr.com/photos/kickslop/",
+    "https://github.com/jblaine",
+    "https://plus.google.com/113099583375086424437/about"
+  ],
+  "crawl_start": "2017-06-10T02:27:02",
+  "crawl_end": "2017-06-10T02:28:48",
+  "num_pages": 123,
+  "total_html_size": 1700036,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "WordPress"
+  ],
+  "endpoints": {},
+  "links_out": 863,
+  "links_in": 3,
+  "links": {
+    "github.com": {
+      "out": {
+        "other": 138
+      },
+      "score": 1
+    },
+    "www.facebook.com": {
+      "out": {
+        "other": 123
+      },
+      "score": 0.980
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 124
+      },
+      "score": 0.980
+    },
+    "plus.google.com/113099583375086424437": {
+      "out": {
+        "other": 123
+      },
+      "score": 0.980
+    },
+    "coderwall.com": {
+      "out": {
+        "other": 123
+      },
+      "score": 0.980
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.696
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.628
+    },
+    "twitter.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.605
+    },
+    "docs.djangoproject.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.580
+    },
+    "www.cafepress.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.534
+    },
+    "docs.opscode.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.493
+    },
+    "bitfieldconsulting.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.493
+    },
+    "www.tldp.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.470
+    },
+    "instapaper.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.470
+    },
+    "market.android.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.470
+    },
+    "www.google.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.470
+    },
+    "www.amazon.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.441
+    },
+    "graphite.wikidot.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.441
+    },
+    "httpd.apache.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.409
+    },
+    "www.insidewoodworking.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.409
+    },
+    "sysadvent.blogspot.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.409
+    },
+    "comments.gmane.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.409
+    },
+    "graphite.readthedocs.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.409
+    },
+    "cacm.acm.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.370
+    },
+    "groups.google.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.370
+    },
+    "www.splunk.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.370
+    },
+    "community.zenoss.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.370
+    },
+    "ryanfreitas.tumblr.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.370
+    },
+    "www.lehman.cuny.edu": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.370
+    },
+    "tickets.opscode.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.319
+    },
+    "ganglia.info": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.247
+    },
+    "www.rsyslog.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.247
+    },
+    "code.djangoproject.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.247
+    },
+    "sourceforge.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "blog.afistfulofservers.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "pggt.sourceforge.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "www.avoturboworld.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "ftp.gnu.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "jpgmag.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "bazaar.canonical.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "wiki.apache.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "www.carbonfund.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "jtimberman.housepub.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "www.isi.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "docs.puppetlabs.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "lifehacker.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "www.opscode.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "twitter.com/therealmaz": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "git-scm.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "www.irwin.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "developer.android.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "wiki.jenkins-ci.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "worldcommunitygrid.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.123
+    },
+    "cfengine.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "www.currentobituary.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "www.openafs.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "wiki.opscode.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "www.nagios.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "codeascraft.etsy.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "ftp.vim.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "logging.apache.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "insanedreamer.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "rubygems.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "www.wireshark.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "globs.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "opscode.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "mirrors.jenkins-ci.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "instafetch.immortal.pl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "rubyinstaller.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "www.vim.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "reportanerror.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.123
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

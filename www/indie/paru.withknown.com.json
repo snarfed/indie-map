@@ -1,0 +1,96 @@
+{
+  "domain": "paru.withknown.com",
+  "urls": [
+    "https://paru.withknown.com/profile/paru",
+    "https://twitter.com/pati_ru"
+  ],
+  "names": [
+    "pa | ru"
+  ],
+  "descriptions": [
+    "I am a learner|educator interested in the application of the learning sciences and passionate about teaching and working with teachers to leverage technology tools in the service of learning.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://paru.withknown.com/file/85105bb6f5df9c1cf9a7f70909e480ae/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "pa | ru"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I am a learner|educator interested in the application of the learning sciences and passionate about teaching and working with teachers to leverage technology tools in the service of learning.</p>\n</div>",
+          "value": "\nI am a learner|educator interested in the application of the learning sciences and passionate about teaching and working with teachers to leverage technology tools in the service of learning.\n"
+        }
+      ],
+      "photo": [
+        "https://paru.withknown.com/file/85105bb6f5df9c1cf9a7f70909e480ae/thumb.jpg"
+      ],
+      "profile": [
+        "pa | ru"
+      ],
+      "url": [
+        "https://paru.withknown.com/profile/paru",
+        "https://paru.withknown.com/profile/paru",
+        "https://twitter.com/pati_ru"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/pati_ru"
+  ],
+  "crawl_start": "2017-04-30T01:58:23",
+  "crawl_end": "2017-04-30T02:05:27",
+  "num_pages": 685,
+  "total_html_size": 15668516,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://paru.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 3379,
+  "links_in": 2,
+  "links": {
+    "hapgood.us": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.394
+    },
+    "readwriterespond.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.296
+    },
+    "werd.io": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0986
+    }
+  }
+}

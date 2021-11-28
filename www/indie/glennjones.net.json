@@ -1,0 +1,341 @@
+{
+  "domain": "glennjones.net",
+  "urls": [
+    "http://glennjones.net/about/",
+    "https://twitter.com/glennjones",
+    "https://github.com/glennjones",
+    "http://delicious.com/glennjonesnet/",
+    "http://lanyrd.com/people/glennjones/",
+    "https://plus.google.com/u/0/105161464208920272734/about",
+    "http://www.linkedin.com/in/glennjones",
+    "http://www.slideshare.net/glennjones/presentations"
+  ],
+  "names": [
+    "Glenn Jones"
+  ],
+  "descriptions": [
+    "Exploring semantic mark-up and data portability."
+  ],
+  "pictures": [
+    "https://glennjones.net/images/photo-small.png",
+    "http://glennjones.net/images/photo-small.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Glenn Jones"
+      ],
+      "note": [
+        "Exploring semantic mark-up and data portability."
+      ],
+      "photo": [
+        "https://glennjones.net/images/photo-small.png"
+      ],
+      "url": [
+        "http://glennjones.net/about/",
+        "https://twitter.com/glennjones",
+        "https://github.com/glennjones",
+        "http://delicious.com/glennjonesnet/",
+        "http://lanyrd.com/people/glennjones/",
+        "https://plus.google.com/u/0/105161464208920272734/about",
+        "http://www.linkedin.com/in/glennjones",
+        "http://www.slideshare.net/glennjones/presentations"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://glennjones.net/about/",
+    "https://twitter.com/glennjones",
+    "https://github.com/glennjones",
+    "http://delicious.com/glennjonesnet/",
+    "http://lanyrd.com/people/glennjones/",
+    "https://plus.google.com/u/0/105161464208920272734/about",
+    "http://www.linkedin.com/in/glennjones",
+    "http://www.slideshare.net/glennjones/presentations"
+  ],
+  "crawl_start": "2017-04-24T04:52:27",
+  "crawl_end": "2017-04-24T05:04:42",
+  "num_pages": 100,
+  "total_html_size": 1149588,
+  "servers": [],
+  "mf2_classes": [
+    "h-as-checkin",
+    "h-entry",
+    "h-feed",
+    "h-card",
+    "h-paging",
+    "h-as-note",
+    "h-event",
+    "h-adr",
+    "h-resume",
+    "h-review",
+    "h-x-username",
+    "h-as-post",
+    "h-x-redirect"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "elder",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://glennjones.net/articles/webmention",
+      "https://glennjones.net/about/webmention",
+      "https://glennjones.net/webmention",
+      "https://glennjones.net/notes/webmention",
+      "https://glennjones.net/tools/microformats/webmention"
+    ],
+    "micropub": [
+      "https://transmat.io/glennjones/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://transmat.io/indieauth/token"
+    ]
+  },
+  "links_out": 1646,
+  "links_in": 1519,
+  "links": {
+    "adactio.com": {
+      "in": {
+        "bookmark-of": 321,
+        "other": 309
+      },
+      "out": {
+        "other": 8
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 409
+      },
+      "score": 0.875
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 246
+      },
+      "score": 0.802
+    },
+    "indiewebify.me": {
+      "out": {
+        "other": 100
+      },
+      "score": 0.771
+    },
+    "waterpigs.co.uk": {
+      "in": {
+        "other": 92
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.661
+    },
+    "aaronparecki.com": {
+      "in": {
+        "in-reply-to": 7,
+        "other": 8
+      },
+      "score": 0.547
+    },
+    "notiz.blog": {
+      "in": {
+        "other": 40
+      },
+      "score": 0.537
+    },
+    "jeena.net": {
+      "in": {
+        "in-reply-to": 8
+      },
+      "score": 0.537
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 17
+      },
+      "score": 0.521
+    },
+    "microformatshiv.com": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "other": 23
+      },
+      "score": 0.509
+    },
+    "brid.gy": {
+      "in": {
+        "other": 17
+      },
+      "score": 0.412
+    },
+    "tantek.com": {
+      "out": {
+        "other": 7
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.412
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.384
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.335
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.335
+    },
+    "aralbalkan.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.202
+    },
+    "oauth.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.202
+    },
+    "suda.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.202
+    },
+    "mark-kirby.co.uk": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.160
+    },
+    "werd.io": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.160
+    },
+    "colintedford.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.160
+    },
+    "barryfrost.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.101
+    },
+    "danbri.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.101
+    },
+    "www.kryogenix.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.101
+    },
+    "bradfitz.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.101
+    },
+    "paulrobertlloyd.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.101
+    },
+    "fberriman.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.101
+    },
+    "tommorris.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.101
+    },
+    "dennisimo.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.101
+    },
+    "joshemerson.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.101
+    },
+    "tobiastom.name": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "vanderwal.net": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "snarfed.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "brandonrozek.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "johannesdachsel.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

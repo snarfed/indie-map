@@ -1,0 +1,104 @@
+{
+  "domain": "www.darkglass.org",
+  "urls": [
+    "https://www.darkglass.org"
+  ],
+  "names": [
+    "Through a Glass Darkly – Outside looking in.",
+    "Through a Glass Darkly"
+  ],
+  "descriptions": [
+    "Outside looking in."
+  ],
+  "pictures": [
+    "https://i1.wp.com/www.darkglass.org/wp-content/uploads/2017/05/cropped-spiral-icon.png?fit=32%2C32&ssl=1",
+    "https://i1.wp.com/www.darkglass.org/wp-content/uploads/2017/05/cropped-spiral-icon.png?fit=192%2C192&ssl=1",
+    "https://www.darkglass.org/wp-content/uploads/2017/05/cropped-spiral-icon.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://micro.blog/tamaracks",
+    "mailto:tamara@darkglass.org",
+    "https://github.com/tamaracks",
+    "https://plus.google.com/109340792825708328878",
+    "https://twitter.com/tamaracks",
+    "https://www.facebook.com/10504577",
+    "https://last.fm/user/tamaracks",
+    "https://www.instagram.com/tamaracks",
+    "https://www.flickr.com/people/tamaracks"
+  ],
+  "crawl_start": "2017-05-06T02:10:08",
+  "crawl_end": "2017-05-06T02:25:05",
+  "num_pages": 695,
+  "total_html_size": 18617913,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-bookmark",
+    "h-entry",
+    "h-as-article",
+    "h-feed",
+    "h-cite",
+    "h-as-image",
+    "h-as-note"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.darkglass.org/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://www.darkglass.org/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 3459,
+  "links_in": 30,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 24
+      },
+      "score": 0.439
+    },
+    "aaronparecki.com": {
+      "out": {
+        "like-of": 3
+      },
+      "score": 0.343
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.247
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.192
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "domain": "paulsq.withknown.com",
+  "urls": [
+    "https://paulsq.withknown.com/profile/paulsq",
+    "http://www.twitter.com/paulsq"
+  ],
+  "names": [
+    "Paul Squires",
+    "Ephemera"
+  ],
+  "descriptions": [
+    "Art, politics, transport, culture, media, ephemera.This is a personal site; views contained are mine only and do not necessarily represent those of my employers or any other associated person or organisation.",
+    "Radical thinking."
+  ],
+  "pictures": [
+    "https://paulsq.withknown.com/file/95f26da3b7b0186302a3f1212727bdc1/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Paul Squires"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Art, politics, transport, culture, media, ephemera.<br/>This is a personal site; views contained are mine only and do not necessarily represent those of my employers or any other associated person or organisation.</p>\n</div> ",
+          "value": "\nArt, politics, transport, culture, media, ephemera.This is a personal site; views contained are mine only and do not necessarily represent those of my employers or any other associated person or organisation.\n "
+        }
+      ],
+      "photo": [
+        "https://paulsq.withknown.com/file/95f26da3b7b0186302a3f1212727bdc1/thumb.jpg"
+      ],
+      "profile": [
+        "Paul Squires"
+      ],
+      "url": [
+        "https://paulsq.withknown.com/profile/paulsq",
+        "https://paulsq.withknown.com/profile/paulsq",
+        "http://www.twitter.com/paulsq"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.twitter.com/paulsq"
+  ],
+  "crawl_start": "2017-04-30T01:58:31",
+  "crawl_end": "2017-04-30T01:59:20",
+  "num_pages": 55,
+  "total_html_size": 9133149,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://paulsq.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 661,
+  "links_in": 7,
+  "links": {
+    "mapkyca.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "in-reply-to": 2
+      },
+      "score": 0.518
+    },
+    "brid.gy": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.289
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "domain": "bowlhat.net",
+  "urls": [
+    "https://bowlhat.net/"
+  ],
+  "names": [
+    "Bowl Hat",
+    "Web Development agency specialising in WordPress | Bowl Hat"
+  ],
+  "descriptions": [
+    "Bowl Hat is the trading name of Daniel Llewellyn, a freelance WordPress Developer. We develop bespoke themes and plugins for WordPress web sites."
+  ],
+  "pictures": [
+    "https://bowlhat.net/wp-content/themes/wireframe/images/favicon.png",
+    "https://i1.wp.com/bowlhat.net/wp-content/uploads/2016/04/cropped-logo-no-background.png?fit=32%2C32&ssl=1",
+    "https://i1.wp.com/bowlhat.net/wp-content/uploads/2016/04/cropped-logo-no-background.png?fit=192%2C192&ssl=1"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/diddledan",
+    "https://plus.google.com/https://plus.google.com/+DanielLlewellynJNR",
+    "https://twitter.com/diddledan",
+    "https://www.facebook.com/diddledan",
+    "https://last.fm/user/diddledan",
+    "https://www.flickr.com/people/honeymonster"
+  ],
+  "crawl_start": "2017-04-28T02:16:58",
+  "crawl_end": "2017-04-28T03:07:33",
+  "num_pages": 190,
+  "total_html_size": 7775264,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "mf2_classes": [
+    "h-as-note",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://bowlhat.net/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://bowlhat.net/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 1518,
+  "links_in": 4,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.201
+    },
+    "oauth.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    }
+  }
+}

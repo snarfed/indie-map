@@ -1,0 +1,64 @@
+{
+  "domain": "brandoncollins.org",
+  "urls": [
+    "http://brandoncollins.org/"
+  ],
+  "names": [
+    "Brandon Collins – Just another WordPress site"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T02:17:23",
+  "crawl_end": "2017-04-28T02:19:54",
+  "num_pages": 14,
+  "total_html_size": 783216,
+  "servers": [
+    "nginx",
+    "WordPress Download Manager"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-feed",
+    "h-as-article",
+    "h-as-page"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://brandoncollins.org/?webmention=endpoint"
+    ],
+    "micropub": [
+      "http://brandoncollins.org/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 109,
+  "links_in": 51,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 27
+      },
+      "score": 0.991
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 24
+      },
+      "score": 0.955
+    }
+  }
+}

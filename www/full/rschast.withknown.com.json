@@ -1,0 +1,95 @@
+{
+  "domain": "rschast.withknown.com",
+  "urls": [
+    "http://rschast.withknown.com/"
+  ],
+  "names": [
+    "ThinkWith"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://rschast.withknown.com/file/8e1a2d71fae7c3c6407c78bd8a43d7ed/thumb.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T02:09:01",
+  "crawl_end": "2017-04-30T02:09:29",
+  "num_pages": 38,
+  "total_html_size": 805576,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://rschast.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 70,
+  "links_in": 2,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 38
+      },
+      "score": 1
+    },
+    "www.teachingquality.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.667
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.531
+    },
+    "dangerouslyirrelevant.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.531
+    },
+    "doug-johnson.squarespace.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.531
+    },
+    "hapgood.us": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.480
+    },
+    "mikecaulfield.files.wordpress.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.480
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.160
+    }
+  }
+}

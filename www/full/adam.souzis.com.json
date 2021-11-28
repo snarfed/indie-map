@@ -1,0 +1,69 @@
+{
+  "domain": "adam.souzis.com",
+  "urls": [
+    "http://adam.souzis.com/"
+  ],
+  "names": [
+    "adam.souzis.com"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/aszs",
+    "https://www.facebook.com/souzis",
+    "https://www.linkedin.com/in/adamsouzis",
+    "http://independent.academia.edu/AdamSouzis"
+  ],
+  "crawl_start": "2017-06-09T17:33:25",
+  "crawl_end": "2017-06-09T17:33:25",
+  "num_pages": 1,
+  "total_html_size": 498,
+  "servers": [
+    "Apache (Ubuntu)"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 4,
+  "links_in": 14,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 10
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.604
+    },
+    "independent.academia.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.301
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.301
+    },
+    "github.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.301
+    },
+    "facebook.com/souzis": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.301
+    }
+  }
+}

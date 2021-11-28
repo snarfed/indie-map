@@ -1,0 +1,97 @@
+{
+  "domain": "known.0x539.se",
+  "urls": [
+    "http://known.0x539.se/"
+  ],
+  "names": [
+    " "
+  ],
+  "descriptions": [
+    " "
+  ],
+  "pictures": [
+    "https://known.0x539.se/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T04:31:53",
+  "crawl_end": "2017-04-29T04:39:20",
+  "num_pages": 686,
+  "total_html_size": 15419261,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-geo",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://known.0x539.se/webmention/"
+    ],
+    "micropub": [
+      "https://known.0x539.se/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://known.0x539.se/indieauth/auth"
+    ],
+    "token": [
+      "https://known.0x539.se/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 5486,
+  "links_in": 19,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 686
+      },
+      "score": 0.908
+    },
+    "jeena.net": {
+      "out": {
+        "other": 4,
+        "in-reply-to": 7
+      },
+      "in": {
+        "other": 6,
+        "like-of": 2,
+        "in-reply-to": 4
+      },
+      "score": 0.589
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.175
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0872
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

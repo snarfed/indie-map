@@ -1,0 +1,142 @@
+{
+  "domain": "www.vellosa.com",
+  "urls": [
+    "https://www.vellosa.com/profile/ian",
+    "https://www.facebook.com/ianvellosa",
+    "https://twitter.com/ianvellosa",
+    "https://www.linkedin.com/in/ianvellosa",
+    "https://plus.google.com/+ianvellosa"
+  ],
+  "names": [
+    "Ian Vellosa",
+    "vellosa.com"
+  ],
+  "descriptions": [
+    "My random brain dumping ground"
+  ],
+  "pictures": [
+    "https://www.vellosa.com/file/0e1c84e9875764e79b6af4e62514a436/thumb.jpg",
+    "https://www.vellosa.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Ian Vellosa"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "https://www.vellosa.com/file/0e1c84e9875764e79b6af4e62514a436/thumb.jpg"
+      ],
+      "profile": [
+        "Ian Vellosa"
+      ],
+      "url": [
+        "https://www.vellosa.com/profile/ian",
+        "https://www.vellosa.com/profile/ian",
+        "https://www.facebook.com/ianvellosa",
+        "https://twitter.com/ianvellosa",
+        "https://www.linkedin.com/in/ianvellosa",
+        "https://plus.google.com/+ianvellosa"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://www.facebook.com/ianvellosa",
+    "https://twitter.com/ianvellosa",
+    "https://www.linkedin.com/in/ianvellosa",
+    "https://plus.google.com/+ianvellosa"
+  ],
+  "crawl_start": "2017-05-06T08:27:29",
+  "crawl_end": "2017-05-06T08:28:33",
+  "num_pages": 47,
+  "total_html_size": 1209331,
+  "servers": [
+    "Apache (Raspbian)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.vellosa.com/webmention/"
+    ],
+    "micropub": [
+      "https://www.vellosa.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://www.vellosa.com/indieauth/auth"
+    ],
+    "token": [
+      "https://www.vellosa.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 324,
+  "links_in": 44,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 47
+      },
+      "score": 1
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "in-reply-to": 3
+      },
+      "score": 0.778
+    },
+    "vellosa.com": {
+      "in": {
+        "other": 19
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.692
+    },
+    "brid.gy": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.637
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.153
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

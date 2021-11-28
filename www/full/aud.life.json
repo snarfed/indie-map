@@ -1,0 +1,29 @@
+{
+  "domain": "aud.life",
+  "crawl_start": "2017-05-07T06:35:11",
+  "crawl_end": "2017-05-07T06:35:11",
+  "num_pages": 1,
+  "total_html_size": 6066,
+  "servers": [
+    "nginx + Phusion Passenger 4.0.53"
+  ],
+  "tags": [],
+  "endpoints": {},
+  "hcard": {},
+  "links_out": 1,
+  "links_in": 15,
+  "links": {
+    "werd.io": {
+      "in": {
+        "other": 15
+      },
+      "score": 1
+    },
+    "www.hover.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.256
+    }
+  }
+}

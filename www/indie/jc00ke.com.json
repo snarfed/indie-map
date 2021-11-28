@@ -1,0 +1,52 @@
+{
+  "domain": "jc00ke.com",
+  "urls": [
+    "http://jc00ke.com/"
+  ],
+  "names": [
+    "Musings of something or another"
+  ],
+  "descriptions": [
+    "On a mission. Not sure what the mission is yet, but I'm on it."
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-09T18:08:02",
+  "crawl_end": "2017-06-09T18:08:13",
+  "num_pages": 25,
+  "total_html_size": 398095,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "tags": [],
+  "endpoints": {},
+  "links_out": 178,
+  "links_in": 16,
+  "links": {
+    "aaronparecki.com": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.522
+    },
+    "c2.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.472
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.315
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.157
+    }
+  }
+}

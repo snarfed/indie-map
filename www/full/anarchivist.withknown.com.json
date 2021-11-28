@@ -1,0 +1,96 @@
+{
+  "domain": "anarchivist.withknown.com",
+  "urls": [
+    "http://anarchivist.withknown.com/profile/anarchivist",
+    "http://matienzo.org/"
+  ],
+  "names": [
+    "Mx A. Matienzo"
+  ],
+  "descriptions": [
+    "I am an archivist and technologist, and I work as the Director of Technology for the Digital Public Library of America, a non-profit organization dedicated to free and open access to the riches of libraries, archives, and museums. My current work and professional interests focus on interoperability for digital libraries and archival information systems at a global scale. I am the project manager for Hydra in a Box and co-chair the technical working group of the International Rights Statements Working Group. Previously, I worked on projects at the intersection of archives, metadata, and technology, such as ArchivesSpace and AIMS. In my spare time, I bake bread, track down rare and unusual beers, and listen to tales of the town of Newbridge, New Jersey.",
+    "Archivist, Technologist, Breadmaker"
+  ],
+  "pictures": [
+    "http://anarchivist.withknown.com/gfx/users/default-03.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Mx A. Matienzo"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I am an archivist and technologist, and I work as the Director of Technology for the Digital Public Library of America, a non-profit organization dedicated to free and open access to the riches of libraries, archives, and museums. My current work and professional interests focus on interoperability for digital libraries and archival information systems at a global scale. I am the project manager for Hydra in a Box and co-chair the technical working group of the International Rights Statements Working Group. Previously, I worked on projects at the intersection of archives, metadata, and technology, such as ArchivesSpace and AIMS. In my spare time, I bake bread, track down rare and unusual beers, and listen to tales of the town of Newbridge, New Jersey.</p>\n</div>",
+          "value": "\nI am an archivist and technologist, and I work as the Director of Technology for the Digital Public Library of America, a non-profit organization dedicated to free and open access to the riches of libraries, archives, and museums. My current work and professional interests focus on interoperability for digital libraries and archival information systems at a global scale. I am the project manager for Hydra in a Box and co-chair the technical working group of the International Rights Statements Working Group. Previously, I worked on projects at the intersection of archives, metadata, and technology, such as ArchivesSpace and AIMS. In my spare time, I bake bread, track down rare and unusual beers, and listen to tales of the town of Newbridge, New Jersey.\n"
+        }
+      ],
+      "photo": [
+        "http://anarchivist.withknown.com/gfx/users/default-03.png"
+      ],
+      "profile": [
+        "Mx A. Matienzo"
+      ],
+      "url": [
+        "http://anarchivist.withknown.com/profile/anarchivist",
+        "http://anarchivist.withknown.com/profile/anarchivist",
+        "http://matienzo.org/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://matienzo.org/"
+  ],
+  "crawl_start": "2017-04-27T07:52:21",
+  "crawl_end": "2017-04-27T07:52:31",
+  "num_pages": 15,
+  "total_html_size": 271604,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://anarchivist.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "http://anarchivist.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://anarchivist.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "http://anarchivist.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 12,
+  "links_in": 0,
+  "links": {
+    "matienzo.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 1
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "domain": "innovate.linkresearchlab.org",
+  "urls": [
+    "http://innovate.linkresearchlab.org/"
+  ],
+  "names": [
+    "Innovate LINK"
+  ],
+  "descriptions": [
+    "Updates on Educational Innovation from LINK Research Lab"
+  ],
+  "pictures": [
+    "http://innovate.linkresearchlab.org/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T23:33:42",
+  "crawl_end": "2017-04-28T23:35:44",
+  "num_pages": 123,
+  "total_html_size": 3686396,
+  "servers": [
+    "Apache (Unix) mod_ssl OpenSSLe-fips mod_bwlimited",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-event",
+    "h-entry",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://innovate.linkresearchlab.org/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 880,
+  "links_in": 0,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 123
+      },
+      "score": 1
+    },
+    "www.downes.ca": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.450
+    },
+    "blog.mahabali.me": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.417
+    }
+  }
+}

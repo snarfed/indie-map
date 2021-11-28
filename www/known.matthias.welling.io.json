@@ -1,0 +1,851 @@
+{
+  "domain": "known.matthias.welling.io",
+  "urls": [
+    "http://known.matthias.welling.io/profile/matthias",
+    "http://matthias.welling.io",
+    "https://twitter.com/mwelling_io",
+    "https://www.facebook.com/matthias.welling",
+    "https://www.instagram.com/matzoman/",
+    "https://github.com/matzoman"
+  ],
+  "names": [
+    "Matthias Welling",
+    "matthias.welling - known",
+    "matthias.welling"
+  ],
+  "descriptions": [
+    "I write stuff. I photograph. I code a bit.",
+    "bits and blobs"
+  ],
+  "pictures": [
+    "http://known.matthias.welling.io/file/51480bbd8655e3e7253ce26a7dd00a2a/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Matthias Welling"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I write stuff. I photograph. I code a bit.</p>\n</div>",
+          "value": "\nI write stuff. I photograph. I code a bit.\n"
+        }
+      ],
+      "photo": [
+        "http://known.matthias.welling.io/file/51480bbd8655e3e7253ce26a7dd00a2a/thumb.jpg"
+      ],
+      "profile": [
+        "Matthias Welling"
+      ],
+      "url": [
+        "http://known.matthias.welling.io/profile/matthias",
+        "http://known.matthias.welling.io/profile/matthias",
+        "http://matthias.welling.io",
+        "https://twitter.com/mwelling_io",
+        "https://www.facebook.com/matthias.welling",
+        "https://www.instagram.com/matzoman/",
+        "https://github.com/matzoman"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://matthias.welling.io",
+    "https://twitter.com/mwelling_io",
+    "https://www.facebook.com/matthias.welling",
+    "https://www.instagram.com/matzoman/",
+    "https://github.com/matzoman"
+  ],
+  "crawl_start": "2017-04-29T04:36:18",
+  "crawl_end": "2017-04-29T05:02:28",
+  "num_pages": 1535,
+  "total_html_size": 35711113,
+  "servers": [
+    "Apache (CentOS)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-geo",
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.matthias.welling.io/webmention/"
+    ],
+    "micropub": [
+      "http://known.matthias.welling.io/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://known.matthias.welling.io/indieauth/auth"
+    ],
+    "token": [
+      "http://known.matthias.welling.io/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 9488,
+  "links_in": 139,
+  "links": {
+    "www.instagram.com": {
+      "out": {
+        "other": 3203
+      },
+      "score": 1
+    },
+    "withknown.com": {
+      "out": {
+        "other": 1550
+      },
+      "score": 0.917
+    },
+    "github.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 864
+      },
+      "score": 0.851
+    },
+    "twitter.com/mwelling_io": {
+      "out": {
+        "other": 825
+      },
+      "score": 0.845
+    },
+    "matthias.welling.io": {
+      "out": {
+        "other": 783
+      },
+      "score": 0.839
+    },
+    "facebook.com/matthias.welling": {
+      "out": {
+        "other": 783
+      },
+      "score": 0.839
+    },
+    "facebook.com/10153863125355645": {
+      "out": {
+        "other": 320
+      },
+      "score": 0.737
+    },
+    "wirres.net": {
+      "in": {
+        "like-of": 30,
+        "other": 70
+      },
+      "out": {
+        "other": 12,
+        "in-reply-to": 8
+      },
+      "score": 0.623
+    },
+    "de.wikipedia.org": {
+      "out": {
+        "other": 76
+      },
+      "score": 0.572
+    },
+    "instagram.com": {
+      "out": {
+        "other": 69
+      },
+      "score": 0.562
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 47
+      },
+      "score": 0.518
+    },
+    "www.petersell.com": {
+      "out": {
+        "other": 4,
+        "in-reply-to": 8
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.515
+    },
+    "facebook.com/10208705214166535": {
+      "out": {
+        "other": 46
+      },
+      "score": 0.515
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.494
+    },
+    "brid.gy": {
+      "in": {
+        "other": 22
+      },
+      "out": {
+        "other": 25
+      },
+      "score": 0.488
+    },
+    "www.nytimes.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.460
+    },
+    "www.altoba.de": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.450
+    },
+    "www.nordcoast-coffee.de": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.450
+    },
+    "www.sonos.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.441
+    },
+    "www.deezer.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.441
+    },
+    "avm.de": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.441
+    },
+    "sonos-de.custhelp.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.441
+    },
+    "www.regexr.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.426
+    },
+    "24ways.org": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.426
+    },
+    "www.dropcoffee.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.421
+    },
+    "www.koppi.se": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.421
+    },
+    "www.hario.jp": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.421
+    },
+    "www.porlexgrinders.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.421
+    },
+    "www.tornqvistcoffee.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.421
+    },
+    "facebook.com/10153376498105665": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.408
+    },
+    "facebook.com/1217911884905346": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.408
+    },
+    "youtu.be": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.408
+    },
+    "git-scm.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.403
+    },
+    "www.git-scm.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.403
+    },
+    "daringfireball.net": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.380
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.372
+    },
+    "facebook.com/10153907351884322": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.363
+    },
+    "ownyourgram.com": {
+      "out": {
+        "other": 9
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.342
+    },
+    "facebook.com/10208444165283460": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.342
+    },
+    "facebook.com/803751456418635": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.342
+    },
+    "essenmitsosse.de": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.342
+    },
+    "facebook.com/1090553394309575": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.342
+    },
+    "www.savoy-filmtheater.de": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.330
+    },
+    "thehatefuleight.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.330
+    },
+    "www.wintergatan.net": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.330
+    },
+    "www.wired.co.uk": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.330
+    },
+    "www.rottentomatoes.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.330
+    },
+    "www.phdcomics.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.330
+    },
+    "galerie.matthias.welling.io": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.330
+    },
+    "sixcolors.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.330
+    },
+    "kottke.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.316
+    },
+    "facebook.com/10153368542736592": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.316
+    },
+    "facebook.com/941276835959294": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.316
+    },
+    "appsto.re": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.316
+    },
+    "facebook.com/10207347880808151": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.316
+    },
+    "facebook.com/10153865480567838": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.316
+    },
+    "nxd4n.nixekinder.be": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.301
+    },
+    "facebook.com/1127455327273825": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "facebook.com/10208754625163228": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "facebook.com/960235040710735": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "facebook.com/10207892433327023": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "facebook.com/10153839786054192": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "facebook.com/1112032548829455": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "facebook.com/1206808932665911": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "facebook.com/10153860656793582": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "facebook.com/10203692739877985": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "facebook.com/1265185076832239": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "xkcd.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.262
+    },
+    "news.ycombinator.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.262
+    },
+    "wiki.uberspace.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.262
+    },
+    "www.herzdamengeschichten.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.262
+    },
+    "craigmod.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.262
+    },
+    "uberspace.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.262
+    },
+    "www.lavievagabonde.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.262
+    },
+    "kleinerdrei.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.262
+    },
+    "duckduckgo.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.262
+    },
+    "facebook.com/462827990576910": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "facebook.com/977070625709316": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "blog.beetlebum.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "facebook.com/1195394980488584": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "www.vice.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "notes.computernotizen.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "de.m.wikipedia.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "facebook.com/932715610110314": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "geor.gs": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "twitter.com/AusDemElbvorort": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/Group_HH": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "facebook.com/10154712740831038": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "petersell.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.158
+    },
+    "twitter.com/LeoGomez43": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "facebook.com/1042611885798044": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "facebook.com/10153890726326069": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "facebook.com/10154281389619621": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "wohininhamburg.wordpress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "twitter.com/dieKadda": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "facebook.com/1164040956963907": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "facebook.com/994593397283607": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "twitter.com/rassambla": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "twitter.com/JohannesMedow": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "twitter.com/FrancescaRodell": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "facebook.com/10208914539600618": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "twitter.com/willybronca777": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "twitter.com/schnarfed": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "facebook.com/10208978178721780": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "twitter.com/craigmod": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "elbvorort.tumblr.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "twitter.com/MaxSonnaille": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "facebook.com/1116491511717908": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "twitter.com/FanieEme": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "facebook.com/10153850841182453": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "twitter.com/Kaddybale": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "twitter.com/Hamburgkocht": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "twitter.com/efotoHamburg": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "facebook.com/751977758265840": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "facebook.com/10154054572713675": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "twitter.com/GeorgAlbrecht1": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "twitter.com/LydiaKaPunkt": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "science.nasa.gov": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0790
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0790
+    },
+    "www.duden.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0790
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

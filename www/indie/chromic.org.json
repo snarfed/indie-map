@@ -1,0 +1,163 @@
+{
+  "domain": "chromic.org",
+  "urls": [
+    "https://chromic.org/index.php",
+    "//chromic.org/index.php"
+  ],
+  "names": [
+    "\r\n    \r\n      Stuff and Things – \r\n    \r\n    Chromic\r\n",
+    "Stuff and Things",
+    "Chromic"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://chromic.org/favicon.ico",
+    "https://chromic.org/favicon.png",
+    "//chromic.org/images/site-logo.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "mailto:chimo@chromic.org",
+    "http://twitter.com/chim0",
+    "http://github.com/chimo",
+    "http://sn.chromic.org/chimo"
+  ],
+  "crawl_start": "2017-04-23T23:28:41",
+  "crawl_end": "2017-04-24T00:54:16",
+  "num_pages": 39,
+  "total_html_size": 612701,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.chromic.org/chromic.org/webmention"
+    ],
+    "micropub": [
+      "https://micropub.chromic.org/micropub/main"
+    ],
+    "authorization": [
+      "https://auth.chromic.org/auth"
+    ],
+    "token": [
+      "https://tokens.chromic.org/token"
+    ],
+    "websub": [
+      "https://push.chromic.org"
+    ]
+  },
+  "links_out": 667,
+  "links_in": 52,
+  "links": {
+    "indieweb.org": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "other": 24
+      },
+      "score": 0.680
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.595
+    },
+    "notenoughneon.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "like-of": 2
+      },
+      "score": 0.443
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.443
+    },
+    "loadaverage.org": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.424
+    },
+    "cweiske.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.401
+    },
+    "kylewm.com": {
+      "out": {
+        "like-of": 2
+      },
+      "score": 0.401
+    },
+    "marcthiele.com": {
+      "out": {
+        "like-of": 2
+      },
+      "score": 0.401
+    },
+    "mademistakes.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "webmention.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "switchboard.p3k.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.268
+    },
+    "unrelenting.technology": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.212
+    },
+    "werd.io": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.134
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.134
+    },
+    "io.schiessle.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

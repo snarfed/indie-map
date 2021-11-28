@@ -1,0 +1,2080 @@
+{
+  "domain": "www.unixe.de",
+  "urls": [
+    "https://www.unixe.de/"
+  ],
+  "names": [
+    "Un*xe · Kein Weltraum links auf dem Gerät!",
+    "Un*xe"
+  ],
+  "descriptions": [
+    "Kein Weltraum links auf dem Gerät!"
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/sys_adm_ama",
+    "https://github.com/sysadmama"
+  ],
+  "crawl_start": "2017-05-06T08:17:19",
+  "crawl_end": "2017-05-06T09:53:12",
+  "num_pages": 1922,
+  "total_html_size": 207306242,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-as-mention",
+    "h-as-reply",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.unixe.de/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://www.unixe.de/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 68948,
+  "links_in": 37,
+  "links": {
+    "twitter.com/sys_adm_ama": {
+      "out": {
+        "other": 9905
+      },
+      "score": 1
+    },
+    "github.com": {
+      "out": {
+        "other": 9714
+      },
+      "score": 0.998
+    },
+    "sysadmama.tumblr.com": {
+      "out": {
+        "other": 9669
+      },
+      "score": 0.998
+    },
+    "plus.google.com/+MarianneSpiller": {
+      "out": {
+        "other": 9644
+      },
+      "score": 0.998
+    },
+    "www.sysadmama.de": {
+      "out": {
+        "other": 9610
+      },
+      "score": 0.997
+    },
+    "instagram.com": {
+      "out": {
+        "other": 9611
+      },
+      "score": 0.997
+    },
+    "spiller.me": {
+      "out": {
+        "other": 9611
+      },
+      "score": 0.997
+    },
+    "www.spiller.me": {
+      "out": {
+        "other": 264
+      },
+      "score": 0.634
+    },
+    "de.wikipedia.org": {
+      "out": {
+        "other": 81
+      },
+      "score": 0.515
+    },
+    "www.jochem.name": {
+      "out": {
+        "other": 78
+      },
+      "score": 0.511
+    },
+    "www.urban-exploring.eu": {
+      "out": {
+        "other": 66
+      },
+      "score": 0.493
+    },
+    "www.dfki.de": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.480
+    },
+    "twitter.com/rasselzombie": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.391
+    },
+    "twitter.com/ADoorAreBell": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.322
+    },
+    "twitter.com/icinga": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.312
+    },
+    "www.heise.de": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.312
+    },
+    "twitter.com/dnsmichi": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.303
+    },
+    "dev.mysql.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.303
+    },
+    "twitter.com/schulzbo": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.292
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.292
+    },
+    "twitter.com/moddry": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.292
+    },
+    "twitter.com/vjanzen": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.280
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.280
+    },
+    "www.amazon.de": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.280
+    },
+    "itunes.apple.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.267
+    },
+    "twitter.com/Nihtgenga": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.267
+    },
+    "www.eq-3.de": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.267
+    },
+    "twitter.com/Luzifer": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.251
+    },
+    "twitter.com/stixihaftigkeit": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.233
+    },
+    "www.phottos.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.233
+    },
+    "plasisent.org": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.233
+    },
+    "twitter.com/pregopresto": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.233
+    },
+    "chemnitzer.linux-tage.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.233
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.233
+    },
+    "developers.google.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.233
+    },
+    "twitter.com/widhalmt": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.233
+    },
+    "photoblog.dralzheimer.stylesyndication.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.233
+    },
+    "php.net": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.233
+    },
+    "gallery.dralzheimer.stylesyndication.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.233
+    },
+    "docs.icinga.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.233
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.233
+    },
+    "twitter.com/die_paule": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.210
+    },
+    "www.geocaching.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.210
+    },
+    "tools.ietf.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.210
+    },
+    "www.lalecheliga.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.210
+    },
+    "twitter.com/NewPythonL0ver": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.210
+    },
+    "www.imdb.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.210
+    },
+    "www.icinga.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.210
+    },
+    "sourceforge.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.210
+    },
+    "twitter.com/localwurst": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.181
+    },
+    "lpi.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.181
+    },
+    "twitter.com/gunnarbeutner": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.181
+    },
+    "twitter.com/Dr_Mama_": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.181
+    },
+    "www.merzig.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.181
+    },
+    "twitter.com/stankowic_devel": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.181
+    },
+    "localwurst.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.181
+    },
+    "docs.openhab.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.181
+    },
+    "www.getdigital.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.181
+    },
+    "www.microsoft.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.181
+    },
+    "www.startssl.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.181
+    },
+    "www.icinga.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.181
+    },
+    "twitter.com/kromonos": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.181
+    },
+    "twitter.com/thepaffy": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.181
+    },
+    "www.spiegel.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.181
+    },
+    "www.ssllabs.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.181
+    },
+    "twitter.com/netways": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.181
+    },
+    "twitter.com/Konrad": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "hipchat.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/SunDancerGE": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/estheruiuiui": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "growl.info": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/tubit": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.google.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "dev.icinga.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/UlfKosack": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "mosquitto.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "t.co": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/PStibbons": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/stefanfreitag": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "nginx.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "bestpractical.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/LinaMadita": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.dihe.eu": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.2kindchaos.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/Hansgebiebsche": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "de.wordpress.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/MrFurgy": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/hashtag": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.ovh.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "docs.puppet.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "it-joe.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.gunnarmadsen.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "wiki.naturseife.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "apps.twitter.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/diebarschlampe": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.openhab.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.playauditorium.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/tioan": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.aheadwork.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.prowlapp.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "exchange.nagios.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.xing.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/pr0j3ctx": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/ZaliiMiz": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/bluecon": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/wefinet": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.netbsd.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/hoedlmoser": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.phartz.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "jochem.name": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "monitoring-portal.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/stefanolix": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.c0t0d0s0.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/bitsunited": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "dev.mutt.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.iheartpluto.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "commons.wikimedia.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "de.atlassian.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "naturseife.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "dave.cheney.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/Frank4Wild": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/vt9dt": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.c0t0d0s0.eu": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.elmastudio.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "search.creativecommons.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.tumblr.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/ingoj": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/openHAB": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.model-kartei.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/Tobias_Mende": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "soulsnatcher.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/LaNueff": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "akismet.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "community.openhab.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/Mikeschova": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.nagvis.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.openstreetmap.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.denic.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "wirres.net": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.141
+    },
+    "twitter.com/aehmge": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/kerstinreese": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.blogger.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "twitter.com/GluckeundSo": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.apple.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.google.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "www.schlundtech.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.stillen-und-tragen.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "dev.twitter.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "ich-moechte-bloggen-teil-2-eine-eigene-domain": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/danielmoerth": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/fam_zuschlag": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.markus-dollinger.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/PW_75": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.chromium.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "josm.openstreetmap.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "puppetlabs.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "schnabelina.blogspot.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "umstellung-auf-php7": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.wer-kennt-wen.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "localhost": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.sprengk0erper.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "blog.wpde.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "raw.githubusercontent.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.varnish-cache.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "check.sidnlabs.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "noodlesoft.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.1und1.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "dasnuf.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "mirror.ctan.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/xmab90x": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.1000beforeyoudie.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.foto-gregor.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "92.222.22.102": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "de.creativecommons.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.rzuser.uni-heidelberg.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "de.wordpress.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.expendables-derfilm.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.tunnelblick.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.tvbgone.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.netways.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.thawte.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.debian.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.flashlightshop.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.rbb-online.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.singer.ag": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "de.ssl-tools.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "errror.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.kalkscheune.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.eclipse.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "familienzuschlag.wordpress.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "loads.in": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/Nick_Lange_": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.ubuntu.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "dane.sys4.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "denic.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "dennerle.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "mailbox.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.dropbox.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "imageoptim.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.bestpractical.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.instagram.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.paypal.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.sourcetreeapp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0701
+    },
+    "www.golem.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.howtoforge.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.nestling.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.pollin.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.ufocrash.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "downloads.digium.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "web.archive.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.djoglobal.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/gethash": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.deutschepost.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "rebloggg.blogspot.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "schoenerzw.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.dearblogger.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.df.eu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.focus.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.iana.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "hcpnet.free.fr": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/Sear1232": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "wiki.ubuntuusers.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "tvheadend.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/dietanu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/dorfpunk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.stoff-handel.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "perl.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "findingada.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "offlineimap.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "rom-o-matic.eu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/MartY_NiM": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.chefkoch.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.daily-pia.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.netzpolitik.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "all-inkl.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "prefetch.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/ICDoIT": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.tour-eiffel.fr": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.voxnow.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "aws.amazon.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "code.google.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.rund-ums-baby.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "bademeister.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.elv.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.maobe.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "developer.atlassian.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "infiltration.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.digitalfernsehen.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.macports.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.shortnews.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "addons.mozilla.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "mysqltuner.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/DaddyDahoam": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/natollie": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "posteo.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/tuxianer85": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.vgwort.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.voelklinger-huette.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/cryptomon": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "wordpress.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.homematic.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "drazraeltod.blogspot.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "prepaid-aerger": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/sibbe_hb": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.gimp.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.pfaff.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.webpagetest.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "bruellen.blogspot.ch": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "letsencrypt.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "oss.oetiker.ch": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "de.fotolia.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.asterisk.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.conrad.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "bad-behavior.ioerror.us": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "todayspictures.slate.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.cafemoskau-chemnitz.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.hetzner.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/tuxclouds": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.bsdcertification.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "nxd4n.nixekinder.be": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0701
+    },
+    "die-verwandlung-meines-wohnzimmers-teil-1": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "ipxe.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.hosteurope.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "yoast.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "deutsch.istockphoto.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "launchpad.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "mitbadezentrale.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/mbonnekessel": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "apt.puppetlabs.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "dspam.nuclearelephant.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "regex.info": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/52zacken": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/DanielSeuffert": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/___PatrickD___": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.converse.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.eurid.eu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "archive.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.latlong.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "dnssec-debugger.verisignlabs.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "docs.grafana.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.cacert.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.kaikreuzer.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.viscenter.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/Juergen151": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/virushamburg": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "seo.at": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.giga.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.woodenbrain.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "systemhelden.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.dasmim.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.linuxtag.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.medela.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.strato.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.sysadminday.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.tomopol.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "shop.lumbinigarden.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.raspberrypi.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.ryman-novel.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.secondlife.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "internic.at": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/ae11": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.1blu.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.syslinux.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "prowlapp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "twitter.com/nurwirdrei": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.bildschirmarbeiter.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.geotrust.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.regfish.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "kodi.wiki": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "net-internals": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "posterazor.sourceforge.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.burdafashion.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "www.webalizer.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0701
+    },
+    "ownyourgram.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

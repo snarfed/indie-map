@@ -1,0 +1,88 @@
+{
+  "domain": "ownyourcheckin.wirres.net",
+  "urls": [
+    "http://ownyourcheckin.wirres.net/"
+  ],
+  "names": [
+    "OwnYourCheckin"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-07T17:36:28",
+  "crawl_end": "2017-06-07T17:36:29",
+  "num_pages": 2,
+  "total_html_size": 5858,
+  "servers": [
+    "Apache (CentOS)"
+  ],
+  "tags": [
+    "bridgy",
+    "elder",
+    "IRC",
+    "tool",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://ownyourcheckin.wirres.net/webmention"
+    ]
+  },
+  "links_out": 10,
+  "links_in": 120,
+  "links": {
+    "wirres.net": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 34
+      },
+      "score": 1
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 38
+      },
+      "score": 1
+    },
+    "ichristaylor.com": {
+      "in": {
+        "other": 36
+      },
+      "score": 0.984
+    },
+    "boffosocko.com": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.604
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.382
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.382
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.190
+    },
+    "nxd4n.nixekinder.be": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

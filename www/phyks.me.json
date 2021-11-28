@@ -1,0 +1,405 @@
+{
+  "domain": "phyks.me",
+  "urls": [
+    "https://known.phyks.me/profile/phyks",
+    "http://phyks.me",
+    "http://github.com/phyks"
+  ],
+  "names": [
+    "Phyks",
+    "Phyks' blog"
+  ],
+  "descriptions": [
+    "Hello ! This is my blog powered by Known. I post articles and links about coding, FOSS, but not only, in French (mostly) or English (if I did not find anything related before).",
+    "A blog and more powered by Known."
+  ],
+  "pictures": [
+    "https://known.phyks.me/file/533955cb0f94c8b4a2ed86ff47999fdb"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:phyks@phyks.me"
+      ],
+      "name": [
+        "Phyks"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Hello ! This is my blog powered by <a href=\"http://withknown.com/\">Known</a>. I post articles and links about coding, FOSS, but not only, in French (mostly) or English (if I did not find anything related before).</p>\n</div> ",
+          "value": "\nHello ! This is my blog powered by Known. I post articles and links about coding, FOSS, but not only, in French (mostly) or English (if I did not find anything related before).\n "
+        }
+      ],
+      "photo": [
+        "https://known.phyks.me/file/533955cb0f94c8b4a2ed86ff47999fdb"
+      ],
+      "profile": [
+        "Phyks"
+      ],
+      "url": [
+        "https://known.phyks.me/profile/phyks",
+        "https://known.phyks.me/profile/phyks",
+        "http://phyks.me",
+        "http://github.com/phyks"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://phyks.me",
+    "http://github.com/phyks",
+    "mailto:phyks@phyks.me"
+  ],
+  "crawl_start": "2017-04-25T04:57:25",
+  "crawl_end": "2017-04-25T04:57:25",
+  "num_pages": 1,
+  "total_html_size": 83108,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.phyks.me/webmention/"
+    ],
+    "micropub": [
+      "http://known.phyks.me/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://known.phyks.me/indieauth/auth"
+    ],
+    "token": [
+      "http://known.phyks.me/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 219,
+  "links_in": 839,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 538
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 297
+      },
+      "score": 0.905
+    },
+    "known.phyks.me": {
+      "out": {
+        "other": 124
+      },
+      "score": 0.876
+    },
+    "github.com": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.650
+    },
+    "www.eff.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.394
+    },
+    "pub.phyks.me": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.331
+    },
+    "projects.zubr.me": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.331
+    },
+    "kylewm.com": {
+      "in": {
+        "like-of": 3,
+        "other": 1
+      },
+      "score": 0.310
+    },
+    "www.bortzmeyer.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.285
+    },
+    "withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.221
+    },
+    "www.privoxy.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.221
+    },
+    "degooglisons-internet.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.221
+    },
+    "i3wm.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.221
+    },
+    "velib.phyks.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.221
+    },
+    "git.phyks.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.221
+    },
+    "dissem.in": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "docs.google.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "www.liberation.fr": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "antonin.delpeuch.eu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "jupyter.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "www.internic.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "blog.exppad.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "developer.mozilla.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "eff.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "s3.amazonaws.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "www.fabiencazenave.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "liberation.fr": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "www.dslreports.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "chatons.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "linuxfr.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "wiki.debian.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "cermine.ceon.pl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "st.suckless.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "www.unbound.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "paperity.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "someonewhocares.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "nbviewer.jupyter.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "www.alstevens.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "fr.wikipedia.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "allocinit.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "nicofrand.eu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "letsencrypt.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "framasoft.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "sametmax.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "downloads.raspberrypi.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "twitter.com/_krisjack": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "gist.github.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "wiki.archlinux.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "www.incapsula.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "startssl.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "domain": "leolaporte.com",
+  "urls": [
+    "http://leolaporte.com",
+    "https://twit.tv",
+    "https://leolaporte.com/"
+  ],
+  "names": [
+    "Leo\nLaporte",
+    "Leo Laporte – Broadcaster, podcaster, tech pundit. Founder, TWiT Netcast Network. The Tech Guy on the Premiere radio network",
+    "Leo Laporte"
+  ],
+  "descriptions": [
+    "Leo Laporte is a podcaster, broadcaster, and tech pundit. Founder and host at the TWiT Netcast Network, and the Tech Guy on the Premiere Networks. This is his personal blog."
+  ],
+  "pictures": [
+    "https://s.gravatar.com/avatar/68d93be700edec53fdcf153335d87ef5?s=80",
+    "https://leovillecom.files.wordpress.com/2017/04/cropped-leo1.png?w=32",
+    "https://leovillecom.files.wordpress.com/2017/04/cropped-leo1.png?w=192",
+    "https://leovillecom.files.wordpress.com/2017/04/cropped-leo1.png?w=200"
+  ],
+  "hcard": {
+    "properties": {
+      "adr": [
+        {
+          "properties": {
+            "name": [
+              "Box 1018\nPetaluma, \r\n    CA,\r\n    94953-1018\nUSA"
+            ],
+            "post-office-box": [
+              "Box 1018"
+            ]
+          },
+          "type": [
+            "h-adr"
+          ],
+          "value": "Box 1018\nPetaluma, \r\n    CA,\r\n    94953-1018\nUSA"
+        }
+      ],
+      "email": [
+        "mailto:leo@leoville.com"
+      ],
+      "family-name": [
+        "Laporte"
+      ],
+      "given-name": [
+        "Leo"
+      ],
+      "key": [
+        "https://keybase.io/leolaporte"
+      ],
+      "name": [
+        "Leo\nLaporte"
+      ],
+      "org": [
+        "TWiT"
+      ],
+      "photo": [
+        "https://s.gravatar.com/avatar/68d93be700edec53fdcf153335d87ef5?s=80"
+      ],
+      "url": [
+        "http://leolaporte.com",
+        "https://twit.tv"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twit.tv",
+    "http://techguylabs.com",
+    "http://leo.social",
+    "https://micro.blog/your-username"
+  ],
+  "crawl_start": "2017-04-30T22:28:41",
+  "crawl_end": "2017-05-02T20:40:47",
+  "num_pages": 2188,
+  "total_html_size": 241254005,
+  "servers": [
+    "nginx",
+    "WordPress.com"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://brid.gy/webmention/wordpress"
+    ]
+  },
+  "links_out": 72186,
+  "links_in": 15,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 14
+      },
+      "out": {
+        "other": 2188
+      },
+      "score": 0.815
+    },
+    "micro.blog": {
+      "out": {
+        "other": 2188
+      },
+      "score": 0.814
+    },
+    "scripting.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.241
+    },
+    "boghop.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

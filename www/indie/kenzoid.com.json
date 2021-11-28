@@ -1,0 +1,149 @@
+{
+  "domain": "kenzoid.com",
+  "urls": [
+    "http://kenzoid.com/"
+  ],
+  "names": [
+    "Kenzoid's Autonomous Zone | Welcome to my world…"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "http://identi.ca/kenzoid",
+    "http://www.goodreads.com/user/show/1298516",
+    "http://amiestreet.com/user/kkennedy",
+    "http://www.last.fm/user/kenkennedy",
+    "http://www.linkedin.com/in/kennethkennedy",
+    "http://steamcommunity.com/id/kkennedy",
+    "http://delicious.com/kkennedy",
+    "http://twitter.com/kenzoid",
+    "http://www.librarything.com/catalog/kenzoid",
+    "http://fora.tv/myfora/kkennedy",
+    "http://reddit.com/user/kkennedy",
+    "http://facebook.com/ken.kennedy",
+    "https://plus.google.com/+KenKennedy-kenzoid/about",
+    "https://joindiaspora.com/people/4d0064f82c17430eb30014de\r\n",
+    "https://github.com/kkennedy"
+  ],
+  "crawl_start": "2017-04-29T04:31:36",
+  "crawl_end": "2017-04-29T04:53:20",
+  "num_pages": 1199,
+  "total_html_size": 67946705,
+  "servers": [
+    "Apache (Debian)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-note",
+    "h-cite",
+    "h-card",
+    "h-entry",
+    "h-feed",
+    "h-as-article",
+    "h-as-page"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://kenzoid.com/?webmention=endpoint"
+    ],
+    "micropub": [
+      "http://kenzoid.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 78989,
+  "links_in": 35,
+  "links": {
+    "blog.jonudell.net": {
+      "out": {
+        "other": 1262
+      },
+      "score": 0.712
+    },
+    "thecommandline.net": {
+      "out": {
+        "other": 1222
+      },
+      "score": 0.709
+    },
+    "notizblog.org": {
+      "out": {
+        "other": 1199
+      },
+      "score": 0.707
+    },
+    "oauth.net": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.289
+    },
+    "brid.gy": {
+      "in": {
+        "other": 15
+      },
+      "score": 0.246
+    },
+    "peculiarcharacter.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.225
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.225
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.189
+    },
+    "c2.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.189
+    },
+    "withknown.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.189
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.163
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.063
+    }
+  }
+}

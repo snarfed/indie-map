@@ -1,0 +1,40 @@
+{
+  "domain": "jessykate.com",
+  "urls": [
+    "http://jessykate.com/"
+  ],
+  "names": [
+    "Jessy Kate Schingler"
+  ],
+  "descriptions": [
+    " Greetings. I'm Jessy Kate. Reports from the margins      {% for project in site.projects %} {% if project.redirect %}   ... "
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-09T18:08:48",
+  "crawl_end": "2017-06-09T18:08:54",
+  "num_pages": 14,
+  "total_html_size": 104836,
+  "servers": [
+    "GitHub.com"
+  ],
+  "tags": [],
+  "endpoints": {},
+  "links_out": 103,
+  "links_in": 14,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.715
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.200
+    }
+  }
+}

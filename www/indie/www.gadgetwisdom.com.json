@@ -1,0 +1,66 @@
+{
+  "domain": "www.gadgetwisdom.com",
+  "urls": [
+    "http://www.gadgetwisdom.com/"
+  ],
+  "names": [
+    "Gadget Wisdom - Living a Tech-Filled Lifestyle",
+    "Gadget Wisdom"
+  ],
+  "descriptions": [
+    "Living a Tech-Filled Lifestyle"
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T06:23:22",
+  "crawl_end": "2017-04-30T06:43:21",
+  "num_pages": 880,
+  "total_html_size": 20530290,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-as-reply",
+    "h-cite",
+    "h-as-bookmark",
+    "h-as-article",
+    "h-entry",
+    "h-card",
+    "h-feed"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.gadgetwisdom.com/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 4833,
+  "links_in": 11,
+  "links": {
+    "www.androidbuffet.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.278
+    },
+    "brid.gy": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.260
+    },
+    "www.tnl.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.186
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "domain": "maphido.withknown.com",
+  "urls": [
+    "https://maphido.withknown.com/profile/maphido",
+    "http://code.university"
+  ],
+  "names": [
+    "Manuel",
+    "maphido"
+  ],
+  "descriptions": [
+    "Founder CODE University",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://maphido.withknown.com/file/5ffc549b35b4627fabf1a0b023e9a51f/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Manuel"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Founder CODE University</p>\n</div>",
+          "value": "\nFounder CODE University\n"
+        }
+      ],
+      "photo": [
+        "https://maphido.withknown.com/file/5ffc549b35b4627fabf1a0b023e9a51f/thumb.jpg"
+      ],
+      "profile": [
+        "Manuel"
+      ],
+      "url": [
+        "https://maphido.withknown.com/profile/maphido",
+        "https://maphido.withknown.com/profile/maphido",
+        "http://code.university"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://code.university"
+  ],
+  "crawl_start": "2017-04-29T14:40:57",
+  "crawl_end": "2017-04-29T14:41:06",
+  "num_pages": 11,
+  "total_html_size": 167878,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://maphido.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 9,
+  "links_in": 5,
+  "links": {
+    "code.university": {
+      "out": {
+        "other": 9
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.557
+    }
+  }
+}

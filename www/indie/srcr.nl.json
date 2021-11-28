@@ -1,0 +1,174 @@
+{
+  "domain": "srcr.nl",
+  "urls": [
+    "https://srcr.nl/profile/peter",
+    "https://srcr.nl",
+    "https://twitter.com/srcr",
+    "https://instagram.com/srcr/",
+    "https://reddit.com/u/srcr/",
+    "https://paypal.me/srcr",
+    "https://snapchat.com/add/srcr",
+    "https://keybase.io/srcr"
+  ],
+  "names": [
+    "Peter Zuidema",
+    "srcr",
+    "Peter Zuidema - Security Specialist"
+  ],
+  "descriptions": [
+    "(ˈpiːtə(r)), n, Dutch Computer geek, Father of 3, Living together with @Chrizzzz, security specialist at @Atos, Associate of (ISC)2 CISSP, Opinions are my own.",
+    "Peter Zuidema's stream",
+    "Personal publishing hub for my content."
+  ],
+  "pictures": [
+    "https://srcr.nl/file/0e33cec2ad3f0e3bb6c6fd696b6dc8f3",
+    "https://srcr.nl/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Peter Zuidema"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>(ˈpiːtə(r)), n, Dutch Computer geek, Father of 3, Living together with @Chrizzzz, security specialist at @Atos, Associate of (ISC)2 CISSP, Opinions are my own.</p>\n</div>",
+          "value": "\n(ˈpiːtə(r)), n, Dutch Computer geek, Father of 3, Living together with @Chrizzzz, security specialist at @Atos, Associate of (ISC)2 CISSP, Opinions are my own.\n"
+        }
+      ],
+      "photo": [
+        "https://srcr.nl/file/0e33cec2ad3f0e3bb6c6fd696b6dc8f3"
+      ],
+      "profile": [
+        "Peter Zuidema"
+      ],
+      "url": [
+        "https://srcr.nl/profile/peter",
+        "https://srcr.nl/profile/peter",
+        "https://srcr.nl",
+        "https://twitter.com/srcr",
+        "https://instagram.com/srcr/",
+        "https://reddit.com/u/srcr/",
+        "https://paypal.me/srcr",
+        "https://snapchat.com/add/srcr",
+        "https://keybase.io/srcr"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://srcr.nl",
+    "https://twitter.com/srcr",
+    "https://instagram.com/srcr/",
+    "https://reddit.com/u/srcr/",
+    "https://paypal.me/srcr",
+    "https://snapchat.com/add/srcr",
+    "https://keybase.io/srcr"
+  ],
+  "crawl_start": "2017-05-06T01:58:12",
+  "crawl_end": "2017-05-06T03:39:00",
+  "num_pages": 3604,
+  "total_html_size": 189174330,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://srcr.nl/webmention/"
+    ],
+    "micropub": [
+      "https://srcr.nl/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://srcr.nl/indieauth/auth"
+    ],
+    "token": [
+      "https://srcr.nl/indieauth/token"
+    ],
+    "websub": [
+      "https://pubsubhubbub.appspot.com/"
+    ]
+  },
+  "links_out": 23373,
+  "links_in": 74,
+  "links": {
+    "www.marcus-povey.co.uk": {
+      "out": {
+        "in-reply-to": 15
+      },
+      "score": 0.548
+    },
+    "timapple.com": {
+      "out": {
+        "in-reply-to": 11
+      },
+      "score": 0.514
+    },
+    "freekurt.com": {
+      "out": {
+        "other": 8
+      },
+      "in": {
+        "like-of": 10,
+        "in-reply-to": 9
+      },
+      "score": 0.480
+    },
+    "brid.gy": {
+      "in": {
+        "other": 33
+      },
+      "score": 0.383
+    },
+    "werd.io": {
+      "in": {
+        "other": 10
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.316
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.196
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.152
+    },
+    "rhiaro.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.152
+    },
+    "stream.tapestrymaker.net": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0757
+    }
+  }
+}

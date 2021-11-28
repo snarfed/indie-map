@@ -1,0 +1,80 @@
+{
+  "domain": "thenewmodern.net",
+  "urls": [
+    "http://thenewmodern.net/"
+  ],
+  "names": [
+    "The New Modern – Andrew Hazlett's blog",
+    "The New Modern"
+  ],
+  "descriptions": [
+    "Andrew Hazlett's blog"
+  ],
+  "pictures": [
+    "https://i1.wp.com/thenewmodern.net/wp-content/uploads/2015/10/cropped-176-corbu.jpg?fit=32%2C32",
+    "https://i1.wp.com/thenewmodern.net/wp-content/uploads/2015/10/cropped-176-corbu.jpg?fit=192%2C192",
+    "https://i1.wp.com/thenewmodern.net/wp-content/uploads/2015/10/cropped-176-corbu.jpg?fit=200%2C200"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T02:39:06",
+  "crawl_end": "2017-04-30T03:09:17",
+  "num_pages": 292,
+  "total_html_size": 7835453,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-cite",
+    "h-as-note",
+    "h-as-reply",
+    "h-feed"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://thenewmodern.net/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://thenewmodern.net/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 5756,
+  "links_in": 133,
+  "links": {
+    "andrewhazlett.withknown.com": {
+      "in": {
+        "other": 132
+      },
+      "score": 0.729
+    },
+    "huffduffer.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.344
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "domain": "kirilind.withknown.com",
+  "urls": [
+    "https://kirilind.withknown.com/profile/kirilind",
+    "http://twitter.com/kirilind",
+    "http://facebook.com/haldjas",
+    "http://auli.haldjas.org"
+  ],
+  "names": [
+    "kirilind"
+  ],
+  "descriptions": [
+    "Decentralization & indieweb hacktivist connecting techies in collaborative economy",
+    "indiefeed"
+  ],
+  "pictures": [
+    "https://kirilind.withknown.com/file/197a70c044d250cca8e3cb796abaec27"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "kirilind"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Decentralization &amp; indieweb hacktivist connecting techies in collaborative economy</p>\n</div> ",
+          "value": "\nDecentralization & indieweb hacktivist connecting techies in collaborative economy\n "
+        }
+      ],
+      "photo": [
+        "https://kirilind.withknown.com/file/197a70c044d250cca8e3cb796abaec27"
+      ],
+      "profile": [
+        "kirilind"
+      ],
+      "url": [
+        "https://kirilind.withknown.com/profile/kirilind",
+        "https://kirilind.withknown.com/profile/kirilind",
+        "http://twitter.com/kirilind",
+        "http://facebook.com/haldjas",
+        "http://auli.haldjas.org"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/kirilind",
+    "http://facebook.com/haldjas",
+    "http://auli.haldjas.org"
+  ],
+  "crawl_start": "2017-04-29T04:31:46",
+  "crawl_end": "2017-04-29T04:40:57",
+  "num_pages": 1005,
+  "total_html_size": 20634947,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://kirilind.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://kirilind.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://kirilind.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://kirilind.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 4161,
+  "links_in": 28,
+  "links": {
+    "auli.haldjas.org": {
+      "out": {
+        "other": 902
+      },
+      "score": 0.988
+    },
+    "thierry.marianne.io": {
+      "out": {
+        "other": 10,
+        "in-reply-to": 25
+      },
+      "score": 0.738
+    },
+    "xtof.withknown.com": {
+      "in": {
+        "in-reply-to": 15
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.582
+    },
+    "withknown.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.531
+    },
+    "aralbalkan.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.465
+    },
+    "werd.io": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "other": 12
+      },
+      "score": 0.457
+    },
+    "ubos.net": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.430
+    },
+    "stream.tapestrymaker.net": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 9
+      },
+      "score": 0.407
+    },
+    "tantek.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.381
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.303
+    },
+    "jonrichter.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.274
+    },
+    "kevinmarks.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.183
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

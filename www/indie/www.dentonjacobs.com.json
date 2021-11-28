@@ -1,0 +1,105 @@
+{
+  "domain": "www.dentonjacobs.com",
+  "urls": [
+    "https://www.dentonjacobs.com/index"
+  ],
+  "names": [
+    "dentonjacobs.com"
+  ],
+  "descriptions": [
+    "I'm Denton. This is my internet site."
+  ],
+  "pictures": [
+    "https://www.dentonjacobs.com/images/favicon.png",
+    "./images/dentonjacobs.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/dentonjacobs",
+    "https://bitbucket.org/dentonjacobs/",
+    "https://github.com/dentonjacobs",
+    "https://www.linkedin.com/in/dentonjacobs",
+    "https://keybase.io/dentonjacobs"
+  ],
+  "crawl_start": "2017-04-30T06:07:54",
+  "crawl_end": "2017-06-09T17:37:35",
+  "num_pages": 196,
+  "total_html_size": 1658407,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-adr",
+    "h-card",
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "token"
+  ],
+  "endpoints": {
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 2033,
+  "links_in": 56,
+  "links": {
+    "dentonjacobs.com": {
+      "out": {
+        "other": 197
+      },
+      "score": 0.898
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 25
+      },
+      "score": 0.483
+    },
+    "gregorlove.com": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.360
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.345
+    },
+    "brid.gy": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.312
+    },
+    "tantek.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.312
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.269
+    },
+    "withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.209
+    },
+    "snarfed.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.104
+    }
+  }
+}

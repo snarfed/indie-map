@@ -1,0 +1,180 @@
+{
+  "domain": "known.cphyc.me",
+  "urls": [
+    "http://known.cphyc.me/profile/cphyc",
+    "https://www.facebook.com/corentin.cadiou",
+    "https://twitter.com/cphyc",
+    "http://github.com/cphyc/"
+  ],
+  "names": [
+    "Corentin Cadiou",
+    "cphyc's blog"
+  ],
+  "descriptions": [
+    "A blog about computer sciences, physics and much more"
+  ],
+  "pictures": [
+    "http://known.cphyc.me/file/8d19b5da448977fe1d2ef4188ef3b150/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Corentin Cadiou"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\"></div> ",
+          "value": " "
+        }
+      ],
+      "photo": [
+        "http://known.cphyc.me/file/8d19b5da448977fe1d2ef4188ef3b150/thumb.jpg"
+      ],
+      "profile": [
+        "Corentin Cadiou"
+      ],
+      "url": [
+        "http://known.cphyc.me/profile/cphyc",
+        "http://known.cphyc.me/profile/cphyc",
+        "https://www.facebook.com/corentin.cadiou",
+        "https://twitter.com/cphyc",
+        "http://github.com/cphyc/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://www.facebook.com/corentin.cadiou",
+    "https://twitter.com/cphyc",
+    "http://github.com/cphyc/"
+  ],
+  "crawl_start": "2017-04-29T04:32:35",
+  "crawl_end": "2017-04-29T04:34:52",
+  "num_pages": 136,
+  "total_html_size": 3588541,
+  "servers": [
+    "Apache (Debian)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-geo",
+    "h-entry",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.cphyc.me/webmention/"
+    ],
+    "micropub": [
+      "http://known.cphyc.me/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://known.cphyc.me/indieauth/auth"
+    ],
+    "token": [
+      "http://known.cphyc.me/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1125,
+  "links_in": 38,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 136
+      },
+      "score": 0.956
+    },
+    "known.hackens.org": {
+      "out": {
+        "other": 2,
+        "in-reply-to": 15
+      },
+      "in": {
+        "other": 8
+      },
+      "score": 0.867
+    },
+    "werd.io": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "other": 2,
+        "in-reply-to": 10
+      },
+      "score": 0.804
+    },
+    "michielbdejong.com": {
+      "out": {
+        "in-reply-to": 10
+      },
+      "score": 0.785
+    },
+    "known.phyks.me": {
+      "out": {
+        "other": 8,
+        "in-reply-to": 6
+      },
+      "score": 0.738
+    },
+    "jeena.net": {
+      "out": {
+        "other": 5,
+        "in-reply-to": 5
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.714
+    },
+    "indiewebify.me": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.610
+    },
+    "stream.withknown.com": {
+      "out": {
+        "other": 13
+      },
+      "in": {
+        "other": 8
+      },
+      "score": 0.601
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.118
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.118
+    }
+  }
+}

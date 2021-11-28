@@ -1,0 +1,304 @@
+{
+  "domain": "headcrash.ascraeus.org",
+  "urls": [
+    "https://hylozoist.ascraeus.org/profile/dgold",
+    "https://ascraeus.org",
+    "https://twitter.com/_dgoldsmith",
+    "https://instagram.com/_dgoldsmith",
+    "https://keybase.io/dgold",
+    "https://plus.google.com/+DanielGoldsmith",
+    "https://pinboard.in/u:dgold",
+    "https://www.paypal.me/DanielGoldsmith",
+    "https://pnut.io/@dgold",
+    "https://mastodon.social/@dgold"
+  ],
+  "names": [
+    "Daniel Goldsmith",
+    "Hylozoist"
+  ],
+  "descriptions": [
+    "Father, Tinkerer, Indieweb Enthusiast. Writer of influential words. Probably a commahnist.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://hylozoist.ascraeus.org/file/3af4a3243597464f5931481cb10a66b7"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:dgold@ascraeus.org"
+      ],
+      "name": [
+        "Daniel Goldsmith"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Father, Tinkerer, Indieweb Enthusiast. Writer of influential words. Probably a commahnist.</p>\n</div> ",
+          "value": "\nFather, Tinkerer, Indieweb Enthusiast. Writer of influential words. Probably a commahnist.\n "
+        }
+      ],
+      "photo": [
+        "https://hylozoist.ascraeus.org/file/3af4a3243597464f5931481cb10a66b7"
+      ],
+      "profile": [
+        "Daniel Goldsmith"
+      ],
+      "url": [
+        "https://hylozoist.ascraeus.org/profile/dgold",
+        "https://hylozoist.ascraeus.org/profile/dgold",
+        "https://ascraeus.org",
+        "https://twitter.com/_dgoldsmith",
+        "https://instagram.com/_dgoldsmith",
+        "https://keybase.io/dgold",
+        "https://plus.google.com/+DanielGoldsmith",
+        "https://pinboard.in/u:dgold",
+        "https://www.paypal.me/DanielGoldsmith",
+        "https://pnut.io/@dgold",
+        "https://mastodon.social/@dgold"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://ascraeus.org",
+    "https://twitter.com/_dgoldsmith",
+    "https://instagram.com/_dgoldsmith",
+    "https://keybase.io/dgold",
+    "https://plus.google.com/+DanielGoldsmith",
+    "mailto:dgold@ascraeus.org",
+    "https://pinboard.in/u:dgold",
+    "https://www.paypal.me/DanielGoldsmith",
+    "https://pnut.io/@dgold",
+    "https://mastodon.social/@dgold"
+  ],
+  "crawl_start": "2017-04-28T23:33:32",
+  "crawl_end": "2017-04-28T23:33:32",
+  "num_pages": 1,
+  "total_html_size": 55155,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://hylozoist.ascraeus.org/webmention/"
+    ],
+    "micropub": [
+      "https://hylozoist.ascraeus.org/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://hylozoist.ascraeus.org/indieauth/auth"
+    ],
+    "token": [
+      "https://hylozoist.ascraeus.org/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 122,
+  "links_in": 84,
+  "links": {
+    "hylozoist.ascraeus.org": {
+      "out": {
+        "other": 99
+      },
+      "score": 1
+    },
+    "vaviblog.com": {
+      "in": {
+        "other": 13,
+        "in-reply-to": 4
+      },
+      "score": 0.662
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "like-of": 12
+      },
+      "score": 0.601
+    },
+    "twitter.com/loopdouble": {
+      "out": {
+        "like-of": 1,
+        "other": 1,
+        "in-reply-to": 1
+      },
+      "score": 0.524
+    },
+    "unrelenting.technology": {
+      "in": {
+        "other": 15
+      },
+      "score": 0.512
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.469
+    },
+    "twitter.com/Meaningness": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 1
+      },
+      "score": 0.469
+    },
+    "stream.jeremycherfas.net": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.393
+    },
+    "www.theguardian.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.263
+    },
+    "www.instructables.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.263
+    },
+    "mapkyca.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.263
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.263
+    },
+    "www.washingtonpost.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.263
+    },
+    "cleverdevil.io": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.263
+    },
+    "stream.techlifeweb.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.263
+    },
+    "ascraeus.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.263
+    },
+    "keybase.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.131
+    },
+    "twitter.com/_dgoldsmith": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.131
+    },
+    "www.paypal.me": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.131
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.131
+    },
+    "miklb.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.131
+    },
+    "pnut.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.131
+    },
+    "withknown.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.131
+    },
+    "plus.google.com/+DanielGoldsmith": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.131
+    },
+    "jvns.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.131
+    },
+    "pinboard.in": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.131
+    },
+    "instagram.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.131
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.131
+    },
+    "boffosocko.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.131
+    },
+    "martymcgui.re": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

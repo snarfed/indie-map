@@ -1,0 +1,128 @@
+{
+  "domain": "papa.ninja",
+  "urls": [
+    "https://papa.ninja/profile/bzg",
+    "https://papa.ninja"
+  ],
+  "names": [
+    "Papa Ninja",
+    "Perdu d'avance.",
+    "C'est ça papa."
+  ],
+  "descriptions": [
+    "Perdu d'avance.",
+    "Ma fille et moi."
+  ],
+  "pictures": [
+    "https://papa.ninja/file/392b91dfdb00106f2ebe537abfe195b7"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Papa Ninja"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Perdu d'avance.</p>\n</div>",
+          "value": "\nPerdu d'avance.\n"
+        }
+      ],
+      "photo": [
+        "https://papa.ninja/file/392b91dfdb00106f2ebe537abfe195b7"
+      ],
+      "profile": [
+        "Papa Ninja"
+      ],
+      "url": [
+        "https://papa.ninja/profile/bzg",
+        "https://papa.ninja/profile/bzg",
+        "https://papa.ninja"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://papa.ninja"
+  ],
+  "crawl_start": "2017-04-30T01:58:05",
+  "crawl_end": "2017-04-30T02:01:25",
+  "num_pages": 232,
+  "total_html_size": 4720709,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://papa.ninja/webmention/"
+    ],
+    "micropub": [
+      "https://papa.ninja/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://papa.ninja/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 244,
+  "links_in": 1,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 232
+      },
+      "score": 1
+    },
+    "twitter.com/bzg2": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.339
+    },
+    "twitter.com/M_Pettinato": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.339
+    },
+    "twitter.com/jnbillebeau": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.226
+    },
+    "twitter.com/oncletom": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.226
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

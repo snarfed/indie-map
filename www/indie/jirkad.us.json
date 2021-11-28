@@ -1,0 +1,67 @@
+{
+  "domain": "jirkad.us",
+  "urls": [
+    "http://jirkad.us/"
+  ],
+  "names": [
+    "Jiri's blog",
+    "jirkad.us"
+  ],
+  "descriptions": [
+    "Jiri's small piece of the internet."
+  ],
+  "pictures": [
+    "http://jirkad.us/file/1cbf11c2d5507371d5695100625f1cbc"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T23:38:21",
+  "crawl_end": "2017-04-28T23:40:07",
+  "num_pages": 73,
+  "total_html_size": 1885667,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-geo",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://jirkad.us/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 263,
+  "links_in": 9,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 73
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.392
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.139
+    }
+  }
+}

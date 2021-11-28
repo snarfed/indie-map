@@ -1,0 +1,73 @@
+{
+  "domain": "jhuaeme.org",
+  "urls": [
+    "http://jhuaeme.org/"
+  ],
+  "names": [
+    "Johns Hopkins AEME | Arts, Entertainment, Media, & Entrepreneurism Alumni Affinity Group",
+    "Johns Hopkins AEME"
+  ],
+  "descriptions": [
+    "Arts, Entertainment, Media, & Entrepreneurism Alumni Affinity Group"
+  ],
+  "pictures": [
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://facebook.com/jhuaeme",
+    "https://twitter.com/jhuaeme",
+    "https://plus.google.com/u/0/107190440531348378313/posts",
+    "http://jhuaeme.org/feed/"
+  ],
+  "crawl_start": "2017-04-28T23:37:55",
+  "crawl_end": "2017-04-29T00:09:48",
+  "num_pages": 308,
+  "total_html_size": 20001110,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-feed",
+    "h-as-mention"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://jhuaeme.org/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 11454,
+  "links_in": 4,
+  "links": {
+    "media.johnshopkinsuniversity.biz": {
+      "out": {
+        "other": 395
+      },
+      "score": 0.768
+    },
+    "boffosocko.com": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 133
+      },
+      "score": 0.643
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.127
+    }
+  }
+}

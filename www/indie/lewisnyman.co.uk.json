@@ -1,0 +1,126 @@
+{
+  "domain": "lewisnyman.co.uk",
+  "urls": [
+    "/"
+  ],
+  "names": [
+    "Lewis Nyman - Hello! I'm Lewis Nyman.",
+    "Lewis Nyman",
+    "Hello! I'm Lewis Nyman."
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "mailto:hello@lewisnyman.co.uk",
+    "https://twitter.com/lewisnyman",
+    "http://drupal.org/user/751964",
+    "sms:+447753103690"
+  ],
+  "crawl_start": "2017-04-29T14:38:36",
+  "crawl_end": "2017-04-29T14:40:07",
+  "num_pages": 55,
+  "total_html_size": 336199,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/lewisnyman.co.uk/webmention"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 316,
+  "links_in": 61,
+  "links": {
+    "huffduffer.com": {
+      "in": {
+        "other": 42
+      },
+      "score": 0.906
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.639
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.433
+    },
+    "tommorris.org": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.390
+    },
+    "adactio.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.337
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.168
+    },
+    "paulrobertlloyd.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.168
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.168
+    },
+    "benjamin.parry.is": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.168
+    },
+    "indiewebify.me": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.168
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.168
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.168
+    }
+  }
+}

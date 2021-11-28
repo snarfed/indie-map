@@ -1,0 +1,621 @@
+{
+  "domain": "blog.pmormr.com",
+  "urls": [
+    "http://blog.pmormr.com/profile/pmormr",
+    "http://www.linkedin.com/in/pmormr",
+    "http://www.facebook.com/pmormr",
+    "http://www.twitter.com/pmormr"
+  ],
+  "names": [
+    "Paul Morgan (pmormr)",
+    "The Daily Morgan"
+  ],
+  "descriptions": [
+    "I'm an IT Systems Engineer who works with school districts in New Jersey. I write about things that I find interesting, engaging, or enraging.",
+    "A commentary on the world as I see it."
+  ],
+  "pictures": [
+    "http://blog.pmormr.com/file/c811263f9e21cda1d1fb4d7861c4c303/thumb.jpg",
+    "http://blog.pmormr.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Paul Morgan (pmormr)"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I'm an IT Systems Engineer who works with school districts in New Jersey. I write about things that I find interesting, engaging, or enraging.</p>\n</div>",
+          "value": "\nI'm an IT Systems Engineer who works with school districts in New Jersey. I write about things that I find interesting, engaging, or enraging.\n"
+        }
+      ],
+      "photo": [
+        "http://blog.pmormr.com/file/c811263f9e21cda1d1fb4d7861c4c303/thumb.jpg"
+      ],
+      "profile": [
+        "Paul Morgan (pmormr)"
+      ],
+      "url": [
+        "http://blog.pmormr.com/profile/pmormr",
+        "http://blog.pmormr.com/profile/pmormr",
+        "http://www.linkedin.com/in/pmormr",
+        "http://www.facebook.com/pmormr",
+        "http://www.twitter.com/pmormr"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.linkedin.com/in/pmormr",
+    "http://www.facebook.com/pmormr",
+    "http://www.twitter.com/pmormr"
+  ],
+  "crawl_start": "2017-04-28T02:15:55",
+  "crawl_end": "2017-04-28T02:20:47",
+  "num_pages": 216,
+  "total_html_size": 6852338,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://blog.pmormr.com/webmention/"
+    ],
+    "micropub": [
+      "http://blog.pmormr.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://blog.pmormr.com/indieauth/auth"
+    ],
+    "token": [
+      "http://blog.pmormr.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1237,
+  "links_in": 3,
+  "links": {
+    "www.youtube.com": {
+      "out": {
+        "other": 296
+      },
+      "score": 1
+    },
+    "facebook.com/10155913566020145": {
+      "out": {
+        "other": 148
+      },
+      "score": 0.892
+    },
+    "www.nytimes.com": {
+      "out": {
+        "other": 78
+      },
+      "score": 0.792
+    },
+    "twitter.com/pmormr": {
+      "out": {
+        "other": 66
+      },
+      "score": 0.765
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 53
+      },
+      "score": 0.730
+    },
+    "facebook.com/pmormr": {
+      "out": {
+        "other": 47
+      },
+      "score": 0.712
+    },
+    "consumerist.com": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.641
+    },
+    "msdl.microsoft.com": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.641
+    },
+    "i.imgur.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.632
+    },
+    "facebook.com/10210128054264183": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.561
+    },
+    "nypost.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.511
+    },
+    "www.npr.org": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.511
+    },
+    "www.washingtonpost.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.498
+    },
+    "www.nbcnews.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.498
+    },
+    "arstechnica.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.498
+    },
+    "etherealmind.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.498
+    },
+    "www.reuters.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.498
+    },
+    "krebsonsecurity.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.498
+    },
+    "spikedmath.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.484
+    },
+    "facebook.com/10206805889573547": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.470
+    },
+    "politifact.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.470
+    },
+    "www.vox.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.453
+    },
+    "www.dailymail.co.uk": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.453
+    },
+    "thehill.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.453
+    },
+    "facebook.com/10206825589501153": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.434
+    },
+    "www.theatlantic.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.414
+    },
+    "www.schneier.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "motherboard.vice.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "www.wonder-tonic.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "www.paulgraham.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "theoatmeal.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "azure.microsoft.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "www.smartereveryday.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "qz.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "www.cnbc.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "facebook.com/10111155230370804": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "fivethirtyeight.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "imgur.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "fortune.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "facebook.com/10154394332940970": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "soundcloud.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "facebook.com/10206143669183516": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "www.reddit.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "abcnews.go.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "www.lettersofnote.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "facebook.com/2931332930171": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "www.sun-sentinel.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "gcaptain.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "onwardstate.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "www.huffingtonpost.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "www.theverge.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "firstlook.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "www.13wmaz.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "loudwire.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "www.pcworld.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "www.independent.co.uk": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "store.dftba.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "www.imdb.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.389
+    },
+    "explosm.net": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.361
+    },
+    "facebook.com/10210055520449791": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.326
+    },
+    "facebook.com/1256837044340453": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.326
+    },
+    "facebook.com/10208149706432850": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.326
+    },
+    "facebook.com/1740919936181348": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.326
+    },
+    "comcast.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.326
+    },
+    "facebook.com/10202043092676558": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.326
+    },
+    "facebook.com/10210242266121001": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.326
+    },
+    "facebook.com/10111200384306954": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.326
+    },
+    "pmormr.withknown.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.281
+    },
+    "facebook.com/10111407595064934": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.218
+    },
+    "facebook.com/10210437173512148": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.218
+    },
+    "facebook.com/10210393503020829": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.218
+    },
+    "twitter.com/tamisiseles": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.218
+    },
+    "facebook.com/10111155230465614": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.218
+    },
+    "twitter.com/dapnie1": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.218
+    },
+    "facebook.com/10210662473823883": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.218
+    },
+    "facebook.com/10100512162938316": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.218
+    },
+    "facebook.com/10204731251560476": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.218
+    },
+    "twitter.com/Itsgreattosmile": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.218
+    },
+    "facebook.com/10154102106115845": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.218
+    },
+    "twitter.com/rendezvous_bags": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.218
+    },
+    "facebook.com/10111155230375794": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.218
+    },
+    "twitter.com/buildwithNels": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.218
+    },
+    "facebook.com/10206940936310156": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.218
+    },
+    "twitter.com/VTABeerGuys": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.218
+    },
+    "twitter.com/hcompton52": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.218
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.172
+    }
+  }
+}

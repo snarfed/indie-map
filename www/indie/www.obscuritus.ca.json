@@ -1,0 +1,59 @@
+{
+  "domain": "www.obscuritus.ca",
+  "urls": [
+    "http://www.obscuritus.ca/"
+  ],
+  "names": [
+    "Obscuritus.ca | . - index"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://www.obscuritus.ca/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "http://www.obscuritus.ca/",
+    "http://www.obscuritus.ca/feed.xml",
+    "https://twitter.com/HippyWizard",
+    "https://github.com/silverwizard"
+  ],
+  "crawl_start": "2017-06-10T02:29:15",
+  "crawl_end": "2017-06-10T02:32:03",
+  "num_pages": 67,
+  "total_html_size": 376780,
+  "servers": [
+    "OpenBSD httpd"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 1085,
+  "links_in": 6,
+  "links": {
+    "singpolyma.net": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 5
+      },
+      "score": 0.327
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

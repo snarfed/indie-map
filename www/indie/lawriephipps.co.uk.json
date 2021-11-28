@@ -1,0 +1,108 @@
+{
+  "domain": "lawriephipps.co.uk",
+  "urls": [
+    "http://lawriephipps.co.uk/"
+  ],
+  "names": [
+    "lawrie : converged"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://i2.wp.com/lawriephipps.co.uk/wp-content/uploads/2016/02/cropped-Presentation1-1.png?fit=32%2C32",
+    "https://i2.wp.com/lawriephipps.co.uk/wp-content/uploads/2016/02/cropped-Presentation1-1.png?fit=192%2C192",
+    "https://i2.wp.com/lawriephipps.co.uk/wp-content/uploads/2016/02/cropped-Presentation1-1.png?fit=200%2C200"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T14:38:36",
+  "crawl_end": "2017-04-29T15:54:48",
+  "num_pages": 373,
+  "total_html_size": 13996861,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-feed",
+    "h-as-reply",
+    "h-as-note",
+    "h-entry",
+    "h-as-mention",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://lawriephipps.co.uk/?rest_route=/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://lawriephipps.co.uk/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 2553,
+  "links_in": 12,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.245
+    },
+    "www.funnymonkey.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.190
+    },
+    "blog.mahabali.me": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0948
+    },
+    "known.digis.im": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0948
+    },
+    "blog.simonwood.info": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0948
+    },
+    "hapgood.us": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0948
+    },
+    "cogdogblog.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "blog.digis.im": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "domain": "social.mylesb.ca",
+  "urls": [
+    "https://social.mylesb.ca/profile/myles",
+    "https://mylesb.ca/",
+    "http://mylesbraithwaite.com/",
+    "https://ilovemyles.com/",
+    "https://myles.red/",
+    "https://myles.coffee/",
+    "https://twitter.com/mylesb",
+    "https://facebook.com/mylesbraithwaite",
+    "https://myles.life/"
+  ],
+  "names": [
+    "Myles Braithwaite",
+    "Myles' Known"
+  ],
+  "descriptions": [
+    "Hoping for the Best, Imagining the Worst.",
+    "Myles Braithwaite social website powered by Known."
+  ],
+  "pictures": [
+    "https://social.mylesb.ca/file/f130eca39e611d6d73855e66e16102f4/thumb.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Myles Braithwaite"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Hoping for the Best, Imagining the Worst.</p>\n</div>",
+          "value": "\nHoping for the Best, Imagining the Worst.\n"
+        }
+      ],
+      "photo": [
+        "https://social.mylesb.ca/file/f130eca39e611d6d73855e66e16102f4/thumb.png"
+      ],
+      "profile": [
+        "Myles Braithwaite"
+      ],
+      "url": [
+        "https://social.mylesb.ca/profile/myles",
+        "https://social.mylesb.ca/profile/myles",
+        "https://mylesb.ca/",
+        "http://mylesbraithwaite.com/",
+        "https://ilovemyles.com/",
+        "https://myles.red/",
+        "https://myles.coffee/",
+        "https://twitter.com/mylesb",
+        "https://facebook.com/mylesbraithwaite",
+        "https://myles.life/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://mylesb.ca/",
+    "http://mylesbraithwaite.com/",
+    "https://ilovemyles.com/",
+    "https://myles.red/",
+    "https://myles.coffee/",
+    "https://twitter.com/mylesb",
+    "https://facebook.com/mylesbraithwaite",
+    "https://myles.life/"
+  ],
+  "crawl_start": "2017-04-30T02:17:12",
+  "crawl_end": "2017-04-30T02:17:37",
+  "num_pages": 45,
+  "total_html_size": 1090341,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-geo",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://social.mylesb.ca/webmention/"
+    ],
+    "micropub": [
+      "https://social.mylesb.ca/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://social.mylesb.ca/indieauth/auth"
+    ],
+    "token": [
+      "https://social.mylesb.ca/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 360,
+  "links_in": 1,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.962
+    },
+    "mylesbraithwaite.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.825
+    },
+    "mylesb.ca": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.825
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

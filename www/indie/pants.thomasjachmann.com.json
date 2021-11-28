@@ -1,0 +1,89 @@
+{
+  "domain": "pants.thomasjachmann.com",
+  "urls": [
+    "http://pants.thomasjachmann.com/"
+  ],
+  "names": [
+    "TJA"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T01:58:02",
+  "crawl_end": "2017-04-30T01:58:21",
+  "num_pages": 23,
+  "total_html_size": 340212,
+  "servers": [
+    "Cowboy"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://pants.thomasjachmann.com/ping"
+    ]
+  },
+  "links_out": 952,
+  "links_in": 0,
+  "links": {
+    "hmans.io": {
+      "out": {
+        "other": 584,
+        "in-reply-to": 11
+      },
+      "score": 1
+    },
+    "pants.tubit.net": {
+      "out": {
+        "other": 63,
+        "in-reply-to": 3
+      },
+      "score": 0.706
+    },
+    "need.computer": {
+      "out": {
+        "other": 1,
+        "in-reply-to": 7
+      },
+      "score": 0.599
+    },
+    "jonasw.io": {
+      "out": {
+        "in-reply-to": 3
+      },
+      "score": 0.476
+    },
+    "pants.monoxyd.de": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.420
+    },
+    "pants.f5n.de": {
+      "out": {
+        "other": 4,
+        "in-reply-to": 1
+      },
+      "score": 0.404
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.347
+    },
+    "tent.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    }
+  }
+}

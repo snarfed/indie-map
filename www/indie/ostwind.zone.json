@@ -1,0 +1,84 @@
+{
+  "domain": "ostwind.zone",
+  "urls": [
+    "http://ostwind.zone/"
+  ],
+  "names": [
+    "Ostwind"
+  ],
+  "descriptions": [
+    "Besuche den Beitrag für mehr Info."
+  ],
+  "pictures": [
+    "http://i2.wp.com/ostwind.zone/wp-content/uploads/2016/03/cropped-ostwind.jpg?fit=32%2C32",
+    "http://i2.wp.com/ostwind.zone/wp-content/uploads/2016/03/cropped-ostwind.jpg?fit=192%2C192",
+    "http://i2.wp.com/ostwind.zone/wp-content/uploads/2016/03/cropped-ostwind.jpg?fit=200%2C200",
+    "http://i2.wp.com/ostwind.zone/wp-content/uploads/2016/03/cropped-ostwind.jpg?fit=240%2C240"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://plus.google.com/http://plus.google.com/+klemenss"
+  ],
+  "crawl_start": "2017-04-29T21:36:01",
+  "crawl_end": "2017-04-29T22:10:06",
+  "num_pages": 83,
+  "total_html_size": 4799339,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-feed",
+    "h-as-mention"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://ostwind.zone/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://ostwind.zone/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 626,
+  "links_in": 18,
+  "links": {
+    "lobpreiscamp.ostwind.zone": {
+      "in": {
+        "other": 11
+      },
+      "out": {
+        "other": 6
+      },
+      "score": 0.515
+    },
+    "brid.gy": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.320
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.293
+    }
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "domain": "davidjohnmead.com",
+  "urls": [
+    "http://davidjohnmead.com"
+  ],
+  "names": [
+    "David Mead",
+    "David Mead | Information Architect & User Experience Designer"
+  ],
+  "descriptions": [
+    "An Englishman abroad - Been working with the web since the 90's, main focus now is UX/UI. Moved to Cleveland, Ohio in 2001.",
+    "Personal site for David Mead"
+  ],
+  "pictures": [
+    "http://davidjohnmead.com/img/portrait-DJM.png",
+    "http://davidjohnmead.com/favicon.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "David Mead"
+      ],
+      "note": [
+        "An Englishman abroad - Been working with the web since the 90's, main focus now is UX/UI. Moved to Cleveland, Ohio in 2001."
+      ],
+      "photo": [
+        "http://davidjohnmead.com/img/portrait-DJM.png"
+      ],
+      "role": [
+        "Information Architect & User Experience Designer"
+      ],
+      "url": [
+        "http://davidjohnmead.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://davidjohnmead.com",
+    "http://davidjohnmead.com/blog",
+    "http://blog.davidjohnmead.com",
+    "https://twitter.com/davidmead",
+    "https://instagram.com/davidjohnmead/",
+    "https://www.snapchat.com/add/davidmead",
+    "https://www.linkedin.com/in/davidmead",
+    "http://www.foodspotting.com/davidmead",
+    "http://www.nosh.com/davidmead",
+    "https://indieweb.org/User:Davidjohnmead.com",
+    "https://upcoming.org/@davidmead",
+    "http://plus.google.com/109486665432406578271",
+    "http://www.flickr.com/people/davidmead/",
+    "https://www.periscope.tv/davidmead",
+    "http://ello.co/davidmead",
+    "http://gentlemint.com/users/davidmead/",
+    "http://github.com/davidmead",
+    "http://lanyrd.com/profile/davidmead",
+    "http://www.last.fm/user/DaveMead",
+    "http://davidmead.listal.com/",
+    "http://www.neonmob.com/@davidmead",
+    "http://soundcloud.com/davidmead-1",
+    "http://davidmead.tumblr.com/",
+    "http://vine.co/davidjohnmead",
+    "http://www.youtube.com/user/davidjohnmead",
+    "http://authenticpros.com/davidmead",
+    "http://cash.me/$davidmead",
+    "https://www.producthunt.com/@davidmead",
+    "http://phhhoto.com/davidmead",
+    "http://del.icio.us/davidmead",
+    "http://codepen.io/davidmead/",
+    "https://huffduffer.com/davidmead",
+    "https://foursquare.com/davidmead",
+    "https://www.mixcloud.com/davidmead/",
+    "http://stackoverflow.com/users/4166790/david-mead",
+    "https://keybase.io/davidmead",
+    "https://www.reddit.com/user/davidjohnmead/",
+    "https://www.twitch.tv/davidmead",
+    "http://archive.upcoming.org/user/104653"
+  ],
+  "crawl_start": "2017-04-24T02:48:55",
+  "crawl_end": "2017-04-25T09:07:37",
+  "num_pages": 13199,
+  "total_html_size": 321830830,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-note",
+    "h-as-bookmark",
+    "h-as-article",
+    "h-as-video",
+    "h-card",
+    "h-as-image",
+    "h-entry",
+    "h-as-audio",
+    "h-feed",
+    "h-geo"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://davidjohnmead.com/blog/?webmention=endpoint",
+      "http://davidjohnmead.com/blog/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://davidjohnmead.com/blog/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 230721,
+  "links_in": 8613,
+  "links": {
+    "blog.davidjohnmead.com": {
+      "in": {
+        "other": 6072
+      },
+      "out": {
+        "other": 19314
+      },
+      "score": 0.982
+    },
+    "tantek.com": {
+      "out": {
+        "in-reply-to": 5,
+        "other": 13079
+      },
+      "in": {
+        "in-reply-to": 3,
+        "like-of": 1
+      },
+      "score": 0.936
+    },
+    "adactio.com": {
+      "in": {
+        "other": 71
+      },
+      "out": {
+        "other": 13177
+      },
+      "score": 0.936
+    },
+    "notizblog.org": {
+      "out": {
+        "other": 13034
+      },
+      "score": 0.936
+    },
+    "davidmead.withknown.com": {
+      "out": {
+        "other": 689
+      },
+      "score": 0.663
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 867
+      },
+      "out": {
+        "other": 252
+      },
+      "score": 0.662
+    },
+    "huffduffer.com": {
+      "out": {
+        "other": 337
+      },
+      "score": 0.597
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 99,
+        "other": 25
+      },
+      "out": {
+        "in-reply-to": 8,
+        "other": 26
+      },
+      "score": 0.594
+    },
+    "jothut.com": {
+      "in": {
+        "other": 645
+      },
+      "score": 0.594
+    },
+    "chat.indieweb.org": {
+      "out": {
+        "other": 18
+      },
+      "in": {
+        "other": 584
+      },
+      "score": 0.590
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 129
+      },
+      "score": 0.509
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 24,
+        "in-reply-to": 20,
+        "bookmark-of": 22
+      },
+      "out": {
+        "other": 26
+      },
+      "score": 0.494
+    },
+    "brid.gy": {
+      "in": {
+        "other": 42
+      },
+      "out": {
+        "other": 66
+      },
+      "score": 0.473
+    },
+    "withknown.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.433
+    },
+    "known.kylewm.com": {
+      "in": {
+        "other": 11,
+        "in-reply-to": 17
+      },
+      "score": 0.418
+    },
+    "indiewebify.me": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.411
+    },
+    "techlifeweb.com": {
+      "out": {
+        "other": 3
+      },
+      "in": {
+        "in-reply-to": 12,
+        "other": 2,
+        "like-of": 8
+      },
+      "score": 0.406
+    },
+    "kylewm.com": {
+      "in": {
+        "in-reply-to": 4,
+        "other": 8
+      },
+      "out": {
+        "in-reply-to": 4,
+        "other": 6
+      },
+      "score": 0.402
+    },
+    "www.manton.org": {
+      "out": {
+        "other": 6,
+        "in-reply-to": 6
+      },
+      "score": 0.393
+    },
+    "known.aegibson.me": {
+      "in": {
+        "in-reply-to": 10
+      },
+      "score": 0.359
+    },
+    "scripting.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.343
+    },
+    "larryhalff.com": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.334
+    },
+    "boffosocko.com": {
+      "out": {
+        "other": 10
+      },
+      "in": {
+        "other": 17
+      },
+      "score": 0.331
+    },
+    "djm.click": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.324
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.318
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "in-reply-to": 5,
+        "other": 2
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.315
+    },
+    "werd.io": {
+      "in": {
+        "other": 22
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.312
+    },
+    "meyerweb.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.312
+    },
+    "ownyourgram.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 13
+      },
+      "score": 0.306
+    },
+    "huffduff-video.snarfed.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.306
+    },
+    "timkadlec.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.283
+    },
+    "quill.p3k.io": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.283
+    },
+    "www.aaron-gustafson.com": {
+      "in": {
+        "other": 5
+      },
+      "out": {
+        "other": 7
+      },
+      "score": 0.270
+    },
+    "www.baldurbjarnason.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.254
+    },
+    "woodwind.xyz": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.254
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.254
+    },
+    "aegibson.me": {
+      "in": {
+        "in-reply-to": 3
+      },
+      "score": 0.249
+    },
+    "davewiner.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.242
+    },
+    "wavelist.xyz": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.242
+    },
+    "micro.blog": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.228
+    },
+    "www.altsalt.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.228
+    },
+    "aaron-gustafson.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.228
+    },
+    "tinokremer.nl": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.191
+    },
+    "david.shanske.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.191
+    },
+    "antipolar.tumblr.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "notiz.blog": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.128
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.101
+    },
+    "webmention.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "boghop.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

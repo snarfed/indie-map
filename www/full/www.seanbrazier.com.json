@@ -1,0 +1,131 @@
+{
+  "domain": "www.seanbrazier.com",
+  "urls": [
+    "http://www.seanbrazier.com/profile/seanbrazier",
+    "http://about.me/seanbrazier",
+    "http://last.fm/user/snipsnip"
+  ],
+  "names": [
+    "Séan Brazier",
+    "Sean's stuff"
+  ],
+  "descriptions": [
+    "Really like biscuits",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://www.seanbrazier.com/file/3703e1fa0e8b8d0b7c59f9e323ad8dfa/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Séan Brazier"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Really like biscuits</p>\n</div>",
+          "value": "\nReally like biscuits\n"
+        }
+      ],
+      "photo": [
+        "http://www.seanbrazier.com/file/3703e1fa0e8b8d0b7c59f9e323ad8dfa/thumb.jpg"
+      ],
+      "profile": [
+        "Séan Brazier"
+      ],
+      "url": [
+        "http://www.seanbrazier.com/profile/seanbrazier",
+        "http://www.seanbrazier.com/profile/seanbrazier",
+        "http://about.me/seanbrazier",
+        "http://last.fm/user/snipsnip"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://about.me/seanbrazier",
+    "http://last.fm/user/snipsnip"
+  ],
+  "crawl_start": "2017-04-30T08:39:56",
+  "crawl_end": "2017-04-30T08:40:24",
+  "num_pages": 34,
+  "total_html_size": 831943,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.seanbrazier.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 53,
+  "links_in": 4,
+  "links": {
+    "about.me": {
+      "out": {
+        "other": 14
+      },
+      "score": 1
+    },
+    "last.fm": {
+      "out": {
+        "other": 14
+      },
+      "score": 1
+    },
+    "denday.savethechildren.org.uk": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.793
+    },
+    "medium.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.793
+    },
+    "dangrover.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.793
+    },
+    "twitter.com/snipsnip": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.417
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.417
+    },
+    "twitter.com/inacamet1984": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.417
+    }
+  }
+}

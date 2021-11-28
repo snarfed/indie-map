@@ -1,0 +1,102 @@
+{
+  "domain": "www.michi.wtf",
+  "urls": [
+    "http://www.michi.wtf/"
+  ],
+  "names": [
+    "michael",
+    "Basisstation"
+  ],
+  "descriptions": [
+    "Meine Internet-Basisstation"
+  ],
+  "pictures": [
+    "https://www.michi.wtf/file/40f9f9ef40c9f5e436f3676bdbd2ce68"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T21:31:43",
+  "crawl_end": "2017-04-30T07:25:29",
+  "num_pages": 171,
+  "total_html_size": 3723811,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.michi.wtf/webmention/"
+    ],
+    "micropub": [
+      "https://www.michi.wtf/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://www.michi.wtf/indieauth/auth"
+    ],
+    "token": [
+      "https://www.michi.wtf/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 967,
+  "links_in": 10,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 186
+      },
+      "score": 0.924
+    },
+    "www.konradlischka.info": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 5
+      },
+      "score": 0.387
+    },
+    "brid.gy": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.387
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.359
+    },
+    "www.petersell.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.359
+    },
+    "stromgeber.lischka.cc": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.279
+    }
+  }
+}

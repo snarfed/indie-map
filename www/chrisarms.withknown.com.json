@@ -1,0 +1,65 @@
+{
+  "domain": "chrisarms.withknown.com",
+  "urls": [
+    "http://chrisarms.withknown.com/"
+  ],
+  "names": [
+    "Chris Armstrong's Known"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://chrisarms.withknown.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T05:16:18",
+  "crawl_end": "2017-04-28T05:16:35",
+  "num_pages": 15,
+  "total_html_size": 269032,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://chrisarms.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 9,
+  "links_in": 2,
+  "links": {
+    "www.engadget.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 1
+    },
+    "www.pledgemusic.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.904
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.301
+    }
+  }
+}

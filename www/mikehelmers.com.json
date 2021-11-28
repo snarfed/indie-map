@@ -1,0 +1,73 @@
+{
+  "domain": "mikehelmers.com",
+  "crawl_start": "2017-06-09T18:47:04",
+  "crawl_end": "2017-06-09T18:47:10",
+  "num_pages": 7,
+  "total_html_size": 409081,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "WordPress"
+  ],
+  "endpoints": {},
+  "hcard": {},
+  "links_out": 43,
+  "links_in": 2,
+  "links": {
+    "facebook.com/wordpress": {
+      "out": {
+        "other": 7
+      },
+      "score": 1
+    },
+    "www.yelp.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 1
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 1
+    },
+    "gmail.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 1
+    },
+    "www.instagram.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 1
+    },
+    "twitter.com/wordpress": {
+      "out": {
+        "other": 7
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.262
+    },
+    "gravatar.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.262
+    }
+  }
+}

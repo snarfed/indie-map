@@ -1,0 +1,626 @@
+{
+  "domain": "blog.joschmidt.net",
+  "urls": [
+    "http://blog.joschmidt.net/"
+  ],
+  "names": [
+    "The blog of Johannes Schmidt about tech, data, product management, culture, and change",
+    "/"
+  ],
+  "descriptions": [
+    "A social website powered by Known about tech, data, product management, culture, and change"
+  ],
+  "pictures": [
+    "http://blog.joschmidt.net/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T02:15:50",
+  "crawl_end": "2017-04-28T02:20:27",
+  "num_pages": 187,
+  "total_html_size": 4536799,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://blog.joschmidt.net/webmention/"
+    ],
+    "micropub": [
+      "http://blog.joschmidt.net/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "http://blog.joschmidt.net/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1492,
+  "links_in": 8,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 196
+      },
+      "score": 1
+    },
+    "scs-architecture.org": {
+      "out": {
+        "other": 96,
+        "in-reply-to": 3
+      },
+      "score": 0.905
+    },
+    "twitter.com/erlenzeisig": {
+      "out": {
+        "other": 99
+      },
+      "score": 0.886
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 71
+      },
+      "score": 0.871
+    },
+    "schema.org": {
+      "out": {
+        "in-reply-to": 3,
+        "other": 62
+      },
+      "score": 0.844
+    },
+    "www.isotopicmaps.org": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 50
+      },
+      "score": 0.802
+    },
+    "tools.ietf.org": {
+      "out": {
+        "other": 50,
+        "in-reply-to": 2
+      },
+      "score": 0.802
+    },
+    "speakerdeck.com": {
+      "out": {
+        "other": 42,
+        "in-reply-to": 2
+      },
+      "score": 0.777
+    },
+    "example.org": {
+      "out": {
+        "in-reply-to": 3,
+        "other": 36
+      },
+      "score": 0.774
+    },
+    "twitter.com/tistre": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.750
+    },
+    "www-poleia.lip6.fr": {
+      "out": {
+        "other": 33,
+        "in-reply-to": 1
+      },
+      "score": 0.725
+    },
+    "www.strehle.de": {
+      "out": {
+        "other": 37
+      },
+      "score": 0.720
+    },
+    "www.infoq.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 25
+      },
+      "score": 0.685
+    },
+    "mnot.github.io": {
+      "out": {
+        "other": 25,
+        "in-reply-to": 1
+      },
+      "score": 0.685
+    },
+    "www.mnot.net": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 25
+      },
+      "score": 0.685
+    },
+    "tinokremer.nl": {
+      "out": {
+        "other": 4,
+        "in-reply-to": 5
+      },
+      "score": 0.680
+    },
+    "www.kaushik.net": {
+      "out": {
+        "other": 18,
+        "in-reply-to": 2
+      },
+      "score": 0.675
+    },
+    "joschmidt.net": {
+      "out": {
+        "other": 21,
+        "in-reply-to": 1
+      },
+      "score": 0.662
+    },
+    "www.xyz.edu": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.662
+    },
+    "www.extremeprogramming.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 20
+      },
+      "score": 0.655
+    },
+    "www.computer.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 20
+      },
+      "score": 0.655
+    },
+    "www.romanpichler.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 20
+      },
+      "score": 0.655
+    },
+    "www.scrumalliance.org": {
+      "out": {
+        "other": 20,
+        "in-reply-to": 1
+      },
+      "score": 0.655
+    },
+    "about.me": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 19
+      },
+      "score": 0.648
+    },
+    "github.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 17
+      },
+      "score": 0.633
+    },
+    "sourceforge.net": {
+      "out": {
+        "other": 17,
+        "in-reply-to": 1
+      },
+      "score": 0.633
+    },
+    "www.ldodds.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 17
+      },
+      "score": 0.633
+    },
+    "galeria-kaufhof.github.io": {
+      "out": {
+        "other": 17,
+        "in-reply-to": 1
+      },
+      "score": 0.633
+    },
+    "www.di-unternehmer.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.626
+    },
+    "codeartisan.blogspot.de": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.626
+    },
+    "docs.google.com": {
+      "out": {
+        "other": 13,
+        "in-reply-to": 1
+      },
+      "score": 0.600
+    },
+    "www.bluem.net": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.591
+    },
+    "www.datadoghq.com": {
+      "out": {
+        "other": 9,
+        "in-reply-to": 1
+      },
+      "score": 0.558
+    },
+    "www.cmswire.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.558
+    },
+    "twitter.com/mivesto": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.558
+    },
+    "xyz.edu": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.546
+    },
+    "www.janedoe.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.546
+    },
+    "twitter.com/milez": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.533
+    },
+    "twitter.com/manuelkiessling": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.533
+    },
+    "medium.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.518
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.484
+    },
+    "de.slideshare.net": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.484
+    },
+    "www.mivesto.de": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.464
+    },
+    "twitter.com/hoffigk": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.442
+    },
+    "creativecommons.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.415
+    },
+    "manuel.kiessling.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.415
+    },
+    "www.hello-startup.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.415
+    },
+    "twitter.com/cwil": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.385
+    },
+    "twitter.com/larsenhh": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.385
+    },
+    "twitter.com/martin_grotzke": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.385
+    },
+    "twitter.com/quotedian": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.385
+    },
+    "www.joschmidt.net": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.385
+    },
+    "twitter.com/donzampano": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.385
+    },
+    "twitter.com/danoreowong": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.348
+    },
+    "twitter.com/stilkov": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.300
+    },
+    "twitter.com/Vektorgarten": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.300
+    },
+    "twitter.com/andyman3000": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "www.e-recht24.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/jayeff": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/GavinJa85415354": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "www.innoq.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.233
+    },
+    "tools.google.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/GLAM_PH": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/bnjmnbck": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "meyer-gellersen.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/niko_nava": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/Jeff_B_Cohen": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/muthunagu": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/lorenzocassulo": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/love_grimmgoth": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/HubertJanosik3": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/thetylerhayes": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/traecody": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/johnconnolly": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "www.digicol.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "benjiweber.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/jonnyboysucks1": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/JRTurner1234": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/teammood": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/timglabisch": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/dreadwarrior": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/Swoko": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/mluccone": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "www.vektorgarten.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/mfi82": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "twitter.com/soliver": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "inoio.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.116
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.116
+    }
+  }
+}

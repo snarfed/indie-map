@@ -1,0 +1,122 @@
+{
+  "domain": "andrewhazlett.withknown.com",
+  "urls": [
+    "https://andrewhazlett.withknown.com/profile/awhazlett",
+    "http://andrewhazlett.com",
+    "http://hackbaltimore.org",
+    "http://thenewmodern.net",
+    "http://baltimore.impacthub.net",
+    "http://scholarsandwritersagainsttrump.org"
+  ],
+  "names": [
+    "Andrew Hazlett",
+    "Hazlett's Occasional Reverberator"
+  ],
+  "descriptions": [
+    "Writer embedded with insurgent do-gooders in Baltimore | @GoucherCNFMFA @hackbmore @impacthubbalt | former @createbmore @gbtc @ntbmore @NEHgov @ManhattanInst",
+    "Maunderings and wanderings of Andrew Hazlett"
+  ],
+  "pictures": [
+    "https://andrewhazlett.withknown.com/file/ad72ef2b7427cf2594868cf2fcdf6b10"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Andrew Hazlett"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Writer embedded with insurgent do-gooders in Baltimore | @GoucherCNFMFA @hackbmore @impacthubbalt | former @createbmore @gbtc @ntbmore @NEHgov @ManhattanInst</p>\n</div> ",
+          "value": "\nWriter embedded with insurgent do-gooders in Baltimore | @GoucherCNFMFA @hackbmore @impacthubbalt | former @createbmore @gbtc @ntbmore @NEHgov @ManhattanInst\n "
+        }
+      ],
+      "photo": [
+        "https://andrewhazlett.withknown.com/file/ad72ef2b7427cf2594868cf2fcdf6b10"
+      ],
+      "profile": [
+        "Andrew Hazlett"
+      ],
+      "url": [
+        "https://andrewhazlett.withknown.com/profile/awhazlett",
+        "https://andrewhazlett.withknown.com/profile/awhazlett",
+        "http://andrewhazlett.com",
+        "http://hackbaltimore.org",
+        "http://thenewmodern.net",
+        "http://baltimore.impacthub.net",
+        "http://scholarsandwritersagainsttrump.org"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://andrewhazlett.com",
+    "http://hackbaltimore.org",
+    "http://thenewmodern.net",
+    "http://baltimore.impacthub.net",
+    "http://scholarsandwritersagainsttrump.org"
+  ],
+  "crawl_start": "2017-04-27T07:52:23",
+  "crawl_end": "2017-04-27T07:59:01",
+  "num_pages": 286,
+  "total_html_size": 7903182,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-event",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://andrewhazlett.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://andrewhazlett.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://andrewhazlett.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://andrewhazlett.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1650,
+  "links_in": 1,
+  "links": {
+    "thenewmodern.net": {
+      "out": {
+        "other": 132
+      },
+      "score": 0.886
+    },
+    "www.kevinmarks.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.459
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

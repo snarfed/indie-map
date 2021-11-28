@@ -1,0 +1,84 @@
+{
+  "domain": "maddesigns.de",
+  "urls": [
+    "http://maddesigns.de/"
+  ],
+  "names": [
+    "maddesigns | Moderne Webentwicklung mit HTML5 & CSS3 / Responsive Webdesign"
+  ],
+  "descriptions": [
+    "Native CSS Grid Layouts ohne Framework. Eine neue CSS Grid Layout Spezifikation gibt Webworkern nun die Möglichkeit eigene Grids zu definieren."
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T14:40:45",
+  "crawl_end": "2017-04-29T14:51:15",
+  "num_pages": 359,
+  "total_html_size": 8062082,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://maddesigns.de/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 2423,
+  "links_in": 37,
+  "links": {
+    "webdesign.weisshart.de": {
+      "in": {
+        "other": 26
+      },
+      "score": 0.499
+    },
+    "yatil.net": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.274
+    },
+    "timkadlec.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.213
+    },
+    "fettblog.eu": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.168
+    },
+    "www.webrocker.de": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.106
+    },
+    "adactio.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.106
+    },
+    "html5test.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.106
+    }
+  }
+}

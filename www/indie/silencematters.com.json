@@ -1,0 +1,152 @@
+{
+  "domain": "silencematters.com",
+  "urls": [
+    "http://silencematters.com/"
+  ],
+  "names": [
+    "Jeremy Zilar",
+    "silencematters"
+  ],
+  "descriptions": [
+    "Notes and Writings by Jeremy Zilar"
+  ],
+  "pictures": [
+    "http://silencematters.com/blog/wp-content/themes/silencematters/img/JeremyZilar2013.png",
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Jeremy Zilar"
+      ],
+      "photo": [
+        "http://silencematters.com/blog/wp-content/themes/silencematters/img/JeremyZilar2013.png"
+      ],
+      "url": [
+        "http://silencematters.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/jeremyzilar",
+    "http://jeremyzilar.com#work",
+    "http://silencematters.com",
+    "http://jeremyzilar.com#about",
+    "http://www.flickr.com/photos/silencematters/",
+    "http://www.facebook.com/jeremy.zilar",
+    "http://instagram.com/jeremyz"
+  ],
+  "crawl_start": "2017-04-25T09:36:48",
+  "crawl_end": "2017-04-25T09:58:23",
+  "num_pages": 331,
+  "total_html_size": 5245564,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://silencematters.com/blog/?webmention=endpoint"
+    ]
+  },
+  "links_out": 4057,
+  "links_in": 458,
+  "links": {
+    "indiewebcamp.com": {
+      "out": {
+        "other": 482
+      },
+      "score": 0.955
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 292
+      },
+      "score": 0.790
+    },
+    "adactio.com": {
+      "out": {
+        "other": 124
+      },
+      "score": 0.766
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 138
+      },
+      "score": 0.686
+    },
+    "werd.io": {
+      "out": {
+        "in-reply-to": 3
+      },
+      "score": 0.473
+    },
+    "scripting.com": {
+      "in": {
+        "other": 7
+      },
+      "out": {
+        "other": 5
+      },
+      "score": 0.394
+    },
+    "tiny.n9n.us": {
+      "in": {
+        "other": 6,
+        "favorite-of": 3
+      },
+      "score": 0.345
+    },
+    "epeus.blogspot.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.320
+    },
+    "kartikprabhu.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.249
+    },
+    "keplr.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.193
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0964
+    },
+    "tantek.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0964
+    },
+    "bear.im": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0964
+    }
+  }
+}

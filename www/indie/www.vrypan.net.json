@@ -1,0 +1,80 @@
+{
+  "domain": "www.vrypan.net",
+  "urls": [
+    "http://www.vrypan.net/"
+  ],
+  "names": [
+    "vrypan.net"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://www.vrypan.net/assets/img/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-26T10:52:43",
+  "crawl_end": "2017-05-07T06:40:11",
+  "num_pages": 507,
+  "total_html_size": 3947099,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-feed"
+  ],
+  "tags": [
+    "IRC"
+  ],
+  "endpoints": {},
+  "links_out": 3594,
+  "links_in": 1873,
+  "links": {
+    "blog.vrypan.net": {
+      "in": {
+        "other": 1850
+      },
+      "out": {
+        "other": 7
+      },
+      "score": 0.932
+    },
+    "vrypan.net": {
+      "out": {
+        "other": 109
+      },
+      "score": 0.666
+    },
+    "brid.gy": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.257
+    },
+    "werd.io": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.257
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.222
+    },
+    "tantek.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.172
+    },
+    "kylewm.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

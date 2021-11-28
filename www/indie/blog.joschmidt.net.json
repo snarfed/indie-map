@@ -1,0 +1,98 @@
+{
+  "domain": "blog.joschmidt.net",
+  "urls": [
+    "http://blog.joschmidt.net/"
+  ],
+  "names": [
+    "The blog of Johannes Schmidt about tech, data, product management, culture, and change",
+    "/"
+  ],
+  "descriptions": [
+    "A social website powered by Known about tech, data, product management, culture, and change"
+  ],
+  "pictures": [
+    "http://blog.joschmidt.net/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T02:15:50",
+  "crawl_end": "2017-04-28T02:20:27",
+  "num_pages": 187,
+  "total_html_size": 4536799,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://blog.joschmidt.net/webmention/"
+    ],
+    "micropub": [
+      "http://blog.joschmidt.net/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "http://blog.joschmidt.net/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1492,
+  "links_in": 8,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 196
+      },
+      "score": 1
+    },
+    "tinokremer.nl": {
+      "out": {
+        "other": 4,
+        "in-reply-to": 5
+      },
+      "score": 0.680
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.484
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.233
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.116
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.116
+    }
+  }
+}

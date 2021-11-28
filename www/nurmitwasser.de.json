@@ -1,0 +1,122 @@
+{
+  "domain": "nurmitwasser.de",
+  "urls": [
+    "http://nurmitwasser.de/"
+  ],
+  "names": [
+    "… nur mit Wasser – Der lange Weg zum guten Essen."
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T21:34:11",
+  "crawl_end": "2017-04-29T21:34:37",
+  "num_pages": 21,
+  "total_html_size": 484440,
+  "servers": [
+    "Apache (Debian)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://nurmitwasser.de/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://nurmitwasser.de/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 128,
+  "links_in": 12,
+  "links": {
+    "wordpress.org": {
+      "out": {
+        "other": 40
+      },
+      "score": 1
+    },
+    "www.elmastudio.de": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.842
+    },
+    "twitter.com/chri__stine": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.792
+    },
+    "twitter.com/nurmitwasser": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.792
+    },
+    "twitter.com/anneschuessler": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.632
+    },
+    "www.buurtaal.de": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.632
+    },
+    "www.instagram.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.632
+    },
+    "brid.gy": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.566
+    },
+    "wazong.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.525
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.525
+    },
+    "dentaku.wazong.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.158
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.158
+    }
+  }
+}

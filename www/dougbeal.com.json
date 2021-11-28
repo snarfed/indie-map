@@ -1,0 +1,217 @@
+{
+  "domain": "dougbeal.com",
+  "urls": [
+    "http://dougbeal.com/"
+  ],
+  "names": [
+    "My Blog – My WordPress Blog"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://1.gravatar.com/avatar/4aef6f46cd0c5c51bbf5c15d4e66b35e"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "mailto:auth@dougbeal.com",
+    "https://twitter.com/_dougbeal",
+    "https://github.com/dougbeal",
+    "https://plus.google.com/u/0/+DouglasBeal",
+    "https://twitter.com/murderofcrows",
+    "https://www.facebook.com/dougbeal.2357111317192329313741434753596167717379",
+    "https://www.instagram.com/murderofcro.ws",
+    "https://www.flickr.com/people/gritmonkey",
+    "http://micro.dougbeal.com",
+    "https://micro.blog/dougbeal"
+  ],
+  "crawl_start": "2017-05-13T05:13:46",
+  "crawl_end": "2017-05-13T05:14:58",
+  "num_pages": 132,
+  "total_html_size": 3870282,
+  "servers": [
+    "Apache",
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-as-note",
+    "h-geo",
+    "h-as-image",
+    "h-as-article",
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "IWS2017",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://dougbeal.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://dougbeal.com/?micropub=endpoint",
+      "http://dougbeal.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 2340,
+  "links_in": 18,
+  "links": {
+    "www.instagram.com": {
+      "out": {
+        "other": 784
+      },
+      "score": 1
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 260
+      },
+      "score": 0.849
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 128
+      },
+      "score": 0.754
+    },
+    "notiz.blog": {
+      "out": {
+        "other": 128
+      },
+      "score": 0.754
+    },
+    "twitter.com/murderofcrows": {
+      "out": {
+        "other": 128
+      },
+      "score": 0.754
+    },
+    "plus.google.com/u": {
+      "out": {
+        "other": 128
+      },
+      "score": 0.754
+    },
+    "facebook.com/dougbeal.2357111317192329313741434753596167717379": {
+      "out": {
+        "other": 128
+      },
+      "score": 0.754
+    },
+    "micro.blog": {
+      "out": {
+        "other": 128
+      },
+      "score": 0.754
+    },
+    "micro.dougbeal.com": {
+      "out": {
+        "other": 128
+      },
+      "score": 0.754
+    },
+    "github.com": {
+      "out": {
+        "other": 128
+      },
+      "score": 0.754
+    },
+    "srikanthperinkulam.com": {
+      "out": {
+        "other": 68
+      },
+      "score": 0.667
+    },
+    "stream.boffosocko.com": {
+      "out": {
+        "other": 68
+      },
+      "score": 0.667
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 60
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.655
+    },
+    "2017.indieweb.org": {
+      "out": {
+        "in-reply-to": 12
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.654
+    },
+    "www.leoville.net": {
+      "out": {
+        "like-of": 12
+      },
+      "in": {
+        "other": 8
+      },
+      "score": 0.548
+    },
+    "anomalily.net": {
+      "out": {
+        "like-of": 12
+      },
+      "score": 0.526
+    },
+    "martymcgui.re": {
+      "out": {
+        "like-of": 12
+      },
+      "score": 0.526
+    },
+    "aaronparecki.com": {
+      "out": {
+        "like-of": 12
+      },
+      "score": 0.526
+    },
+    "www.openstreetmap.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.452
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.189
+    },
+    "ownyourgram.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0942
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

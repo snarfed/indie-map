@@ -1,0 +1,118 @@
+{
+  "domain": "altabor.org",
+  "urls": [
+    "http://altabor.org/"
+  ],
+  "names": [
+    "altabor.org | Al Tabor's Home on the Web"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/atabor",
+    "https://www.facebook.com/alan.tabor",
+    "https://google.com/+AlanTabor",
+    "https://github.com/atabor"
+  ],
+  "crawl_start": "2017-06-09T17:33:25",
+  "crawl_end": "2017-06-09T17:33:32",
+  "num_pages": 8,
+  "total_html_size": 79176,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-article",
+    "h-entry",
+    "h-feed",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 68,
+  "links_in": 3,
+  "links": {
+    "wordpress.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 1
+    },
+    "twitter.com/atabor": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.745
+    },
+    "google.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.745
+    },
+    "darwinianinterlude.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.745
+    },
+    "medium.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.745
+    },
+    "notizblog.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.745
+    },
+    "www.outinunder.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.745
+    },
+    "www.slingfin.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.745
+    },
+    "github.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.745
+    },
+    "facebook.com/alan.tabor": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.745
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.208
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

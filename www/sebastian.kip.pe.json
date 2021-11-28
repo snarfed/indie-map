@@ -1,0 +1,158 @@
+{
+  "domain": "sebastian.kip.pe",
+  "urls": [
+    "https://updates.kip.pe",
+    "https://twitter.com/skddc",
+    "https://github.com/skddc",
+    "https://www.flickr.com/photos/sebastiankippe/",
+    "https://www.facebook.com/sebastiankippe",
+    "https://www.xing.com/profile/Sebastian_Kippe"
+  ],
+  "names": [
+    "Sebastian Kippe"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {
+    "properties": {
+      "email": [
+        "sebastian@kip.pe"
+      ],
+      "impp": [
+        "sebastian@kip.pe"
+      ],
+      "key": [
+        "https://sebastian.kip.pe/pgp.asc"
+      ],
+      "name": [
+        "Sebastian Kippe"
+      ],
+      "url": [
+        "https://updates.kip.pe",
+        "https://twitter.com/skddc",
+        "https://github.com/skddc",
+        "https://www.flickr.com/photos/sebastiankippe/",
+        "https://www.facebook.com/sebastiankippe",
+        "https://www.xing.com/profile/Sebastian_Kippe"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "ni:///sha-256;JBfokbHRs9cEB8xHixpp6Vezs_9vYpnY5rPhYXrzCfw?ct=application/x-x509-user-cert",
+    "https://updates.kip.pe",
+    "https://twitter.com/skddc",
+    "https://github.com/skddc",
+    "https://www.flickr.com/photos/sebastiankippe/",
+    "https://www.facebook.com/sebastiankippe",
+    "https://www.xing.com/profile/Sebastian_Kippe",
+    "https://lanyrd.com/profile/skddc/"
+  ],
+  "crawl_start": "2017-04-25T08:35:40",
+  "crawl_end": "2017-04-25T08:35:40",
+  "num_pages": 1,
+  "total_html_size": 10391,
+  "servers": [
+    "openresty"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "elder",
+    "IRC",
+    "IWS2017",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "authorization": [
+      "https://indiecert.net/auth"
+    ],
+    "token": [
+      "https://indiecert.net/token"
+    ]
+  },
+  "links_out": 8,
+  "links_in": 1708,
+  "links": {
+    "updates.kip.pe": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 700
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 636
+      },
+      "score": 0.986
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 361
+      },
+      "score": 0.899
+    },
+    "hroy.eu": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.318
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.168
+    },
+    "github.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.106
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.106
+    },
+    "kip.pe": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.106
+    },
+    "www.xing.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.106
+    },
+    "twitter.com/skddc": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.106
+    },
+    "lanyrd.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.106
+    },
+    "facebook.com/sebastiankippe": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.106
+    }
+  }
+}

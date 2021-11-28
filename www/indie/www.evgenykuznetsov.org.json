@@ -1,0 +1,125 @@
+{
+  "domain": "www.evgenykuznetsov.org",
+  "urls": [
+    "http://www.evgenykuznetsov.org/profile/nekr0z",
+    "https://plus.google.com/101429873540479442683",
+    "https://www.facebook.com/evgkuz",
+    "https://twitter.com/nekr0z",
+    "https://github.com/nekr0z"
+  ],
+  "names": [
+    "Evgeny Kuznetsov",
+    "DIMV"
+  ],
+  "descriptions": [
+    "…daß ihr mir vertraut."
+  ],
+  "pictures": [
+    "http://www.evgenykuznetsov.org/file/753875376ee13fe18a45cc913928446d/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:evgeny@kuznetsov.md"
+      ],
+      "name": [
+        "Evgeny Kuznetsov"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "http://www.evgenykuznetsov.org/file/753875376ee13fe18a45cc913928446d/thumb.jpg"
+      ],
+      "profile": [
+        "Evgeny Kuznetsov"
+      ],
+      "url": [
+        "http://www.evgenykuznetsov.org/profile/nekr0z",
+        "http://www.evgenykuznetsov.org/profile/nekr0z",
+        "https://plus.google.com/101429873540479442683",
+        "https://www.facebook.com/evgkuz",
+        "https://twitter.com/nekr0z",
+        "https://github.com/nekr0z"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://plus.google.com/101429873540479442683",
+    "https://www.facebook.com/evgkuz",
+    "https://twitter.com/nekr0z",
+    "https://github.com/nekr0z",
+    "mailto:evgeny@kuznetsov.md"
+  ],
+  "crawl_start": "2017-04-30T06:17:42",
+  "crawl_end": "2017-04-30T07:03:13",
+  "num_pages": 3486,
+  "total_html_size": 81845867,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.evgenykuznetsov.org/webmention/",
+      "http://www.evgenykuznetsov.org/webmention/"
+    ],
+    "micropub": [
+      "https://www.evgenykuznetsov.org/micropub/endpoint",
+      "http://www.evgenykuznetsov.org/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://www.evgenykuznetsov.org/indieauth/auth",
+      "https://www.evgenykuznetsov.org/indieauth/auth"
+    ],
+    "token": [
+      "http://www.evgenykuznetsov.org/indieauth/token",
+      "https://www.evgenykuznetsov.org/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 33016,
+  "links_in": 27,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 24
+      },
+      "score": 0.327
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0713
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

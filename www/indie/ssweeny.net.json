@@ -1,0 +1,94 @@
+{
+  "domain": "ssweeny.net",
+  "urls": [
+    "https://ssweeny.net"
+  ],
+  "names": [
+    "ssweeny.net – Mental Meanderings",
+    "ssweeny.net"
+  ],
+  "descriptions": [
+    "Scott Sweeny\\'s vanity site/blog"
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/ssweeny",
+    "https://twitter.com/ssweeny",
+    "http://www.flickr.com/people/coebabelghoti/",
+    "https://plus.google.com/+ScottSweeny",
+    "https://www.linkedin.com/in/scott-sweeny/",
+    "https://media.ssweeny.net/u/ssweeny/",
+    "https://pumpbuddy.us/ssweeny",
+    "https://status.ssweeny.net/ssweeny"
+  ],
+  "crawl_start": "2017-04-30T02:20:30",
+  "crawl_end": "2017-04-30T02:34:25",
+  "num_pages": 1176,
+  "total_html_size": 32704733,
+  "servers": [
+    "lighttpd",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-article",
+    "h-as-note",
+    "h-card",
+    "h-as-mention",
+    "h-feed",
+    "h-as-reply",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://ssweeny.net/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://ssweeny.net/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 52129,
+  "links_in": 8,
+  "links": {
+    "www.kryogenix.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.301
+    },
+    "brid.gy": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.162
+    },
+    "werd.io": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0696
+    },
+    "loadaverage.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "domain": "scottgruber.me",
+  "urls": [
+    "https://scottgruber.me/"
+  ],
+  "names": [
+    "Home | scottgruber.me",
+    "Hello from Scott Gruber"
+  ],
+  "descriptions": [
+    "Welcome to Scott Gruber's Website",
+    "This is the personal website of Scott Gruber. The site follows the POSSE style to publish once and syndicate to many sites."
+  ],
+  "pictures": [
+    "https://scottgruber.me/assets/img/favicon.ico",
+    "https://scottgruber.me/perch/resources/images/scottgruber-3-w1200.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://instagram.com/guyniche",
+    "https://twitter.com/scott_gruber",
+    "http://codepen.io/scottgruber/",
+    "https://github.com/scottgruber"
+  ],
+  "crawl_start": "2017-04-30T02:12:29",
+  "crawl_end": "2017-04-30T02:12:45",
+  "num_pages": 44,
+  "total_html_size": 776773,
+  "servers": [
+    "Apache (Ubuntu)"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/scottgruber.me/webmention"
+    ],
+    "micropub": [
+      "https://scottgruber.me/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 308,
+  "links_in": 122,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 66
+      },
+      "score": 0.884
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 26
+      },
+      "score": 0.688
+    },
+    "2016.indieweb.org": {
+      "out": {
+        "in-reply-to": 1
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.540
+    },
+    "brid.gy": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.378
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.378
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.340
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.340
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.146
+    },
+    "werd.io": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.146
+    },
+    "adactio.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "example.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.146
+    },
+    "www.aaron-gustafson.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

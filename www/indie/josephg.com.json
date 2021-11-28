@@ -1,0 +1,80 @@
+{
+  "domain": "josephg.com",
+  "urls": [
+    "http://josephg.com/blog/"
+  ],
+  "names": [
+    "Seph"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://josephg.com/blog/favicon.ico",
+    "/content/images/2014/Jul/Screen-Shot-2014-07-27-at-1-51-10-pm-1.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-24T08:17:32",
+  "crawl_end": "2017-04-24T08:21:08",
+  "num_pages": 80,
+  "total_html_size": 699111,
+  "servers": [
+    "nginx (Ubuntu)",
+    "Ghost"
+  ],
+  "tags": [
+    "IRC"
+  ],
+  "endpoints": {},
+  "links_out": 297,
+  "links_in": 850,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 555
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 273
+      },
+      "score": 0.888
+    },
+    "jothut.com": {
+      "in": {
+        "other": 15
+      },
+      "score": 0.429
+    },
+    "unicyclic.com": {
+      "in": {
+        "repost-of": 2
+      },
+      "score": 0.283
+    },
+    "cleverdevil.io": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.255
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "tantek.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    },
+    "c2.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.110
+    }
+  }
+}

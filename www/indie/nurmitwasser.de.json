@@ -1,0 +1,62 @@
+{
+  "domain": "nurmitwasser.de",
+  "urls": [
+    "http://nurmitwasser.de/"
+  ],
+  "names": [
+    "… nur mit Wasser – Der lange Weg zum guten Essen."
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T21:34:11",
+  "crawl_end": "2017-04-29T21:34:37",
+  "num_pages": 21,
+  "total_html_size": 484440,
+  "servers": [
+    "Apache (Debian)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://nurmitwasser.de/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://nurmitwasser.de/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 128,
+  "links_in": 12,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.566
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.158
+    }
+  }
+}

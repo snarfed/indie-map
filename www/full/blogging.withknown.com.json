@@ -1,0 +1,78 @@
+{
+  "domain": "blogging.withknown.com",
+  "urls": [
+    "http://blogging.withknown.com/"
+  ],
+  "names": [
+    "Scaldinilog"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://blogging.withknown.com/gfx/users/default-02.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T02:16:02",
+  "crawl_end": "2017-04-28T02:16:39",
+  "num_pages": 68,
+  "total_html_size": 1922869,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://blogging.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 40,
+  "links_in": 0,
+  "links": {
+    "hypothes.is": {
+      "out": {
+        "other": 17
+      },
+      "score": 1
+    },
+    "edu106.networkedlearningcollaborative.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.819
+    },
+    "twitter.com/jgmac1106": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.703
+    },
+    "quickthoughts.jgregorymcverry.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.589
+    },
+    "amandahasiotis.blogspot.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.589
+    }
+  }
+}

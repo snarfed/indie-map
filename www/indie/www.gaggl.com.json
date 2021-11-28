@@ -1,0 +1,61 @@
+{
+  "domain": "www.gaggl.com",
+  "urls": [
+    "https://www.gaggl.com/"
+  ],
+  "names": [
+    "digital nomad"
+  ],
+  "descriptions": [
+    "Since Synology (despite requests) still has not added DNS Made Easy as a listed provider (despite listing some really obscure services - go figure!) here is the",
+    "so many ideas - so little time ..."
+  ],
+  "pictures": [
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://plus.google.com/https://plus.google.com/101636881032878340378/"
+  ],
+  "crawl_start": "2017-04-30T06:24:35",
+  "crawl_end": "2017-04-30T06:33:17",
+  "num_pages": 567,
+  "total_html_size": 20375326,
+  "servers": [
+    "Apache (Ubuntu)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-mention",
+    "h-entry",
+    "h-feed",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.gaggl.com/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 6158,
+  "links_in": 21,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 21
+      },
+      "score": 0.386
+    },
+    "www.downes.ca": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.335
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "domain": "notes.adamcroom.com",
+  "urls": [
+    "http://notes.adamcroom.com/profile/acroom",
+    "http://www.adamcroom.com",
+    "http://www.twitter.com/acroom",
+    "http://www.github.com/adamcroom"
+  ],
+  "names": [
+    "Adam Croom",
+    "Adam's Notebook"
+  ],
+  "descriptions": [
+    "I write at adamcroom.com. I write notes at notes.adamcroom.com",
+    "Notes from Adam"
+  ],
+  "pictures": [
+    "http://notes.adamcroom.com/file/dc315ead7dd2092da5ebb689629d1e29/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Adam Croom"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I write at adamcroom.com. I write notes at notes.adamcroom.com</p>\n</div>",
+          "value": "\nI write at adamcroom.com. I write notes at notes.adamcroom.com\n"
+        }
+      ],
+      "photo": [
+        "http://notes.adamcroom.com/file/dc315ead7dd2092da5ebb689629d1e29/thumb.jpg"
+      ],
+      "profile": [
+        "Adam Croom"
+      ],
+      "url": [
+        "http://notes.adamcroom.com/profile/acroom",
+        "http://notes.adamcroom.com/profile/acroom",
+        "http://www.adamcroom.com",
+        "http://www.twitter.com/acroom",
+        "http://www.github.com/adamcroom"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.adamcroom.com",
+    "http://www.twitter.com/acroom",
+    "http://www.github.com/adamcroom"
+  ],
+  "crawl_start": "2017-04-29T21:32:53",
+  "crawl_end": "2017-04-29T21:37:07",
+  "num_pages": 322,
+  "total_html_size": 8877976,
+  "servers": [
+    "Apache (Unix) mod_ssl OpenSSLe-fips Phusion_Passenger mod_bwlimited",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://notes.adamcroom.com/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 3654,
+  "links_in": 68,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 331
+      },
+      "score": 0.967
+    },
+    "klown.cogdogblog.com": {
+      "out": {
+        "other": 12
+      },
+      "in": {
+        "in-reply-to": 23
+      },
+      "score": 0.734
+    },
+    "known.networkeffects.ca": {
+      "out": {
+        "other": 11
+      },
+      "in": {
+        "in-reply-to": 9,
+        "other": 10
+      },
+      "score": 0.646
+    },
+    "blog.jonudell.net": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.516
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.496
+    },
+    "hapgood.us": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.473
+    },
+    "wiobyrne.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.473
+    },
+    "werd.io": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.446
+    },
+    "scripting.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.446
+    },
+    "reclaimhosting.com": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "other": 9
+      },
+      "score": 0.438
+    },
+    "www.downes.ca": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.430
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.430
+    },
+    "known.jimgroom.com": {
+      "in": {
+        "other": 15
+      },
+      "score": 0.403
+    },
+    "cog.dog": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.369
+    },
+    "cogdogblog.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.342
+    },
+    "blog.kenbauer.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.207
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.103
+    }
+  }
+}

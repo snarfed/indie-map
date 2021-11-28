@@ -1,0 +1,122 @@
+{
+  "domain": "stream.fraser.yt",
+  "urls": [
+    "http://stream.fraser.yt/profile/fraseryt",
+    "http://blog.fraser.yt",
+    "http://twitter.com/fraserYT",
+    "http://facebook.com/fraserYT",
+    "http://fraser.yt"
+  ],
+  "names": [
+    "Fraser",
+    "fraser.yt",
+    "Random Things"
+  ],
+  "descriptions": [
+    "Me",
+    "Pound-Shop Polymath. Congenial contrarian. Optimistically nihilistic"
+  ],
+  "pictures": [
+    "http://stream.fraser.yt/file/828b71faf75697894c706b08e1433a86/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Fraser"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Me</p>\n</div>",
+          "value": "\nMe\n"
+        }
+      ],
+      "photo": [
+        "http://stream.fraser.yt/file/828b71faf75697894c706b08e1433a86/thumb.jpg"
+      ],
+      "profile": [
+        "Fraser"
+      ],
+      "url": [
+        "http://stream.fraser.yt/profile/fraseryt",
+        "http://stream.fraser.yt/profile/fraseryt",
+        "http://blog.fraser.yt",
+        "http://twitter.com/fraserYT",
+        "http://facebook.com/fraserYT",
+        "http://fraser.yt"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://blog.fraser.yt",
+    "http://twitter.com/fraserYT",
+    "http://facebook.com/fraserYT",
+    "http://fraser.yt"
+  ],
+  "crawl_start": "2017-04-30T02:22:27",
+  "crawl_end": "2017-04-30T02:30:22",
+  "num_pages": 419,
+  "total_html_size": 11268335,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://stream.fraser.yt/webmention/"
+    ],
+    "micropub": [
+      "http://stream.fraser.yt/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://stream.fraser.yt/indieauth/auth"
+    ],
+    "token": [
+      "http://stream.fraser.yt/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 3666,
+  "links_in": 12,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 419
+      },
+      "score": 0.914
+    },
+    "fraser.yt": {
+      "out": {
+        "other": 166
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.789
+    },
+    "brid.gy": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.326
+    }
+  }
+}

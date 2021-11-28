@@ -1,0 +1,78 @@
+{
+  "domain": "todrobbins.com",
+  "urls": [
+    "http://todrobbins.com/"
+  ],
+  "names": [
+    "I am Tod Robbins"
+  ],
+  "descriptions": [
+    "Tod Robbins is a hacker, librarian, designer, musician and a human."
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/todrobbins",
+    "https://github.com/todrobbins",
+    "https://openlibrary.org/people/tdamcbigity",
+    "http://soundcloud.com/todgobblins"
+  ],
+  "crawl_start": "2017-04-30T02:55:24",
+  "crawl_end": "2017-04-30T02:55:24",
+  "num_pages": 1,
+  "total_html_size": 3534,
+  "servers": [
+    "GitHub.com"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/todrobbins.com/webmention"
+    ]
+  },
+  "links_out": 4,
+  "links_in": 55,
+  "links": {
+    "huffduffer.com": {
+      "in": {
+        "other": 28
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.793
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.538
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.330
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.208
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.208
+    }
+  }
+}

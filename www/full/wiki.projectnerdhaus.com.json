@@ -1,0 +1,68 @@
+{
+  "domain": "wiki.projectnerdhaus.com",
+  "urls": [
+    "http://wiki.projectnerdhaus.com/"
+  ],
+  "names": [
+    "Nerdhaus"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://wiki.projectnerdhaus.com/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-05-06T02:01:09",
+  "crawl_end": "2017-05-06T04:37:46",
+  "num_pages": 734,
+  "total_html_size": 11410627,
+  "servers": [
+    "Apache",
+    "MediaWiki"
+  ],
+  "tags": [
+    "webmention.io"
+  ],
+  "endpoints": {},
+  "links_out": 1762,
+  "links_in": 52,
+  "links": {
+    "www.mediawiki.org": {
+      "out": {
+        "other": 1757
+      },
+      "score": 1
+    },
+    "aaronparecki.com": {
+      "in": {
+        "bookmark-of": 21,
+        "other": 26
+      },
+      "score": 0.517
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.255
+    },
+    "2012.aaronparecki.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.170
+    },
+    "en.wiktionary.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0849
+    },
+    "cyborganthropology.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

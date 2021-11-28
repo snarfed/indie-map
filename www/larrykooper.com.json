@@ -1,0 +1,149 @@
+{
+  "domain": "larrykooper.com",
+  "urls": [
+    "http://larrykooper.com/"
+  ],
+  "names": [
+    "larrykooper.com"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/larrykooper",
+    "https://github.com/larrykooper",
+    "https://plus.google.com/+LarryKooper",
+    "https://www.facebook.com/larry.kooper.9",
+    "https://www.linkedin.com/in/larrykooper",
+    "http://www.last.fm/user/stormville",
+    "https://www.flickr.com/photos/51767260@N00/",
+    "https://foursquare.com/larrykooper"
+  ],
+  "crawl_start": "2017-04-29T14:38:36",
+  "crawl_end": "2017-04-29T14:42:00",
+  "num_pages": 107,
+  "total_html_size": 2267186,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://larrykooper.com/?webmention=endpoint"
+    ],
+    "micropub": [
+      "http://larrykooper.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 1170,
+  "links_in": 18,
+  "links": {
+    "wordpress.org": {
+      "out": {
+        "other": 212
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "out": {
+        "other": 105
+      },
+      "score": 0.889
+    },
+    "facebook.com/larry.kooper.9": {
+      "out": {
+        "other": 105
+      },
+      "score": 0.884
+    },
+    "www.last.fm": {
+      "out": {
+        "other": 105
+      },
+      "score": 0.884
+    },
+    "foursquare.com": {
+      "out": {
+        "other": 105
+      },
+      "score": 0.884
+    },
+    "github.com": {
+      "out": {
+        "other": 105
+      },
+      "score": 0.884
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 105
+      },
+      "score": 0.884
+    },
+    "twitter.com/larrykooper": {
+      "out": {
+        "other": 105
+      },
+      "score": 0.884
+    },
+    "plus.google.com/+LarryKooper": {
+      "out": {
+        "other": 105
+      },
+      "score": 0.884
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 105
+      },
+      "score": 0.884
+    },
+    "swreflections.blogspot.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.436
+    },
+    "theweek.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.410
+    },
+    "brid.gy": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.397
+    },
+    "martymcgui.re": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

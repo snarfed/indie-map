@@ -1,0 +1,90 @@
+{
+  "domain": "m0binaute.withknown.com",
+  "urls": [
+    "https://m0binaute.withknown.com/profile/m0binaute",
+    "https://twitter.com/m0binaute"
+  ],
+  "names": [
+    "Mobinaute",
+    "Mes aventures sur le net"
+  ],
+  "descriptions": [
+    "Un passionné de nouvelles technologies, veille, mobilité, thd. Paris",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://m0binaute.withknown.com/gfx/users/default-03.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Mobinaute"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Un passionné de nouvelles technologies, veille, mobilité, thd. Paris</p>\n</div>",
+          "value": "\nUn passionné de nouvelles technologies, veille, mobilité, thd. Paris\n"
+        }
+      ],
+      "photo": [
+        "https://m0binaute.withknown.com/gfx/users/default-03.png"
+      ],
+      "profile": [
+        "Mobinaute"
+      ],
+      "url": [
+        "https://m0binaute.withknown.com/profile/m0binaute",
+        "https://m0binaute.withknown.com/profile/m0binaute",
+        "https://twitter.com/m0binaute"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/m0binaute"
+  ],
+  "crawl_start": "2017-04-29T14:39:45",
+  "crawl_end": "2017-04-29T14:40:19",
+  "num_pages": 23,
+  "total_html_size": 441679,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://m0binaute.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://m0binaute.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://m0binaute.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://m0binaute.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 40,
+  "links_in": 0,
+  "links": {}
+}

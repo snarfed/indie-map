@@ -1,0 +1,149 @@
+{
+  "domain": "jenniferenglund.net",
+  "urls": [
+    "http://jenniferenglund.net/"
+  ],
+  "names": [
+    "Jennifer Englund"
+  ],
+  "descriptions": [
+    "Visit the post for more."
+  ],
+  "pictures": [
+    "http://jenniferenglund.net/wp-content/uploads/2016/10/cropped-monogram-32x32.png",
+    "http://jenniferenglund.net/wp-content/uploads/2016/10/cropped-monogram-192x192.png",
+    "http://jenniferenglund.net/wp-content/uploads/2014/08/14870031321_a5a34a7afa_o-1.jpg",
+    "https://i0.wp.com/jenniferenglund.net/wp-content/uploads/2014/08/14870031321_a5a34a7afa_o-1.jpg",
+    "http://jenniferenglund.net/wp-content/uploads/2014/08/14870031321_a5a34a7afa_o-1.jpg?w=1400"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T23:36:58",
+  "crawl_end": "2017-04-28T23:57:16",
+  "num_pages": 86,
+  "total_html_size": 3410605,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "micropub": [
+      "http://jenniferenglund.net/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 1670,
+  "links_in": 37,
+  "links": {
+    "indiewebcamp.com": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.752
+    },
+    "known.jenniferenglund.net": {
+      "in": {
+        "other": 24
+      },
+      "score": 0.503
+    },
+    "darcynorman.net": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.457
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 6
+      },
+      "score": 0.418
+    },
+    "johnjohnston.info": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.392
+    },
+    "cogdogblog.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.392
+    },
+    "reclaimhosting.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.392
+    },
+    "indiewebify.me": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.329
+    },
+    "halfanhour.blogspot.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.329
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.329
+    },
+    "blog.mahabali.me": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.283
+    },
+    "brid.gy": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.255
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.174
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.110
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

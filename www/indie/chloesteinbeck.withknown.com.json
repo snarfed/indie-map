@@ -1,0 +1,109 @@
+{
+  "domain": "chloesteinbeck.withknown.com",
+  "urls": [
+    "https://chloesteinbeck.withknown.com/profile/chloe",
+    "http://twitter.com/chloesteinbeck",
+    "https://www.facebook.com/chloe.steinbeck.9"
+  ],
+  "names": [
+    "Chloe Steinbeck"
+  ],
+  "descriptions": [
+    "I'm a journalism student, I love writing, and I play lacrosse.\nCharlotte, North Carolina\n \n twitter.com/chloesteinbeck\n\n\n www.facebook.com/chloe.steinbeck.9",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://chloesteinbeck.withknown.com/file/0ce0d8de858f8f074c67b8e6f842f595/thumb.jpg",
+    "https://chloesteinbeck.withknown.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Chloe Steinbeck"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\"><p>I'm a journalism student, I love writing, and I play lacrosse.</p>\n<p><strong>Charlotte, North Carolina</strong></p>\n</div> <p class=\"url-container\">\n<i class=\"fa fa-twitter\"></i> <a class=\"u-url\" href=\"http://twitter.com/chloesteinbeck\" rel=\"me\">twitter.com/chloesteinbeck</a>\n</p>\n<p class=\"url-container\">\n<i class=\"fa fa-facebook\"></i> <a class=\"u-url\" href=\"https://www.facebook.com/chloe.steinbeck.9\" rel=\"me\">www.facebook.com/chloe.steinbeck.9</a>\n</p>\n",
+          "value": "I'm a journalism student, I love writing, and I play lacrosse.\nCharlotte, North Carolina\n \n twitter.com/chloesteinbeck\n\n\n www.facebook.com/chloe.steinbeck.9\n\n"
+        }
+      ],
+      "photo": [
+        "https://chloesteinbeck.withknown.com/file/0ce0d8de858f8f074c67b8e6f842f595/thumb.jpg"
+      ],
+      "profile": [
+        "Chloe Steinbeck"
+      ],
+      "url": [
+        "https://chloesteinbeck.withknown.com/profile/chloe",
+        "https://chloesteinbeck.withknown.com/profile/chloe",
+        "http://twitter.com/chloesteinbeck",
+        "https://www.facebook.com/chloe.steinbeck.9"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/chloesteinbeck",
+    "https://www.facebook.com/chloe.steinbeck.9"
+  ],
+  "crawl_start": "2017-04-28T05:16:18",
+  "crawl_end": "2017-04-28T05:17:55",
+  "num_pages": 139,
+  "total_html_size": 3276106,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://chloesteinbeck.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1591,
+  "links_in": 74,
+  "links": {
+    "werd.io": {
+      "in": {
+        "in-reply-to": 60
+      },
+      "out": {
+        "other": 22
+      },
+      "score": 1
+    },
+    "withknown.com": {
+      "out": {
+        "other": 139
+      },
+      "score": 0.964
+    },
+    "brid.gy": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.452
+    },
+    "cleoandcassia.withknown.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.238
+    }
+  }
+}

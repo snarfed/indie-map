@@ -1,0 +1,104 @@
+{
+  "domain": "www.alohastone.com",
+  "urls": [
+    "http://www.alohastone.com/",
+    "http://www.alohastone.com"
+  ],
+  "names": [
+    "aloha WEBLOG - spreading the aloha spirit",
+    "aloha WEBLOG"
+  ],
+  "descriptions": [
+    "Ein Blog aus Liebe zur Musik. Mixtapes, Musikvideos, Soundcloud-Tracks, Downloads, Albumtips, und News - von Reggae bis Hip-Hop.",
+    "spreading the aloha spirit"
+  ],
+  "pictures": [
+    "http://www.alohastone.com/wp-content/uploads/FB-Standard.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-05-06T02:05:32",
+  "crawl_end": "2017-05-06T03:33:42",
+  "num_pages": 7395,
+  "total_html_size": 450304969,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-as-page",
+    "h-as-audio",
+    "h-card",
+    "h-as-video",
+    "h-entry",
+    "h-as-article"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.alohastone.com/?webmention=endpoint",
+      "http://www.alohastone.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 181957,
+  "links_in": 44,
+  "links": {
+    "notizblog.org": {
+      "out": {
+        "other": 7398
+      },
+      "score": 0.807
+    },
+    "www.nerdcore.de": {
+      "in": {
+        "other": 35
+      },
+      "out": {
+        "other": 788
+      },
+      "score": 0.620
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 343
+      },
+      "score": 0.550
+    },
+    "wirres.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.175
+    },
+    "pixelroiber.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.117
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.0924
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0582
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "domain": "kylewm.withknown.com",
+  "urls": [
+    "https://kylewm.withknown.com/profile/kylewm",
+    "https://kylewm.com",
+    "https://twitter.com/kylewm2",
+    "https://github.com/kylewm"
+  ],
+  "names": [
+    "Kyle Mahan",
+    "Kyle Mahan's Known"
+  ],
+  "descriptions": [
+    "kylewm.com\n\n\n twitter.com/kylewm2\n\n\n github.com/kylewm\n\n\n kyle@kylewm.com",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://kylewm.withknown.com/gfx/users/default-03.png"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:kyle@kylewm.com",
+        "mailto:kyle@kylewm.com"
+      ],
+      "name": [
+        "Kyle Mahan"
+      ],
+      "note": [
+        {
+          "html": " <p class=\"url-container\">\n<i class=\"fa fa-link\"></i> <a class=\"u-url\" href=\"https://kylewm.com\" rel=\"me\">kylewm.com</a>\n</p>\n<p class=\"url-container\">\n<i class=\"fa fa-twitter\"></i> <a class=\"u-url\" href=\"https://twitter.com/kylewm2\" rel=\"me\">twitter.com/kylewm2</a>\n</p>\n<p class=\"url-container\">\n<i class=\"fa fa-github-square\"></i> <a class=\"u-url\" href=\"https://github.com/kylewm\" rel=\"me\">github.com/kylewm</a>\n</p>\n<p class=\"url-container\">\n<i class=\"fa fa-envelope-o\"></i> <a class=\"u-email\" href=\"mailto:kyle@kylewm.com\" rel=\"me\">kyle@kylewm.com</a>\n</p>\n",
+          "value": " \n kylewm.com\n\n\n twitter.com/kylewm2\n\n\n github.com/kylewm\n\n\n kyle@kylewm.com\n\n"
+        }
+      ],
+      "photo": [
+        "https://kylewm.withknown.com/gfx/users/default-03.png"
+      ],
+      "profile": [
+        "Kyle Mahan"
+      ],
+      "url": [
+        "https://kylewm.withknown.com/profile/kylewm",
+        "https://kylewm.withknown.com/profile/kylewm",
+        "https://kylewm.com",
+        "https://twitter.com/kylewm2",
+        "https://github.com/kylewm"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://kylewm.com",
+    "https://twitter.com/kylewm2",
+    "https://github.com/kylewm",
+    "mailto:kyle@kylewm.com"
+  ],
+  "crawl_start": "2017-04-29T14:38:38",
+  "crawl_end": "2017-04-29T14:42:18",
+  "num_pages": 128,
+  "total_html_size": 2787707,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-event"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://kylewm.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://kylewm.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://kylewm.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://kylewm.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 751,
+  "links_in": 127,
+  "links": {
+    "kylewm.com": {
+      "in": {
+        "other": 5,
+        "in-reply-to": 4
+      },
+      "out": {
+        "other": 289,
+        "in-reply-to": 20
+      },
+      "score": 1
+    },
+    "withknown.com": {
+      "out": {
+        "other": 128
+      },
+      "score": 0.830
+    },
+    "known.kylewm.com": {
+      "in": {
+        "in-reply-to": 21,
+        "other": 17
+      },
+      "score": 0.717
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 16,
+        "in-reply-to": 16
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.694
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.578
+    },
+    "indiewebcat.com": {
+      "in": {
+        "in-reply-to": 7
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.562
+    },
+    "tantek.com": {
+      "in": {
+        "other": 1,
+        "in-reply-to": 1
+      },
+      "out": {
+        "other": 16
+      },
+      "score": 0.544
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "in-reply-to": 5
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.523
+    },
+    "known.npdoty.name": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "in-reply-to": 3
+      },
+      "score": 0.469
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 20
+      },
+      "score": 0.448
+    },
+    "david.shanske.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.359
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.311
+    }
+  }
+}

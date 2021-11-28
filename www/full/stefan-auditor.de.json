@@ -1,0 +1,118 @@
+{
+  "domain": "stefan-auditor.de",
+  "urls": [
+    "http://stefan-auditor.de/"
+  ],
+  "names": [
+    "stefan-auditor.de"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://stefan-auditor.de/misc/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://www.facebook.com/stefan.auditor",
+    "https://www.flickr.com/people/sanduhrs",
+    "https://github.com/sanduhrs",
+    "https://twitter.com/sanduhrs",
+    "mailto:stefan.auditor@erdfisch.de",
+    "sms:+4917618181301"
+  ],
+  "crawl_start": "2017-04-25T14:07:11",
+  "crawl_end": "2017-04-25T14:08:02",
+  "num_pages": 10,
+  "total_html_size": 172379,
+  "servers": [
+    "Apache (Ubuntu)"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-adr",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://stefan-auditor.de/node/33/webmention",
+      "https://stefan-auditor.de/node/31/webmention",
+      "https://stefan-auditor.de/node/34/webmention",
+      "https://stefan-auditor.de/node/30/webmention",
+      "https://stefan-auditor.de/node/32/webmention"
+    ],
+    "micropub": [
+      "http://stefan-auditor.de/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 16,
+  "links_in": 30,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 22
+      },
+      "score": 1
+    },
+    "www.drupal.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.971
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.673
+    },
+    "erdfisch.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.224
+    },
+    "sms": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.224
+    },
+    "github.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.224
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.224
+    },
+    "twitter.com/sanduhrs": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.224
+    },
+    "facebook.com/stefan.auditor": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.224
+    }
+  }
+}

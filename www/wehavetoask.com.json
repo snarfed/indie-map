@@ -1,0 +1,149 @@
+{
+  "domain": "wehavetoask.com",
+  "urls": [
+    "http://wehavetoask.com/"
+  ],
+  "names": [
+    "We Have to Ask "
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "mailto:podcast@wehavetoask.com",
+    "https://www.facebook.com/wehavetoask/",
+    "https://www.twitter.com/wehavetoask"
+  ],
+  "crawl_start": "2017-05-06T01:58:23",
+  "crawl_end": "2017-05-06T01:58:54",
+  "num_pages": 78,
+  "total_html_size": 872640,
+  "servers": [
+    "Apache (Ubuntu)"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/wehavetoask.com/webmention"
+    ],
+    "micropub": [
+      "https://wehavetoask.com/api/micropub/"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 304,
+  "links_in": 448,
+  "links": {
+    "s3.amazonaws.com": {
+      "out": {
+        "other": 228
+      },
+      "score": 1
+    },
+    "martymcgui.re": {
+      "in": {
+        "other": 392
+      },
+      "score": 0.975
+    },
+    "brid.gy": {
+      "in": {
+        "other": 44
+      },
+      "out": {
+        "other": 30
+      },
+      "score": 0.758
+    },
+    "www.gofundme.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.405
+    },
+    "vegaskid.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.405
+    },
+    "www.thecurioso.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.405
+    },
+    "www.nationalelectronicsmuseum.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.405
+    },
+    "www.sexisfunny.co": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.405
+    },
+    "www.imdb.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.405
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.405
+    },
+    "skiesinchaos.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.227
+    },
+    "geo.itunes.apple.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.227
+    },
+    "twitter.com/wehavetoask": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.227
+    },
+    "itunes.apple.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.227
+    },
+    "facebook.com/wehavetoask": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.227
+    }
+  }
+}

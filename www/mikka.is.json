@@ -1,0 +1,590 @@
+{
+  "domain": "mikka.is",
+  "urls": [
+    "https://mikka.is/"
+  ],
+  "names": [
+    "mikka: unterwegs – unterwegs im namen des konnektoms",
+    "mikka: unterwegs"
+  ],
+  "descriptions": [
+    "unterwegs im namen des konnektoms"
+  ],
+  "pictures": [
+    "https://mikka.is/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/mikka2061",
+    "https://plus.google.com/+JonasLuster",
+    "https://twitter.com/legerdemain",
+    "https://www.facebook.com/mikka.unterwegs",
+    "https://www.instagram.com/jml2061",
+    "https://www.flickr.com/people/jluster"
+  ],
+  "crawl_start": "2017-04-29T21:31:42",
+  "crawl_end": "2017-04-29T21:43:06",
+  "num_pages": 161,
+  "total_html_size": 8101807,
+  "servers": [
+    "Apache (Debian)"
+  ],
+  "mf2_classes": [
+    "h-comments-title",
+    "h-as-reply",
+    "h-custom-headline",
+    "h-landmark",
+    "h-alert",
+    "h-entry",
+    "h-landmark-blurb",
+    "h-widget"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://mikka.is/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://mikka.is/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 1385,
+  "links_in": 34,
+  "links": {
+    "github.com": {
+      "out": {
+        "other": 254
+      },
+      "score": 1
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 164
+      },
+      "score": 0.929
+    },
+    "legerdemain": {
+      "out": {
+        "other": 161
+      },
+      "score": 0.926
+    },
+    "jml2061": {
+      "out": {
+        "other": 161
+      },
+      "score": 0.926
+    },
+    "www.instagram.com": {
+      "out": {
+        "other": 161
+      },
+      "score": 0.926
+    },
+    "+JonasLuster": {
+      "out": {
+        "other": 161
+      },
+      "score": 0.926
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 161
+      },
+      "score": 0.926
+    },
+    "brid.gy": {
+      "in": {
+        "other": 34
+      },
+      "score": 0.567
+    },
+    "twitter.com/search": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.510
+    },
+    "wmfra.de": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.482
+    },
+    "livestream.watch": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.482
+    },
+    "facebook.com/514170879": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.482
+    },
+    "muc.camp.bayern": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.445
+    },
+    "twitter.com/legerdemain": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.398
+    },
+    "twitter.com/hashtag": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.398
+    },
+    "map.what3words.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.334
+    },
+    "lh3.googleusercontent.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.334
+    },
+    "micro.blog": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.334
+    },
+    "journals.plos.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.334
+    },
+    "www.nature.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.287
+    },
+    "web.archive.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.287
+    },
+    "t.co": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.287
+    },
+    "twitter.com/jke": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.223
+    },
+    "visionhochdrei.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.223
+    },
+    "creativecommons.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.223
+    },
+    "twitter.com/barcampmunich": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.223
+    },
+    "www.saarcamp.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.223
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.223
+    },
+    "blog.emmerich-consulting.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.223
+    },
+    "twitter.com/locomore": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.223
+    },
+    "jml.is": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.223
+    },
+    "www.ncbi.nlm.nih.gov": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.223
+    },
+    "facebook.com/jml2061": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "gbs-schweiz.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.ifd-allensbach.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "journal.frontiersin.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.spiegel.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "jn.physiology.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "jov.arvojournals.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "twitter.com/DanaDiezemann": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.appalachiantrail.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.meetingofstyles.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.nsf.gov": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "healthcareinamerica.us": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "wequitdrinking.typepad.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.typepad.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "joi.ito.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "twitter.com/kojote": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.barcamp-bodensee.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.unifr.ch": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "mikka.bayern": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "what3words.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.mfk-frankfurt.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "jamanetwork.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "pubs.acs.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.taunus-zeitung.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "barcamp.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.netzwerk-homoeopathie.eu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "facebook.com/MiniaturWunderlandHamburg": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "twitter.com/soundofmunich": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "uni-mainz.academia.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.ilga.gov": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "blog.fishandchips.cc": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.mweb.im": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "retroblah.live": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "ulyssesapp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "twitter.com/LukeSchn96": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "facebook.com/nils.hitze": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.pcta.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "econtent.hogrefe.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "twitter.com/photonity": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "facebook.com/HassHilft": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "locomore.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "twitter.com/oliverg": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.researchgate.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "medium.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.paloaltocreamery.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "annals.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.spektrum.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.quora.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "twitter.com/windfeder": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.theofel.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.goodsync.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.independent.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.google.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.cambrella.eu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    },
+    "www.continentaldividetrail.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.111
+    }
+  }
+}

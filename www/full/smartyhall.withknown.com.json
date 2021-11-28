@@ -1,0 +1,115 @@
+{
+  "domain": "smartyhall.withknown.com",
+  "urls": [
+    "https://smartyhall.withknown.com/profile/smartyhall",
+    "https://twitter.com/smartyhall",
+    "https://www.youtube.com/user/smartyhall",
+    "http://blog.michaelhall.us/"
+  ],
+  "names": [
+    "Michael Hall",
+    "Living on the Web"
+  ],
+  "descriptions": [
+    "I like to poke technology with a pointy stick.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://smartyhall.withknown.com/file/f465ed4f28122b8dcfcbf173fe33fbcb/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Michael Hall"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I like to poke technology with a pointy stick.</p>\n</div>",
+          "value": "\nI like to poke technology with a pointy stick.\n"
+        }
+      ],
+      "photo": [
+        "https://smartyhall.withknown.com/file/f465ed4f28122b8dcfcbf173fe33fbcb/thumb.jpg"
+      ],
+      "profile": [
+        "Michael Hall"
+      ],
+      "url": [
+        "https://smartyhall.withknown.com/profile/smartyhall",
+        "https://smartyhall.withknown.com/profile/smartyhall",
+        "https://twitter.com/smartyhall",
+        "https://www.youtube.com/user/smartyhall",
+        "http://blog.michaelhall.us/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/smartyhall",
+    "https://www.youtube.com/user/smartyhall",
+    "http://blog.michaelhall.us/"
+  ],
+  "crawl_start": "2017-04-30T02:16:16",
+  "crawl_end": "2017-04-30T02:16:24",
+  "num_pages": 13,
+  "total_html_size": 238310,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://smartyhall.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://smartyhall.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://smartyhall.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://smartyhall.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 27,
+  "links_in": 0,
+  "links": {
+    "blog.michaelhall.us": {
+      "out": {
+        "other": 9
+      },
+      "score": 1
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 1
+    },
+    "twitter.com/smartyhall": {
+      "out": {
+        "other": 9
+      },
+      "score": 1
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "domain": "lumberjack.withknown.com",
+  "urls": [
+    "https://lumberjack.withknown.com/profile/cgragsdale",
+    "http://www.chrisragsdale.com/"
+  ],
+  "names": [
+    "Chris Ragsdale",
+    "Musings of the Lumberjack"
+  ],
+  "descriptions": [
+    "Christian, husband, father, tech nerd",
+    "Random Ramblings"
+  ],
+  "pictures": [
+    "https://lumberjack.withknown.com/file/a3b8608a7a42068cf4f10214c8408bc5/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Chris Ragsdale"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Christian, husband, father, tech nerd</p>\n</div>",
+          "value": "\nChristian, husband, father, tech nerd\n"
+        }
+      ],
+      "photo": [
+        "https://lumberjack.withknown.com/file/a3b8608a7a42068cf4f10214c8408bc5/thumb.jpg"
+      ],
+      "profile": [
+        "Chris Ragsdale"
+      ],
+      "url": [
+        "https://lumberjack.withknown.com/profile/cgragsdale",
+        "https://lumberjack.withknown.com/profile/cgragsdale",
+        "http://www.chrisragsdale.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.chrisragsdale.com/"
+  ],
+  "crawl_start": "2017-04-29T14:39:44",
+  "crawl_end": "2017-04-29T14:40:53",
+  "num_pages": 35,
+  "total_html_size": 1070281,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://lumberjack.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 117,
+  "links_in": 3,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 40
+      },
+      "score": 1
+    },
+    "pca.st": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.884
+    },
+    "www.chow.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.792
+    },
+    "www.chrisragsdale.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.760
+    },
+    "www.northernbrewer.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.603
+    },
+    "twitter.com/hashtag": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.566
+    },
+    "itunes.apple.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.566
+    },
+    "www.urbanachievershow.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.317
+    },
+    "twitter.com/urbanachieverpc": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.317
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

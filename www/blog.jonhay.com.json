@@ -1,0 +1,45 @@
+{
+  "domain": "blog.jonhay.com",
+  "urls": [
+    "http://blog.jonhay.com/"
+  ],
+  "names": [
+    "blog.jonhay.com"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T02:15:54",
+  "crawl_end": "2017-04-28T02:15:55",
+  "num_pages": 2,
+  "total_html_size": 111898,
+  "servers": [
+    "nginx",
+    "WordPress.com"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-feed"
+  ],
+  "tags": [
+    "bridgy"
+  ],
+  "endpoints": {},
+  "links_out": 3,
+  "links_in": 6,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 6
+      },
+      "score": 1
+    },
+    "wordpress.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 1
+    }
+  }
+}

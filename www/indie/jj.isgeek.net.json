@@ -1,0 +1,75 @@
+{
+  "domain": "jj.isgeek.net",
+  "urls": [
+    "http://jj.isgeek.net/"
+  ],
+  "names": [
+    "Jj's blog"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T23:38:24",
+  "crawl_end": "2017-04-28T23:47:46",
+  "num_pages": 732,
+  "total_html_size": 11056046,
+  "servers": [
+    "nginx (Ubuntu)"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "generator"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://jj.isgeek.net/?webmention=endpoint"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 4230,
+  "links_in": 7,
+  "links": {
+    "www.isgeek.net": {
+      "out": {
+        "other": 12
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.447
+    },
+    "2016.indieweb.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 1
+      },
+      "score": 0.340
+    },
+    "isgeek.net": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.315
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.190
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

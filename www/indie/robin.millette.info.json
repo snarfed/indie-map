@@ -1,0 +1,50 @@
+{
+  "domain": "robin.millette.info",
+  "urls": [
+    "http://robin.millette.info/"
+  ],
+  "names": [
+    "Accueil par Robin Millette"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://plus.google.com/+RobinMillette",
+    "https://github.com/millette"
+  ],
+  "crawl_start": "2017-04-25T07:17:13",
+  "crawl_end": "2017-04-25T07:17:40",
+  "num_pages": 37,
+  "total_html_size": 274258,
+  "servers": [
+    "CouchDB (Erlang OTP/R15B01)"
+  ],
+  "tags": [
+    "relme",
+    "IRC"
+  ],
+  "endpoints": {},
+  "links_out": 328,
+  "links_in": 526,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 352
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 174
+      },
+      "score": 0.881
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.493
+    }
+  }
+}

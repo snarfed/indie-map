@@ -1,0 +1,99 @@
+{
+  "domain": "earthbound.io",
+  "urls": [
+    "http://earthbound.io/"
+  ],
+  "names": [
+    "A VERY PLAIN INDEX :)"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-09T17:39:05",
+  "crawl_end": "2017-06-09T18:07:48",
+  "num_pages": 503,
+  "total_html_size": 28277729,
+  "servers": [
+    "Apache",
+    "nginx",
+    "WordPress",
+    "DokuWiki"
+  ],
+  "mf2_classes": [
+    "h-as-video",
+    "h-entry",
+    "h-as-image",
+    "h-as-article",
+    "h-feed",
+    "h-card",
+    "h-as-audio"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://earthbound.io/blog/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://earthbound.io/blog/?micropub=endpoint",
+      "https://earthbound.io/blog/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 1895,
+  "links_in": 59,
+  "links": {
+    "notiz.blog": {
+      "out": {
+        "other": 220
+      },
+      "score": 0.941
+    },
+    "adactio.com": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.734
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.734
+    },
+    "brid.gy": {
+      "in": {
+        "other": 55
+      },
+      "score": 0.620
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.170
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

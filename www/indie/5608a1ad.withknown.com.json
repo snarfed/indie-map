@@ -1,0 +1,91 @@
+{
+  "domain": "5608a1ad.withknown.com",
+  "urls": [
+    "https://5608a1ad.withknown.com/profile/5608a1ad",
+    "http://5608a1ad.blogspot.com"
+  ],
+  "names": [
+    "أبوصادق البيحاني"
+  ],
+  "descriptions": [
+    "@5608a1ad",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://5608a1ad.withknown.com/gfx/users/default-02.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "أبوصادق البيحاني"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>@5608a1ad</p>\n</div>",
+          "value": "\n@5608a1ad\n"
+        }
+      ],
+      "photo": [
+        "https://5608a1ad.withknown.com/gfx/users/default-02.png"
+      ],
+      "profile": [
+        "أبوصادق البيحاني"
+      ],
+      "url": [
+        "https://5608a1ad.withknown.com/profile/5608a1ad",
+        "https://5608a1ad.withknown.com/profile/5608a1ad",
+        "http://5608a1ad.blogspot.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://5608a1ad.withknown.com/5608a1ad.blogspot.com",
+    "http://5608a1ad.blogspot.com"
+  ],
+  "crawl_start": "2017-04-27T07:52:21",
+  "crawl_end": "2017-04-27T07:52:28",
+  "num_pages": 12,
+  "total_html_size": 194288,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://5608a1ad.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 12,
+  "links_in": 3,
+  "links": {
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.240
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

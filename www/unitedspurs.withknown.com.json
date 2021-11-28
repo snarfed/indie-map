@@ -1,0 +1,58 @@
+{
+  "domain": "unitedspurs.withknown.com",
+  "urls": [
+    "http://unitedspurs.withknown.com/"
+  ],
+  "names": [
+    "United Spurs of America"
+  ],
+  "descriptions": [
+    "Uniting Spurs Fans Across America"
+  ],
+  "pictures": [
+    "https://unitedspurs.withknown.com/file/bf3ef69d4e68c6841739c0eaebebafee/thumb.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T03:08:59",
+  "crawl_end": "2017-04-30T03:09:07",
+  "num_pages": 13,
+  "total_html_size": 214867,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://unitedspurs.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 13,
+  "links_in": 2,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.213
+    }
+  }
+}

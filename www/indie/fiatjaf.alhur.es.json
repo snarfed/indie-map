@@ -1,0 +1,70 @@
+{
+  "domain": "fiatjaf.alhur.es",
+  "urls": [
+    "http://fiatjaf.alhur.es/"
+  ],
+  "names": [
+    "fiatjaf"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://keybase.io/fiatjaf",
+    "http://fiatjaf.alhur.es/cdn-cgi/l/email-protection#65030c04110f0403250208040c094b060a08",
+    "https://github.com/fiatjaf",
+    "https://twitter.com/fiatjaf",
+    "http://stackoverflow.com/users/973380/fiatjaf",
+    "http://www.last.fm/user/fiatjaf",
+    "https://hypothes.is/stream?q=user:fiatjaf",
+    "https://blockchain.info/address/12HGfi28runu2ygEmjADUrrGGFkFby5WMv"
+  ],
+  "crawl_start": "2017-04-24T04:40:58",
+  "crawl_end": "2017-04-24T04:41:26",
+  "num_pages": 24,
+  "total_html_size": 613894,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 12,
+  "links_in": 1103,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 730
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 370
+      },
+      "score": 0.897
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.167
+    }
+  }
+}

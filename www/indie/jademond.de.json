@@ -1,0 +1,118 @@
+{
+  "domain": "jademond.de",
+  "urls": [
+    "http://jademond.de/"
+  ],
+  "names": [
+    "Jademond - lebe . liebe . lache",
+    "Jademond"
+  ],
+  "descriptions": [
+    "lebe . liebe . lache"
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T23:34:35",
+  "crawl_end": "2017-04-29T07:59:35",
+  "num_pages": 5473,
+  "total_html_size": 211987906,
+  "servers": [
+    "Apache (Ubuntu)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-entry",
+    "h-as-article",
+    "h-card",
+    "h-cite",
+    "h-as-reply"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://jademond.de/?webmention=endpoint"
+    ],
+    "micropub": [
+      "http://jademond.de/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 65715,
+  "links_in": 12871,
+  "links": {
+    "www.daily-pia.de": {
+      "out": {
+        "other": 16
+      },
+      "in": {
+        "other": 12832
+      },
+      "score": 0.901
+    },
+    "dasnuf.de": {
+      "in": {
+        "other": 13
+      },
+      "out": {
+        "other": 64
+      },
+      "score": 0.471
+    },
+    "isabelbogdan.de": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.36
+    },
+    "e13.de": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.286
+    },
+    "brid.gy": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.236
+    },
+    "kinderfilmblog.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.236
+    },
+    "www.buddenbohm-und-soehne.de": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.219
+    },
+    "wasmachendieda.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.198
+    },
+    "wirres.net": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.132
+    }
+  }
+}

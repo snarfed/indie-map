@@ -1,0 +1,71 @@
+{
+  "domain": "mey.vn",
+  "urls": [
+    "http://mey.vn/"
+  ],
+  "names": [
+    "Andrea Rota"
+  ],
+  "descriptions": [
+    "web development + data science"
+  ],
+  "pictures": [
+    "https://mey.vn/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/hotzeplotz",
+    "https://github.com/hotzeplotz",
+    "mailto:a@mey.vn"
+  ],
+  "crawl_start": "2017-04-24T13:20:38",
+  "crawl_end": "2017-04-24T13:20:38",
+  "num_pages": 1,
+  "total_html_size": 25130,
+  "servers": [
+    "Apache (Debian)",
+    "Hugo"
+  ],
+  "tags": [
+    "relme",
+    "IRC",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 7,
+  "links_in": 48,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 35
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.674
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

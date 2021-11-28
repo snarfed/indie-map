@@ -1,0 +1,102 @@
+{
+  "domain": "surfthedream.com.au",
+  "urls": [
+    "https://surfthedream.com.au/"
+  ],
+  "names": [
+    "Surf the Dream | A blog by Justin Avery"
+  ],
+  "descriptions": [
+    "Links and articles about all things web."
+  ],
+  "pictures": [
+    "https://surfthedream.com.au/wp-content/themes/starkers-master/img/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "http://justinavery.me",
+    "https://simplethin.gs",
+    "https://backpocket.co",
+    "http://theuniverse.is",
+    "http://responsivedesignweekly.com",
+    "https://surfthedream.com.au/cdn-cgi/l/email-protection#53392620273a3d30322536212a13343e323a3f7d303c3e",
+    "http://twitter.com/justinavery",
+    "http://uk.linkedin.com/in/justinavery/",
+    "https://plus.google.com/105538118593373148003?rel=author",
+    "https://instagram.com/justinavery"
+  ],
+  "crawl_start": "2017-06-10T01:51:39",
+  "crawl_end": "2017-06-10T01:54:29",
+  "num_pages": 221,
+  "total_html_size": 5037061,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://surfthedream.com.au/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://surfthedream.com.au/?micropub=endpoint",
+      "https://surfthedream.com.au/micropub",
+      "http://surfthedream.com.au/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 3378,
+  "links_in": 94,
+  "links": {
+    "justinavery.me": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 220
+      },
+      "score": 0.896
+    },
+    "adactio.com": {
+      "in": {
+        "bookmark-of": 74,
+        "other": 2
+      },
+      "score": 0.736
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.305
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.102
+    },
+    "marcthiele.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.102
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.102
+    }
+  }
+}

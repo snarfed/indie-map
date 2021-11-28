@@ -1,0 +1,72 @@
+{
+  "domain": "thraxil.org",
+  "urls": [
+    "http://thraxil.org/"
+  ],
+  "names": [
+    "thraxil.org: "
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/thraxil",
+    "https://github.com/thraxil",
+    "mailto:anders@columbia.edu",
+    "https://www.linkedin.com/in/thraxil"
+  ],
+  "crawl_start": "2017-06-10T01:55:02",
+  "crawl_end": "2017-06-10T05:43:44",
+  "num_pages": 11963,
+  "total_html_size": 46425719,
+  "servers": [
+    "nginx (Ubuntu)"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 17509,
+  "links_in": 21,
+  "links": {
+    "adactio.com": {
+      "in": {
+        "bookmark-of": 18
+      },
+      "score": 0.407
+    },
+    "www.flutterby.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.282
+    },
+    "c2.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.282
+    },
+    "tantek.com": {
+      "out": {
+        "other": 3
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.222
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0788
+    },
+    "artlung.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0788
+    }
+  }
+}

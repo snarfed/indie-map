@@ -1,0 +1,143 @@
+{
+  "domain": "airbornesurfer.com",
+  "urls": [
+    "http://airbornesurfer.com/"
+  ],
+  "names": [
+    "AirborneSurfer.com - Adventitious Geekery and other distractions created or curated by Matthew \"Atari\" Eargle",
+    "AirborneSurfer.com"
+  ],
+  "descriptions": [
+    "Adventitious Geekery and other distractions created or curated by Matthew \"Atari\" Eargle"
+  ],
+  "pictures": [
+    "https://i2.wp.com/airbornesurfer.com/wp-content/uploads/2016/01/cropped-atari-kid-big.gif?fit=32%2C32",
+    "https://i2.wp.com/airbornesurfer.com/wp-content/uploads/2016/01/cropped-atari-kid-big.gif?fit=192%2C192"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/airbornesurfer",
+    "https://plus.google.com/+MatthewEargle"
+  ],
+  "crawl_start": "2017-04-27T07:52:20",
+  "crawl_end": "2017-04-28T14:08:01",
+  "num_pages": 9826,
+  "total_html_size": 675485368,
+  "servers": [
+    "Apache",
+    "Piwigo (aka PWG), see piwigo.org"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-as-reply",
+    "h-feed",
+    "h-as-mention"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://airbornesurfer.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://airbornesurfer.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "https://wordpress.org/"
+    ]
+  },
+  "links_out": 334477,
+  "links_in": 168,
+  "links": {
+    "adactio.com": {
+      "in": {
+        "bookmark-of": 70,
+        "other": 2
+      },
+      "out": {
+        "other": 3983
+      },
+      "score": 0.698
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 3985
+      },
+      "score": 0.696
+    },
+    "airbornesurfer.wordpress.com": {
+      "out": {
+        "other": 283
+      },
+      "score": 0.491
+    },
+    "brid.gy": {
+      "in": {
+        "other": 43
+      },
+      "score": 0.291
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 34
+      },
+      "score": 0.274
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 17
+      },
+      "score": 0.219
+    },
+    "tantek.com": {
+      "in": {
+        "like-of": 1
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.139
+    },
+    "gregorlove.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.125
+    },
+    "meyerweb.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.108
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0537
+    },
+    "tilde.club": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0537
+    }
+  }
+}

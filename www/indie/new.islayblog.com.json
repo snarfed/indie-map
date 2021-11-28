@@ -1,0 +1,81 @@
+{
+  "domain": "new.islayblog.com",
+  "urls": [
+    "http://new.islayblog.com/"
+  ],
+  "names": [
+    "(New) IslayBlog.com, a blog about the Isle of Islay, Scotland – Cask Strength since 2006",
+    "(New) IslayBlog.com, a blog about the Isle of Islay, Scotland"
+  ],
+  "descriptions": [
+    "Cask Strength since 2006"
+  ],
+  "pictures": [
+    "http://new.islayblog.com/wp-content/uploads/2016/12/cropped-logo-islayblog-32x32.jpg",
+    "http://new.islayblog.com/wp-content/uploads/2016/12/cropped-logo-islayblog-192x192.jpg",
+    "http://new.islayblog.com/wp-content/uploads/2016/12/cropped-logo-islayblog-270x270.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/islayblog"
+  ],
+  "crawl_start": "2017-04-29T21:32:05",
+  "crawl_end": "2017-04-29T21:58:09",
+  "num_pages": 105,
+  "total_html_size": 6551701,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-like",
+    "h-as-mention",
+    "h-feed",
+    "h-as-repost",
+    "h-card",
+    "h-as-reply",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://new.islayblog.com/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 3473,
+  "links_in": 9,
+  "links": {
+    "www.islay.org.uk": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 555
+      },
+      "score": 0.972
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.621
+    },
+    "blog.ministryofpropaganda.co.uk": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.452
+    },
+    "brid.gy": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.223
+    }
+  }
+}

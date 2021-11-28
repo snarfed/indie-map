@@ -1,0 +1,88 @@
+{
+  "domain": "niels.kobschaetzki.net",
+  "urls": [
+    "http://niels.kobschaetzki.net/"
+  ],
+  "names": [
+    "Niels K. – Master of Junks of Useless Information"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T21:32:37",
+  "crawl_end": "2017-04-29T21:45:33",
+  "num_pages": 626,
+  "total_html_size": 46127324,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "micropub": [
+      "http://niels.kobschaetzki.net/?micropub=endpoint",
+      "https://niels.kobschaetzki.net/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 10804,
+  "links_in": 179,
+  "links": {
+    "huffduffer.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 140
+      },
+      "score": 0.587
+    },
+    "micro.blog": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.391
+    },
+    "loadaverage.org": {
+      "in": {
+        "other": 27
+      },
+      "score": 0.387
+    },
+    "brid.gy": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.291
+    },
+    "www.manton.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.270
+    },
+    "bupk.es": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.163
+    }
+  }
+}

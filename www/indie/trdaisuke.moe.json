@@ -1,0 +1,71 @@
+{
+  "domain": "trdaisuke.moe",
+  "urls": [
+    "http://trdaisuke.moe",
+    "http://trdaisuke.moe/?og=1"
+  ],
+  "names": [
+    "tumblrdaisuke",
+    "trdaisuke"
+  ],
+  "descriptions": [
+    "The tumblr of trdaisuke. Moe-as-a-Service since 2012. Hope you like gifs and cute pictures. Occasional work snark. Mostly reblogs. Rin Today and nya.pub admin",
+    "The tumblr of trdaisuke. Moe-as-a-Service since 2012. Hope you like gifs and cute pictures....",
+    "trdaisuke"
+  ],
+  "pictures": [
+    "http://68.media.tumblr.com/avatar_7e00706bee05_128.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://trdaisuke.com"
+  ],
+  "crawl_start": "2017-05-06T01:58:17",
+  "crawl_end": "2017-05-06T04:38:30",
+  "num_pages": 5432,
+  "total_html_size": 439576220,
+  "servers": [
+    "openresty"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.brid.gy/webmention/tumblr"
+    ]
+  },
+  "links_out": 194751,
+  "links_in": 716,
+  "links": {
+    "known.trdaisuke.com": {
+      "in": {
+        "other": 347
+      },
+      "out": {
+        "other": 78
+      },
+      "score": 0.576
+    },
+    "blog.trdaisuke.com": {
+      "in": {
+        "other": 361
+      },
+      "score": 0.545
+    },
+    "brid.gy": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.149
+    },
+    "davekokandy.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.102
+    }
+  }
+}

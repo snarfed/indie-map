@@ -1,0 +1,309 @@
+{
+  "domain": "known.hackens.org",
+  "urls": [
+    "https://known.hackens.org/profile/hackens",
+    "http://hackens.org",
+    "http://github.com/hackEns/",
+    "https://www.facebook.com/clubhackens",
+    "https://twitter.com/clubHackEns/",
+    "https://www.facebook.com/profile.php?id=100007303594515",
+    "https://www.youtube.com/channel/UCnJeKhYws7E5-UZhKJyVsoA"
+  ],
+  "names": [
+    "hackEns"
+  ],
+  "descriptions": [
+    "hackEns est un club du COF de l'École normale supérieure de la rue d'Ulm. Le but du club est de rassembler des gens motivés pour travailler sur des projets de type hackerspace ou fablab.",
+    "hackEns' publications on the web."
+  ],
+  "pictures": [
+    "https://known.hackens.org/file/500c46546a76c7d6bffc98a1f349884b/thumb.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "hackEns"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>hackEns est un club du COF de l'École normale supérieure de la rue d'Ulm. Le but du club est de rassembler des gens motivés pour travailler sur des projets de type hackerspace ou fablab.</p>\n</div>",
+          "value": "\nhackEns est un club du COF de l'École normale supérieure de la rue d'Ulm. Le but du club est de rassembler des gens motivés pour travailler sur des projets de type hackerspace ou fablab.\n"
+        }
+      ],
+      "photo": [
+        "https://known.hackens.org/file/500c46546a76c7d6bffc98a1f349884b/thumb.png"
+      ],
+      "profile": [
+        "hackEns"
+      ],
+      "url": [
+        "https://known.hackens.org/profile/hackens",
+        "https://known.hackens.org/profile/hackens",
+        "http://hackens.org",
+        "http://github.com/hackEns/",
+        "https://www.facebook.com/clubhackens",
+        "https://twitter.com/clubHackEns/",
+        "https://www.facebook.com/profile.php?id=100007303594515",
+        "https://www.youtube.com/channel/UCnJeKhYws7E5-UZhKJyVsoA"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://hackens.org",
+    "http://github.com/hackEns/",
+    "https://www.facebook.com/clubhackens",
+    "https://twitter.com/clubHackEns/",
+    "https://www.facebook.com/profile.php?id=100007303594515",
+    "https://www.youtube.com/channel/UCnJeKhYws7E5-UZhKJyVsoA"
+  ],
+  "crawl_start": "2017-04-29T04:33:45",
+  "crawl_end": "2017-04-29T04:35:23",
+  "num_pages": 162,
+  "total_html_size": 3605758,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-event",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://known.hackens.org/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 932,
+  "links_in": 21,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 162
+      },
+      "score": 1
+    },
+    "hackens.org": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 139
+      },
+      "score": 0.986
+    },
+    "twitter.com/clubHackEns": {
+      "out": {
+        "other": 93
+      },
+      "score": 0.905
+    },
+    "facebook.com/clubhackens": {
+      "out": {
+        "other": 91
+      },
+      "score": 0.900
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 91
+      },
+      "score": 0.900
+    },
+    "github.com": {
+      "out": {
+        "other": 91
+      },
+      "score": 0.900
+    },
+    "www.facebook.com": {
+      "out": {
+        "other": 91
+      },
+      "score": 0.900
+    },
+    "known.cphyc.me": {
+      "in": {
+        "other": 2,
+        "in-reply-to": 15
+      },
+      "out": {
+        "other": 8
+      },
+      "score": 0.784
+    },
+    "citizenwatt.paris": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.600
+    },
+    "hack.ens.fr": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.550
+    },
+    "facebook.com/373206189481418": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.550
+    },
+    "known.exppad.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.550
+    },
+    "www.ecocampus.ens.fr": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.550
+    },
+    "fabelier.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.519
+    },
+    "known.phyks.me": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.479
+    },
+    "fr.wikipedia.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.457
+    },
+    "reflets.info": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.457
+    },
+    "apres-janvier2015.ens.fr": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.457
+    },
+    "pablo.rauzy.name": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.457
+    },
+    "franciliens.net": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.457
+    },
+    "bit.ly": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.457
+    },
+    "ecocampus.ens.fr": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.429
+    },
+    "www.thingiverse.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.429
+    },
+    "www.makerfairesaintmalo.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.429
+    },
+    "facebook.com/1453877188199054": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.360
+    },
+    "facebook.com/10204643332537010": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.240
+    },
+    "facebook.com/1027945853899984": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.240
+    },
+    "facebook.com/10205799463055517": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.240
+    },
+    "facebook.com/10153083135544451": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.240
+    },
+    "www.franciliens.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.240
+    },
+    "twitter.com/franciliens": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.240
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.240
+    },
+    "facebook.com/344912422365008": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.240
+    },
+    "facebook.com/10152694974082263": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.240
+    },
+    "twitter.com/Khrys_h": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.240
+    }
+  }
+}

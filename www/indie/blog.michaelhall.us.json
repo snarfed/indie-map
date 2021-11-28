@@ -1,0 +1,60 @@
+{
+  "domain": "blog.michaelhall.us",
+  "urls": [
+    "http://blog.michaelhall.us/"
+  ],
+  "names": [
+    "It's Me World"
+  ],
+  "descriptions": [
+    "Just the ramblings of a person who has many a soap box to stand on."
+  ],
+  "pictures": [
+    "http://blog.michaelhall.us/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://www.blogger.com/profile/05927976981551989263",
+    "https://twitter.com/smartyhall",
+    "https://github.com/smartyhall"
+  ],
+  "crawl_start": "2017-06-09T17:34:08",
+  "crawl_end": "2017-06-09T17:43:27",
+  "num_pages": 431,
+  "total_html_size": 31839047,
+  "servers": [
+    "GSE"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "micropub": [
+      "https://silo.pub/micropub"
+    ],
+    "authorization": [
+      "https://silo.pub/indieauth"
+    ],
+    "token": [
+      "https://silo.pub/token"
+    ]
+  },
+  "links_out": 41408,
+  "links_in": 9,
+  "links": {
+    "smartyhall.withknown.com": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.2
+    }
+  }
+}

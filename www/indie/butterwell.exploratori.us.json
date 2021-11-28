@@ -1,0 +1,53 @@
+{
+  "domain": "butterwell.exploratori.us",
+  "urls": [
+    "http://butterwell.exploratori.us/"
+  ],
+  "names": [
+    "Home"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/butterwell",
+    "https://github.com/butterwell"
+  ],
+  "crawl_start": "2017-04-23T23:13:50",
+  "crawl_end": "2017-04-23T23:13:51",
+  "num_pages": 2,
+  "total_html_size": 4301,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "mf2_classes": [
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "IRC"
+  ],
+  "endpoints": {},
+  "links_out": 7,
+  "links_in": 57,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 40
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 17
+      },
+      "score": 0.767
+    },
+    "tantek.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.188
+    }
+  }
+}

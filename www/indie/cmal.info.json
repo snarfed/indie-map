@@ -1,0 +1,129 @@
+{
+  "domain": "cmal.info",
+  "urls": [
+    "http://cmal.info",
+    "https://twitter.com/cmal_pp",
+    "https://github.com/paulcmal",
+    "http://cmal.info/en"
+  ],
+  "names": [
+    "cmal",
+    "Blog | cmal",
+    "Blog"
+  ],
+  "descriptions": [
+    "<3 IndieWeb, hate Nazis.",
+    "cmal personal blog",
+    "<h1>My latest articles</h1>"
+  ],
+  "pictures": [
+    "http://cmal.info/user/plugins/aboutme/assets/avatars/white_pride.gif",
+    "http://cmal.info/user/themes/antimatter/images/favicon.png",
+    "http://cmal.info/user/pages/01.blog/252318_241903912588205_1286509722_n.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:paul@cmal.info"
+      ],
+      "name": [
+        "cmal"
+      ],
+      "note": [
+        "<3 IndieWeb, hate Nazis."
+      ],
+      "photo": [
+        "http://cmal.info/user/plugins/aboutme/assets/avatars/white_pride.gif"
+      ],
+      "url": [
+        "http://cmal.info",
+        "https://twitter.com/cmal_pp",
+        "https://github.com/paulcmal"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/cmal_pp",
+    "https://github.com/paulcmal",
+    "mailto:paul@cmal.info"
+  ],
+  "crawl_start": "2017-04-24T01:37:20",
+  "crawl_end": "2017-04-24T01:37:26",
+  "num_pages": 3,
+  "total_html_size": 58157,
+  "servers": [
+    "nginx",
+    "GravCMS"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-feed",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC"
+  ],
+  "endpoints": {},
+  "links_out": 33,
+  "links_in": 49,
+  "links": {
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 4,
+        "in-reply-to": 10
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 10
+      },
+      "out": {
+        "other": 3
+      },
+      "score": 0.694
+    },
+    "werd.io": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.521
+    },
+    "kylewm.com": {
+      "in": {
+        "other": 1,
+        "like-of": 3
+      },
+      "score": 0.489
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.449
+    },
+    "akraland.eu": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.348
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.276
+    },
+    "withknown.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.174
+    }
+  }
+}

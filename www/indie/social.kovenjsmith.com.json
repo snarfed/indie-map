@@ -1,0 +1,131 @@
+{
+  "domain": "social.kovenjsmith.com",
+  "urls": [
+    "http://social.kovenjsmith.com/profile/kovensmith",
+    "http://kovenjsmith.com"
+  ],
+  "names": [
+    "Koven Smith",
+    "Koven's Various Musings"
+  ],
+  "descriptions": [
+    "Composer, drummer, and Director of Digital Adaptation at the Blanton Museum of Art. Founder of #drinkingaboutmuseums.",
+    "This is where Koven posts his social media stuff. Part of an effort to own my content. Long-form stuff is published at kovenjsmith.com."
+  ],
+  "pictures": [
+    "http://social.kovenjsmith.com/file/c41f83326dca70ff24591a9c8860ed2d/thumb.jpg",
+    "http://social.kovenjsmith.com/",
+    "http://social.kovenjsmith.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Koven Smith"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Composer, drummer, and Director of Digital Adaptation at the Blanton Museum of Art. Founder of #drinkingaboutmuseums.</p>\n</div>",
+          "value": "\nComposer, drummer, and Director of Digital Adaptation at the Blanton Museum of Art. Founder of #drinkingaboutmuseums.\n"
+        }
+      ],
+      "photo": [
+        "http://social.kovenjsmith.com/file/c41f83326dca70ff24591a9c8860ed2d/thumb.jpg"
+      ],
+      "profile": [
+        "Koven Smith"
+      ],
+      "url": [
+        "http://social.kovenjsmith.com/profile/kovensmith",
+        "http://social.kovenjsmith.com/profile/kovensmith",
+        "http://kovenjsmith.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://kovenjsmith.com"
+  ],
+  "crawl_start": "2017-04-30T02:16:45",
+  "crawl_end": "2017-04-30T02:18:39",
+  "num_pages": 150,
+  "total_html_size": 3221951,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-geo",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://social.kovenjsmith.com/webmention/"
+    ],
+    "micropub": [
+      "http://social.kovenjsmith.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "http://social.kovenjsmith.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1083,
+  "links_in": 5,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 150
+      },
+      "score": 0.997
+    },
+    "kovenjsmith.com": {
+      "out": {
+        "other": 80,
+        "in-reply-to": 5
+      },
+      "score": 0.935
+    },
+    "jonathan.is": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.121
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.121
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

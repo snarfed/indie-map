@@ -1,0 +1,197 @@
+{
+  "domain": "jasrandal.withknown.com",
+  "urls": [
+    "https://jasrandal.withknown.com/profile/jasrandal",
+    "http://cristaos.org",
+    "http://randal.us",
+    "http://forthrightpress.com",
+    "http://randalmatheny.com"
+  ],
+  "names": [
+    "Randal",
+    "Randal's Known Whereabouts",
+    "JasRandal"
+  ],
+  "descriptions": [
+    "\"Consider your ways\" Hag 1.5 / \"Pensem bem em seus caminhos\" Ag 1.5",
+    "Life in Christ, vibrant faith, dedication in service to God"
+  ],
+  "pictures": [
+    "https://jasrandal.withknown.com/file/5c749cc72708a3089b818f8cb2c139cd/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Randal"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>\"Consider your ways\" Hag 1.5 / \"Pensem bem em seus caminhos\" Ag 1.5</p>\n</div> ",
+          "value": "\n\"Consider your ways\" Hag 1.5 / \"Pensem bem em seus caminhos\" Ag 1.5\n "
+        }
+      ],
+      "photo": [
+        "https://jasrandal.withknown.com/file/5c749cc72708a3089b818f8cb2c139cd/thumb.jpg"
+      ],
+      "profile": [
+        "Randal"
+      ],
+      "url": [
+        "https://jasrandal.withknown.com/profile/jasrandal",
+        "https://jasrandal.withknown.com/profile/jasrandal",
+        "http://cristaos.org",
+        "http://randal.us",
+        "http://forthrightpress.com",
+        "http://randalmatheny.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://cristaos.org",
+    "http://randal.us",
+    "http://forthrightpress.com",
+    "http://randalmatheny.com"
+  ],
+  "crawl_start": "2017-04-28T23:35:14",
+  "crawl_end": "2017-04-29T01:35:11",
+  "num_pages": 10107,
+  "total_html_size": 243540243,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-event",
+    "h-card",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://jasrandal.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://jasrandal.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://jasrandal.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://jasrandal.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 51401,
+  "links_in": 112,
+  "links": {
+    "randalmatheny.com": {
+      "out": {
+        "other": 11931
+      },
+      "in": {
+        "other": 31
+      },
+      "score": 1
+    },
+    "believingprayer.com": {
+      "out": {
+        "other": 1665,
+        "in-reply-to": 78
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.824
+    },
+    "stream.withknown.com": {
+      "out": {
+        "other": 34,
+        "in-reply-to": 24
+      },
+      "in": {
+        "other": 36,
+        "in-reply-to": 8
+      },
+      "score": 0.589
+    },
+    "aralbalkan.com": {
+      "out": {
+        "other": 6,
+        "in-reply-to": 12
+      },
+      "score": 0.483
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "in-reply-to": 10
+      },
+      "score": 0.456
+    },
+    "werd.io": {
+      "in": {
+        "other": 10
+      },
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.421
+    },
+    "withknown.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.297
+    },
+    "waterpigs.co.uk": {
+      "out": {
+        "other": 6
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.274
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.228
+    },
+    "brid.gy": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.218
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.218
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0686
+    }
+  }
+}

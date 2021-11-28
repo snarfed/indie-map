@@ -1,0 +1,212 @@
+{
+  "domain": "webgefrickel.de",
+  "urls": [
+    "https://webgefrickel.de",
+    "https://twitter.com/webgefrickel",
+    "https://github.com/webgefrickel"
+  ],
+  "names": [
+    "Steffen Rademacker",
+    "webgefrickel — web development, fuck yeah!",
+    "webgefrickel"
+  ],
+  "descriptions": [
+    "Frontend web development, CMS-Integration and workshops — handmade in Leipzig with lots of love."
+  ],
+  "pictures": [
+    "https://webgefrickel.de/me.jpg",
+    "https://webgefrickel.de/assets/img/favicon-32x32.png",
+    "https://webgefrickel.de/assets/img/favicon-16x16.png",
+    "https://webgefrickel.de/preview.png",
+    "https://webgefrickel.de/assets/img/apple-touch-icon.png"
+  ],
+  "hcard": {
+    "properties": {
+      "country-name": [
+        "Germany"
+      ],
+      "email": [
+        "mailto:kontakt@webgefrickel.de"
+      ],
+      "latitude": [
+        "51.32402"
+      ],
+      "locality": [
+        "Leipzig"
+      ],
+      "longitude": [
+        "12.33618"
+      ],
+      "name": [
+        "Steffen Rademacker"
+      ],
+      "photo": [
+        "https://webgefrickel.de/me.jpg"
+      ],
+      "postal-code": [
+        "04229"
+      ],
+      "street-address": [
+        "Erich-Zeigner-Allee 64a"
+      ],
+      "tel": [
+        "+49 177 55 33 074"
+      ],
+      "url": [
+        "https://webgefrickel.de",
+        "https://twitter.com/webgefrickel",
+        "https://github.com/webgefrickel"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/webgefrickel",
+    "https://github.com/webgefrickel",
+    "https://keybase.io/webgefrickel"
+  ],
+  "crawl_start": "2017-04-30T03:13:58",
+  "crawl_end": "2017-04-30T03:14:24",
+  "num_pages": 44,
+  "total_html_size": 687233,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webgefrickel.de/webmention"
+    ],
+    "micropub": [
+      "https://webgefrickel.de/micropub.php"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 234,
+  "links_in": 150,
+  "links": {
+    "aaronparecki.com": {
+      "in": {
+        "other": 12,
+        "in-reply-to": 7,
+        "like-of": 7
+      },
+      "score": 0.871
+    },
+    "webmention.rocks": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.792
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 42
+      },
+      "score": 0.792
+    },
+    "waterpigs.co.uk": {
+      "in": {
+        "other": 28
+      },
+      "score": 0.706
+    },
+    "www.webrocker.de": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 21
+      },
+      "score": 0.665
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.466
+    },
+    "justonestep.de": {
+      "in": {
+        "like-of": 1,
+        "other": 4
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.441
+    },
+    "matthiasott.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.441
+    },
+    "adactio.com": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.379
+    },
+    "brid.gy": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.379
+    },
+    "fmarx.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "www.aaron-gustafson.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.147
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.147
+    },
+    "beyondtellerrand.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

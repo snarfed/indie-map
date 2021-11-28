@@ -1,0 +1,892 @@
+{
+  "domain": "bowlhat.net",
+  "urls": [
+    "https://bowlhat.net/"
+  ],
+  "names": [
+    "Bowl Hat",
+    "Web Development agency specialising in WordPress | Bowl Hat"
+  ],
+  "descriptions": [
+    "Bowl Hat is the trading name of Daniel Llewellyn, a freelance WordPress Developer. We develop bespoke themes and plugins for WordPress web sites."
+  ],
+  "pictures": [
+    "https://bowlhat.net/wp-content/themes/wireframe/images/favicon.png",
+    "https://i1.wp.com/bowlhat.net/wp-content/uploads/2016/04/cropped-logo-no-background.png?fit=32%2C32&ssl=1",
+    "https://i1.wp.com/bowlhat.net/wp-content/uploads/2016/04/cropped-logo-no-background.png?fit=192%2C192&ssl=1"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/diddledan",
+    "https://plus.google.com/https://plus.google.com/+DanielLlewellynJNR",
+    "https://twitter.com/diddledan",
+    "https://www.facebook.com/diddledan",
+    "https://last.fm/user/diddledan",
+    "https://www.flickr.com/people/honeymonster"
+  ],
+  "crawl_start": "2017-04-28T02:16:58",
+  "crawl_end": "2017-04-28T03:07:33",
+  "num_pages": 190,
+  "total_html_size": 7775264,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "mf2_classes": [
+    "h-as-note",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://bowlhat.net/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://bowlhat.net/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 1518,
+  "links_in": 4,
+  "links": {
+    "www.linkedin.com": {
+      "out": {
+        "other": 494
+      },
+      "score": 1
+    },
+    "github.com": {
+      "out": {
+        "other": 189
+      },
+      "score": 0.859
+    },
+    "facebook.com/bowlhat": {
+      "out": {
+        "other": 186
+      },
+      "score": 0.858
+    },
+    "plus.google.com/u": {
+      "out": {
+        "other": 186
+      },
+      "score": 0.858
+    },
+    "twitter.com/diddledan": {
+      "out": {
+        "other": 187
+      },
+      "score": 0.858
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 61
+      },
+      "score": 0.696
+    },
+    "thehoneymonster.net": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.435
+    },
+    "www.thehoneymonster.net": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.419
+    },
+    "web.archive.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.401
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.401
+    },
+    "www.theregister.co.uk": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.401
+    },
+    "ind-web.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.401
+    },
+    "news.bbc.co.uk": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.333
+    },
+    "www.apple.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.333
+    },
+    "www.microsoft.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.301
+    },
+    "www.rllewellyn.co.uk": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.259
+    },
+    "rllewellyn.co.uk": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.259
+    },
+    "www.appcelerator.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.259
+    },
+    "downloads.wordpress.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.259
+    },
+    "www.amazon.co.uk": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.259
+    },
+    "twitter.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.201
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.201
+    },
+    "www.bbc.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.201
+    },
+    "www.webhome.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.201
+    },
+    "www.hotspotsystem.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.201
+    },
+    "googleblog.blogspot.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.201
+    },
+    "make.wordpress.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.201
+    },
+    "code.google.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.201
+    },
+    "www.bang-on.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.201
+    },
+    "www.eff.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.201
+    },
+    "www.wikihow.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.201
+    },
+    "tweaks.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.201
+    },
+    "groups.google.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.201
+    },
+    "blogjet.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.201
+    },
+    "i1.wp.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.201
+    },
+    "webcomponents.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.201
+    },
+    "www.codeweavers.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.201
+    },
+    "www.adobe.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.201
+    },
+    "bit.ly": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.201
+    },
+    "www.pcworld.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "play.google.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.facebook.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.linode.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.webdesign.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.jquery.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.ubuntu.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "blog.louisgray.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "rawr.codeplex.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "seattletimes.nwsource.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "thehoneymonster.net-content": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.google.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.stalkdaily.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.tvcatchup.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.savemanydown.org.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.useit.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.colloquy.info": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.movementforactivedemocracy.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "arstechnica.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "creativecommons.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.citrix.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.nweightman.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.pgp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "i0.wp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "openid.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "customelements.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.fleshlight.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.speedtest.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "shop.polymer-project.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "vodafone.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.boxee.tv": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.three.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "getsatisfaction.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "out-law.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "pinklace.deviantart.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.gov.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "xenserver.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.conservatives.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.prevx.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "codepen.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.neowin.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.phonegap.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.techdonut.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.aikidokatech.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.ghost-house.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "diddledan.github.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "itunes.apple.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.openreach.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.android-x86.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "IND-Web.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "apps.facebook.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "svn.fedorahosted.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.codeplex.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.gnupg.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "codeweavers.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.linuxmce.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.itsecurityexpert.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.pixelmator.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "webchat.freenode.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.ico.org.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "seclists.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.libdems.org.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www1.euro.dell.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.getfirefox.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "blog.wfmu.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "spanningsync.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.boonex.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.polymer-project.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.php-compiler.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "corosync.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "lkml.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "qubes-os.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.labour.org.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "gitter.im": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.engadget.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.mcafee.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "openlivewriter.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.xyz-network.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "google.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "stackoverflow.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "wibiya.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.twitter.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.tvdr.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "xyz-network.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "oauth.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.scotprem.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "facebook.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "i2.wp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "thepiratebay.se": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.fsf.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.autoblog.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.wordpress.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.xbmc.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "profiles.wordpress.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.amazon.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.cloudflare.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "www.mythtv.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "polymer-slack.herokuapp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "domain": "blog.trdaisuke.com",
+  "urls": [
+    "https://blog.trdaisuke.com/"
+  ],
+  "names": [
+    "blog.trdaisuke – my nerdy hobby blog",
+    "blog.trdaisuke"
+  ],
+  "descriptions": [
+    "my nerdy hobby blog"
+  ],
+  "pictures": [
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/drkokandy",
+    "https://twitter.com/trdaisuke",
+    "https://last.fm/user/Perianhamlet"
+  ],
+  "crawl_start": "2017-04-28T02:16:02",
+  "crawl_end": "2017-04-28T02:33:13",
+  "num_pages": 173,
+  "total_html_size": 6326207,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-as-note",
+    "h-as-article",
+    "h-cite",
+    "h-as-reply"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://blog.trdaisuke.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://blog.trdaisuke.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 2239,
+  "links_in": 543,
+  "links": {
+    "trdaisuke.moe": {
+      "out": {
+        "other": 361
+      },
+      "score": 1
+    },
+    "known.trdaisuke.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 529
+      },
+      "score": 0.954
+    },
+    "davekokandy.com": {
+      "out": {
+        "other": 79
+      },
+      "in": {
+        "other": 11
+      },
+      "score": 0.780
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.105
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

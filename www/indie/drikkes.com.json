@@ -1,0 +1,182 @@
+{
+  "domain": "drikkes.com",
+  "urls": [
+    "http://drikkes.com/"
+  ],
+  "names": [
+    ".",
+    "drikkes.com | offielles Presseorgan Deiner Mudda",
+    "drikkes.com"
+  ],
+  "descriptions": [
+    "offielles Presseorgan Deiner Mudda"
+  ],
+  "pictures": [
+    "http://drikkes.com/wp-content/uploads/2014/07/favicon1.ico",
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "."
+      ],
+      "url": [
+        "http://drikkes.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/drikkes",
+    "http://drikkes.com/"
+  ],
+  "crawl_start": "2017-04-28T05:24:23",
+  "crawl_end": "2017-04-28T07:40:11",
+  "num_pages": 3580,
+  "total_html_size": 131966851,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-mention",
+    "h-as-reply",
+    "h-card",
+    "h-entry",
+    "h-feed"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://drikkes.com/?rest_route=/webmention/1.0/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 79288,
+  "links_in": 3710,
+  "links": {
+    "www.drikk.es": {
+      "in": {
+        "in-reply-to": 161,
+        "other": 1545
+      },
+      "out": {
+        "other": 69
+      },
+      "score": 0.783
+    },
+    "drikk.es": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 1544,
+        "in-reply-to": 161
+      },
+      "score": 0.778
+    },
+    "www.nerdcore.de": {
+      "out": {
+        "other": 209
+      },
+      "score": 0.605
+    },
+    "wirres.net": {
+      "in": {
+        "other": 76,
+        "like-of": 32
+      },
+      "out": {
+        "other": 108
+      },
+      "score": 0.588
+    },
+    "drikkes.withknown.com": {
+      "in": {
+        "in-reply-to": 34,
+        "other": 91
+      },
+      "out": {
+        "other": 16
+      },
+      "score": 0.569
+    },
+    "dasnuf.de": {
+      "out": {
+        "other": 39
+      },
+      "score": 0.436
+    },
+    "brid.gy": {
+      "in": {
+        "other": 44
+      },
+      "score": 0.378
+    },
+    "adactio.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 8
+      },
+      "score": 0.300
+    },
+    "www.leitmedium.de": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.300
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.248
+    },
+    "e13.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.248
+    },
+    "ownyourgram.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.248
+    },
+    "toomuchinformation.de": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.240
+    },
+    "known.schwenzel.de": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.179
+    },
+    "www.ogok.de": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

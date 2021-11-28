@@ -1,0 +1,109 @@
+{
+  "domain": "www.epiphanydigest.com",
+  "urls": [
+    "https://www.epiphanydigest.com/"
+  ],
+  "names": [
+    "EpiphanyDigest - Business Strategy, Marketing, Sarasota, WordPress & More...",
+    "EpiphanyDigest"
+  ],
+  "descriptions": [
+    "Business Strategy, Marketing, Sarasota, WordPress & More..."
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T06:15:51",
+  "crawl_end": "2017-04-30T08:11:52",
+  "num_pages": 786,
+  "total_html_size": 70799137,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-as-reply",
+    "h-feed",
+    "h-card",
+    "h-cite",
+    "h-as-repost",
+    "h-as-like",
+    "h-as-mention"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.epiphanydigest.com/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 11337,
+  "links_in": 173,
+  "links": {
+    "social.thedavidjohnson.com": {
+      "in": {
+        "other": 144
+      },
+      "out": {
+        "other": 54
+      },
+      "score": 0.648
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 23
+      },
+      "score": 0.555
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 33
+      },
+      "score": 0.491
+    },
+    "withknown.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.419
+    },
+    "www.kevinmarks.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.398
+    },
+    "werd.io": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.398
+    },
+    "ownyourgram.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.398
+    },
+    "stream.withknown.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.290
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.163
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0811
+    }
+  }
+}

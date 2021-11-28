@@ -1,0 +1,153 @@
+{
+  "domain": "evanminto.com",
+  "urls": [
+    "http://evanminto.com/"
+  ],
+  "names": [
+    "evan minto dot com"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://www.facebook.com/evan.minto",
+    "https://soundcloud.com/evanminto",
+    "http://evanminto.com/",
+    "http://www.linkedin.com/profile/view?id=26319108",
+    "http://twitter.com/VamptVo"
+  ],
+  "crawl_start": "2017-06-09T17:42:12",
+  "crawl_end": "2017-06-09T17:42:20",
+  "num_pages": 13,
+  "total_html_size": 41690,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "micropub": [
+      "http://evanminto.com/indieweb/micropub.php"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 41,
+  "links_in": 1,
+  "links": {
+    "www.linkedin.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 1
+    },
+    "twitter.com/VamptVo": {
+      "out": {
+        "other": 13
+      },
+      "score": 1
+    },
+    "manga.about.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.426
+    },
+    "www.anigamers.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.213
+    },
+    "otakuusamagazine.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.213
+    },
+    "grobo": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.213
+    },
+    "changes": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.213
+    },
+    "divide": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.213
+    },
+    "quitting": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.213
+    },
+    "demoreel-summer2013": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.213
+    },
+    "spark": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.213
+    },
+    "www.11secondclub.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.213
+    },
+    "hugeinc.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.213
+    },
+    "anigamers.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.213
+    },
+    "crunchyroll.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.213
+    },
+    "frame-story": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.213
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

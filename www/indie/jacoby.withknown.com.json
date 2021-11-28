@@ -1,0 +1,111 @@
+{
+  "domain": "jacoby.withknown.com",
+  "urls": [
+    "https://jacoby.withknown.com/profile/jacoby",
+    "http://twitter.com/jacobyjyoung"
+  ],
+  "names": [
+    "Jacoby Young"
+  ],
+  "descriptions": [
+    "I teach and learn with kids and adults."
+  ],
+  "pictures": [
+    "https://jacoby.withknown.com/file/47b12c22345f8d86e56a67f725d39116/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Jacoby Young"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I teach and learn with kids and adults.</p>\n</div>",
+          "value": "\nI teach and learn with kids and adults.\n"
+        }
+      ],
+      "photo": [
+        "https://jacoby.withknown.com/file/47b12c22345f8d86e56a67f725d39116/thumb.jpg"
+      ],
+      "profile": [
+        "Jacoby Young"
+      ],
+      "url": [
+        "https://jacoby.withknown.com/profile/jacoby",
+        "https://jacoby.withknown.com/profile/jacoby",
+        "http://twitter.com/jacobyjyoung"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/jacobyjyoung"
+  ],
+  "crawl_start": "2017-04-28T23:34:23",
+  "crawl_end": "2017-04-28T23:35:03",
+  "num_pages": 33,
+  "total_html_size": 884256,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://jacoby.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://jacoby.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://jacoby.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://jacoby.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 429,
+  "links_in": 8,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 35
+      },
+      "score": 0.959
+    },
+    "stream.withknown.com": {
+      "out": {
+        "other": 8
+      },
+      "in": {
+        "in-reply-to": 8
+      },
+      "score": 0.910
+    },
+    "jacobyyoung.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.314
+    }
+  }
+}

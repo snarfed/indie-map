@@ -1,0 +1,113 @@
+{
+  "domain": "dougtatom.withknown.com",
+  "urls": [
+    "http://dougtatom.withknown.com/"
+  ],
+  "names": [
+    "My Guides and current opinions"
+  ],
+  "descriptions": [
+    "Guides in the use and care of chromebooks, and Android smartphones "
+  ],
+  "pictures": [
+    "https://dougtatom.withknown.com/file/087f223072b974c89b7b1d9ac79b9b7f"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T05:23:09",
+  "crawl_end": "2017-04-28T05:23:18",
+  "num_pages": 15,
+  "total_html_size": 303834,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://dougtatom.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://dougtatom.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://dougtatom.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://dougtatom.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 46,
+  "links_in": 3,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 1
+    },
+    "facebook.com/10152821822271020": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.729
+    },
+    "onedrive.live.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.676
+    },
+    "www.dropbox.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.676
+    },
+    "www.google.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.676
+    },
+    "www.amazon.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.612
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.612
+    },
+    "facebook.com/10206208199664305": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.409
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.324
+    }
+  }
+}

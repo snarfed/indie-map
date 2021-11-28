@@ -1,0 +1,80 @@
+{
+  "domain": "switchboard.p3k.io",
+  "urls": [
+    "http://switchboard.p3k.io/"
+  ],
+  "names": [
+    "Switchboard - a WebSub Hub"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://switchboard.p3k.io/images/icons/android-icon-192x192.png",
+    "https://switchboard.p3k.io/images/icons/favicon-32x32.png",
+    "https://switchboard.p3k.io/images/icons/favicon-96x96.png",
+    "https://switchboard.p3k.io/images/icons/favicon-16x16.png",
+    "https://switchboard.p3k.io/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-07T17:36:32",
+  "crawl_end": "2017-06-07T17:36:32",
+  "num_pages": 2,
+  "total_html_size": 9957,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-x-app"
+  ],
+  "tags": [
+    "tool",
+    "webmention.io"
+  ],
+  "endpoints": {},
+  "links_out": 8,
+  "links_in": 78,
+  "links": {
+    "aaronparecki.com": {
+      "in": {
+        "other": 34
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 26
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.915
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.659
+    },
+    "telegraph.p3k.io": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.302
+    },
+    "chromic.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.190
+    },
+    "news.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.190
+    }
+  }
+}

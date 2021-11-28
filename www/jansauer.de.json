@@ -1,0 +1,79 @@
+{
+  "domain": "jansauer.de",
+  "urls": [
+    "http://jansauer.de/"
+  ],
+  "names": [
+    "Jan Sauer"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "mailto:jan@jansauer.de",
+    "https://github.com/jansauer",
+    "https://twitter.com/jansauer"
+  ],
+  "crawl_start": "2017-05-14T04:47:59",
+  "crawl_end": "2017-05-14T04:47:59",
+  "num_pages": 2,
+  "total_html_size": 4064,
+  "servers": [
+    "Caddy",
+    "Handcrafted, line by line"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-adr"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 12,
+  "links_in": 25,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 20
+      },
+      "score": 1
+    },
+    "github.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.693
+    },
+    "twitter.com/jansauer": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.693
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.463
+    },
+    "www.xing.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.463
+    },
+    "jansuer.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.463
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "domain": "kitephysics.withknown.com",
+  "urls": [
+    "http://www.manicgrant.com/profile/nickgrant",
+    "http://twitter.com/ManicGrant",
+    "http://www.facebook.com/manicgrant"
+  ],
+  "names": [
+    "Nick Grant",
+    "Manic Grant"
+  ],
+  "descriptions": [
+    "The world's longest suicide note.All opinions are my own. No investment advice intended or implied.",
+    "The world's longest suicide note"
+  ],
+  "pictures": [
+    "http://www.manicgrant.com/file/dc730ac9896ca513e8d3242268f2240b/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:nick@manicgrant.com"
+      ],
+      "name": [
+        "Nick Grant"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>The world's longest suicide note.<br/>All opinions are my own. No investment advice intended or implied.</p>\n</div> ",
+          "value": "\nThe world's longest suicide note.All opinions are my own. No investment advice intended or implied.\n "
+        }
+      ],
+      "photo": [
+        "http://www.manicgrant.com/file/dc730ac9896ca513e8d3242268f2240b/thumb.jpg"
+      ],
+      "profile": [
+        "Nick Grant"
+      ],
+      "url": [
+        "http://www.manicgrant.com/profile/nickgrant",
+        "http://www.manicgrant.com/profile/nickgrant",
+        "http://twitter.com/ManicGrant",
+        "http://www.facebook.com/manicgrant"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/ManicGrant",
+    "mailto:nick@manicgrant.com",
+    "http://www.facebook.com/manicgrant"
+  ],
+  "tags": [
+    "relme",
+    "bridgy"
+  ],
+  "endpoints": {},
+  "crawl_start": "2017-05-19T23:21:14.114016",
+  "crawl_end": "2017-05-19T23:21:14.114016",
+  "links_out": 0,
+  "links_in": 27,
+  "links": {
+    "werd.io": {
+      "in": {
+        "other": 2,
+        "in-reply-to": 6
+      },
+      "score": 1
+    },
+    "www.manicgrant.com": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.761
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.401
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

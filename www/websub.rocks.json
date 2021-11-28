@@ -1,0 +1,64 @@
+{
+  "domain": "websub.rocks",
+  "urls": [
+    "http://websub.rocks/"
+  ],
+  "names": [
+    "WebSub Rocks!"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-07T17:36:29",
+  "crawl_end": "2017-06-07T17:36:37",
+  "num_pages": 23,
+  "total_html_size": 161193,
+  "servers": [
+    "nginx"
+  ],
+  "tags": [
+    "tool"
+  ],
+  "endpoints": {},
+  "links_out": 5,
+  "links_in": 31,
+  "links": {
+    "aaronparecki.com": {
+      "in": {
+        "other": 27
+      },
+      "score": 1
+    },
+    "github.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.542
+    },
+    "www.w3.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.421
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.21
+    },
+    "pin13.net": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

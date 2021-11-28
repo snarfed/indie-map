@@ -1,0 +1,96 @@
+{
+  "domain": "www.eidenschink.eu",
+  "urls": [
+    "http://www.eidenschink.eu/"
+  ],
+  "names": [
+    "Bernd - Auch dieser Tag geht vorbei."
+  ],
+  "descriptions": [
+    "Auch dieser Tag geht vorbei."
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://plus.google.com/https://plus.google.com/102054778316285781551",
+    "https://twitter.com/b_eidenschink"
+  ],
+  "crawl_start": "2017-04-30T06:11:38",
+  "crawl_end": "2017-04-30T06:39:59",
+  "num_pages": 649,
+  "total_html_size": 30561299,
+  "servers": [
+    "Apache (CentOS)"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-card",
+    "h-as-repost",
+    "h-as-like",
+    "h-as-mention",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.eidenschink.eu/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 15060,
+  "links_in": 30,
+  "links": {
+    "aaronparecki.com": {
+      "out": {
+        "in-reply-to": 5,
+        "other": 650
+      },
+      "in": {
+        "other": 7
+      },
+      "score": 0.919
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.316
+    },
+    "brid.gy": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.305
+    },
+    "adactio.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.265
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.177
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0882
+    },
+    "marcthiele.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0882
+    }
+  }
+}

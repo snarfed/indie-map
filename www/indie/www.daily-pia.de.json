@@ -1,0 +1,138 @@
+{
+  "domain": "www.daily-pia.de",
+  "urls": [
+    "http://www.daily-pia.de/"
+  ],
+  "names": [
+    "Bis einer heult! • Blog von Pia Drießen seit 2002",
+    "Bis einer heult!"
+  ],
+  "descriptions": [
+    "Bis einer heult! ist ein klassisches Lifestyleblog mit dem Themenschwerpunkt Familie & Kinder.",
+    "Bis einer heult! ist ein persönliches Lifestyleblog mit dem Themenschwerpunkt Familie & Kinder."
+  ],
+  "pictures": [
+    "http://www.daily-pia.de/wp-content/uploads/2015/09/favicon-55e60c9cv1_site_icon-32x32.png",
+    "http://www.daily-pia.de/wp-content/uploads/2015/09/favicon-55e60c9cv1_site_icon-256x256.png",
+    "http://www.daily-pia.de/wp-content/uploads/2014/12/favicon-54a1c3cf_site_icon.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "http://www.twitter.com/dailypia",
+    "https://www.facebook.com/dailypia",
+    "http://www.instagram.com/dailypia",
+    "https://plus.google.com/b/118233346358306289490/+MamamiezDe/",
+    "http://www.pinterest.com/dailypia/"
+  ],
+  "crawl_start": "2017-05-06T07:19:18",
+  "crawl_end": "2017-05-06T15:50:30",
+  "num_pages": 12827,
+  "total_html_size": 805010821,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-as-reply"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.daily-pia.de/?webmention=endpoint"
+    ],
+    "micropub": [
+      "http://www.daily-pia.de/bilder/"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "http://www.daily-pia.de/token.html"
+    ]
+  },
+  "links_out": 589410,
+  "links_in": 359,
+  "links": {
+    "jademond.de": {
+      "in": {
+        "other": 16
+      },
+      "out": {
+        "other": 12832
+      },
+      "score": 0.843
+    },
+    "www.jawl.net": {
+      "out": {
+        "other": 12899
+      },
+      "in": {
+        "other": 172
+      },
+      "score": 0.843
+    },
+    "wirres.net": {
+      "out": {
+        "other": 9
+      },
+      "in": {
+        "other": 128
+      },
+      "score": 0.412
+    },
+    "brid.gy": {
+      "in": {
+        "other": 30
+      },
+      "score": 0.281
+    },
+    "dasnuf.de": {
+      "out": {
+        "other": 3
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "lostfocus.de": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.172
+    },
+    "e13.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0573
+    },
+    "isabelbogdan.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0573
+    },
+    "www.unixe.de": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "pop64.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

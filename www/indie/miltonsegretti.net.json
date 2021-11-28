@@ -1,0 +1,143 @@
+{
+  "domain": "miltonsegretti.net",
+  "urls": [
+    "http://miltonsegretti.net/profile/miltonsegretti",
+    "http://gestaltanalysis.com",
+    "https://www.facebook.com/milton.segretti",
+    "https://soundcloud.com/milton_segretti",
+    "https://twitter.com/milton_segretti",
+    "https://www.flickr.com/people/miltonsegretti/",
+    "https://plus.google.com/109321077667799454815",
+    "https://github.com/miltonsegretti"
+  ],
+  "names": [
+    "Matthew Elliott",
+    "miltonsegretti"
+  ],
+  "descriptions": [
+    "I write music, take pictures, and mess about with computers. Keeping my head above water, always out of my depth.",
+    "Keeping my head above water, always out of my depth."
+  ],
+  "pictures": [
+    "http://miltonsegretti.net/file/e2366290c31092a4b5900316344671f4/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:gestalt.analysis@gmail.com"
+      ],
+      "name": [
+        "Matthew Elliott"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I write music, take pictures, and mess about with computers. Keeping my head above water, always out of my depth.</p>\n</div> ",
+          "value": "\nI write music, take pictures, and mess about with computers. Keeping my head above water, always out of my depth.\n "
+        }
+      ],
+      "photo": [
+        "http://miltonsegretti.net/file/e2366290c31092a4b5900316344671f4/thumb.jpg"
+      ],
+      "profile": [
+        "Matthew Elliott"
+      ],
+      "url": [
+        "http://miltonsegretti.net/profile/miltonsegretti",
+        "http://miltonsegretti.net/profile/miltonsegretti",
+        "http://gestaltanalysis.com",
+        "https://www.facebook.com/milton.segretti",
+        "https://soundcloud.com/milton_segretti",
+        "https://twitter.com/milton_segretti",
+        "https://www.flickr.com/people/miltonsegretti/",
+        "https://plus.google.com/109321077667799454815",
+        "https://github.com/miltonsegretti"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://gestaltanalysis.com",
+    "https://www.facebook.com/milton.segretti",
+    "https://soundcloud.com/milton_segretti",
+    "https://twitter.com/milton_segretti",
+    "https://www.flickr.com/people/miltonsegretti/",
+    "https://plus.google.com/109321077667799454815",
+    "https://github.com/miltonsegretti",
+    "mailto:gestalt.analysis@gmail.com"
+  ],
+  "crawl_start": "2017-04-29T21:31:41",
+  "crawl_end": "2017-04-29T21:35:57",
+  "num_pages": 177,
+  "total_html_size": 3890237,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://miltonsegretti.net/webmention/"
+    ],
+    "micropub": [
+      "http://miltonsegretti.net/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "http://miltonsegretti.net/indieauth/token"
+    ],
+    "websub": [
+      "https://pubsubhubbub.appspot.com/"
+    ]
+  },
+  "links_out": 816,
+  "links_in": 20,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 187
+      },
+      "score": 1
+    },
+    "werd.io": {
+      "in": {
+        "in-reply-to": 15
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.747
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.389
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.235
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "domain": "alexhansford.uk",
+  "urls": [
+    "https://alexhansford.uk/"
+  ],
+  "names": [
+    "Alex Hansford - Passionate about technology and great digital experiences",
+    "Alex Hansford"
+  ],
+  "descriptions": [
+    "Passionate about technology and great digital experiences"
+  ],
+  "pictures": [
+    "https://alexhansford.uk/wp-content/uploads/2016/09/cropped-alexhansford-32x32.jpg",
+    "https://alexhansford.uk/wp-content/uploads/2016/09/cropped-alexhansford-192x192.jpg",
+    "https://alexhansford.uk/wp-content/uploads/2016/09/ddyqZ5FU.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/alexhansford"
+  ],
+  "crawl_start": "2017-04-27T07:52:20",
+  "crawl_end": "2017-04-27T07:54:21",
+  "num_pages": 34,
+  "total_html_size": 1114430,
+  "servers": [
+    "nginx",
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-as-audio",
+    "h-as-article",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://alexhansford.uk/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://alexhansford.uk/?micropub=endpoint",
+      "http://alexhansford.uk/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 337,
+  "links_in": 17,
+  "links": {
+    "notizblog.org": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.934
+    },
+    "brid.gy": {
+      "in": {
+        "other": 15
+      },
+      "score": 0.600
+    },
+    "werd.io": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.153
+    }
+  }
+}

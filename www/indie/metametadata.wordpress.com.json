@@ -1,0 +1,51 @@
+{
+  "domain": "metametadata.wordpress.com",
+  "urls": [
+    "https://metametadata.wordpress.com/"
+  ],
+  "names": [
+    "metametadata"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://s2.wp.com/i/favicon.ico",
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T21:31:42",
+  "crawl_end": "2017-04-29T21:32:49",
+  "num_pages": 30,
+  "total_html_size": 1414668,
+  "servers": [
+    "nginx",
+    "WordPress.com"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://brid.gy/webmention/wordpress"
+    ]
+  },
+  "links_out": 398,
+  "links_in": 43,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 43
+      },
+      "out": {
+        "other": 30
+      },
+      "score": 0.859
+    }
+  }
+}

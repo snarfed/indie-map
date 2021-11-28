@@ -1,0 +1,138 @@
+{
+  "domain": "io.donbain.com",
+  "urls": [
+    "http://io.donbain.com/profile/donbain",
+    "http://donbain.com",
+    "http://linkedin.com/in/donbain",
+    "http://facebook.com/don.m.bain",
+    "http://twitter.com/don_bain",
+    "http://ghginstitute.org/who-we-are/personnel/don-bain2"
+  ],
+  "names": [
+    "Don Bain",
+    "bain bits"
+  ],
+  "descriptions": [
+    "engineer",
+    "don bain's message center"
+  ],
+  "pictures": [
+    "http://io.donbain.com/file/fa583d34334ebda47dacfa814554c0cb/thumb.jpg",
+    "http://io.donbain.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Don Bain"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>engineer</p>\n</div>",
+          "value": "\nengineer\n"
+        }
+      ],
+      "photo": [
+        "http://io.donbain.com/file/fa583d34334ebda47dacfa814554c0cb/thumb.jpg"
+      ],
+      "profile": [
+        "Don Bain"
+      ],
+      "url": [
+        "http://io.donbain.com/profile/donbain",
+        "http://io.donbain.com/profile/donbain",
+        "http://donbain.com",
+        "http://linkedin.com/in/donbain",
+        "http://facebook.com/don.m.bain",
+        "http://twitter.com/don_bain",
+        "http://ghginstitute.org/who-we-are/personnel/don-bain2"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://donbain.com",
+    "http://linkedin.com/in/donbain",
+    "http://facebook.com/don.m.bain",
+    "http://twitter.com/don_bain",
+    "http://ghginstitute.org/who-we-are/personnel/don-bain2"
+  ],
+  "crawl_start": "2017-04-28T23:33:44",
+  "crawl_end": "2017-04-28T23:37:04",
+  "num_pages": 361,
+  "total_html_size": 11520696,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-cite",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://io.donbain.com/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 2348,
+  "links_in": 22,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 318
+      },
+      "score": 1
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.492
+    },
+    "brid.gy": {
+      "in": {
+        "other": 15
+      },
+      "score": 0.420
+    },
+    "werd.io": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.384
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.356
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.215
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.107
+    }
+  }
+}

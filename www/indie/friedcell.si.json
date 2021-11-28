@@ -1,0 +1,135 @@
+{
+  "domain": "friedcell.si",
+  "urls": [
+    "http://friedcell.si/"
+  ],
+  "names": [
+    "Marko MrdjenoviÄ",
+    "friedcell, also known as Marko MrdjenoviÄ"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {
+    "properties": {
+      "adr": [
+        {
+          "properties": {
+            "name": [
+              "Ljubljana, Slovenia"
+            ],
+            "url": [
+              "http://maps.google.com/maps?f=q&hl=en&geocode=&q=ljubljana,+slovenia&ie=UTF8&s=AARTsJqaLINrxFaNCwFuIdZTJ9lGFQbvJA&ll=46.078947,14.507446&spn=1.080238,2.359314&t=h&z=11&iwloc=addr"
+            ]
+          },
+          "type": [
+            "h-adr"
+          ],
+          "value": "Ljubljana, Slovenia"
+        }
+      ],
+      "name": [
+        "Marko MrdjenoviÄ"
+      ],
+      "url": [
+        "http://friedcell.si/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://github.com/friedcell",
+    "http://friedcell.si/",
+    "http://friedcell.si/outbreak/",
+    "https://twitter.com/friedcell",
+    "http://linkedin.com/in/friedcell",
+    "http://facebook.com/friedcell"
+  ],
+  "crawl_start": "2017-06-09T17:44:08",
+  "crawl_end": "2017-06-09T17:49:06",
+  "num_pages": 378,
+  "total_html_size": 7187060,
+  "servers": [
+    "cloudflare-nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-event",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "WordPress"
+  ],
+  "endpoints": {},
+  "links_out": 5477,
+  "links_in": 10,
+  "links": {
+    "friedcellcollective.net": {
+      "out": {
+        "other": 405
+      },
+      "score": 1
+    },
+    "huffduffer.com": {
+      "out": {
+        "other": 357
+      },
+      "score": 0.981
+    },
+    "markos.gaivo.net": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 16
+      },
+      "score": 0.527
+    },
+    "meyerweb.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.431
+    },
+    "adactio.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.370
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.267
+    },
+    "www.kryogenix.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.207
+    },
+    "www.petragregorova.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.103
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.103
+    },
+    "tantek.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.103
+    }
+  }
+}

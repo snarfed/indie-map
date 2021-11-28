@@ -1,0 +1,74 @@
+{
+  "domain": "megaphone.geeb.us",
+  "urls": [
+    "http://megaphone.geeb.us/"
+  ],
+  "names": [
+    "Whispering Through A Megaphone"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T14:46:27",
+  "crawl_end": "2017-04-29T18:59:19",
+  "num_pages": 1480,
+  "total_html_size": 77341738,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-image",
+    "h-as-video",
+    "h-as-article",
+    "h-as-page",
+    "h-feed",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://megaphone.geeb.us/?webmention=endpoint"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 15658,
+  "links_in": 24,
+  "links": {
+    "notizblog.org": {
+      "out": {
+        "other": 1480
+      },
+      "score": 0.898
+    },
+    "brid.gy": {
+      "in": {
+        "other": 21
+      },
+      "score": 0.342
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0779
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

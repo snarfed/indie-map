@@ -1,0 +1,62 @@
+{
+  "domain": "afanatical.com",
+  "urls": [
+    "http://afanatical.com/"
+  ],
+  "names": [
+    "afanatical – not characterized by an extreme, uncritical enthusiasm"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/afanatical",
+    "http://twitter.com/afanatical"
+  ],
+  "crawl_start": "2017-06-09T17:33:26",
+  "crawl_end": "2017-06-09T17:33:31",
+  "num_pages": 8,
+  "total_html_size": 87992,
+  "servers": [
+    "Apache (CentOS) OpenSSLe-fips PHP",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-entry",
+    "h-card",
+    "h-feed",
+    "h-as-page",
+    "h-as-article"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://afanatical.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 22,
+  "links_in": 0,
+  "links": {
+    "notiz.blog": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.895
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.250
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "domain": "tobias.withknown.com",
+  "urls": [
+    "https://tobias.withknown.com/profile/tobias",
+    "http://www.englert.it",
+    "https://twitter.com/tobias_englert"
+  ],
+  "names": [
+    "Tobias Englert",
+    "Tobias' adventures"
+  ],
+  "descriptions": [
+    "I like adventures.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://tobias.withknown.com/file/e40059b4f247a4d4a2f1d758560e0cc3/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Tobias Englert"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I like adventures.</p>\n</div>",
+          "value": "\nI like adventures.\n"
+        }
+      ],
+      "photo": [
+        "https://tobias.withknown.com/file/e40059b4f247a4d4a2f1d758560e0cc3/thumb.jpg"
+      ],
+      "profile": [
+        "Tobias Englert"
+      ],
+      "url": [
+        "https://tobias.withknown.com/profile/tobias",
+        "https://tobias.withknown.com/profile/tobias",
+        "http://www.englert.it",
+        "https://twitter.com/tobias_englert"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.englert.it",
+    "https://twitter.com/tobias_englert"
+  ],
+  "crawl_start": "2017-04-30T02:53:00",
+  "crawl_end": "2017-04-30T02:53:12",
+  "num_pages": 18,
+  "total_html_size": 370997,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://tobias.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 72,
+  "links_in": 8,
+  "links": {
+    "snarfed.org": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 4
+      },
+      "in": {
+        "other": 4,
+        "in-reply-to": 1
+      },
+      "score": 1
+    },
+    "twitter.com/tobias_englert": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.842
+    },
+    "facebook.com/831196246941674": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.824
+    },
+    "www.englert.it": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.765
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "out": {
+        "other": 8
+      },
+      "score": 0.728
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.515
+    },
+    "facebook.com/802987493084489": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.344
+    },
+    "facebook.com/1059156007433864": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.344
+    },
+    "twitter.com/_Roberto_5": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.344
+    },
+    "facebook.com/10203638065540463": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.344
+    },
+    "facebook.com/10152762559877054": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.344
+    },
+    "facebook.com/10203375515017800": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.344
+    }
+  }
+}

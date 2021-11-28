@@ -1,0 +1,102 @@
+{
+  "domain": "bradwinter.withknown.com",
+  "urls": [
+    "https://bradwinter.withknown.com/profile/djbdjbdjb",
+    "http://bradwinter.ca"
+  ],
+  "names": [
+    "brad winter"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://bradwinter.withknown.com/gfx/users/default-03.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "brad winter"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "https://bradwinter.withknown.com/gfx/users/default-03.png"
+      ],
+      "profile": [
+        "brad winter"
+      ],
+      "url": [
+        "https://bradwinter.withknown.com/profile/djbdjbdjb",
+        "https://bradwinter.withknown.com/profile/djbdjbdjb",
+        "http://bradwinter.ca"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://bradwinter.withknown.com/bradwinter.ca",
+    "http://bradwinter.ca"
+  ],
+  "crawl_start": "2017-04-28T02:17:18",
+  "crawl_end": "2017-04-28T02:17:26",
+  "num_pages": 17,
+  "total_html_size": 353714,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://bradwinter.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://bradwinter.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://bradwinter.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://bradwinter.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 9,
+  "links_in": 2,
+  "links": {
+    "bradwinter.ca": {
+      "out": {
+        "other": 9
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.240
+    }
+  }
+}

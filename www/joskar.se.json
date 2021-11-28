@@ -1,0 +1,264 @@
+{
+  "domain": "joskar.se",
+  "urls": [
+    "https://joskar.se/",
+    "https://github.com/ojohnny",
+    "https://twitter.com/johnnyoskarsson",
+    "https://mubi.com/users/1429918",
+    "skype:joskar.se"
+  ],
+  "names": [
+    "Johnny Oskarsson"
+  ],
+  "descriptions": [
+    "En teknolog från Göteborgstrakten vars intressen varierar kraftigt."
+  ],
+  "pictures": [
+    "https://joskar.se/joskar.jpg"
+  ],
+  "hcard": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "properties": {
+                  "comments": [
+                    "2"
+                  ],
+                  "name": [
+                    "2 kommentarer"
+                  ]
+                },
+                "type": [
+                  "h-x-stats"
+                ]
+              }
+            ],
+            "properties": {
+              "name": [
+                "Tentaveckor och kommentarer i marginalen"
+              ],
+              "published": [
+                "2014-10-31T22:07:36+0100"
+              ],
+              "summary": [
+                "Tentaveckor och kommentarer i marginalen"
+              ],
+              "url": [
+                "https://joskar.se/2014/tentaveckor-och-kommentarer-i-marginalen"
+              ]
+            },
+            "type": [
+              "h-entry"
+            ]
+          },
+          {
+            "children": [
+              {
+                "properties": {
+                  "comments": [
+                    "3"
+                  ],
+                  "name": [
+                    "3 kommentarer"
+                  ]
+                },
+                "type": [
+                  "h-x-stats"
+                ]
+              }
+            ],
+            "properties": {
+              "name": [
+                "Nu kan jag ta emot kommentarer via webmention på den här sidan (hoppas jag). Testa!"
+              ],
+              "published": [
+                "2014-10-23T23:23:00+0200"
+              ],
+              "summary": [
+                "Nu kan jag ta emot kommentarer via webmention på den här sidan (hoppas jag). Testa!"
+              ],
+              "url": [
+                "https://joskar.se/2014/kommentarer-via-webmention"
+              ]
+            },
+            "type": [
+              "h-entry"
+            ]
+          }
+        ],
+        "properties": {
+          "name": [
+            "Saker jag har sagt på internet"
+          ]
+        },
+        "type": [
+          "h-feed"
+        ]
+      }
+    ],
+    "properties": {
+      "email": [
+        "mailto:jo%40joskar.se"
+      ],
+      "locality": [
+        "Göteborg"
+      ],
+      "name": [
+        "Johnny Oskarsson"
+      ],
+      "note": [
+        {
+          "html": "En <span class=\"p-role\">teknolog</span> från <span class=\"p-locality\">Göteborg</span>strakten vars intressen varierar kraftigt.",
+          "value": "En teknolog från Göteborgstrakten vars intressen varierar kraftigt."
+        }
+      ],
+      "photo": [
+        "https://joskar.se/joskar.jpg"
+      ],
+      "role": [
+        "teknolog"
+      ],
+      "uid": [
+        "https://joskar.se/"
+      ],
+      "url": [
+        "https://joskar.se/",
+        "https://github.com/ojohnny",
+        "https://twitter.com/johnnyoskarsson",
+        "https://mubi.com/users/1429918",
+        "skype:joskar.se"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://joskar.se/",
+    "https://github.com/ojohnny",
+    "https://twitter.com/johnnyoskarsson",
+    "https://mubi.com/users/1429918",
+    "skype:joskar.se",
+    "mailto:jo%40joskar.se"
+  ],
+  "crawl_start": "2017-04-24T08:21:10",
+  "crawl_end": "2017-04-24T08:21:31",
+  "num_pages": 12,
+  "total_html_size": 34245,
+  "servers": [
+    "Apache (Debian)"
+  ],
+  "mf2_classes": [
+    "h-x-stats",
+    "h-card",
+    "h-entry",
+    "h-feed"
+  ],
+  "tags": [
+    "relme",
+    "IRC"
+  ],
+  "endpoints": {},
+  "links_out": 26,
+  "links_in": 674,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 441
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 211
+      },
+      "score": 0.878
+    },
+    "aaronparecki.com": {
+      "in": {
+        "in-reply-to": 7,
+        "other": 7
+      },
+      "score": 0.614
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.455
+    },
+    "kartikprabhu.com": {
+      "in": {
+        "in-reply-to": 2,
+        "other": 1
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.445
+    },
+    "exam-weeks-and-comments-on-the-side": {
+      "out": {
+        "in-reply-to": 1
+      },
+      "score": 0.378
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.294
+    },
+    "mailto": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.228
+    },
+    "jeena.net": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.228
+    },
+    "twitter.com/johnnyoskarsson": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.228
+    },
+    "github.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.228
+    },
+    "kommentarer-via-webmention": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.228
+    },
+    "skype": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.228
+    },
+    "mubi.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.228
+    },
+    "gregorlove.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "domain": "junkfoodkoch.withknown.com",
+  "urls": [
+    "https://junkfoodkoch.withknown.com/profile/junkfoodkoch",
+    "http://twitter.com/Junkfoodkoch"
+  ],
+  "names": [
+    "Maddin",
+    "Junkfoodkoch "
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://junkfoodkoch.withknown.com/gfx/users/default-04.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Maddin"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "https://junkfoodkoch.withknown.com/gfx/users/default-04.png"
+      ],
+      "profile": [
+        "Maddin"
+      ],
+      "url": [
+        "https://junkfoodkoch.withknown.com/profile/junkfoodkoch",
+        "https://junkfoodkoch.withknown.com/profile/junkfoodkoch",
+        "http://twitter.com/Junkfoodkoch "
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://junkfoodkoch.withknown.com/twitter.com/Junkfoodkoch ",
+    "http://twitter.com/Junkfoodkoch "
+  ],
+  "crawl_start": "2017-04-29T04:31:37",
+  "crawl_end": "2017-04-29T04:31:50",
+  "num_pages": 31,
+  "total_html_size": 548219,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://junkfoodkoch.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 27,
+  "links_in": 2,
+  "links": {
+    "twitter.com/Junkfoodkoch ": {
+      "out": {
+        "other": 27
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

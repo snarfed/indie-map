@@ -1,0 +1,95 @@
+{
+  "domain": "debbie.today",
+  "urls": [
+    "http://debbie.today/"
+  ],
+  "names": [
+    "debbie.today – living and learning"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/deieio",
+    "http://www.instagram.com/deieio",
+    "mailto:talk@debbie.today"
+  ],
+  "crawl_start": "2017-04-28T05:17:47",
+  "crawl_end": "2017-04-28T06:00:08",
+  "num_pages": 1628,
+  "total_html_size": 57339378,
+  "servers": [
+    "LiteSpeed"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-cite",
+    "h-entry",
+    "h-as-image",
+    "h-card",
+    "h-as-note",
+    "h-as-bookmark"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://debbie.today/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://debbie.today/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 11744,
+  "links_in": 483,
+  "links": {
+    "indieweb.org": {
+      "out": {
+        "other": 144
+      },
+      "score": 0.645
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.301
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0789
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0789
+    },
+    "werd.io": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0789
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

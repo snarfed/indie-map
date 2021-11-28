@@ -1,0 +1,65 @@
+{
+  "domain": "breakingthewaves.de",
+  "urls": [
+    "http://breakingthewaves.de/"
+  ],
+  "names": [
+    "BREAKING THE WAVES -",
+    "BREAKING THE WAVES"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T02:17:26",
+  "crawl_end": "2017-04-28T03:17:03",
+  "num_pages": 368,
+  "total_html_size": 14202757,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-reply",
+    "h-custom-headline",
+    "h-feed",
+    "h-as-article",
+    "h-as-note",
+    "h-as-mention",
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://breakingthewaves.de/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://breakingthewaves.de/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 7565,
+  "links_in": 0,
+  "links": {
+    "e13.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0899
+    }
+  }
+}

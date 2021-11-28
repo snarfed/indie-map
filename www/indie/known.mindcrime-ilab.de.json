@@ -1,0 +1,78 @@
+{
+  "domain": "known.mindcrime-ilab.de",
+  "urls": [
+    "http://known.mindcrime-ilab.de/"
+  ],
+  "names": [
+    "{M}indcrime - always known",
+    "{M}indcrime"
+  ],
+  "descriptions": [
+    "Social web site"
+  ],
+  "pictures": [
+    "http://known.mindcrime-ilab.de/file/92868da783f7841b4c44d7a7e360552d"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T04:36:31",
+  "crawl_end": "2017-04-29T04:54:54",
+  "num_pages": 870,
+  "total_html_size": 14569889,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.mindcrime-ilab.de/webmention/"
+    ],
+    "micropub": [
+      "http://known.mindcrime-ilab.de/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://known.mindcrime-ilab.de/indieauth/auth"
+    ],
+    "token": [
+      "http://known.mindcrime-ilab.de/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1376,
+  "links_in": 3,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 870
+      },
+      "score": 1
+    },
+    "www.epischel.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.186
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.147
+    }
+  }
+}

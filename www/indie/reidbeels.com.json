@@ -1,0 +1,78 @@
+{
+  "domain": "reidbeels.com",
+  "urls": [
+    "http://reidbeels.com/"
+  ],
+  "names": [
+    "Reid Beels"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/reidab",
+    "https://github.com/reidab",
+    "mailto:mail@reidbeels.com",
+    "sms:+15039286759"
+  ],
+  "crawl_start": "2017-06-10T01:42:18",
+  "crawl_end": "2017-06-10T01:42:34",
+  "num_pages": 21,
+  "total_html_size": 83838,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 69,
+  "links_in": 64,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 28
+      },
+      "score": 1
+    },
+    "geoloqi.com": {
+      "in": {
+        "other": 22
+      },
+      "score": 0.928
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.586
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.417
+    },
+    "tantek.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.208
+    },
+    "lifeofaudrey.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.208
+    },
+    "www.flutterby.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

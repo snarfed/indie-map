@@ -1,0 +1,78 @@
+{
+  "domain": "creation.net",
+  "urls": [
+    "http://channy.creation.net",
+    "http://channy.creation.net/"
+  ],
+  "names": [
+    "Channy Yun",
+    " :: Channy's Blog",
+    "Channy's Blog"
+  ],
+  "descriptions": [
+    "Open Web Evangelist"
+  ],
+  "pictures": [
+    "http://channy.creation.net/images/channy-profile.png",
+    "http://s7.addthis.com/static/r07/images000/follow/svg/rss.svg"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "channy@creation.net"
+      ],
+      "name": [
+        "Channy Yun"
+      ],
+      "note": [
+        "Open Web Evangelist"
+      ],
+      "photo": [
+        "http://channy.creation.net/images/channy-profile.png"
+      ],
+      "url": [
+        "http://channy.creation.net"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://channy.creation.net",
+    "https://facebook.com/channyblog",
+    "https://twitter.com/channyun",
+    "https://linkedin.com/in/channy",
+    "http://plus.google.com/108919073072673973649",
+    "http://youtube.com/user/channy",
+    "https://github.com/channy"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "crawl_start": "2017-06-11T14:41:25.082624",
+  "crawl_end": "2017-06-11T14:41:25.082624",
+  "links_out": 0,
+  "links_in": 8,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 1
+    },
+    "channy.creation.net": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.499
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.499
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "domain": "blog.vrypan.net",
+  "urls": [
+    "http://blog.vrypan.net/"
+  ],
+  "names": [
+    "blog.vrypan.net"
+  ],
+  "descriptions": [
+    "a personal blog."
+  ],
+  "pictures": [
+    "https://blog.vrypan.net/assets/img/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T02:16:01",
+  "crawl_end": "2017-04-28T02:20:28",
+  "num_pages": 605,
+  "total_html_size": 6646854,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "IRC",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.listnr.net/webmention"
+    ]
+  },
+  "links_out": 4561,
+  "links_in": 92,
+  "links": {
+    "www.vrypan.net": {
+      "out": {
+        "other": 1850
+      },
+      "in": {
+        "other": 7
+      },
+      "score": 1
+    },
+    "aaronparecki.com": {
+      "in": {
+        "in-reply-to": 10
+      },
+      "score": 0.476
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 32
+      },
+      "score": 0.422
+    },
+    "known.kylewm.com": {
+      "in": {
+        "in-reply-to": 6
+      },
+      "score": 0.414
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.376
+    },
+    "vrypan.net": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.365
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 15
+      },
+      "score": 0.330
+    },
+    "kylewm.com": {
+      "in": {
+        "in-reply-to": 2,
+        "other": 1
+      },
+      "score": 0.292
+    },
+    "brid.gy": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.292
+    },
+    "superfeedr.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.253
+    },
+    "webmention.io": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.218
+    },
+    "scripting.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.218
+    },
+    "blog.superfeedr.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.169
+    },
+    "adactio.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.134
+    },
+    "thecommandline.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0843
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.0843
+    },
+    "tantek.com": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.0843
+    },
+    "tent.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0843
+    },
+    "writing.natwelch.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "kartikprabhu.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "waterpigs.co.uk": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

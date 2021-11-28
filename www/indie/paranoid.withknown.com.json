@@ -1,0 +1,104 @@
+{
+  "domain": "paranoid.withknown.com",
+  "urls": [
+    "https://paranoid.withknown.com/profile/@smaugdragon",
+    "https://twitter.com/SmaugDragon"
+  ],
+  "names": [
+    "@smaugdragon",
+    "paranoia is real",
+    "paranoidpress.com"
+  ],
+  "descriptions": [
+    "It's just me.",
+    "paranoidpress.com POSSE."
+  ],
+  "pictures": [
+    "https://paranoid.withknown.com/file/60661dc06473b9f8a659613fe6af2040/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "@smaugdragon"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>It's just me.</p>\n</div>",
+          "value": "\nIt's just me.\n"
+        }
+      ],
+      "photo": [
+        "https://paranoid.withknown.com/file/60661dc06473b9f8a659613fe6af2040/thumb.jpg"
+      ],
+      "profile": [
+        "@smaugdragon"
+      ],
+      "url": [
+        "https://paranoid.withknown.com/profile/@smaugdragon",
+        "https://paranoid.withknown.com/profile/@smaugdragon",
+        "https://twitter.com/SmaugDragon"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/SmaugDragon"
+  ],
+  "crawl_start": "2017-04-30T01:58:11",
+  "crawl_end": "2017-04-30T02:03:21",
+  "num_pages": 435,
+  "total_html_size": 10919129,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://paranoid.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://paranoid.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://paranoid.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://paranoid.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1534,
+  "links_in": 2,
+  "links": {
+    "paranoidpress.com": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.638
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.108
+    }
+  }
+}

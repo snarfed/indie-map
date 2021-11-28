@@ -1,0 +1,320 @@
+{
+  "domain": "webmention.io",
+  "urls": [
+    "http://webmention.io/"
+  ],
+  "names": [
+    "Webmention.io"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T03:14:23",
+  "crawl_end": "2017-04-30T03:14:23",
+  "num_pages": 1,
+  "total_html_size": 8344,
+  "servers": [
+    "nginx + Phusion Passenger 5.1.2"
+  ],
+  "tags": [
+    "bridgy",
+    "tool",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/pingback/webmention"
+    ]
+  },
+  "links_out": 6,
+  "links_in": 1950,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 959
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 474
+      },
+      "score": 0.897
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 163
+      },
+      "score": 0.744
+    },
+    "adactio.com": {
+      "in": {
+        "other": 113
+      },
+      "score": 0.689
+    },
+    "wirres.net": {
+      "in": {
+        "other": 60
+      },
+      "score": 0.595
+    },
+    "waterpigs.co.uk": {
+      "in": {
+        "other": 37
+      },
+      "score": 0.525
+    },
+    "kylewm.com": {
+      "in": {
+        "other": 19
+      },
+      "score": 0.428
+    },
+    "known.schwenzel.de": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.384
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.335
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.335
+    },
+    "rhiaro.co.uk": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.320
+    },
+    "eddiehinkle.com": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.303
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.261
+    },
+    "planet.communia.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.261
+    },
+    "github.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.261
+    },
+    "www.svenknebel.de": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.234
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.234
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.202
+    },
+    "miklb.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "martymcgui.re": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "blog.vrypan.net": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.160
+    },
+    "jothut.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.160
+    },
+    "unrelenting.technology": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.160
+    },
+    "kartikprabhu.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.101
+    },
+    "www.peterbouda.eu": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.101
+    },
+    "chromic.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.101
+    },
+    "jfrndz.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.101
+    },
+    "prettygoodhat.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.101
+    },
+    "sockethub.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.101
+    },
+    "nicolas-hoizey.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.101
+    },
+    "tilde.club": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.101
+    },
+    "luxagraf.net": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.101
+    },
+    "jrenslin.de": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.101
+    },
+    "matienzo.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.101
+    },
+    "webmention.net": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "rix.si": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.kunimiya.info": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.aaron-gustafson.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "bastianallgeier.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "sixtwothree.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "sf3soft.net": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "snarfed.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "gregorlove.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "indiewebify.me": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "peterbouda.eu": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "whatthefuck.computer": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

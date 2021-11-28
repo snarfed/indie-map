@@ -1,0 +1,84 @@
+{
+  "domain": "lence.net",
+  "urls": [
+    "https://lence.net",
+    "https://lence.net/index.html"
+  ],
+  "names": [
+    "R\nPrimus",
+    "R Primus - A peek into some of my interests."
+  ],
+  "descriptions": [
+    "This is the home page of R. Primus - a geek interested in many aspects of computing, currently UNIX systems administration and functional programming using Erlang, perl and Scheme."
+  ],
+  "pictures": [
+    "https://lence.net/images/icons/favico/extra/animated_favicon1.gif",
+    "https://lence.net/images/mu.png"
+  ],
+  "hcard": {
+    "properties": {
+      "adr": [
+        {
+          "properties": {
+            "country-name": [
+              "England"
+            ],
+            "locality": [
+              "London"
+            ],
+            "name": [
+              "London England"
+            ]
+          },
+          "type": [
+            "h-adr"
+          ],
+          "value": "London England"
+        }
+      ],
+      "name": [
+        "R\nPrimus"
+      ],
+      "tz": [
+        "-0000"
+      ],
+      "url": [
+        "https://lence.net"
+      ]
+    },
+    "type": [
+      "h-card"
+    ],
+    "value": "R\nPrimus"
+  },
+  "rel_mes": [
+    "https://lence.net"
+  ],
+  "crawl_start": "2017-06-09T18:21:01",
+  "crawl_end": "2017-06-09T18:21:03",
+  "num_pages": 4,
+  "total_html_size": 43855,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 20,
+  "links_in": 6,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.499
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "domain": "90days.john-ellison.com",
+  "urls": [
+    "http://90days.john-ellison.com/profile/johnellison",
+    "http://john-ellison.com/",
+    "http://writings.john-ellison.com/",
+    "https://twitter.com/iamjohnellison",
+    "https://facebook.com/iamjohnellison",
+    "http://linkedin.com/in/jbellison/",
+    "https://instagram.com/jbellison11/",
+    "https://github.com/johnellison"
+  ],
+  "names": [
+    "John Ellison",
+    "90 Days"
+  ],
+  "descriptions": [
+    "Hi, I'm John Ellison. This is a 90-day blog project that chronicles some of my work experience at Clearleft as a UX Designer.",
+    "90 Days of UX Design at Clearleft"
+  ],
+  "pictures": [
+    "http://90days.john-ellison.com/file/9fbea3d9a1af233522c5a7ddd3bbf91c/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "John Ellison"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Hi, I'm John Ellison. This is a 90-day blog project that chronicles some of my work experience at Clearleft as a UX Designer.</p>\n</div>",
+          "value": "\nHi, I'm John Ellison. This is a 90-day blog project that chronicles some of my work experience at Clearleft as a UX Designer.\n"
+        }
+      ],
+      "photo": [
+        "http://90days.john-ellison.com/file/9fbea3d9a1af233522c5a7ddd3bbf91c/thumb.jpg"
+      ],
+      "profile": [
+        "John Ellison"
+      ],
+      "url": [
+        "http://90days.john-ellison.com/profile/johnellison",
+        "http://90days.john-ellison.com/profile/johnellison",
+        "http://john-ellison.com/",
+        "http://writings.john-ellison.com/",
+        "https://twitter.com/iamjohnellison",
+        "https://facebook.com/iamjohnellison",
+        "http://linkedin.com/in/jbellison/",
+        "https://instagram.com/jbellison11/",
+        "https://github.com/johnellison"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://john-ellison.com/",
+    "http://writings.john-ellison.com/",
+    "https://twitter.com/iamjohnellison",
+    "https://facebook.com/iamjohnellison",
+    "http://linkedin.com/in/jbellison/",
+    "https://instagram.com/jbellison11/",
+    "https://github.com/johnellison"
+  ],
+  "crawl_start": "2017-04-27T07:52:20",
+  "crawl_end": "2017-04-27T08:02:20",
+  "num_pages": 685,
+  "total_html_size": 25369282,
+  "servers": [
+    "nginx (Ubuntu)",
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://90days.john-ellison.com/webmention/",
+      "https://90days.john-ellison.com/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 5910,
+  "links_in": 302,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 685
+      },
+      "score": 1
+    },
+    "john-ellison.com": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 338
+      },
+      "in": {
+        "other": 11
+      },
+      "score": 0.909
+    },
+    "adactio.com": {
+      "in": {
+        "other": 113,
+        "bookmark-of": 165
+      },
+      "out": {
+        "other": 14
+      },
+      "score": 0.852
+    },
+    "www.lottejackson.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.440
+    },
+    "benjamin.parry.is": {
+      "out": {
+        "other": 8
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.392
+    }
+  }
+}

@@ -1,0 +1,797 @@
+{
+  "domain": "jimpick.com",
+  "urls": [
+    "http://jimpick.com/"
+  ],
+  "names": [
+    "Jim Pick · Jim Pick"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://jimpick.com/favicon.png",
+    "https://d33sco1twitgax.cloudfront.net/fNQG9D9SRw6oJddA2dEKNA/images/jpick-64x64-5810b878cc.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/jimpick",
+    "https://github.com/jimpick",
+    "mailto:jim@jimpick.com"
+  ],
+  "crawl_start": "2017-04-28T23:38:13",
+  "crawl_end": "2017-04-28T23:38:21",
+  "num_pages": 12,
+  "total_html_size": 201865,
+  "servers": [
+    "now",
+    "Hugo"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IWS2017",
+    "webmention.io",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/jimpick.com/webmention"
+    ],
+    "micropub": [
+      "http://demo-wcodvu.webscript.io/script"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 378,
+  "links_in": 205,
+  "links": {
+    "werd.io": {
+      "in": {
+        "other": 82
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 1
+    },
+    "twitter.com/jimpick": {
+      "out": {
+        "other": 39
+      },
+      "score": 0.984
+    },
+    "www.backblend.com": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.901
+    },
+    "github.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.892
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 33
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.837
+    },
+    "t.co": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.752
+    },
+    "medium.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.752
+    },
+    "gohugo.io": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.736
+    },
+    "twitter.com/cascadarama": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.736
+    },
+    "ca.linkedin.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.718
+    },
+    "twitter.com/camcavers": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.718
+    },
+    "www.signl.fm": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.718
+    },
+    "angel.co": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.718
+    },
+    "pinboard.in": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.718
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 24
+      },
+      "score": 0.718
+    },
+    "www.elmastudio.de": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.718
+    },
+    "tel": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.718
+    },
+    "twitter.com/hashtag": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.677
+    },
+    "www.meetup.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.625
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.542
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.519
+    },
+    "gregorlove.com": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.519
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.519
+    },
+    "www.rmendes.net": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.497
+    },
+    "news.ycombinator.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.470
+    },
+    "tantek.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.470
+    },
+    "www.aerobatic.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.404
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.404
+    },
+    "martyjs.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.404
+    },
+    "backblend.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.404
+    },
+    "www.kevinmarks.com": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.404
+    },
+    "facebook.github.io": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.404
+    },
+    "notenoughneon.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.363
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.314
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.314
+    },
+    "www.vadio.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.314
+    },
+    "twitter.com/kevinmarks": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.314
+    },
+    "herestomwiththeweather.com": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.314
+    },
+    "veganstraightedge.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.314
+    },
+    "www.polyglotconf.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.314
+    },
+    "whois.icann.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.314
+    },
+    "www.firebase.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.314
+    },
+    "akismet.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.314
+    },
+    "joyent.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.314
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.314
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.314
+    },
+    "adactio.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.314
+    },
+    "www.humanapi.co": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.314
+    },
+    "aws.amazon.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.314
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.314
+    },
+    "www.staticgen.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "donejs.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "twitter.com/PolyglotConf": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "surge.sh": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "jekyllrb.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "blog.dweek.ly": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "willdoherty.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "publishers.disqus.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "slack.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "etherpad.indiewebcamp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "metalab.co": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "kylewm.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "small-yellow-duck.github.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "2016.indieweb.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "victory.formidable.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "www.pinestreetpdx.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "posativ.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "web.archive.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "www.smashingmagazine.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "bitovi.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "www.yelp.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "www.amtrakcascades.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "dfj.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "help.disqus.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "getnexus.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "blog.opendns.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "gaearon.github.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "twitter.com/iwontsignuphere": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "yourkarma.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "stack.formidable.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "twitter.com/brianleroux": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "robsonsquare.ubc.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "twitter.com/julia_allyce": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "communitycolo.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "www.pearlfishergroup.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "twitter.com/geoffnettaglich": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "golang.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "twitter.com/daffl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "donottrack-doc.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "alternativeto.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "formidable.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "indiewebcat.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "twitter.com/aerobaticapp": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "twitter.com/ksgyoung": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "twitter.com/notmatt": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "www.tbray.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "alt.js.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "www.baileystaproom.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "www.google.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "www.bmannconsulting.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.156
+    },
+    "twitter.com/expede": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "www.galvanize.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "julia-allyce.github.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "2015.cascadiajs.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "pages.github.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "redux.js.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "www.crunchbase.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "opendns.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "tildehash.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "www.netlify.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "www.torproject.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.156
+    },
+    "twitter.com/chrismnicola": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "twitter.com/jeffbarr": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "twitter.com/jdkarmitage": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "www.dropbox.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "twitter.com/pearlfishersIT": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "docs.aws.amazon.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "www.theguardian.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.156
+    },
+    "www.aaron-gustafson.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

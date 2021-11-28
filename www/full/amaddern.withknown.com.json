@@ -1,0 +1,95 @@
+{
+  "domain": "amaddern.withknown.com",
+  "urls": [
+    "http://amaddern.withknown.com/"
+  ],
+  "names": [
+    "AM not PM"
+  ],
+  "descriptions": [
+    "the everyday life of the woman, the myth, the legend"
+  ],
+  "pictures": [
+    "https://amaddern.withknown.com/file/d24f362ecd3135d2342b9bb8c7ddc276/thumb.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-27T07:52:21",
+  "crawl_end": "2017-04-27T07:53:33",
+  "num_pages": 75,
+  "total_html_size": 2408230,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://amaddern.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 83,
+  "links_in": 6,
+  "links": {
+    "d157rqmxrxj6ey.cloudfront.net": {
+      "out": {
+        "other": 37
+      },
+      "score": 1
+    },
+    "amaddern.makes.org": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.928
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 5
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.814
+    },
+    "instagram.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.535
+    },
+    "cdn.knightlab.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.535
+    },
+    "www.amaddern.withknown.com": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 3
+      },
+      "score": 0.453
+    },
+    "jgregorymcverry.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.323
+    }
+  }
+}

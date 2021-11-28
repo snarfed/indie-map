@@ -1,0 +1,228 @@
+{
+  "domain": "jonnybarnes.uk",
+  "urls": [
+    "https://jonnybarnes.uk",
+    "https://www.facebook.com/jonnybarnes",
+    "https://twitter.com/jonnybarnes",
+    "https://github.com/jonnybarnes",
+    "https://last.fm/user/jonnymbarnes",
+    "https://open.spotify.com/user/jonnybarnes89"
+  ],
+  "names": [
+    "Jonny Barnes",
+    " Notes «\nJonny Barnes"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://jonnybarnes.uk/assets/img/jmb-bw.png"
+  ],
+  "hcard": {
+    "properties": {
+      "adr": [
+        {
+          "properties": {
+            "country-name": [
+              "United Kingdom"
+            ],
+            "locality": [
+              "Manchester"
+            ],
+            "name": [
+              "Manchester, UK"
+            ],
+            "url": [
+              "https://en.wikipedia.org/wiki/Manchester"
+            ]
+          },
+          "type": [
+            "h-adr"
+          ],
+          "value": "Manchester, UK"
+        }
+      ],
+      "author": [
+        "Jonny Barnes"
+      ],
+      "name": [
+        "Jonny Barnes"
+      ],
+      "photo": [
+        "https://jonnybarnes.uk/assets/img/jmb-bw.png"
+      ],
+      "url": [
+        "https://jonnybarnes.uk",
+        "https://www.facebook.com/jonnybarnes",
+        "https://twitter.com/jonnybarnes",
+        "https://github.com/jonnybarnes",
+        "https://last.fm/user/jonnymbarnes",
+        "https://open.spotify.com/user/jonnybarnes89"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://jonnybarnes.uk",
+    "https://www.facebook.com/jonnybarnes",
+    "https://twitter.com/jonnybarnes",
+    "https://github.com/jonnybarnes",
+    "https://last.fm/user/jonnymbarnes",
+    "https://open.spotify.com/user/jonnybarnes89"
+  ],
+  "crawl_start": "2017-04-24T07:53:16",
+  "crawl_end": "2017-04-24T08:17:27",
+  "num_pages": 1137,
+  "total_html_size": 8374342,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-feed",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "elder",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://jonnybarnes.uk/webmention"
+    ],
+    "micropub": [
+      "https://jonnybarnes.uk/api/post"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://jonnybarnes.uk/api/token"
+    ]
+  },
+  "links_out": 5693,
+  "links_in": 8541,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 5420
+      },
+      "out": {
+        "other": 1223
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 41
+      },
+      "out": {
+        "other": 1579
+      },
+      "score": 0.900
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 3021
+      },
+      "score": 0.893
+    },
+    "webmention.rocks": {
+      "out": {
+        "other": 69
+      },
+      "score": 0.550
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 26,
+        "bookmark-of": 15
+      },
+      "out": {
+        "other": 17
+      },
+      "score": 0.502
+    },
+    "waterpigs.co.uk": {
+      "out": {
+        "other": 12
+      },
+      "in": {
+        "other": 15
+      },
+      "score": 0.408
+    },
+    "quill.p3k.io": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.355
+    },
+    "tantek.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.334
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.322
+    },
+    "woodwind.xyz": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.276
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.256
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.232
+    },
+    "noahread.net": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 3
+      },
+      "score": 0.217
+    },
+    "lionzan.me": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.200
+    },
+    "micropub.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0773
+    },
+    "ben.thatmustbe.me": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

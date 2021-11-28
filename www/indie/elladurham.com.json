@@ -1,0 +1,138 @@
+{
+  "domain": "elladurham.com",
+  "urls": [
+    "http://elladurham.com/profile/ella",
+    "http://fb.com/ella.durham",
+    "http://twitter.com/elladurham",
+    "http://linkedin.com/in/elladurham",
+    "http://github.com/elladurham"
+  ],
+  "names": [
+    "Ella Durham"
+  ],
+  "descriptions": [
+    "Interdisciplinarian and versatilist.",
+    "Everything you ever wanted to know and more"
+  ],
+  "pictures": [
+    "http://elladurham.com/file/d3edf6562196ebfc47c99ebc1aab59c4/thumb.jpg",
+    "http://elladurham.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Ella Durham"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Interdisciplinarian and versatilist.</p>\n</div>",
+          "value": "\nInterdisciplinarian and versatilist.\n"
+        }
+      ],
+      "photo": [
+        "http://elladurham.com/file/d3edf6562196ebfc47c99ebc1aab59c4/thumb.jpg"
+      ],
+      "profile": [
+        "Ella Durham"
+      ],
+      "url": [
+        "http://elladurham.com/profile/ella",
+        "http://elladurham.com/profile/ella",
+        "http://fb.com/ella.durham",
+        "http://twitter.com/elladurham",
+        "http://linkedin.com/in/elladurham",
+        "http://github.com/elladurham"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://fb.com/ella.durham",
+    "http://twitter.com/elladurham",
+    "http://linkedin.com/in/elladurham",
+    "http://github.com/elladurham"
+  ],
+  "crawl_start": "2017-06-09T17:39:51",
+  "crawl_end": "2017-06-09T17:41:16",
+  "num_pages": 72,
+  "total_html_size": 1676282,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-event"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://elladurham.com/webmention/"
+    ],
+    "micropub": [
+      "http://elladurham.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://elladurham.com/indieauth/auth"
+    ],
+    "token": [
+      "http://elladurham.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 780,
+  "links_in": 35,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 78
+      },
+      "score": 0.949
+    },
+    "brid.gy": {
+      "in": {
+        "other": 13
+      },
+      "score": 0.481
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.466
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.466
+    },
+    "kylewm.com": {
+      "in": {
+        "other": 3,
+        "like-of": 3
+      },
+      "score": 0.414
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.261
+    }
+  }
+}

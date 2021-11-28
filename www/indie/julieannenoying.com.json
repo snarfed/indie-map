@@ -1,0 +1,214 @@
+{
+  "domain": "julieannenoying.com",
+  "urls": [
+    "https://julieannenoying.com/"
+  ],
+  "names": [
+    "julie anne noying",
+    "julie anne noying – work in progress since 1981"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://julieannenoying.com/wp-content/uploads/2016/12/julieannenoying.jpg",
+    "https://julieannenoying.com/wp-content/uploads/2016/12/cropped-julieannenoying-60x60.jpg",
+    "https://julieannenoying.com/wp-content/uploads/2016/12/cropped-julieannenoying-400x400.jpg"
+  ],
+  "hcard": {
+    "children": [
+      {
+        "properties": {
+          "author": [
+            {
+              "properties": {
+                "name": [
+                  ""
+                ],
+                "url": [
+                  "https://flickr.com/sickonsunday",
+                  "https://twitter.com/iwontsignuphere",
+                  "https://facebook.com/julieannenoying",
+                  "http://iwontsignuphere.tumblr.com",
+                  "https://instagram.com/iwontsignuphere"
+                ]
+              },
+              "type": [
+                "h-card"
+              ],
+              "value": ""
+            }
+          ],
+          "name": [
+            "Juliane Schütz"
+          ]
+        },
+        "type": [
+          "h-card"
+        ]
+      }
+    ],
+    "properties": {
+      "name": [
+        "julie anne noying"
+      ],
+      "photo": [
+        "https://julieannenoying.com/wp-content/uploads/2016/12/julieannenoying.jpg"
+      ],
+      "summary": [
+        "work in progress since 1981"
+      ],
+      "url": [
+        "https://julieannenoying.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://www.instagram.com/iwontsignuphere",
+    "https://www.flickr.com/people/sickonsunday",
+    "https://julieannenoying.com/",
+    "https://flickr.com/sickonsunday",
+    "https://twitter.com/iwontsignuphere",
+    "https://facebook.com/julieannenoying",
+    "http://iwontsignuphere.tumblr.com",
+    "https://instagram.com/iwontsignuphere"
+  ],
+  "crawl_start": "2017-04-29T04:31:36",
+  "crawl_end": "2017-04-29T04:52:41",
+  "num_pages": 591,
+  "total_html_size": 39884328,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-as-reply",
+    "h-entry",
+    "h-card",
+    "h-as-mention"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://julieannenoying.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://julieannenoying.com/?micropub=endpoint",
+      "https://julieannenoying.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 8499,
+  "links_in": 271,
+  "links": {
+    "adactio.com": {
+      "in": {
+        "other": 81
+      },
+      "score": 0.488
+    },
+    "brid.gy": {
+      "in": {
+        "other": 55
+      },
+      "score": 0.446
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 50
+      },
+      "score": 0.434
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 42
+      },
+      "score": 0.416
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.293
+    },
+    "tollwerk.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.256
+    },
+    "tantek.com": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.199
+    },
+    "kylewm.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.199
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.199
+    },
+    "sebastiangreger.net": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.154
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.154
+    },
+    "jeena.net": {
+      "in": {
+        "like-of": 2
+      },
+      "score": 0.154
+    },
+    "jkphl.is": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.077
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.077
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.077
+    }
+  }
+}

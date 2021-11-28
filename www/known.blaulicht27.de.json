@@ -1,0 +1,109 @@
+{
+  "domain": "known.blaulicht27.de",
+  "urls": [
+    "http://known.blaulicht27.de/profile/timvo",
+    "http://einfachtim.berlin"
+  ],
+  "names": [
+    "Tim Vogler",
+    "Known by Tim"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://known.blaulicht27.de/file/154fd3fb787e1e5c504f819214f494d8/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Tim Vogler"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "http://known.blaulicht27.de/file/154fd3fb787e1e5c504f819214f494d8/thumb.jpg"
+      ],
+      "profile": [
+        "Tim Vogler"
+      ],
+      "url": [
+        "http://known.blaulicht27.de/profile/timvo",
+        "http://known.blaulicht27.de/profile/timvo",
+        "http://einfachtim.berlin"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://einfachtim.berlin"
+  ],
+  "crawl_start": "2017-04-29T04:32:25",
+  "crawl_end": "2017-04-29T04:32:45",
+  "num_pages": 16,
+  "total_html_size": 273139,
+  "servers": [
+    "Apache (Unix)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-geo",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.blaulicht27.de/webmention/"
+    ],
+    "micropub": [
+      "http://known.blaulicht27.de/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://known.blaulicht27.de/indieauth/auth"
+    ],
+    "token": [
+      "http://known.blaulicht27.de/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 27,
+  "links_in": 1,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 1
+    },
+    "einfachtim.berlin": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.890
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

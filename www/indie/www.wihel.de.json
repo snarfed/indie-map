@@ -1,0 +1,82 @@
+{
+  "domain": "www.wihel.de",
+  "urls": [
+    "https://www.wihel.de/"
+  ],
+  "names": [
+    "Was is hier eigentlich los | Unterhaltung, Kultur, LifeStyle & ein wenig WTF",
+    ":: Was is hier eigentlich los ::"
+  ],
+  "descriptions": [
+    "Das vielleicht Beste, was ihr heute sehen werdet. Hauptsache ihr geht mit einem Lächeln und ein bisschen klüger nach Hause :)",
+    "Entertainment, LifeStyle, Gadgets, Kultur und ein bisschen WTF"
+  ],
+  "pictures": [
+    "https://www.wihel.de/wp-content/uploads/2017/01/cropped-fiete_blau-2-72x72.png",
+    "https://www.wihel.de/wp-content/uploads/2017/01/cropped-fiete_blau-2-320x320.png",
+    "https://www.wihel.de/favicon-32x32.png",
+    "https://www.wihel.de/favicon-194x194.png",
+    "https://www.wihel.de/android-chrome-192x192.png",
+    "https://www.wihel.de/favicon-16x16.png",
+    "https://www.wihel.de/favicon.ico",
+    "https://www.wihel.de/wp-content/uploads/2017/01/fiete_blau.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/wihelde"
+  ],
+  "crawl_start": "2017-05-06T08:46:46",
+  "crawl_end": "2017-05-06T21:29:15",
+  "num_pages": 16250,
+  "total_html_size": 1631771904,
+  "servers": [
+    "cloudflare-nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-card",
+    "h-entry",
+    "h-as-reply"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.wihel.de/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 874045,
+  "links_in": 12,
+  "links": {
+    "www.nerdcore.de": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.229
+    },
+    "brid.gy": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.205
+    },
+    "e13.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.115
+    },
+    "wirres.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0573
+    }
+  }
+}

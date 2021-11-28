@@ -1,0 +1,249 @@
+{
+  "domain": "seblog.nl",
+  "urls": [
+    "https://seblog.nl"
+  ],
+  "names": [
+    "Sebastiaan Andeweg"
+  ],
+  "descriptions": [
+    "Ik ben een schrijver en nerd uit Nijmegen."
+  ],
+  "pictures": [
+    "https://seblog.nl/photo.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Sebastiaan Andeweg"
+      ],
+      "note": [
+        "Ik ben een schrijver en nerd uit Nijmegen."
+      ],
+      "photo": [
+        "https://seblog.nl/photo.jpg"
+      ],
+      "url": [
+        "https://seblog.nl"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://sebastiaanandeweg.nl",
+    "https://twitter.com/sebsel",
+    "https://instagram.com/sebsel",
+    "https://www.linkedin.com/in/sebastiaanandeweg",
+    "https://github.com/sebsel",
+    "https://strava.com/athletes/sebsel",
+    "https://facebook.com/sebastiaan.andeweg"
+  ],
+  "crawl_start": "2017-04-25T09:01:32",
+  "crawl_end": "2017-04-25T15:14:14",
+  "num_pages": 288,
+  "total_html_size": 4472829,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-feed",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://seblog.nl/webmention"
+    ],
+    "micropub": [
+      "https://seblog.nl/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 7040,
+  "links_in": 2047,
+  "links": {
+    "chat.indieweb.org": {
+      "out": {
+        "bookmark-of": 1
+      },
+      "in": {
+        "other": 1457
+      },
+      "score": 0.832
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 16,
+        "like-of": 10
+      },
+      "in": {
+        "other": 165,
+        "bookmark-of": 22,
+        "like-of": 49
+      },
+      "score": 0.678
+    },
+    "indieweb.org": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 7
+      },
+      "in": {
+        "other": 147
+      },
+      "score": 0.605
+    },
+    "jothut.com": {
+      "in": {
+        "other": 87
+      },
+      "score": 0.510
+    },
+    "brid.gy": {
+      "in": {
+        "other": 53
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.461
+    },
+    "licit.li": {
+      "out": {
+        "like-of": 2
+      },
+      "in": {
+        "like-of": 4,
+        "other": 8,
+        "in-reply-to": 6
+      },
+      "score": 0.455
+    },
+    "news.indieweb.org": {
+      "in": {
+        "other": 16
+      },
+      "score": 0.316
+    },
+    "marcthiele.com": {
+      "in": {
+        "other": 10
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.283
+    },
+    "unrelenting.technology": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.283
+    },
+    "vanderven.se": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "tantek.com": {
+      "out": {
+        "other": 1,
+        "like-of": 1
+      },
+      "in": {
+        "in-reply-to": 1
+      },
+      "score": 0.274
+    },
+    "petermolnar.net": {
+      "out": {
+        "bookmark-of": 1
+      },
+      "score": 0.159
+    },
+    "jkphl.is": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "boffosocko.com": {
+      "out": {
+        "bookmark-of": 1
+      },
+      "score": 0.159
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "tommorris.org": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "bastianallgeier.com": {
+      "out": {
+        "bookmark-of": 1
+      },
+      "score": 0.159
+    },
+    "www.boffosocko.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "gregorlove.com": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.0791
+    },
+    "webmention.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "jesselisser.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "boghop.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

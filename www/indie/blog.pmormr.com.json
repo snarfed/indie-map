@@ -1,0 +1,105 @@
+{
+  "domain": "blog.pmormr.com",
+  "urls": [
+    "http://blog.pmormr.com/profile/pmormr",
+    "http://www.linkedin.com/in/pmormr",
+    "http://www.facebook.com/pmormr",
+    "http://www.twitter.com/pmormr"
+  ],
+  "names": [
+    "Paul Morgan (pmormr)",
+    "The Daily Morgan"
+  ],
+  "descriptions": [
+    "I'm an IT Systems Engineer who works with school districts in New Jersey. I write about things that I find interesting, engaging, or enraging.",
+    "A commentary on the world as I see it."
+  ],
+  "pictures": [
+    "http://blog.pmormr.com/file/c811263f9e21cda1d1fb4d7861c4c303/thumb.jpg",
+    "http://blog.pmormr.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Paul Morgan (pmormr)"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I'm an IT Systems Engineer who works with school districts in New Jersey. I write about things that I find interesting, engaging, or enraging.</p>\n</div>",
+          "value": "\nI'm an IT Systems Engineer who works with school districts in New Jersey. I write about things that I find interesting, engaging, or enraging.\n"
+        }
+      ],
+      "photo": [
+        "http://blog.pmormr.com/file/c811263f9e21cda1d1fb4d7861c4c303/thumb.jpg"
+      ],
+      "profile": [
+        "Paul Morgan (pmormr)"
+      ],
+      "url": [
+        "http://blog.pmormr.com/profile/pmormr",
+        "http://blog.pmormr.com/profile/pmormr",
+        "http://www.linkedin.com/in/pmormr",
+        "http://www.facebook.com/pmormr",
+        "http://www.twitter.com/pmormr"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.linkedin.com/in/pmormr",
+    "http://www.facebook.com/pmormr",
+    "http://www.twitter.com/pmormr"
+  ],
+  "crawl_start": "2017-04-28T02:15:55",
+  "crawl_end": "2017-04-28T02:20:47",
+  "num_pages": 216,
+  "total_html_size": 6852338,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://blog.pmormr.com/webmention/"
+    ],
+    "micropub": [
+      "http://blog.pmormr.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://blog.pmormr.com/indieauth/auth"
+    ],
+    "token": [
+      "http://blog.pmormr.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1237,
+  "links_in": 3,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.172
+    }
+  }
+}

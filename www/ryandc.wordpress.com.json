@@ -1,0 +1,514 @@
+{
+  "domain": "ryandc.wordpress.com",
+  "urls": [
+    "https://ryandc.wordpress.com/"
+  ],
+  "names": [
+    "(no title)"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://s2.wp.com/i/favicon.ico",
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T02:09:55",
+  "crawl_end": "2017-04-30T02:10:01",
+  "num_pages": 10,
+  "total_html_size": 338131,
+  "servers": [
+    "nginx",
+    "WordPress.com"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.brid.gy/webmention/wordpress"
+    ],
+    "micropub": [
+      "https://silo.pub/micropub"
+    ],
+    "authorization": [
+      "https://silo.pub/indieauth"
+    ],
+    "token": [
+      "https://silo.pub/token"
+    ]
+  },
+  "links_out": 240,
+  "links_in": 48,
+  "links": {
+    "javascript": {
+      "out": {
+        "other": 35
+      },
+      "score": 1
+    },
+    "silo.pub": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.962
+    },
+    "brid.gy": {
+      "in": {
+        "other": 31
+      },
+      "score": 0.807
+    },
+    "known.kylewm.com": {
+      "in": {
+        "in-reply-to": 6
+      },
+      "score": 0.8
+    },
+    "wordpress.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.784
+    },
+    "pictures": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.748
+    },
+    "plus.google.com/+RyanBarrett": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.706
+    },
+    "www.brid.gy": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.706
+    },
+    "twitter.com/schnarfed": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.706
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.652
+    },
+    "gravatar.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.621
+    },
+    "kylewm.com": {
+      "in": {
+        "in-reply-to": 2,
+        "other": 2
+      },
+      "score": 0.584
+    },
+    "apple.stackexchange.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.584
+    },
+    "superuser.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.541
+    },
+    "www.apple.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.541
+    },
+    "github.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.541
+    },
+    "software": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.489
+    },
+    "support.apple.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.489
+    },
+    "forums.macrumors.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.489
+    },
+    "developer.apple.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.489
+    },
+    "resume.html": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.489
+    },
+    "2400_diamond": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.489
+    },
+    "lists": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.489
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.421
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.327
+    },
+    "www.macfreek.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.327
+    },
+    "osxdaily.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.327
+    },
+    "roupam.github.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.327
+    },
+    "news.ycombinator.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "hear.en.softonic.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "knoopx.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "cordlessdog.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "mac.appstorm.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "joshuawise.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "addons.mozilla.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "pidgin.im": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "www.prosofteng.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "discussions.apple.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "www.finkproject.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "benatkin.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "support.mozilla.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "mxcl.github.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "nathangrigg.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "secrets.blacktree.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "www.gnu.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "www.macports.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "most-advantageous.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "pqrs.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "adium.im": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "stackoverflow.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "www.macupdate.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "macdevelopertips.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "www.emacswiki.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "spectacleapp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "batsov.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "www.anoshkin.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "trac.adium.im": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "www.tylerwm.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "www.maintain.se": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "emacsformacosx.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "manytricks.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "5amcode.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "plus.google.com/104330705025733851532": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "www.commandlinefu.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "www.ragingmenace.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "aquamacs.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.163
+    },
+    "www.ofzenandcomputing.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "notion.sourceforge.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "mizage.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "www.technologytell.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "firefox.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "kapeli.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "lifehacker.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "www.android.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    },
+    "www.irradiatedsoftware.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.163
+    }
+  }
+}

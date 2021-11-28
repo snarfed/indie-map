@@ -1,0 +1,809 @@
+{
+  "domain": "www.jduck.net",
+  "urls": [
+    "http://www.jduck.net/"
+  ],
+  "names": [
+    "Jonah M Duckles"
+  ],
+  "descriptions": [
+    "The personal site of Jonah Duckles"
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://www.twitter.com/jduckles",
+    "https://github.com/jduckles",
+    "https://www.flickr.com/photos/jduckles",
+    "http://www.jduck.net/feed.xml"
+  ],
+  "crawl_start": "2017-06-09T18:08:21",
+  "crawl_end": "2017-06-10T05:44:40",
+  "num_pages": 61,
+  "total_html_size": 330961,
+  "servers": [
+    "AmazonS3"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 517,
+  "links_in": 0,
+  "links": {
+    "disqus.com": {
+      "out": {
+        "other": 104
+      },
+      "score": 1
+    },
+    "github.com": {
+      "out": {
+        "other": 64
+      },
+      "score": 0.908
+    },
+    "duckles.org": {
+      "out": {
+        "other": 60
+      },
+      "score": 0.897
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 60
+      },
+      "score": 0.897
+    },
+    "twitter.com/jduckles": {
+      "out": {
+        "other": 60
+      },
+      "score": 0.897
+    },
+    "del.icio.us": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.637
+    },
+    "www.nsf.gov": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.431
+    },
+    "www.gnu.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.390
+    },
+    "rapidfire.sci.gsfc.nasa.gov": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.390
+    },
+    "software-carpentry.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.335
+    },
+    "dx.doi.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.335
+    },
+    "jduckles.github.io": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.335
+    },
+    "animalmigration.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.335
+    },
+    "www.gdal.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.335
+    },
+    "nciia.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.260
+    },
+    "www.teamusa.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.260
+    },
+    "gist.github.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.260
+    },
+    "spatialreference.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.260
+    },
+    "www.esciencecenter.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.260
+    },
+    "it.ou.edu": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.260
+    },
+    "oulibraries.github.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.260
+    },
+    "www.scipy.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.260
+    },
+    "archive": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.260
+    },
+    "www.parenthacks.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.260
+    },
+    "ouinformatics.github.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.260
+    },
+    "southcentralclimate.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.guardian.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "gdal.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.paperbackswap.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "debaday.debian.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "oudigitalscholar.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.nationalatlas.gov": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.nytimes.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.swc.scipy.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.wired.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "aqua.nasa.gov": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "moinmoin.wikiwikiweb.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "tags.animalmigration.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "brew.sh": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "ou.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "seamap.env.duke.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.nceas.ucsb.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "dornsife.usc.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "matplotlib.sourceforge.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "couchdb.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "pjammer.livejournal.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.onlamp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "news.bbc.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.arduino.cc": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.mabel.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.overheardinnewyork.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "biocorrosioncenter.ou.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "pymedia.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.itasoftware.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "jennybc.github.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.kiva.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.scidatacon.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "adina.github.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "exogen.case.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "mperignon.github.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.imified.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.latex-project.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "synergy2.sourceforge.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "reannz.co.nz": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "wikipediafs.sourceforge.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.okepscor.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.standupeconomist.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "swcarpentry.github.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.commondreams.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "ecoinformatics.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.butterfat.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "search.cpan.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.ecologyandsociety.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.bulkfoods.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "jlant.github.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.ted.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.greatplainsgrazing.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "climate.ok.gov": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "jduck.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "liz-fernandez.github.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.isei5-conference.elsevier.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "sharaku.eorc.jaxa.jp": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www-acs.ucsd.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.nearfuturelaboratory.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "tethys.dges.ou.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.software-carpentry.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.zudeo.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "duckles.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.mediawiki.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "crpde.ou.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "wireless2.fcc.gov": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "innovation.ou.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "jduckles-dropshare.s3-us-west-2.amazonaws.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.env-econ.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "latex-beamer.sourceforge.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.energia.nu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.ieee.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.python.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "ag.purdue.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "oklahomawatersurvey.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "engineering.case.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "git-scm.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "interactingminds.au.dk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "ptonline.aip.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "cris.nifa.usda.gov": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.r-consortium.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "aspn.activestate.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "oscer.ou.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.energytower.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "cran.us.r-project.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "eomf.ou.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.dailymail.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "inventionstudio.gatech.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.nhgis.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "kepler-project.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "pkg-grass.alioth.debian.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "postgis.refractions.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "rcc.uq.edu.au": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.igst.it": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.lib.ncsu.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "libraries.ou.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "nsf.gov": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.biosurvey.ou.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "scribus.sourceforge.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "www.qgis.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "peerj.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    },
+    "ponoko.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.130
+    }
+  }
+}

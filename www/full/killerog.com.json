@@ -1,0 +1,415 @@
+{
+  "domain": "killerog.com",
+  "urls": [
+    "https://twitter.com/killerog",
+    "https://github.com/killerog",
+    "mailto:webmaster@rogierschoenmaker.nl"
+  ],
+  "names": [
+    "Rogier",
+    "Rogier's blog | A Work in Progress IndieWeb site."
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:webmaster@rogierschoenmaker.nl"
+      ],
+      "key": [
+        "http://www.killerog.com/me.key"
+      ],
+      "name": [
+        "Rogier"
+      ],
+      "url": [
+        "https://twitter.com/killerog",
+        "https://github.com/killerog",
+        "mailto:webmaster@rogierschoenmaker.nl"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://github.com/killerog",
+    "https://twitter.com/killerog",
+    "http://www.killerog.com/me.key"
+  ],
+  "crawl_start": "2017-04-29T04:31:38",
+  "crawl_end": "2017-04-29T04:32:24",
+  "num_pages": 38,
+  "total_html_size": 1693533,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-as-article",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://killerog.com/?webmention=endpoint"
+    ],
+    "micropub": [
+      "http://killerog.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 775,
+  "links_in": 45,
+  "links": {
+    "twitter.com/killerog": {
+      "out": {
+        "other": 92
+      },
+      "score": 1
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 74
+      },
+      "score": 0.960
+    },
+    "github.com": {
+      "out": {
+        "other": 54
+      },
+      "score": 0.898
+    },
+    "notizblog.org": {
+      "out": {
+        "other": 47
+      },
+      "score": 0.871
+    },
+    "www.killerog.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.821
+    },
+    "rogierschoenmaker.nl": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.821
+    },
+    "www.whatsapp.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.774
+    },
+    "caniuse.com": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.766
+    },
+    "adactio.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.666
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 28
+      },
+      "score": 0.639
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.593
+    },
+    "rhiaro.co.uk": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.593
+    },
+    "withknown.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.593
+    },
+    "beyondtellerrand.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.593
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.593
+    },
+    "quirksmode.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "www.taobao.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "scottjehl.github.io": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "fictivekin.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "www.tmall.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "alistapart.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "dowebsitesneedtolookexactlythesameineverybrowser.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "workflowy.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "www.webpagetest.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "mabu.dk": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "slides.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "tastypieapi.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "www.meilishuo.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "twitter.com/ppk": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "www.lamoda.ru": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "www.slideshare.net": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "arstechnica.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "www.behance.net": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "mi.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "www.alipay.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "css-tricks.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "www.wechat.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "weibo.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "www.yy.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "tabatkins.github.io": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "vimeo.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "www.etsy.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "www.sarawb.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "creativecommons.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "webpagetest.net": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.555
+    },
+    "autoriteitpersoonsgegevens.nl": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.507
+    },
+    "www.wsj.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.507
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.441
+    },
+    "twitter.com/btconf": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.399
+    },
+    "checkmention.appspot.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.344
+    },
+    "notiz.blog": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.267
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.211
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.133
+    }
+  }
+}

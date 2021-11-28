@@ -1,0 +1,98 @@
+{
+  "domain": "www.susammelsurium.com",
+  "urls": [
+    "http://www.susammelsurium.com/"
+  ],
+  "names": [
+    "Susammelsurium – Was man so hört. Und sieht.",
+    "Susammelsurium"
+  ],
+  "descriptions": [
+    "Was man so hört. Und sieht."
+  ],
+  "pictures": [
+    "https://i2.wp.com/www.susammelsurium.com/wp-content/uploads/2017/03/cropped-Elbphilharmonie.jpg?fit=32%2C32",
+    "https://i2.wp.com/www.susammelsurium.com/wp-content/uploads/2017/03/cropped-Elbphilharmonie.jpg?fit=192%2C192",
+    "https://i0.wp.com/www.susammelsurium.com/wp-content/uploads/2017/03/Elbphilharmonie-FB-optimiert.jpg?resize=600%2C315",
+    "https://i0.wp.com/www.susammelsurium.com/wp-content/uploads/2017/03/Elbphilharmonie-FB-optimiert.jpg?resize=600%2C600"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/@knotensusi",
+    "https://www.facebook.com/https://www.facebook.com/susanne.dirkwinkel",
+    "https://www.instagram.com/https://www.instagram.com/knotensusi"
+  ],
+  "crawl_start": "2017-05-06T07:38:42",
+  "crawl_end": "2017-05-06T08:01:19",
+  "num_pages": 1088,
+  "total_html_size": 43270602,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-as-repost",
+    "h-feed",
+    "h-entry",
+    "h-as-reply",
+    "h-as-mention"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.susammelsurium.com/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 27507,
+  "links_in": 7379,
+  "links": {
+    "www.buddenbohm-und-soehne.de": {
+      "out": {
+        "other": 1086
+      },
+      "in": {
+        "other": 7368
+      },
+      "score": 1
+    },
+    "wasmachendieda.de": {
+      "out": {
+        "other": 1180
+      },
+      "score": 0.848
+    },
+    "isabelbogdan.de": {
+      "out": {
+        "other": 1182
+      },
+      "score": 0.848
+    },
+    "e13.de": {
+      "out": {
+        "other": 1110
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.842
+    },
+    "papaswort.de": {
+      "out": {
+        "other": 1086
+      },
+      "score": 0.838
+    },
+    "brid.gy": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.240
+    }
+  }
+}

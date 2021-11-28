@@ -1,0 +1,192 @@
+{
+  "domain": "drikk.es",
+  "urls": [
+    "http://drikk.es/profile/drikkes",
+    "http://hendrikspree.de/",
+    "https://hendrikspree.carbonmade.com",
+    "http://twitter.com/drikkes",
+    "http://drikkes.com"
+  ],
+  "names": [
+    "drikkes",
+    "DRIKKES",
+    "drikk.es"
+  ],
+  "descriptions": [
+    "Das verstört sich von selbst.",
+    "Sammelstelle / Nebenblog"
+  ],
+  "pictures": [
+    "http://drikk.es/file/d3e01d8368d2ad7e400f8675ec679c87/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "drikkes"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Das verstört sich von selbst.</p>\n</div>",
+          "value": "\nDas verstört sich von selbst.\n"
+        }
+      ],
+      "photo": [
+        "http://drikk.es/file/d3e01d8368d2ad7e400f8675ec679c87/thumb.jpg"
+      ],
+      "profile": [
+        "drikkes"
+      ],
+      "url": [
+        "http://drikk.es/profile/drikkes",
+        "http://drikk.es/profile/drikkes",
+        "http://hendrikspree.de/",
+        "https://hendrikspree.carbonmade.com",
+        "http://twitter.com/drikkes",
+        "http://drikkes.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://hendrikspree.de/",
+    "https://hendrikspree.carbonmade.com",
+    "http://twitter.com/drikkes",
+    "http://drikkes.com"
+  ],
+  "crawl_start": "2017-04-28T05:23:58",
+  "crawl_end": "2017-04-28T07:00:43",
+  "num_pages": 4662,
+  "total_html_size": 113203264,
+  "servers": [
+    "Apache (CentOS)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://drikk.es/webmention/"
+    ],
+    "micropub": [
+      "http://drikk.es/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://drikk.es/indieauth/auth"
+    ],
+    "token": [
+      "http://drikk.es/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 22036,
+  "links_in": 1393,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 4662
+      },
+      "score": 1
+    },
+    "drikkes.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 1544,
+        "in-reply-to": 161
+      },
+      "score": 0.926
+    },
+    "www.drikk.es": {
+      "out": {
+        "in-reply-to": 5,
+        "other": 875
+      },
+      "in": {
+        "other": 1226,
+        "in-reply-to": 12
+      },
+      "score": 0.880
+    },
+    "wirres.net": {
+      "in": {
+        "in-reply-to": 62,
+        "other": 70
+      },
+      "out": {
+        "in-reply-to": 29,
+        "other": 22
+      },
+      "score": 0.719
+    },
+    "thopex.de": {
+      "out": {
+        "in-reply-to": 10,
+        "other": 6
+      },
+      "score": 0.516
+    },
+    "dasnuf.de": {
+      "out": {
+        "in-reply-to": 10
+      },
+      "score": 0.504
+    },
+    "stromgeber.lischka.cc": {
+      "out": {
+        "in-reply-to": 5
+      },
+      "in": {
+        "other": 8
+      },
+      "score": 0.444
+    },
+    "commentpara.de": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.380
+    },
+    "www.nerdcore.de": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.316
+    },
+    "brid.gy": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.252
+    },
+    "www.bielinski.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.152
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

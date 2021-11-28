@@ -1,0 +1,115 @@
+{
+  "domain": "yummykitchen.isabelforester.com",
+  "crawl_start": "2017-05-07T15:46:36",
+  "crawl_end": "2017-05-07T15:47:30",
+  "num_pages": 49,
+  "total_html_size": 1557799,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://yummykitchen.isabelforester.com/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "hcard": {},
+  "links_out": 165,
+  "links_in": 1,
+  "links": {
+    "www.webmandesign.eu": {
+      "out": {
+        "other": 98
+      },
+      "score": 1
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 49
+      },
+      "score": 0.867
+    },
+    "www.chefkoch.de": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.5
+    },
+    "www.juraforum.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.263
+    },
+    "www.heftig.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.131
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.131
+    },
+    "finnegansirishpub.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.131
+    },
+    "hilahcooking.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.131
+    },
+    "eatsmarter.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.131
+    },
+    "chefkoch.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.131
+    },
+    "julieannenoying.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.131
+    },
+    "isabelforester.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.131
+    },
+    "www.birdslikecake.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.131
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

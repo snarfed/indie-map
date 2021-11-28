@@ -1,0 +1,104 @@
+{
+  "domain": "leibniz.me",
+  "urls": [
+    "http://leibniz.me",
+    "http://leibniz.me/"
+  ],
+  "names": [
+    "leibniz *",
+    "leibniz*"
+  ],
+  "descriptions": [
+    "il blog di Piero Macchioni"
+  ],
+  "pictures": [
+    "http://leibniz.me/favicon.ico",
+    "http://leibniz.me/images/favicon.ico",
+    "http://leibniz.me/thumbs/"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "leibniz *"
+      ],
+      "url": [
+        "http://leibniz.me"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/leibniz",
+    "http://leibniz.me"
+  ],
+  "crawl_start": "2017-04-29T14:38:36",
+  "crawl_end": "2017-04-29T15:10:17",
+  "num_pages": 3594,
+  "total_html_size": 54681295,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/leibniz.me/webmention"
+    ],
+    "micropub": [
+      "https://leibniz.me/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 49529,
+  "links_in": 17,
+  "links": {
+    "scripting.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.339
+    },
+    "brid.gy": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.290
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0761
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0761
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

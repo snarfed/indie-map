@@ -1,0 +1,167 @@
+{
+  "domain": "www.clintpatty.com",
+  "urls": [
+    "http://www.clintpatty.com/profile/clintpatty",
+    "http://www.clintpatty.com",
+    "https://plus.google.com/109204262945852522641"
+  ],
+  "names": [
+    "Clinton Tyler Patterson",
+    "clintpatty"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://www.clintpatty.com/file/54b0574904408a1d4d2bfa84/thumb.jpg",
+    "http://www.clintpatty.com/",
+    "http://www.clintpatty.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Clinton Tyler Patterson"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "http://www.clintpatty.com/file/54b0574904408a1d4d2bfa84/thumb.jpg"
+      ],
+      "profile": [
+        "Clinton Tyler Patterson"
+      ],
+      "url": [
+        "http://www.clintpatty.com/profile/clintpatty",
+        "http://www.clintpatty.com/profile/clintpatty",
+        "http://www.clintpatty.com",
+        "https://plus.google.com/109204262945852522641"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.clintpatty.com",
+    "https://plus.google.com/109204262945852522641"
+  ],
+  "crawl_start": "2017-06-10T02:21:25",
+  "crawl_end": "2017-06-10T02:23:14",
+  "num_pages": 39,
+  "total_html_size": 1262136,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.clintpatty.com/webmention/"
+    ],
+    "micropub": [
+      "http://www.clintpatty.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "http://www.clintpatty.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 100,
+  "links_in": 18,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 44
+      },
+      "score": 1
+    },
+    "clintpatty.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.775
+    },
+    "known.kylewm.com": {
+      "in": {
+        "in-reply-to": 6
+      },
+      "score": 0.759
+    },
+    "plus.google.com/109204262945852522641": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.728
+    },
+    "kylewm.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "in-reply-to": 2,
+        "other": 3
+      },
+      "score": 0.679
+    },
+    "kartikprabhu.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "in-reply-to": 2
+      },
+      "score": 0.645
+    },
+    "academy.hubspot.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.618
+    },
+    "www.smit-beton.nl": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.554
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.513
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.310
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

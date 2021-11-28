@@ -1,0 +1,96 @@
+{
+  "domain": "www.gregfalken.com",
+  "urls": [
+    "https://www.gregfalken.com/"
+  ],
+  "names": [
+    "GregFalken.com | Internet strategies, communications, education and humanizing technology",
+    "GregFalken.com"
+  ],
+  "descriptions": [
+    "The personal blog of Greg Falken, focused on Internet strategies, social media, communications and whatever else catches his interest.",
+    "Thoughts on humanizing technology"
+  ],
+  "pictures": [
+    "https://www.gregfalken.com/wp-content/themes/gregf/images/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-05-06T07:19:21",
+  "crawl_end": "2017-05-06T16:07:01",
+  "num_pages": 461,
+  "total_html_size": 21486578,
+  "servers": [
+    "Apache (Unix) OpenSSLe-fips mod_bwlimited"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-as-reply",
+    "h-entry",
+    "h-as-page",
+    "h-card",
+    "h-as-article",
+    "h-as-mention"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.gregfalken.com/?webmention=endpoint"
+    ]
+  },
+  "links_out": 12805,
+  "links_in": 27,
+  "links": {
+    "indiewebcamp.com": {
+      "out": {
+        "other": 45
+      },
+      "score": 0.548
+    },
+    "scripting.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.436
+    },
+    "andysylvester.com": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 8
+      },
+      "score": 0.345
+    },
+    "brid.gy": {
+      "in": {
+        "other": 13
+      },
+      "score": 0.312
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.253
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.218
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.169
+    }
+  }
+}

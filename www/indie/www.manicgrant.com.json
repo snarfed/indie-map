@@ -1,0 +1,117 @@
+{
+  "domain": "www.manicgrant.com",
+  "urls": [
+    "http://www.manicgrant.com/profile/nickgrant",
+    "http://twitter.com/ManicGrant",
+    "http://www.facebook.com/manicgrant"
+  ],
+  "names": [
+    "Nick Grant",
+    "Manic Grant"
+  ],
+  "descriptions": [
+    "The world's longest suicide note.All opinions are my own. No investment advice intended or implied.",
+    "The world's longest suicide note"
+  ],
+  "pictures": [
+    "http://www.manicgrant.com/file/dc730ac9896ca513e8d3242268f2240b/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:nick@manicgrant.com"
+      ],
+      "name": [
+        "Nick Grant"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>The world's longest suicide note.<br/>All opinions are my own. No investment advice intended or implied.</p>\n</div> ",
+          "value": "\nThe world's longest suicide note.All opinions are my own. No investment advice intended or implied.\n "
+        }
+      ],
+      "photo": [
+        "http://www.manicgrant.com/file/dc730ac9896ca513e8d3242268f2240b/thumb.jpg"
+      ],
+      "profile": [
+        "Nick Grant"
+      ],
+      "url": [
+        "http://www.manicgrant.com/profile/nickgrant",
+        "http://www.manicgrant.com/profile/nickgrant",
+        "http://twitter.com/ManicGrant",
+        "http://www.facebook.com/manicgrant"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/ManicGrant",
+    "mailto:nick@manicgrant.com",
+    "http://www.facebook.com/manicgrant"
+  ],
+  "crawl_start": "2017-04-30T07:14:05",
+  "crawl_end": "2017-04-30T07:56:16",
+  "num_pages": 2610,
+  "total_html_size": 210578899,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.manicgrant.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 9588,
+  "links_in": 32,
+  "links": {
+    "kitephysics.withknown.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.402
+    },
+    "brid.gy": {
+      "in": {
+        "other": 26
+      },
+      "score": 0.393
+    },
+    "mapkyca.com": {
+      "in": {
+        "in-reply-to": 2
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.349
+    },
+    "werd.io": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.299
+    }
+  }
+}

@@ -1,0 +1,1326 @@
+{
+  "domain": "www.cotellese.net",
+  "crawl_start": "2017-04-30T06:07:05",
+  "crawl_end": "2017-04-30T06:38:49",
+  "num_pages": 496,
+  "total_html_size": 24039419,
+  "servers": [
+    "Apache (Ubuntu)"
+  ],
+  "mf2_classes": [
+    "h-as-mention",
+    "h-feed",
+    "h-cite",
+    "h-card",
+    "h-entry",
+    "h-as-note",
+    "h-as-reply"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.cotellese.net/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://www.cotellese.net/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "hcard": {},
+  "links_out": 15664,
+  "links_in": 18,
+  "links": {
+    "www.goodreads.com": {
+      "out": {
+        "other": 9386
+      },
+      "score": 1
+    },
+    "www.studiopress.com": {
+      "out": {
+        "other": 988
+      },
+      "score": 0.771
+    },
+    "twitter.com/JoeCotellese": {
+      "out": {
+        "other": 641
+      },
+      "score": 0.727
+    },
+    "162.243.105.116": {
+      "out": {
+        "other": 528
+      },
+      "score": 0.708
+    },
+    "facebook.com/joecotellese": {
+      "out": {
+        "other": 494
+      },
+      "score": 0.701
+    },
+    "plus.google.com/+JoeCotellese": {
+      "out": {
+        "other": 494
+      },
+      "score": 0.701
+    },
+    "www.last.fm": {
+      "out": {
+        "other": 494
+      },
+      "score": 0.701
+    },
+    "www.joecotellese.com": {
+      "out": {
+        "other": 494
+      },
+      "score": 0.701
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 496
+      },
+      "score": 0.701
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 182
+      },
+      "score": 0.600
+    },
+    "groups.google.com": {
+      "out": {
+        "other": 139
+      },
+      "score": 0.572
+    },
+    "alexking.org": {
+      "out": {
+        "other": 57
+      },
+      "score": 0.482
+    },
+    "scribefire.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.472
+    },
+    "i2.wp.com": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.463
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 19,
+        "in-reply-to": 5
+      },
+      "score": 0.455
+    },
+    "www.google.com": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.450
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 35
+      },
+      "score": 0.432
+    },
+    "i1.wp.com": {
+      "out": {
+        "other": 35
+      },
+      "score": 0.432
+    },
+    "www.foodnetwork.com": {
+      "out": {
+        "other": 4,
+        "in-reply-to": 5
+      },
+      "score": 0.413
+    },
+    "i0.wp.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.410
+    },
+    "www.brid.gy": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.405
+    },
+    "www.rollingstone.com": {
+      "out": {
+        "in-reply-to": 5
+      },
+      "score": 0.397
+    },
+    "www.space.com": {
+      "out": {
+        "in-reply-to": 5
+      },
+      "score": 0.397
+    },
+    "www.crowdrise.com": {
+      "out": {
+        "in-reply-to": 5
+      },
+      "score": 0.397
+    },
+    "www.itpro.co.uk": {
+      "out": {
+        "in-reply-to": 5
+      },
+      "score": 0.397
+    },
+    "technorati.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.380
+    },
+    "www.schneier.com": {
+      "out": {
+        "other": 3,
+        "in-reply-to": 3
+      },
+      "score": 0.364
+    },
+    "www.huffingtonpost.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.353
+    },
+    "www.techdirt.com": {
+      "out": {
+        "in-reply-to": 3
+      },
+      "score": 0.346
+    },
+    "www.photodropper.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.346
+    },
+    "evilgeniuschronicles.org": {
+      "out": {
+        "in-reply-to": 3
+      },
+      "score": 0.346
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.346
+    },
+    "creativecommons.org": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.346
+    },
+    "techcrunch.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.346
+    },
+    "www.slideshare.net": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.338
+    },
+    "www.nytimes.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.331
+    },
+    "www.djangoproject.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.331
+    },
+    "daringfireball.net": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.331
+    },
+    "www.washingtonpost.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.331
+    },
+    "journals.lww.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.323
+    },
+    "www.dropbox.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.323
+    },
+    "stopbadware.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.323
+    },
+    "www.nerdfitness.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.323
+    },
+    "www.learningosx.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.314
+    },
+    "lifehacker.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.305
+    },
+    "well.blogs.nytimes.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.305
+    },
+    "googlewebmastercentral.blogspot.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.305
+    },
+    "www.thedailyshow.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.305
+    },
+    "www.wired.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.294
+    },
+    "www.fliqz.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.282
+    },
+    "www.tgdaily.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.282
+    },
+    "plus.google.com/s": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.282
+    },
+    "www.apple.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.282
+    },
+    "www.independent.co.uk": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.282
+    },
+    "flic.kr": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.282
+    },
+    "www.businessinsider.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.282
+    },
+    "www.metacafe.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.282
+    },
+    "forums.att.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.268
+    },
+    "www.consumeraffairs.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.268
+    },
+    "blog.twitter.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.268
+    },
+    "arstechnica.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.268
+    },
+    "www.zdnet.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.268
+    },
+    "www.lifehack.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.268
+    },
+    "www.murrayfrank.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.268
+    },
+    "discussions.apple.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.268
+    },
+    "allrecipes.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "mypermissions.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "thinkprogress.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "jonahberger.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "www.tuaw.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "www.oreillynet.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "vimeo.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "www.pcmag.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "www.entrepreneur.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "del.icio.us": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "mediamatters.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "phillyhistory.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "www.viralityexplained.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "phonezoo.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "twitter.com/settings": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "www.colourlovers.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "osx.iusethis.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "www.360cities.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "brid.gy": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.244
+    },
+    "marketingland.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.234
+    },
+    "www.indecisionforever.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.234
+    },
+    "www.jeffalytics.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.234
+    },
+    "andrewchen.co": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.234
+    },
+    "surveygizmo.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.234
+    },
+    "smilesoftware.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.234
+    },
+    "www.vulture.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.234
+    },
+    "www.amazon.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.234
+    },
+    "www.outwit.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.234
+    },
+    "www.publicpolicypolling.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.234
+    },
+    "facebook.com/thedailyshow": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.234
+    },
+    "medium.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.234
+    },
+    "www.slate.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.234
+    },
+    "amazingribs.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.234
+    },
+    "www.spreadfirefox.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.234
+    },
+    "www.craigbailey.net": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.234
+    },
+    "alpha.responsivedesign.is": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "p2theme.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "www.mobiledesignpatterngallery.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "secure.logmein.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "www.hbo.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "www.wisegeek.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "www.johnwinsor.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "www.diceware.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "www.djangobook.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "theholyblack.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "www.keylimejuice.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "www.voiceandtone.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "www.bonappetit.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "www.slimtimer.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "blogs.personallifemedia.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "plus.google.com/107913505678621875336": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "www.theatlantic.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "www.chicagotribune.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "fivethirtyeight.blogs.nytimes.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "lightbox.time.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "www.collective-evolution.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "www.scottmonty.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "www.supergenpass.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "twitter.com/TrishSammer": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "emptystat.es": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "www.sfgate.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "socialnomics.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "www.basecamphq.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "news.yahoo.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "carmenskitch.blogspot.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "johnedwards.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "plus.google.com/110038350445855508357": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "www.bookmooch.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "passpack.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "docs.python.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "images.businessweek.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.211
+    },
+    "www.latimes.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "washingtonexaminer.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.teslamotors.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.thedailybeast.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "addons.mozilla.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "consumerist.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.buyblue.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.pubcon.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.yrockonxpn.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "gigaom.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "images.google.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.networkworld.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.shareasale.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.searchenginestrategies.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "mashable.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "venturebeat.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.businessweek.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.vimeo.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.emomsathome.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.opencongress.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "freakonomics.blogs.nytimes.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "generalassemb.ly": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.pcpro.co.uk": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "noexcuselist.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.bloomberg.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "awesome.goodmagazine.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "gethuman.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "opinionator.blogs.nytimes.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "pogue.blogs.nytimes.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.jrmediacenter.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "getpebble.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "redlettermedia.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.joystiq.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.msnbc.msn.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "potw.news.yahoo.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.news.cornell.edu": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.mandloys.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "healthland.time.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "thenextweb.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "feeds.wired.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.microsoft.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "mindtheproduct.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.eclectablog.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.mova.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.quora.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.thenation.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.forbes.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.motherjones.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "jollyrogertelephone.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "readwrite.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.dailykos.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.patentstorm.us": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "dailysignal.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.autoblog.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "leananalyticsbook.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.telegraph.co.uk": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "pandodaily.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.meograph.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.projectcensored.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "codex.wordpress.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "205.234.206.38": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.sachinrekhi.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.file.net": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "platformsandnetworks.blogspot.ca": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "search.twitter.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.eatbydate.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "money.cnn.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "moronland.net": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "www.usatoday.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.182
+    },
+    "freshonthenet.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.141
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.141
+    },
+    "robertreich.blogspot.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0704
+    },
+    "rediffmail.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0704
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.0704
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0704
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0704
+    }
+  }
+}

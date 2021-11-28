@@ -1,0 +1,439 @@
+{
+  "domain": "www.funwhilelost.com",
+  "urls": [
+    "http://www.funwhilelost.com/profile/funwhilelost",
+    "https://www.facebook.com/funwhilelost",
+    "https://twitter.com/funwhilelost",
+    "http://funwhilelost.tumblr.com/",
+    "http://www.github.com/funwhilelost"
+  ],
+  "names": [
+    "Andrew Jacobs",
+    "funwhilelost - Andrew Jacobs' personal blog",
+    "funwhilelost"
+  ],
+  "descriptions": [
+    "Outdoor entrepreneur, owner of Northwest Wind & Surf.  Full-stack web developer for 15 years and IndieWeb contributor.",
+    "Code, photography, adventure"
+  ],
+  "pictures": [
+    "http://www.funwhilelost.com/file/fa79187640f271e6a8584ac106c82f5e/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:andrew@funwhilelost.com"
+      ],
+      "name": [
+        "Andrew Jacobs"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Outdoor entrepreneur, owner of Northwest Wind &amp; Surf.  Full-stack web developer for 15 years and IndieWeb contributor.</p>\n</div>",
+          "value": "\nOutdoor entrepreneur, owner of Northwest Wind & Surf.  Full-stack web developer for 15 years and IndieWeb contributor.\n"
+        }
+      ],
+      "photo": [
+        "http://www.funwhilelost.com/file/fa79187640f271e6a8584ac106c82f5e/thumb.jpg"
+      ],
+      "profile": [
+        "Andrew Jacobs"
+      ],
+      "url": [
+        "http://www.funwhilelost.com/profile/funwhilelost",
+        "http://www.funwhilelost.com/profile/funwhilelost",
+        "https://www.facebook.com/funwhilelost",
+        "https://twitter.com/funwhilelost",
+        "http://funwhilelost.tumblr.com/",
+        "http://www.github.com/funwhilelost"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://www.facebook.com/funwhilelost",
+    "https://twitter.com/funwhilelost",
+    "http://funwhilelost.tumblr.com/",
+    "http://www.github.com/funwhilelost",
+    "mailto:andrew@funwhilelost.com"
+  ],
+  "crawl_start": "2017-04-26T15:24:37",
+  "crawl_end": "2017-04-26T15:40:33",
+  "num_pages": 471,
+  "total_html_size": 10575464,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-geo",
+    "h-card",
+    "h-entry",
+    "h-event"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "IWS2017",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.funwhilelost.com/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 2678,
+  "links_in": 243,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 471
+      },
+      "score": 1
+    },
+    "twitter.com/funwhilelost": {
+      "out": {
+        "other": 351
+      },
+      "score": 0.956
+    },
+    "funwhilelost.com": {
+      "out": {
+        "other": 343
+      },
+      "score": 0.953
+    },
+    "facebook.com/funwhilelost": {
+      "out": {
+        "other": 343
+      },
+      "score": 0.953
+    },
+    "funwhilelost.tumblr.com": {
+      "out": {
+        "other": 343
+      },
+      "score": 0.953
+    },
+    "www.github.com": {
+      "out": {
+        "other": 343
+      },
+      "score": 0.953
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 58
+      },
+      "in": {
+        "other": 96
+      },
+      "score": 0.782
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 4,
+        "in-reply-to": 23
+      },
+      "out": {
+        "in-reply-to": 9
+      },
+      "score": 0.780
+    },
+    "boffosocko.com": {
+      "out": {
+        "in-reply-to": 9,
+        "like-of": 18
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.743
+    },
+    "rachelandrew.co.uk": {
+      "out": {
+        "in-reply-to": 15
+      },
+      "score": 0.731
+    },
+    "www.davecorn.com": {
+      "out": {
+        "other": 12,
+        "in-reply-to": 12
+      },
+      "score": 0.726
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 110
+      },
+      "score": 0.686
+    },
+    "sandstorm.io": {
+      "out": {
+        "in-reply-to": 9,
+        "other": 9
+      },
+      "score": 0.683
+    },
+    "www.veronicarabelo.com": {
+      "out": {
+        "in-reply-to": 9
+      },
+      "score": 0.657
+    },
+    "www.sail-world.com": {
+      "out": {
+        "in-reply-to": 9
+      },
+      "score": 0.657
+    },
+    "adventure-journal.com": {
+      "out": {
+        "in-reply-to": 8
+      },
+      "score": 0.639
+    },
+    "vimeo.com": {
+      "out": {
+        "other": 10,
+        "repost-of": 10
+      },
+      "score": 0.639
+    },
+    "facebook.com/artefactgroup": {
+      "out": {
+        "other": 6,
+        "in-reply-to": 6
+      },
+      "score": 0.625
+    },
+    "aperture.org": {
+      "out": {
+        "other": 6,
+        "in-reply-to": 6
+      },
+      "score": 0.625
+    },
+    "facebook.com/JohnBBeta": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 6
+      },
+      "score": 0.625
+    },
+    "soundcloud.com": {
+      "out": {
+        "repost-of": 7,
+        "like-of": 6
+      },
+      "score": 0.612
+    },
+    "www.wbur.org": {
+      "out": {
+        "repost-of": 10
+      },
+      "score": 0.597
+    },
+    "blakeandrews.blogspot.com": {
+      "out": {
+        "repost-of": 10
+      },
+      "score": 0.597
+    },
+    "www.jeremycherfas.net": {
+      "out": {
+        "repost-of": 10
+      },
+      "score": 0.597
+    },
+    "nymag.com": {
+      "out": {
+        "repost-of": 10
+      },
+      "score": 0.597
+    },
+    "www.street-eo.com": {
+      "out": {
+        "like-of": 10
+      },
+      "score": 0.539
+    },
+    "www.npr.org": {
+      "out": {
+        "repost-of": 6
+      },
+      "score": 0.523
+    },
+    "instagram.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.486
+    },
+    "digitalart.funwhilelost.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.486
+    },
+    "websiteconf.neocities.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.486
+    },
+    "www.northwestwindsurf.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.438
+    },
+    "www.techworker.coop": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.438
+    },
+    "www.ft.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.438
+    },
+    "www.joviedevoe.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.438
+    },
+    "platform.coop": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.438
+    },
+    "sailish.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.438
+    },
+    "docs.google.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.422
+    },
+    "www.cjr.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.362
+    },
+    "prism-break.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.362
+    },
+    "www.dazeddigital.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.362
+    },
+    "motherboard.vice.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.362
+    },
+    "www.behance.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.362
+    },
+    "www.huckmagazine.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.362
+    },
+    "stokemagazine.blogspot.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.362
+    },
+    "www.artefactgroup.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.362
+    },
+    "points.datasociety.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.362
+    },
+    "medium.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.362
+    },
+    "brid.gy": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.321
+    },
+    "twitter.com/_crossdiver": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.203
+    },
+    "twitter.com/OandBevent": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.203
+    },
+    "twitter.com/momibo": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.203
+    },
+    "twitter.com/nyborr5": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.203
+    },
+    "momibo.co": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.203
+    },
+    "webmention.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.101
+    }
+  }
+}

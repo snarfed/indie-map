@@ -1,0 +1,136 @@
+{
+  "domain": "www.danielstucke.com",
+  "urls": [
+    "http://www.danielstucke.com/profile/danielstucke",
+    "http://twitter.com/danielstucke",
+    "https://google.com/+DanielStucke",
+    "https://www.facebook.com/danielstucke",
+    "https://medium.com/@danielstucke",
+    "https://micro.blog/danielstucke",
+    "https://www.flickr.com/people/dstucke/",
+    "https://github.com/danielstucke",
+    "https://www.strava.com/athletes/dstucke",
+    "https://www.instagram.com/danielstucke/"
+  ],
+  "names": [
+    "Daniel Stucke",
+    "Daniel Stucke - Learning & Teaching"
+  ],
+  "descriptions": [
+    "Vice Principal of Lightcliffe Academy in Yorkshire. Some time blogger, all time thinker. Father, husband, cyclist, geek & Evertonian.",
+    "Learning & Teaching"
+  ],
+  "pictures": [
+    "http://www.danielstucke.com/file/9a480355a767daa46a4a08e582b9cf94/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Daniel Stucke"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Vice Principal of Lightcliffe Academy in Yorkshire. Some time blogger, all time thinker. Father, husband, cyclist, geek &amp; Evertonian.</p>\n</div>",
+          "value": "\nVice Principal of Lightcliffe Academy in Yorkshire. Some time blogger, all time thinker. Father, husband, cyclist, geek & Evertonian.\n"
+        }
+      ],
+      "photo": [
+        "http://www.danielstucke.com/file/9a480355a767daa46a4a08e582b9cf94/thumb.jpg"
+      ],
+      "profile": [
+        "Daniel Stucke"
+      ],
+      "url": [
+        "http://www.danielstucke.com/profile/danielstucke",
+        "http://www.danielstucke.com/profile/danielstucke",
+        "http://twitter.com/danielstucke",
+        "https://google.com/+DanielStucke",
+        "https://www.facebook.com/danielstucke",
+        "https://medium.com/@danielstucke",
+        "https://micro.blog/danielstucke",
+        "https://www.flickr.com/people/dstucke/",
+        "https://github.com/danielstucke",
+        "https://www.strava.com/athletes/dstucke",
+        "https://www.instagram.com/danielstucke/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/danielstucke",
+    "https://google.com/+DanielStucke",
+    "https://www.facebook.com/danielstucke",
+    "https://medium.com/@danielstucke",
+    "https://micro.blog/danielstucke",
+    "https://www.flickr.com/people/dstucke/",
+    "https://github.com/danielstucke",
+    "https://www.strava.com/athletes/dstucke",
+    "https://www.instagram.com/danielstucke/",
+    "https://twitter.com/danielstucke",
+    "https://instagram.com/danielstucke"
+  ],
+  "crawl_start": "2017-04-30T06:07:43",
+  "crawl_end": "2017-04-30T07:16:31",
+  "num_pages": 7244,
+  "total_html_size": 216565449,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-cite",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.danielstucke.com/webmention/"
+    ],
+    "micropub": [
+      "http://www.danielstucke.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://www.danielstucke.com/indieauth/auth"
+    ],
+    "token": [
+      "http://www.danielstucke.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 85935,
+  "links_in": 9,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.320
+    },
+    "brid.gy": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.208
+    },
+    "ownyourgram.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0739
+    }
+  }
+}

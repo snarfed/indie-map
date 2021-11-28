@@ -1,0 +1,339 @@
+{
+  "domain": "www.leoville.net",
+  "urls": [
+    "http://www.leoville.net/profile/leolaporte",
+    "http://twit.tv",
+    "http://leoville.com",
+    "http://techguylabs.com"
+  ],
+  "names": [
+    "Leo Laporte",
+    "Leo Laporte's Blog",
+    "Leo's POSSE"
+  ],
+  "descriptions": [
+    "Podcaster, Broadcaster, Tech Pundit. Chief TWiT at the TWiT Netcast Network. The Tech Guy on the Premiere Networks.",
+    "Leo Laporte's personal blog"
+  ],
+  "pictures": [
+    "http://www.leoville.net/file/d5b41ca3de686ce8ac76a7f64996e4c4"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:leo@leoville.com"
+      ],
+      "name": [
+        "Leo Laporte"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Podcaster, Broadcaster, Tech Pundit. Chief TWiT at the TWiT Netcast Network. The Tech Guy on the Premiere Networks.<br/><link href=\"https://twitter.com/leolaporte\" rel=\"me\"/><link href=\"https://github.com/leolaporte\" rel=\"me\"/><link href=\"https://plus.google.com/+leolaporte\" rel=\"me\"/><link href=\"sms:+13025368948\" rel=\"me\"/><link class=\"u-email\" href=\"mailto:leo@leoville.com\" rel=\"me\"/></p>\n</div> ",
+          "value": "\nPodcaster, Broadcaster, Tech Pundit. Chief TWiT at the TWiT Netcast Network. The Tech Guy on the Premiere Networks.\n "
+        }
+      ],
+      "photo": [
+        "http://www.leoville.net/file/d5b41ca3de686ce8ac76a7f64996e4c4"
+      ],
+      "profile": [
+        "Leo Laporte"
+      ],
+      "url": [
+        "http://www.leoville.net/profile/leolaporte",
+        "http://www.leoville.net/profile/leolaporte",
+        "http://twit.tv ",
+        "http://leoville.com",
+        "http://techguylabs.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twit.tv ",
+    "http://leoville.com",
+    "http://techguylabs.com",
+    "https://instagram.com/mr_laporte",
+    "https://twitter.com/leolaporte",
+    "https://github.com/leolaporte",
+    "https://plus.google.com/+leolaporte",
+    "sms:+13025368948",
+    "mailto:leo@leoville.com"
+  ],
+  "crawl_start": "2017-05-14T20:12:24",
+  "crawl_end": "2017-05-14T20:24:41",
+  "num_pages": 1434,
+  "total_html_size": 34381282,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-event"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.leoville.net/webmention/"
+    ],
+    "micropub": [
+      "http://www.leoville.net/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://www.leoville.net/indieauth/auth"
+    ],
+    "token": [
+      "http://www.leoville.net/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 5966,
+  "links_in": 176,
+  "links": {
+    "leoville.withknown.com": {
+      "out": {
+        "other": 206,
+        "in-reply-to": 28
+      },
+      "score": 0.818
+    },
+    "www.petersell.com": {
+      "in": {
+        "in-reply-to": 25,
+        "other": 12
+      },
+      "out": {
+        "other": 20
+      },
+      "score": 0.648
+    },
+    "petersell.com": {
+      "in": {
+        "in-reply-to": 25,
+        "other": 12
+      },
+      "out": {
+        "other": 8
+      },
+      "score": 0.629
+    },
+    "aaronparecki.com": {
+      "in": {
+        "in-reply-to": 7,
+        "other": 15,
+        "like-of": 7
+      },
+      "out": {
+        "other": 28
+      },
+      "score": 0.599
+    },
+    "ben.thatmustbe.me": {
+      "in": {
+        "in-reply-to": 3
+      },
+      "out": {
+        "other": 44
+      },
+      "score": 0.579
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "in-reply-to": 5,
+        "other": 5
+      },
+      "out": {
+        "other": 28
+      },
+      "score": 0.556
+    },
+    "tonyfleming.withknown.com": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.548
+    },
+    "werd.io": {
+      "out": {
+        "other": 16
+      },
+      "in": {
+        "in-reply-to": 8
+      },
+      "score": 0.535
+    },
+    "quill.p3k.io": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.504
+    },
+    "test.tinokremer.nl": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.484
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.484
+    },
+    "micro.blog": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.484
+    },
+    "ownyourgram.com": {
+      "out": {
+        "other": 20
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.468
+    },
+    "dougbeal.com": {
+      "in": {
+        "like-of": 12
+      },
+      "out": {
+        "other": 8
+      },
+      "score": 0.461
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.434
+    },
+    "tinokremer.nl": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.434
+    },
+    "social.thedavidjohnson.com": {
+      "in": {
+        "other": 11
+      },
+      "out": {
+        "other": 8
+      },
+      "score": 0.412
+    },
+    "withknown.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.398
+    },
+    "stream.withknown.com": {
+      "out": {
+        "other": 8
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.375
+    },
+    "mabulledu.net": {
+      "out": {
+        "other": 8
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.368
+    },
+    "bear.im": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.346
+    },
+    "chrisaldrich.withknown.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.346
+    },
+    "gregorlove.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.346
+    },
+    "elliottucker.net": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.346
+    },
+    "tadmorgan.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.346
+    },
+    "kylewm.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.346
+    },
+    "social.growthedream.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.346
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.26
+    },
+    "blog.itsericwoodward.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.201
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.174
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0866
+    },
+    "pauljacobson.me": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

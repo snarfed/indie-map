@@ -1,0 +1,71 @@
+{
+  "domain": "news.wrightwradio.com",
+  "urls": [
+    "http://news.wrightwradio.com/"
+  ],
+  "names": [
+    "Wright Wradio News"
+  ],
+  "descriptions": [
+    "Wright Wradio News"
+  ],
+  "pictures": [
+    "https://news.wrightwradio.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T21:32:17",
+  "crawl_end": "2017-04-29T22:01:22",
+  "num_pages": 2711,
+  "total_html_size": 97823672,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://news.wrightwradio.com/webmention/"
+    ],
+    "micropub": [
+      "https://news.wrightwradio.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://news.wrightwradio.com/indieauth/auth"
+    ],
+    "token": [
+      "https://news.wrightwradio.com/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 3709,
+  "links_in": 11,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 2711
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.279
+    }
+  }
+}

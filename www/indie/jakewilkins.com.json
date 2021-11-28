@@ -1,0 +1,77 @@
+{
+  "domain": "jakewilkins.com",
+  "urls": [
+    "http://www.jakewilkins.com"
+  ],
+  "names": [
+    "A developer.",
+    "Jake"
+  ],
+  "descriptions": [
+    "A developer."
+  ],
+  "pictures": [
+    "http://www.jakewilkins.com/meme.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "A developer."
+      ],
+      "note": [
+        "A developer."
+      ],
+      "photo": [
+        "http://www.jakewilkins.com/meme.jpg"
+      ],
+      "uid": [
+        "http://www.jakewilkins.com"
+      ],
+      "url": [
+        "http://www.jakewilkins.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://github.com/j-wilkins",
+    "https://twitter.com/js_wilkins",
+    "http://www.jakewilkins.com"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "crawl_start": "2017-06-11T15:02:03.283863",
+  "crawl_end": "2017-06-11T15:02:03.283863",
+  "links_out": 0,
+  "links_in": 25,
+  "links": {
+    "own.jakewilkins.com": {
+      "in": {
+        "other": 21
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.228
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

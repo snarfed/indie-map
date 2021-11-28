@@ -1,0 +1,102 @@
+{
+  "domain": "bischoff.media",
+  "urls": [
+    "https://bischoff.media"
+  ],
+  "names": [
+    "Sven Bischoff",
+    "Sven Bischoff || Full-Stack Web-Entwickler"
+  ],
+  "descriptions": [
+    "Full-Stack Web-Entwickler",
+    "Der Full-Stack Web-Entwickler Sven Bischoff stellt sich vor. Links zu seinen Blog und Lebenslauf, sowie den Profilen bei GitHub, Twitter, Facebook, Steam, XING und LinkedIn."
+  ],
+  "pictures": [
+    "https://bischoff.media/assets/img/sb.png"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:info@bischoff.media?subject=Kontakt"
+      ],
+      "honorific-suffix": [
+        "B.Sc."
+      ],
+      "name": [
+        "Sven Bischoff"
+      ],
+      "note": [
+        "Full-Stack Web-Entwickler"
+      ],
+      "photo": [
+        "https://bischoff.media/assets/img/sb.png"
+      ],
+      "url": [
+        "https://bischoff.media"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://bischoff.media",
+    "https://multigeneris.org",
+    "https://svenbischoff.de",
+    "https://github.com/medienlampe",
+    "https://twitter.com/TheTalesOfImmo",
+    "https://www.facebook.com/sven.bischoff.393",
+    "https://500px.com/medienlampe",
+    "https://www.last.fm/de/user/MultiGeneris",
+    "https://steamcommunity.com/id/multigeneris",
+    "mailto:info@bischoff.media?subject=Kontakt",
+    "https://www.xing.com/profile/Sven_Bischoff10",
+    "https://de.linkedin.com/in/svenbischoff"
+  ],
+  "crawl_start": "2017-04-27T07:53:45",
+  "crawl_end": "2017-04-27T07:53:45",
+  "num_pages": 1,
+  "total_html_size": 115340,
+  "servers": [
+    "Apache (Debian)"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "authorization"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://bischoff.media/webmention.php"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ]
+  },
+  "links_out": 10,
+  "links_in": 5,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

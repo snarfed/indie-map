@@ -1,0 +1,191 @@
+{
+  "domain": "blog.indie.host",
+  "urls": [
+    "http://blog.indie.host/"
+  ],
+  "names": [
+    "IndieHosters",
+    "IndieHosters's Blog"
+  ],
+  "descriptions": [
+    "News about IndieHosters network"
+  ],
+  "pictures": [
+    "https://blog.indie.host/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T02:15:54",
+  "crawl_end": "2017-04-28T02:24:27",
+  "num_pages": 722,
+  "total_html_size": 19654007,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-event",
+    "h-entry",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://blog.indie.host/webmention/"
+    ],
+    "micropub": [
+      "https://blog.indie.host/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://blog.indie.host/indieauth/auth"
+    ],
+    "token": [
+      "https://blog.indie.host/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 9636,
+  "links_in": 380,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 779
+      },
+      "score": 0.975
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 329
+      },
+      "score": 0.861
+    },
+    "microblog.pierre-o.fr": {
+      "in": {
+        "other": 256,
+        "in-reply-to": 11
+      },
+      "out": {
+        "other": 90
+      },
+      "score": 0.822
+    },
+    "raretrack.uk": {
+      "in": {
+        "in-reply-to": 36
+      },
+      "score": 0.688
+    },
+    "brid.gy": {
+      "in": {
+        "other": 19
+      },
+      "out": {
+        "other": 46
+      },
+      "score": 0.625
+    },
+    "www.raretrack.uk": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "in-reply-to": 17
+      },
+      "score": 0.601
+    },
+    "www.rmendes.net": {
+      "out": {
+        "other": 31
+      },
+      "in": {
+        "other": 3,
+        "like-of": 5,
+        "repost-of": 3
+      },
+      "score": 0.588
+    },
+    "nlnet.nl": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.475
+    },
+    "www.peterbouda.eu": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.468
+    },
+    "camp.ouisharelabs.net": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.432
+    },
+    "pierre-o.fr": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.398
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.383
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.305
+    },
+    "tryingtobeawesome.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.276
+    },
+    "www.tuxed.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.184
+    },
+    "charles.stanho.pe": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.184
+    },
+    "jancborchardt.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.184
+    },
+    "hwc.brussels": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.184
+    },
+    "io.schiessle.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0919
+    }
+  }
+}

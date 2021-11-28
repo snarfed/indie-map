@@ -1,0 +1,114 @@
+{
+  "domain": "www.islay.org.uk",
+  "urls": [
+    "http://www.islay.org.uk/"
+  ],
+  "names": [
+    "Islay Pictures Photoblog | Pictures from the Isle of Islay, Scotland",
+    "Islay Pictures Photoblog"
+  ],
+  "descriptions": [
+    "Pictures from the Isle of Islay, Scotland"
+  ],
+  "pictures": [
+    "http://www.islay.org.uk/wp-content/uploads/2014/10/islay-icon-54514920_site_icon-32x32.png",
+    "http://www.islay.org.uk/wp-content/uploads/2014/10/islay-icon-54514920_site_icon-250x250.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-05-06T07:19:19",
+  "crawl_end": "2017-05-06T12:37:47",
+  "num_pages": 9542,
+  "total_html_size": 523513604,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-as-mention",
+    "h-feed",
+    "h-as-reply",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.islay.org.uk/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 53141,
+  "links_in": 622,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 2200
+      },
+      "score": 0.770
+    },
+    "new.islayblog.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 555
+      },
+      "score": 0.581
+    },
+    "jeena.net": {
+      "in": {
+        "in-reply-to": 20,
+        "other": 2,
+        "like-of": 2
+      },
+      "out": {
+        "other": 12
+      },
+      "score": 0.447
+    },
+    "blog.ministryofpropaganda.co.uk": {
+      "in": {
+        "other": 15
+      },
+      "out": {
+        "other": 11
+      },
+      "score": 0.331
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 3,
+        "in-reply-to": 1
+      },
+      "out": {
+        "other": 8
+      },
+      "score": 0.303
+    },
+    "brid.gy": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.265
+    },
+    "www.nerdcore.de": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0636
+    },
+    "islayblog.tumblr.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0636
+    }
+  }
+}

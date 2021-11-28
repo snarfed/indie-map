@@ -1,0 +1,482 @@
+{
+  "domain": "caseorganic.com",
+  "urls": [
+    "http://caseorganic.com/"
+  ],
+  "names": [
+    "The World is not a desktop | Caseorganic.com"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-23T23:14:52",
+  "crawl_end": "2017-04-24T04:25:56",
+  "num_pages": 4466,
+  "total_html_size": 126780579,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-feed",
+    "h-adr"
+  ],
+  "tags": [
+    "bridgy",
+    "elder",
+    "founder",
+    "IRC",
+    "webmention.io",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://caseorganic.com/?webmention=endpoint"
+    ],
+    "micropub": [
+      "http://caseorganic.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 68150,
+  "links_in": 4738,
+  "links": {
+    "aaronparecki.com": {
+      "out": {
+        "other": 486
+      },
+      "in": {
+        "in-reply-to": 65,
+        "other": 281,
+        "repost-of": 34,
+        "bookmark-of": 10
+      },
+      "score": 0.801
+    },
+    "werd.io": {
+      "in": {
+        "invitee": 30,
+        "in-reply-to": 188,
+        "other": 486
+      },
+      "out": {
+        "other": 28
+      },
+      "score": 0.797
+    },
+    "jothut.com": {
+      "in": {
+        "other": 1435
+      },
+      "score": 0.783
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 904
+      },
+      "score": 0.733
+    },
+    "geoloqi.com": {
+      "in": {
+        "other": 37
+      },
+      "out": {
+        "other": 342
+      },
+      "score": 0.708
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 356
+      },
+      "score": 0.707
+    },
+    "cyborgcamp.com": {
+      "out": {
+        "other": 239
+      },
+      "in": {
+        "other": 17
+      },
+      "score": 0.667
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 391
+      },
+      "score": 0.643
+    },
+    "loqi.me": {
+      "out": {
+        "other": 180
+      },
+      "score": 0.634
+    },
+    "cyborganthropology.com": {
+      "out": {
+        "other": 170
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.629
+    },
+    "xtof.withknown.com": {
+      "in": {
+        "in-reply-to": 62,
+        "other": 29
+      },
+      "score": 0.628
+    },
+    "fastwonderblog.com": {
+      "out": {
+        "other": 151
+      },
+      "score": 0.615
+    },
+    "adactio.com": {
+      "out": {
+        "other": 11
+      },
+      "in": {
+        "other": 199,
+        "bookmark-of": 38
+      },
+      "score": 0.612
+    },
+    "tantek.com": {
+      "in": {
+        "other": 53,
+        "in-reply-to": 1
+      },
+      "out": {
+        "other": 86
+      },
+      "score": 0.586
+    },
+    "known.kylewm.com": {
+      "in": {
+        "in-reply-to": 30
+      },
+      "score": 0.539
+    },
+    "kylewm.com": {
+      "in": {
+        "like-of": 20,
+        "in-reply-to": 10,
+        "other": 26
+      },
+      "score": 0.511
+    },
+    "donpark.org": {
+      "out": {
+        "other": 57
+      },
+      "score": 0.510
+    },
+    "www.esri.com": {
+      "out": {
+        "other": 49
+      },
+      "score": 0.493
+    },
+    "anth.ro": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.491
+    },
+    "developers.arcgis.com": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.482
+    },
+    "community.geoloqi.com": {
+      "in": {
+        "other": 77
+      },
+      "score": 0.467
+    },
+    "calmtechnology.com": {
+      "out": {
+        "other": 31
+      },
+      "score": 0.445
+    },
+    "andysylvester.com": {
+      "out": {
+        "other": 17
+      },
+      "in": {
+        "other": 10
+      },
+      "score": 0.407
+    },
+    "pdx.esri.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 20
+      },
+      "score": 0.403
+    },
+    "barryfrost.com": {
+      "in": {
+        "other": 38
+      },
+      "score": 0.392
+    },
+    "c2.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.385
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 6
+      },
+      "out": {
+        "other": 11
+      },
+      "score": 0.380
+    },
+    "news.indieweb.org": {
+      "in": {
+        "other": 32
+      },
+      "score": 0.374
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 30
+      },
+      "score": 0.366
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 30
+      },
+      "score": 0.366
+    },
+    "waterpigs.co.uk": {
+      "in": {
+        "other": 29
+      },
+      "score": 0.363
+    },
+    "tommorris.org": {
+      "in": {
+        "other": 3
+      },
+      "out": {
+        "other": 11
+      },
+      "score": 0.347
+    },
+    "stream.tapestrymaker.net": {
+      "in": {
+        "in-reply-to": 5
+      },
+      "score": 0.347
+    },
+    "collectiveagency.co": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.342
+    },
+    "notiz.blog": {
+      "in": {
+        "other": 24
+      },
+      "score": 0.342
+    },
+    "crystalbeasley.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.333
+    },
+    "bret.io": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.333
+    },
+    "ngoldman.me": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.333
+    },
+    "dangillmor.com": {
+      "in": {
+        "other": 16
+      },
+      "score": 0.298
+    },
+    "www.sandeep.io": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.284
+    },
+    "brid.gy": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.284
+    },
+    "benwerd.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.284
+    },
+    "developers.geoloqi.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.284
+    },
+    "2012.aaronparecki.com": {
+      "in": {
+        "other": 13
+      },
+      "score": 0.276
+    },
+    "christopheducamp.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.267
+    },
+    "channy.creation.net": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.258
+    },
+    "jeena.net": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 3
+      },
+      "score": 0.248
+    },
+    "blog.bl00cyb.org": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.248
+    },
+    "brennannovak.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.224
+    },
+    "upon2020.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.193
+    },
+    "jenson.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.193
+    },
+    "www.wordyard.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.173
+    },
+    "www.christydena.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.173
+    },
+    "acegiak.net": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.173
+    },
+    "willnorris.com": {
+      "in": {
+        "in-reply-to": 1
+      },
+      "score": 0.173
+    },
+    "techlifeweb.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.118
+    },
+    "www.decentralizedweb.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0746
+    },
+    "www.ike.io": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0746
+    },
+    "ben.thatmustbe.me": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "sixtwothree.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "ungoldman.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "personandplace.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "boghop.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

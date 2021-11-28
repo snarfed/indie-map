@@ -1,0 +1,184 @@
+{
+  "domain": "known.matthias.welling.io",
+  "urls": [
+    "http://known.matthias.welling.io/profile/matthias",
+    "http://matthias.welling.io",
+    "https://twitter.com/mwelling_io",
+    "https://www.facebook.com/matthias.welling",
+    "https://www.instagram.com/matzoman/",
+    "https://github.com/matzoman"
+  ],
+  "names": [
+    "Matthias Welling",
+    "matthias.welling - known",
+    "matthias.welling"
+  ],
+  "descriptions": [
+    "I write stuff. I photograph. I code a bit.",
+    "bits and blobs"
+  ],
+  "pictures": [
+    "http://known.matthias.welling.io/file/51480bbd8655e3e7253ce26a7dd00a2a/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Matthias Welling"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I write stuff. I photograph. I code a bit.</p>\n</div>",
+          "value": "\nI write stuff. I photograph. I code a bit.\n"
+        }
+      ],
+      "photo": [
+        "http://known.matthias.welling.io/file/51480bbd8655e3e7253ce26a7dd00a2a/thumb.jpg"
+      ],
+      "profile": [
+        "Matthias Welling"
+      ],
+      "url": [
+        "http://known.matthias.welling.io/profile/matthias",
+        "http://known.matthias.welling.io/profile/matthias",
+        "http://matthias.welling.io",
+        "https://twitter.com/mwelling_io",
+        "https://www.facebook.com/matthias.welling",
+        "https://www.instagram.com/matzoman/",
+        "https://github.com/matzoman"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://matthias.welling.io",
+    "https://twitter.com/mwelling_io",
+    "https://www.facebook.com/matthias.welling",
+    "https://www.instagram.com/matzoman/",
+    "https://github.com/matzoman"
+  ],
+  "crawl_start": "2017-04-29T04:36:18",
+  "crawl_end": "2017-04-29T05:02:28",
+  "num_pages": 1535,
+  "total_html_size": 35711113,
+  "servers": [
+    "Apache (CentOS)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-geo",
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.matthias.welling.io/webmention/"
+    ],
+    "micropub": [
+      "http://known.matthias.welling.io/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://known.matthias.welling.io/indieauth/auth"
+    ],
+    "token": [
+      "http://known.matthias.welling.io/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 9488,
+  "links_in": 139,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 1550
+      },
+      "score": 0.917
+    },
+    "wirres.net": {
+      "in": {
+        "like-of": 30,
+        "other": 70
+      },
+      "out": {
+        "other": 12,
+        "in-reply-to": 8
+      },
+      "score": 0.623
+    },
+    "www.petersell.com": {
+      "out": {
+        "other": 4,
+        "in-reply-to": 8
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.515
+    },
+    "brid.gy": {
+      "in": {
+        "other": 22
+      },
+      "out": {
+        "other": 25
+      },
+      "score": 0.488
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.372
+    },
+    "ownyourgram.com": {
+      "out": {
+        "other": 9
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.342
+    },
+    "nxd4n.nixekinder.be": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.301
+    },
+    "petersell.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.158
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0790
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

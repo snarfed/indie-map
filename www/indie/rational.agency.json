@@ -1,0 +1,105 @@
+{
+  "domain": "rational.agency",
+  "urls": [
+    "http://rational.agency/profile/davesgonechina",
+    "http://mutantpalm.org",
+    "http://www.rectified.name",
+    "https://github.com/davesgonechina",
+    "http://cn.linkedin.com/in/davealyons"
+  ],
+  "names": [
+    "dave",
+    "Backpfeifengesicht",
+    "Bladorian Frankles"
+  ],
+  "descriptions": [
+    "yo.",
+    "where I'm at"
+  ],
+  "pictures": [
+    "http://rational.agency/file/f1f3c834cb0f429153861f1f0efaaed6/thumb.jpg",
+    "http://rational.agency/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "dave"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>yo.</p>\n</div>",
+          "value": "\nyo.\n"
+        }
+      ],
+      "photo": [
+        "http://rational.agency/file/f1f3c834cb0f429153861f1f0efaaed6/thumb.jpg"
+      ],
+      "profile": [
+        "dave"
+      ],
+      "url": [
+        "http://rational.agency/profile/davesgonechina",
+        "http://rational.agency/profile/davesgonechina",
+        "http://mutantpalm.org",
+        "http://www.rectified.name",
+        "https://github.com/davesgonechina",
+        "http://cn.linkedin.com/in/davealyons"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://mutantpalm.org",
+    "http://www.rectified.name",
+    "https://github.com/davesgonechina",
+    "http://cn.linkedin.com/in/davealyons"
+  ],
+  "crawl_start": "2017-04-30T02:05:21",
+  "crawl_end": "2017-04-30T02:14:48",
+  "num_pages": 891,
+  "total_html_size": 24262460,
+  "servers": [
+    "Apache (Ubuntu)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://rational.agency/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 6098,
+  "links_in": 84,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 891
+      },
+      "score": 1
+    },
+    "davelyons.info": {
+      "out": {
+        "other": 25
+      },
+      "in": {
+        "other": 84
+      },
+      "score": 0.655
+    }
+  }
+}

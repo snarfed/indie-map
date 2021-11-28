@@ -1,0 +1,61 @@
+{
+  "domain": "appworks.nl",
+  "urls": [
+    "http://appworks.nl/"
+  ],
+  "names": [
+    "AppWorks | Platform over innovatieve bedrijfsapplicaties"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://appworks.nl/wp-content/uploads/2014/02/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-27T07:52:27",
+  "crawl_end": "2017-04-27T09:36:20",
+  "num_pages": 7806,
+  "total_html_size": 438585189,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-as-like",
+    "h-as-repost",
+    "h-as-mention",
+    "h-entry",
+    "h-card",
+    "h-as-reply"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://appworks.nl/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 253088,
+  "links_in": 22,
+  "links": {
+    "cloudworks.nu": {
+      "in": {
+        "other": 20
+      },
+      "out": {
+        "other": 22
+      },
+      "score": 0.353
+    },
+    "datacenterworks.nl": {
+      "out": {
+        "other": 23
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.328
+    }
+  }
+}

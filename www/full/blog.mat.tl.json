@@ -1,0 +1,53 @@
+{
+  "domain": "blog.mat.tl",
+  "urls": [
+    "http://blog.mat.tl/"
+  ],
+  "names": [
+    "blog.mat.tl"
+  ],
+  "descriptions": [
+    "Matt Lee's blog"
+  ],
+  "pictures": [
+    "http://blog.mat.tl/gfx/users/default-02.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T02:15:51",
+  "crawl_end": "2017-04-28T02:16:00",
+  "num_pages": 12,
+  "total_html_size": 181234,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://blog.mat.tl/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 0,
+  "links_in": 1,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

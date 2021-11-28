@@ -1,0 +1,165 @@
+{
+  "domain": "blog.itsericwoodward.com",
+  "urls": [
+    "https://blog.itsericwoodward.com/profile/eric",
+    "https://site.itsericwoodward.com",
+    "https://mythicwarsgame.com",
+    "https://twitter.com/itsericwoodward",
+    "https://github.com/itsericwoodward",
+    "http://boardgamegeek.com/user/EricPlaysGames"
+  ],
+  "names": [
+    "Eric Woodward",
+    "It's Eric Woodward's Blog"
+  ],
+  "descriptions": [
+    "Husband, father, digital mystic, game crafter, code weaver, and suburban philosopher, though not necessarily in that order. Creator of Mythic Wars (card game). Owner of Mystic Bits (Games and Stuff). Employed by AT&T (but I do not speak for them).",
+    "Words and stuff, about games and tech and life... and stuff."
+  ],
+  "pictures": [
+    "https://blog.itsericwoodward.com/file/48c15621ab907503da67534b88e6548e/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:hey@itsericwoodward.com"
+      ],
+      "name": [
+        "Eric Woodward"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Husband, father, digital mystic, game crafter, code weaver, and suburban philosopher, though not necessarily in that order. Creator of <a href=\"http://mythicwarsgame.com\">Mythic Wars (card game)</a>. Owner of Mystic Bits (Games and Stuff). Employed by AT&amp;T (but I do not speak for them).</p>\n</div>",
+          "value": "\nHusband, father, digital mystic, game crafter, code weaver, and suburban philosopher, though not necessarily in that order. Creator of Mythic Wars (card game). Owner of Mystic Bits (Games and Stuff). Employed by AT&T (but I do not speak for them).\n"
+        }
+      ],
+      "photo": [
+        "https://blog.itsericwoodward.com/file/48c15621ab907503da67534b88e6548e/thumb.jpg"
+      ],
+      "profile": [
+        "Eric Woodward"
+      ],
+      "url": [
+        "https://blog.itsericwoodward.com/profile/eric",
+        "https://blog.itsericwoodward.com/profile/eric",
+        "https://site.itsericwoodward.com",
+        "https://mythicwarsgame.com",
+        "https://twitter.com/itsericwoodward",
+        "https://github.com/itsericwoodward",
+        "http://boardgamegeek.com/user/EricPlaysGames"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://site.itsericwoodward.com",
+    "https://mythicwarsgame.com",
+    "https://twitter.com/itsericwoodward",
+    "https://github.com/itsericwoodward",
+    "http://boardgamegeek.com/user/EricPlaysGames",
+    "mailto:hey@itsericwoodward.com"
+  ],
+  "crawl_start": "2017-04-28T02:15:52",
+  "crawl_end": "2017-04-28T02:27:27",
+  "num_pages": 1128,
+  "total_html_size": 26152750,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://blog.itsericwoodward.com/webmention/"
+    ],
+    "micropub": [
+      "https://blog.itsericwoodward.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://blog.itsericwoodward.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 7963,
+  "links_in": 19,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 1140
+      },
+      "score": 1
+    },
+    "itsericwoodward.com": {
+      "out": {
+        "other": 586
+      },
+      "score": 0.913
+    },
+    "werd.io": {
+      "out": {
+        "in-reply-to": 12,
+        "other": 13
+      },
+      "in": {
+        "other": 8
+      },
+      "score": 0.652
+    },
+    "www.baldurbjarnason.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.554
+    },
+    "known.kevinmarks.com": {
+      "out": {
+        "other": 10
+      },
+      "in": {
+        "other": 5
+      },
+      "score": 0.417
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 5
+      },
+      "out": {
+        "other": 6
+      },
+      "score": 0.366
+    },
+    "www.leoville.net": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.298
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

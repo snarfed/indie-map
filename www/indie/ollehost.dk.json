@@ -1,0 +1,120 @@
+{
+  "domain": "ollehost.dk",
+  "urls": [
+    "http://ollehost.dk/"
+  ],
+  "names": [
+    "Ollehost: Document motel"
+  ],
+  "descriptions": [
+    "Olle Jonsson, Web technologist."
+  ],
+  "pictures": [
+    "http://ollehost.dk/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/olleolleolle",
+    "https://github.com/olleolleolle",
+    "https://profiles.google.com/olle.jonsson"
+  ],
+  "crawl_start": "2017-06-10T01:40:08",
+  "crawl_end": "2017-06-10T02:20:05",
+  "num_pages": 951,
+  "total_html_size": 57664980,
+  "servers": [
+    "Apache (Debian) DAV PHP-1~dotdeb+7.1 proxy_html mod_ssl OpenSSLe mod_wsgi Python+ mod_perl Perl/v5.14.2",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-feed"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://ollehost.dk/blog/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://ollehost.dk/blog/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 17378,
+  "links_in": 29,
+  "links": {
+    "ruk.ca": {
+      "out": {
+        "other": 65
+      },
+      "score": 0.580
+    },
+    "bergie.iki.fi": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.456
+    },
+    "amirchaudhry.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.414
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 20
+      },
+      "score": 0.358
+    },
+    "thatemil.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.296
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.296
+    },
+    "cweiske.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.274
+    },
+    "meyerweb.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.274
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.248
+    },
+    "scripting.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

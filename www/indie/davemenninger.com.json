@@ -1,0 +1,149 @@
+{
+  "domain": "davemenninger.com",
+  "urls": [
+    "http://davemenninger.com/"
+  ],
+  "names": [
+    "Dave Menninger",
+    "Dave Menninger . com"
+  ],
+  "descriptions": [
+    "sysadmin and developer, libraries and hackerspaces"
+  ],
+  "pictures": [
+    "http://davemenninger.com/7867380014_2847527433_q.jpg",
+    "http://davemenninger.com/dave.png"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:dave.menninger@gmail.com"
+      ],
+      "family-name": [
+        "Menninger"
+      ],
+      "given-name": [
+        "Dave"
+      ],
+      "locality": [
+        "Cincinnati"
+      ],
+      "name": [
+        "Dave Menninger"
+      ],
+      "note": [
+        "sysadmin and developer, libraries and hackerspaces"
+      ],
+      "photo": [
+        "http://davemenninger.com/7867380014_2847527433_q.jpg"
+      ],
+      "region": [
+        "OH"
+      ],
+      "uid": [
+        "http://davemenninger.com/"
+      ],
+      "url": [
+        "http://davemenninger.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/dave_menninger",
+    "https://github.com/davemenninger",
+    "https://plus.google.com/+DaveMenninger",
+    "https://www.flickr.com/people/dave_menninger/",
+    "http://about.me/davemenninger",
+    "http://davemenninger.com/",
+    "mailto:dave.menninger@gmail.com"
+  ],
+  "crawl_start": "2017-06-09T17:36:26",
+  "crawl_end": "2017-06-09T17:36:28",
+  "num_pages": 2,
+  "total_html_size": 20485,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "micropub": [
+      "http://davemenninger.com/micropub.php"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 68,
+  "links_in": 70,
+  "links": {
+    "huffduffer.com": {
+      "in": {
+        "other": 46
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 17
+      },
+      "score": 0.739
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.509
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.467
+    },
+    "adactio.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.363
+    },
+    "scripting.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.363
+    },
+    "inkdroid.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.363
+    },
+    "www.kevinmarks.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.181
+    },
+    "tilde.club": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.181
+    }
+  }
+}

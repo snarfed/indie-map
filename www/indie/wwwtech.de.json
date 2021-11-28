@@ -1,0 +1,167 @@
+{
+  "domain": "wwwtech.de",
+  "urls": [
+    "https://wwwtech.de/about"
+  ],
+  "names": [
+    "Christian Kruse",
+    "WWWTech — Free/Libre Open Source Software by Christian Kruse"
+  ],
+  "descriptions": [
+    "Personal silo (Twitter, Facebook, …) replacement of Christian Kruse"
+  ],
+  "pictures": [
+    "https://wwwtech.de/images/christian-kruse-242470c34a3671da4cab3e3b0d941729.jpg?vsn=d",
+    "https://wwwtech.de/favicon.ico",
+    "/images/christian-kruse-242470c34a3671da4cab3e3b0d941729.jpg?vsn=d"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Christian Kruse"
+      ],
+      "photo": [
+        "https://wwwtech.de/images/christian-kruse-242470c34a3671da4cab3e3b0d941729.jpg?vsn=d"
+      ],
+      "url": [
+        "https://wwwtech.de/about"
+      ]
+    },
+    "type": [
+      "h-card"
+    ],
+    "value": "Christian Kruse"
+  },
+  "rel_mes": [
+    "https://wwwtech.de/about",
+    "xmpp:cjk@defunct.ch",
+    "mailto:cjk@defunct.ch"
+  ],
+  "crawl_start": "2017-05-26T22:19:39",
+  "crawl_end": "2017-05-26T22:32:11",
+  "num_pages": 1394,
+  "total_html_size": 7880200,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-as-reply",
+    "h-card",
+    "h-entry",
+    "h-as-like"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://wwwtech.de/webmentions"
+    ]
+  },
+  "links_out": 7550,
+  "links_in": 1066,
+  "links": {
+    "jeena.net": {
+      "in": {
+        "like-of": 62,
+        "other": 492,
+        "in-reply-to": 324
+      },
+      "out": {
+        "in-reply-to": 14,
+        "other": 766,
+        "like-of": 36,
+        "repost-of": 4
+      },
+      "score": 0.963
+    },
+    "brid.gy": {
+      "out": {
+        "other": 690
+      },
+      "in": {
+        "other": 43
+      },
+      "score": 0.841
+    },
+    "tobiastom.name": {
+      "out": {
+        "other": 76,
+        "like-of": 12
+      },
+      "in": {
+        "other": 15
+      },
+      "score": 0.622
+    },
+    "unrelenting.technology": {
+      "in": {
+        "other": 90
+      },
+      "out": {
+        "other": 54
+      },
+      "score": 0.613
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 24
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.402
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.386
+    },
+    "www.savethis.space": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 5
+      },
+      "score": 0.297
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.255
+    },
+    "www.manton.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.241
+    },
+    "kartikprabhu.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "like-of": 2
+      },
+      "score": 0.241
+    },
+    "tantek.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.241
+    },
+    "dangillmor.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.241
+    }
+  }
+}

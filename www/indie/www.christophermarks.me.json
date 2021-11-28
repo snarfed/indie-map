@@ -1,0 +1,118 @@
+{
+  "domain": "www.christophermarks.me",
+  "urls": [
+    "http://www.christophermarks.me/profile/christopher",
+    "http://kitmarks.com",
+    "https://github.com/chrisamarks"
+  ],
+  "names": [
+    "Christopher Marks",
+    "Kit's Buttons"
+  ],
+  "descriptions": [
+    "Another monkey on a dirt ball zooming around a fireball.",
+    "Ideas that matter to me"
+  ],
+  "pictures": [
+    "http://www.christophermarks.me/file/1e0a6427f9172097f76ddfe0fe5ce003/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Christopher Marks"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Another monkey on a dirt ball zooming around a fireball.</p>\n</div>",
+          "value": "\nAnother monkey on a dirt ball zooming around a fireball.\n"
+        }
+      ],
+      "photo": [
+        "http://www.christophermarks.me/file/1e0a6427f9172097f76ddfe0fe5ce003/thumb.jpg"
+      ],
+      "profile": [
+        "Christopher Marks"
+      ],
+      "url": [
+        "http://www.christophermarks.me/profile/christopher",
+        "http://www.christophermarks.me/profile/christopher",
+        "http://kitmarks.com",
+        "https://github.com/chrisamarks"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://kitmarks.com",
+    "https://github.com/chrisamarks"
+  ],
+  "crawl_start": "2017-04-30T06:06:59",
+  "crawl_end": "2017-04-30T06:11:27",
+  "num_pages": 218,
+  "total_html_size": 7044869,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.christophermarks.me/webmention/"
+    ],
+    "micropub": [
+      "http://www.christophermarks.me/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://www.christophermarks.me/indieauth/auth"
+    ],
+    "token": [
+      "http://www.christophermarks.me/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1529,
+  "links_in": 76,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 218
+      },
+      "score": 0.850
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "in-reply-to": 53,
+        "other": 23
+      },
+      "out": {
+        "in-reply-to": 6,
+        "other": 40
+      },
+      "score": 0.848
+    },
+    "kevinmarks.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.194
+    }
+  }
+}

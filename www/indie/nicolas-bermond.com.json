@@ -1,0 +1,111 @@
+{
+  "domain": "nicolas-bermond.com",
+  "urls": [
+    "http://nicolas-bermond.com/"
+  ],
+  "names": [
+    "Nicolas Bermond / Paris / @nicolas2fr / Druide & Passeur – Do It Yourself / Prospective"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/nicolas2fr",
+    "https://www.facebook.com/nicolas.bermond",
+    "https://plus.google.com/+NicolasBermond",
+    "sms:+33672315538",
+    "mailto:nicolas@50a.fr"
+  ],
+  "crawl_start": "2017-04-29T21:32:31",
+  "crawl_end": "2017-04-29T21:54:30",
+  "num_pages": 948,
+  "total_html_size": 25262367,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-article",
+    "h-cite",
+    "h-as-page",
+    "h-as-image",
+    "h-entry",
+    "h-feed"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://nicolas-bermond.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://nicolas-bermond.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 13316,
+  "links_in": 25,
+  "links": {
+    "independentpublisher.me": {
+      "out": {
+        "other": 946
+      },
+      "score": 0.929
+    },
+    "www.nicolas-bermond.com": {
+      "out": {
+        "other": 916
+      },
+      "score": 0.925
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.552
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "other": 36
+      },
+      "score": 0.539
+    },
+    "brid.gy": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.325
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.135
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0853
+    }
+  }
+}

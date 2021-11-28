@@ -1,0 +1,113 @@
+{
+  "domain": "kevinbeynon.com",
+  "urls": [
+    "https://kevinbeynon.com/me",
+    "https://kevinbeynon.com",
+    "//kevinbeynon.com"
+  ],
+  "names": [
+    "Kevin Beynon",
+    "KevinBeynon.com"
+  ],
+  "descriptions": [
+    "A place to write, re-read, think about and then delete it."
+  ],
+  "pictures": [
+    "https://kevinbeynon.com/images/favicons/kevinbeynon.png",
+    "https://kevinbeynon.com/images/k-red-large.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Kevin Beynon"
+      ],
+      "url": [
+        "https://kevinbeynon.com/me"
+      ]
+    },
+    "type": [
+      "h-card"
+    ],
+    "value": "Kevin Beynon"
+  },
+  "rel_mes": [
+    "https://kevinbeynon.com/69/a_look_through_akalas_great_reads",
+    "http://libreture.com",
+    "http://theepubizer.com",
+    "http://scarletferret.com",
+    "https://kevinbeynon.com/me",
+    "https://twitter.com/kevinbeynon"
+  ],
+  "crawl_start": "2017-06-09T18:13:37",
+  "crawl_end": "2017-06-09T18:14:11",
+  "num_pages": 52,
+  "total_html_size": 628913,
+  "servers": [
+    "Apache"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 606,
+  "links_in": 56,
+  "links": {
+    "adactio.com": {
+      "in": {
+        "other": 21
+      },
+      "out": {
+        "other": 3
+      },
+      "score": 0.616
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 25
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.616
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.388
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.259
+    },
+    "tantek.com": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.205
+    },
+    "waterpigs.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.129
+    },
+    "tnl.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.129
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

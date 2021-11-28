@@ -1,0 +1,59 @@
+{
+  "domain": "www.ike.io",
+  "urls": [
+    "http://www.ike.io/"
+  ],
+  "names": [
+    "Isaac's Internet Homestead"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "http://twitter.com/_crossdiver",
+    "http://github.com/ike",
+    "http://last.fm/user/ikelewis678",
+    "https://www.ike.io/pgp.asc",
+    "http://crossdiver.tumblr.com"
+  ],
+  "crawl_start": "2017-04-24T06:15:49",
+  "crawl_end": "2017-05-07T06:35:20",
+  "num_pages": 21,
+  "total_html_size": 104759,
+  "servers": [
+    "neocities"
+  ],
+  "tags": [
+    "relme",
+    "IRC"
+  ],
+  "endpoints": {},
+  "links_out": 264,
+  "links_in": 6,
+  "links": {
+    "ike.io": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.752
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.348
+    },
+    "caseorganic.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.348
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.174
+    }
+  }
+}

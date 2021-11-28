@@ -1,0 +1,3200 @@
+{
+  "domain": "io.schiessle.org",
+  "urls": [
+    "http://io.schiessle.org/"
+  ],
+  "names": [
+    "Network public timeline - GNU Social"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://io.schiessle.org/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T23:33:48",
+  "crawl_end": "2017-04-29T17:59:56",
+  "num_pages": 13383,
+  "total_html_size": 227941823,
+  "servers": [
+    "Apache (Debian)"
+  ],
+  "mf2_classes": [
+    "h-event",
+    "h-entry",
+    "h-card",
+    "h-feed"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention.io"
+  ],
+  "endpoints": {},
+  "links_out": 421109,
+  "links_in": 2449,
+  "links": {
+    "quitter.se": {
+      "out": {
+        "other": 60305,
+        "in-reply-to": 1340,
+        "repost-of": 39
+      },
+      "score": 1
+    },
+    "www.schiessle.org": {
+      "in": {
+        "other": 30
+      },
+      "out": {
+        "other": 53582
+      },
+      "score": 0.983
+    },
+    "quitter.no": {
+      "out": {
+        "in-reply-to": 464,
+        "repost-of": 68,
+        "other": 29166
+      },
+      "score": 0.941
+    },
+    "gnusocial.de": {
+      "out": {
+        "other": 24469,
+        "repost-of": 10,
+        "in-reply-to": 1117
+      },
+      "score": 0.932
+    },
+    "social.umeahackerspace.se": {
+      "out": {
+        "other": 14602,
+        "in-reply-to": 783,
+        "repost-of": 4
+      },
+      "score": 0.890
+    },
+    "status.fsf.org": {
+      "out": {
+        "other": 14463,
+        "in-reply-to": 54,
+        "repost-of": 44
+      },
+      "score": 0.873
+    },
+    "status.pirati.ca": {
+      "out": {
+        "in-reply-to": 428,
+        "repost-of": 13,
+        "other": 11063
+      },
+      "score": 0.864
+    },
+    "jigsaw.w3.org": {
+      "out": {
+        "other": 13377
+      },
+      "score": 0.864
+    },
+    "validator.w3.org": {
+      "out": {
+        "other": 13377
+      },
+      "score": 0.864
+    },
+    "www.w3.org": {
+      "out": {
+        "other": 13377
+      },
+      "score": 0.864
+    },
+    "blog.schiessle.org": {
+      "out": {
+        "other": 13420
+      },
+      "score": 0.864
+    },
+    "gnu.io": {
+      "out": {
+        "other": 13387
+      },
+      "score": 0.864
+    },
+    "fsfe.org": {
+      "out": {
+        "other": 13643
+      },
+      "score": 0.864
+    },
+    "creativecommons.org": {
+      "out": {
+        "other": 13403
+      },
+      "score": 0.864
+    },
+    "fresh.federati.net": {
+      "out": {
+        "in-reply-to": 335,
+        "repost-of": 1,
+        "other": 10310
+      },
+      "score": 0.856
+    },
+    "social.mxchange.org": {
+      "out": {
+        "in-reply-to": 248,
+        "other": 7019
+      },
+      "score": 0.823
+    },
+    "gnusocial.ch": {
+      "out": {
+        "other": 6007,
+        "repost-of": 2,
+        "in-reply-to": 427
+      },
+      "score": 0.822
+    },
+    "loadaverage.org": {
+      "out": {
+        "other": 5099,
+        "repost-of": 7,
+        "in-reply-to": 176
+      },
+      "in": {
+        "in-reply-to": 201,
+        "repost-of": 23,
+        "other": 2194
+      },
+      "score": 0.817
+    },
+    "mastodon.social": {
+      "out": {
+        "in-reply-to": 101,
+        "other": 4783
+      },
+      "score": 0.786
+    },
+    "status.vinilox.eu": {
+      "out": {
+        "in-reply-to": 27,
+        "other": 4237,
+        "repost-of": 2
+      },
+      "score": 0.769
+    },
+    "pod.geraspora.de": {
+      "out": {
+        "repost-of": 6,
+        "in-reply-to": 11,
+        "other": 4017
+      },
+      "score": 0.764
+    },
+    "gnusocial.no": {
+      "out": {
+        "in-reply-to": 82,
+        "other": 3246,
+        "repost-of": 2
+      },
+      "score": 0.754
+    },
+    "quitter.is": {
+      "out": {
+        "other": 2744,
+        "in-reply-to": 61
+      },
+      "score": 0.739
+    },
+    "sn.1w6.org": {
+      "out": {
+        "repost-of": 1,
+        "other": 2446,
+        "in-reply-to": 93
+      },
+      "score": 0.735
+    },
+    "oracle.skilledtests.com": {
+      "out": {
+        "in-reply-to": 17,
+        "other": 2530
+      },
+      "score": 0.725
+    },
+    "social.mayfirst.org": {
+      "out": {
+        "in-reply-to": 115,
+        "other": 1990,
+        "repost-of": 5
+      },
+      "score": 0.725
+    },
+    "pirati.ca": {
+      "out": {
+        "other": 2056,
+        "repost-of": 3,
+        "in-reply-to": 88
+      },
+      "score": 0.722
+    },
+    "sn.jonkman.ca": {
+      "out": {
+        "in-reply-to": 45,
+        "other": 2218
+      },
+      "score": 0.719
+    },
+    "primatemind.info": {
+      "out": {
+        "repost-of": 1,
+        "other": 1681,
+        "in-reply-to": 118
+      },
+      "score": 0.714
+    },
+    "social.mikegerwitz.com": {
+      "out": {
+        "in-reply-to": 49,
+        "other": 2005
+      },
+      "score": 0.713
+    },
+    "social.bitcast.info": {
+      "out": {
+        "in-reply-to": 102,
+        "other": 1561
+      },
+      "score": 0.706
+    },
+    "lamatriz.org": {
+      "out": {
+        "repost-of": 2,
+        "in-reply-to": 25,
+        "other": 1843
+      },
+      "score": 0.702
+    },
+    "social.tchncs.de": {
+      "out": {
+        "in-reply-to": 34,
+        "other": 1732
+      },
+      "score": 0.698
+    },
+    "sn.chromic.org": {
+      "out": {
+        "other": 1368,
+        "in-reply-to": 93
+      },
+      "score": 0.696
+    },
+    "friendica.xyz": {
+      "out": {
+        "in-reply-to": 62,
+        "other": 1457
+      },
+      "score": 0.692
+    },
+    "joindiaspora.com": {
+      "out": {
+        "repost-of": 14,
+        "in-reply-to": 27,
+        "other": 1489
+      },
+      "score": 0.687
+    },
+    "fediverse.com": {
+      "out": {
+        "repost-of": 1,
+        "other": 1528,
+        "in-reply-to": 24
+      },
+      "score": 0.686
+    },
+    "micro.fragdev.com": {
+      "out": {
+        "other": 1432,
+        "in-reply-to": 38
+      },
+      "score": 0.685
+    },
+    "gs.sdf.org": {
+      "out": {
+        "in-reply-to": 57,
+        "other": 1239
+      },
+      "score": 0.680
+    },
+    "s.russwurm.org": {
+      "out": {
+        "other": 1261,
+        "in-reply-to": 44
+      },
+      "score": 0.677
+    },
+    "quitter.es": {
+      "out": {
+        "in-reply-to": 19,
+        "other": 1283,
+        "repost-of": 1
+      },
+      "score": 0.672
+    },
+    "gnusocial.net": {
+      "out": {
+        "repost-of": 5,
+        "other": 1084,
+        "in-reply-to": 45
+      },
+      "score": 0.668
+    },
+    "indy.im": {
+      "out": {
+        "other": 993,
+        "in-reply-to": 60
+      },
+      "score": 0.666
+    },
+    "social.systemreboot.net": {
+      "out": {
+        "other": 1156,
+        "in-reply-to": 23
+      },
+      "score": 0.664
+    },
+    "statusnet.lebegue.org": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 1160
+      },
+      "score": 0.658
+    },
+    "aleph.land": {
+      "out": {
+        "in-reply-to": 7,
+        "other": 1066
+      },
+      "score": 0.653
+    },
+    "mamot.fr": {
+      "out": {
+        "other": 1065,
+        "in-reply-to": 4
+      },
+      "score": 0.651
+    },
+    "toot.cat": {
+      "out": {
+        "in-reply-to": 32,
+        "other": 856
+      },
+      "score": 0.646
+    },
+    "status.kaimi.cc": {
+      "out": {
+        "repost-of": 1,
+        "in-reply-to": 46,
+        "other": 696
+      },
+      "score": 0.638
+    },
+    "shitposter.club": {
+      "out": {
+        "in-reply-to": 51,
+        "other": 660,
+        "repost-of": 1
+      },
+      "score": 0.637
+    },
+    "gnusocial.club": {
+      "out": {
+        "other": 741,
+        "in-reply-to": 19
+      },
+      "score": 0.629
+    },
+    "social.libreplanetbr.org": {
+      "out": {
+        "in-reply-to": 44,
+        "other": 561
+      },
+      "score": 0.623
+    },
+    "quit.im": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 707,
+        "repost-of": 1
+      },
+      "score": 0.619
+    },
+    "social.yl.ms": {
+      "out": {
+        "other": 679,
+        "in-reply-to": 8
+      },
+      "score": 0.616
+    },
+    "herds.eu": {
+      "out": {
+        "other": 550,
+        "in-reply-to": 17
+      },
+      "score": 0.606
+    },
+    "community.highlandarrow.com": {
+      "out": {
+        "other": 440,
+        "in-reply-to": 39,
+        "repost-of": 1
+      },
+      "score": 0.606
+    },
+    "n2.federati.net": {
+      "out": {
+        "in-reply-to": 23,
+        "other": 517
+      },
+      "score": 0.605
+    },
+    "cybernude.org": {
+      "out": {
+        "in-reply-to": 27,
+        "other": 431
+      },
+      "score": 0.596
+    },
+    "social.undernet.uy": {
+      "out": {
+        "other": 509,
+        "in-reply-to": 6
+      },
+      "score": 0.592
+    },
+    "social.heldscal.la": {
+      "out": {
+        "in-reply-to": 31,
+        "other": 367
+      },
+      "score": 0.589
+    },
+    "mastodon.cloud": {
+      "out": {
+        "in-reply-to": 14,
+        "other": 442
+      },
+      "score": 0.587
+    },
+    "social.aqeeliz.com": {
+      "out": {
+        "in-reply-to": 37,
+        "other": 316
+      },
+      "score": 0.586
+    },
+    "squeet.me": {
+      "out": {
+        "other": 408,
+        "in-reply-to": 14
+      },
+      "score": 0.581
+    },
+    "status.hackerposse.com": {
+      "out": {
+        "other": 403,
+        "in-reply-to": 13
+      },
+      "score": 0.580
+    },
+    "social.bka.li": {
+      "out": {
+        "repost-of": 5,
+        "in-reply-to": 15,
+        "other": 345
+      },
+      "score": 0.574
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 402
+      },
+      "score": 0.567
+    },
+    "octodon.social": {
+      "out": {
+        "in-reply-to": 13,
+        "other": 339
+      },
+      "score": 0.567
+    },
+    "social.stopwatchingus-heidelberg.de": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 371
+      },
+      "score": 0.564
+    },
+    "sn.pztrn.name": {
+      "out": {
+        "other": 376,
+        "in-reply-to": 1
+      },
+      "score": 0.563
+    },
+    "social.hoergen.org": {
+      "out": {
+        "other": 344,
+        "in-reply-to": 7
+      },
+      "score": 0.562
+    },
+    "legadolibre.com.ar": {
+      "out": {
+        "other": 300
+      },
+      "score": 0.542
+    },
+    "f.haeder.net": {
+      "out": {
+        "other": 295
+      },
+      "score": 0.541
+    },
+    "bobinas.p4g.club": {
+      "out": {
+        "other": 287
+      },
+      "score": 0.538
+    },
+    "social.freedombone.net": {
+      "out": {
+        "other": 217,
+        "in-reply-to": 12
+      },
+      "score": 0.536
+    },
+    "nu.federati.net": {
+      "out": {
+        "in-reply-to": 5,
+        "other": 249
+      },
+      "score": 0.535
+    },
+    "gs.smuglo.li": {
+      "out": {
+        "other": 202,
+        "in-reply-to": 11
+      },
+      "score": 0.529
+    },
+    "gs.kawa-kun.com": {
+      "out": {
+        "in-reply-to": 14,
+        "other": 187
+      },
+      "score": 0.529
+    },
+    "gnusocial.red": {
+      "out": {
+        "other": 254
+      },
+      "score": 0.528
+    },
+    "github.com": {
+      "out": {
+        "other": 248
+      },
+      "score": 0.526
+    },
+    "somsants.net": {
+      "out": {
+        "in-reply-to": 15,
+        "other": 172
+      },
+      "score": 0.525
+    },
+    "mastodon.xyz": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 238
+      },
+      "score": 0.525
+    },
+    "micro.netzspielplatz.de": {
+      "out": {
+        "repost-of": 1,
+        "other": 194,
+        "in-reply-to": 5
+      },
+      "score": 0.517
+    },
+    "social.diekershoff.de": {
+      "out": {
+        "in-reply-to": 16,
+        "other": 141
+      },
+      "score": 0.516
+    },
+    "mustard.macno.org": {
+      "out": {
+        "other": 204
+      },
+      "score": 0.509
+    },
+    "gnus.wideweb.me": {
+      "out": {
+        "other": 134,
+        "in-reply-to": 13
+      },
+      "score": 0.508
+    },
+    "status.grobox.de": {
+      "out": {
+        "other": 186
+      },
+      "score": 0.502
+    },
+    "quitter.ro": {
+      "out": {
+        "other": 182
+      },
+      "score": 0.5
+    },
+    "sealion.club": {
+      "out": {
+        "in-reply-to": 8,
+        "other": 138
+      },
+      "score": 0.497
+    },
+    "www.heise.de": {
+      "out": {
+        "other": 178
+      },
+      "score": 0.497
+    },
+    "helpers.pyxis.uberspace.de": {
+      "out": {
+        "other": 173
+      },
+      "score": 0.496
+    },
+    "microblog.ourcoffs.org.au": {
+      "out": {
+        "repost-of": 1,
+        "other": 147,
+        "in-reply-to": 4
+      },
+      "score": 0.494
+    },
+    "www.taz.de": {
+      "out": {
+        "other": 170
+      },
+      "score": 0.494
+    },
+    "social.adriel.info": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 136
+      },
+      "score": 0.492
+    },
+    "sn.theru.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 160
+      },
+      "score": 0.492
+    },
+    "mattl.io": {
+      "out": {
+        "other": 139,
+        "in-reply-to": 3
+      },
+      "score": 0.486
+    },
+    "social.hfrc.de": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 135
+      },
+      "score": 0.486
+    },
+    "pirati.cc": {
+      "out": {
+        "other": 136
+      },
+      "score": 0.475
+    },
+    "friendica.3rik.cc": {
+      "out": {
+        "other": 135
+      },
+      "score": 0.475
+    },
+    "ostatus.shnoulle.net": {
+      "out": {
+        "other": 133
+      },
+      "score": 0.473
+    },
+    "despora.de": {
+      "out": {
+        "other": 130
+      },
+      "score": 0.471
+    },
+    "status.blaise.ca": {
+      "out": {
+        "in-reply-to": 5,
+        "other": 104
+      },
+      "score": 0.470
+    },
+    "anticapitalist.party": {
+      "out": {
+        "other": 116,
+        "in-reply-to": 2
+      },
+      "score": 0.469
+    },
+    "eduposse.org": {
+      "out": {
+        "other": 122
+      },
+      "score": 0.466
+    },
+    "www.rp-online.de": {
+      "out": {
+        "other": 118
+      },
+      "score": 0.463
+    },
+    "mastodon.technology": {
+      "out": {
+        "in-reply-to": 5,
+        "other": 90
+      },
+      "score": 0.461
+    },
+    "icosahedron.website": {
+      "out": {
+        "other": 108,
+        "in-reply-to": 1
+      },
+      "score": 0.459
+    },
+    "www.piratenfraktion-nrw.de": {
+      "out": {
+        "other": 113
+      },
+      "score": 0.459
+    },
+    "s.morphtown.de": {
+      "out": {
+        "other": 86,
+        "in-reply-to": 4
+      },
+      "score": 0.454
+    },
+    "snabeltann.no": {
+      "out": {
+        "in-reply-to": 3,
+        "other": 85
+      },
+      "score": 0.449
+    },
+    "freezepeach.xyz": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 79
+      },
+      "score": 0.448
+    },
+    "status.homecomputing.fr": {
+      "out": {
+        "other": 79,
+        "in-reply-to": 4
+      },
+      "score": 0.448
+    },
+    "my-status.tk": {
+      "out": {
+        "other": 79,
+        "in-reply-to": 4
+      },
+      "score": 0.448
+    },
+    "www1.wdr.de": {
+      "out": {
+        "other": 94
+      },
+      "score": 0.444
+    },
+    "social.nasqueron.org": {
+      "out": {
+        "other": 85,
+        "in-reply-to": 1
+      },
+      "score": 0.440
+    },
+    "social.tcit.fr": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.440
+    },
+    "plateia.org": {
+      "out": {
+        "other": 88
+      },
+      "score": 0.438
+    },
+    "diasp.org": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 74
+      },
+      "score": 0.434
+    },
+    "aridgwayweb.com": {
+      "out": {
+        "other": 39,
+        "in-reply-to": 9
+      },
+      "score": 0.434
+    },
+    "chirp.cooleysekula.net": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 72
+      },
+      "score": 0.432
+    },
+    "theru.xyz": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 71
+      },
+      "score": 0.431
+    },
+    "chaos.social": {
+      "out": {
+        "other": 79
+      },
+      "score": 0.429
+    },
+    "pags.to": {
+      "out": {
+        "other": 72,
+        "repost-of": 1
+      },
+      "score": 0.425
+    },
+    "status.jezra.net": {
+      "out": {
+        "other": 76
+      },
+      "score": 0.425
+    },
+    "nerdpol.ch": {
+      "out": {
+        "other": 73
+      },
+      "score": 0.422
+    },
+    "framasphere.org": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.421
+    },
+    "gs.morphtown.de": {
+      "out": {
+        "other": 60,
+        "in-reply-to": 2
+      },
+      "score": 0.419
+    },
+    "www.datenklause.de": {
+      "out": {
+        "other": 50,
+        "in-reply-to": 4
+      },
+      "score": 0.419
+    },
+    "gnusocial.cf": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 56
+      },
+      "score": 0.414
+    },
+    "f.diekershoff.de": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 54
+      },
+      "score": 0.411
+    },
+    "quitter.nu": {
+      "out": {
+        "other": 63
+      },
+      "score": 0.410
+    },
+    "netzkombinat.su": {
+      "out": {
+        "other": 62
+      },
+      "score": 0.408
+    },
+    "gs.archae.me": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 42
+      },
+      "score": 0.408
+    },
+    "www.golem.de": {
+      "out": {
+        "other": 61
+      },
+      "score": 0.407
+    },
+    "cybre.space": {
+      "out": {
+        "other": 61
+      },
+      "score": 0.407
+    },
+    "betafive.net": {
+      "out": {
+        "in-reply-to": 3,
+        "other": 45
+      },
+      "score": 0.406
+    },
+    "social.stormdragon.tk": {
+      "out": {
+        "other": 59
+      },
+      "score": 0.404
+    },
+    "sn.postblue.info": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.403
+    },
+    "social.kokolor.es": {
+      "out": {
+        "other": 48,
+        "in-reply-to": 2
+      },
+      "score": 0.403
+    },
+    "boseburo.ddns.net": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.403
+    },
+    "dent.smithfam.info": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 51
+      },
+      "score": 0.4
+    },
+    "www.openstreetmap.org": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.4
+    },
+    "social.ilikefreedom.ro": {
+      "out": {
+        "other": 55
+      },
+      "score": 0.398
+    },
+    "mstdn.io": {
+      "out": {
+        "other": 55
+      },
+      "score": 0.398
+    },
+    "nextcloud.com": {
+      "out": {
+        "other": 55
+      },
+      "score": 0.398
+    },
+    "brid-gy.appspot.com": {
+      "out": {
+        "other": 55
+      },
+      "score": 0.398
+    },
+    "twitter.com/schiessle": {
+      "out": {
+        "other": 54
+      },
+      "score": 0.397
+    },
+    "blog.fefe.de": {
+      "out": {
+        "other": 53
+      },
+      "score": 0.395
+    },
+    "wogan.im": {
+      "out": {
+        "in-reply-to": 3,
+        "other": 37
+      },
+      "score": 0.393
+    },
+    "identi.ca": {
+      "out": {
+        "other": 51
+      },
+      "score": 0.392
+    },
+    "www.spiegel.de": {
+      "out": {
+        "other": 49
+      },
+      "score": 0.388
+    },
+    "2mb.social": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.386
+    },
+    "ibbtown.com": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.386
+    },
+    "another.ddns.info": {
+      "out": {
+        "other": 46
+      },
+      "score": 0.383
+    },
+    "micro.thelovebug.org": {
+      "out": {
+        "in-reply-to": 3,
+        "other": 30
+      },
+      "score": 0.381
+    },
+    "quitter.im": {
+      "out": {
+        "in-reply-to": 3,
+        "other": 30
+      },
+      "score": 0.381
+    },
+    "status.jbfavre.org": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 15
+      },
+      "score": 0.381
+    },
+    "mst3k.interlinked.me": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 40
+      },
+      "score": 0.381
+    },
+    "mastodon.cc": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.380
+    },
+    "quitter.cat": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.380
+    },
+    "sn.gunmonkeynet.net": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.380
+    },
+    "mastodon.sdf.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 39
+      },
+      "score": 0.380
+    },
+    "blog.piratenpartei-nrw.de": {
+      "out": {
+        "other": 43
+      },
+      "score": 0.377
+    },
+    "dent.gomertronic.com": {
+      "out": {
+        "other": 43
+      },
+      "score": 0.377
+    },
+    "soc.libranet.de": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 31
+      },
+      "score": 0.374
+    },
+    "vox.a2c3.co": {
+      "out": {
+        "other": 41
+      },
+      "score": 0.374
+    },
+    "friendica.anonsys.net": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.371
+    },
+    "git.gnu.io": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.371
+    },
+    "soc.ialis.me": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.371
+    },
+    "www.pro-linux.de": {
+      "out": {
+        "other": 39
+      },
+      "score": 0.369
+    },
+    "www.tagesschau.de": {
+      "out": {
+        "other": 39
+      },
+      "score": 0.369
+    },
+    "linuxinthenight.com": {
+      "out": {
+        "other": 39
+      },
+      "score": 0.369
+    },
+    "gnusocial.me": {
+      "out": {
+        "other": 39
+      },
+      "score": 0.369
+    },
+    "crosstalk.co": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.367
+    },
+    "toot.berlin": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.367
+    },
+    "rainbowdash.net": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 31
+      },
+      "score": 0.363
+    },
+    "gs.monkeystew.net": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.363
+    },
+    "computerfairi.es": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.363
+    },
+    "friendica.mrpetovan.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.363
+    },
+    "everybodys.freeball.in": {
+      "out": {
+        "other": 15,
+        "in-reply-to": 4
+      },
+      "score": 0.360
+    },
+    "www.theguardian.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.358
+    },
+    "netzpolitik.org": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.358
+    },
+    "toot.cafe": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.358
+    },
+    "social.targaryen.house": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.358
+    },
+    "soykaf.com": {
+      "out": {
+        "other": 28,
+        "in-reply-to": 1
+      },
+      "score": 0.355
+    },
+    "kirakiratter.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.353
+    },
+    "bobinas.pandilla4gatos.tk": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.353
+    },
+    "pod.hfrc.de": {
+      "out": {
+        "other": 21,
+        "repost-of": 2,
+        "in-reply-to": 1
+      },
+      "score": 0.353
+    },
+    "www.piratenpartei.de": {
+      "out": {
+        "other": 31
+      },
+      "score": 0.35
+    },
+    "anonymous.wtf": {
+      "out": {
+        "other": 21,
+        "in-reply-to": 2
+      },
+      "score": 0.35
+    },
+    "www.bbc.co.uk": {
+      "out": {
+        "other": 31
+      },
+      "score": 0.35
+    },
+    "www.theregister.co.uk": {
+      "out": {
+        "other": 31
+      },
+      "score": 0.35
+    },
+    "friend.rbose.org": {
+      "out": {
+        "other": 31
+      },
+      "score": 0.35
+    },
+    "www.zeit.de": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.347
+    },
+    "gnusocial.blogrobatik.de": {
+      "out": {
+        "other": 24,
+        "in-reply-to": 1
+      },
+      "score": 0.344
+    },
+    "wm.sdf.org": {
+      "out": {
+        "other": 29
+      },
+      "score": 0.344
+    },
+    "gs-ec.net": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 18
+      },
+      "score": 0.342
+    },
+    "k7r.eu": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.342
+    },
+    "shoutit.ga": {
+      "out": {
+        "in-reply-to": 3,
+        "other": 13
+      },
+      "score": 0.342
+    },
+    "t3n.de": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.342
+    },
+    "unixcorn.xyz": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.342
+    },
+    "mastodon.hasameli.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.342
+    },
+    "gnusocial.lesharris.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 22
+      },
+      "score": 0.338
+    },
+    "mastodon.ar.al": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.338
+    },
+    "www.cio.com": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.338
+    },
+    "mastodon.club": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 17
+      },
+      "score": 0.338
+    },
+    "fosdem.org": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.338
+    },
+    "2muchin4mation.com": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.338
+    },
+    "joinup.ec.europa.eu": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.338
+    },
+    "freesocial.org": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.335
+    },
+    "www.tagesspiegel.de": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.335
+    },
+    "mastodon.rocks": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.335
+    },
+    "heio.co": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 15
+      },
+      "score": 0.331
+    },
+    "quitter.zone": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.331
+    },
+    "friendica.henze-online.de": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.331
+    },
+    "nhcrossing.com": {
+      "out": {
+        "other": 14,
+        "in-reply-to": 2
+      },
+      "score": 0.328
+    },
+    "social.corzntin.fr": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.328
+    },
+    "mastodon.at": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.328
+    },
+    "mastodon.network": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.325
+    },
+    "opensource.com": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.325
+    },
+    "www.linux.com": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.325
+    },
+    "www.derwesten.de": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.320
+    },
+    "www.sueddeutsche.de": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.320
+    },
+    "www.deutschlandfunk.de": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.320
+    },
+    "comrade.ovh": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.320
+    },
+    "quitter.ffue.eu": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.320
+    },
+    "social.wxcafe.net": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.320
+    },
+    "s.huttiesroow.nl": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 17
+      },
+      "score": 0.320
+    },
+    "bonn.social": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.320
+    },
+    "kosmos.social": {
+      "out": {
+        "other": 16,
+        "in-reply-to": 1
+      },
+      "score": 0.317
+    },
+    "mastodon.partipirate.org": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.317
+    },
+    "f.belug.de": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.317
+    },
+    "maly.io": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.317
+    },
+    "social.oalm.gub.uy": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.317
+    },
+    "social.weho.st": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.313
+    },
+    "oulipo.social": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 15
+      },
+      "score": 0.313
+    },
+    "fnordica.de": {
+      "out": {
+        "other": 15,
+        "in-reply-to": 1
+      },
+      "score": 0.313
+    },
+    "social.lou.lt": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.313
+    },
+    "social.realmofespionage.xyz": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.313
+    },
+    "www.piratenpartei-nrw.de": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.313
+    },
+    "diasp.eu": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.313
+    },
+    "www.faz.net": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.308
+    },
+    "blog.natenom.com": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.308
+    },
+    "www.welt.de": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.308
+    },
+    "medium.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.303
+    },
+    "gitlab.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.303
+    },
+    "gnutan.xyz": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.303
+    },
+    "aegibson.me": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.299
+    },
+    "www.independent.co.uk": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.299
+    },
+    "www.investigate-europe.eu": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.299
+    },
+    "soundcloud.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.299
+    },
+    "mastodon.blue": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.294
+    },
+    "www.bootsie.org.uk": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.294
+    },
+    "witches.town": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.294
+    },
+    "media.ccc.de": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.294
+    },
+    "notcraig.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.294
+    },
+    "blogs.fsfe.org": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.294
+    },
+    "functional.cafe": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.294
+    },
+    "criticalmasskiel.wordpress.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.294
+    },
+    "blog.mehl.mx": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.294
+    },
+    "arstechnica.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.294
+    },
+    "social.rbs.io": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.288
+    },
+    "theintercept.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.288
+    },
+    "social.daemons.it": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.288
+    },
+    "unblog.in": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.288
+    },
+    "brusio.pallamondo.net": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 10
+      },
+      "score": 0.288
+    },
+    "fr.zy.lc": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.288
+    },
+    "fedoramagazine.org": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.288
+    },
+    "blog.mmn-o.se": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.288
+    },
+    "pink.pilot.io": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 10
+      },
+      "score": 0.288
+    },
+    "niu.moe": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.288
+    },
+    "awoo.space": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.282
+    },
+    "social.au2pb.net": {
+      "out": {
+        "other": 9,
+        "in-reply-to": 1
+      },
+      "score": 0.282
+    },
+    "social.chabant.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.282
+    },
+    "ennibook.de": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.282
+    },
+    "motherboard.vice.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.282
+    },
+    "social.klazema.net": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.282
+    },
+    "www.wz.de": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.282
+    },
+    "blog.jospoortvliet.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.282
+    },
+    "libranet.de": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.282
+    },
+    "mstdn.jp": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.282
+    },
+    "masto.yellowkeycard.net": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.276
+    },
+    "www.techrepublic.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.276
+    },
+    "correctiv.org": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.276
+    },
+    "iamover18.org": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.276
+    },
+    "www.unixstickers.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.276
+    },
+    "pod.togart.de": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.276
+    },
+    "charlemos.barriohacker.net": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.269
+    },
+    "social.umeakulturhus.se": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.269
+    },
+    "mstdn.fr": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.269
+    },
+    "shrekislove.us": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.269
+    },
+    "addons.mozilla.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.269
+    },
+    "sverigesradio.se": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.269
+    },
+    "schnackr.hamburg.freifunk.net": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.269
+    },
+    "www.washingtonpost.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.269
+    },
+    "social.gibiris.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.269
+    },
+    "friendica.dszdw.net": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.269
+    },
+    "sn.diekershoff.de": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.269
+    },
+    "toot.drup.no": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.269
+    },
+    "animalliberation.social": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.269
+    },
+    "elparque.faccionlatina.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.269
+    },
+    "librestat.us": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.269
+    },
+    "social.10one.net": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.262
+    },
+    "blog.wdr.de": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.262
+    },
+    "meld.de": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.262
+    },
+    "quitgram.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.262
+    },
+    "logbuch-netzpolitik.de": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.262
+    },
+    "plus.google.com/+Nextcloud": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.262
+    },
+    "noagendasocial.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "ow.ly": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "mastodon.gougere.fr": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "social.bytesexual.net": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "news.ycombinator.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "derstandard.at": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "lybre.net": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "gnusocial.giammi.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "gs.zy.lc": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "social.nofftopia.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "toot.works": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "www.neues-deutschland.de": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "status.iamten.ninja": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "mastodon.zombocloud.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "nstr.se": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "rootco.de": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "mojdigital.blog.gov.uk": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "15o2.de": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "www.eweek.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "www.meetup.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "status.ssweeny.net": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.254
+    },
+    "bka.li": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.245
+    },
+    "fr.got-tty.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.245
+    },
+    "social.shnoulle.net": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.245
+    },
+    "friendica.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.245
+    },
+    "lasindias.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.245
+    },
+    "friendica.aegibson.me": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.245
+    },
+    "qvitter.krashboyz.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.245
+    },
+    "kirgroup.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.245
+    },
+    "rafting.io": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.245
+    },
+    "soc.beardyunixer.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.245
+    },
+    "tracker.debian.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.245
+    },
+    "help.nextcloud.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.245
+    },
+    "pbs.twimg.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.245
+    },
+    "blog.jolla.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.245
+    },
+    "dir.friendica.social": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.245
+    },
+    "www.fairphone.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.245
+    },
+    "victorhckinthefreeworld.wordpress.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "ze.tt": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "gnusocial.anonsys.net": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "fo0bar.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "gnusocial.freedombone.net": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "snarl.de": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "www.bbc.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "feaneron.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "mastodon.link": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "sn.timttmy.co.uk": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "status.tenak.net": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "www.zdnet.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "micro.morphtown.de": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "www.general-anzeiger-bonn.de": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "u.qdnx.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "futurezone.at": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "www.antifa-nordost.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "mobil.berliner-zeitung.de": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "libreplanet.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "www.mdr.de": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "bit.ly": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "socially.constructed.space": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.235
+    },
+    "s-seitz.de": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "www.medien-in-die-schule.de": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "node.paratxt.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "www.express.de": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "www.handelsblatt.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "www.deutschlandradiokultur.de": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "www.wa.de": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "social.touha.me": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "jollacommunity.it": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "mastodon.fun": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "sobac.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "www.wp.de": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "twitter.com/sysrich": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "www.svt.se": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "www.living-linux.de": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "www.egenix.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "www.mozilla.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "www.piratenfraktion-sh.de": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "www.stuttgarter-zeitung.de": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "itsfoss.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "pyra-handheld.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "taz.de": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "fusion.net": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "plus.faz.net": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "s.karp.id.au": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "www.jonobacon.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.224
+    },
+    "de.wikipedia.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "tretkowski.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "www.faszination-fankurve.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "blog.portknox.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "social.gtalug.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "status.caasn.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "a.weirder.earth": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "link.springer.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "tusk.social": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "www.crowdsupply.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "tooot.im": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "act.openmedia.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "www.eskimo.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "loco.ubuntu.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "www.freitag.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "boingboing.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "slime.global": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "vizzzion.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "dir.friendi.ca": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "matrix.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "sn.angry.im": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "twitter.com/ralphruthe": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "sn.sven-joerns.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "f.tschlotfeldt.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "patriciamoeller.wordpress.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "mastodon.undernet.uy": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "quitter.nl.eu.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "news.softpedia.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "social.imirhil.fr": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "toot.lmorchard.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "juliareda.eu": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "singpolyma.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "fossforce.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "siliconislandblog.wordpress.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "www.swr.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "diasporapod.no": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "shout.hilde72.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "tenca.rs": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "fossdroid.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.210
+    },
+    "chatsecure.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "finance.yahoo.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "www.nwzonline.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "www.gnome.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "threatpost.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "i.giphy.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "csorianognome.wordpress.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "anarchy.social": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "hub.digitalesecho.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "laravel-news.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "www.ksta.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "techcrunch.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "www.n-tv.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "www.eff.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "imgflip.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "www.rundschau-online.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "xenforo.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "s.alabs.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "arstechnica.co.uk": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "myshadow.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "friendica.produnis.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "www.debian.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "www.space.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "freunde.ma-nic.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "themerkle.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "osb-alliance.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "pastebin.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "www.siliconrepublic.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "wiki.piratenpartei.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "hackaday.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "www.stickermule.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "guardianproject.info": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.195
+    },
+    "chemnitzer.linux-tage.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "social.homunyan.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "mastodon.etalab.gouv.fr": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "www.fsf.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "www.google.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "opensocial.network": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "serv.mehl.mx": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "social.jamestechnotes.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "www.finanznachrichten.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "dabnotu.aminus3.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "media.libreplanet.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "wiki.fsfe.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "goo.gl": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "victorpalau.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "www.zdnet.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "digitalegesellschaft.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "www.itwire.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "im-in.space": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "www.agr-sh.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "blockads.fivefilters.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "hagen.cocoate.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "social.infranix.eu": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "berlincodeofconduct.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "grapevine.is": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "masto.pt": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "tamagothi.wordpress.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "www.wikiart.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "f.pztrn.name": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "frieda-online.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "monkeystew.social": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "www.svtplay.se": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "blog.baloneygeek.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "linux.softpedia.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "pluragraph.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "withknown.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    },
+    "s.wefamlee.be": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.176
+    }
+  },
+  "links_truncated": true
+}

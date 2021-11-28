@@ -1,0 +1,227 @@
+{
+  "domain": "aegibson.me",
+  "urls": [
+    "http://aegibson.me/profile/aaron",
+    "https://friendica.aegibson.me",
+    "https://plus.google.com/u/0/+aegibson",
+    "https://twitter.com/aegibson73",
+    "https://www.instagram.com/aegibson73/",
+    "xmpp:aaron@aegibson.me"
+  ],
+  "names": [
+    "Aaron Gibson",
+    "Aaron's Indieweb, powered by Known"
+  ],
+  "descriptions": [
+    "Self hosting baby!",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://aegibson.me/file/c194ff479c3d9fed61621786f31fefcd"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:aaron@aegibson.me"
+      ],
+      "name": [
+        "Aaron Gibson"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Self hosting baby!</p>\n</div>",
+          "value": "\nSelf hosting baby!\n"
+        }
+      ],
+      "photo": [
+        "http://aegibson.me/file/c194ff479c3d9fed61621786f31fefcd"
+      ],
+      "profile": [
+        "Aaron Gibson"
+      ],
+      "url": [
+        "http://aegibson.me/profile/aaron",
+        "http://aegibson.me/profile/aaron",
+        "https://friendica.aegibson.me",
+        "https://plus.google.com/u/0/+aegibson",
+        "https://twitter.com/aegibson73",
+        "https://www.instagram.com/aegibson73/",
+        "xmpp:aaron@aegibson.me"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://friendica.aegibson.me",
+    "https://plus.google.com/u/0/+aegibson",
+    "https://twitter.com/aegibson73",
+    "https://www.instagram.com/aegibson73/",
+    "xmpp:aaron@aegibson.me",
+    "mailto:aaron@aegibson.me"
+  ],
+  "crawl_start": "2017-06-09T17:33:25",
+  "crawl_end": "2017-06-09T17:37:52",
+  "num_pages": 449,
+  "total_html_size": 11441864,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://aegibson.me/webmention/"
+    ],
+    "micropub": [
+      "http://aegibson.me/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://aegibson.me/indieauth/auth"
+    ],
+    "token": [
+      "http://aegibson.me/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1159,
+  "links_in": 1731,
+  "links": {
+    "known.aegibson.me": {
+      "out": {
+        "other": 33
+      },
+      "in": {
+        "other": 1356
+      },
+      "score": 1
+    },
+    "loadaverage.org": {
+      "in": {
+        "repost-of": 2,
+        "other": 322,
+        "in-reply-to": 22
+      },
+      "score": 0.837
+    },
+    "stream.boffosocko.com": {
+      "out": {
+        "other": 28,
+        "in-reply-to": 28
+      },
+      "score": 0.802
+    },
+    "aaronparecki.com": {
+      "out": {
+        "like-of": 6,
+        "in-reply-to": 3
+      },
+      "in": {
+        "other": 10
+      },
+      "score": 0.573
+    },
+    "tantek.com": {
+      "out": {
+        "like-of": 15
+      },
+      "score": 0.563
+    },
+    "ownyourswarm.p3k.io": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.544
+    },
+    "petermolnar.net": {
+      "out": {
+        "in-reply-to": 5
+      },
+      "score": 0.539
+    },
+    "www.manton.org": {
+      "out": {
+        "in-reply-to": 5
+      },
+      "score": 0.539
+    },
+    "raretrack.uk": {
+      "out": {
+        "other": 6,
+        "in-reply-to": 3
+      },
+      "score": 0.515
+    },
+    "ben.thatmustbe.me": {
+      "out": {
+        "in-reply-to": 3,
+        "other": 4
+      },
+      "score": 0.501
+    },
+    "known.kevinmarks.com": {
+      "out": {
+        "in-reply-to": 3,
+        "other": 4
+      },
+      "score": 0.501
+    },
+    "davidjohnmead.com": {
+      "out": {
+        "in-reply-to": 3
+      },
+      "score": 0.468
+    },
+    "snarfed.org": {
+      "out": {
+        "bookmark-of": 5
+      },
+      "score": 0.413
+    },
+    "ascraeus.org": {
+      "out": {
+        "bookmark-of": 5
+      },
+      "score": 0.413
+    },
+    "io.schiessle.org": {
+      "in": {
+        "other": 17
+      },
+      "score": 0.390
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.191
+    },
+    "www.boffosocko.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.191
+    },
+    "adactio.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0955
+    }
+  }
+}

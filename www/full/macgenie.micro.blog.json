@@ -1,0 +1,76 @@
+{
+  "domain": "macgenie.micro.blog",
+  "urls": [
+    "http://macgenie.micro.blog/"
+  ],
+  "names": [
+    "Jean MacDonald "
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://micro.blog/macgenie"
+  ],
+  "crawl_start": "2017-04-28T01:48:53",
+  "crawl_end": "2017-04-28T01:49:12",
+  "num_pages": 18,
+  "total_html_size": 61348,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "IWS2017",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://micro.blog/webmention"
+    ],
+    "micropub": [
+      "https://micro.blog/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 24,
+  "links_in": 0,
+  "links": {
+    "micro.blog": {
+      "out": {
+        "other": 18
+      },
+      "score": 1
+    },
+    "twitter.com/HollywoodTheatr": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.388
+    },
+    "bit.ly": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.388
+    },
+    "www.oregonlive.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.388
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "domain": "broxxer.de",
+  "urls": [
+    "http://broxxer.de/"
+  ],
+  "names": [
+    "broxxer.de | Blog",
+    "broxxer.de"
+  ],
+  "descriptions": [
+    "Not just another blog..."
+  ],
+  "pictures": [
+    "http://broxxer.de/vendor/canvas/assets/images/favicon.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T02:19:04",
+  "crawl_end": "2017-04-28T02:19:07",
+  "num_pages": 7,
+  "total_html_size": 56098,
+  "servers": [
+    "nginx"
+  ],
+  "tags": [
+    "bridgy"
+  ],
+  "endpoints": {},
+  "links_out": 25,
+  "links_in": 21,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 21
+      },
+      "score": 1
+    },
+    "example.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.987
+    },
+    "cnvs.io": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.757
+    },
+    "daringfireball.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.684
+    },
+    "disqus.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.684
+    },
+    "michelf.ca": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.457
+    }
+  }
+}

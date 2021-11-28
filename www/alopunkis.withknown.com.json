@@ -1,0 +1,97 @@
+{
+  "domain": "alopunkis.withknown.com",
+  "urls": [
+    "https://alopunkis.withknown.com/profile/zilla",
+    "http://alopunkis.wordpress.com/"
+  ],
+  "names": [
+    "Zilla Alopunkis",
+    "Ζίλλα Αλοπανκής"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://alopunkis.withknown.com/file/eb8161f249482fc4c6664bfeca6fb002"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Zilla Alopunkis"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "https://alopunkis.withknown.com/file/eb8161f249482fc4c6664bfeca6fb002"
+      ],
+      "profile": [
+        "Zilla Alopunkis"
+      ],
+      "url": [
+        "https://alopunkis.withknown.com/profile/zilla",
+        "https://alopunkis.withknown.com/profile/zilla",
+        "http://alopunkis.wordpress.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://alopunkis.wordpress.com/"
+  ],
+  "crawl_start": "2017-04-27T07:52:21",
+  "crawl_end": "2017-04-27T07:52:36",
+  "num_pages": 23,
+  "total_html_size": 404268,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://alopunkis.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 19,
+  "links_in": 0,
+  "links": {
+    "alopunkis.wordpress.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 1
+    },
+    "twitter.com/b0ucq": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.401
+    },
+    "webmention.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.200
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "domain": "idallas.com",
+  "urls": [
+    "https://idallas.com/"
+  ],
+  "names": [
+    "iDallas! – stumbling towards epiphany",
+    "iDallas!"
+  ],
+  "descriptions": [
+    "stumbling towards epiphany"
+  ],
+  "pictures": [
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/idallas",
+    "https://plus.google.com/111957007024613738936",
+    "https://twitter.com/dallas",
+    "https://www.facebook.com/dallaskashuba",
+    "https://last.fm/user/djdown",
+    "https://www.instagram.com/idallas"
+  ],
+  "crawl_start": "2017-04-28T23:33:31",
+  "crawl_end": "2017-04-28T23:49:25",
+  "num_pages": 705,
+  "total_html_size": 22071311,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-article",
+    "h-feed",
+    "h-as-note",
+    "h-entry",
+    "h-cite",
+    "h-as-image",
+    "h-as-bookmark"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://idallas.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://idallas.com/wordpress/?micropub=endpoint",
+      "https://idallas.com/wordpress/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 6868,
+  "links_in": 54,
+  "links": {
+    "notizblog.org": {
+      "out": {
+        "other": 703
+      },
+      "score": 0.894
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "like-of": 42
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.549
+    },
+    "cleverdevil.io": {
+      "out": {
+        "other": 2,
+        "like-of": 5
+      },
+      "in": {
+        "other": 9
+      },
+      "score": 0.432
+    },
+    "brid.gy": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.296
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.284
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0855
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0855
+    }
+  }
+}

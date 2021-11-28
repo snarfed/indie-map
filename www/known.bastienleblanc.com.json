@@ -1,0 +1,204 @@
+{
+  "domain": "known.bastienleblanc.com",
+  "urls": [
+    "http://known.bastienleblanc.com/profile/bastleblanc",
+    "https://twitter.com/BastLeblanc"
+  ],
+  "names": [
+    "Bastien Leblanc"
+  ],
+  "descriptions": [
+    "Oracle enthusiastic *Opinions are my own and doesn't reflect Oracle's*",
+    "#Oracle #geek #Enthusiastic"
+  ],
+  "pictures": [
+    "http://known.bastienleblanc.com/file/8cca9d4010b33918ee49f05588cb7658/thumb.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Bastien Leblanc"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Oracle enthusiastic *Opinions are my own and doesn't reflect Oracle's*</p>\n</div>",
+          "value": "\nOracle enthusiastic *Opinions are my own and doesn't reflect Oracle's*\n"
+        }
+      ],
+      "photo": [
+        "http://known.bastienleblanc.com/file/8cca9d4010b33918ee49f05588cb7658/thumb.png"
+      ],
+      "profile": [
+        "Bastien Leblanc"
+      ],
+      "url": [
+        "http://known.bastienleblanc.com/profile/bastleblanc",
+        "http://known.bastienleblanc.com/profile/bastleblanc",
+        "https://twitter.com/BastLeblanc"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/BastLeblanc"
+  ],
+  "crawl_start": "2017-04-29T04:31:58",
+  "crawl_end": "2017-04-29T04:36:24",
+  "num_pages": 236,
+  "total_html_size": 4329745,
+  "servers": [
+    "Apache (Debian)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.bastienleblanc.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 689,
+  "links_in": 0,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 236
+      },
+      "score": 1
+    },
+    "twitter.com/BastLeblanc": {
+      "out": {
+        "other": 170
+      },
+      "score": 0.946
+    },
+    "adeeshfulay.wordpress.com": {
+      "out": {
+        "other": 63,
+        "in-reply-to": 1
+      },
+      "score": 0.797
+    },
+    "youtu.be": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 37
+      },
+      "score": 0.719
+    },
+    "docs.oracle.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 37
+      },
+      "score": 0.719
+    },
+    "bit.ly": {
+      "out": {
+        "other": 30,
+        "in-reply-to": 1
+      },
+      "score": 0.690
+    },
+    "www.oracle.com": {
+      "out": {
+        "other": 17,
+        "in-reply-to": 1
+      },
+      "score": 0.614
+    },
+    "www.lemonde.fr": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 14
+      },
+      "score": 0.591
+    },
+    "www.linkedin.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 11
+      },
+      "score": 0.563
+    },
+    "www.senat.fr": {
+      "out": {
+        "other": 11,
+        "in-reply-to": 1
+      },
+      "score": 0.563
+    },
+    "t.co": {
+      "out": {
+        "other": 11,
+        "in-reply-to": 1
+      },
+      "score": 0.563
+    },
+    "buff.ly": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 10
+      },
+      "score": 0.552
+    },
+    "www.numerama.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 8
+      },
+      "score": 0.529
+    },
+    "www.bbc.com": {
+      "out": {
+        "other": 8,
+        "in-reply-to": 1
+      },
+      "score": 0.529
+    },
+    "twitter.com/LeTallecPatrice": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.373
+    },
+    "twitter.com/Hloumi76": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.291
+    },
+    "srvctl-blog.fr": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.226
+    },
+    "twitter.com/DroplitHome": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.226
+    },
+    "twitter.com/ThinkGeekNew": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.226
+    }
+  }
+}

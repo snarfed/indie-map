@@ -1,0 +1,84 @@
+{
+  "domain": "known.bastienleblanc.com",
+  "urls": [
+    "http://known.bastienleblanc.com/profile/bastleblanc",
+    "https://twitter.com/BastLeblanc"
+  ],
+  "names": [
+    "Bastien Leblanc"
+  ],
+  "descriptions": [
+    "Oracle enthusiastic *Opinions are my own and doesn't reflect Oracle's*",
+    "#Oracle #geek #Enthusiastic"
+  ],
+  "pictures": [
+    "http://known.bastienleblanc.com/file/8cca9d4010b33918ee49f05588cb7658/thumb.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Bastien Leblanc"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Oracle enthusiastic *Opinions are my own and doesn't reflect Oracle's*</p>\n</div>",
+          "value": "\nOracle enthusiastic *Opinions are my own and doesn't reflect Oracle's*\n"
+        }
+      ],
+      "photo": [
+        "http://known.bastienleblanc.com/file/8cca9d4010b33918ee49f05588cb7658/thumb.png"
+      ],
+      "profile": [
+        "Bastien Leblanc"
+      ],
+      "url": [
+        "http://known.bastienleblanc.com/profile/bastleblanc",
+        "http://known.bastienleblanc.com/profile/bastleblanc",
+        "https://twitter.com/BastLeblanc"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/BastLeblanc"
+  ],
+  "crawl_start": "2017-04-29T04:31:58",
+  "crawl_end": "2017-04-29T04:36:24",
+  "num_pages": 236,
+  "total_html_size": 4329745,
+  "servers": [
+    "Apache (Debian)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.bastienleblanc.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 689,
+  "links_in": 0,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 236
+      },
+      "score": 1
+    }
+  }
+}

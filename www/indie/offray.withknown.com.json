@@ -1,0 +1,149 @@
+{
+  "domain": "offray.withknown.com",
+  "urls": [
+    "https://offray.withknown.com/profile/offray",
+    "http://twitter.com/offrayLC",
+    "http://mutabit.com/offray",
+    "http://hackbo.co"
+  ],
+  "names": [
+    "Offray Luna",
+    "mutabiT Edulab"
+  ],
+  "descriptions": [
+    "Algunas veces reingreso a la matriz para buscar las grietas / Sometimes I re-entry the matrix to search for the cracks",
+    "Un laboratorio y cocina de prácticas y espacios educativos"
+  ],
+  "pictures": [
+    "https://offray.withknown.com/file/a78260d8fe58c1b44ecb9d2a9849f0dd/thumb.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Offray Luna"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Algunas veces reingreso a la matriz para buscar las grietas / Sometimes I re-entry the matrix to search for the cracks</p>\n</div>",
+          "value": "\nAlgunas veces reingreso a la matriz para buscar las grietas / Sometimes I re-entry the matrix to search for the cracks\n"
+        }
+      ],
+      "photo": [
+        "https://offray.withknown.com/file/a78260d8fe58c1b44ecb9d2a9849f0dd/thumb.png"
+      ],
+      "profile": [
+        "Offray Luna"
+      ],
+      "url": [
+        "https://offray.withknown.com/profile/offray",
+        "https://offray.withknown.com/profile/offray",
+        "http://twitter.com/offrayLC",
+        "http://mutabit.com/offray",
+        "http://hackbo.co"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://offray.withknown.com/twitter.com/offrayLC",
+    "https://offray.withknown.com/mutabit.com/offray",
+    "https://offray.withknown.com/hackbo.co",
+    "http://twitter.com/offrayLC",
+    "http://mutabit.com/offray",
+    "http://hackbo.co"
+  ],
+  "crawl_start": "2017-04-29T21:34:14",
+  "crawl_end": "2017-04-29T22:23:22",
+  "num_pages": 3874,
+  "total_html_size": 87896011,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://offray.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 20753,
+  "links_in": 21,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 3874
+      },
+      "score": 1
+    },
+    "werd.io": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.489
+    },
+    "petermolnar.eu": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.441
+    },
+    "ar.al": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.387
+    },
+    "opentranscripts.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.355
+    },
+    "brid.gy": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.268
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.232
+    },
+    "benwerd.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.232
+    },
+    "blog.wolftune.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.232
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0773
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "domain": "www.bakera.de",
+  "urls": [
+    "http://www.bakera.de/"
+  ],
+  "names": [
+    "www.bakera.de"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/pintman",
+    "https://facebook.com/marco.bakera",
+    "https://diasp.de/u/pintman",
+    "https://www.youtube.com/user/pintman",
+    "https://www.youtube.com/user/bakeratbs1",
+    "https://github.com/pintman",
+    "https://google.com/+MarcoBakera",
+    "mailto:marco@bakera.de"
+  ],
+  "crawl_start": "2017-06-10T02:14:15",
+  "crawl_end": "2017-06-10T21:01:49",
+  "num_pages": 3118,
+  "total_html_size": 111939705,
+  "servers": [
+    "Apache (Ubuntu)",
+    "DokuWiki",
+    "Org-mode",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-feed"
+  ],
+  "tags": [
+    "relme",
+    "WordPress"
+  ],
+  "endpoints": {},
+  "links_out": 28665,
+  "links_in": 18,
+  "links": {
+    "indiewebcamp.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.365
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.332
+    },
+    "wirres.net": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "other": 12
+      },
+      "score": 0.332
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.149
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0744
+    }
+  }
+}

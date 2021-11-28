@@ -1,0 +1,64 @@
+{
+  "domain": "tafadzwa.mundida.com",
+  "urls": [
+    "http://tafadzwa.mundida.com/"
+  ],
+  "names": [
+    "Tafadzwa's Blog - The world according to a young African",
+    "Tafadzwa's Blog"
+  ],
+  "descriptions": [
+    "The world according to a young African"
+  ],
+  "pictures": [
+    "https://i1.wp.com/tafadzwa.mundida.com/wp-content/uploads/2016/07/cropped-DSCF3715-2.jpg?fit=32%2C32",
+    "https://i2.wp.com/tafadzwa.mundida.com/wp-content/uploads/2016/07/cropped-DSCF3715-2.jpg?fit=192%2C192"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T02:35:32",
+  "crawl_end": "2017-04-30T02:42:48",
+  "num_pages": 78,
+  "total_html_size": 2202305,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-mention",
+    "h-as-reply",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://tafadzwa.mundida.com/?webmention=endpoint"
+    ],
+    "micropub": [
+      "http://tafadzwa.mundida.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 197,
+  "links_in": 3,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.218
+    }
+  }
+}

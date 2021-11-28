@@ -1,0 +1,142 @@
+{
+  "domain": "angelo.lahacker.net",
+  "urls": [
+    "https://angelo.lahacker.net/"
+  ],
+  "names": [
+    "Angelo Gladding"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://angelo.lahacker.net/images/photos/FA6q-avatar.jpg"
+  ],
+  "hcard": {
+    "children": [
+      {
+        "properties": {
+          "locality": [
+            "South Pasadena"
+          ],
+          "name": [
+            "South Pasadena,\nCA\n Partly Cloudy\n56.5 °F"
+          ],
+          "region": [
+            "CA"
+          ]
+        },
+        "type": [
+          "h-adr"
+        ]
+      }
+    ],
+    "properties": {
+      "email": [
+        "mailto:angelo@lahacker.net"
+      ],
+      "name": [
+        "Angelo Gladding"
+      ],
+      "photo": [
+        "https://angelo.lahacker.net/images/photos/FA6q-avatar.jpg"
+      ],
+      "url": [
+        "https://angelo.lahacker.net/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://angelo.lahacker.net/",
+    "https://news.ycombinator.com/user?id=angelo",
+    "https://reddit.com/u/agladding",
+    "https://twitter.com/angelogladding",
+    "https://github.com/angelogladding",
+    "https://facebook.com/angelogladding",
+    "https://linkedin.com/in/angelogladding",
+    "mailto:angelo@lahacker.net",
+    "https://angelo.lahacker.net/security/pgp/keys/008444488D4DD81B.asc"
+  ],
+  "crawl_start": "2017-06-09T17:33:26",
+  "crawl_end": "2017-06-09T20:13:33",
+  "num_pages": 4534,
+  "total_html_size": 80646097,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-adr",
+    "h-card",
+    "h-entry",
+    "h-resume",
+    "h-feed"
+  ],
+  "tags": [
+    "relme",
+    "websub"
+  ],
+  "endpoints": {
+    "websub": [
+      "https://angelo.lahacker.net/hub"
+    ]
+  },
+  "links_out": 36778,
+  "links_in": 62,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 28
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.381
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 25
+      },
+      "score": 0.353
+    },
+    "boffosocko.com": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.272
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.153
+    },
+    "www.kevinmarks.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.153
+    },
+    "werd.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.153
+    },
+    "tantek.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.153
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

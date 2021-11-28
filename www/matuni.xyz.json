@@ -1,0 +1,55 @@
+{
+  "domain": "matuni.xyz",
+  "urls": [
+    "http://matuni.xyz/"
+  ],
+  "names": [
+    "welcome in matunixe's lair"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://matuni.xyz/img/favicon-32x32.png",
+    "https://matuni.xyz/img/favicon-16x16.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T14:46:13",
+  "crawl_end": "2017-04-29T14:46:13",
+  "num_pages": 1,
+  "total_html_size": 1978,
+  "servers": [
+    "nginx"
+  ],
+  "tags": [
+    "bridgy"
+  ],
+  "endpoints": {},
+  "links_out": 3,
+  "links_in": 7,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 7
+      },
+      "score": 1
+    },
+    "blog.matuni.xyz": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.355
+    },
+    "pics.matuni.xyz": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.355
+    },
+    "code.unixcorn.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.355
+    }
+  }
+}

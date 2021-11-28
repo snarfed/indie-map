@@ -1,0 +1,135 @@
+{
+  "domain": "jp.dune.io",
+  "urls": [
+    "https://jp.dune.io/profile/jp",
+    "http://jp.caruana.fr",
+    "http://www.barreverte.fr"
+  ],
+  "names": [
+    "Jean-Philippe Caruana",
+    "Chez JP"
+  ],
+  "descriptions": [
+    "developper",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://jp.dune.io/file/91a90c17a8141dd98f5ac74da044f5e7"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Jean-Philippe Caruana"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>developper</p>\n</div>",
+          "value": "\ndevelopper\n"
+        }
+      ],
+      "photo": [
+        "https://jp.dune.io/file/91a90c17a8141dd98f5ac74da044f5e7"
+      ],
+      "profile": [
+        "Jean-Philippe Caruana"
+      ],
+      "url": [
+        "https://jp.dune.io/profile/jp",
+        "https://jp.dune.io/profile/jp",
+        "http://jp.caruana.fr",
+        "http://www.barreverte.fr"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://jp.caruana.fr",
+    "http://www.barreverte.fr"
+  ],
+  "crawl_start": "2017-04-29T04:31:37",
+  "crawl_end": "2017-04-29T04:31:44",
+  "num_pages": 11,
+  "total_html_size": 150918,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://jp.dune.io/webmention/"
+    ],
+    "micropub": [
+      "https://jp.dune.io/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://jp.dune.io/indieauth/auth"
+    ],
+    "token": [
+      "https://jp.dune.io/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 29,
+  "links_in": 31,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 1
+    },
+    "jp.caruana.fr": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.935
+    },
+    "www.barreverte.fr": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.935
+    },
+    "werd.io": {
+      "in": {
+        "other": 16
+      },
+      "score": 0.896
+    },
+    "brid.gy": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.803
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.224
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

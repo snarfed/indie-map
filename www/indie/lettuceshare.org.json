@@ -1,0 +1,71 @@
+{
+  "domain": "lettuceshare.org",
+  "urls": [
+    "http://lettuceshare.org/"
+  ],
+  "names": [
+    "index - lettuceshare"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T14:38:39",
+  "crawl_end": "2017-04-29T14:40:43",
+  "num_pages": 77,
+  "total_html_size": 438047,
+  "servers": [
+    "Apache (Debian)"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy"
+  ],
+  "endpoints": {},
+  "links_out": 178,
+  "links_in": 66,
+  "links": {
+    "dobrado.net": {
+      "out": {
+        "other": 83
+      },
+      "score": 1
+    },
+    "unicyclic.com": {
+      "out": {
+        "other": 3
+      },
+      "in": {
+        "repost-of": 2,
+        "other": 24,
+        "in-reply-to": 16,
+        "like-of": 2
+      },
+      "score": 0.937
+    },
+    "brid.gy": {
+      "in": {
+        "other": 16
+      },
+      "out": {
+        "other": 38
+      },
+      "score": 0.885
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.315
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

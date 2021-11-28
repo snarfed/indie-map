@@ -1,0 +1,342 @@
+{
+  "domain": "bear.im",
+  "urls": [
+    "https://bear.im",
+    "xmpp://bear@bear.im",
+    "https://github.com/bear",
+    "https://twitter.com/codebear",
+    "https://plus.google.com/+MikeTaylor"
+  ],
+  "names": [
+    "Mike Taylor",
+    "Does a bear code in the woods?"
+  ],
+  "descriptions": [
+    "the babbling of a coder and cat herder"
+  ],
+  "pictures": [
+    "https://bear.im/images/bear_145x145.jpg",
+    "https://bear.im/images/bear_128x128.jpg",
+    "https://bear.im/images/bear_android-icon-192x192.png",
+    "https://bear.im/images/bear_favicon-32x32.png",
+    "https://bear.im/images/bear_favicon-96x96.png",
+    "https://bear.im/images/bear_favicon-16x16.png"
+  ],
+  "hcard": {
+    "properties": {
+      "country-name": [
+        "United States"
+      ],
+      "email": [
+        "mailto:bear@bear.im"
+      ],
+      "locality": [
+        "Philadelphia"
+      ],
+      "name": [
+        "Mike Taylor"
+      ],
+      "nickname": [
+        "codebear",
+        "bear"
+      ],
+      "photo": [
+        "https://bear.im/images/bear_145x145.jpg"
+      ],
+      "tz": [
+        "-0400"
+      ],
+      "url": [
+        "https://bear.im",
+        "xmpp://bear@bear.im",
+        "https://github.com/bear",
+        "https://twitter.com/codebear",
+        "https://plus.google.com/+MikeTaylor",
+        "https://bear.im"
+      ],
+      "uuid": [
+        "https://bear.im"
+      ],
+      "x-pronoun-nominative": [
+        "he"
+      ],
+      "x-pronoun-oblique": [
+        "him"
+      ],
+      "x-pronoun-possessive": [
+        "his"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "mailto:bear@bear.im",
+    "xmpp://bear@bear.im",
+    "https://github.com/bear",
+    "https://twitter.com/codebear",
+    "https://plus.google.com/+MikeTaylor",
+    "https://bear.im"
+  ],
+  "crawl_start": "2017-04-23T22:46:45",
+  "crawl_end": "2017-04-23T23:00:36",
+  "num_pages": 708,
+  "total_html_size": 4961065,
+  "servers": [
+    "nginx",
+    "S5"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-as-article",
+    "h-feed",
+    "h-as-note"
+  ],
+  "tags": [
+    "relme",
+    "elder",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://bear.im/webmention"
+    ],
+    "micropub": [
+      "https://bear.im/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://bear.im/token"
+    ],
+    "websub": [
+      "https://bear.im/websubhub",
+      "https://pubsubhubbub.superfeedr.com"
+    ]
+  },
+  "links_out": 3690,
+  "links_in": 1571,
+  "links": {
+    "indieweb.org": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 933
+      },
+      "score": 0.862
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 428
+      },
+      "score": 0.762
+    },
+    "known.kylewm.com": {
+      "in": {
+        "other": 13,
+        "in-reply-to": 39
+      },
+      "score": 0.672
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.584
+    },
+    "aaronparecki.com": {
+      "in": {
+        "in-reply-to": 7,
+        "bookmark-of": 13,
+        "other": 23
+      },
+      "out": {
+        "other": 9
+      },
+      "score": 0.581
+    },
+    "kylewm.com": {
+      "out": {
+        "other": 6
+      },
+      "in": {
+        "other": 24,
+        "in-reply-to": 6
+      },
+      "score": 0.527
+    },
+    "werd.io": {
+      "in": {
+        "other": 38
+      },
+      "out": {
+        "in-reply-to": 2,
+        "other": 4
+      },
+      "score": 0.527
+    },
+    "tantek.com": {
+      "out": {
+        "other": 12
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.410
+    },
+    "2016.indieweb.org": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.377
+    },
+    "snarfed.org": {
+      "in": {
+        "other": 2,
+        "like-of": 2
+      },
+      "out": {
+        "other": 5
+      },
+      "score": 0.348
+    },
+    "techlifeweb.com": {
+      "in": {
+        "like-of": 5
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.312
+    },
+    "kartikprabhu.com": {
+      "in": {
+        "in-reply-to": 2
+      },
+      "score": 0.289
+    },
+    "www.leoville.net": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.262
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.262
+    },
+    "indiewebify.me": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.262
+    },
+    "notenoughneon.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.225
+    },
+    "brid.gy": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.203
+    },
+    "david.shanske.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "j4y.co": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "willnorris.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "silencematters.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "waterpigs.co.uk": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.175
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.175
+    },
+    "gregorlove.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0872
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0872
+    },
+    "tiny.n9n.us": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0872
+    },
+    "www.peterbouda.eu": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0872
+    },
+    "paddy.io": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "ben.thatmustbe.me": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "peterbouda.eu": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "domain": "strk.kbt.io",
+  "urls": [
+    "http://strk.kbt.io/"
+  ],
+  "names": [
+    "strk's publications"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "mailto:strk@kbt.io"
+  ],
+  "crawl_start": "2017-05-18T19:55:15",
+  "crawl_end": "2017-05-18T20:11:24",
+  "num_pages": 2218,
+  "total_html_size": 7470302,
+  "servers": [
+    "Apache (Debian)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "authorization",
+    "WordPress"
+  ],
+  "endpoints": {
+    "authorization": [
+      "https://id.kbt.io/indieauth/index.phar/"
+    ]
+  },
+  "links_out": 15666,
+  "links_in": 503,
+  "links": {
+    "chat.indieweb.org": {
+      "in": {
+        "other": 498
+      },
+      "score": 0.961
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.215
+    },
+    "loadaverage.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

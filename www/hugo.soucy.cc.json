@@ -1,0 +1,393 @@
+{
+  "domain": "hugo.soucy.cc",
+  "urls": [
+    "http://hugo.soucy.cc",
+    "http://hugo.soucy.cc/"
+  ],
+  "names": [
+    "Hugo Soucy",
+    "Hugo Soucy, dÃ©veloppeur Web frontend qui habite la ville de QuÃ©bec, et ceci est sa page Web — hugo.soucy.cc"
+  ],
+  "descriptions": [
+    "Dans ma soupe je vois le FLOSS, l'IndieWeb, le Peer-to-peer, Emacs, Bash, ownCloud, le JavaScript, la politique sans les politiciens, la lecture, le vÃ©lo et les sandwichs",
+    "DÃ©veloppeur Web frontend ayant presque de 15 ans d'expÃ©rience dans le milieu des technologies de l'information. Il habite dans le quartier Limoilou Ã  QuÃ©bec."
+  ],
+  "pictures": [
+    "http://assets.soucy.cc/images/hugosoucy/hs-automne-2012-372x430.jpg",
+    "http://assets.soucy.cc/images/hugosoucy/favicon/hs-autoportrait-2010-nb-favion-32x32.png"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "hugo@soucy.cc"
+      ],
+      "job-title": [
+        "DÃ©veloppeur Web frontend"
+      ],
+      "locality": [
+        "QuÃ©bec"
+      ],
+      "name": [
+        "Hugo Soucy"
+      ],
+      "nickname": [
+        "hs0ucy"
+      ],
+      "note": [
+        "Dans ma soupe je vois le FLOSS, l'IndieWeb, le Peer-to-peer, Emacs, Bash, ownCloud, le JavaScript, la politique sans les politiciens, la lecture, le vÃ©lo et les sandwichs"
+      ],
+      "photo": [
+        "http://assets.soucy.cc/images/hugosoucy/hs-automne-2012-372x430.jpg"
+      ],
+      "url": [
+        "http://hugo.soucy.cc"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://shr.soucy.cc/",
+    "https://bandcamp.com/hs0ucy",
+    "https://framasphere.org/u/hs0ucy",
+    "http://twitter.com/hs0ucy",
+    "https://github.com/hs0ucy",
+    "sms:+15819966481",
+    "http://hugo.soucy.cc",
+    "mailto:hugo@soucy.cc"
+  ],
+  "crawl_start": "2017-04-28T23:33:31",
+  "crawl_end": "2017-04-28T23:34:08",
+  "num_pages": 65,
+  "total_html_size": 344537,
+  "servers": [
+    "Apache (Debian)",
+    "FakeStache SSG"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-cite",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.herokuapp.com/api/webmention"
+    ]
+  },
+  "links_out": 178,
+  "links_in": 43,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 23
+      },
+      "out": {
+        "other": 45
+      },
+      "score": 1
+    },
+    "x.soucy.cc": {
+      "out": {
+        "other": 49
+      },
+      "score": 0.968
+    },
+    "t.co": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.672
+    },
+    "twitter.com/AkliAit": {
+      "out": {
+        "other": 4,
+        "in-reply-to": 1
+      },
+      "score": 0.611
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "in-reply-to": 3
+      },
+      "score": 0.573
+    },
+    "twitter.com/la_lesaffaires": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 2
+      },
+      "score": 0.558
+    },
+    "twitter.com/renoirb": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.440
+    },
+    "twitter.com/hashtag": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.440
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.378
+    },
+    "vimgifs.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "u.fsf.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "github.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "twitter.com/ianbremmer": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "underscorejs.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "www.rmendes.net": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.294
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "soucy.cc": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "werd.io": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.294
+    },
+    "twitter.com/snookca": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "app.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "justinjackson.ca": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "obsd4a.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "hyperpolyglot.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "animista.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "txti.es": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "tierion.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "twitter.com/EcologieUrbaine": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "melpa.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "twitter.com/emacs_gifs": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "www.theregister.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.294
+    },
+    "www.ledevoir.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "blog.intercom.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "www.fsf.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "irreal.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "dig.csail.mit.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "file": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "www.joelonsoftware.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "known.networkeffects.ca": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.147
+    },
+    "www.w3.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "fr.wikiquote.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "microformats.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "www.theguardian.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "shr.soucy.cc": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "note": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "searx.me": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "www.lactualite.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "+15819966481": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "www.leslibraires.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.147
+    },
+    "mention-tech.appspot.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

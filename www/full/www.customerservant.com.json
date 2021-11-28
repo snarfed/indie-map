@@ -1,0 +1,1195 @@
+{
+  "domain": "www.customerservant.com",
+  "crawl_start": "2017-04-30T06:07:15",
+  "crawl_end": "2017-04-30T06:22:39",
+  "num_pages": 203,
+  "total_html_size": 4771746,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-as-article",
+    "h-cite",
+    "h-card",
+    "h-as-mention"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.customerservant.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://www.customerservant.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "hcard": {},
+  "links_out": 1121,
+  "links_in": 2220,
+  "links": {
+    "www.arush.io": {
+      "in": {
+        "other": 2181
+      },
+      "score": 1
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 223
+      },
+      "score": 0.793
+    },
+    "amanda.wpengine.com": {
+      "out": {
+        "other": 206
+      },
+      "score": 0.783
+    },
+    "my.studiopress.com": {
+      "out": {
+        "other": 202
+      },
+      "score": 0.780
+    },
+    "www.studiopress.com": {
+      "out": {
+        "other": 202
+      },
+      "score": 0.780
+    },
+    "www.shareasale.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.459
+    },
+    "twitter.com/search": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.343
+    },
+    "unicyclic.com": {
+      "in": {
+        "other": 3,
+        "in-reply-to": 2
+      },
+      "score": 0.333
+    },
+    "make.wordpress.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.322
+    },
+    "twitter.com/share": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.322
+    },
+    "ma.tt": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.322
+    },
+    "mv2wcd351q1uttic2ruunv12-wpengine.netdna-ssl.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.299
+    },
+    "brid.gy": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.286
+    },
+    "www.nvaccess.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.270
+    },
+    "www.carriedils.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.270
+    },
+    "halfelf.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.270
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.270
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.270
+    },
+    "chrishofstader.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.270
+    },
+    "chrislema.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.270
+    },
+    "www.joedolson.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.270
+    },
+    "www.slideshare.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.270
+    },
+    "unrelenting.technology": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.233
+    },
+    "www.w3.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.233
+    },
+    "design.blog": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.233
+    },
+    "wptavern.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.233
+    },
+    "creativecommons.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.233
+    },
+    "torquemag.io": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.233
+    },
+    "github.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.233
+    },
+    "customerservant.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.233
+    },
+    "codex.wordpress.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.NaBloPoMo.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.bourncreative.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "tink.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.paciellogroup.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "wiki.cucat.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.garcialo.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "cheerpeppers.wordpress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.pac.bz": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.copyblogger.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.karlgroves.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.poststat.us": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "heropress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "wpfire.xyz": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "wordpress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "clarity.fm": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.web-savvy-marketing.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "rosenfeldmedia.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.loopconf.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.cavitraining.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "adrianroselli.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "wpconnected.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.elegantthemes.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "motherboard.vice.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "webdesign.tutsplus.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "alistapart.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "unvarnishedme.wpengine.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "wpsupportservices.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.blogher.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "dictationbridge.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "bobwp.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.aaron-gustafson.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.143
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.143
+    },
+    "officehours.fm": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.w3c.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "techesoterica.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "timnash.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.eone-time.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "2016.sacramento.wordcamp.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "mashable.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.instructables.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "screamingfist.xyz": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "support.google.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "getflywheel.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "jstherightway.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "twitter.com/sinabahram": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "transom.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.red-sweater.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.serotek.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.wordpress.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "irama.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "semagic.sourceforge.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "babbleplugin.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "store.carriedils.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.copyright.gov": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.ithemes.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "poststatus.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "premium.wpmudev.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "tri.be": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.bna.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.businessinsider.com.au": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.digitalgov.gov": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "nginxlibrary.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "twitter.com/karlgroves": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "webaccess.berkeley.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.unvarnished.me": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.q-continuum.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "fusion.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "curtismchale.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "mydomain.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "sonniesedge.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "webdevstudios.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.lockedowndesign.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.microsoft.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "nanowrimo.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "dailypost.wordpress.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "data-informed.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "laracasts.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "twitter.com/hashtag": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "blog.jetbrains.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "business.disqus.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "twitter.com/LadiesthatUXMCR": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.theatlantic.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "blog.bufferapp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "winscp.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "aftergadget.wordpress.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.wptavern.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "mattvanderpol.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.accessibilitycampto.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "conductorplugin.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.afb.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.pcworld.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "crowdfavorite.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "media-enzo.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "opensource.googleblog.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "twitter.com/cswordpress": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.lflegal.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "blog.marvelapp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "perishablepress.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "woocommerce.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.WordPress.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.deque.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "adactio.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0901
+    },
+    "coolblindtech.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "dradcast.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "hackernoon.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "runcommand.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.dradcast.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.slack.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.tetchi.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "garage.godaddy.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "simplyaccessible.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "twitter.com/typeform": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.monicawilliard.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "codepen.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "wpguru.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "webdevlaw.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "brianhogg.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.bookshare.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "blog.jantrid.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "blog.mailchimp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "core.trac.wordpress.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "rkoffy.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "katelovingshenk.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "twitter.com/dimensionmedia": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "werd.io": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0901
+    },
+    "blog.sinabahram.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "carriedils.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "css-tricks.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.SinaBahram.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.marcozehe.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.speakinginbytes.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "pagely.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "pippinsplugins.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "twitter.com/LeonieWatson": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "twitter.com/corymiller303": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.WordPress.tv": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "describe.ccn.me": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "joshpress.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "webaim.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "tommcfarlin.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "tracking.feedpress.it": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "blog.getfirebug.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.WordPress.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.blindabilities.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "blog.nickhamze.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "confluence.jetbrains.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "twitter.com/bmoore123": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www-03.ibm.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "a11ynyc.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "mor10.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.webaxe.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "alligator.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "codeforthepeople.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "elegantinsightsjewelry.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "gamajo.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "sethgodin.typepad.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.chrislema.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.josheaton.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "www.laufware.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0901
+    },
+    "boffosocko.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

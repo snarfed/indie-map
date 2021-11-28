@@ -1,0 +1,197 @@
+{
+  "domain": "ascraeus.org",
+  "urls": [
+    "https://ascraeus.org/"
+  ],
+  "names": [
+    "Daniel Goldsmith",
+    "View from Ascraeus"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://ascraeus.org/pictures/marvin.png",
+    "https://ascraeus.org/favicon-32x32.png",
+    "https://ascraeus.org/favicon-16x16.png"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:dgold@ascraeus.org"
+      ],
+      "name": [
+        "Daniel Goldsmith"
+      ],
+      "nickname": [
+        "dgold"
+      ],
+      "photo": [
+        "https://ascraeus.org/pictures/marvin.png"
+      ],
+      "url": [
+        "https://ascraeus.org/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "mailto:dgold@ascraeus.org",
+    "https://twitter.com/_dgoldsmith",
+    "https://google.com/+DanielGoldsmith",
+    "https://github.com/dg01d",
+    "https://instagram.com/_dgoldsmith",
+    "https://keybase.io/dgold",
+    "https://ascraeus.org/"
+  ],
+  "crawl_start": "2017-04-23T22:42:43",
+  "crawl_end": "2017-04-23T23:03:46",
+  "num_pages": 1134,
+  "total_html_size": 23254794,
+  "servers": [
+    "nginx",
+    "Hugo-DEV"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.herokuapp.com/api/webmention"
+    ],
+    "micropub": [
+      "https://micropubascraeus.herokuapp.com/micropub/main"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "websub": [
+      "http://ascraeus.superfeedr.com/"
+    ]
+  },
+  "links_out": 16535,
+  "links_in": 1384,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 32
+      },
+      "out": {
+        "other": 5331
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 19
+      },
+      "out": {
+        "other": 844
+      },
+      "score": 0.802
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 967
+      },
+      "score": 0.740
+    },
+    "hylozoist.ascraeus.org": {
+      "in": {
+        "repost-of": 9,
+        "other": 276
+      },
+      "out": {
+        "other": 133
+      },
+      "score": 0.683
+    },
+    "quill.p3k.io": {
+      "out": {
+        "other": 266
+      },
+      "score": 0.677
+    },
+    "ownyourgram.com": {
+      "out": {
+        "other": 133
+      },
+      "score": 0.601
+    },
+    "withknown.com": {
+      "out": {
+        "other": 133
+      },
+      "score": 0.601
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 26
+      },
+      "score": 0.525
+    },
+    "stream.jeremycherfas.net": {
+      "in": {
+        "other": 14,
+        "in-reply-to": 6
+      },
+      "score": 0.407
+    },
+    "doubleloop.net": {
+      "in": {
+        "other": 15
+      },
+      "score": 0.292
+    },
+    "aegibson.me": {
+      "in": {
+        "bookmark-of": 5
+      },
+      "score": 0.248
+    },
+    "known.aegibson.me": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.224
+    },
+    "jothut.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.119
+    },
+    "gregorlove.com": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.0747
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.0747
+    },
+    "headcrash.ascraeus.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0747
+    }
+  }
+}

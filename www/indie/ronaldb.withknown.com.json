@@ -1,0 +1,90 @@
+{
+  "domain": "ronaldb.withknown.com",
+  "urls": [
+    "https://ronaldb.withknown.com/profile/ronaldb",
+    "http://www.automationadventures.com"
+  ],
+  "names": [
+    "Ronald Bruintjes"
+  ],
+  "descriptions": [
+    "I work in the IT department of a national manufacturer.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://ronaldb.withknown.com/file/7e52cb7f153dbf0aea548c19fa720042"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Ronald Bruintjes"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I work in the IT department of a national manufacturer.</p>\n</div>",
+          "value": "\nI work in the IT department of a national manufacturer.\n"
+        }
+      ],
+      "photo": [
+        "https://ronaldb.withknown.com/file/7e52cb7f153dbf0aea548c19fa720042"
+      ],
+      "profile": [
+        "Ronald Bruintjes"
+      ],
+      "url": [
+        "https://ronaldb.withknown.com/profile/ronaldb",
+        "https://ronaldb.withknown.com/profile/ronaldb",
+        "http://www.automationadventures.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.automationadventures.com"
+  ],
+  "crawl_start": "2017-04-30T02:08:37",
+  "crawl_end": "2017-04-30T02:08:45",
+  "num_pages": 13,
+  "total_html_size": 226571,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://ronaldb.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 13,
+  "links_in": 4,
+  "links": {
+    "tinokremer.nl": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.720
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.481
+    }
+  }
+}

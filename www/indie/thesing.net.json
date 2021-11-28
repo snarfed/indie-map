@@ -1,0 +1,110 @@
+{
+  "domain": "thesing.net",
+  "urls": [
+    "https://thesing.net/profile/ralf",
+    "https://www.facebook.com/rafthesing",
+    "https://twitter.com/ralfthesing",
+    "https://github.com/ralfthesing",
+    "https://thesing.net/?_t=rss"
+  ],
+  "names": [
+    "Ralf",
+    "thesing.net - Website von Ralf Thesing",
+    "thesing.net"
+  ],
+  "descriptions": [
+    "lebt im Münsterland",
+    "Website von Ralf Thesing, Münsterland"
+  ],
+  "pictures": [
+    "https://thesing.net/file/baa5bcf4637743d3073836574990809a"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Ralf"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>lebt im Münsterland</p>\n</div>",
+          "value": "\nlebt im Münsterland\n"
+        }
+      ],
+      "photo": [
+        "https://thesing.net/file/baa5bcf4637743d3073836574990809a"
+      ],
+      "profile": [
+        "Ralf"
+      ],
+      "url": [
+        "https://thesing.net/profile/ralf",
+        "https://thesing.net/profile/ralf",
+        "https://www.facebook.com/rafthesing",
+        "https://twitter.com/ralfthesing",
+        "https://github.com/ralfthesing",
+        "https://thesing.net/?_t=rss"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://www.facebook.com/rafthesing",
+    "https://twitter.com/ralfthesing",
+    "https://github.com/ralfthesing",
+    "https://thesing.net/?_t=rss"
+  ],
+  "crawl_start": "2017-04-30T02:40:29",
+  "crawl_end": "2017-04-30T02:41:27",
+  "num_pages": 67,
+  "total_html_size": 1824607,
+  "servers": [
+    "Apache (Debian) PHP-0+deb8u1 OpenSSLt",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://thesing.net/webmention/"
+    ],
+    "micropub": [
+      "https://thesing.net/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://thesing.net/indieauth/auth"
+    ],
+    "token": [
+      "https://thesing.net/indieauth/token"
+    ]
+  },
+  "links_out": 525,
+  "links_in": 4,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 67
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.284
+    }
+  }
+}

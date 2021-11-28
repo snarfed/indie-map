@@ -1,0 +1,147 @@
+{
+  "domain": "kimberlyhirsh.com",
+  "urls": [
+    "http://kimberlyhirsh.com/"
+  ],
+  "names": [
+    "Kimberly Hirsh – Doctoral Student, Information and Library Science",
+    "Kimberly Hirsh"
+  ],
+  "descriptions": [
+    "Doctoral Student, Information and Library Science"
+  ],
+  "pictures": [
+    "http://kimberlyhirsh.com/phd/wp-content/uploads/2015/03/cropped-Kimberly_Hirsh-32x32.jpg",
+    "http://kimberlyhirsh.com/phd/wp-content/uploads/2015/03/cropped-Kimberly_Hirsh-192x192.jpg",
+    "http://kimberlyhirsh.com/phd/wp-content/uploads/2015/03/cropped-Kimberly_Hirsh-270x270.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://plus.google.com/+KimberlyHirsh",
+    "https://twitter.com/kimberlyhirsh",
+    "https://www.facebook.com/kimberlyhirsh",
+    "https://www.instagram.com/kimberlyhirsh"
+  ],
+  "crawl_start": "2017-04-29T04:31:38",
+  "crawl_end": "2017-04-29T08:03:36",
+  "num_pages": 862,
+  "total_html_size": 32451583,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-article",
+    "h-as-bookmark",
+    "h-as-mention",
+    "h-cite",
+    "h-as-image",
+    "h-entry",
+    "h-as-note",
+    "h-card",
+    "h-as-reply"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://kimberlyhirsh.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://kimberlyhirsh.com/phd/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 16159,
+  "links_in": 50,
+  "links": {
+    "independentpublisher.me": {
+      "out": {
+        "other": 862
+      },
+      "score": 0.997
+    },
+    "boffosocko.com": {
+      "in": {
+        "other": 26
+      },
+      "out": {
+        "other": 8
+      },
+      "score": 0.501
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 12
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.446
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "like-of": 7
+      },
+      "score": 0.371
+    },
+    "stream.jeremycherfas.net": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.278
+    },
+    "stream.boffosocko.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.186
+    },
+    "tantek.com": {
+      "in": {
+        "like-of": 1
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.186
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.147
+    },
+    "www.boffosocko.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0928
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

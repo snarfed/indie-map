@@ -1,0 +1,209 @@
+{
+  "domain": "kodfabrik.se",
+  "urls": [
+    "http://kodfabrik.se/"
+  ],
+  "names": [
+    "Pelle Wessman",
+    "Pelles Kodfabrik by Pelle Wessman"
+  ],
+  "descriptions": [
+    "I'm a full-stack web developer, open source contributor and IndieWeb participant."
+  ],
+  "pictures": [
+    "https://voxpelli.com/avatar.jpg"
+  ],
+  "hcard": {
+    "children": [
+      {
+        "properties": {
+          "country-name": [
+            "Sweden"
+          ],
+          "locality": [
+            "Malmö"
+          ],
+          "name": [
+            "Malmö, Sweden"
+          ]
+        },
+        "type": [
+          "h-adr"
+        ]
+      }
+    ],
+    "properties": {
+      "email": [
+        "mailto:pelle@kodfabrik.se"
+      ],
+      "job-title": [
+        "full-stack web developer"
+      ],
+      "name": [
+        "Pelle Wessman"
+      ],
+      "note": [
+        "I'm a full-stack web developer, open source contributor and IndieWeb participant."
+      ],
+      "org": [
+        "Pelles Kodfabrik",
+        "HD-Sydsvenskan"
+      ],
+      "photo": [
+        "https://voxpelli.com/avatar.jpg"
+      ],
+      "tel": [
+        "+46 705-15 88 21"
+      ],
+      "uid": [
+        "http://kodfabrik.se/"
+      ],
+      "url": [
+        "http://kodfabrik.se/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/voxpelli",
+    "https://github.com/voxpelli",
+    "https://voxpelli.com/",
+    "https://npmjs.org/~voxpelli"
+  ],
+  "crawl_start": "2017-04-24T08:39:32",
+  "crawl_end": "2017-04-24T08:39:32",
+  "num_pages": 1,
+  "total_html_size": 4964,
+  "servers": [
+    "Netlify"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-adr"
+  ],
+  "tags": [
+    "relme",
+    "IRC",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 17,
+  "links_in": 16575,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 9803
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 6766
+      },
+      "score": 0.960
+    },
+    "github.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.226
+    },
+    "voxpelli.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.151
+    },
+    "www.bloglovin.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0754
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0754
+    },
+    "8till5.se": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0754
+    },
+    "www.hd.se": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0754
+    },
+    "micropub-test-blog.voxpelli.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0754
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0754
+    },
+    "flattr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0754
+    },
+    "twitter.com/voxpelli": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0754
+    },
+    "www.sydsvenskan.se": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0754
+    },
+    "hdsydsvenskan.se": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0754
+    },
+    "valtech.se": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0754
+    },
+    "webmention.herokuapp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0754
+    },
+    "npmjs.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0754
+    }
+  }
+}

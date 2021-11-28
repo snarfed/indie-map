@@ -1,0 +1,107 @@
+{
+  "domain": "www.dredgemyhead.com",
+  "urls": [
+    "http://www.dredgemyhead.com/"
+  ],
+  "names": [
+    "Dredge My Head"
+  ],
+  "descriptions": [
+    "Ramblings, information, some pictures"
+  ],
+  "pictures": [
+    "http://www.dredgemyhead.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T06:10:40",
+  "crawl_end": "2017-04-30T06:11:37",
+  "num_pages": 78,
+  "total_html_size": 1769403,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.dredgemyhead.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 129,
+  "links_in": 4,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 78
+      },
+      "score": 1
+    },
+    "goo.gl": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.612
+    },
+    "nerdist.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.572
+    },
+    "arstechnica.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.549
+    },
+    "www.fireintheholeroundrock.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.523
+    },
+    "twitter.com/kimbeasley": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.491
+    },
+    "KimBeasley.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.412
+    },
+    "twitter.com/stephenwdaniels": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.412
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.275
+    },
+    "twitter.com/fgmwitlyrdw": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.275
+    }
+  }
+}

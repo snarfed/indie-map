@@ -1,0 +1,112 @@
+{
+  "domain": "blog.kallerhoff.org",
+  "urls": [
+    "https://blog.kallerhoff.org/"
+  ],
+  "names": [
+    "Dionysus Elysium - E-Commerce Junkie schreibt zu Digitalisierung, Data & Automatisierung",
+    "Dionysus Elysium"
+  ],
+  "descriptions": [
+    "E-Commerce Junkie schreibt zu Digitalisierung, Data & Automatisierung"
+  ],
+  "pictures": [
+    "https://blog.kallerhoff.org/wp-content/uploads/2016/03/cropped-cropped-logo-1-32x32.png?x22097",
+    "https://blog.kallerhoff.org/wp-content/uploads/2016/03/cropped-cropped-logo-1-192x192.png?x22097"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://plus.google.com/https://plus.google.com/107304933374968554846/",
+    "https://twitter.com/WuselDusel83",
+    "https://www.facebook.com/https://www.facebook.com/dennis.kallerhoff"
+  ],
+  "crawl_start": "2017-04-28T02:15:57",
+  "crawl_end": "2017-04-28T03:46:21",
+  "num_pages": 1281,
+  "total_html_size": 269057656,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-mention",
+    "h-as-reply",
+    "h-as-like",
+    "h-as-repost",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://blog.kallerhoff.org/wp-json/webmention/1.0/endpoint"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 11456,
+  "links_in": 28,
+  "links": {
+    "independentpublisher.me": {
+      "out": {
+        "other": 1282
+      },
+      "score": 0.989
+    },
+    "www.kassenzone.de": {
+      "out": {
+        "other": 22
+      },
+      "in": {
+        "other": 10
+      },
+      "score": 0.503
+    },
+    "wirres.net": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.411
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.332
+    },
+    "notizblog.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.312
+    },
+    "brid.gy": {
+      "in": {
+        "other": 6
+      },
+      "out": {
+        "other": 3
+      },
+      "score": 0.312
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.262
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.175
+    }
+  }
+}

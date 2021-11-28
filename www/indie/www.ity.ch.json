@@ -1,0 +1,73 @@
+{
+  "domain": "www.ity.ch",
+  "urls": [
+    "http://www.ity.ch/"
+  ],
+  "names": [
+    "ITY is all my stuff"
+  ],
+  "descriptions": [
+    "Von Patrik Tschudin im Netz verstreutes Material, an einem Ort versammelt"
+  ],
+  "pictures": [
+    "http://www.ity.ch/file/96516cc972efbd4570c1dc6fe408bb1b"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T06:38:53",
+  "crawl_end": "2017-04-30T07:12:01",
+  "num_pages": 3092,
+  "total_html_size": 87399399,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-event",
+    "h-cite"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.ity.ch/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 40216,
+  "links_in": 7,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 3092
+      },
+      "score": 1
+    },
+    "scripting.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.344
+    },
+    "www.konradlischka.info": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.284
+    },
+    "brid.gy": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.223
+    }
+  }
+}

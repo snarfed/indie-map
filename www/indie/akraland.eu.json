@@ -1,0 +1,131 @@
+{
+  "domain": "akraland.eu",
+  "urls": [
+    "http://akraland.eu/profile/akraland",
+    "http://akraland.tumblr.com",
+    "http://www.huffingtonpost.fr/alexis-kraland/",
+    "https://www.youtube.com/channel/UCWk1e9QHlBU_582wRadfpoA",
+    "https://taranis.news/author/alexiskraland/"
+  ],
+  "names": [
+    "Alexis Kraland"
+  ],
+  "descriptions": [
+    "Journaliste indépendantMigrations, Vidéo, Social Media, Street Politics",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://akraland.eu/file/eb462ad06cae20f596f313e112b8ea3a/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Alexis Kraland"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Journaliste indépendant<br/>Migrations, Vidéo, Social Media, Street Politics</p>\n</div>",
+          "value": "\nJournaliste indépendantMigrations, Vidéo, Social Media, Street Politics\n"
+        }
+      ],
+      "photo": [
+        "http://akraland.eu/file/eb462ad06cae20f596f313e112b8ea3a/thumb.jpg"
+      ],
+      "profile": [
+        "Alexis Kraland"
+      ],
+      "url": [
+        "http://akraland.eu/profile/akraland",
+        "http://akraland.eu/profile/akraland",
+        "http://akraland.tumblr.com",
+        "http://www.huffingtonpost.fr/alexis-kraland/",
+        "https://www.youtube.com/channel/UCWk1e9QHlBU_582wRadfpoA",
+        "https://taranis.news/author/alexiskraland/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://akraland.tumblr.com",
+    "http://www.huffingtonpost.fr/alexis-kraland/",
+    "https://www.youtube.com/channel/UCWk1e9QHlBU_582wRadfpoA",
+    "https://taranis.news/author/alexiskraland/"
+  ],
+  "crawl_start": "2017-04-27T07:52:20",
+  "crawl_end": "2017-04-27T07:59:40",
+  "num_pages": 407,
+  "total_html_size": 17094195,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-cite",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://akraland.eu/webmention/",
+      "http://akraland.eu/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 9391,
+  "links_in": 16,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 411
+      },
+      "score": 0.820
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.353
+    },
+    "cmal.info": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.254
+    },
+    "brid.gy": {
+      "in": {
+        "other": 8
+      },
+      "score": 0.254
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.170
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0847
+    },
+    "www.rmendes.net": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0847
+    }
+  }
+}

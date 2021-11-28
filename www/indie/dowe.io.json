@@ -1,0 +1,128 @@
+{
+  "domain": "dowe.io",
+  "urls": [
+    "https://dowe.io/"
+  ],
+  "names": [
+    "dowe.io - baldly going where most blogs have gone before",
+    "dowe.io"
+  ],
+  "descriptions": [
+    "baldly going where most blogs have gone before"
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T05:23:25",
+  "crawl_end": "2017-04-28T11:34:59",
+  "num_pages": 638,
+  "total_html_size": 40329635,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-as-bookmark",
+    "h-entry",
+    "h-as-video",
+    "h-as-image",
+    "h-as-page",
+    "h-as-article",
+    "h-feed",
+    "h-as-note",
+    "h-as-audio"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://dowe.io/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://dowe.io/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 14802,
+  "links_in": 26,
+  "links": {
+    "notizblog.org": {
+      "out": {
+        "other": 638
+      },
+      "score": 0.865
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 17
+      },
+      "score": 0.433
+    },
+    "techlifeweb.com": {
+      "in": {
+        "like-of": 4,
+        "other": 2
+      },
+      "out": {
+        "other": 11
+      },
+      "score": 0.420
+    },
+    "dangillmor.com": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "other": 8
+      },
+      "score": 0.385
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.374
+    },
+    "acegiak.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.300
+    },
+    "brid.gy": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.236
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.133
+    },
+    "wordius.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0838
+    }
+  }
+}

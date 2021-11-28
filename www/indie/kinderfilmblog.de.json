@@ -1,0 +1,144 @@
+{
+  "domain": "kinderfilmblog.de",
+  "urls": [
+    "http://kinderfilmblog.de/"
+  ],
+  "names": [
+    "Rochus Wolff",
+    "Kinderfilmblog - das Trüffelschweinchen unter den Filmblogs",
+    "Kinderfilmblog"
+  ],
+  "descriptions": [
+    "Kritiken, Verlosungen und Überlegungen zum Kinderfilmen (und gelegentlich auch zum Fernsehen)"
+  ],
+  "pictures": [
+    "http://kinderfilmblog.de/wp-content/uploads/2014/09/kinderfilmblog-logo-920.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Rochus Wolff"
+      ],
+      "url": [
+        "http://kinderfilmblog.de/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://kinderfilmblog.de/",
+    "mailto:mail@rochuswolff.de"
+  ],
+  "crawl_start": "2017-04-29T04:31:38",
+  "crawl_end": "2017-04-29T14:28:00",
+  "num_pages": 3513,
+  "total_html_size": 152005828,
+  "servers": [
+    "Apache",
+    "My Calendar for WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-mention",
+    "h-event",
+    "h-card",
+    "h-as-reply",
+    "h-as-like",
+    "h-feed",
+    "h-as-repost",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://kinderfilmblog.de/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://kinderfilmblog.de/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 80551,
+  "links_in": 191,
+  "links": {
+    "www.buddenbohm-und-soehne.de": {
+      "in": {
+        "other": 120
+      },
+      "score": 0.511
+    },
+    "wirres.net": {
+      "in": {
+        "other": 30
+      },
+      "score": 0.362
+    },
+    "e13.de": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 6
+      },
+      "score": 0.273
+    },
+    "brid.gy": {
+      "in": {
+        "other": 13
+      },
+      "score": 0.273
+    },
+    "papaswort.de": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.235
+    },
+    "www.bielinski.de": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.222
+    },
+    "jademond.de": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.191
+    },
+    "dasnuf.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.191
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.148
+    },
+    "pop64.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0739
+    }
+  }
+}

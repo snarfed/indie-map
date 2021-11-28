@@ -1,0 +1,450 @@
+{
+  "domain": "jeffcutsinger.withknown.com",
+  "urls": [
+    "https://jeffcutsinger.withknown.com/profile/jeffcutsinger",
+    "http://jeff.cutsinger.org"
+  ],
+  "names": [
+    "Jeff Cutsinger"
+  ],
+  "descriptions": [
+    "Computer janitor. Once rented a hamster. Mr. Hooper is my hero.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://jeffcutsinger.withknown.com/file/f8dbbdcbb7af5845a2301ac865f606e6/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Jeff Cutsinger"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Computer janitor. Once rented a hamster. Mr. Hooper is my hero.</p>\n</div>",
+          "value": "\nComputer janitor. Once rented a hamster. Mr. Hooper is my hero.\n"
+        }
+      ],
+      "photo": [
+        "https://jeffcutsinger.withknown.com/file/f8dbbdcbb7af5845a2301ac865f606e6/thumb.jpg"
+      ],
+      "profile": [
+        "Jeff Cutsinger"
+      ],
+      "url": [
+        "https://jeffcutsinger.withknown.com/profile/jeffcutsinger",
+        "https://jeffcutsinger.withknown.com/profile/jeffcutsinger",
+        "http://jeff.cutsinger.org"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://jeff.cutsinger.org"
+  ],
+  "crawl_start": "2017-04-28T23:36:44",
+  "crawl_end": "2017-04-28T23:40:42",
+  "num_pages": 210,
+  "total_html_size": 5419489,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://jeffcutsinger.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://jeffcutsinger.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://jeffcutsinger.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://jeffcutsinger.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 552,
+  "links_in": 4,
+  "links": {
+    "twitter.com/jeffcutsinger": {
+      "out": {
+        "in-reply-to": 30,
+        "other": 42
+      },
+      "score": 1
+    },
+    "jeff.cutsinger.org": {
+      "out": {
+        "other": 89
+      },
+      "score": 0.871
+    },
+    "twitter.com/Audrey_Sargent": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 21
+      },
+      "score": 0.776
+    },
+    "twitter.com/julieedow": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 17
+      },
+      "score": 0.763
+    },
+    "twitter.com/AuthorSargent": {
+      "out": {
+        "other": 10,
+        "in-reply-to": 6
+      },
+      "score": 0.736
+    },
+    "twitter.com/wirehead2501": {
+      "out": {
+        "other": 6,
+        "in-reply-to": 6
+      },
+      "score": 0.719
+    },
+    "twitter.com/satyanadella": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 6
+      },
+      "score": 0.719
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.629
+    },
+    "www.audreysargent.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.560
+    },
+    "twitter.com/McCutsinger": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.534
+    },
+    "nchv.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.504
+    },
+    "www.usatoday.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.504
+    },
+    "www.crowdrise.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.504
+    },
+    "guardianlv.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.504
+    },
+    "glench.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.486
+    },
+    "ur1.ca": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.486
+    },
+    "www.pbs.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.486
+    },
+    "cecilspeaks.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.466
+    },
+    "twitter.com/purecanucks": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.444
+    },
+    "lesswrong.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.417
+    },
+    "purecanucks.wordpress.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.417
+    },
+    "www.introducingcarrot.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.417
+    },
+    "www.sqlite.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.417
+    },
+    "boingboing.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.417
+    },
+    "feelslikeburning.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.417
+    },
+    "entire.spacebar.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.417
+    },
+    "youtu.be": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.417
+    },
+    "jonls.dk": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.417
+    },
+    "www.rockpapershotgun.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.417
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.417
+    },
+    "justgetflux.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.417
+    },
+    "pbs.twimg.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.417
+    },
+    "bit.ly": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.417
+    },
+    "twitter.com/adamwwolf": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.417
+    },
+    "www.cl.cam.ac.uk": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.417
+    },
+    "homestarrunner.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.417
+    },
+    "www.workrave.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.417
+    },
+    "33.media.tumblr.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.387
+    },
+    "twitter.com/Gaming_Sparrow": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.387
+    },
+    "i.imgur.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.387
+    },
+    "twitter.com/theanimation": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.387
+    },
+    "twitter.com/awfulben": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.350
+    },
+    "www.markasargent.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.350
+    },
+    "twitter.com/geekGirlND": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.350
+    },
+    "twitter.com/johnnysbug": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.350
+    },
+    "seriouspony.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.350
+    },
+    "twitter.com/tymkrs": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.301
+    },
+    "twitter.com/sycopat": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.301
+    },
+    "twitter.com/OlafFrozen__": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.234
+    },
+    "app.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.234
+    },
+    "www.tymkrs.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.234
+    },
+    "twitter.com/GalloiseBlonde": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.234
+    },
+    "theshawnlee.wordpress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.234
+    },
+    "dustin.sullivanclan.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.234
+    },
+    "fulltimenoob.blogspot.ie": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.234
+    },
+    "twitter.com/theshawnlee": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.234
+    },
+    "brid-gy.appspot.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.234
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.185
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

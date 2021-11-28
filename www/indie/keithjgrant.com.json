@@ -1,0 +1,168 @@
+{
+  "domain": "keithjgrant.com",
+  "urls": [
+    "http://keithjgrant.com/"
+  ],
+  "names": [
+    "Keith J. Grant"
+  ],
+  "descriptions": [
+    "JavaScript, CSS, UX, & the open web"
+  ],
+  "pictures": [
+    "http://keithjgrant.com/images/favicon-32x32.png",
+    "http://keithjgrant.com/images/favicon-96x96.png",
+    "http://keithjgrant.com/images/favicon-16x16.png",
+    "http://keithjgrant.com/images/keithjgrant.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/keithjgrant/",
+    "https://github.com/keithjgrant"
+  ],
+  "crawl_start": "2017-04-29T04:31:36",
+  "crawl_end": "2017-04-29T04:32:39",
+  "num_pages": 126,
+  "total_html_size": 3440776,
+  "servers": [
+    "GitHub.com",
+    "Hugo"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/keithjgrant.com/webmention"
+    ],
+    "micropub": [
+      "https://keithjgrant-mp.herokuapp.com/micropub/main"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "websub": [
+      "https://pubsubhubbub.superfeedr.com/"
+    ]
+  },
+  "links_out": 719,
+  "links_in": 145,
+  "links": {
+    "stream.boffosocko.com": {
+      "out": {
+        "in-reply-to": 1
+      },
+      "in": {
+        "in-reply-to": 48,
+        "other": 2
+      },
+      "score": 0.991
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 89
+      },
+      "score": 0.930
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 80
+      },
+      "score": 0.910
+    },
+    "cleverdevil.io": {
+      "out": {
+        "in-reply-to": 3,
+        "like-of": 1,
+        "repost-of": 2,
+        "other": 1
+      },
+      "in": {
+        "other": 31,
+        "in-reply-to": 15
+      },
+      "score": 0.903
+    },
+    "vaviblog.com": {
+      "in": {
+        "in-reply-to": 10
+      },
+      "score": 0.701
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 21
+      },
+      "score": 0.545
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 3,
+        "like-of": 7
+      },
+      "score": 0.507
+    },
+    "adactio.com": {
+      "out": {
+        "repost-of": 2
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.486
+    },
+    "boffosocko.com": {
+      "out": {
+        "repost-of": 2
+      },
+      "score": 0.444
+    },
+    "paulrobertlloyd.com": {
+      "out": {
+        "like-of": 2
+      },
+      "score": 0.373
+    },
+    "nicolas-hoizey.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.197
+    },
+    "micro.blog": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.124
+    },
+    "withknown.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.124
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.124
+    }
+  }
+}

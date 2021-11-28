@@ -1,0 +1,130 @@
+{
+  "domain": "brandoncollins.org",
+  "urls": [
+    "http://brandoncollins.org/"
+  ],
+  "names": [
+    "Brandon Collins – Just another WordPress site"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T02:17:23",
+  "crawl_end": "2017-04-28T02:19:54",
+  "num_pages": 14,
+  "total_html_size": 783216,
+  "servers": [
+    "nginx",
+    "WordPress Download Manager"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-feed",
+    "h-as-article",
+    "h-as-page"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://brandoncollins.org/?webmention=endpoint"
+    ],
+    "micropub": [
+      "http://brandoncollins.org/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 109,
+  "links_in": 51,
+  "links": {
+    "graceoc.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 1
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 1
+    },
+    "foxland.fi": {
+      "out": {
+        "other": 14
+      },
+      "score": 1
+    },
+    "twitter.com/brandoncollins": {
+      "out": {
+        "other": 14
+      },
+      "score": 1
+    },
+    "facebook.com/brandonscollins": {
+      "out": {
+        "other": 14
+      },
+      "score": 1
+    },
+    "www.brid.gy": {
+      "out": {
+        "other": 14
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 27
+      },
+      "score": 0.991
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 24
+      },
+      "score": 0.955
+    },
+    "www.amazon.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.832
+    },
+    "tonymorganlive.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.745
+    },
+    "lifehacker.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.625
+    },
+    "hannahhelpme.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.625
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.538
+    }
+  }
+}

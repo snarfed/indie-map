@@ -1,0 +1,137 @@
+{
+  "domain": "known.raptnrent.me",
+  "urls": [
+    "http://known.raptnrent.me/profile/phb256",
+    "http://blog.raptnrent.me"
+  ],
+  "names": [
+    "Paul Bond",
+    "raptnrent"
+  ],
+  "descriptions": [
+    "A librarian in the hills of Pennsylvania",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://known.raptnrent.me/file/edc9e0d98eefff72ae960b4c667d8f9b"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Paul Bond"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>A librarian in the hills of Pennsylvania</p>\n</div>",
+          "value": "\nA librarian in the hills of Pennsylvania\n"
+        }
+      ],
+      "photo": [
+        "http://known.raptnrent.me/file/edc9e0d98eefff72ae960b4c667d8f9b"
+      ],
+      "profile": [
+        "Paul Bond"
+      ],
+      "url": [
+        "http://known.raptnrent.me/profile/phb256",
+        "http://known.raptnrent.me/profile/phb256",
+        "http://blog.raptnrent.me"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://blog.raptnrent.me"
+  ],
+  "crawl_start": "2017-04-29T04:38:37",
+  "crawl_end": "2017-04-29T04:57:13",
+  "num_pages": 1493,
+  "total_html_size": 32317596,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.raptnrent.me/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 6300,
+  "links_in": 53,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 1493
+      },
+      "score": 0.973
+    },
+    "known.jimgroom.com": {
+      "in": {
+        "other": 29
+      },
+      "out": {
+        "in-reply-to": 9,
+        "other": 10
+      },
+      "score": 0.600
+    },
+    "known.followersoftheapocalyp.se": {
+      "out": {
+        "other": 10,
+        "in-reply-to": 5
+      },
+      "in": {
+        "in-reply-to": 5,
+        "other": 5
+      },
+      "score": 0.561
+    },
+    "www.maggiestough.net": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.521
+    },
+    "klown.cogdogblog.com": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "in-reply-to": 10
+      },
+      "score": 0.498
+    },
+    "known.networkeffects.ca": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "in-reply-to": 5
+      },
+      "score": 0.485
+    },
+    "timklapdor.wordpress.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.405
+    }
+  }
+}

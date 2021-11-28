@@ -1,0 +1,58 @@
+{
+  "domain": "aaronpk.micro.blog",
+  "urls": [
+    "http://aaronpk.micro.blog/"
+  ],
+  "names": [
+    "Microblog"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://micro.blog/aaronpk",
+    "https://twitter.com/aaronpk",
+    "https://github.com/aaronpk"
+  ],
+  "crawl_start": "2017-04-28T01:48:53",
+  "crawl_end": "2017-04-28T01:48:54",
+  "num_pages": 2,
+  "total_html_size": 3929,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://micro.blog/webmention"
+    ],
+    "micropub": [
+      "https://micro.blog/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 2,
+  "links_in": 0,
+  "links": {
+    "micro.blog": {
+      "out": {
+        "other": 2
+      },
+      "score": 1
+    }
+  }
+}

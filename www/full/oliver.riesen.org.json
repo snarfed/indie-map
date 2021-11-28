@@ -1,0 +1,86 @@
+{
+  "domain": "oliver.riesen.org",
+  "urls": [
+    "http://oliver.riesen.org/"
+  ],
+  "names": [
+    "Blog von Oliver Riesen-Mallmann",
+    "Oliver Riesen-Mallmann"
+  ],
+  "descriptions": [
+    "Dinge, die mich bewegen"
+  ],
+  "pictures": [
+    "http://oliver.riesen.org/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T21:34:26",
+  "crawl_end": "2017-04-29T21:36:21",
+  "num_pages": 129,
+  "total_html_size": 3846543,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://oliver.riesen.org/webmention/",
+      "http://oliver.riesen.org/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 187,
+  "links_in": 1,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 129
+      },
+      "score": 1
+    },
+    "biogartenversand.de": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.645
+    },
+    "www.chiark.greenend.org.uk": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.625
+    },
+    "sags-uns.stadt-koeln.de": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.573
+    },
+    "www.chefkoch.de": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.573
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

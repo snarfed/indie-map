@@ -1,0 +1,90 @@
+{
+  "domain": "jossbot.withknown.com",
+  "urls": [
+    "https://jossbot.withknown.com/profile/jossbot",
+    "http://everyoneonlinetogether.com/",
+    "http://twitter.com/jossbot",
+    "http://jossbot.vsco.co/"
+  ],
+  "names": [
+    "// jossbot"
+  ],
+  "descriptions": [
+    "language, stories, networks.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://jossbot.withknown.com/file/c9b89b7193942062f77185e2ffb45904/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        ""
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>language, stories, networks.</p>\n</div>",
+          "value": "\nlanguage, stories, networks.\n"
+        }
+      ],
+      "photo": [
+        "https://jossbot.withknown.com/file/c9b89b7193942062f77185e2ffb45904/thumb.jpg"
+      ],
+      "profile": [
+        ""
+      ],
+      "url": [
+        "https://jossbot.withknown.com/profile/jossbot",
+        "https://jossbot.withknown.com/profile/jossbot",
+        "http://everyoneonlinetogether.com/",
+        "http://twitter.com/jossbot",
+        "http://jossbot.vsco.co/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://everyoneonlinetogether.com/",
+    "http://twitter.com/jossbot",
+    "http://jossbot.vsco.co/"
+  ],
+  "crawl_start": "2017-04-29T04:31:37",
+  "crawl_end": "2017-04-29T04:31:46",
+  "num_pages": 15,
+  "total_html_size": 266510,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://jossbot.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 43,
+  "links_in": 1,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "domain": "researchnot.es",
+  "urls": [
+    "http://researchnot.es/"
+  ],
+  "names": [
+    "research notes"
+  ],
+  "descriptions": [
+    "Adam Procter will write about his practice based PhD on here, he is looking at a design led and delightful approach to the Virtual Learning enviroment (VLE) / Managed Learning Enviroment (MLE)"
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/adamprocter",
+    "https://www.flickr.com/people/procter/",
+    "https://github.com/adamprocter",
+    "https://plus.google.com/+AdamProcter_uk/"
+  ],
+  "crawl_start": "2017-04-30T02:06:09",
+  "crawl_end": "2017-04-30T02:06:17",
+  "num_pages": 13,
+  "total_html_size": 105544,
+  "servers": [
+    "nginx"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/researchnot.es/webmention"
+    ]
+  },
+  "links_out": 68,
+  "links_in": 2,
+  "links": {
+    "adamprocter.co.uk": {
+      "out": {
+        "other": 11
+      },
+      "score": 1
+    },
+    "maban.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.224
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.224
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.224
+    }
+  }
+}

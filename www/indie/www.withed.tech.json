@@ -1,0 +1,67 @@
+{
+  "domain": "www.withed.tech",
+  "urls": [
+    "http://www.withed.tech/"
+  ],
+  "names": [
+    "With EdTech",
+    "w/EDTECH"
+  ],
+  "descriptions": [
+    "A blog about EdTech in Germany"
+  ],
+  "pictures": [
+    "https://www.withed.tech/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-05-06T09:07:15",
+  "crawl_end": "2017-05-06T09:19:27",
+  "num_pages": 459,
+  "total_html_size": 8836536,
+  "servers": [
+    "Apache (CentOS)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-event"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.withed.tech/webmention/"
+    ],
+    "micropub": [
+      "https://www.withed.tech/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://www.withed.tech/indieauth/auth"
+    ],
+    "token": [
+      "https://www.withed.tech/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1219,
+  "links_in": 0,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 459
+      },
+      "score": 1
+    }
+  }
+}

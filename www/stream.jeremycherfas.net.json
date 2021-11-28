@@ -1,0 +1,1204 @@
+{
+  "domain": "stream.jeremycherfas.net",
+  "urls": [
+    "http://stream.jeremycherfas.net/profile/jeremy",
+    "https://jeremycherfas.net/",
+    "https://github.com/jeremycherfas",
+    "https://twitter.com/EatPodcast",
+    "https://www.instagram.com/eatthispodcast/",
+    "https://pnut.io/@jeremycherfas",
+    "https://micro.blog/jeremycherfas"
+  ],
+  "names": [
+    "Jeremy Cherfas"
+  ],
+  "descriptions": [
+    "Mostly microblogging and indieweb"
+  ],
+  "pictures": [
+    "http://stream.jeremycherfas.net/file/5323e86f4819ad962c270ffe7abdb3f4"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Jeremy Cherfas"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "http://stream.jeremycherfas.net/file/5323e86f4819ad962c270ffe7abdb3f4"
+      ],
+      "profile": [
+        "Jeremy Cherfas"
+      ],
+      "url": [
+        "http://stream.jeremycherfas.net/profile/jeremy",
+        "http://stream.jeremycherfas.net/profile/jeremy",
+        "https://jeremycherfas.net/",
+        "https://github.com/jeremycherfas",
+        "https://twitter.com/EatPodcast",
+        "https://www.instagram.com/eatthispodcast/",
+        "https://pnut.io/@jeremycherfas",
+        "https://micro.blog/jeremycherfas"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://jeremycherfas.net/",
+    "https://github.com/jeremycherfas",
+    "https://twitter.com/EatPodcast",
+    "https://www.instagram.com/eatthispodcast/",
+    "https://pnut.io/@jeremycherfas",
+    "https://micro.blog/jeremycherfas"
+  ],
+  "crawl_start": "2017-04-30T02:22:27",
+  "crawl_end": "2017-04-30T02:37:40",
+  "num_pages": 1195,
+  "total_html_size": 37135308,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://stream.jeremycherfas.net/webmention/",
+      "http://stream.jeremycherfas.net/webmention/"
+    ],
+    "micropub": [
+      "http://stream.jeremycherfas.net/micropub/endpoint",
+      "https://stream.jeremycherfas.net/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://stream.jeremycherfas.net/indieauth/auth",
+      "http://stream.jeremycherfas.net/indieauth/auth"
+    ],
+    "token": [
+      "http://stream.jeremycherfas.net/indieauth/token",
+      "https://stream.jeremycherfas.net/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 11703,
+  "links_in": 2799,
+  "links": {
+    "www.instagram.com": {
+      "out": {
+        "other": 5758
+      },
+      "score": 1
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 440,
+        "like-of": 52,
+        "other": 42
+      },
+      "out": {
+        "in-reply-to": 96,
+        "other": 164
+      },
+      "score": 0.877
+    },
+    "www.jeremycherfas.net": {
+      "out": {
+        "in-reply-to": 42,
+        "other": 193
+      },
+      "in": {
+        "other": 2071
+      },
+      "score": 0.852
+    },
+    "boffosocko.com": {
+      "in": {
+        "in-reply-to": 12,
+        "other": 56
+      },
+      "out": {
+        "other": 96,
+        "in-reply-to": 144
+      },
+      "score": 0.799
+    },
+    "twitter.com/EatPodcast": {
+      "out": {
+        "other": 660
+      },
+      "score": 0.769
+    },
+    "github.com": {
+      "out": {
+        "other": 602
+      },
+      "score": 0.758
+    },
+    "micro.blog": {
+      "out": {
+        "other": 506
+      },
+      "score": 0.740
+    },
+    "jeremycherfas.net": {
+      "out": {
+        "other": 490
+      },
+      "score": 0.737
+    },
+    "pnut.io": {
+      "out": {
+        "other": 490
+      },
+      "score": 0.737
+    },
+    "aaronparecki.com": {
+      "out": {
+        "in-reply-to": 68
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.698
+    },
+    "www.eatthispodcast.com": {
+      "out": {
+        "other": 90,
+        "in-reply-to": 48
+      },
+      "score": 0.694
+    },
+    "twitter.com/raretrack": {
+      "out": {
+        "other": 46,
+        "in-reply-to": 48
+      },
+      "score": 0.679
+    },
+    "martymcgui.re": {
+      "in": {
+        "other": 22
+      },
+      "out": {
+        "other": 88,
+        "in-reply-to": 18
+      },
+      "score": 0.634
+    },
+    "twitter.com/LukasRosenstock": {
+      "out": {
+        "in-reply-to": 30,
+        "other": 30
+      },
+      "score": 0.630
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "in-reply-to": 30
+      },
+      "score": 0.612
+    },
+    "ti.to": {
+      "out": {
+        "in-reply-to": 30
+      },
+      "score": 0.610
+    },
+    "thisiscriminal.com": {
+      "out": {
+        "other": 24,
+        "in-reply-to": 24
+      },
+      "score": 0.605
+    },
+    "agro.biodiver.se": {
+      "out": {
+        "other": 24,
+        "in-reply-to": 22
+      },
+      "score": 0.598
+    },
+    "twitter.com/AgroBioDiverse": {
+      "out": {
+        "in-reply-to": 12,
+        "other": 34
+      },
+      "score": 0.560
+    },
+    "blog.henrikcarlsson.se": {
+      "out": {
+        "in-reply-to": 18
+      },
+      "score": 0.555
+    },
+    "matigo.ca": {
+      "out": {
+        "in-reply-to": 18
+      },
+      "score": 0.555
+    },
+    "www.manton.org": {
+      "out": {
+        "in-reply-to": 18
+      },
+      "score": 0.555
+    },
+    "twitter.com/Dr_RJByrne": {
+      "out": {
+        "other": 28,
+        "in-reply-to": 12
+      },
+      "score": 0.553
+    },
+    "t.co": {
+      "out": {
+        "other": 82
+      },
+      "score": 0.545
+    },
+    "cleverdevil.io": {
+      "out": {
+        "in-reply-to": 12,
+        "other": 8
+      },
+      "in": {
+        "other": 8
+      },
+      "score": 0.532
+    },
+    "twitter.com/nicolakidsbooks": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 40
+      },
+      "score": 0.528
+    },
+    "twitter.com/frenchtart": {
+      "out": {
+        "in-reply-to": 10,
+        "other": 18
+      },
+      "score": 0.525
+    },
+    "hylozoist.ascraeus.org": {
+      "out": {
+        "other": 16,
+        "in-reply-to": 6
+      },
+      "in": {
+        "other": 4,
+        "in-reply-to": 4,
+        "like-of": 5
+      },
+      "score": 0.518
+    },
+    "stream.techlifeweb.com": {
+      "out": {
+        "in-reply-to": 12
+      },
+      "in": {
+        "other": 5
+      },
+      "score": 0.517
+    },
+    "www.fornacalia.com": {
+      "out": {
+        "other": 62
+      },
+      "score": 0.516
+    },
+    "jewishjournal.com": {
+      "out": {
+        "in-reply-to": 12
+      },
+      "score": 0.512
+    },
+    "www.jamesaltucher.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.496
+    },
+    "twitter.com/withknown": {
+      "out": {
+        "other": 46
+      },
+      "score": 0.483
+    },
+    "twitter.com/AubreyNPRFood": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 14
+      },
+      "score": 0.479
+    },
+    "ascraeus.org": {
+      "out": {
+        "other": 14,
+        "in-reply-to": 6
+      },
+      "score": 0.479
+    },
+    "twitter.com/MatthewJDalby": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 14
+      },
+      "score": 0.479
+    },
+    "twitter.com/thatmags": {
+      "out": {
+        "other": 14,
+        "in-reply-to": 6
+      },
+      "score": 0.479
+    },
+    "medium.com": {
+      "out": {
+        "other": 12,
+        "in-reply-to": 6
+      },
+      "score": 0.474
+    },
+    "twitter.com/ThatAliceCooks": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 10
+      },
+      "score": 0.468
+    },
+    "cultureby.com": {
+      "out": {
+        "in-reply-to": 8
+      },
+      "score": 0.468
+    },
+    "twitter.com/JaysonLusk": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 10
+      },
+      "score": 0.468
+    },
+    "twitter.com/ChrisAldrich": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.468
+    },
+    "twitter.com/MarkedApp": {
+      "out": {
+        "other": 10,
+        "in-reply-to": 6
+      },
+      "score": 0.468
+    },
+    "twitter.com/KitchenBee": {
+      "out": {
+        "other": 6,
+        "in-reply-to": 6
+      },
+      "score": 0.458
+    },
+    "www.eurekalert.org": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.458
+    },
+    "twitter.com/scottishbktrust": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 6
+      },
+      "score": 0.458
+    },
+    "twitter.com/LonelyBob": {
+      "out": {
+        "other": 6,
+        "in-reply-to": 6
+      },
+      "score": 0.458
+    },
+    "gizmodo.com": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 6
+      },
+      "score": 0.458
+    },
+    "vimeo.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.458
+    },
+    "chezpim.com": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 6
+      },
+      "score": 0.458
+    },
+    "huffduffer.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.458
+    },
+    "twitter.com/mfbellemare": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 4
+      },
+      "score": 0.451
+    },
+    "adactio.com": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.445
+    },
+    "cdevroe.com": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.442
+    },
+    "known.networkeffects.ca": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.437
+    },
+    "twitter.com/allysseriordan": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.437
+    },
+    "www.huffingtonpost.com": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.437
+    },
+    "marinagerner.com": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.437
+    },
+    "health.spectator.co.uk": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.437
+    },
+    "twitter.com/cjsnowdon": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.437
+    },
+    "blog.10centuries.org": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.437
+    },
+    "doubleloop.net": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.437
+    },
+    "besteglatisant.wordpress.com": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.437
+    },
+    "daringfireball.net": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.437
+    },
+    "now.tufts.edu": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.437
+    },
+    "www.nytimes.com": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.437
+    },
+    "www.kevinmarks.com": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.437
+    },
+    "eatthispodcast.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.431
+    },
+    "blog.patreon.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.431
+    },
+    "us12.campaign-archive1.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.422
+    },
+    "mailchi.mp": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.414
+    },
+    "medium.freecodecamp.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.414
+    },
+    "www.economist.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.414
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "out": {
+        "other": 20
+      },
+      "score": 0.410
+    },
+    "twitter.com/rachellaudan": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.404
+    },
+    "colinwalker.blog": {
+      "in": {
+        "like-of": 6,
+        "other": 4
+      },
+      "out": {
+        "other": 10
+      },
+      "score": 0.383
+    },
+    "www.italianinsider.it": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.383
+    },
+    "www.npr.org": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.383
+    },
+    "chneukirchen.org": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.371
+    },
+    "twitter.com/mdesoucey": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.371
+    },
+    "www.nicola-davies.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.371
+    },
+    "www.harper-adams.ac.uk": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.371
+    },
+    "aobblog.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.356
+    },
+    "twitter.com/EUFORGEN": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.356
+    },
+    "twitter.com/chris_selk": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.356
+    },
+    "gimletmedia.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.356
+    },
+    "spritzinc.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.340
+    },
+    "brid.gy": {
+      "in": {
+        "other": 24
+      },
+      "score": 0.340
+    },
+    "twitter.com/iamsuzychase": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.340
+    },
+    "highline.huffingtonpost.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.340
+    },
+    "xn--rpa.cc": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.321
+    },
+    "twitter.com/prometheusgreen": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.321
+    },
+    "www.motherjones.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.321
+    },
+    "twitter.com/dysondoc": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.321
+    },
+    "twitter.com/SceneOnRadio": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.321
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 20
+      },
+      "score": 0.321
+    },
+    "news.ilri.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.321
+    },
+    "petebrown.blogspot.it": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.321
+    },
+    "mondaynote.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.321
+    },
+    "www.dosomething.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.321
+    },
+    "patreon.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.321
+    },
+    "time.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.321
+    },
+    "twitter.com/Feast_Podcast": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.321
+    },
+    "blog.plover.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "twitter.com/nfabieno": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "boroughmarket.org.uk": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "twitter.com/AngieSageAuthor": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "twitter.com/cox_tom": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "www.rachellaudan.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "theonlinephotographer.typepad.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "www.lrb.co.uk": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "kimberlyhirsh.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "twitter.com/right_wing_piss": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "www.boffosocko.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "flavorsofdiaspora.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "www.informationr.net": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "twitter.com/AcademiaObscura": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "www.theguardian.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "twitter.com/usfoodpolicy": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "ar.al": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "headcrash.ascraeus.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "marcfbellemare.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "twitter.com/Bynickdavies": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.296
+    },
+    "twitter.com/nprDanCharles": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.265
+    },
+    "languagelog.ldc.upenn.edu": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.265
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.265
+    },
+    "www.sitepoint.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.265
+    },
+    "twitter.com/_dgoldsmith": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.265
+    },
+    "twitter.com/thats_curious": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.265
+    },
+    "twitter.com/JonathanPKatz": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.265
+    },
+    "frenchtart.blogspot.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "twitter.com/dmedialab": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "honey-guide.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "withknown.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "SceneOnRadio.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "twitter.com/Michele_Bozzano": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "twitter.com/GarayCompany": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "twitter.com/HearSayFestival": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "twitter.com/PuzinskiRickey": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "www.thefeastpodcast.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "twitter.com/Mithyc28": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "uk.linkedin.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "twitter.com/CriminalShow": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "www.euforgen.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "marked2app.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "twitter.com/podblasts": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "twitter.com/alexbhill": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "twitter.com/RFinbow": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "CookerybytheBook.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "www.marcfbellemare.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "twitter.com/None": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "twitter.com/ILRI": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "twitter.com/RhonaA_PhD": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "twitter.com/fuchsiadunlop": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "www.jaysonlusk.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "twitter.com/svet_volko": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "fuchsiadunlop.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "twitter.com/podcastplaylist": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "twitter.com/the_portt": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "www.flavorsofdiaspora.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "en.m.wikipedia.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.149
+    },
+    "twitter.com/rdhyee": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.149
+    },
+    "dev.twitter.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.149
+    },
+    "towcenter.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.149
+    },
+    "huffduff-video.snarfed.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.149
+    },
+    "wordpress.tv": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.149
+    },
+    "m.thisamericanlife.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.149
+    },
+    "en.support.wordpress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.149
+    },
+    "codex.wordpress.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.149
+    },
+    "ownyourgram.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0741
+    }
+  }
+}

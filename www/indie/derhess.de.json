@@ -1,0 +1,189 @@
+{
+  "domain": "derhess.de",
+  "urls": [
+    "http://derhess.de/"
+  ],
+  "names": [
+    "Portfolio - der hess",
+    "der hess",
+    "Portfolio"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "http://derhess.de/",
+    "https://github.com/derhess",
+    "https://twitter.com/derhess",
+    "https://www.facebook.com/fweil",
+    "https://www.instagram.com/Florian%20Weil"
+  ],
+  "crawl_start": "2017-06-09T17:37:37",
+  "crawl_end": "2017-06-09T17:40:57",
+  "num_pages": 73,
+  "total_html_size": 7876080,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-as-article",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://derhess.de/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://derhess.de/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 2522,
+  "links_in": 30,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 24
+      },
+      "out": {
+        "other": 21
+      },
+      "score": 0.702
+    },
+    "sebastiangreger.net": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.415
+    },
+    "jkphl.is": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "pfefferle.github.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.233
+    },
+    "tantek.com": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.184
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.184
+    },
+    "luxagraf.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.116
+    },
+    "withknown.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.116
+    },
+    "adactio.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.116
+    },
+    "www.svenknebel.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.116
+    },
+    "colinwalker.blog": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.116
+    },
+    "hwc.brussels": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.116
+    },
+    "notizblog.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.116
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.116
+    },
+    "sebastianlasse.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.116
+    },
+    "2016.indieweb.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.116
+    },
+    "dangillmor.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.116
+    },
+    "www.decentralizedweb.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.116
+    },
+    "matthiasott.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.116
+    }
+  }
+}

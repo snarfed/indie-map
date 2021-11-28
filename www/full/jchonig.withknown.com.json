@@ -1,0 +1,194 @@
+{
+  "domain": "jchonig.withknown.com",
+  "urls": [
+    "https://jchonig.withknown.com/profile/jchonig",
+    "https://jch.honig.net",
+    "https://www.facebook.com/jchonig",
+    "https://www.flickr.com/photos/jchonig",
+    "https://about.me/jchonig",
+    "https://github.com/jchonig",
+    "https://sourceforge.net/u/jchonig/profile/",
+    "https://keybase.io/jchonig",
+    "https://en.gravatar.com/jchonig",
+    "https://www.linkedin.com/in/jchonig"
+  ],
+  "names": [
+    "Jeffrey Honig",
+    "Jeffrey Honig on Known",
+    "My Adventures in Software and Other Things"
+  ],
+  "descriptions": [
+    "I maintain my most up-to-date content at jch.honig.net.  I'm a big fan of Known and the IndieWeb but find the new Google Sites much easier to use at this time.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://jchonig.withknown.com/file/da5aa7ab4ab7ee5a9b707d3f33697a27/thumb.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Jeffrey Honig"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I maintain my most up-to-date content at <a href=\"https://jch.honig.net\">jch.honig.net</a>.  I'm a big fan of Known and the IndieWeb but find the new Google Sites much easier to use at this time.</p>\n</div> ",
+          "value": "\nI maintain my most up-to-date content at jch.honig.net.  I'm a big fan of Known and the IndieWeb but find the new Google Sites much easier to use at this time.\n "
+        }
+      ],
+      "photo": [
+        "https://jchonig.withknown.com/file/da5aa7ab4ab7ee5a9b707d3f33697a27/thumb.png"
+      ],
+      "profile": [
+        "Jeffrey Honig"
+      ],
+      "url": [
+        "https://jchonig.withknown.com/profile/jchonig",
+        "https://jchonig.withknown.com/profile/jchonig",
+        "https://jch.honig.net",
+        "https://www.facebook.com/jchonig",
+        "https://www.flickr.com/photos/jchonig",
+        "https://about.me/jchonig",
+        "https://github.com/jchonig",
+        "https://sourceforge.net/u/jchonig/profile/",
+        "https://keybase.io/jchonig",
+        "https://en.gravatar.com/jchonig",
+        "https://www.linkedin.com/in/jchonig"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://jch.honig.net",
+    "https://www.facebook.com/jchonig",
+    "https://www.flickr.com/photos/jchonig",
+    "https://about.me/jchonig",
+    "https://github.com/jchonig",
+    "https://sourceforge.net/u/jchonig/profile/",
+    "https://keybase.io/jchonig",
+    "https://en.gravatar.com/jchonig",
+    "https://www.linkedin.com/in/jchonig"
+  ],
+  "crawl_start": "2017-04-28T23:35:57",
+  "crawl_end": "2017-04-28T23:36:35",
+  "num_pages": 33,
+  "total_html_size": 900597,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://jchonig.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://jchonig.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://jchonig.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://jchonig.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 138,
+  "links_in": 1,
+  "links": {
+    "jch.honig.net": {
+      "out": {
+        "other": 24
+      },
+      "score": 1
+    },
+    "github.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.822
+    },
+    "sourceforge.net": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.822
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.822
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.822
+    },
+    "facebook.com/jchonig": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.822
+    },
+    "keybase.io": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.822
+    },
+    "en.gravatar.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.822
+    },
+    "about.me": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.822
+    },
+    "moviepilot.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.775
+    },
+    "www.theverge.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.537
+    },
+    "flic.kr": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.537
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

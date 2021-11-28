@@ -1,0 +1,159 @@
+{
+  "domain": "www.ogok.de",
+  "urls": [
+    "http://www.ogok.de/"
+  ],
+  "names": [
+    "OGOK  oliver gassner online-kommunikation"
+  ],
+  "descriptions": [
+    "Blogging since 1999."
+  ],
+  "pictures": [
+    "http://www.ogok.de/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-05-06T07:19:34",
+  "crawl_end": "2017-05-09T00:09:00",
+  "num_pages": 6017,
+  "total_html_size": 582603670,
+  "servers": [
+    "GSE"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.brid.gy/webmention/blogger"
+    ],
+    "micropub": [
+      "https://silo.pub/micropub"
+    ],
+    "authorization": [
+      "https://silo.pub/indieauth"
+    ],
+    "token": [
+      "https://silo.pub/token"
+    ]
+  },
+  "links_out": 217148,
+  "links_in": 3,
+  "links": {
+    "wirres.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.2
+    },
+    "www.nerdcore.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.168
+    },
+    "scripting.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.112
+    },
+    "lostfocus.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.112
+    },
+    "pixelroiber.de": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.0887
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0559
+    },
+    "meyerweb.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0559
+    },
+    "www.kevinmarks.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0559
+    },
+    "c2.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0559
+    },
+    "e13.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0559
+    },
+    "www.kassenzone.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0559
+    },
+    "yatil.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0559
+    },
+    "bradfitz.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0559
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0559
+    },
+    "jml.is": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0559
+    },
+    "drikkes.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0559
+    },
+    "www.jluster.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0559
+    }
+  }
+}

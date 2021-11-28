@@ -1,0 +1,73 @@
+{
+  "domain": "earlynovels.withknown.com",
+  "urls": [
+    "http://earlynovels.withknown.com/"
+  ],
+  "names": [
+    "END"
+  ],
+  "descriptions": [
+    "Slow metadata for old novels. "
+  ],
+  "pictures": [
+    "https://earlynovels.withknown.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T05:26:59",
+  "crawl_end": "2017-04-28T05:48:58",
+  "num_pages": 1217,
+  "total_html_size": 33213017,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://earlynovels.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 3532,
+  "links_in": 106,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 1217
+      },
+      "score": 1
+    },
+    "mshook.withknown.com": {
+      "in": {
+        "in-reply-to": 45,
+        "other": 45
+      },
+      "score": 0.718
+    },
+    "werd.io": {
+      "in": {
+        "other": 15
+      },
+      "score": 0.347
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

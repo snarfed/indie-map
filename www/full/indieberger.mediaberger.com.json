@@ -1,0 +1,374 @@
+{
+  "domain": "indieberger.mediaberger.com",
+  "urls": [
+    "http://indieberger.mediaberger.com/",
+    "http://christian.hockenberger.us"
+  ],
+  "names": [
+    "Ari Rosenberger",
+    "Indieberger",
+    "Hockenberger.us",
+    "Christian Hockenberger at Hockenberger.us"
+  ],
+  "descriptions": [
+    "Father, Husband, Designer, Illustrator, Developer, Author and Soldier"
+  ],
+  "pictures": [
+    "http://indieberger.mediaberger.com/resources/images/avatar-900.jpg",
+    "http://hockenberger.us/favicon.ico?v=1.0.2",
+    "http://hockenberger.us/res/images/avatar-share-og.jpg",
+    "http://hockenberger.us/res/images/avatar-share-twtr.jpg"
+  ],
+  "hcard": {
+    "children": [
+      {
+        "properties": {
+          "country-name": [
+            "Germany"
+          ],
+          "locality": [
+            "Frankenthal"
+          ],
+          "name": [
+            "from Frankenthal, Germany"
+          ]
+        },
+        "type": [
+          "h-adr"
+        ]
+      }
+    ],
+    "properties": {
+      "family-name": [
+        "Rosenberger"
+      ],
+      "given-name": [
+        "Ari"
+      ],
+      "name": [
+        "Ari Rosenberger"
+      ],
+      "photo": [
+        "http://indieberger.mediaberger.com/resources/images/avatar-900.jpg"
+      ],
+      "url": [
+        "http://indieberger.mediaberger.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ],
+    "value": "Ari Rosenberger"
+  },
+  "rel_mes": [
+    "http://indieberger.mediaberger.com/",
+    "http://mediaberger.com",
+    "https://twitter.com/arirose_ny",
+    "https://www.facebook.com/ari.rosenberger.3",
+    "https://www.instagram.com/arirose_ny/",
+    "http://stackoverflow.com/users/1278475/chrisbergr",
+    "https://github.com/ariroseny",
+    "https://www.pinterest.com/chrisbergr"
+  ],
+  "crawl_start": "2017-04-28T23:33:32",
+  "crawl_end": "2017-04-28T23:34:21",
+  "num_pages": 77,
+  "total_html_size": 1104898,
+  "servers": [
+    "Apache (Debian)"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/indieberger.mediaberger.com/webmention"
+    ],
+    "micropub": [
+      "http://indieberger.mediaberger.com/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 759,
+  "links_in": 87,
+  "links": {
+    "brands.mediaberger.com": {
+      "out": {
+        "in-reply-to": 7,
+        "bookmark-of": 3,
+        "other": 73
+      },
+      "score": 1
+    },
+    "twitter.com/arirose_ny": {
+      "out": {
+        "other": 111
+      },
+      "score": 0.994
+    },
+    "mediaberger.com": {
+      "out": {
+        "other": 80
+      },
+      "score": 0.936
+    },
+    "facebook.com/ari.rosenberger.3": {
+      "out": {
+        "other": 79
+      },
+      "score": 0.932
+    },
+    "christian.hockenberger.us": {
+      "out": {
+        "other": 22,
+        "like-of": 3,
+        "in-reply-to": 10
+      },
+      "score": 0.930
+    },
+    "solidaritaet.mediaberger.com": {
+      "out": {
+        "other": 77
+      },
+      "score": 0.928
+    },
+    "hockenberger.us": {
+      "out": {
+        "other": 77
+      },
+      "score": 0.928
+    },
+    "cho.bz": {
+      "out": {
+        "other": 76
+      },
+      "score": 0.924
+    },
+    "webmention.rocks": {
+      "out": {
+        "in-reply-to": 3,
+        "like-of": 3,
+        "other": 8,
+        "bookmark-of": 3
+      },
+      "score": 0.783
+    },
+    "www.instagram.com": {
+      "out": {
+        "other": 35
+      },
+      "score": 0.783
+    },
+    "brid.gy": {
+      "in": {
+        "other": 36
+      },
+      "score": 0.659
+    },
+    "jothut.com": {
+      "in": {
+        "other": 33
+      },
+      "score": 0.645
+    },
+    "facebook.com/100574580349022": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.613
+    },
+    "ignite.digitalignition.net": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.552
+    },
+    "checkmention.appspot.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.552
+    },
+    "twitter.com/mediaberger": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.457
+    },
+    "facebook.com/636081429878953": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.457
+    },
+    "twitter.com/chrisbergr": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.457
+    },
+    "chrisbergr.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.424
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.424
+    },
+    "facebook.com/122645171434802": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.383
+    },
+    "twitter.com/indiewebcamp": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.383
+    },
+    "pinterest.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.383
+    },
+    "www.apple.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.330
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.297
+    },
+    "twitter.com/search": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.256
+    },
+    "github.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.256
+    },
+    "www.last.fm": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.256
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.256
+    },
+    "stackoverflow.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.256
+    },
+    "www.pinterest.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.256
+    },
+    "imdb.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.256
+    },
+    "dccomics.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.256
+    },
+    "facebook.com/10207718531778475": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.256
+    },
+    "twitter.com/amber_s86": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.256
+    },
+    "www.owasp.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.128
+    },
+    "twitter.com/shadowman_fw": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.128
+    },
+    "twitter.com/cox_ny": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.128
+    },
+    "twitter.com/schnarfed": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.128
+    },
+    "twitter.com/terrell90394": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.128
+    },
+    "twitter.com/Raubadler": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.128
+    },
+    "boghop.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

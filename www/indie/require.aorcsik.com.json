@@ -1,0 +1,61 @@
+{
+  "domain": "require.aorcsik.com",
+  "urls": [
+    "http://require.aorcsik.com",
+    "http://require.aorcsik.com/?og=1"
+  ],
+  "names": [
+    "#require",
+    "aorcsik"
+  ],
+  "descriptions": [
+    "csak úgy bármi...",
+    "aorcsik"
+  ],
+  "pictures": [
+    "http://68.media.tumblr.com/avatar_7ef15f1e2e9f_128.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "http://aorcsik.com/"
+  ],
+  "crawl_start": "2017-04-30T02:06:01",
+  "crawl_end": "2017-04-30T02:15:54",
+  "num_pages": 729,
+  "total_html_size": 37876868,
+  "servers": [
+    "openresty"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.brid.gy/webmention/tumblr"
+    ]
+  },
+  "links_out": 8634,
+  "links_in": 19,
+  "links": {
+    "aorcsik.com": {
+      "out": {
+        "other": 574
+      },
+      "score": 0.907
+    },
+    "brid.gy": {
+      "in": {
+        "other": 19
+      },
+      "score": 0.378
+    },
+    "include.aorcsik.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.268
+    }
+  }
+}

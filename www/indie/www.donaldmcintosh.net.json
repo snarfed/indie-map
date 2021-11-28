@@ -1,0 +1,76 @@
+{
+  "domain": "www.donaldmcintosh.net",
+  "urls": [
+    "http://www.donaldmcintosh.net/"
+  ],
+  "names": [
+    "Donald McIntosh"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/donaldbmcintosh",
+    "https://twitter.com/donaldbmcintosh"
+  ],
+  "crawl_start": "2017-06-07T17:36:30",
+  "crawl_end": "2017-06-09T17:38:36",
+  "num_pages": 69,
+  "total_html_size": 581678,
+  "servers": [
+    "Jetty(8.y.z-SNAPSHOT)"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 558,
+  "links_in": 11,
+  "links": {
+    "donaldmcintosh.net": {
+      "out": {
+        "other": 67
+      },
+      "score": 0.933
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.438
+    },
+    "withknown.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.341
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.307
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.265
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.132
+    },
+    "boffosocko.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.132
+    }
+  }
+}

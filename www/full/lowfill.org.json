@@ -1,0 +1,106 @@
+{
+  "domain": "lowfill.org",
+  "urls": [
+    "http://lowfill.org/"
+  ],
+  "names": [
+    "About .::. lowfill.com "
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://lowfill.org/images/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/lowfill",
+    "https://twitter.com/lowfill",
+    "https://delicious.com/lowfill",
+    "https://flickr.com/photos/lowfill",
+    "https://last.fm/user/lowfill"
+  ],
+  "crawl_start": "2017-04-29T14:39:17",
+  "crawl_end": "2017-04-29T14:39:17",
+  "num_pages": 1,
+  "total_html_size": 3708,
+  "servers": [
+    "nginx (Ubuntu)"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy"
+  ],
+  "endpoints": {},
+  "links_out": 7,
+  "links_in": 1922,
+  "links": {
+    "stream.lowfill.org": {
+      "in": {
+        "other": 1911
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.291
+    },
+    "last.fm": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0918
+    },
+    "flickr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0918
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.0918
+    },
+    "github.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0918
+    },
+    "twitter.com/lowfill": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0918
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0918
+    },
+    "zeitgeist-maktub.blogspot.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0918
+    },
+    "delicious.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0918
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

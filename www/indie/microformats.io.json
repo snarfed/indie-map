@@ -1,0 +1,77 @@
+{
+  "domain": "microformats.io",
+  "urls": [
+    "https://microformats.io/"
+  ],
+  "names": [
+    "Microformats",
+    "Microformats : Meaningful HTML"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://microformats.io/assets/microformats-logo-5d11582d0df2b0c4d373ff312d6050c82b0e03210499671bec01b0dfcee06b57.svg",
+    "https://microformats.io/assets/favicon-96x96-2de1e113d15f766f829958083fbe907c60a20f5ace573ca91d7cd0540cc12fa3.png",
+    "https://microformats.io/assets/favicon-32x32-40bf1442044fa46e43983f92ce0e2b2db03bb605851ffe85db88b61027b2798a.png",
+    "https://microformats.io/assets/favicon-16x16-a83433f78a2a807f90b3292d8c6dce5d582601f2121f21ae05c2c5778a2b406c.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Microformats"
+      ],
+      "photo": [
+        "https://microformats.io/assets/microformats-logo-5d11582d0df2b0c4d373ff312d6050c82b0e03210499671bec01b0dfcee06b57.svg"
+      ],
+      "url": [
+        "https://microformats.io/",
+        "https://microformats.io/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [],
+  "crawl_start": "2017-06-07T17:36:29",
+  "crawl_end": "2017-06-07T17:36:29",
+  "num_pages": 1,
+  "total_html_size": 14599,
+  "servers": [
+    "Cowboy"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "community"
+  ],
+  "endpoints": {},
+  "links_out": 39,
+  "links_in": 1,
+  "links": {
+    "chat.indieweb.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.450
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.450
+    },
+    "micro.blog": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.224
+    },
+    "pin13.net": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

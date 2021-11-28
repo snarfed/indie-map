@@ -1,0 +1,2457 @@
+{
+  "domain": "ichristaylor.com",
+  "urls": [
+    "http://ichristaylor.com/profile/ichristaylor",
+    "https://twitter.com/ichristaylor",
+    "https://www.instagram.com/ichristaylor/",
+    "https://www.facebook.com/ichristaylor",
+    "https://www.flickr.com/photos/ichristaylor/"
+  ],
+  "names": [
+    "Chris Taylor",
+    "Chris Taylor - Web publisher from Belfast",
+    "iChrisTaylor"
+  ],
+  "descriptions": [
+    "I'm a web publisher from Belfast.",
+    "The social musing of Chris Taylor powered by Known"
+  ],
+  "pictures": [
+    "http://ichristaylor.com/file/2fb5fad752c30481d984806923860535/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Chris Taylor"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I'm a web publisher from Belfast.</p>\n</div>",
+          "value": "\nI'm a web publisher from Belfast.\n"
+        }
+      ],
+      "photo": [
+        "http://ichristaylor.com/file/2fb5fad752c30481d984806923860535/thumb.jpg"
+      ],
+      "profile": [
+        "Chris Taylor"
+      ],
+      "url": [
+        "http://ichristaylor.com/profile/ichristaylor",
+        "http://ichristaylor.com/profile/ichristaylor",
+        "https://twitter.com/ichristaylor",
+        "https://www.instagram.com/ichristaylor/",
+        "https://www.facebook.com/ichristaylor",
+        "https://www.flickr.com/photos/ichristaylor/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/ichristaylor",
+    "https://www.instagram.com/ichristaylor/",
+    "https://www.facebook.com/ichristaylor",
+    "https://www.flickr.com/photos/ichristaylor/"
+  ],
+  "crawl_start": "2017-04-28T23:33:31",
+  "crawl_end": "2017-04-29T02:23:01",
+  "num_pages": 14507,
+  "total_html_size": 375022507,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-geo",
+    "h-entry",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://ichristaylor.com/webmention/",
+      "http://ichristaylor.com/webmention/"
+    ],
+    "micropub": [
+      "https://ichristaylor.com/micropub/endpoint",
+      "http://ichristaylor.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://ichristaylor.com/indieauth/auth",
+      "https://ichristaylor.com/indieauth/auth"
+    ],
+    "token": [
+      "https://ichristaylor.com/indieauth/token",
+      "http://ichristaylor.com/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 97097,
+  "links_in": 28,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 14507
+      },
+      "score": 1
+    },
+    "www.instagram.com": {
+      "out": {
+        "other": 11098
+      },
+      "score": 0.971
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 8728
+      },
+      "score": 0.949
+    },
+    "twitter.com/ichristaylor": {
+      "out": {
+        "other": 8702
+      },
+      "score": 0.948
+    },
+    "facebook.com/ichristaylor": {
+      "out": {
+        "other": 8702
+      },
+      "score": 0.948
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 2298
+      },
+      "score": 0.818
+    },
+    "eamonnmallie.com": {
+      "out": {
+        "other": 1792
+      },
+      "score": 0.794
+    },
+    "www.google.com": {
+      "out": {
+        "other": 1298
+      },
+      "score": 0.763
+    },
+    "forum.xda-developers.com": {
+      "out": {
+        "other": 1014
+      },
+      "score": 0.740
+    },
+    "christaylor.co": {
+      "out": {
+        "other": 980
+      },
+      "in": {
+        "other": 10
+      },
+      "score": 0.737
+    },
+    "www.guardian.co.uk": {
+      "out": {
+        "other": 894
+      },
+      "score": 0.727
+    },
+    "wpcurve.com": {
+      "out": {
+        "other": 804
+      },
+      "score": 0.717
+    },
+    "%E2%80%9Dwww.othersite.com": {
+      "out": {
+        "other": 792
+      },
+      "score": 0.716
+    },
+    "www.google.co.uk": {
+      "out": {
+        "other": 688
+      },
+      "score": 0.702
+    },
+    "www.bbc.co.uk": {
+      "out": {
+        "other": 626
+      },
+      "score": 0.692
+    },
+    "medium.com": {
+      "out": {
+        "other": 536
+      },
+      "score": 0.678
+    },
+    "tabletroms.com": {
+      "out": {
+        "other": 540
+      },
+      "score": 0.678
+    },
+    "stakeholders.ofcom.org.uk": {
+      "out": {
+        "other": 512
+      },
+      "score": 0.673
+    },
+    "maps.ofcom.org.uk": {
+      "out": {
+        "other": 512
+      },
+      "score": 0.673
+    },
+    "news.bbc.co.uk": {
+      "out": {
+        "other": 462
+      },
+      "score": 0.663
+    },
+    "www.twit.tv": {
+      "out": {
+        "other": 450
+      },
+      "score": 0.660
+    },
+    "addons.mozilla.org": {
+      "out": {
+        "other": 428
+      },
+      "score": 0.655
+    },
+    "blekko.com": {
+      "out": {
+        "other": 420
+      },
+      "score": 0.653
+    },
+    "www.bing.com": {
+      "out": {
+        "other": 420
+      },
+      "score": 0.653
+    },
+    "firstdraftnews.com": {
+      "out": {
+        "other": 420
+      },
+      "score": 0.653
+    },
+    "www.relativemarketing.co.uk": {
+      "out": {
+        "other": 410
+      },
+      "score": 0.651
+    },
+    "www.apple.com": {
+      "out": {
+        "other": 400
+      },
+      "score": 0.649
+    },
+    "blog.kissmetrics.com": {
+      "out": {
+        "other": 396
+      },
+      "score": 0.648
+    },
+    "www.play.com": {
+      "out": {
+        "other": 360
+      },
+      "score": 0.639
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 352
+      },
+      "score": 0.637
+    },
+    "ichristaylor.blogspot.co.uk": {
+      "out": {
+        "other": 344
+      },
+      "score": 0.634
+    },
+    "2.bp.blogspot.com": {
+      "out": {
+        "other": 340
+      },
+      "score": 0.633
+    },
+    "googleblog.blogspot.com": {
+      "out": {
+        "other": 332
+      },
+      "score": 0.631
+    },
+    "mobile.twitter.com": {
+      "out": {
+        "in-reply-to": 50,
+        "other": 78
+      },
+      "score": 0.630
+    },
+    "www.amazon.com": {
+      "out": {
+        "other": 328
+      },
+      "score": 0.630
+    },
+    "plus.google.com/103980046253263464509": {
+      "out": {
+        "other": 324
+      },
+      "score": 0.628
+    },
+    "www.scribd.com": {
+      "out": {
+        "other": 320
+      },
+      "score": 0.627
+    },
+    "bp1.blogger.com": {
+      "out": {
+        "other": 296
+      },
+      "score": 0.619
+    },
+    "www.barnesandnoble.com": {
+      "out": {
+        "other": 296
+      },
+      "score": 0.619
+    },
+    "www.microsoft.com": {
+      "out": {
+        "other": 294
+      },
+      "score": 0.619
+    },
+    "gospaces.com": {
+      "out": {
+        "other": 292
+      },
+      "score": 0.618
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 280
+      },
+      "score": 0.615
+    },
+    "www.sonos.com": {
+      "out": {
+        "other": 268
+      },
+      "score": 0.610
+    },
+    "www.ni-libraries.net": {
+      "out": {
+        "other": 256
+      },
+      "score": 0.606
+    },
+    "media.ofcom.org.uk": {
+      "out": {
+        "other": 256
+      },
+      "score": 0.606
+    },
+    "www.culture.gov.uk": {
+      "out": {
+        "other": 256
+      },
+      "score": 0.606
+    },
+    "itunes.apple.com": {
+      "out": {
+        "other": 254
+      },
+      "score": 0.605
+    },
+    "www.20thingsilearned.com": {
+      "out": {
+        "other": 246
+      },
+      "score": 0.602
+    },
+    "gmailblog.blogspot.com": {
+      "out": {
+        "other": 246
+      },
+      "score": 0.602
+    },
+    "www.mozilla.org": {
+      "out": {
+        "other": 244
+      },
+      "score": 0.601
+    },
+    "labs.mozilla.com": {
+      "out": {
+        "other": 244
+      },
+      "score": 0.601
+    },
+    "www.ichristaylor.com": {
+      "out": {
+        "other": 236
+      },
+      "score": 0.598
+    },
+    "www.blogger.com": {
+      "out": {
+        "other": 232
+      },
+      "score": 0.596
+    },
+    "www.timesonline.co.uk": {
+      "out": {
+        "other": 228
+      },
+      "score": 0.594
+    },
+    "beta.swype.com": {
+      "out": {
+        "other": 226
+      },
+      "score": 0.593
+    },
+    "www.prepaymania.co.uk": {
+      "out": {
+        "other": 226
+      },
+      "score": 0.593
+    },
+    "twittersentiment.appspot.com": {
+      "out": {
+        "other": 210
+      },
+      "score": 0.586
+    },
+    "tinyurl.com": {
+      "out": {
+        "other": 208
+      },
+      "score": 0.585
+    },
+    "www.belfasttelegraph.co.uk": {
+      "out": {
+        "other": 202
+      },
+      "score": 0.583
+    },
+    "www.wallblog.co.uk": {
+      "out": {
+        "other": 202
+      },
+      "score": 0.583
+    },
+    "facebook.com/10152757591303148": {
+      "out": {
+        "other": 204
+      },
+      "score": 0.583
+    },
+    "picasaweb.google.com": {
+      "out": {
+        "other": 198
+      },
+      "score": 0.581
+    },
+    "pureresiduals.com": {
+      "out": {
+        "other": 192
+      },
+      "score": 0.578
+    },
+    "play.google.com": {
+      "out": {
+        "other": 184
+      },
+      "score": 0.574
+    },
+    "iphonejtag.blogspot.com": {
+      "out": {
+        "other": 184
+      },
+      "score": 0.574
+    },
+    "blackra1n.com": {
+      "out": {
+        "other": 184
+      },
+      "score": 0.574
+    },
+    "clkuk.tradedoubler.com": {
+      "out": {
+        "other": 180
+      },
+      "score": 0.572
+    },
+    "stores.ebay.co.uk": {
+      "out": {
+        "other": 180
+      },
+      "score": 0.572
+    },
+    "android.modaco.com": {
+      "out": {
+        "other": 180
+      },
+      "score": 0.572
+    },
+    "www.openoffice.org": {
+      "out": {
+        "other": 180
+      },
+      "score": 0.572
+    },
+    "myadventvega.co.uk": {
+      "out": {
+        "other": 180
+      },
+      "score": 0.572
+    },
+    "www.myadventvega.co.uk": {
+      "out": {
+        "other": 180
+      },
+      "score": 0.572
+    },
+    "www.pcworld.co.uk": {
+      "out": {
+        "other": 180
+      },
+      "score": 0.572
+    },
+    "dustn.tv": {
+      "out": {
+        "other": 176
+      },
+      "score": 0.569
+    },
+    "www.tumblr.com": {
+      "out": {
+        "other": 174
+      },
+      "score": 0.568
+    },
+    "posterous.com": {
+      "out": {
+        "other": 174
+      },
+      "score": 0.568
+    },
+    "wordpress.com": {
+      "out": {
+        "other": 174
+      },
+      "score": 0.568
+    },
+    "www.foxnews.com": {
+      "out": {
+        "other": 172
+      },
+      "score": 0.567
+    },
+    "www.spotify.com": {
+      "out": {
+        "other": 172
+      },
+      "score": 0.567
+    },
+    "www.lovefilm.com": {
+      "out": {
+        "other": 172
+      },
+      "score": 0.567
+    },
+    "www.odfalliance.org": {
+      "out": {
+        "other": 164
+      },
+      "score": 0.562
+    },
+    "plus.google.com": {
+      "out": {
+        "other": 162
+      },
+      "score": 0.561
+    },
+    "twitter.com/CharlieHuston": {
+      "out": {
+        "other": 160
+      },
+      "score": 0.560
+    },
+    "1and1.co.uk": {
+      "out": {
+        "other": 158
+      },
+      "score": 0.559
+    },
+    "blog.bufferapp.com": {
+      "out": {
+        "other": 158
+      },
+      "score": 0.559
+    },
+    "mashable.com": {
+      "out": {
+        "other": 154
+      },
+      "score": 0.556
+    },
+    "www.android.com": {
+      "out": {
+        "other": 154
+      },
+      "score": 0.556
+    },
+    "bit.ly": {
+      "out": {
+        "other": 154
+      },
+      "score": 0.556
+    },
+    "www.htc.com": {
+      "out": {
+        "other": 154
+      },
+      "score": 0.556
+    },
+    "bookclubs.barnesandnoble.com": {
+      "out": {
+        "other": 148
+      },
+      "score": 0.552
+    },
+    "lh6.googleusercontent.com": {
+      "out": {
+        "other": 142
+      },
+      "score": 0.549
+    },
+    "code.google.com": {
+      "out": {
+        "other": 140
+      },
+      "score": 0.547
+    },
+    "booksearch.blogspot.com": {
+      "out": {
+        "other": 138
+      },
+      "score": 0.546
+    },
+    "technology.timesonline.co.uk": {
+      "out": {
+        "other": 138
+      },
+      "score": 0.546
+    },
+    "books.google.com": {
+      "out": {
+        "other": 138
+      },
+      "score": 0.546
+    },
+    "www.gutenberg.org": {
+      "out": {
+        "other": 138
+      },
+      "score": 0.546
+    },
+    "www.independent.co.uk": {
+      "out": {
+        "other": 138
+      },
+      "score": 0.546
+    },
+    "www.michaelconnelly.com": {
+      "out": {
+        "other": 138
+      },
+      "score": 0.546
+    },
+    "www.newsletter.co.uk": {
+      "out": {
+        "other": 138
+      },
+      "score": 0.546
+    },
+    "perishablepress.com": {
+      "out": {
+        "other": 136
+      },
+      "score": 0.545
+    },
+    "www.economist.com": {
+      "out": {
+        "other": 136
+      },
+      "score": 0.545
+    },
+    "www.stateofdigital.com": {
+      "out": {
+        "other": 136
+      },
+      "score": 0.545
+    },
+    "twitter.com/iChrisTaylor": {
+      "out": {
+        "other": 136
+      },
+      "score": 0.545
+    },
+    "tweetdeck.twitter.com": {
+      "out": {
+        "other": 136
+      },
+      "score": 0.545
+    },
+    "www.iclarified.com": {
+      "out": {
+        "other": 134
+      },
+      "score": 0.543
+    },
+    "daringfireball.net": {
+      "out": {
+        "other": 132
+      },
+      "score": 0.542
+    },
+    "news.google.co.uk": {
+      "out": {
+        "other": 132
+      },
+      "score": 0.542
+    },
+    "searchengineland.com": {
+      "out": {
+        "other": 132
+      },
+      "score": 0.542
+    },
+    "www.twitlonger.com": {
+      "out": {
+        "other": 128
+      },
+      "score": 0.539
+    },
+    "www.kaushik.net": {
+      "out": {
+        "other": 128
+      },
+      "score": 0.539
+    },
+    "1.bp.blogspot.com": {
+      "out": {
+        "other": 124
+      },
+      "score": 0.535
+    },
+    "chrome.google.com": {
+      "out": {
+        "other": 124
+      },
+      "score": 0.535
+    },
+    "m.guardian.co.uk": {
+      "out": {
+        "other": 124
+      },
+      "score": 0.535
+    },
+    "www.metageek.net": {
+      "out": {
+        "other": 124
+      },
+      "score": 0.535
+    },
+    "discussions.apple.com": {
+      "out": {
+        "other": 124
+      },
+      "score": 0.535
+    },
+    "www.linksysbycisco.com": {
+      "out": {
+        "other": 124
+      },
+      "score": 0.535
+    },
+    "3.bp.blogspot.com": {
+      "out": {
+        "other": 124
+      },
+      "score": 0.535
+    },
+    "googledocs.blogspot.com": {
+      "out": {
+        "other": 120
+      },
+      "score": 0.532
+    },
+    "read.amazon.com": {
+      "out": {
+        "other": 116
+      },
+      "score": 0.529
+    },
+    "www.boygeniusreport.com": {
+      "out": {
+        "other": 116
+      },
+      "score": 0.529
+    },
+    "www.theguardian.com": {
+      "out": {
+        "other": 108
+      },
+      "score": 0.522
+    },
+    "www.pulpnoir.com": {
+      "out": {
+        "other": 108
+      },
+      "score": 0.522
+    },
+    "get.google.com": {
+      "out": {
+        "other": 108
+      },
+      "score": 0.522
+    },
+    "www.canva.com": {
+      "out": {
+        "other": 106
+      },
+      "score": 0.520
+    },
+    "simplyian.com": {
+      "out": {
+        "other": 104
+      },
+      "score": 0.518
+    },
+    "is.gd": {
+      "out": {
+        "other": 104
+      },
+      "score": 0.518
+    },
+    "ow.ly": {
+      "out": {
+        "other": 104
+      },
+      "score": 0.518
+    },
+    "moz.com": {
+      "out": {
+        "other": 100
+      },
+      "score": 0.515
+    },
+    "developer.android.com": {
+      "out": {
+        "other": 100
+      },
+      "score": 0.515
+    },
+    "eeepc.asus.com": {
+      "out": {
+        "other": 98
+      },
+      "score": 0.513
+    },
+    "twitter.com/eliza_medley": {
+      "out": {
+        "other": 96
+      },
+      "score": 0.511
+    },
+    "sethgodin.typepad.com": {
+      "out": {
+        "other": 94
+      },
+      "score": 0.509
+    },
+    "twitter.com/search": {
+      "out": {
+        "other": 92
+      },
+      "score": 0.506
+    },
+    "business.timesonline.co.uk": {
+      "out": {
+        "other": 92
+      },
+      "score": 0.506
+    },
+    "cyberduck.ch": {
+      "out": {
+        "other": 92
+      },
+      "score": 0.506
+    },
+    "lifein0and1.com": {
+      "out": {
+        "other": 92
+      },
+      "score": 0.506
+    },
+    "twitter.com/geohot": {
+      "out": {
+        "other": 92
+      },
+      "score": 0.506
+    },
+    "audacity.sourceforge.net": {
+      "out": {
+        "other": 92
+      },
+      "score": 0.506
+    },
+    "www.channelflip.com": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.504
+    },
+    "www.three.co.uk": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.504
+    },
+    "www.nationalgeographic.com": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.504
+    },
+    "blog.twitter.com": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.504
+    },
+    "www.socialmediaexaminer.com": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.504
+    },
+    "www.telegraph.co.uk": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.504
+    },
+    "www.fring.com": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.504
+    },
+    "www.macobserver.com": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.504
+    },
+    "blog.niassembly.gov.uk": {
+      "out": {
+        "other": 86
+      },
+      "score": 0.5
+    },
+    "www.amazon.co.uk": {
+      "out": {
+        "other": 82
+      },
+      "score": 0.495
+    },
+    "googlereader.blogspot.com": {
+      "out": {
+        "other": 82
+      },
+      "score": 0.495
+    },
+    "developer.mozilla.org": {
+      "out": {
+        "other": 82
+      },
+      "score": 0.495
+    },
+    "bp0.blogger.com": {
+      "out": {
+        "other": 82
+      },
+      "score": 0.495
+    },
+    "m.google.com": {
+      "out": {
+        "other": 82
+      },
+      "score": 0.495
+    },
+    "www.spreadfirefox.com": {
+      "out": {
+        "other": 82
+      },
+      "score": 0.495
+    },
+    "yoursite.com": {
+      "out": {
+        "other": 80
+      },
+      "score": 0.493
+    },
+    "online.marketing": {
+      "out": {
+        "other": 80
+      },
+      "score": 0.493
+    },
+    "domai.nr": {
+      "out": {
+        "other": 80
+      },
+      "score": 0.493
+    },
+    "yourls.org": {
+      "out": {
+        "other": 80
+      },
+      "score": 0.493
+    },
+    "forum.rolopress.com": {
+      "out": {
+        "other": 78
+      },
+      "score": 0.490
+    },
+    "oceanwp.org": {
+      "out": {
+        "other": 76
+      },
+      "score": 0.487
+    },
+    "www.stallman.org": {
+      "out": {
+        "other": 76
+      },
+      "score": 0.487
+    },
+    "bp3.blogger.com": {
+      "out": {
+        "other": 74
+      },
+      "score": 0.485
+    },
+    "mail.google.com": {
+      "out": {
+        "other": 74
+      },
+      "score": 0.485
+    },
+    "vimeo.com": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.483
+    },
+    "www.garyvaynerchuk.com": {
+      "out": {
+        "other": 70
+      },
+      "score": 0.480
+    },
+    "www.mailgun.com": {
+      "out": {
+        "other": 70
+      },
+      "score": 0.480
+    },
+    "wiki.cyanogenmod.com": {
+      "out": {
+        "other": 70
+      },
+      "score": 0.480
+    },
+    "www.wpbeginner.com": {
+      "out": {
+        "other": 70
+      },
+      "score": 0.480
+    },
+    "maps.googleblog.com": {
+      "out": {
+        "other": 68
+      },
+      "score": 0.477
+    },
+    "www.pketron.com": {
+      "out": {
+        "other": 68
+      },
+      "score": 0.477
+    },
+    "deathtothestockphoto.com": {
+      "out": {
+        "other": 68
+      },
+      "score": 0.477
+    },
+    "google.com": {
+      "out": {
+        "other": 68
+      },
+      "score": 0.477
+    },
+    "www.inc.com": {
+      "out": {
+        "other": 68
+      },
+      "score": 0.477
+    },
+    "www.refinery29.com": {
+      "out": {
+        "other": 68
+      },
+      "score": 0.477
+    },
+    "ifrp.org.uk": {
+      "out": {
+        "other": 68
+      },
+      "score": 0.477
+    },
+    "zapier.com": {
+      "out": {
+        "other": 64
+      },
+      "score": 0.471
+    },
+    "support.twitter.com": {
+      "out": {
+        "other": 64
+      },
+      "score": 0.471
+    },
+    "consentofthenetworked.com": {
+      "out": {
+        "other": 62
+      },
+      "score": 0.468
+    },
+    "googlemobile.blogspot.com": {
+      "out": {
+        "other": 62
+      },
+      "score": 0.468
+    },
+    "www.blackstudio.it": {
+      "out": {
+        "other": 62
+      },
+      "score": 0.468
+    },
+    "twitter.com/settings": {
+      "out": {
+        "other": 62
+      },
+      "score": 0.468
+    },
+    "www.theverge.com": {
+      "out": {
+        "other": 62
+      },
+      "score": 0.468
+    },
+    "www.labnol.org": {
+      "out": {
+        "other": 62
+      },
+      "score": 0.468
+    },
+    "newclues.cluetrain.com": {
+      "out": {
+        "other": 62
+      },
+      "score": 0.468
+    },
+    "vsco.co": {
+      "out": {
+        "other": 60
+      },
+      "score": 0.465
+    },
+    "www.cortexcamera.com": {
+      "out": {
+        "other": 60
+      },
+      "score": 0.465
+    },
+    "www.camerafv5.com": {
+      "out": {
+        "other": 60
+      },
+      "score": 0.465
+    },
+    "skrwt.com": {
+      "out": {
+        "other": 60
+      },
+      "score": 0.465
+    },
+    "audiobookmaker.sourceforge.net": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.461
+    },
+    "answerthepublic.com": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.461
+    },
+    "coveragebook.com": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.461
+    },
+    "illuminex.com": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.461
+    },
+    "www.addthis.com": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.461
+    },
+    "drupal.org": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.461
+    },
+    "www.pure.com": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.461
+    },
+    "tapulous.com": {
+      "out": {
+        "other": 58
+      },
+      "score": 0.461
+    },
+    "slide.ly": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.458
+    },
+    "muz.li": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.458
+    },
+    "lyrictheatre.co.uk": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.458
+    },
+    "medium.muz.li": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.458
+    },
+    "googleblog.blogspot.co.uk": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.458
+    },
+    "www.befunky.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.458
+    },
+    "static.googleusercontent.com": {
+      "out": {
+        "other": 54
+      },
+      "score": 0.454
+    },
+    "shelisrael.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.450
+    },
+    "gohighbrow.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.450
+    },
+    "compressor.io": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.450
+    },
+    "sproutsocial.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.450
+    },
+    "www.digcontent.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.450
+    },
+    "www.twitshot.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.450
+    },
+    "blog.trello.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.450
+    },
+    "pulpnoir.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.450
+    },
+    "mailgun.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.450
+    },
+    "stocksnap.io": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.448
+    },
+    "status.twitter.com": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.448
+    },
+    "twitter.com/Ihnatko": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.448
+    },
+    "www.mobispine.com": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.448
+    },
+    "www.operamini.com": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.448
+    },
+    "buzz.blogger.com": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.448
+    },
+    "developers.facebook.com": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.448
+    },
+    "twitter.com/iambenwood": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.448
+    },
+    "www.taylorleopoldphoto.com": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.448
+    },
+    "twitter.com/YasmineEvjen": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.448
+    },
+    "unsplash.com": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.448
+    },
+    "twitter.com/materialpodcast": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.448
+    },
+    "twitter.com/rustyshelf": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.448
+    },
+    "www.mippin.com": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.448
+    },
+    "tattersalldistilling.com": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.448
+    },
+    "towcenter.org": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.443
+    },
+    "emergentinfo.tumblr.com": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.443
+    },
+    "mediashift.org": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.443
+    },
+    "blog.google": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.443
+    },
+    "facebook.com/facebookmedia": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.443
+    },
+    "www.emergent.info": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.443
+    },
+    "www.craigsilverman.ca": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.443
+    },
+    "www.thinkwithgoogle.com": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.443
+    },
+    "library.gv.com": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.443
+    },
+    "themeisle.com": {
+      "out": {
+        "other": 46
+      },
+      "score": 0.439
+    },
+    "www.belfastcity.gov.uk": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.435
+    },
+    "trello.com": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.435
+    },
+    "media.fb.com": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.430
+    },
+    "facebook.com/business": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.430
+    },
+    "gsuiteupdates.googleblog.com": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.425
+    },
+    "www.blog.google": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.425
+    },
+    "www.buzzfeed.com": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.425
+    },
+    "www.computerworld.com": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.425
+    },
+    "siteorigin.com": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.420
+    },
+    "symfony-cms.net": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.420
+    },
+    "en-gb.wordpress.org": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.420
+    },
+    "sucuri.net": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.420
+    },
+    "twitter.com/thekitze": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.420
+    },
+    "Array": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.416
+    },
+    "prisma-ai.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.416
+    },
+    "ownyourcheckin.wirres.net": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.416
+    },
+    "irealsms.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.410
+    },
+    "www.niassembly.gov.uk": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.410
+    },
+    "www.ifs.org.uk": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.410
+    },
+    "dbrand.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.410
+    },
+    "ok-google.io": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.410
+    },
+    "digitalmarketinginstitute.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.410
+    },
+    "www.statisticsauthority.gov.uk": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.410
+    },
+    "www.stratagem-ni.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.410
+    },
+    "www.troyhunt.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.404
+    },
+    "www.groovehq.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.404
+    },
+    "blog.mailchimp.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.404
+    },
+    "cloudconvert.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.391
+    },
+    "superfamous.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "getrefe.tumblr.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "picjumbo.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "piktochart.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "trailhead.salesforce.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "spences10.github.io": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "www.salesforce.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "www.gratisography.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "twitter.com/amanhimself": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "jaymantri.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "magdeleine.co": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "picography.co": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "isorepublic.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "join.deathtothestockphoto.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "nos.twnsnd.co": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "thepatternlibrary.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "imcreator.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "facebook.com/RobertScoble": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "publicdomainarchive.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "www.niemanlab.org": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "www.raumrot.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "foodiesfeed.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "dustinsenos.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "www.wordstream.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.383
+    },
+    "www.consumerbarometer.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.376
+    },
+    "material.io": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.376
+    },
+    "ben-evans.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.376
+    },
+    "uk.pinterest.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.376
+    },
+    "www.onlydeadfish.co.uk": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.358
+    },
+    "offers.hubspot.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.358
+    },
+    "www.boredpanda.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.358
+    },
+    "www.hover.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.358
+    },
+    "assemblyweek.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.358
+    },
+    "cdn2.hubspot.net": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.358
+    },
+    "strategyzer.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.348
+    },
+    "www.norsemandistillery.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.348
+    },
+    "alison.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.348
+    },
+    "elegantt.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.348
+    },
+    "docs.elementor.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.348
+    },
+    "www.channel4.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.348
+    },
+    "bbc.in": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.348
+    },
+    "www.aomrc.org.uk": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.348
+    },
+    "guykawasaki.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.348
+    },
+    "juliefriedenberg.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.348
+    },
+    "visual.ly": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.348
+    },
+    "support.google.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.348
+    },
+    "www.bbc.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.348
+    },
+    "www.bloomberg.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.348
+    },
+    "blog.intercom.io": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.348
+    },
+    "facebook.com/loic": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.348
+    },
+    "www.dropbox.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.348
+    },
+    "facebook.com/1061317497216441": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.337
+    },
+    "facebook.com/10207024436468436": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.309
+    },
+    "500hats.typepad.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.309
+    },
+    "www.campaignlive.co.uk": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.309
+    },
+    "www.slideshare.net": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.309
+    },
+    "facebook.com/10152632158002024": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.309
+    },
+    "www.pocket-lint.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.309
+    },
+    "www.fastcompany.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.291
+    },
+    "www.neverware.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.291
+    },
+    "mercury.postlight.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.291
+    },
+    "journal.designinc.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.291
+    },
+    "www.theatlantic.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.291
+    },
+    "www.designinc.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.291
+    },
+    "twitter.com/gospaces": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.291
+    },
+    "gomix.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.291
+    },
+    "adachen.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.291
+    },
+    "www.propublica.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.291
+    },
+    "notegraphy.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.291
+    },
+    "scripting.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.291
+    },
+    "www.espn.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.291
+    },
+    "www.listentoyoutube.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.291
+    },
+    "facebook.com/10153180501047071": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.269
+    },
+    "twitter.com/dmigroup": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.269
+    },
+    "facebook.com/10152607186926920": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.269
+    },
+    "facebook.com/10152835169646309": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.269
+    },
+    "facebook.com/10156582834485150": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.269
+    },
+    "facebook.com/897145873642020": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.269
+    },
+    "brid.gy": {
+      "in": {
+        "other": 16
+      },
+      "score": 0.269
+    },
+    "facebook.com/10154048654696683": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.269
+    },
+    "iChrisTaylor.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.269
+    },
+    "facebook.com/944444998907766": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.269
+    },
+    "facebook.com/10154790429974237": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.269
+    },
+    "facebook.com/10153342376898267": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.269
+    },
+    "thegorilla.co.uk": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.241
+    },
+    "Air": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.241
+    },
+    "twitter.com/davidarcherNI": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.241
+    },
+    "twitter.com/mpinterests": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.241
+    },
+    "twitter.com/dawnieando": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.241
+    },
+    "facebook.com/10203844580250777": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/10208572207040396": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/440770156099660": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/10153000129753961": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/10154668203704922": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/10153268453876419": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/10155309954545577": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "twitter.com/realsamdiamond": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "twitter.com/freddygamer": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "www.marcefx.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "twitter.com/Una_VIEW": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/915086175265471": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/10153212906474904": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/10153338068101162": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/1158895014120795": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "twitter.com/newswatch2000": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "www.membersinterests.org.uk": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/cllrdavidarcher": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/10209730044148237": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "twitter.com/weepete_": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "twitter.com/OMcN": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "twitter.com/dappermarketer": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/10153977620497509": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/10152767701693021": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/10206432120180718": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "twitter.com/belfastkoala": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "www.digitalmarketinginstitute.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/1067045019977397": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "twitter.com/tresancouphe191": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/10154062868129679": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "www.owenmcnulty.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/1823630387862471": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/10202977137904319": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "about.me": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/10154336684776228": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "facebook.com/1104217606277206": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.202
+    },
+    "www.arrastheme.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.135
+    },
+    "ownyourgram.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0673
+    }
+  }
+}

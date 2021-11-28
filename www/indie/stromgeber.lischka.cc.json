@@ -1,0 +1,214 @@
+{
+  "domain": "stromgeber.lischka.cc",
+  "urls": [
+    "http://stromgeber.lischka.cc/profile/klischka",
+    "https://www.twitter.com/klischka",
+    "https://www.konradlischka.info",
+    "https://stromgeber.lischka.cc/?_t=rss"
+  ],
+  "names": [
+    "Konrad Lischka",
+    "Konrad Lischkas Stromgeber"
+  ],
+  "descriptions": [
+    "Text & Bild. Privater Account, private Meinung.",
+    "Kurze Texte"
+  ],
+  "pictures": [
+    "http://stromgeber.lischka.cc/file/5f39e8903add7ca533f90fd718806ced/thumb.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Konrad Lischka"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Text &amp; Bild. Privater Account, private Meinung.</p>\n</div>",
+          "value": "\nText & Bild. Privater Account, private Meinung.\n"
+        }
+      ],
+      "photo": [
+        "http://stromgeber.lischka.cc/file/5f39e8903add7ca533f90fd718806ced/thumb.png"
+      ],
+      "profile": [
+        "Konrad Lischka"
+      ],
+      "url": [
+        "http://stromgeber.lischka.cc/profile/klischka",
+        "http://stromgeber.lischka.cc/profile/klischka",
+        "https://www.twitter.com/klischka",
+        "https://www.konradlischka.info",
+        "https://stromgeber.lischka.cc/?_t=rss"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://www.twitter.com/klischka",
+    "https://www.konradlischka.info",
+    "https://stromgeber.lischka.cc/?_t=rss"
+  ],
+  "crawl_start": "2017-05-06T07:19:17",
+  "crawl_end": "2017-05-06T13:17:21",
+  "num_pages": 12155,
+  "total_html_size": 511631212,
+  "servers": [
+    "Apache (CentOS)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://stromgeber.lischka.cc/webmention/",
+      "http://stromgeber.lischka.cc/webmention/"
+    ],
+    "micropub": [
+      "http://stromgeber.lischka.cc/micropub/endpoint",
+      "https://stromgeber.lischka.cc/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://stromgeber.lischka.cc/indieauth/auth",
+      "http://stromgeber.lischka.cc/indieauth/auth"
+    ],
+    "token": [
+      "https://stromgeber.lischka.cc/indieauth/token",
+      "http://stromgeber.lischka.cc/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 216060,
+  "links_in": 5099,
+  "links": {
+    "www.konradlischka.info": {
+      "in": {
+        "other": 4487
+      },
+      "out": {
+        "other": 6173
+      },
+      "score": 0.785
+    },
+    "wirres.net": {
+      "out": {
+        "other": 36
+      },
+      "in": {
+        "other": 294,
+        "like-of": 294
+      },
+      "score": 0.553
+    },
+    "withknown.com": {
+      "out": {
+        "other": 355
+      },
+      "score": 0.530
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 88
+      },
+      "score": 0.417
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.361
+    },
+    "scripting.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.325
+    },
+    "drikk.es": {
+      "in": {
+        "in-reply-to": 5
+      },
+      "out": {
+        "other": 8
+      },
+      "score": 0.299
+    },
+    "www.drikk.es": {
+      "in": {
+        "in-reply-to": 5
+      },
+      "score": 0.260
+    },
+    "belp.audio": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.233
+    },
+    "t73f.de": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.223
+    },
+    "brid.gy": {
+      "in": {
+        "other": 13
+      },
+      "score": 0.206
+    },
+    "www.bielinski.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.2
+    },
+    "www.michi.wtf": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.2
+    },
+    "werd.io": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.2
+    },
+    "xxyzz.withknown.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.2
+    },
+    "www.petersell.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.144
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

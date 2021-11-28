@@ -1,0 +1,107 @@
+{
+  "domain": "www.richardcarls.com",
+  "urls": [
+    "https://richardcarls.com/",
+    "https://github.com/richardcarls",
+    "https://www.linkedin.com/in/richardcarls/",
+    "https://richardcarls.com"
+  ],
+  "names": [
+    "Richard Carls",
+    "This Page Intentionally Left Blank"
+  ],
+  "descriptions": [
+    "My name is Richard Carls and I am a web developer in the Buffalo / Niagara Region in NY."
+  ],
+  "pictures": [
+    "https://www.richardcarls.com/assets/image/icon-16x16.png",
+    "https://www.richardcarls.com/assets/image/icon-32x32.png",
+    "https://www.richardcarls.com/assets/image/icon-96x96.png",
+    "https://www.richardcarls.com/assets/image/icon-192x192.png",
+    "https://www.richardcarls.com/favicon.ico"
+  ],
+  "hcard": {
+    "properties": {
+      "family-name": [
+        "Carls"
+      ],
+      "given-name": [
+        "Richard"
+      ],
+      "job-title": [
+        "web developer"
+      ],
+      "locality": [
+        "Buffalo / Niagara Region"
+      ],
+      "name": [
+        "Richard Carls"
+      ],
+      "note": [
+        "My name is Richard Carls and I am a web developer in the Buffalo / Niagara Region in NY."
+      ],
+      "region": [
+        "New York"
+      ],
+      "uid": [
+        "https://richardcarls.com/"
+      ],
+      "url": [
+        "https://richardcarls.com/",
+        "https://github.com/richardcarls",
+        "https://www.linkedin.com/in/richardcarls/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://richardcarls.com/",
+    "https://github.com/richardcarls",
+    "https://www.linkedin.com/in/richardcarls/"
+  ],
+  "crawl_start": "2017-04-30T08:30:33",
+  "crawl_end": "2017-04-30T08:30:34",
+  "num_pages": 4,
+  "total_html_size": 9624,
+  "servers": [],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io"
+  ],
+  "endpoints": {},
+  "links_out": 6,
+  "links_in": 29,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 23
+      },
+      "score": 1
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.350
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.350
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.221
+    }
+  }
+}

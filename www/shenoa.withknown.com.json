@@ -1,0 +1,119 @@
+{
+  "domain": "shenoa.withknown.com",
+  "urls": [
+    "https://shenoa.withknown.com/profile/shenoa",
+    "http://shenoalawrence.com",
+    "http://www.twitter.com/shenoalawrence"
+  ],
+  "names": [
+    "Shenoa Lawrence",
+    "Life and Stuff, You Know?"
+  ],
+  "descriptions": [
+    "Web developer, project manager, and adventure seeker.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://shenoa.withknown.com/file/c170f812c805e7264df69fc1c09122b3/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Shenoa Lawrence"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Web developer, project manager, and adventure seeker.</p>\n</div> ",
+          "value": "\nWeb developer, project manager, and adventure seeker.\n "
+        }
+      ],
+      "photo": [
+        "https://shenoa.withknown.com/file/c170f812c805e7264df69fc1c09122b3/thumb.jpg"
+      ],
+      "profile": [
+        "Shenoa Lawrence"
+      ],
+      "url": [
+        "https://shenoa.withknown.com/profile/shenoa",
+        "https://shenoa.withknown.com/profile/shenoa",
+        "http://shenoalawrence.com",
+        "http://www.twitter.com/shenoalawrence"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://shenoalawrence.com",
+    "http://www.twitter.com/shenoalawrence"
+  ],
+  "crawl_start": "2017-04-30T02:14:23",
+  "crawl_end": "2017-04-30T02:14:41",
+  "num_pages": 27,
+  "total_html_size": 518876,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-event",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://shenoa.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://shenoa.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://shenoa.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://shenoa.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 52,
+  "links_in": 1,
+  "links": {
+    "twitter.com/shenoalawrence": {
+      "out": {
+        "other": 22
+      },
+      "score": 1
+    },
+    "shenoalawrence.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 1
+    },
+    "www.marketshareseattle.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.733
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

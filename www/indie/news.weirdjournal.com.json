@@ -1,0 +1,82 @@
+{
+  "domain": "news.weirdjournal.com",
+  "urls": [
+    "http://news.weirdjournal.com/",
+    "http://news.weirdjournal.com"
+  ],
+  "names": [
+    "Weird Journal | News",
+    "Weird Journal - News",
+    "News"
+  ],
+  "descriptions": [
+    "STAY UP TO DATE Get headlines & Breaking News Delivered by email Click The Button Below"
+  ],
+  "pictures": [
+    "http://news.weirdjournal.com/wp-content/uploads/sites/26/2017/04/WJournal-Logo-1.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T21:32:16",
+  "crawl_end": "2017-04-29T21:42:23",
+  "num_pages": 192,
+  "total_html_size": 18753230,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-as-like",
+    "h-as-mention",
+    "h-as-reply"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://news.weirdjournal.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://news.weirdjournal.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 2759,
+  "links_in": 16,
+  "links": {
+    "weirdjournal.com": {
+      "in": {
+        "other": 10
+      },
+      "out": {
+        "other": 397
+      },
+      "score": 0.892
+    },
+    "brid.gy": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.239
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0924
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "domain": "anthonydreessen.herokuapp.com",
+  "urls": [
+    "http://anthonydreessen.herokuapp.com/",
+    "http://h2vx.com/vcf/",
+    "https://twitter.com/AnthonyDreessen",
+    "http:///"
+  ],
+  "names": [
+    "Anthony Dreessen"
+  ],
+  "descriptions": [
+    "Posts by Anthony Dreessen"
+  ],
+  "pictures": [
+    "http://anthonydreessen.herokuapp.com/photo.jpg",
+    "http://anthonydreessen.herokuapp.com/favicon.ico",
+    "http://anthonydreessen.herokuapp.com/touch-icon-192x192.png"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:anthonydreessen@gmail.com"
+      ],
+      "name": [
+        "Anthony Dreessen"
+      ],
+      "photo": [
+        "http://anthonydreessen.herokuapp.com/photo.jpg"
+      ],
+      "tel": [
+        "tel://4252051032"
+      ],
+      "url": [
+        "http://anthonydreessen.herokuapp.com/",
+        "http://anthonydreessen.herokuapp.com/",
+        "http://h2vx.com/vcf/",
+        "https://twitter.com/AnthonyDreessen"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://anthonydreessen.herokuapp.com/",
+    "https://twitter.com/AnthonyDreessen"
+  ],
+  "crawl_start": "2017-06-09T17:33:26",
+  "crawl_end": "2017-06-09T17:33:37",
+  "num_pages": 4,
+  "total_html_size": 41690,
+  "servers": [
+    "Cowboy",
+    "Dark Matter Publisher (darkmatterapp.com)"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-feed"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 19,
+  "links_in": 26,
+  "links": {
+    "kylewm.com": {
+      "in": {
+        "other": 2,
+        "in-reply-to": 2
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.968
+    },
+    "h2vx.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.839
+    },
+    "veganstraightedge.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.722
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.649
+    }
+  }
+}

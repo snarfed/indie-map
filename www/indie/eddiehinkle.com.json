@@ -1,0 +1,224 @@
+{
+  "domain": "eddiehinkle.com",
+  "urls": [
+    "https://eddiehinkle.com/"
+  ],
+  "names": [
+    "Eddie Hinkle"
+  ],
+  "descriptions": [
+    "Believer, Husband, Software Engineer, Pastor. Read More",
+    "This is a simple website and blog by Eddie. I'm working on making it a lot nicer and a lot prettier soon. \n"
+  ],
+  "pictures": [
+    "https://eddiehinkle.com/images/profile.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Eddie Hinkle"
+      ],
+      "note": [
+        "Believer, Husband, Software Engineer, Pastor. Read More"
+      ],
+      "photo": [
+        "https://eddiehinkle.com/images/profile.jpg"
+      ],
+      "url": [
+        "https://eddiehinkle.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://eddiehinkle.com/",
+    "https://github.com/edwardhinkle",
+    "https://twitter.com/eddiehinkle",
+    "https://instagram.com/eddiehinkle",
+    "https://facebook.com/EdwardTHinkle",
+    "mailto:hello@eddiehinkle.com"
+  ],
+  "crawl_start": "2017-04-30T01:57:41",
+  "crawl_end": "2017-04-30T02:03:33",
+  "num_pages": 614,
+  "total_html_size": 21835324,
+  "servers": [
+    "nginx (Ubuntu)"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/eddiehinkle.com/webmention"
+    ],
+    "micropub": [
+      "https://eddiehinkle.com/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 5022,
+  "links_in": 1148,
+  "links": {
+    "chat.indieweb.org": {
+      "in": {
+        "other": 729
+      },
+      "score": 0.926
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 119
+      },
+      "in": {
+        "like-of": 7,
+        "other": 82
+      },
+      "score": 0.816
+    },
+    "martymcgui.re": {
+      "out": {
+        "other": 71,
+        "in-reply-to": 5
+      },
+      "in": {
+        "other": 46
+      },
+      "score": 0.768
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 101
+      },
+      "out": {
+        "other": 50
+      },
+      "score": 0.744
+    },
+    "barryfrost.com": {
+      "in": {
+        "in-reply-to": 28,
+        "other": 28
+      },
+      "score": 0.719
+    },
+    "jonathanprozzi.net": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.574
+    },
+    "ownyourswarm.p3k.io": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.574
+    },
+    "cleverdevil.io": {
+      "out": {
+        "other": 13
+      },
+      "in": {
+        "other": 31
+      },
+      "score": 0.567
+    },
+    "teacup.p3k.io": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.549
+    },
+    "miklb.com": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 16
+      },
+      "score": 0.492
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "like-of": 13,
+        "other": 4
+      },
+      "score": 0.478
+    },
+    "news.indieweb.org": {
+      "in": {
+        "other": 24
+      },
+      "score": 0.447
+    },
+    "markmhendrickson.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.421
+    },
+    "brid.gy": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.406
+    },
+    "webmention.io": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.389
+    },
+    "snarfed.org": {
+      "in": {
+        "in-reply-to": 2
+      },
+      "score": 0.323
+    },
+    "techlifeweb.com": {
+      "in": {
+        "like-of": 5
+      },
+      "score": 0.323
+    },
+    "boffosocko.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.226
+    },
+    "gregorlove.com": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.0973
+    },
+    "www.jeremycherfas.net": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

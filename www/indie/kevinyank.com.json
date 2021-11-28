@@ -1,0 +1,80 @@
+{
+  "domain": "kevinyank.com",
+  "urls": [
+    "http://kevinyank.com/"
+  ],
+  "names": [
+    "Kevin Yank"
+  ],
+  "descriptions": [
+    "Kevin Yankâs website"
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/sentience",
+    "https://github.com/sentience",
+    "https://app.net/sentience",
+    "https://www.facebook.com/kevin.yank",
+    "https://www.flickr.com/photos/sentience",
+    "https://delicious.com/sentience",
+    "http://www.last.fm/user/sentience",
+    "http://au.linkedin.com/in/kevinyank"
+  ],
+  "crawl_start": "2017-06-09T18:14:13",
+  "crawl_end": "2017-06-09T18:15:56",
+  "num_pages": 143,
+  "total_html_size": 1462685,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-adr",
+    "h-entry"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 1757,
+  "links_in": 13,
+  "links": {
+    "shiflett.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.238
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.238
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.119
+    },
+    "tantek.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.119
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.119
+    },
+    "kylewm.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

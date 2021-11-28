@@ -1,0 +1,963 @@
+{
+  "domain": "pvagner.tk",
+  "urls": [
+    "https://pvagner.tk/profile/pvagner",
+    "https://twitter.com/pvagner",
+    "https://www.facebook.com/pvdeejay",
+    "https://plus.google.com/112635519863097306017"
+  ],
+  "names": [
+    "Peter Vágner",
+    "pvagner's Known"
+  ],
+  "descriptions": [
+    "Sysadmin, interested in new technologies, communications, multimedia, accessibility, better Linux than Windows, better Android than IOS and similar.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://pvagner.tk/gfx/users/default-01.png",
+    "https://pvagner.tk/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Peter Vágner"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Sysadmin, interested in new technologies, communications, multimedia, accessibility, better Linux than Windows, better Android than IOS and similar.</p>\n</div>",
+          "value": "\nSysadmin, interested in new technologies, communications, multimedia, accessibility, better Linux than Windows, better Android than IOS and similar.\n"
+        }
+      ],
+      "photo": [
+        "https://pvagner.tk/gfx/users/default-01.png"
+      ],
+      "profile": [
+        "Peter Vágner"
+      ],
+      "url": [
+        "https://pvagner.tk/profile/pvagner",
+        "https://pvagner.tk/profile/pvagner",
+        "https://twitter.com/pvagner",
+        "https://www.facebook.com/pvdeejay",
+        "https://plus.google.com/112635519863097306017"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/pvagner",
+    "https://www.facebook.com/pvdeejay",
+    "https://plus.google.com/112635519863097306017"
+  ],
+  "crawl_start": "2017-04-30T02:03:28",
+  "crawl_end": "2017-04-30T02:19:13",
+  "num_pages": 1084,
+  "total_html_size": 21986442,
+  "servers": [
+    "lighttpd",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://pvagner.tk/webmention/"
+    ],
+    "micropub": [
+      "https://pvagner.tk/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://pvagner.tk/indieauth/auth"
+    ],
+    "token": [
+      "https://pvagner.tk/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 4912,
+  "links_in": 39,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 1084
+      },
+      "score": 1
+    },
+    "www.phoronix.com": {
+      "out": {
+        "repost-of": 22,
+        "in-reply-to": 21,
+        "like-of": 237
+      },
+      "score": 0.932
+    },
+    "twitter.com/pvagner": {
+      "out": {
+        "other": 634
+      },
+      "score": 0.931
+    },
+    "plus.google.com/112635519863097306017": {
+      "out": {
+        "other": 577
+      },
+      "score": 0.918
+    },
+    "facebook.com/pvdeejay": {
+      "out": {
+        "other": 577
+      },
+      "score": 0.918
+    },
+    "torrentfreak.com": {
+      "out": {
+        "repost-of": 38,
+        "like-of": 109,
+        "other": 148
+      },
+      "score": 0.895
+    },
+    "matrix.org": {
+      "out": {
+        "like-of": 173
+      },
+      "score": 0.852
+    },
+    "github.com": {
+      "out": {
+        "other": 45,
+        "like-of": 42
+      },
+      "score": 0.723
+    },
+    "kodi.tv": {
+      "out": {
+        "like-of": 48
+      },
+      "score": 0.685
+    },
+    "www.root.cz": {
+      "out": {
+        "like-of": 34,
+        "other": 18
+      },
+      "score": 0.671
+    },
+    "bearware.dk": {
+      "out": {
+        "like-of": 38
+      },
+      "score": 0.654
+    },
+    "blogs.seafile.com": {
+      "out": {
+        "other": 25,
+        "like-of": 17
+      },
+      "score": 0.621
+    },
+    "aur.archlinux.org": {
+      "out": {
+        "other": 59
+      },
+      "score": 0.621
+    },
+    "www.gnu.org": {
+      "out": {
+        "other": 51
+      },
+      "score": 0.602
+    },
+    "medium.com": {
+      "out": {
+        "like-of": 25
+      },
+      "score": 0.600
+    },
+    "feaneron.com": {
+      "out": {
+        "in-reply-to": 10
+      },
+      "score": 0.600
+    },
+    "termux.com": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.570
+    },
+    "stream.boffosocko.com": {
+      "out": {
+        "like-of": 5,
+        "other": 4
+      },
+      "in": {
+        "in-reply-to": 8,
+        "other": 8
+      },
+      "score": 0.564
+    },
+    "www.everbuying.net": {
+      "out": {
+        "like-of": 19
+      },
+      "score": 0.564
+    },
+    "www.blind-android.cz": {
+      "out": {
+        "like-of": 19
+      },
+      "score": 0.564
+    },
+    "lifeisabug.com": {
+      "out": {
+        "in-reply-to": 7
+      },
+      "score": 0.553
+    },
+    "blog.sprinternet.at": {
+      "out": {
+        "like-of": 17
+      },
+      "score": 0.549
+    },
+    "facebook.com/1260688710607969": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.525
+    },
+    "blog.cryptoaustralia.org.au": {
+      "out": {
+        "like-of": 14
+      },
+      "score": 0.525
+    },
+    "forum.disroot.org": {
+      "out": {
+        "like-of": 13
+      },
+      "score": 0.514
+    },
+    "askubuntu.com": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.509
+    },
+    "mail.gnome.org": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.492
+    },
+    "www.streamboard.tv": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.487
+    },
+    "forum.xda-developers.com": {
+      "out": {
+        "like-of": 10
+      },
+      "score": 0.480
+    },
+    "www.databazeknih.cz": {
+      "out": {
+        "in-reply-to": 4
+      },
+      "score": 0.480
+    },
+    "blog.tox.chat": {
+      "out": {
+        "in-reply-to": 4
+      },
+      "score": 0.480
+    },
+    "soundcloud.com": {
+      "out": {
+        "like-of": 10
+      },
+      "score": 0.480
+    },
+    "public.f123.org": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.474
+    },
+    "eyesfreelinux.ninja": {
+      "out": {
+        "like-of": 9
+      },
+      "score": 0.466
+    },
+    "pr.blonde20.com": {
+      "out": {
+        "like-of": 9
+      },
+      "score": 0.466
+    },
+    "www.wilfred.me.uk": {
+      "out": {
+        "like-of": 9
+      },
+      "score": 0.466
+    },
+    "facebook.com/energizer01": {
+      "out": {
+        "repost-of": 6
+      },
+      "score": 0.466
+    },
+    "www.gearbest.com": {
+      "out": {
+        "repost-of": 6
+      },
+      "score": 0.466
+    },
+    "bhavyashah125.wordpress.com": {
+      "out": {
+        "like-of": 9
+      },
+      "score": 0.466
+    },
+    "www.digitalocean.com": {
+      "out": {
+        "like-of": 9
+      },
+      "score": 0.466
+    },
+    "forum.seafile.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.460
+    },
+    "source.winehq.org": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.460
+    },
+    "dl.dropboxusercontent.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.460
+    },
+    "devel.freebsoft.org": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.460
+    },
+    "twitter.com/serrebi": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.443
+    },
+    "twitter.com/Passivemarqus": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.434
+    },
+    "serrebiradio.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.434
+    },
+    "www.change.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.434
+    },
+    "kickass.to": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.434
+    },
+    "pybee.org": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.424
+    },
+    "twitter.com/clv0": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.414
+    },
+    "brid.gy": {
+      "in": {
+        "other": 21
+      },
+      "score": 0.396
+    },
+    "www.marcozehe.de": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "blog.tjitjing.com": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "hydrogenaud.io": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "petermolnar.net": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "east-ee.com": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "www.creativebloq.com": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "notes.whatthefuck.computer": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "tomssl.com": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "www.martinus.sk": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "gizmodo.com": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "arstechnica.com": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "www.howtogeek.com": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "www.rooot.net": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "www.geekblind.cz": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "steam.io": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "www.bleepingcomputer.com": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "www.titus-stahl.de": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "ondrosik.webranet.sk": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "linux.slashdot.org": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "www.xda-developers.com": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "checkmention.appspot.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.391
+    },
+    "forum.arduino.cc": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "daniel.haxx.se": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "fossboss.com": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "www.chip-community.org": {
+      "out": {
+        "like-of": 5
+      },
+      "score": 0.391
+    },
+    "beets.io": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.376
+    },
+    "twitter.com/Object_InSpace": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.376
+    },
+    "twitter.com/Quetzatl_": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.376
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.376
+    },
+    "mzl.la": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.376
+    },
+    "git.gnome.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.376
+    },
+    "www.justice.gov": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.323
+    },
+    "zeronet.io": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.323
+    },
+    "twitter.com/User1stDotCom": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.323
+    },
+    "facebook.com/532668376924768": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.323
+    },
+    "ipfs.io": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.323
+    },
+    "www.cgsecurity.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.323
+    },
+    "facebook.com/10206883267976322": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.323
+    },
+    "play.google.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.323
+    },
+    "isonomia.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.323
+    },
+    "twitter.com/zahari_bgr": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.323
+    },
+    "youtu.be": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.323
+    },
+    "kastatus.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.323
+    },
+    "stealthisshow.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.323
+    },
+    "twitter.com/jackf723": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.299
+    },
+    "www.aqua-mail.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.299
+    },
+    "www.plantronics.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.299
+    },
+    "twitter.com/fastfinge": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.271
+    },
+    "twitter.com/timweston": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.271
+    },
+    "twitter.com/firefox": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.271
+    },
+    "interfree.ca": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.271
+    },
+    "www.apple.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.271
+    },
+    "F123.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.271
+    },
+    "twitter.com/matrixdotorg": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.271
+    },
+    "twitter.com/javascriptd": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.233
+    },
+    "twitter.com/nikosdemetriou": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.233
+    },
+    "twitter.com/Piciok": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.233
+    },
+    "twitter.com/balaz_martin": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.233
+    },
+    "twitter.com/jandrusk": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.233
+    },
+    "twitter.com/patrick4096": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "twitter.com/tonygentilcore": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.miranda-ng.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "forum.root.cz": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "facebook.com/1048493771853816": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "twitter.com/RikMende": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "SimbaSystems.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.freesound.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "toga.readthedocs.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.nvda-project.cz": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "twitter.com/_astrognome": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "twitter.com/techloop_io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "andrusk.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "stormdragon.tk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "roman.kabelka.name": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "twitter.com/danieljpeter": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.google.pl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "facebook.com/1094311917315706": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "javascript": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "twitter.com/csgrad": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "twitter.com/ChrisAldrich": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "twitter.com/cjneti": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "mozilla.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.matrix.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "twitter.com/toratorax": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "www.boffosocko.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "timweston.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.181
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0902
+    },
+    "www.discogs.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0902
+    },
+    "not.really.an.image": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0902
+    }
+  }
+}

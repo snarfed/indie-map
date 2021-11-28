@@ -1,0 +1,97 @@
+{
+  "domain": "www.aud.life",
+  "crawl_start": "2017-04-30T06:06:54",
+  "crawl_end": "2017-04-30T06:06:54",
+  "num_pages": 1,
+  "total_html_size": 6066,
+  "servers": [
+    "nginx + Phusion Passenger 4.0.53"
+  ],
+  "tags": [
+    "bridgy"
+  ],
+  "endpoints": {},
+  "hcard": {},
+  "links_out": 1,
+  "links_in": 92,
+  "links": {
+    "rhizo15.jgregorymcverry.com": {
+      "in": {
+        "in-reply-to": 13
+      },
+      "score": 1
+    },
+    "raretrack.uk": {
+      "in": {
+        "in-reply-to": 12
+      },
+      "score": 0.981
+    },
+    "www.raretrack.uk": {
+      "in": {
+        "in-reply-to": 5
+      },
+      "score": 0.772
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 24
+      },
+      "score": 0.763
+    },
+    "timklapdor.wordpress.com": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.595
+    },
+    "kinlane.withknown.com": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.552
+    },
+    "known.raptnrent.me": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.429
+    },
+    "tantek.com": {
+      "in": {
+        "in-reply-to": 1
+      },
+      "score": 0.386
+    },
+    "cogdogblog.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.333
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.166
+    },
+    "www.downes.ca": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.166
+    },
+    "www.hover.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.166
+    },
+    "tedcurran.net": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

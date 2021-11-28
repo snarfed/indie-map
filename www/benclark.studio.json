@@ -1,0 +1,184 @@
+{
+  "domain": "benclark.studio",
+  "urls": [
+    "http://benclark.studio/"
+  ],
+  "names": [
+    "benclarkdotstudio | architect and designer"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/benclarkstudio",
+    "https://www.facebook.com/ben.a.s.clark"
+  ],
+  "crawl_start": "2017-04-27T07:52:52",
+  "crawl_end": "2017-04-27T07:58:25",
+  "num_pages": 14,
+  "total_html_size": 615485,
+  "servers": [
+    "Apache (Unix)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-as-page",
+    "h-feed",
+    "h-as-note",
+    "h-cite",
+    "h-as-image"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://benclark.studio/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://benclark.studio/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 398,
+  "links_in": 55,
+  "links": {
+    "facebook.com/10158613523275724": {
+      "out": {
+        "other": 248
+      },
+      "score": 1
+    },
+    "twitter.com/benclarkstudio": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.689
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.636
+    },
+    "brid.gy": {
+      "in": {
+        "other": 44
+      },
+      "score": 0.609
+    },
+    "www.brid.gy": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.609
+    },
+    "twitter.com/PhinHarper": {
+      "out": {
+        "repost-of": 6
+      },
+      "score": 0.576
+    },
+    "notizblog.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.512
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.512
+    },
+    "twitter.com/tobylloyd": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.483
+    },
+    "twitter.com/jryancollins": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.446
+    },
+    "aaronparecki.com": {
+      "in": {
+        "like-of": 7
+      },
+      "score": 0.425
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.370
+    },
+    "twitter.com/TomHoepfner": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.224
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.224
+    },
+    "twitter.com/JiveRuislip": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.224
+    },
+    "twitter.com/RichardBlyth7": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.224
+    },
+    "twitter.com/frankiejevans": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.224
+    },
+    "twitter.com/LVTbruno": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.224
+    },
+    "twitter.com/L__Macfarlane": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.224
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.112
+    }
+  }
+}

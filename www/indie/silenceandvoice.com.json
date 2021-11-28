@@ -1,0 +1,120 @@
+{
+  "domain": "silenceandvoice.com",
+  "urls": [
+    "http://silenceandvoice.com/"
+  ],
+  "names": [
+    "Silence and Voice – Educational Research + Actor-Network Theory + Liminality + Networked Learning",
+    "Silence and Voice"
+  ],
+  "descriptions": [
+    "Educational Research + Actor-Network Theory + Liminality + Networked Learning"
+  ],
+  "pictures": [
+    "https://i1.wp.com/silenceandvoice.com/wp-content/uploads/2015/04/train_tracks1-553009bcv1_site_icon.png?fit=32%2C32",
+    "https://i1.wp.com/silenceandvoice.com/wp-content/uploads/2015/04/train_tracks1-553009bcv1_site_icon.png?fit=192%2C192",
+    "https://i1.wp.com/silenceandvoice.com/wp-content/uploads/2015/04/train_tracks1-553009bcv1_site_icon.png?fit=200%2C200"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T22:35:44",
+  "crawl_end": "2017-05-05T22:14:31",
+  "num_pages": 36471,
+  "total_html_size": 3322259986,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-as-reply",
+    "h-card",
+    "h-cite",
+    "h-as-article",
+    "h-as-mention",
+    "h-feed"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://silenceandvoice.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://silenceandvoice.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 518835,
+  "links_in": 32,
+  "links": {
+    "blog.mahabali.me": {
+      "in": {
+        "other": 5
+      },
+      "out": {
+        "other": 54
+      },
+      "score": 0.397
+    },
+    "www.downes.ca": {
+      "out": {
+        "other": 37
+      },
+      "score": 0.361
+    },
+    "cogdogblog.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 12
+      },
+      "score": 0.274
+    },
+    "known.jimgroom.com": {
+      "in": {
+        "other": 19
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.255
+    },
+    "cogdog.info": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.193
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.150
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.0924
+    },
+    "justagwailo.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

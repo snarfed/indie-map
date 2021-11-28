@@ -1,0 +1,97 @@
+{
+  "domain": "rascul.xyz",
+  "urls": [
+    "https://rascul.xyz"
+  ],
+  "names": [
+    "Ray Schulz",
+    "ra·scul"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "https://rascul.xyz/avatar.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "family-name": [
+        "Schulz"
+      ],
+      "given-name": [
+        "Ray"
+      ],
+      "job-title": [
+        "Slacker Extraordinaire"
+      ],
+      "name": [
+        "Ray Schulz"
+      ],
+      "nickname": [
+        "rascul"
+      ],
+      "photo": [
+        "https://rascul.xyz/avatar.jpg"
+      ],
+      "url": [
+        "https://rascul.xyz"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://rascul.xyz",
+    "https://github.com/rascul",
+    "https://twitter.com/rascul3",
+    "irc://freenode.net:6667/rascul,isnick"
+  ],
+  "crawl_start": "2017-04-25T05:24:42",
+  "crawl_end": "2017-04-25T05:24:42",
+  "num_pages": 1,
+  "total_html_size": 2137,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "IRC"
+  ],
+  "endpoints": {},
+  "links_out": 3,
+  "links_in": 9521,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 5876
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 3645
+      },
+      "score": 0.945
+    },
+    "freenode.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0798
+    },
+    "twitter.com/rascul3": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0798
+    },
+    "github.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0798
+    }
+  }
+}

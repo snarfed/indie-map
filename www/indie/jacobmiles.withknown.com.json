@@ -1,0 +1,115 @@
+{
+  "domain": "jacobmiles.withknown.com",
+  "urls": [
+    "https://jacobmiles.withknown.com/profile/milesje",
+    "https://twitter.com/milesje",
+    "http://google.com/+JacobMilesmilesje",
+    "http://www.facebook.com/jacob.e.miles"
+  ],
+  "names": [
+    "Jacob Miles"
+  ],
+  "descriptions": [
+    "I'm a software engineer and enjoy Android, Harry Potter, and reading both physical books as well as e-book and audiobooks.  And now I'm re-learning and enjoying Wizard of the Coast \"Magic The Gathering\" (MTG) trading card game (thanks to the kids).",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://jacobmiles.withknown.com/file/df044907430aae71ac25f783cdfcee97/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Jacob Miles"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I'm a software engineer and enjoy Android, Harry Potter, and reading both physical books as well as e-book and audiobooks.  And now I'm re-learning and enjoying Wizard of the Coast \"Magic The Gathering\" (MTG) trading card game (thanks to the kids).</p>\n</div>",
+          "value": "\nI'm a software engineer and enjoy Android, Harry Potter, and reading both physical books as well as e-book and audiobooks.  And now I'm re-learning and enjoying Wizard of the Coast \"Magic The Gathering\" (MTG) trading card game (thanks to the kids).\n"
+        }
+      ],
+      "photo": [
+        "https://jacobmiles.withknown.com/file/df044907430aae71ac25f783cdfcee97/thumb.jpg"
+      ],
+      "profile": [
+        "Jacob Miles"
+      ],
+      "url": [
+        "https://jacobmiles.withknown.com/profile/milesje",
+        "https://jacobmiles.withknown.com/profile/milesje",
+        "https://twitter.com/milesje",
+        "http://google.com/+JacobMilesmilesje",
+        "http://www.facebook.com/jacob.e.miles"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/milesje",
+    "http://google.com/+JacobMilesmilesje",
+    "https://jacobmiles.withknown.com/www.facebook.com/jacob.e.miles",
+    "http://www.facebook.com/jacob.e.miles"
+  ],
+  "crawl_start": "2017-04-28T23:34:23",
+  "crawl_end": "2017-04-28T23:35:09",
+  "num_pages": 64,
+  "total_html_size": 1426391,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://jacobmiles.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://jacobmiles.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://jacobmiles.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://jacobmiles.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 147,
+  "links_in": 6,
+  "links": {
+    "indiewebcamp.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.504
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.305
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.152
+    }
+  }
+}

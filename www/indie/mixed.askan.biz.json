@@ -1,0 +1,125 @@
+{
+  "domain": "mixed.askan.biz",
+  "urls": [
+    "http://mixed.askan.biz/profile/askan",
+    "http://askan.biz",
+    "https://twitter.com/askans",
+    "https://www.instagram.com/askans_/",
+    "http://food-and-farmers-markets.tumblr.com/",
+    "http://mixed.askan.biz/"
+  ],
+  "names": [
+    "Askan",
+    "Mixed"
+  ],
+  "descriptions": [
+    "Food & farmers' markets - and more",
+    "Das was das Leben zu bieten hat"
+  ],
+  "pictures": [
+    "http://mixed.askan.biz/file/c5dc5cc18199c901b435625bd1a1adfa/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Askan"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Food &amp; farmers' markets - and more</p>\n</div>",
+          "value": "\nFood & farmers' markets - and more\n"
+        }
+      ],
+      "photo": [
+        "http://mixed.askan.biz/file/c5dc5cc18199c901b435625bd1a1adfa/thumb.jpg"
+      ],
+      "profile": [
+        "Askan"
+      ],
+      "url": [
+        "http://mixed.askan.biz/profile/askan",
+        "http://mixed.askan.biz/profile/askan",
+        "http://askan.biz",
+        "https://twitter.com/askans",
+        "https://www.instagram.com/askans_/",
+        "http://food-and-farmers-markets.tumblr.com/",
+        "http://mixed.askan.biz/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://askan.biz",
+    "https://twitter.com/askans",
+    "https://www.instagram.com/askans_/",
+    "http://food-and-farmers-markets.tumblr.com/",
+    "http://mixed.askan.biz/"
+  ],
+  "crawl_start": "2017-04-29T21:31:41",
+  "crawl_end": "2017-04-29T22:05:50",
+  "num_pages": 1764,
+  "total_html_size": 37697689,
+  "servers": [
+    "Apache (Unix)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://mixed.askan.biz/webmention/"
+    ],
+    "micropub": [
+      "http://mixed.askan.biz/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://mixed.askan.biz/indieauth/auth"
+    ],
+    "token": [
+      "http://mixed.askan.biz/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 7863,
+  "links_in": 7,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 1764
+      },
+      "score": 1
+    },
+    "stream.withknown.com": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "other": 5
+      },
+      "score": 0.332
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0848
+    }
+  }
+}

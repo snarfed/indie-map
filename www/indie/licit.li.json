@@ -1,0 +1,196 @@
+{
+  "domain": "licit.li",
+  "urls": [
+    "http://vanderven.se/martijn/"
+  ],
+  "names": [
+    "Martijn",
+    "Martijn’s feed"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Martijn"
+      ],
+      "url": [
+        "http://vanderven.se/martijn/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ],
+    "value": "http://vanderven.se/martijn/"
+  },
+  "rel_mes": [
+    "http://vanderven.se/martijn/"
+  ],
+  "crawl_start": "2017-06-17T06:14:22",
+  "crawl_end": "2017-06-17T06:17:23",
+  "num_pages": 153,
+  "total_html_size": 413802,
+  "servers": [
+    "Apache (CentOS)"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-feed",
+    "h-cite",
+    "h-event",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://vanderven.se/martijn/mention.php"
+    ]
+  },
+  "links_out": 331,
+  "links_in": 76,
+  "links": {
+    "vanderven.se": {
+      "out": {
+        "other": 81
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 52,
+        "like-of": 2
+      },
+      "in": {
+        "other": 35
+      },
+      "score": 0.980
+    },
+    "seblog.nl": {
+      "in": {
+        "like-of": 2
+      },
+      "out": {
+        "like-of": 4,
+        "other": 8,
+        "in-reply-to": 6
+      },
+      "score": 0.896
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 27
+      },
+      "out": {
+        "other": 12
+      },
+      "score": 0.772
+    },
+    "www.svenknebel.de": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 2
+      },
+      "in": {
+        "in-reply-to": 2,
+        "like-of": 1
+      },
+      "score": 0.703
+    },
+    "jeena.net": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.607
+    },
+    "2017.indieweb.org": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.589
+    },
+    "colinwalker.blog": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.487
+    },
+    "webmention.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.487
+    },
+    "petermolnar.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.409
+    },
+    "www.jeremycherfas.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "micropub.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "indiewebweek.indieweb.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "isabelforester.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "tantek.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "adactio.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "tollwerk.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.273
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

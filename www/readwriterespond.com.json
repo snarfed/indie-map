@@ -1,0 +1,3102 @@
+{
+  "domain": "readwriterespond.com",
+  "urls": [
+    "http://readwriterespond.com/"
+  ],
+  "names": [
+    "Read Write Respond - Read is to write, write is to respond.",
+    "Read Write Respond"
+  ],
+  "descriptions": [
+    "Read is to write, write is to respond."
+  ],
+  "pictures": [
+    "http://readwriterespond.com/wp-content/uploads/2015/03/cropped-14056991887_b858926f5a_o-1-32x32.jpg",
+    "http://readwriterespond.com/wp-content/uploads/2015/03/cropped-14056991887_b858926f5a_o-1-192x192.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/mrkrndvs"
+  ],
+  "crawl_start": "2017-04-30T22:35:43",
+  "crawl_end": "2017-05-01T09:22:38",
+  "num_pages": 2760,
+  "total_html_size": 124908689,
+  "servers": [
+    "Apache",
+    "Known",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-reply",
+    "h-entry",
+    "h-card",
+    "h-feed",
+    "h-cite",
+    "h-as-mention"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://readwriterespond.com/?rest_route=/webmention/1.0/endpoint",
+      "http://readwriterespond.com/whatif/webmention/",
+      "https://readwriterespond.com/?rest_route=/webmention/1.0/endpoint",
+      "http://readwriterespond.com/c/webmention/"
+    ],
+    "micropub": [
+      "http://readwriterespond.com/?micropub=endpoint",
+      "http://readwriterespond.com/whatif/micropub/endpoint",
+      "https://readwriterespond.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "http://readwriterespond.com/whatif/indieauth/auth",
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "http://readwriterespond.com/whatif/indieauth/token",
+      "https://tokens.indieauth.com/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 42037,
+  "links_in": 1177,
+  "links": {
+    "wordpress.org": {
+      "out": {
+        "other": 4774
+      },
+      "score": 1
+    },
+    "tinyletter.com": {
+      "out": {
+        "other": 3145
+      },
+      "score": 0.955
+    },
+    "twitter.com/mrkrndvs": {
+      "out": {
+        "other": 2953
+      },
+      "score": 0.948
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 2537
+      },
+      "score": 0.931
+    },
+    "http": {
+      "out": {
+        "other": 2373
+      },
+      "score": 0.925
+    },
+    "au.linkedin.com": {
+      "out": {
+        "other": 2375
+      },
+      "score": 0.925
+    },
+    "wikity.readwriterespond.com": {
+      "out": {
+        "other": 2375
+      },
+      "score": 0.925
+    },
+    "plus.google.com/+AaronDavis1": {
+      "out": {
+        "other": 2387
+      },
+      "score": 0.925
+    },
+    "mrkrndvs.tumblr.com": {
+      "out": {
+        "other": 2375
+      },
+      "score": 0.925
+    },
+    "blogroll.readwriterespond.com": {
+      "out": {
+        "other": 2375
+      },
+      "score": 0.925
+    },
+    "flickr.com": {
+      "out": {
+        "other": 2085
+      },
+      "score": 0.910
+    },
+    "creativecommons.org": {
+      "out": {
+        "other": 1426
+      },
+      "score": 0.869
+    },
+    "johnjohnston.info": {
+      "out": {
+        "other": 14
+      },
+      "in": {
+        "other": 1025
+      },
+      "score": 0.760
+    },
+    "withknown.com": {
+      "out": {
+        "other": 375
+      },
+      "score": 0.723
+    },
+    "docs.google.com": {
+      "out": {
+        "other": 164
+      },
+      "score": 0.632
+    },
+    "giphy.com": {
+      "out": {
+        "other": 162
+      },
+      "score": 0.631
+    },
+    "www.slideshare.net": {
+      "out": {
+        "other": 142
+      },
+      "score": 0.617
+    },
+    "chrome.google.com": {
+      "out": {
+        "other": 140
+      },
+      "score": 0.615
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 137
+      },
+      "score": 0.612
+    },
+    "medium.com": {
+      "out": {
+        "other": 110
+      },
+      "score": 0.588
+    },
+    "dougbelshaw.com": {
+      "out": {
+        "other": 100
+      },
+      "score": 0.579
+    },
+    "twitter.com/robert_schuetz": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.567
+    },
+    "readingwritingresponding.blogspot.com": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.567
+    },
+    "cogdogblog.com": {
+      "in": {
+        "other": 13
+      },
+      "out": {
+        "other": 71
+      },
+      "score": 0.550
+    },
+    "blog.williamferriter.com": {
+      "out": {
+        "other": 76
+      },
+      "score": 0.548
+    },
+    "blogs.edweek.org": {
+      "out": {
+        "other": 70
+      },
+      "score": 0.539
+    },
+    "hackeducation.com": {
+      "out": {
+        "other": 67
+      },
+      "score": 0.535
+    },
+    "georgecouros.ca": {
+      "out": {
+        "other": 66
+      },
+      "score": 0.533
+    },
+    "itunes.apple.com": {
+      "out": {
+        "other": 64
+      },
+      "score": 0.529
+    },
+    "www.saylearner.com": {
+      "out": {
+        "other": 12
+      },
+      "in": {
+        "other": 92
+      },
+      "score": 0.519
+    },
+    "twitter.com/DrNomyn": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.515
+    },
+    "edte.ch": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.507
+    },
+    "www.theedublogger.com": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.503
+    },
+    "www.alicekeeler.com": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.498
+    },
+    "twitter.com/aus_teach": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.498
+    },
+    "twitter.com/hashtag": {
+      "out": {
+        "other": 46
+      },
+      "score": 0.493
+    },
+    "theconstructionzone.wordpress.com": {
+      "out": {
+        "other": 46
+      },
+      "score": 0.493
+    },
+    "twitter.com/SteveBrophy3": {
+      "out": {
+        "other": 46
+      },
+      "score": 0.493
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 46
+      },
+      "score": 0.493
+    },
+    "support.google.com": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.489
+    },
+    "wiobyrne.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 43
+      },
+      "score": 0.489
+    },
+    "terpodcast.com": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.489
+    },
+    "www.rtschuetz.net": {
+      "out": {
+        "other": 43
+      },
+      "score": 0.486
+    },
+    "ebox.global2.vic.edu.au": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.484
+    },
+    "stevebrophy.com.au": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.484
+    },
+    "twitter.com/stringer_andrea": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.484
+    },
+    "ideasandthoughts.org": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.484
+    },
+    "www.visiblethinkingpz.org": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.484
+    },
+    "www.controlaltachieve.com": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.484
+    },
+    "chriswejr.com": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.478
+    },
+    "twitter.com/annadelconte": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.478
+    },
+    "www.ascd.org": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.478
+    },
+    "www.abc.net.au": {
+      "out": {
+        "other": 39
+      },
+      "score": 0.476
+    },
+    "dmlcentral.net": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.473
+    },
+    "www.theage.com.au": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.473
+    },
+    "www.wired.com": {
+      "out": {
+        "other": 37
+      },
+      "score": 0.469
+    },
+    "becspink.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.467
+    },
+    "plus.google.com/112280083296893621957": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.467
+    },
+    "www.kathmurdoch.com.au": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.467
+    },
+    "stevebrophy.wordpress.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.461
+    },
+    "plus.google.com/102816136956560942218": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.461
+    },
+    "www.amazon.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.461
+    },
+    "www.theguardian.com": {
+      "out": {
+        "other": 33
+      },
+      "score": 0.457
+    },
+    "davecormier.com": {
+      "out": {
+        "other": 33
+      },
+      "score": 0.457
+    },
+    "plus.google.com/105119311932176839550": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.454
+    },
+    "vimeo.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.454
+    },
+    "mesterman.wordpress.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.454
+    },
+    "www.google.com.au": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.454
+    },
+    "twitter.com/richardolsen": {
+      "out": {
+        "other": 31
+      },
+      "score": 0.451
+    },
+    "twitter.com/Obi_Jon_": {
+      "out": {
+        "other": 31
+      },
+      "score": 0.451
+    },
+    "danhaesler.com": {
+      "out": {
+        "other": 31
+      },
+      "score": 0.451
+    },
+    "twitter.com/margaretsimkin": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.447
+    },
+    "amysmooc.wordpress.com": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.447
+    },
+    "edtechcrew.net": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.447
+    },
+    "biancahewes.wordpress.com": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.447
+    },
+    "drive.google.com": {
+      "out": {
+        "other": 29
+      },
+      "score": 0.443
+    },
+    "plus.google.com/105814436451922896782": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.440
+    },
+    "tomwhitby.wordpress.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.440
+    },
+    "dculberh.wordpress.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.440
+    },
+    "alicekeeler.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.440
+    },
+    "twitter.com/DCulberhouse": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.440
+    },
+    "t.co": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.440
+    },
+    "modernlearningcanvas.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.440
+    },
+    "edu.blogs.com": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.436
+    },
+    "www.diigo.com": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.436
+    },
+    "bryanmmathers.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.431
+    },
+    "storify.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.431
+    },
+    "www.richardolsen.me": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.431
+    },
+    "learningshore.edublogs.org": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.431
+    },
+    "ditchthattextbook.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.431
+    },
+    "eduwells.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.431
+    },
+    "www.edutopia.org": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.431
+    },
+    "willrichardson.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.431
+    },
+    "plus.google.com/102267252597671068300": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.431
+    },
+    "www.shakeuplearning.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.431
+    },
+    "theconversation.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.431
+    },
+    "www.theatlantic.com": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.427
+    },
+    "twitter.com/Bali_Maha": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.422
+    },
+    "support.hapara.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.422
+    },
+    "plus.google.com/109633220764635723789": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.422
+    },
+    "inquiryblog.wordpress.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.422
+    },
+    "web.archive.org": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.422
+    },
+    "www.ted.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.422
+    },
+    "plus.google.com/105667817610116526025": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.422
+    },
+    "gregmiller68.com": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.418
+    },
+    "jonandrews.edublogs.org": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.413
+    },
+    "sites.google.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.413
+    },
+    "twitter.com/CorrieB": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.413
+    },
+    "usergeneratededucation.wordpress.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.413
+    },
+    "plus.google.com/117703642523655765608": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.413
+    },
+    "openbadgespec.org": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.413
+    },
+    "twitter.com/IaninSheffield": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.413
+    },
+    "bit.ly": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.413
+    },
+    "chrisbetcher.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.413
+    },
+    "anthsperanza.global2.vic.edu.au": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.413
+    },
+    "plus.google.com/107191215621360482175": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.413
+    },
+    "twitter.com/corisel": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.413
+    },
+    "largerama.creativeblogs.net": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.408
+    },
+    "pixabay.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.408
+    },
+    "www.haikudeck.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.403
+    },
+    "books.google.com.au": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.403
+    },
+    "tagboard.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.403
+    },
+    "twitter.com/suewaters": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.403
+    },
+    "twitter.com/bar_zie": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.403
+    },
+    "plus.google.com/106859876372094638106": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.403
+    },
+    "twitter.com/timbuckteeth": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.403
+    },
+    "melbourne.ioiweekend.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.403
+    },
+    "plus.google.com/105664854995907257058": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.403
+    },
+    "stager.tv": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.403
+    },
+    "www.canva.com": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.397
+    },
+    "compellingleadership.com.au": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.397
+    },
+    "kindle.amazon.com": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.397
+    },
+    "plus.google.com/107033003767790656305": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.391
+    },
+    "plus.google.com/112825413946397020365": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.391
+    },
+    "cpdin140.wordpress.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.391
+    },
+    "langwitches.org": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.391
+    },
+    "www.adobe.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.391
+    },
+    "twitter.com/CmunroOz": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.391
+    },
+    "courtingtheacademy.wordpress.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.391
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.391
+    },
+    "jbortonrps.edublogs.org": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.391
+    },
+    "twitter.com/wiobyrne": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.391
+    },
+    "twitter.com/msdimattia": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.391
+    },
+    "www.zephoria.org": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.385
+    },
+    "connectedprincipals.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.379
+    },
+    "annadelconte.wordpress.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.379
+    },
+    "plus.google.com/115175501219766234659": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.379
+    },
+    "www.mguhlin.org": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.379
+    },
+    "bavatuesdays.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.379
+    },
+    "idst-2215.blogspot.com.au": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.379
+    },
+    "plus.google.com/117004673011490912520": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.379
+    },
+    "pernillesripp.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.379
+    },
+    "daveowhite.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.379
+    },
+    "plus.google.com/116830524696476899564": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.379
+    },
+    "aboutteaching.net": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.379
+    },
+    "twitter.com/JoelBSperanza": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.379
+    },
+    "leehewes.wordpress.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.379
+    },
+    "www.freetech4teachers.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.379
+    },
+    "whatedsaid.wordpress.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.379
+    },
+    "twitter.com/jdtriver": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "apis.google.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "anthsperanza.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "teacherchallenge.edublogs.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "plus.google.com/117261605046168892194": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "steve-wheeler.blogspot.com.au": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "jmarkeyap.blogspot.com.au": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "words.werd.io": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "plus.google.com/114232051673386523768": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "plus.google.com/117217807403956460587": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "twitter.com/GustafsonBrad": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "www.google.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "plus.google.com/109042954828215567645": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "my-conography.tumblr.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "www.summitstuff.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "developer.chrome.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "teachwithtech.global2.vic.edu.au": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "adriancamm.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "richlambert.edublogs.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "2regularteachers.global2.vic.edu.au": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "connectedcourses.net": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "twitter.com/johnjohnston": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "www.toobigtoknow.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "github.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "plus.google.com/107488488738976030867": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "help.edublogs.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "blog.credly.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "melcashen.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "plus.google.com/101276572771722133075": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "plus.google.com/107240780186310475391": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "plus.google.com/117193890883565226454": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "twitter.com/jackiegerstein": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "murcha.wordpress.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "plus.google.com/100327599022535471808": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "plus.google.com/115556618494040582004": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "plus.google.com/104240364461160243000": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "twitter.com/mesterman": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "bie.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.364
+    },
+    "twitter.com/gregmiller68": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.356
+    },
+    "blog.mahabali.me": {
+      "out": {
+        "other": 12
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.356
+    },
+    "iridescentlearning.org": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.356
+    },
+    "www.wpbeginner.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "inventtolearn.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "royanlee.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "plus.google.com/102265395976073126314": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "quozio.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "twitter.com/DigiUniteorg": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "teachmeetmelbourne.wikispaces.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "www.coolcatteacher.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "twitter.com/mr_aylen": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "twitter.com/EduTweetOz": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "twitter.com/MichelleSJones1": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "www.imdb.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "plus.google.com/103058455887116853450": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "twitter.com/rakt": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "www.edtechcrew.net": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "ccoffa.edublogs.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "twitter.com/ray_trent": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "twitter.com/PeterMDeWitt": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "twitter.com/adamsomes": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "www.mindtools.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "www.nytimes.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "pairadimes.davidtruss.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "plus.google.com/108445215040478576782": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "dogtrax.edublogs.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "twitter.com/igiveagonski": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "twitter.com/stewarthase": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "jentzly.wordpress.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "twitter.com/whosanktheboat": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "andreastringer.blogspot.com.au": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "twitter.com/LisaMBlaschke": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "no2pisa.wordpress.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "www.elearnspace.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "twitter.com/mguhlin": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "www.aitsl.edu.au": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "twitter.com/jenkins_75": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "justwonderingblog.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "plus.google.com/106726089140742187406": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "reclaim.hackeducation.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "eprints.qut.edu.au": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "www.steve-wheeler.co.uk": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "blog.edtechteam.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "pbs.twimg.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "www.cbarclay.com.au": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.347
+    },
+    "edutweetoz.org": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.337
+    },
+    "literaci.es": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.337
+    },
+    "www.smh.com.au": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.337
+    },
+    "readingwritingresponding.blogspot.com.au": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "mashable.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "plus.google.com/101173277052391494847": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "ww2.kqed.org": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "www.brilliant-insane.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "sethgodin.typepad.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "bionicteaching.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "plus.google.com/117727167408807654732": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "twitter.com/noveltalk": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "prelectur.stanford.edu": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "notosh.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "plus.google.com/106666361398436154531": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "rhizomatic.net": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "austinkleon.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "novemberlearning.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "twitter.com/penpln": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "twitter.com/tulip_education": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "www.edumail.vic.gov.au": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "badges.thinkoutloudclub.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "discours.es": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "theeduflaneuse.wordpress.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "twitter.com/adriancamm": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "drbeardface.net": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "twitter.com/dogtrax": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "www.thinglink.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "plus.google.com/114906554288048963542": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "gumroad.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "plus.google.com/106898430447281350153": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "hapgood.us": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "twitter.com/PaulDBrowning": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "versoapp.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "www.huntingenglish.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.328
+    },
+    "www.aalf.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.316
+    },
+    "mobile.nytimes.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.316
+    },
+    "www.mckinsey.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.316
+    },
+    "www.justlego101.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.316
+    },
+    "tl21cpd.global2.vic.edu.au": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "twitter.com/mdvfunes": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "www.grantlichtman.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "www.kitchengardenfoundation.org.au": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "twitter.com/athwaites": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "twitter.com/ellen_debs": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "ictevangelist.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "plus.google.com/117366991359858554985": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "plus.google.com/u": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "scripting.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "atc21s.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "codeactsineducation.wordpress.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "manookatoo.blogspot.com.au": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "twitter.com/Mitch_M": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "stevemouldey.wordpress.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "timkastelle.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "plus.google.com/108411833533484427454": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "twitter.com/mrterborg": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "www.socrative.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "blogs.glowscotland.org.uk": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "twitter.com/davewiner": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "plus.google.com/101622247504303617609": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "lifehacker.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "ipad4schools.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "twitter.com/Borto74": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "twitter.com/JenRoberts1": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "smartblogs.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "twitter.com/search": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "www.alfiekohn.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "twitter.com/robbielove79": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "www.badgealliance.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "amorebeautifulquestion.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "ianinsheffield.wordpress.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "plus.google.com/118345976102610090589": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "www.digitalwritingmonth.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "www.ozdls.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "kdurham.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "reclaimhosting.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "feedly.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "www.learnenabling.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "1.bp.blogspot.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "plus.google.com/106923802117872144082": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "twitter.com/courosa": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "plus.google.com/101425432113707315497": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "twitter.com/amyburvall": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "plus.google.com/113241579129844512049": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "stmarks56.global2.vic.edu.au": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "twitter.com/ianinsheffield": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "plus.google.com/110475247196104662652": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "www.toddrose.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "twitter.com/cathwilliams05": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "visible-learning.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "plus.google.com/107270724208104501455": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "plus.google.com/113480921022941299227": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "about.me": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "www.josepicardo.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "plus.google.com/103433353922672705080": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "www.polleverywhere.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "help.trello.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "twitter.com/daibarnes": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "thinglinkblog.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "answergarden.ch": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "coding2learn.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "plus.google.com/106497949182730964838": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "twitter.com/plugusin": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.302
+    },
+    "brid.gy": {
+      "in": {
+        "other": 15
+      },
+      "score": 0.296
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 6
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.288
+    },
+    "adactio.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.288
+    },
+    "stream.withknown.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.288
+    },
+    "daily.ds106.us": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.288
+    },
+    "commons.wikimedia.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.288
+    },
+    "points.datasociety.net": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.288
+    },
+    "www.commonsensemedia.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "www.sethgodin.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "techcrunch.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "www.bettercloud.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/MichelleMeracis": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/samjirwin": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "www.thegooru.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "learning.mozilla.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/104113609296713658107": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/114349955332665824365": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/117348778218098914545": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "slav.global2.vic.edu.au": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "tidepodcast.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "hbr.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/108580125118469761494": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "standout.adobe.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/ericcurts": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/104609936003169023618": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/110781137778964217849": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/115565811010545226083": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/francesbell": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/111046914365866065790": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "www.nmc.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "edublogawards.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "tommullaney.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/cogdog": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/largerama": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "www.oxforddictionaries.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/algotruneman": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/manduwuy1": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/whatedsaid": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "www.theaustralian.com.au": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/105920010027342145468": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/115872553381614153275": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/gregwhitby": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "edublogs.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "journals.uic.edu": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "terpodcast.com.au": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "theleanstartup.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "fuse.education.vic.gov.au": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/109988946596650029783": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "www.newpedagogies.info": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "neverendingthesis.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "www.afr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "farm8.static.flickr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/106303424191097574619": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/117331808257687364008": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/117982850424811980337": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "steve-wheeler.blogspot.co.uk": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/DrKMattson": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "brooksidehums.global2.vic.edu.au": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "evernote.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/danhaesler": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/Janpcim": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "www.padlet.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/BecSpink": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "headguruteacher.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "support.mozilla.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/mythsysizer": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "wordpress.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "global2.vic.edu.au": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "heutagogycop.wordpress.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/cpaterso": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "esheninger.blogspot.com.au": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/105076180200181042918": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/117941221569817426276": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "practicaledtech.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/anthsperanza": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/jentzly": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "bluyonder.wordpress.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "www.evernote.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "edufolios.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "www.aare.edu.au": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "chrisreflects.wordpress.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "dalepearce.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "hyperdocs.weebly.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/104859443445357943633": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/wholeboxndice": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "www.dearblogger.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "goo.gl": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "issuu.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/104033308875436855330": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "ruconnected.global2.vic.edu.au": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "thecentreonline.com.au": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "dltv.vic.edu.au": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/EduWells": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "gettingsmart.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "msprincipal23a.blogspot.com.au": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "teachingcrowds.ca": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "zhaolearning.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "melbourne.gafesummit.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "www.mcrel.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "groups.diigo.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "soundcloud.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/debsnet": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/edublogs": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "mashe.hawksey.info": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/bjlannen": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/greg_ashman": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "www.marzanoresearch.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "compfight.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "en.m.wikipedia.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/112869117429645144444": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "splash.abc.net.au": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "theeduflaneuse.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "braindoodles.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "www.educatorstechnology.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "firstmonday.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "learning-reimagined.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/117133388444876844833": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "twitter.com/jjash": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "www.growthcoaching.com.au": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "blog.edtechie.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "ivanhoelearn.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/104022283752588041439": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "plus.google.com/108267555886573375032": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "www.reddit.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "delicious.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "docs.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "teach.mozilla.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "timeline.knightlab.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "www.vcaa.vic.edu.au": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "demos.algorithmia.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.251
+    },
+    "www.independent.co.uk": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.251
+    },
+    "benwerd.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.251
+    },
+    "untanglingtheweb.tumblr.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.251
+    },
+    "www.aaronsw.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.251
+    },
+    "9to5mac.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.227
+    },
+    "jetpack.me": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.227
+    },
+    "jonharper70.wordpress.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.227
+    },
+    "plus.google.com/107890826063201353011": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.227
+    },
+    "twitter.com/SangermanoMina": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.227
+    },
+    "twitter.com/brianlalor": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.227
+    },
+    "twitter.com/timklapdor": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.227
+    },
+    "www.appolearning.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.227
+    },
+    "www.creativebloq.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.227
+    },
+    "www.dylanwiliamcenter.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.227
+    },
+    "www.marzanocenter.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.227
+    },
+    "blogs.adobe.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.227
+    },
+    "dpdproject.info": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.227
+    },
+    "opensource.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.227
+    },
+    "twitter.com/deb_clarke": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.227
+    },
+    "www.collisiondetection.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.227
+    },
+    "www.studentperformanceanalyser.com.au": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.227
+    },
+    "lynhilt.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.227
+    },
+    "plus.google.com/100898824185953636191": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.227
+    }
+  },
+  "links_truncated": true
+}

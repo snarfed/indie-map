@@ -1,0 +1,136 @@
+{
+  "domain": "known.trdaisuke.com",
+  "urls": [
+    "https://known.trdaisuke.com/profile/trdaisuke",
+    "http://trdaisuke.moe",
+    "http://trdaisuke.com",
+    "http://blog.trdaisuke.com",
+    "http://twitter.com/trdaisuke",
+    "http://schoolido.lu/user/trdaisuke"
+  ],
+  "names": [
+    "trdaisuke",
+    "pulse of trdaisuke",
+    "trdaisuke's Known"
+  ],
+  "descriptions": [
+    "I'm a 30-year-old student affairs professional, technology enthusiast, and all-around geek. trdaisuke@trdaisuke.com",
+    "quick, pithy updates - powered by Known",
+    "pithy comments and updates"
+  ],
+  "pictures": [
+    "https://known.trdaisuke.com/file/c2556760d89840aacfd6c0143891477e/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:trdaisuke@trdaisuke.com"
+      ],
+      "name": [
+        "trdaisuke"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I'm a 30-year-old student affairs professional, technology enthusiast, and all-around geek. <a class=\"u-email\" href=\"mailto:trdaisuke@trdaisuke.com\">trdaisuke@trdaisuke.com</a></p>\n</div>",
+          "value": "\nI'm a 30-year-old student affairs professional, technology enthusiast, and all-around geek. trdaisuke@trdaisuke.com\n"
+        }
+      ],
+      "photo": [
+        "https://known.trdaisuke.com/file/c2556760d89840aacfd6c0143891477e/thumb.jpg"
+      ],
+      "profile": [
+        "trdaisuke"
+      ],
+      "url": [
+        "https://known.trdaisuke.com/profile/trdaisuke",
+        "https://known.trdaisuke.com/profile/trdaisuke",
+        "http://trdaisuke.moe",
+        "http://trdaisuke.com",
+        "http://blog.trdaisuke.com",
+        "http://twitter.com/trdaisuke",
+        "http://schoolido.lu/user/trdaisuke"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://trdaisuke.moe",
+    "http://trdaisuke.com",
+    "http://blog.trdaisuke.com",
+    "http://twitter.com/trdaisuke",
+    "http://schoolido.lu/user/trdaisuke"
+  ],
+  "crawl_start": "2017-04-29T04:39:23",
+  "crawl_end": "2017-04-29T04:49:13",
+  "num_pages": 675,
+  "total_html_size": 15366669,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-geo",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://known.trdaisuke.com/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 3618,
+  "links_in": 90,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 688
+      },
+      "score": 1
+    },
+    "blog.trdaisuke.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 529
+      },
+      "score": 0.964
+    },
+    "trdaisuke.moe": {
+      "out": {
+        "other": 347
+      },
+      "in": {
+        "other": 78
+      },
+      "score": 0.920
+    },
+    "stream.withknown.com": {
+      "out": {
+        "in-reply-to": 4
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.523
+    },
+    "brid.gy": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.248
+    }
+  }
+}

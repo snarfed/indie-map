@@ -1,0 +1,94 @@
+{
+  "domain": "www.defy.org",
+  "urls": [
+    "http://www.defy.org/"
+  ],
+  "names": [
+    "defy.org: Home"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://www.defy.org/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-10T02:22:59",
+  "crawl_end": "2017-06-10T02:23:04",
+  "num_pages": 9,
+  "total_html_size": 35401,
+  "servers": [
+    "AmazonS3"
+  ],
+  "tags": [],
+  "endpoints": {},
+  "links_out": 20,
+  "links_in": 0,
+  "links": {
+    "about": {
+      "out": {
+        "other": 3
+      },
+      "score": 1
+    },
+    "twitter.com/intent": {
+      "out": {
+        "other": 3
+      },
+      "score": 1
+    },
+    "community.runnersworld.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 1
+    },
+    "www.strava.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.777
+    },
+    "www.amazon.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.777
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.777
+    },
+    "[[ currActivity.stravaLink ]]": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.387
+    },
+    "twitter.com/defyorg": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.387
+    },
+    "paceplayground": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.387
+    },
+    "calendarhack": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.387
+    },
+    "stravahack": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.387
+    }
+  }
+}

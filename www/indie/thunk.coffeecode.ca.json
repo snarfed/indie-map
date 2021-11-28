@@ -1,0 +1,145 @@
+{
+  "domain": "thunk.coffeecode.ca",
+  "urls": [
+    "http://thunk.coffeecode.ca/profile/denials",
+    "https://coffeecode.net",
+    "https://plus.google.com/+DanScottCAN"
+  ],
+  "names": [
+    "Dan Scott",
+    "Things thunk"
+  ],
+  "descriptions": [
+    "I'm a systems librarian, meaning that I glue together data (preferably open) from lots of different systems (also preferably open).",
+    "Dan Scott's status updates and librarian / open data / free software geekery"
+  ],
+  "pictures": [
+    "http://thunk.coffeecode.ca/file/8a5e038c1ff7f1eab5a2a37ef577b113",
+    "http://thunk.coffeecode.ca/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Dan Scott"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I'm a systems librarian, meaning that I glue together data (preferably open) from lots of different systems (also preferably open).</p>\n</div>",
+          "value": "\nI'm a systems librarian, meaning that I glue together data (preferably open) from lots of different systems (also preferably open).\n"
+        }
+      ],
+      "photo": [
+        "http://thunk.coffeecode.ca/file/8a5e038c1ff7f1eab5a2a37ef577b113"
+      ],
+      "profile": [
+        "Dan Scott"
+      ],
+      "url": [
+        "http://thunk.coffeecode.ca/profile/denials",
+        "http://thunk.coffeecode.ca/profile/denials",
+        "https://coffeecode.net",
+        "https://plus.google.com/+DanScottCAN"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://coffeecode.net",
+    "https://plus.google.com/+DanScottCAN"
+  ],
+  "crawl_start": "2017-05-06T01:58:11",
+  "crawl_end": "2017-05-06T04:01:56",
+  "num_pages": 8045,
+  "total_html_size": 193919974,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://thunk.coffeecode.ca/webmention/",
+      "http://thunk.coffeecode.ca/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 46532,
+  "links_in": 3,
+  "links": {
+    "inkdroid.org": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.371
+    },
+    "danbri.org": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.371
+    },
+    "kevinmarks.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.340
+    },
+    "example.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.321
+    },
+    "www.kevinmarks.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.265
+    },
+    "matienzo.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "withknown.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "csarven.ca": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.222
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0741
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

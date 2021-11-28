@@ -1,0 +1,74 @@
+{
+  "domain": "techdesignpsych.com",
+  "urls": [
+    "https://techdesignpsych.com/"
+  ],
+  "names": [
+    "The Tech Design Psychologist™ | Shaping technology to help people flourish™",
+    "The Tech Design Psychologist™"
+  ],
+  "descriptions": [
+    "Shaping technology to help people flourish™"
+  ],
+  "pictures": [
+    "https://techdesignpsych.com/TechDesignPsych.com_2/wp-content/uploads/2014/11/Supportive-Pleasing-Ease-Useful1.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/MSiep",
+    "https://plus.google.com/+MichaelSiepmann",
+    "https://www.linkedin.com/in/michaelsiepmann",
+    "https://www.facebook.com/TDPsy"
+  ],
+  "crawl_start": "2017-04-26T03:01:07",
+  "crawl_end": "2017-04-26T03:03:00",
+  "num_pages": 26,
+  "total_html_size": 691476,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-article",
+    "h-card",
+    "h-as-page",
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "IRC",
+    "webmention",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://techdesignpsych.com/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 70,
+  "links_in": 32,
+  "links": {
+    "chat.indieweb.org": {
+      "in": {
+        "other": 28
+      },
+      "score": 0.860
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.537
+    },
+    "webmention.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.179
+    }
+  }
+}

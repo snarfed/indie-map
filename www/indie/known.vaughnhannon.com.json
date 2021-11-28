@@ -1,0 +1,134 @@
+{
+  "domain": "known.vaughnhannon.com",
+  "urls": [
+    "http://known.vaughnhannon.com/profile/vaughn",
+    "http://art.vaughnhannon.com",
+    "http://www.twitter.com/vaughnhannon",
+    "https://plus.google.com/+VaughnHannon",
+    "https://www.facebook.com/vaughn.hannon",
+    "https://instagram.com/veeyawn",
+    "https://foursquare.com/vaughnhannon",
+    "https://soundcloud.com/vaughnhannon"
+  ],
+  "names": [
+    "Vaughn Hannon",
+    "The social center of me.",
+    "Vaughn"
+  ],
+  "descriptions": [
+    "Meddling at the intersection of art and technology.",
+    "The social center of me."
+  ],
+  "pictures": [
+    "http://known.vaughnhannon.com/file/f2cae8f89982d5d506598172ad8c4df5/thumb.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Vaughn Hannon"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Meddling at the intersection of art and technology.</p>\n</div>",
+          "value": "\nMeddling at the intersection of art and technology.\n"
+        }
+      ],
+      "photo": [
+        "http://known.vaughnhannon.com/file/f2cae8f89982d5d506598172ad8c4df5/thumb.png"
+      ],
+      "profile": [
+        "Vaughn Hannon"
+      ],
+      "url": [
+        "http://known.vaughnhannon.com/profile/vaughn",
+        "http://known.vaughnhannon.com/profile/vaughn",
+        "http://art.vaughnhannon.com",
+        "http://www.twitter.com/vaughnhannon",
+        "https://plus.google.com/+VaughnHannon",
+        "https://www.facebook.com/vaughn.hannon",
+        "https://instagram.com/veeyawn",
+        "https://foursquare.com/vaughnhannon",
+        "https://soundcloud.com/vaughnhannon"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://art.vaughnhannon.com",
+    "http://www.twitter.com/vaughnhannon",
+    "https://plus.google.com/+VaughnHannon",
+    "https://www.facebook.com/vaughn.hannon",
+    "https://instagram.com/veeyawn",
+    "https://foursquare.com/vaughnhannon",
+    "https://soundcloud.com/vaughnhannon"
+  ],
+  "crawl_start": "2017-04-29T14:38:36",
+  "crawl_end": "2017-04-29T15:00:11",
+  "num_pages": 1442,
+  "total_html_size": 32757760,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-geo",
+    "h-event",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.vaughnhannon.com/webmention/"
+    ],
+    "micropub": [
+      "http://known.vaughnhannon.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://known.vaughnhannon.com/indieauth/auth"
+    ],
+    "token": [
+      "http://known.vaughnhannon.com/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 15865,
+  "links_in": 21,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 1447
+      },
+      "score": 0.898
+    },
+    "nxd4n.nixekinder.be": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "like-of": 8
+      },
+      "score": 0.403
+    },
+    "brid.gy": {
+      "in": {
+        "other": 17
+      },
+      "score": 0.319
+    }
+  }
+}

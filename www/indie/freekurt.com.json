@@ -1,0 +1,200 @@
+{
+  "domain": "freekurt.com",
+  "urls": [
+    "https://freekurt.com/profile/kurt",
+    "https://twitter.com/CaptainKurtis"
+  ],
+  "names": [
+    "Kurt",
+    "FreeKurt.com"
+  ],
+  "descriptions": [
+    "I'm Kurt.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://freekurt.com/file/ae312d1d5ce75d9d29ce488608e256d1"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Kurt"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I'm Kurt.</p>\n</div> ",
+          "value": "\nI'm Kurt.\n "
+        }
+      ],
+      "photo": [
+        "https://freekurt.com/file/ae312d1d5ce75d9d29ce488608e256d1"
+      ],
+      "profile": [
+        "Kurt"
+      ],
+      "url": [
+        "https://freekurt.com/profile/kurt",
+        "https://freekurt.com/profile/kurt",
+        "https://twitter.com/CaptainKurtis"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/CaptainKurtis"
+  ],
+  "crawl_start": "2017-04-24T04:41:28",
+  "crawl_end": "2017-04-24T07:01:41",
+  "num_pages": 3096,
+  "total_html_size": 66149670,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://freekurt.com/webmention/"
+    ],
+    "micropub": [
+      "https://freekurt.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://freekurt.com/indieauth/auth"
+    ],
+    "token": [
+      "https://freekurt.com/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 12914,
+  "links_in": 684,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 3096
+      },
+      "score": 0.978
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 421
+      },
+      "score": 0.676
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 49
+      },
+      "in": {
+        "other": 203
+      },
+      "score": 0.639
+    },
+    "srcr.nl": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "like-of": 10,
+        "in-reply-to": 9
+      },
+      "score": 0.552
+    },
+    "unrelenting.technology": {
+      "out": {
+        "other": 4,
+        "in-reply-to": 5
+      },
+      "in": {
+        "other": 12
+      },
+      "score": 0.476
+    },
+    "aaronparecki.com": {
+      "out": {
+        "like-of": 6,
+        "repost-of": 6
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.469
+    },
+    "brid.gy": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 20
+      },
+      "score": 0.423
+    },
+    "werd.io": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.324
+    },
+    "sensible.mn": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.258
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.200
+    },
+    "hongpong.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.156
+    },
+    "www.boffosocko.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.156
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0776
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0776
+    },
+    "kylewm.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0776
+    }
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "domain": "known.schwenzel.de",
+  "urls": [
+    "http://known.schwenzel.de/"
+  ],
+  "names": [
+    "ix's known"
+  ],
+  "descriptions": [
+    "antworten und pings von"
+  ],
+  "pictures": [
+    "http://known.schwenzel.de/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T04:38:53",
+  "crawl_end": "2017-04-29T04:40:37",
+  "num_pages": 112,
+  "total_html_size": 2934543,
+  "servers": [
+    "LiteSpeed",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-geo",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.schwenzel.de/webmention/"
+    ],
+    "micropub": [
+      "http://known.schwenzel.de/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "http://known.schwenzel.de/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 694,
+  "links_in": 136,
+  "links": {
+    "wirres.net": {
+      "out": {
+        "other": 74,
+        "in-reply-to": 89
+      },
+      "in": {
+        "other": 56
+      },
+      "score": 1
+    },
+    "nxd4n.nixekinder.be": {
+      "in": {
+        "other": 18,
+        "in-reply-to": 7
+      },
+      "out": {
+        "in-reply-to": 54,
+        "other": 24
+      },
+      "score": 0.923
+    },
+    "twitter.com/diplix": {
+      "out": {
+        "in-reply-to": 15,
+        "other": 52
+      },
+      "score": 0.791
+    },
+    "withknown.com": {
+      "out": {
+        "other": 114
+      },
+      "score": 0.776
+    },
+    "drikkes.withknown.com": {
+      "in": {
+        "other": 18
+      },
+      "out": {
+        "other": 2,
+        "in-reply-to": 19
+      },
+      "score": 0.766
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 5,
+        "in-reply-to": 10
+      },
+      "in": {
+        "in-reply-to": 8,
+        "other": 14
+      },
+      "score": 0.729
+    },
+    "twitter.com/nxD4n": {
+      "out": {
+        "other": 4,
+        "in-reply-to": 15
+      },
+      "score": 0.723
+    },
+    "notizblog.org": {
+      "out": {
+        "in-reply-to": 10,
+        "other": 12
+      },
+      "score": 0.689
+    },
+    "twitter.com/pfefferle": {
+      "out": {
+        "other": 7,
+        "in-reply-to": 9
+      },
+      "score": 0.663
+    },
+    "hmans.io": {
+      "out": {
+        "in-reply-to": 9
+      },
+      "score": 0.643
+    },
+    "twitter.com/dasnuf": {
+      "out": {
+        "in-reply-to": 5,
+        "other": 11
+      },
+      "score": 0.611
+    },
+    "twitter.com/gerritvanaaken": {
+      "out": {
+        "other": 7,
+        "in-reply-to": 5
+      },
+      "score": 0.594
+    },
+    "twitter.com/monoxyd": {
+      "out": {
+        "in-reply-to": 5,
+        "other": 4
+      },
+      "score": 0.58
+    },
+    "twitter.com/FalkJan": {
+      "out": {
+        "in-reply-to": 5
+      },
+      "score": 0.559
+    },
+    "pants.monoxyd.de": {
+      "out": {
+        "in-reply-to": 5
+      },
+      "score": 0.559
+    },
+    "facebook.com/diplix": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.486
+    },
+    "webmention.io": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.476
+    },
+    "breitband.deutschlandradiokultur.de": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.429
+    },
+    "encrypted.google.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.429
+    },
+    "techlifeweb.com": {
+      "out": {
+        "other": 9
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.42
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.413
+    },
+    "drikkes.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.354
+    },
+    "dasnuf.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.354
+    },
+    "twitter.com/PiratenBuecher": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.329
+    },
+    "getpocket.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.329
+    },
+    "twitter.com/drikkes": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.297
+    },
+    "martins.withknown.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.297
+    },
+    "monoxyd.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.297
+    },
+    "twitter.com/maksumuto": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.297
+    },
+    "twitter.com/moschlar": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.297
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.256
+    },
+    "twitter.com/SKleineBeck": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.199
+    },
+    "twitter.com/eine_charlotte": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.199
+    },
+    "twitter.com/Wohli": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.199
+    },
+    "twitter.com/ciao_miau": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.199
+    },
+    "twitter.com/cdumme": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.199
+    },
+    "notiz.blog": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.199
+    },
+    "praegnanz.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.199
+    },
+    "twitter.com/wirresnet": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.199
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.157
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

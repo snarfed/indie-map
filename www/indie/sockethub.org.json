@@ -1,0 +1,91 @@
+{
+  "domain": "sockethub.org",
+  "urls": [
+    "http://sockethub.org/"
+  ],
+  "names": [
+    "Sockethub"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://sockethub.org/favicon.ico",
+    "/res/img/sockethub-logo.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/sockethub/sockethub",
+    "https://twitter.com/sockethub"
+  ],
+  "crawl_start": "2017-04-30T02:17:38",
+  "crawl_end": "2017-04-30T02:17:42",
+  "num_pages": 5,
+  "total_html_size": 46679,
+  "servers": [
+    "GitHub.com"
+  ],
+  "mf2_classes": [
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/sockethub.org/webmention"
+    ]
+  },
+  "links_out": 91,
+  "links_in": 35,
+  "links": {
+    "nlnet.nl": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "other": 16
+      },
+      "score": 0.789
+    },
+    "silverbucket.net": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 7
+      },
+      "score": 0.656
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.600
+    },
+    "jancborchardt.net": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.557
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.337
+    },
+    "webmention.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.337
+    },
+    "michielbdejong.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.168
+    }
+  }
+}

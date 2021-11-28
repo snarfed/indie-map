@@ -1,0 +1,48 @@
+{
+  "domain": "christaylor.co",
+  "crawl_start": "2017-04-28T05:16:17",
+  "crawl_end": "2017-04-28T05:16:17",
+  "num_pages": 1,
+  "total_html_size": 30600,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "tags": [
+    "bridgy",
+    "WordPress"
+  ],
+  "endpoints": {},
+  "hcard": {},
+  "links_out": 26,
+  "links_in": 980,
+  "links": {
+    "ichristaylor.com": {
+      "in": {
+        "other": 980
+      },
+      "out": {
+        "other": 10
+      },
+      "score": 1
+    },
+    "www.instagram.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.482
+    },
+    "chrisandemma.wedding": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    },
+    "twitter.com/ichristaylor": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.100
+    }
+  }
+}

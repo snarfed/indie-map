@@ -1,0 +1,511 @@
+{
+  "domain": "bits.rawlinson.us",
+  "crawl_start": "2017-04-28T02:15:53",
+  "crawl_end": "2017-04-28T02:24:09",
+  "num_pages": 907,
+  "total_html_size": 45903071,
+  "servers": [
+    "openresty"
+  ],
+  "tags": [
+    "bridgy",
+    "IRC",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.brid.gy/webmention/tumblr"
+    ]
+  },
+  "hcard": {},
+  "links_out": 6022,
+  "links_in": 5238,
+  "links": {
+    "t.umblr.com": {
+      "out": {
+        "other": 2226
+      },
+      "score": 1
+    },
+    "rawlinson.us": {
+      "in": {
+        "other": 2618
+      },
+      "score": 0.937
+    },
+    "blog.rawlinson.us": {
+      "in": {
+        "other": 2607
+      },
+      "score": 0.937
+    },
+    "twitter.com/home": {
+      "out": {
+        "other": 823
+      },
+      "score": 0.882
+    },
+    "disqus.com": {
+      "out": {
+        "other": 812
+      },
+      "score": 0.880
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 472
+      },
+      "score": 0.815
+    },
+    "www.tumblr.com": {
+      "out": {
+        "other": 462
+      },
+      "score": 0.813
+    },
+    "twitter.com/finalcut": {
+      "out": {
+        "other": 462
+      },
+      "score": 0.813
+    },
+    "www.catchingzebra.com": {
+      "out": {
+        "other": 462
+      },
+      "score": 0.813
+    },
+    "i.imgur.com": {
+      "out": {
+        "other": 70
+      },
+      "score": 0.588
+    },
+    "instagr.am": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.543
+    },
+    "www.funnyordie.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.426
+    },
+    "imgur.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.357
+    },
+    "jhnmyr.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.330
+    },
+    "brid.gy": {
+      "in": {
+        "other": 13
+      },
+      "score": 0.305
+    },
+    "geek-art.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.295
+    },
+    "thebaffled.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.295
+    },
+    "farm5.static.flickr.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.248
+    },
+    "porco-voador-deactivated2012042.tumblr.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.248
+    },
+    "10.media.tumblr.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.248
+    },
+    "whisperoftheshot.tumblr.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.248
+    },
+    "s3.amazonaws.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.248
+    },
+    "web.mac.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "kilo.naurunappula.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "inapcache.boston.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "lh6.ggpht.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "www.farleftside.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "images.ucomics.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "img364.imageshack.us": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "2.bp.blogspot.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "izismile.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "doctore.blog.is": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "hylian90.files.wordpress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "www.slashfilm.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "www.venganza.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "donrufie.deviantart.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "blogs.discovermagazine.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "images.flm.fr": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "i.friendfeed.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "resme.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "sphotos.ak.fbcdn.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "twitter.com/DonBlankenship": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "blogs.venturacountystar.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "dailysquee.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "theangryt.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "bgilliard.tumblr.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "distilleryimage5.ak.instagram.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "img11.abload.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "store.afa.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "www.mikero.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "www.pastemagazine.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "biessman.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "titularhumour.tumblr.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "www.shoeboxblog.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "photos-a.ak.facebook.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "www.imagehut.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "farm4.static.flickr.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "piecomic.tumblr.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "browncardigan.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "omploader.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "soupsoup.tumblr.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "friendfeed.s3.amazonaws.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "www.heavy.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "incredimazing.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "twitpic.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "www.myconfinedspace.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "graphjam.files.wordpress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "i36.tinypic.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "sade.tumblr.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "i33.tinypic.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "fc06.deviantart.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "www.amptoons.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "rapidlibrary.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "nicelol.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "thepilgrim-chapter32.tumblr.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "www.claybennett.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "i434.photobucket.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "russellsteapot.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "img.wonkette.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "img4.imageshack.us": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.165
+    },
+    "www.piecomic.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0825
+    }
+  }
+}

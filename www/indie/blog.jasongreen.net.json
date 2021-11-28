@@ -1,0 +1,167 @@
+{
+  "domain": "blog.jasongreen.net",
+  "urls": [
+    "http://blog.jasongreen.net/"
+  ],
+  "names": [
+    "þoht-hord | an exercise in personal knowledge management",
+    "þoht-hord"
+  ],
+  "descriptions": [
+    "an exercise in personal knowledge management"
+  ],
+  "pictures": [
+    "http://blog.jasongreen.net/favicon.ico",
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/jasongreen/"
+  ],
+  "crawl_start": "2017-04-28T02:15:50",
+  "crawl_end": "2017-04-28T02:25:42",
+  "num_pages": 259,
+  "total_html_size": 7030189,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-feed",
+    "h-as-reply",
+    "h-as-mention"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://blog.jasongreen.net/wp-json/webmention/1.0/endpoint"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 2288,
+  "links_in": 252,
+  "links": {
+    "brid.gy": {
+      "out": {
+        "other": 230
+      },
+      "in": {
+        "other": 12
+      },
+      "score": 0.933
+    },
+    "hapgood.us": {
+      "out": {
+        "other": 97
+      },
+      "score": 0.798
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 34,
+        "like-of": 10,
+        "other": 4
+      },
+      "score": 0.798
+    },
+    "known.jasongreen.net": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 152
+      },
+      "score": 0.764
+    },
+    "werd.io": {
+      "in": {
+        "in-reply-to": 15
+      },
+      "score": 0.655
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 5,
+        "in-reply-to": 5
+      },
+      "score": 0.620
+    },
+    "cogdogblog.com": {
+      "out": {
+        "other": 25
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.602
+    },
+    "snarfed.org": {
+      "in": {
+        "other": 4,
+        "in-reply-to": 1
+      },
+      "out": {
+        "other": 14
+      },
+      "score": 0.547
+    },
+    "timowens.io": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.526
+    },
+    "withknown.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.526
+    },
+    "darcynorman.net": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.468
+    },
+    "halfanhour.blogspot.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.455
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.376
+    },
+    "www.monkinetic.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.348
+    },
+    "reclaimhosting.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.348
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.244
+    }
+  }
+}

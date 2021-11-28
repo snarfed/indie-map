@@ -1,0 +1,340 @@
+{
+  "domain": "www.svenknebel.de",
+  "urls": [
+    "https://www.svenknebel.de/"
+  ],
+  "names": [
+    "Sven Knebel",
+    "index"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Sven Knebel"
+      ],
+      "uid": [
+        "https://www.svenknebel.de/"
+      ],
+      "url": [
+        "https://www.svenknebel.de/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ],
+    "value": "Sven Knebel"
+  },
+  "rel_mes": [
+    "https://www.svenknebel.de/",
+    "https://www.github.com/sknebel"
+  ],
+  "crawl_start": "2017-04-26T18:23:43",
+  "crawl_end": "2017-06-10T01:51:58",
+  "num_pages": 51,
+  "total_html_size": 262054,
+  "servers": [
+    "nginx"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-feed",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.svenknebel.de/webmention"
+    ],
+    "micropub": [
+      "https://www.svenknebel.de/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 390,
+  "links_in": 4908,
+  "links": {
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2974
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 16
+      },
+      "in": {
+        "other": 1871
+      },
+      "score": 0.944
+    },
+    "webmention.rocks": {
+      "out": {
+        "other": 105
+      },
+      "score": 0.669
+    },
+    "sebastiangreger.net": {
+      "out": {
+        "in-reply-to": 16
+      },
+      "in": {
+        "other": 7
+      },
+      "score": 0.64
+    },
+    "www.github.com": {
+      "out": {
+        "other": 51
+      },
+      "score": 0.578
+    },
+    "aaronparecki.com": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 6
+      },
+      "in": {
+        "other": 16,
+        "like-of": 7
+      },
+      "score": 0.578
+    },
+    "www.w3.org": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.554
+    },
+    "wiki.mozilla.org": {
+      "out": {
+        "bookmark-of": 9
+      },
+      "score": 0.448
+    },
+    "licit.li": {
+      "in": {
+        "in-reply-to": 2,
+        "other": 2
+      },
+      "out": {
+        "in-reply-to": 2,
+        "like-of": 1
+      },
+      "score": 0.448
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "bookmark-of": 6
+      },
+      "score": 0.398
+    },
+    "brid.gy": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "other": 12
+      },
+      "score": 0.386
+    },
+    "miklb.com": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.386
+    },
+    "vanderven.se": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.361
+    },
+    "jwt.io": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.31
+    },
+    "joelpurra.de": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.31
+    },
+    "webmention.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.31
+    },
+    "genius.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.31
+    },
+    "hypothes.is": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.31
+    },
+    "Indieauth.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.31
+    },
+    "www.dcl.hpi.uni-potsdam.de": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.288
+    },
+    "www.dfri.se": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.288
+    },
+    "meddelare.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.288
+    },
+    "ethicalweb.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.288
+    },
+    "commonterms.net": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.288
+    },
+    "joelpurra.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.288
+    },
+    "ind.ie": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.288
+    },
+    "www.interaction-design.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.288
+    },
+    "www.meetup.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.288
+    },
+    "news.ycombinator.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.288
+    },
+    "fairwebservices.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.288
+    },
+    "webmention.io": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.288
+    },
+    "criticalengineering.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.288
+    },
+    "www.truste.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.288
+    },
+    "caddyserver.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.288
+    },
+    "news.indieweb.org": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.275
+    },
+    "www.gandi.net": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.224
+    },
+    "matthiasott.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0866
+    },
+    "indiescripter.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "derhess.de": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

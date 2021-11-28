@@ -1,0 +1,215 @@
+{
+  "domain": "known.npdoty.name",
+  "urls": [
+    "http://known.npdoty.name/profile/npd",
+    "https://npdoty.name",
+    "https://twitter.com/npdoty",
+    "https://github.com/npdoty"
+  ],
+  "names": [
+    "npd",
+    "npdoty"
+  ],
+  "descriptions": [
+    "Grad student at UC Berkeley, School of Information. I work on Web privacy.",
+    "An indieweb blog, powered by Known"
+  ],
+  "pictures": [
+    "http://known.npdoty.name/file/0c95ffff0eb83e3a5eba23b476c868d0/thumb.jpg",
+    "http://known.npdoty.name/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "npd"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Grad student at UC Berkeley, School of Information. I work on Web privacy.</p>\n</div>",
+          "value": "\nGrad student at UC Berkeley, School of Information. I work on Web privacy.\n"
+        }
+      ],
+      "photo": [
+        "http://known.npdoty.name/file/0c95ffff0eb83e3a5eba23b476c868d0/thumb.jpg"
+      ],
+      "profile": [
+        "npd"
+      ],
+      "url": [
+        "http://known.npdoty.name/profile/npd",
+        "http://known.npdoty.name/profile/npd",
+        "https://npdoty.name",
+        "https://twitter.com/npdoty",
+        "https://github.com/npdoty"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://npdoty.name",
+    "https://twitter.com/npdoty",
+    "https://github.com/npdoty"
+  ],
+  "crawl_start": "2017-04-29T04:37:54",
+  "crawl_end": "2017-04-29T04:40:00",
+  "num_pages": 114,
+  "total_html_size": 3358813,
+  "servers": [
+    "cloudflare-nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.npdoty.name/webmention/"
+    ],
+    "micropub": [
+      "http://known.npdoty.name/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://known.npdoty.name/indieauth/auth"
+    ],
+    "token": [
+      "http://known.npdoty.name/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1112,
+  "links_in": 77,
+  "links": {
+    "werd.io": {
+      "out": {
+        "in-reply-to": 44,
+        "other": 3
+      },
+      "in": {
+        "other": 34
+      },
+      "score": 1
+    },
+    "kylewm.com": {
+      "out": {
+        "in-reply-to": 12
+      },
+      "score": 0.776
+    },
+    "npdoty.name": {
+      "out": {
+        "other": 38
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.703
+    },
+    "adactio.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.674
+    },
+    "aaron-gustafson.com": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.663
+    },
+    "2016.indieweb.org": {
+      "out": {
+        "in-reply-to": 4
+      },
+      "score": 0.598
+    },
+    "kylewm.withknown.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "in-reply-to": 3
+      },
+      "score": 0.572
+    },
+    "benward.me": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.402
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.357
+    },
+    "brid.gy": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.357
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.357
+    },
+    "rtaibah.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.337
+    },
+    "mohitgupta.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.225
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.112
+    },
+    "www.aaron-gustafson.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.112
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.112
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

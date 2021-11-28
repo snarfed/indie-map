@@ -1,0 +1,101 @@
+{
+  "domain": "known.borregoruido.ca",
+  "urls": [
+    "http://known.borregoruido.ca/profile/blamb",
+    "http://abject.ca"
+  ],
+  "names": [
+    "Brian Lamb",
+    "No Known Knowns"
+  ],
+  "descriptions": [
+    "No Known, No, No, No, No, NoNoNoNoNoNoKnownKnown, No No No No No Known",
+    "There are Known knowns, and the knowns that remain unknown"
+  ],
+  "pictures": [
+    "http://known.borregoruido.ca/file/e565525dca8234234cb82790421ecb6a/thumb.jpg",
+    "http://known.borregoruido.ca/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Brian Lamb"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>No Known, No, No, No, No, NoNoNoNoNoNoKnownKnown, No No No No No Known</p>\n</div>",
+          "value": "\nNo Known, No, No, No, No, NoNoNoNoNoNoKnownKnown, No No No No No Known\n"
+        }
+      ],
+      "photo": [
+        "http://known.borregoruido.ca/file/e565525dca8234234cb82790421ecb6a/thumb.jpg"
+      ],
+      "profile": [
+        "Brian Lamb"
+      ],
+      "url": [
+        "http://known.borregoruido.ca/profile/blamb",
+        "http://known.borregoruido.ca/profile/blamb",
+        "http://abject.ca"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://abject.ca"
+  ],
+  "crawl_start": "2017-04-29T04:32:25",
+  "crawl_end": "2017-04-29T04:33:17",
+  "num_pages": 70,
+  "total_html_size": 1779988,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.borregoruido.ca/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 625,
+  "links_in": 10,
+  "links": {
+    "werd.io": {
+      "in": {
+        "other": 10
+      },
+      "out": {
+        "in-reply-to": 14
+      },
+      "score": 0.936
+    },
+    "withknown.com": {
+      "out": {
+        "other": 70
+      },
+      "score": 0.923
+    },
+    "cogdogblog.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.464
+    }
+  }
+}

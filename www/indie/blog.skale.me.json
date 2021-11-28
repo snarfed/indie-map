@@ -1,0 +1,58 @@
+{
+  "domain": "blog.skale.me",
+  "urls": [
+    "https://blog.skale.me/"
+  ],
+  "names": [
+    "Skale Blog – Keep calm and make data talk",
+    "Skale Blog"
+  ],
+  "descriptions": [
+    "Keep calm and make data talk"
+  ],
+  "pictures": [
+    "https://i0.wp.com/blog.skale.me/wp-content/uploads/2016/09/cropped-icone-skale-gihub.png?fit=32%2C32&ssl=1",
+    "https://i0.wp.com/blog.skale.me/wp-content/uploads/2016/09/cropped-icone-skale-gihub.png?fit=192%2C192&ssl=1",
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T02:16:00",
+  "crawl_end": "2017-04-28T02:16:13",
+  "num_pages": 12,
+  "total_html_size": 461823,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-as-repost",
+    "h-card",
+    "h-as-like"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://blog.skale.me/wp-json/webmention/1.0/endpoint"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 217,
+  "links_in": 0,
+  "links": {
+    "independentpublisher.me": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.682
+    }
+  }
+}

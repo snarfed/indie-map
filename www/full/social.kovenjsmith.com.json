@@ -1,0 +1,797 @@
+{
+  "domain": "social.kovenjsmith.com",
+  "urls": [
+    "http://social.kovenjsmith.com/profile/kovensmith",
+    "http://kovenjsmith.com"
+  ],
+  "names": [
+    "Koven Smith",
+    "Koven's Various Musings"
+  ],
+  "descriptions": [
+    "Composer, drummer, and Director of Digital Adaptation at the Blanton Museum of Art. Founder of #drinkingaboutmuseums.",
+    "This is where Koven posts his social media stuff. Part of an effort to own my content. Long-form stuff is published at kovenjsmith.com."
+  ],
+  "pictures": [
+    "http://social.kovenjsmith.com/file/c41f83326dca70ff24591a9c8860ed2d/thumb.jpg",
+    "http://social.kovenjsmith.com/",
+    "http://social.kovenjsmith.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Koven Smith"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Composer, drummer, and Director of Digital Adaptation at the Blanton Museum of Art. Founder of #drinkingaboutmuseums.</p>\n</div>",
+          "value": "\nComposer, drummer, and Director of Digital Adaptation at the Blanton Museum of Art. Founder of #drinkingaboutmuseums.\n"
+        }
+      ],
+      "photo": [
+        "http://social.kovenjsmith.com/file/c41f83326dca70ff24591a9c8860ed2d/thumb.jpg"
+      ],
+      "profile": [
+        "Koven Smith"
+      ],
+      "url": [
+        "http://social.kovenjsmith.com/profile/kovensmith",
+        "http://social.kovenjsmith.com/profile/kovensmith",
+        "http://kovenjsmith.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://kovenjsmith.com"
+  ],
+  "crawl_start": "2017-04-30T02:16:45",
+  "crawl_end": "2017-04-30T02:18:39",
+  "num_pages": 150,
+  "total_html_size": 3221951,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-geo",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://social.kovenjsmith.com/webmention/"
+    ],
+    "micropub": [
+      "http://social.kovenjsmith.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "http://social.kovenjsmith.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1083,
+  "links_in": 5,
+  "links": {
+    "twitter.com/5easypieces": {
+      "out": {
+        "in-reply-to": 5,
+        "other": 128
+      },
+      "score": 1
+    },
+    "withknown.com": {
+      "out": {
+        "other": 150
+      },
+      "score": 0.997
+    },
+    "bit.ly": {
+      "out": {
+        "other": 37,
+        "in-reply-to": 16
+      },
+      "score": 0.955
+    },
+    "kovenjsmith.com": {
+      "out": {
+        "other": 80,
+        "in-reply-to": 5
+      },
+      "score": 0.935
+    },
+    "twitter.com/erodley": {
+      "out": {
+        "other": 26,
+        "in-reply-to": 9
+      },
+      "score": 0.867
+    },
+    "twitter.com/Museumninja": {
+      "out": {
+        "other": 15,
+        "in-reply-to": 11
+      },
+      "score": 0.864
+    },
+    "twitter.com/bwyman": {
+      "out": {
+        "other": 69
+      },
+      "score": 0.862
+    },
+    "twitter.com/adriannerussell": {
+      "out": {
+        "other": 11,
+        "in-reply-to": 9
+      },
+      "score": 0.825
+    },
+    "goo.gl": {
+      "out": {
+        "in-reply-to": 9,
+        "other": 7
+      },
+      "score": 0.811
+    },
+    "twitter.com/sbhogarty": {
+      "out": {
+        "in-reply-to": 8,
+        "other": 10
+      },
+      "score": 0.806
+    },
+    "twitter.com/Polackio": {
+      "out": {
+        "other": 23,
+        "in-reply-to": 5
+      },
+      "score": 0.797
+    },
+    "exhibitdev.wordpress.com": {
+      "out": {
+        "other": 4,
+        "in-reply-to": 8
+      },
+      "score": 0.783
+    },
+    "twitter.com/nrichie": {
+      "out": {
+        "in-reply-to": 5,
+        "other": 9
+      },
+      "score": 0.738
+    },
+    "twitter.com/Stacker": {
+      "out": {
+        "in-reply-to": 5,
+        "other": 9
+      },
+      "score": 0.738
+    },
+    "twitter.com/sebchan": {
+      "out": {
+        "other": 7,
+        "in-reply-to": 5
+      },
+      "score": 0.727
+    },
+    "twitter.com/US_IMLS": {
+      "out": {
+        "in-reply-to": 5,
+        "other": 5
+      },
+      "score": 0.715
+    },
+    "twitter.com/shineslike": {
+      "out": {
+        "in-reply-to": 5,
+        "other": 5
+      },
+      "score": 0.715
+    },
+    "grantland.com": {
+      "out": {
+        "in-reply-to": 5
+      },
+      "score": 0.684
+    },
+    "twitter.com/mia_out": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.654
+    },
+    "www.wired.com": {
+      "out": {
+        "other": 11,
+        "in-reply-to": 1
+      },
+      "score": 0.607
+    },
+    "www.ashgate.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.607
+    },
+    "twitter.com/staticmade": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.582
+    },
+    "twitter.com/NaturaeObscuram": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.582
+    },
+    "twitter.com/DTulo": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.582
+    },
+    "wrd.cm": {
+      "out": {
+        "other": 8,
+        "in-reply-to": 1
+      },
+      "score": 0.570
+    },
+    "jamminontheone.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 8
+      },
+      "score": 0.570
+    },
+    "twitter.com/nealstimler": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.524
+    },
+    "twitter.com/johngordy": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.524
+    },
+    "es.pn": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 4
+      },
+      "score": 0.505
+    },
+    "twitter.com/lulpercussion": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.505
+    },
+    "twitter.com/blantonmuseum": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.505
+    },
+    "rd.io": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.484
+    },
+    "twitter.com/tjowens": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.462
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.434
+    },
+    "twitter.com/mikerippy": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.434
+    },
+    "twitter.com/futureofmuseums": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.402
+    },
+    "twitter.com/Social_Curator": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.402
+    },
+    "twitter.com/Jim_Salmons": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.402
+    },
+    "twitter.com/edlimamusic": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.402
+    },
+    "twitter.com/e_j_hayes": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.402
+    },
+    "twitter.com/alli_burnie": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.402
+    },
+    "twitter.com/colinfanning": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    },
+    "twitter.com/StaticMade": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    },
+    "twitter.com/dzorich": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    },
+    "www.micahwalter.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    },
+    "twitter.com/heideland": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    },
+    "twitter.com/micahwalter": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    },
+    "cfanning.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    },
+    "twitter.com/MNDNCH": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    },
+    "twitter.com/Radishwak": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.364
+    },
+    "twitter.com/exposyourmuseum": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.313
+    },
+    "twitter.com/nataliepainter4": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.313
+    },
+    "twitter.com/BillNigh": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.313
+    },
+    "twitter.com/Janique1989": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.313
+    },
+    "twitter.com/earprint": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.313
+    },
+    "twitter.com/dhegley": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.313
+    },
+    "www.FactMiners.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/SumoJim": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/mlascarides": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "exposeyourmuseum.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "museuminabottle.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "www.intk.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/KalaP": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/michellegrohe": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/auchmill": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/Greeblehaus": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/ritaelise": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/runlolarun": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/dancohen": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/desigonz": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/Jason_W_Dean": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/CODEWORDSmuse": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/DGro25": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/LacketyLac": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/magmidd": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/erinblasco": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "www.artsmia.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "www.cdeis.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "jasondas.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/Jennifer_Foley": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/RbtBRutherford": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/KristieNittolo": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/cannmilliken": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "www.adriannerussell.wordpress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "medium.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "www.freshandnew.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/geealbers": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "livinghe.re": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/theleahkitten": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "www.greendoorlabs.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "www.lineuponlinepercussion.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/al_mansour2020": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/sharnajackson": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/adaxem": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/Che_Successo": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "blantonmuseum.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "sbannamaria.tumblr.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "www.natalie-frank.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/dicksonk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "heidi-quicksilver.strikingly.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/MissHQ": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/caw_": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/jedahan": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/pete_himself": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "futureofmuseums.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "jonathan.is": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "www.edlima.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/BergFulton": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/floodfish": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "twitter.com/anildash": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "www.earprint.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.243
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.121
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.121
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

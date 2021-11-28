@@ -1,0 +1,81 @@
+{
+  "domain": "www.networkedcity.blog",
+  "urls": [
+    "http://www.networkedcity.blog/"
+  ],
+  "names": [
+    "Networked City"
+  ],
+  "descriptions": [
+    "Exploring how to reframe and connect London civil society"
+  ],
+  "pictures": [
+    "http://www.connectinglondoners.blog/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T08:09:30",
+  "crawl_end": "2017-04-30T08:10:20",
+  "num_pages": 70,
+  "total_html_size": 2137900,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-cite",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.networkedcity.blog/webmention/"
+    ],
+    "micropub": [
+      "http://www.networkedcity.blog/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://www.networkedcity.blog/indieauth/auth"
+    ],
+    "token": [
+      "http://www.networkedcity.blog/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1648,
+  "links_in": 375,
+  "links": {
+    "www.mediablends.com": {
+      "in": {
+        "other": 366
+      },
+      "out": {
+        "other": 136
+      },
+      "score": 1
+    },
+    "mediablends.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.409
+    },
+    "brid.gy": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.341
+    }
+  }
+}

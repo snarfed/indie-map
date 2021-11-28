@@ -1,0 +1,234 @@
+{
+  "domain": "anomalily.net",
+  "urls": [
+    "http://anomalily.net/"
+  ],
+  "names": [
+    "AnomaLily.net – The internet home of Lillian Karabaic"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://anomalily.net/wp-content/uploads/2012/02/favicon1.ico",
+    "http://anomalily.net/wp-content/uploads/2017/03/favicon.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "http://www.twitter.com/anomalily",
+    "http://www.flickr.com/photos/lilymonster/",
+    "http://www.last.fm/user/wearemice/"
+  ],
+  "crawl_start": "2017-04-27T07:52:23",
+  "crawl_end": "2017-04-27T09:23:17",
+  "num_pages": 283,
+  "total_html_size": 22844700,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-reply",
+    "h-entry",
+    "h-feed",
+    "h-as-mention",
+    "h-card",
+    "h-as-repost",
+    "h-event",
+    "h-as-rsvp",
+    "h-as-like"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IWS2017",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://anomalily.net/?webmention=endpoint"
+    ],
+    "micropub": [
+      "http://anomalily.net/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 3571,
+  "links_in": 498,
+  "links": {
+    "aaronparecki.com": {
+      "in": {
+        "bookmark-of": 26,
+        "like-of": 14,
+        "in-reply-to": 7,
+        "other": 22
+      },
+      "out": {
+        "other": 12
+      },
+      "score": 0.655
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 150
+      },
+      "score": 0.646
+    },
+    "adactio.com": {
+      "in": {
+        "bookmark-of": 47
+      },
+      "score": 0.586
+    },
+    "jeena.net": {
+      "out": {
+        "other": 6
+      },
+      "in": {
+        "in-reply-to": 12,
+        "other": 4,
+        "like-of": 6
+      },
+      "score": 0.578
+    },
+    "known.kylewm.com": {
+      "in": {
+        "other": 12,
+        "in-reply-to": 15
+      },
+      "score": 0.577
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 67
+      },
+      "score": 0.542
+    },
+    "jothut.com": {
+      "in": {
+        "other": 51
+      },
+      "score": 0.507
+    },
+    "kylewm.com": {
+      "in": {
+        "bookmark-of": 4,
+        "other": 6,
+        "in-reply-to": 4
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.470
+    },
+    "dougbeal.com": {
+      "in": {
+        "like-of": 12
+      },
+      "score": 0.410
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 17
+      },
+      "score": 0.365
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.297
+    },
+    "kartikprabhu.com": {
+      "in": {
+        "in-reply-to": 2
+      },
+      "score": 0.297
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 3
+      },
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.268
+    },
+    "brid.gy": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.231
+    },
+    "willnorris.com": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.208
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.179
+    },
+    "petermolnar.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.179
+    },
+    "shanehudson.net": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.142
+    },
+    "bethaknee.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0894
+    },
+    "blog.bl00cyb.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0894
+    },
+    "transportini.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0894
+    },
+    "www.flutterby.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "boghop.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "tantek.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

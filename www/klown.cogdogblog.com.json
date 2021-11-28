@@ -1,0 +1,352 @@
+{
+  "domain": "klown.cogdogblog.com",
+  "urls": [
+    "http://klown.cogdogblog.com/profile/cogdog",
+    "http://cogdogblog.com/",
+    "http://cogdog.info/",
+    "http://barkingdog.me/",
+    "http://twitter.com/cogdog"
+  ],
+  "names": [
+    "Alan Levine",
+    "cogdog klown"
+  ],
+  "descriptions": [
+    "barks about and plays around with web stuff, has shots.",
+    "because typos are fun"
+  ],
+  "pictures": [
+    "http://klown.cogdogblog.com/file/865bd400c441b84b39ddb59980d5e025"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Alan Levine"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>barks about and plays around with web stuff, has shots.</p>\n</div> ",
+          "value": "\nbarks about and plays around with web stuff, has shots.\n "
+        }
+      ],
+      "photo": [
+        "http://klown.cogdogblog.com/file/865bd400c441b84b39ddb59980d5e025"
+      ],
+      "profile": [
+        "Alan Levine"
+      ],
+      "url": [
+        "http://klown.cogdogblog.com/profile/cogdog",
+        "http://klown.cogdogblog.com/profile/cogdog",
+        "http://cogdogblog.com/",
+        "http://cogdog.info/",
+        "http://barkingdog.me/",
+        "http://twitter.com/cogdog"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://cogdogblog.com/",
+    "http://cogdog.info/",
+    "http://barkingdog.me/",
+    "http://twitter.com/cogdog"
+  ],
+  "crawl_start": "2017-04-29T04:31:50",
+  "crawl_end": "2017-04-29T04:36:04",
+  "num_pages": 307,
+  "total_html_size": 5804722,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://klown.cogdogblog.com/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1417,
+  "links_in": 75,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 307
+      },
+      "score": 1
+    },
+    "cogdogblog.com": {
+      "out": {
+        "other": 270
+      },
+      "in": {
+        "other": 10
+      },
+      "score": 0.983
+    },
+    "twitter.com/cogdog": {
+      "out": {
+        "other": 204
+      },
+      "score": 0.936
+    },
+    "cogdog.info": {
+      "out": {
+        "other": 189
+      },
+      "score": 0.924
+    },
+    "barkingdog.me": {
+      "out": {
+        "other": 189
+      },
+      "score": 0.924
+    },
+    "notes.adamcroom.com": {
+      "in": {
+        "other": 12
+      },
+      "out": {
+        "in-reply-to": 23
+      },
+      "score": 0.855
+    },
+    "werd.io": {
+      "out": {
+        "other": 5,
+        "in-reply-to": 12
+      },
+      "in": {
+        "other": 8,
+        "in-reply-to": 15
+      },
+      "score": 0.835
+    },
+    "katebowles.withknown.com": {
+      "out": {
+        "in-reply-to": 13
+      },
+      "score": 0.759
+    },
+    "known.raptnrent.me": {
+      "in": {
+        "other": 5
+      },
+      "out": {
+        "in-reply-to": 10
+      },
+      "score": 0.724
+    },
+    "known.followersoftheapocalyp.se": {
+      "out": {
+        "in-reply-to": 9
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.707
+    },
+    "stream.withknown.com": {
+      "out": {
+        "other": 4,
+        "in-reply-to": 6
+      },
+      "in": {
+        "in-reply-to": 4,
+        "other": 4
+      },
+      "score": 0.704
+    },
+    "reclaimsocial.net": {
+      "out": {
+        "other": 9,
+        "in-reply-to": 7
+      },
+      "score": 0.698
+    },
+    "twitter.com/rushaw": {
+      "out": {
+        "other": 8,
+        "in-reply-to": 6
+      },
+      "score": 0.674
+    },
+    "known.jasongreen.net": {
+      "out": {
+        "in-reply-to": 7
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.670
+    },
+    "known.merelearning.ca": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "in-reply-to": 7
+      },
+      "score": 0.670
+    },
+    "rhetcompnow.com": {
+      "out": {
+        "in-reply-to": 7
+      },
+      "score": 0.662
+    },
+    "known.jimgroom.com": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.637
+    },
+    "opinionator.blogs.nytimes.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.467
+    },
+    "github.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.450
+    },
+    "flickr.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.450
+    },
+    "timmaughanbooks.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.431
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.411
+    },
+    "learning.mozilla.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.411
+    },
+    "ds106.us": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.411
+    },
+    "thimble.webmaker.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.411
+    },
+    "cmadland.makes.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.411
+    },
+    "arizonaoddities.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.386
+    },
+    "giffight.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.386
+    },
+    "youshow.trubox.ca": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.386
+    },
+    "twitter.com/vashti_z": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.386
+    },
+    "www.caranddriver.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.358
+    },
+    "manoa.hawaii.edu": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.358
+    },
+    "motherboard.vice.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.324
+    },
+    "www.bbc.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.324
+    },
+    "twitter.com/withknown": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "twitter.com/EatcherVeggies": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "andheblogs.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.217
+    },
+    "known.networkeffects.ca": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.217
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

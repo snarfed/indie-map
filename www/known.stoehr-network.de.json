@@ -1,0 +1,71 @@
+{
+  "domain": "known.stoehr-network.de",
+  "urls": [
+    "http://known.stoehr-network.de/"
+  ],
+  "names": [
+    "stoehr-network"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://known.stoehr-network.de/gfx/users/default-04.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T04:39:20",
+  "crawl_end": "2017-04-29T04:39:33",
+  "num_pages": 12,
+  "total_html_size": 222497,
+  "servers": [
+    "Apache (Unix)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.stoehr-network.de/webmention/"
+    ],
+    "micropub": [
+      "http://known.stoehr-network.de/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://known.stoehr-network.de/indieauth/auth"
+    ],
+    "token": [
+      "http://known.stoehr-network.de/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 12,
+  "links_in": 3,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.346
+    }
+  }
+}

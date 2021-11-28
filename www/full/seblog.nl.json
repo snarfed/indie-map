@@ -1,0 +1,2139 @@
+{
+  "domain": "seblog.nl",
+  "urls": [
+    "https://seblog.nl"
+  ],
+  "names": [
+    "Sebastiaan Andeweg"
+  ],
+  "descriptions": [
+    "Ik ben een schrijver en nerd uit Nijmegen."
+  ],
+  "pictures": [
+    "https://seblog.nl/photo.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Sebastiaan Andeweg"
+      ],
+      "note": [
+        "Ik ben een schrijver en nerd uit Nijmegen."
+      ],
+      "photo": [
+        "https://seblog.nl/photo.jpg"
+      ],
+      "url": [
+        "https://seblog.nl"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://sebastiaanandeweg.nl",
+    "https://twitter.com/sebsel",
+    "https://instagram.com/sebsel",
+    "https://www.linkedin.com/in/sebastiaanandeweg",
+    "https://github.com/sebsel",
+    "https://strava.com/athletes/sebsel",
+    "https://facebook.com/sebastiaan.andeweg"
+  ],
+  "crawl_start": "2017-04-25T09:01:32",
+  "crawl_end": "2017-04-25T15:14:14",
+  "num_pages": 288,
+  "total_html_size": 4472829,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-feed",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://seblog.nl/webmention"
+    ],
+    "micropub": [
+      "https://seblog.nl/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 7040,
+  "links_in": 2047,
+  "links": {
+    "5eb.nl": {
+      "out": {
+        "other": 3197
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "out": {
+        "bookmark-of": 1
+      },
+      "in": {
+        "other": 1457
+      },
+      "score": 0.832
+    },
+    "instagram.com": {
+      "out": {
+        "other": 522,
+        "like-of": 31
+      },
+      "score": 0.806
+    },
+    "github.com": {
+      "out": {
+        "other": 293,
+        "bookmark-of": 1
+      },
+      "score": 0.728
+    },
+    "facebook.com/sebastiaan.andeweg": {
+      "out": {
+        "other": 288
+      },
+      "score": 0.726
+    },
+    "twitter.com/sebsel": {
+      "out": {
+        "other": 288
+      },
+      "score": 0.726
+    },
+    "sebastiaanandeweg.nl": {
+      "out": {
+        "other": 288
+      },
+      "score": 0.726
+    },
+    "strava.com": {
+      "out": {
+        "other": 288
+      },
+      "score": 0.726
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 288
+      },
+      "score": 0.726
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 16,
+        "like-of": 10
+      },
+      "in": {
+        "other": 165,
+        "bookmark-of": 22,
+        "like-of": 49
+      },
+      "score": 0.678
+    },
+    "instagr.am": {
+      "out": {
+        "other": 107
+      },
+      "score": 0.613
+    },
+    "indieweb.org": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 7
+      },
+      "in": {
+        "other": 147
+      },
+      "score": 0.605
+    },
+    "twitter.com/dasmag": {
+      "out": {
+        "repost-of": 18,
+        "other": 9
+      },
+      "score": 0.553
+    },
+    "www.nrc.nl": {
+      "out": {
+        "other": 49,
+        "like-of": 6
+      },
+      "score": 0.548
+    },
+    "twitter.com/Strubbeltweets": {
+      "out": {
+        "repost-of": 19
+      },
+      "score": 0.541
+    },
+    "www.groene.nl": {
+      "out": {
+        "other": 47,
+        "like-of": 3
+      },
+      "score": 0.532
+    },
+    "www.volkskrant.nl": {
+      "out": {
+        "other": 44,
+        "like-of": 3,
+        "bookmark-of": 1
+      },
+      "score": 0.530
+    },
+    "www.deoptimist.net": {
+      "out": {
+        "other": 44,
+        "like-of": 3
+      },
+      "score": 0.526
+    },
+    "blendle.com": {
+      "out": {
+        "other": 44,
+        "like-of": 3
+      },
+      "score": 0.526
+    },
+    "yudkowsky.net": {
+      "out": {
+        "bookmark-of": 2,
+        "other": 44
+      },
+      "score": 0.521
+    },
+    "www.youtube.com": {
+      "out": {
+        "like-of": 1,
+        "other": 43,
+        "bookmark-of": 1
+      },
+      "score": 0.518
+    },
+    "twitter.com/Wutter": {
+      "out": {
+        "other": 32,
+        "repost-of": 4
+      },
+      "score": 0.511
+    },
+    "jothut.com": {
+      "in": {
+        "other": 87
+      },
+      "score": 0.510
+    },
+    "twitter.com/dennisgaens": {
+      "out": {
+        "repost-of": 11,
+        "other": 9
+      },
+      "score": 0.506
+    },
+    "bit.ly": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.489
+    },
+    "t.co": {
+      "out": {
+        "other": 35
+      },
+      "score": 0.485
+    },
+    "dasmag.nl": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.467
+    },
+    "twitter.com/coenvanrossum": {
+      "out": {
+        "other": 12,
+        "repost-of": 6
+      },
+      "score": 0.467
+    },
+    "brid.gy": {
+      "in": {
+        "other": 53
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.461
+    },
+    "licit.li": {
+      "out": {
+        "like-of": 2
+      },
+      "in": {
+        "like-of": 4,
+        "other": 8,
+        "in-reply-to": 6
+      },
+      "score": 0.455
+    },
+    "twitter.com/jeltenieuwhuis": {
+      "out": {
+        "other": 8,
+        "repost-of": 5
+      },
+      "score": 0.437
+    },
+    "youtu.be": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.437
+    },
+    "isbn": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.421
+    },
+    "www.strubbel.nl": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.416
+    },
+    "twitter.com/davidvanroon": {
+      "out": {
+        "repost-of": 6
+      },
+      "score": 0.409
+    },
+    "twitter.com/onzetaal": {
+      "out": {
+        "repost-of": 6
+      },
+      "score": 0.409
+    },
+    "twitter.com/WriteNow2016": {
+      "out": {
+        "repost-of": 6
+      },
+      "score": 0.409
+    },
+    "denieuwes.com": {
+      "out": {
+        "other": 15,
+        "like-of": 1
+      },
+      "score": 0.403
+    },
+    "medium.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.396
+    },
+    "www.instagram.com": {
+      "out": {
+        "other": 7,
+        "like-of": 4
+      },
+      "score": 0.388
+    },
+    "twitter.com/aafkeromeijn": {
+      "out": {
+        "repost-of": 5
+      },
+      "score": 0.388
+    },
+    "twitter.com/MagliaRosa": {
+      "out": {
+        "other": 6,
+        "repost-of": 3
+      },
+      "score": 0.388
+    },
+    "twitter.com/meneerarts": {
+      "out": {
+        "repost-of": 2,
+        "other": 9
+      },
+      "score": 0.388
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 12,
+        "bookmark-of": 1
+      },
+      "score": 0.380
+    },
+    "twitter.com/OpRuwePlanken": {
+      "out": {
+        "repost-of": 4,
+        "other": 2
+      },
+      "score": 0.380
+    },
+    "www.writenow.nu": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.372
+    },
+    "twitter.com/TeamYannick": {
+      "out": {
+        "repost-of": 4
+      },
+      "score": 0.363
+    },
+    "twitter.com/MerelDado": {
+      "out": {
+        "repost-of": 3,
+        "other": 3
+      },
+      "score": 0.363
+    },
+    "twitter.com/BoekopdeBank": {
+      "out": {
+        "repost-of": 4
+      },
+      "score": 0.363
+    },
+    "twitter.com/tofugu": {
+      "out": {
+        "repost-of": 4
+      },
+      "score": 0.363
+    },
+    "twitter.com/nasjacovers": {
+      "out": {
+        "repost-of": 4
+      },
+      "score": 0.363
+    },
+    "nos.nl": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.353
+    },
+    "facebook.com/events": {
+      "out": {
+        "in-reply-to": 2
+      },
+      "score": 0.342
+    },
+    "twitter.com/RU_Refter": {
+      "out": {
+        "other": 3,
+        "repost-of": 2
+      },
+      "score": 0.330
+    },
+    "twitter.com/DeKift": {
+      "out": {
+        "repost-of": 2,
+        "other": 3
+      },
+      "score": 0.330
+    },
+    "twitter.com/literaturfest": {
+      "out": {
+        "repost-of": 3
+      },
+      "score": 0.330
+    },
+    "twitter.com/IKEANederland": {
+      "out": {
+        "repost-of": 3
+      },
+      "score": 0.330
+    },
+    "twitter.com/robwijnberg": {
+      "out": {
+        "repost-of": 3
+      },
+      "score": 0.330
+    },
+    "twitter.com/AtlasContact": {
+      "out": {
+        "repost-of": 3
+      },
+      "score": 0.330
+    },
+    "twitter.com/iamsandeh": {
+      "out": {
+        "repost-of": 2,
+        "other": 2
+      },
+      "score": 0.316
+    },
+    "twitter.com/theaga": {
+      "out": {
+        "other": 2,
+        "repost-of": 2
+      },
+      "score": 0.316
+    },
+    "twitter.com/manonnonam": {
+      "out": {
+        "other": 2,
+        "repost-of": 2
+      },
+      "score": 0.316
+    },
+    "twitter.com/ItsBieberSwag": {
+      "out": {
+        "repost-of": 2,
+        "other": 2
+      },
+      "score": 0.316
+    },
+    "twitter.com/BrittJilleba": {
+      "out": {
+        "repost-of": 2,
+        "other": 2
+      },
+      "score": 0.316
+    },
+    "news.indieweb.org": {
+      "in": {
+        "other": 16
+      },
+      "score": 0.316
+    },
+    "twitter.com/AMHHendrix": {
+      "out": {
+        "repost-of": 2,
+        "other": 1
+      },
+      "score": 0.301
+    },
+    "twitter.com/Tokstwit": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.301
+    },
+    "wouterandeweg.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.301
+    },
+    "twitter.com/j_postma": {
+      "out": {
+        "like-of": 3
+      },
+      "score": 0.283
+    },
+    "twitter.com/GVB_klanten": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "twitter.com/dewintertuin": {
+      "out": {
+        "repost-of": 2
+      },
+      "score": 0.283
+    },
+    "marcthiele.com": {
+      "in": {
+        "other": 10
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.283
+    },
+    "davidvanroon.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "twitter.com/duwonl": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "twitter.com/naamloospuntdoc": {
+      "out": {
+        "repost-of": 2
+      },
+      "score": 0.283
+    },
+    "twitter.com/emmabroekhuizen": {
+      "out": {
+        "repost-of": 2
+      },
+      "score": 0.283
+    },
+    "www.studionoord.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "twitter.com/iA": {
+      "out": {
+        "repost-of": 2
+      },
+      "score": 0.283
+    },
+    "twitter.com/LindaHormes": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "www.twitch.tv": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "de-gids.nl": {
+      "out": {
+        "like-of": 2,
+        "other": 2
+      },
+      "score": 0.283
+    },
+    "twitter.com/onemorething": {
+      "out": {
+        "repost-of": 2
+      },
+      "score": 0.283
+    },
+    "twitter.com/pippinbarr": {
+      "out": {
+        "repost-of": 2
+      },
+      "score": 0.283
+    },
+    "www.onzetaal.nl": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "unrelenting.technology": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.283
+    },
+    "twitter.com/EMolkenboer": {
+      "out": {
+        "repost-of": 2
+      },
+      "score": 0.283
+    },
+    "vanderven.se": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "twitter.com/Go_Bond": {
+      "out": {
+        "repost-of": 2
+      },
+      "score": 0.283
+    },
+    "twitter.com/LaurensLinde": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "twitter.com/bentvanlooy": {
+      "out": {
+        "repost-of": 2
+      },
+      "score": 0.283
+    },
+    "twitter.com/deBuren": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "www.opruweplanken.nl": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.283
+    },
+    "tantek.com": {
+      "out": {
+        "other": 1,
+        "like-of": 1
+      },
+      "in": {
+        "in-reply-to": 1
+      },
+      "score": 0.274
+    },
+    "www.tofugu.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.263
+    },
+    "decorrespondent.nl": {
+      "out": {
+        "other": 3,
+        "bookmark-of": 1
+      },
+      "score": 0.263
+    },
+    "twitter.com/NS_online": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.263
+    },
+    "www.wintertuin.nl": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.263
+    },
+    "teamyannick.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.263
+    },
+    "www.boekopdebank.nl": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.263
+    },
+    "itun.es": {
+      "out": {
+        "other": 3,
+        "like-of": 1
+      },
+      "score": 0.263
+    },
+    "www.aafkeromeijn.nl": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.263
+    },
+    "njcovers.wordpress.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "twitter.com/aukehulst": {
+      "out": {
+        "like-of": 2
+      },
+      "score": 0.237
+    },
+    "brotti.nl": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "twitter.com/Rob18975": {
+      "out": {
+        "repost-of": 1,
+        "other": 1
+      },
+      "score": 0.237
+    },
+    "www.lisaweeda.tumblr.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "www.strava.com": {
+      "out": {
+        "like-of": 1,
+        "other": 2
+      },
+      "score": 0.237
+    },
+    "itunes.apple.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "www.pippinbarr.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "twitter.com/macdiver": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "www.allesruiktnaarchocola.nl": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "users.telenet.be": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "insertuser.nl": {
+      "out": {
+        "bookmark-of": 1,
+        "like-of": 1
+      },
+      "score": 0.237
+    },
+    "strubbel.nl": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "eenwoordpoeet.nl": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "ow.ly": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "www.de-gids.nl": {
+      "out": {
+        "other": 2,
+        "bookmark-of": 1
+      },
+      "score": 0.237
+    },
+    "twitter.com/Medium": {
+      "out": {
+        "repost-of": 1,
+        "other": 1
+      },
+      "score": 0.237
+    },
+    "phpunit.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "mastersofmedia.hum.uva.nl": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "fb.me": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "www.janpostma.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "Bol.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "twitter.com/JVocab": {
+      "out": {
+        "repost-of": 1
+      },
+      "score": 0.204
+    },
+    "www.deezer.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/volkskrant": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "www.voordekunst.nl": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/nrc": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/bedrijf_bewegen": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "getkirby.com": {
+      "out": {
+        "bookmark-of": 1,
+        "other": 1
+      },
+      "score": 0.204
+    },
+    "twitter.com/Scout_In": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/TrumpDraws": {
+      "out": {
+        "other": 1,
+        "like-of": 1
+      },
+      "score": 0.204
+    },
+    "roosvlogman.nl": {
+      "out": {
+        "other": 1,
+        "like-of": 1
+      },
+      "score": 0.204
+    },
+    "twitvid.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "blendle.nl": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "m.youtube.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "shitthatsirisays.tumblr.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/MartinRombouts": {
+      "out": {
+        "like-of": 1,
+        "other": 1
+      },
+      "score": 0.204
+    },
+    "twitter.com/SVNnijmegen": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/Firemansnip": {
+      "out": {
+        "repost-of": 1
+      },
+      "score": 0.204
+    },
+    "twitter.com/Independent": {
+      "out": {
+        "repost-of": 1
+      },
+      "score": 0.204
+    },
+    "twitter.com/cpnb": {
+      "out": {
+        "repost-of": 1
+      },
+      "score": 0.204
+    },
+    "literaturfest.nl": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "typographica.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "www.hetmeisjedatopdinsdaghetbierschenkt.nl": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "www.meertens.knaw.nl": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/cactus709": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/repudo": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/ALOProductivity": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/L0oiic": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/moleskine": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "woordentest.ugent.be": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "www.atlascontact.nl": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "www.newyorker.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/bemeapp": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "austinkleon.com": {
+      "out": {
+        "bookmark-of": 1,
+        "other": 1
+      },
+      "score": 0.204
+    },
+    "www.gay.nl": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/Folia": {
+      "out": {
+        "repost-of": 1
+      },
+      "score": 0.204
+    },
+    "www.IKEA.nl": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "www.standaard.be": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "www.onemorething.nl": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "modderenlijm.wordpress.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/louisa_saunders": {
+      "out": {
+        "other": 1,
+        "like-of": 1
+      },
+      "score": 0.204
+    },
+    "deburen.eu": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "itunes.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/t": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "www.decorrespondent.nl": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "www.plu.nl": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "www.deburen.eu": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "80.112.167.114": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "granta.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "www.facebook.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/Annesax": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "www.jelkoarts.nl": {
+      "out": {
+        "like-of": 1,
+        "other": 1
+      },
+      "score": 0.204
+    },
+    "24ways.org": {
+      "out": {
+        "other": 1,
+        "bookmark-of": 1
+      },
+      "score": 0.204
+    },
+    "members.quicknet.nl": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/EmmaCurvers": {
+      "out": {
+        "repost-of": 1
+      },
+      "score": 0.204
+    },
+    "www.iphoneresolution.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "facebook.com/mark.oosterbaan.52": {
+      "out": {
+        "other": 1,
+        "like-of": 1
+      },
+      "score": 0.204
+    },
+    "gay.nl": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "hopjesvlatoe.wordpress.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/OrgelVreten": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/IDLabTweets": {
+      "out": {
+        "repost-of": 1
+      },
+      "score": 0.204
+    },
+    "twitter.com/JanEmmens": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/wol": {
+      "out": {
+        "repost-of": 1
+      },
+      "score": 0.204
+    },
+    "twitter.com/_NickMuller_": {
+      "out": {
+        "repost-of": 1
+      },
+      "score": 0.204
+    },
+    "twitter.com/krisoosting": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/simondepimon": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "primes.utm.edu": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "www.nporadio2.nl": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/jasperpiersma": {
+      "out": {
+        "repost-of": 1
+      },
+      "score": 0.204
+    },
+    "waarhetwaait.wordpress.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/alexismadrigal": {
+      "out": {
+        "repost-of": 1
+      },
+      "score": 0.204
+    },
+    "twitter.com/sruwhof": {
+      "out": {
+        "repost-of": 1
+      },
+      "score": 0.204
+    },
+    "nl.wikipedia.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "theswivet.blogspot.nl": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/Kunstnacht024": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.204
+    },
+    "twitter.com/ivovictoria": {
+      "out": {
+        "repost-of": 1
+      },
+      "score": 0.204
+    },
+    "facebook.com/wutandeweg": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "twitter.com/LeidenMarathon": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "www.uitzendinggemist.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "twitter.com/tao_lin": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "vimeo.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "tvdd.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "writenow.nu": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "www.dekift.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "www.bentvanlooy.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "www.usgo.org": {
+      "out": {
+        "bookmark-of": 1
+      },
+      "score": 0.159
+    },
+    "blip.tv": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "boekopdebank.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "twitter.com/LisaWeeda": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "www.aukehulst.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "www.ru.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "iA.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "petermolnar.net": {
+      "out": {
+        "bookmark-of": 1
+      },
+      "score": 0.159
+    },
+    "twitpic.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "www.adobe.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "www.tjeerdposthuma.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "jkphl.is": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "www.invoiceninja.com": {
+      "out": {
+        "bookmark-of": 1
+      },
+      "score": 0.159
+    },
+    "anydice.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "emmabroekhuizen.wordpress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "twitter.com/niconaus": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "www.gobond.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "artsenlentes.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "sijmen.ruwhof.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "boffosocko.com": {
+      "out": {
+        "bookmark-of": 1
+      },
+      "score": 0.159
+    },
+    "kimjongillookingatthings.tumblr.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "soundcloud.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "twitter.com/marcthiele": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "dasm.ag": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "www.erikmolkenboer.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "www.renskedegreef.nl": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "twitter.com/austinkleon": {
+      "out": {
+        "bookmark-of": 1
+      },
+      "score": 0.159
+    },
+    "www.nrcreader.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "facebook.com/AlexanderPechtold": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "toc.oreilly.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "twitter.com/wwwaanders": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "in-credible.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "twitter.com/wouterandeweg": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "twitter.com/LoranKloeze": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "radio.omroep.nl": {
+      "out": {
+        "bookmark-of": 1
+      },
+      "score": 0.159
+    },
+    "twitter.com/Hjalmarkem": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "facebook.com/boekopdebank": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "fotostrips.nl": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "twitter.com/BenVolkers": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "wodkanademosterd.com": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "contemporary-home-computing.org": {
+      "out": {
+        "bookmark-of": 1
+      },
+      "score": 0.159
+    },
+    "getgrav.org": {
+      "out": {
+        "bookmark-of": 1
+      },
+      "score": 0.159
+    },
+    "facebook.com/johan.roos.522": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "ia.net": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "inktinstinct.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "www.drkwstrvlt.nl": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "www.thethingsnetwork.org": {
+      "out": {
+        "bookmark-of": 1
+      },
+      "score": 0.159
+    },
+    "www.cineville.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "kanjicards.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "www.djp.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "www.tinyshorts.nl": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.159
+    },
+    "tommorris.org": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "twitter.com/KonkreteGifs": {
+      "out": {
+        "like-of": 1
+      },
+      "score": 0.159
+    },
+    "www.demusontwerpt.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.159
+    },
+    "bastianallgeier.com": {
+      "out": {
+        "bookmark-of": 1
+      },
+      "score": 0.159
+    },
+    "jasperpiersma.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "twitter.com/adamzuidoost": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "twitter.com/ingnl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "uitfestivalnijmegen.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "microformats.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "twitter.com/GDMWFestival": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.cafepress.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "twitter.com/LEONR0MER": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "twitter.com/vpro": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "zegnat.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "het.waait.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.vpro.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "twitter.com/JudithBosch": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.boffosocko.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.lottelentes.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.brandweersmilde.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "twitter.com/AdviceToWriters": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "twitter.com/EJPotgieter": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "vine.co": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.niconaus.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "twitter.com/EntreeMag": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.schrijversgenootschap.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.emmacurvers.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.evan129.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.independent.co.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "mijn.postbank.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.radiosiberie.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "Medium.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "fighthangover.blogspot.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.focus.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.mediamatic.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.w3.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "twitter.com/Alan_Moss": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.ralon.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.stefanmeeuws.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.2016jaarvanhetboek.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "bof.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "ocramius.github.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.arthurjapin.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.nickmuller.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "gregorlove.com": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.0791
+    },
+    "idlab.design": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "twitter.com/Bjheijne": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.europe-v-facebook.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "marijnsikken.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "twitter.com/dirkvist": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.wall-flower.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.ivovictoria.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.lizespit.be": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.folia.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.ikgastarten.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "konkretegifs.tumblr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "alexismadrigal.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "twitter.com/bywordapp": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "twitter.com/vandenb": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "webmention.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "twitter.com/donkerzwart": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "lisaweeda.tumblr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "incognitief.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.hpdetijd.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "fusion.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "jesselisser.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "Instagram.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "i100.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "www.cpnb.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0791
+    },
+    "boghop.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

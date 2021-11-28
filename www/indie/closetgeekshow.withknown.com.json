@@ -1,0 +1,102 @@
+{
+  "domain": "closetgeekshow.withknown.com",
+  "urls": [
+    "https://closetgeekshow.withknown.com/profile/closetgeekshow",
+    "http://closetgeekshow.ca",
+    "http://twitter.com/closetgeekshow"
+  ],
+  "names": [
+    "Brent Morris",
+    "The Closet Geek Show Linkblog",
+    "Closet Geek Show"
+  ],
+  "descriptions": [
+    "A personal linkblog about the strange things people obsess about.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://closetgeekshow.withknown.com/file/52ce2ae4157712e6715920c9663546fd",
+    "https://closetgeekshow.withknown.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Brent Morris"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>A personal linkblog about the strange things people obsess about.</p>\n</div>",
+          "value": "\nA personal linkblog about the strange things people obsess about.\n"
+        }
+      ],
+      "photo": [
+        "https://closetgeekshow.withknown.com/file/52ce2ae4157712e6715920c9663546fd"
+      ],
+      "profile": [
+        "Brent Morris"
+      ],
+      "url": [
+        "https://closetgeekshow.withknown.com/profile/closetgeekshow",
+        "https://closetgeekshow.withknown.com/profile/closetgeekshow",
+        "http://closetgeekshow.ca",
+        "http://twitter.com/closetgeekshow"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://closetgeekshow.ca",
+    "http://twitter.com/closetgeekshow"
+  ],
+  "crawl_start": "2017-04-28T05:16:19",
+  "crawl_end": "2017-04-28T05:23:56",
+  "num_pages": 404,
+  "total_html_size": 10396011,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://closetgeekshow.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 1369,
+  "links_in": 2,
+  "links": {
+    "scripting.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.525
+    },
+    "shkspr.mobi": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.353
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.118
+    }
+  }
+}

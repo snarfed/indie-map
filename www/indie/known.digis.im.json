@@ -1,0 +1,107 @@
+{
+  "domain": "known.digis.im",
+  "urls": [
+    "http://known.digis.im/profile/digisim",
+    "http://twitter.com/digisim",
+    "http://blog.digis.im"
+  ],
+  "names": [
+    "Digisim",
+    "Digisim's (un)Known"
+  ],
+  "descriptions": [
+    "I am a \"Flipped Academic\" (Bruton 2012) driven by the passion I have for learning & teaching. Head of Digital Pedagogy at an HEI • National Teaching Fellow • Senior Fellow of Higher Education Academy • Apple Distinguished EducatorIt's rude not to share.™",
+    " A messy social website for a Flipped Academic."
+  ],
+  "pictures": [
+    "http://known.digis.im/file/c699e7cb7e1dfd5cac0b361ceee7c2ae/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Digisim"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I am a \"Flipped Academic\" (Bruton 2012) driven by the passion I have for learning &amp; teaching. Head of Digital Pedagogy at an HEI • National Teaching Fellow • Senior Fellow of Higher Education Academy • Apple Distinguished Educator<br/>It's rude not to share.™</p>\n</div> ",
+          "value": "\nI am a \"Flipped Academic\" (Bruton 2012) driven by the passion I have for learning & teaching. Head of Digital Pedagogy at an HEI • National Teaching Fellow • Senior Fellow of Higher Education Academy • Apple Distinguished EducatorIt's rude not to share.™\n "
+        }
+      ],
+      "photo": [
+        "http://known.digis.im/file/c699e7cb7e1dfd5cac0b361ceee7c2ae/thumb.jpg"
+      ],
+      "profile": [
+        "Digisim"
+      ],
+      "url": [
+        "http://known.digis.im/profile/digisim",
+        "http://known.digis.im/profile/digisim",
+        "http://twitter.com/digisim",
+        "http://blog.digis.im"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/digisim",
+    "http://blog.digis.im"
+  ],
+  "crawl_start": "2017-04-29T04:32:46",
+  "crawl_end": "2017-04-29T04:33:52",
+  "num_pages": 66,
+  "total_html_size": 1495752,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.digis.im/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 400,
+  "links_in": 3,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 66
+      },
+      "score": 1
+    },
+    "blog.digis.im": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.898
+    },
+    "lawriephipps.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.285
+    },
+    "brid.gy": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.225
+    }
+  }
+}

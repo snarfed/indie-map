@@ -1,0 +1,98 @@
+{
+  "domain": "prtksxna.com",
+  "urls": [
+    "http://prtksxna.com/"
+  ],
+  "names": [
+    "Prateek Saxena"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://gravatar.com/avatar/17f37be7dfd491b7b442a79f69e08f16?s=48"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Prateek Saxena"
+      ],
+      "photo": [
+        "http://gravatar.com/avatar/17f37be7dfd491b7b442a79f69e08f16?s=48"
+      ],
+      "url": [
+        "http://prtksxna.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/prtksxna",
+    "https://github.com/prtksxna",
+    "https://plus.google.com/+PrateekSaxena17/about"
+  ],
+  "crawl_start": "2017-04-25T04:57:46",
+  "crawl_end": "2017-04-25T05:11:29",
+  "num_pages": 94,
+  "total_html_size": 1293351,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-feed",
+    "h-card",
+    "h-geo"
+  ],
+  "tags": [
+    "relme",
+    "IRC",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "micropub": [
+      "https://prtksxna.com/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 338,
+  "links_in": 1270,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 810
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 458
+      },
+      "score": 0.915
+    },
+    "kartikprabhu.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "in-reply-to": 2
+      },
+      "score": 0.394
+    },
+    "c2.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.207
+    }
+  }
+}

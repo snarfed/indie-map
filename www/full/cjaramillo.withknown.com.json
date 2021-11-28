@@ -1,0 +1,66 @@
+{
+  "domain": "cjaramillo.withknown.com",
+  "urls": [
+    "http://cjaramillo.withknown.com/"
+  ],
+  "names": [
+    "Christina's Blog"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://cjaramillo.withknown.com/file/8a50ba27130ca497d4ad4d076b18b537/thumb.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T05:16:18",
+  "crawl_end": "2017-04-28T05:16:59",
+  "num_pages": 38,
+  "total_html_size": 1274379,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://cjaramillo.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 13,
+  "links_in": 0,
+  "links": {
+    "jgregorymcverry.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 1
+    },
+    "twitter.com/jgmac1106": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.646
+    },
+    "quickthoughts.jgregorymcverry.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.502
+    }
+  }
+}

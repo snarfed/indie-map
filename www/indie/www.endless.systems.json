@@ -1,0 +1,107 @@
+{
+  "domain": "www.endless.systems",
+  "urls": [
+    "http://www.endless.systems/profile/warrenellis",
+    "http://morning.computer",
+    "https://www.instagram.com/warrenellis/"
+  ],
+  "names": [
+    "Warren Ellis",
+    "endless systems: a notebook"
+  ],
+  "descriptions": [
+    "Writer from England.  Contactable at warrenellis at gmail dot com.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://www.endless.systems/file/ebd83d9225d364fbf0be76a6fbc3047f"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Warren Ellis"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Writer from England.  Contactable at warrenellis at gmail dot com.</p>\n</div>",
+          "value": "\nWriter from England.  Contactable at warrenellis at gmail dot com.\n"
+        }
+      ],
+      "photo": [
+        "http://www.endless.systems/file/ebd83d9225d364fbf0be76a6fbc3047f"
+      ],
+      "profile": [
+        "Warren Ellis"
+      ],
+      "url": [
+        "http://www.endless.systems/profile/warrenellis",
+        "http://www.endless.systems/profile/warrenellis",
+        "http://morning.computer",
+        "https://www.instagram.com/warrenellis/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://morning.computer",
+    "https://www.instagram.com/warrenellis/"
+  ],
+  "crawl_start": "2017-04-30T06:12:20",
+  "crawl_end": "2017-04-30T06:57:28",
+  "num_pages": 2448,
+  "total_html_size": 64384544,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.endless.systems/webmention/"
+    ],
+    "micropub": [
+      "http://www.endless.systems/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://www.endless.systems/indieauth/auth"
+    ],
+    "token": [
+      "http://www.endless.systems/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 7637,
+  "links_in": 9,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 2448
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.259
+    }
+  }
+}

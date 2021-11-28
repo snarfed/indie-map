@@ -1,0 +1,78 @@
+{
+  "domain": "mokro.withknown.com",
+  "urls": [
+    "http://mokro.withknown.com/"
+  ],
+  "names": [
+    "Melissa's Blog"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://mokro.withknown.com/file/9abb3b0c7ddd389149894dce4471b025/thumb.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-29T21:31:42",
+  "crawl_end": "2017-04-29T21:32:40",
+  "num_pages": 53,
+  "total_html_size": 1750834,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://mokro.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 33,
+  "links_in": 0,
+  "links": {
+    "edu106.networkedlearningcollaborative.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 1
+    },
+    "jgregorymcverry.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 1
+    },
+    "www.memes.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.953
+    },
+    "d157rqmxrxj6ey.cloudfront.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.895
+    },
+    "madisondunbar.withknown.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.751
+    }
+  }
+}

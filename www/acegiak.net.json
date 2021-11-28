@@ -1,0 +1,3117 @@
+{
+  "domain": "acegiak.net",
+  "urls": [
+    "http://acegiak.net/"
+  ],
+  "names": [
+    "Acegiak.net"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://acegiak.net/wp-content/uploads/gwpf_icon/favicon.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/acegiak",
+    "http://acegiak.tumblr.com",
+    "http://youtube.com/user/acegiak",
+    "http://google.com/+AshtonMcAllan",
+    "http://steamcommunity.com/id/acegiak",
+    "https://github.com/acegiak",
+    "https://acegiak.net/www.last.fm/user/acegiak"
+  ],
+  "crawl_start": "2017-04-23T22:42:37",
+  "crawl_end": "2017-04-25T14:01:36",
+  "num_pages": 14831,
+  "total_html_size": 393263884,
+  "servers": [
+    "Apache (Ubuntu)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-feed",
+    "h-cite",
+    "h-as-reply",
+    "h-as-mention",
+    "h-as-article",
+    "h-as-note"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://acegiak.net/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://acegiak.net/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 382522,
+  "links_in": 15185,
+  "links": {
+    "www.redbubble.com": {
+      "out": {
+        "other": 74134
+      },
+      "score": 1
+    },
+    "www.dmsguild.com": {
+      "out": {
+        "other": 44483
+      },
+      "score": 0.958
+    },
+    "www.last.fm": {
+      "out": {
+        "other": 29678
+      },
+      "score": 0.924
+    },
+    "youtube.com": {
+      "out": {
+        "other": 21742
+      },
+      "score": 0.899
+    },
+    "twitter.com/acegiak": {
+      "out": {
+        "other": 17452
+      },
+      "score": 0.882
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 12195
+      },
+      "in": {
+        "other": 9180
+      },
+      "score": 0.874
+    },
+    "github.com": {
+      "out": {
+        "other": 14881
+      },
+      "score": 0.866
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 14850
+      },
+      "score": 0.866
+    },
+    "acegiak.tumblr.com": {
+      "out": {
+        "other": 14863
+      },
+      "score": 0.866
+    },
+    "machinespirit.net": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 14926
+      },
+      "score": 0.866
+    },
+    "steamcommunity.com": {
+      "out": {
+        "other": 14844
+      },
+      "score": 0.866
+    },
+    "TheRepublic.MachineSpirit.net": {
+      "out": {
+        "other": 14822
+      },
+      "score": 0.866
+    },
+    "david.shanske.com": {
+      "out": {
+        "other": 14830
+      },
+      "score": 0.866
+    },
+    "machinespirit.itch.io": {
+      "out": {
+        "other": 14825
+      },
+      "score": 0.866
+    },
+    "google.com": {
+      "out": {
+        "other": 14822
+      },
+      "score": 0.866
+    },
+    "playwrite.com.au": {
+      "out": {
+        "other": 14822
+      },
+      "score": 0.866
+    },
+    "vurms.tumblr.com": {
+      "out": {
+        "other": 4815
+      },
+      "score": 0.771
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4805
+      },
+      "score": 0.713
+    },
+    "spligitmoose.tumblr.com": {
+      "out": {
+        "other": 2164
+      },
+      "score": 0.703
+    },
+    "nerdcrest.tumblr.com": {
+      "out": {
+        "other": 1845
+      },
+      "score": 0.690
+    },
+    "known.kylewm.com": {
+      "in": {
+        "other": 132,
+        "in-reply-to": 327
+      },
+      "score": 0.629
+    },
+    "cravatfiend.tumblr.com": {
+      "out": {
+        "other": 787
+      },
+      "score": 0.618
+    },
+    "t.umblr.com": {
+      "out": {
+        "other": 720
+      },
+      "score": 0.611
+    },
+    "www.videogamegeek.com": {
+      "out": {
+        "other": 711
+      },
+      "score": 0.610
+    },
+    "amateur-1314.tumblr.com": {
+      "out": {
+        "other": 689
+      },
+      "score": 0.608
+    },
+    "kylewm.com": {
+      "out": {
+        "other": 252
+      },
+      "in": {
+        "in-reply-to": 92,
+        "like-of": 51,
+        "other": 173
+      },
+      "score": 0.598
+    },
+    "wolvesarekuhl.tumblr.com": {
+      "out": {
+        "other": 597
+      },
+      "score": 0.595
+    },
+    "failtumblrisfail.tumblr.com": {
+      "out": {
+        "other": 554
+      },
+      "score": 0.589
+    },
+    "nerdy-trans-girl.tumblr.com": {
+      "out": {
+        "other": 537
+      },
+      "score": 0.587
+    },
+    "nostopdasgay.tumblr.com": {
+      "out": {
+        "other": 515
+      },
+      "score": 0.583
+    },
+    "werd.io": {
+      "out": {
+        "other": 309
+      },
+      "in": {
+        "other": 101,
+        "in-reply-to": 36
+      },
+      "score": 0.571
+    },
+    "blackwoolholiday.com": {
+      "out": {
+        "other": 419
+      },
+      "score": 0.566
+    },
+    "campaignpodcast.tumblr.com": {
+      "out": {
+        "other": 395
+      },
+      "score": 0.561
+    },
+    "feeds.boingboing.net": {
+      "out": {
+        "other": 397
+      },
+      "score": 0.561
+    },
+    "twitter.com/DarkestKale": {
+      "out": {
+        "other": 351
+      },
+      "score": 0.550
+    },
+    "cabbage-cutie.tumblr.com": {
+      "out": {
+        "other": 317
+      },
+      "score": 0.542
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 305
+      },
+      "score": 0.539
+    },
+    "lair-master.tumblr.com": {
+      "out": {
+        "other": 308
+      },
+      "score": 0.539
+    },
+    "dobbybot.tumblr.com": {
+      "out": {
+        "other": 285
+      },
+      "score": 0.534
+    },
+    "skinnyghost.tumblr.com": {
+      "out": {
+        "other": 288
+      },
+      "score": 0.534
+    },
+    "wilwheaton.tumblr.com": {
+      "out": {
+        "other": 254
+      },
+      "score": 0.524
+    },
+    "twitter.com/twitter": {
+      "out": {
+        "other": 236
+      },
+      "score": 0.518
+    },
+    "tmblr.co": {
+      "out": {
+        "other": 231
+      },
+      "score": 0.516
+    },
+    "kristinlouboutin.tumblr.com": {
+      "out": {
+        "other": 224
+      },
+      "score": 0.513
+    },
+    "adam-koebel.com": {
+      "out": {
+        "other": 184
+      },
+      "score": 0.497
+    },
+    "www.amazon.com": {
+      "out": {
+        "other": 182
+      },
+      "score": 0.496
+    },
+    "twitter.com/demanrisu": {
+      "out": {
+        "other": 173
+      },
+      "score": 0.492
+    },
+    "thehen.net": {
+      "out": {
+        "other": 167
+      },
+      "score": 0.488
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "in-reply-to": 42,
+        "other": 50
+      },
+      "out": {
+        "other": 31
+      },
+      "score": 0.485
+    },
+    "lookbook.nu": {
+      "out": {
+        "other": 160
+      },
+      "score": 0.485
+    },
+    "videogamegeek.com": {
+      "out": {
+        "other": 160
+      },
+      "score": 0.485
+    },
+    "phdancer.tumblr.com": {
+      "out": {
+        "other": 160
+      },
+      "score": 0.485
+    },
+    "jakubsan.tumblr.com": {
+      "out": {
+        "other": 150
+      },
+      "score": 0.479
+    },
+    "juliahenningmusic.tumblr.com": {
+      "out": {
+        "other": 140
+      },
+      "score": 0.473
+    },
+    "edwardspoonhands.com": {
+      "out": {
+        "other": 135
+      },
+      "score": 0.471
+    },
+    "mikerugnetta.tumblr.com": {
+      "out": {
+        "other": 136
+      },
+      "score": 0.471
+    },
+    "binch-queen.tumblr.com": {
+      "out": {
+        "other": 137
+      },
+      "score": 0.471
+    },
+    "artissimo.tumblr.com": {
+      "out": {
+        "other": 132
+      },
+      "score": 0.469
+    },
+    "plus.google.com/+AshtonMcAllan": {
+      "out": {
+        "other": 131
+      },
+      "score": 0.468
+    },
+    "hexington.tumblr.com": {
+      "out": {
+        "other": 129
+      },
+      "score": 0.466
+    },
+    "twitter.com/dotarray": {
+      "out": {
+        "other": 126
+      },
+      "score": 0.465
+    },
+    "www.artstation.com": {
+      "out": {
+        "other": 121
+      },
+      "score": 0.461
+    },
+    "we-are-star-stuff.tumblr.com": {
+      "out": {
+        "other": 121
+      },
+      "score": 0.461
+    },
+    "blackwoolholiday.tumblr.com": {
+      "out": {
+        "other": 117
+      },
+      "score": 0.459
+    },
+    "katmurphyismagic.tumblr.com": {
+      "out": {
+        "other": 116
+      },
+      "score": 0.458
+    },
+    "eligreenmusic.com": {
+      "out": {
+        "other": 115
+      },
+      "score": 0.457
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 103
+      },
+      "score": 0.448
+    },
+    "acegiak.machinespirit.net": {
+      "out": {
+        "other": 100
+      },
+      "score": 0.445
+    },
+    "coy.ninja": {
+      "out": {
+        "other": 94
+      },
+      "score": 0.440
+    },
+    "www.oneshotpodcast.com": {
+      "out": {
+        "other": 92
+      },
+      "score": 0.438
+    },
+    "callmemonamiral.tumblr.com": {
+      "out": {
+        "other": 88
+      },
+      "score": 0.434
+    },
+    "dimensionsinspace.tumblr.com": {
+      "out": {
+        "other": 86
+      },
+      "score": 0.433
+    },
+    "www.engadget.com": {
+      "out": {
+        "other": 84
+      },
+      "score": 0.430
+    },
+    "butterbeer-flow.tumblr.com": {
+      "out": {
+        "other": 81
+      },
+      "score": 0.428
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 76
+      },
+      "score": 0.422
+    },
+    "lookbookdotnu.tumblr.com": {
+      "out": {
+        "other": 76
+      },
+      "score": 0.422
+    },
+    "montyinspace.tumblr.com": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.418
+    },
+    "sequinsandsarcasm.tumblr.com": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.418
+    },
+    "jeena.net": {
+      "out": {
+        "other": 18
+      },
+      "in": {
+        "other": 28,
+        "in-reply-to": 15
+      },
+      "score": 0.414
+    },
+    "waterpigs.co.uk": {
+      "out": {
+        "other": 29
+      },
+      "in": {
+        "other": 81
+      },
+      "score": 0.414
+    },
+    "twitter.com/dobbybot": {
+      "out": {
+        "other": 69
+      },
+      "score": 0.414
+    },
+    "t.co": {
+      "out": {
+        "other": 67
+      },
+      "score": 0.412
+    },
+    "imgur.com": {
+      "out": {
+        "other": 63
+      },
+      "score": 0.407
+    },
+    "www.liamesler.com": {
+      "out": {
+        "other": 62
+      },
+      "score": 0.405
+    },
+    "aaronparecki.com": {
+      "out": {
+        "in-reply-to": 3,
+        "other": 35
+      },
+      "in": {
+        "other": 22
+      },
+      "score": 0.403
+    },
+    "melonkitten88.tumblr.com": {
+      "out": {
+        "other": 57
+      },
+      "score": 0.398
+    },
+    "www.instagram.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.397
+    },
+    "akas.imdb.com": {
+      "out": {
+        "other": 55
+      },
+      "score": 0.395
+    },
+    "twitter.com/expectproblems": {
+      "out": {
+        "other": 54
+      },
+      "score": 0.393
+    },
+    "tantek.com": {
+      "out": {
+        "other": 38,
+        "in-reply-to": 3
+      },
+      "score": 0.392
+    },
+    "halfmeme.com": {
+      "out": {
+        "other": 53
+      },
+      "score": 0.392
+    },
+    "twitter.com/Robynred_breast": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.390
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 51
+      },
+      "score": 0.388
+    },
+    "twitter.com/Ecoludologist": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.387
+    },
+    "www.reddit.com": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.387
+    },
+    "dl.orangedox.com": {
+      "out": {
+        "other": 50
+      },
+      "score": 0.387
+    },
+    "twitter.com/AntStiller": {
+      "out": {
+        "other": 49
+      },
+      "score": 0.385
+    },
+    "twitter.com/ms45": {
+      "out": {
+        "other": 47
+      },
+      "score": 0.382
+    },
+    "twitter.com/roll20app": {
+      "out": {
+        "other": 47
+      },
+      "score": 0.382
+    },
+    "char-portraits.tumblr.com": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.376
+    },
+    "twitter.com/wolvesarekuhl": {
+      "out": {
+        "other": 43
+      },
+      "score": 0.374
+    },
+    "youtu.be": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.372
+    },
+    "pbs.twimg.com": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.372
+    },
+    "harrietvane.tumblr.com": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.368
+    },
+    "hannahkemp.tumblr.com": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.368
+    },
+    "boardgamegeek.com": {
+      "out": {
+        "other": 39
+      },
+      "score": 0.366
+    },
+    "nedroidcomics.tumblr.com": {
+      "out": {
+        "other": 39
+      },
+      "score": 0.366
+    },
+    "bajopants.tumblr.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.360
+    },
+    "twitter.com/gritfish": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.360
+    },
+    "eligreendrums.tumblr.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.360
+    },
+    "twitter.com/rednineteen": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.355
+    },
+    "twitter.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.355
+    },
+    "michaelaranda.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.355
+    },
+    "twitter.com/Balketh": {
+      "out": {
+        "other": 33
+      },
+      "score": 0.352
+    },
+    "twitter.com/indiegamesroom": {
+      "out": {
+        "other": 33
+      },
+      "score": 0.352
+    },
+    "feedproxy.google.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.350
+    },
+    "www.tumblr.com": {
+      "out": {
+        "other": 29
+      },
+      "score": 0.341
+    },
+    "twitter.com/campaignpod": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.339
+    },
+    "twitter.com/JohnnyInBriefs": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.339
+    },
+    "500px.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.339
+    },
+    "insipit.tumblr.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.339
+    },
+    "rstyle.me": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.339
+    },
+    "glasmond.tumblr.com": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.335
+    },
+    "boingboing.net": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.335
+    },
+    "amandapalmer.tumblr.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.332
+    },
+    "twitter.com/liamesler": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.332
+    },
+    "twitter.com/catschinwag": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.329
+    },
+    "twitter.com/laurclinn": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.329
+    },
+    "twitter.com/tomscott": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.329
+    },
+    "www.patreon.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.325
+    },
+    "michaelaranda.tumblr.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.325
+    },
+    "feedads.g.doubleclick.net": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.325
+    },
+    "nerdist.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.325
+    },
+    "twitter.com/tijit_": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.322
+    },
+    "twitter.com/blackwoolsays": {
+      "out": {
+        "other": 23
+      },
+      "score": 0.322
+    },
+    "kevinmarks.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.318
+    },
+    "twitter.com/aliciadudek": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.318
+    },
+    "twitter.com/adelaideshow": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.318
+    },
+    "twitter.com/jatosha": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.314
+    },
+    "twitter.com/AlaynaMCole": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.314
+    },
+    "twitter.com/silent0siris": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.310
+    },
+    "www.thinkgeek.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.310
+    },
+    "tarot-sybarite.tumblr.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.310
+    },
+    "geyserofawesome.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.310
+    },
+    "twitter.com/ArtGalleryOfSA": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.310
+    },
+    "darksilenceinsuburbia.tumblr.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.310
+    },
+    "lessonsforchildren.tumblr.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.310
+    },
+    "www.behance.net": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.310
+    },
+    "monadnock.machinespirit.net": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.310
+    },
+    "rpggeek.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.310
+    },
+    "erinjo.is": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.310
+    },
+    "dribbble.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.310
+    },
+    "twitter.com/SkullMutant": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.306
+    },
+    "twitter.com/delaneykingrox": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.306
+    },
+    "twitter.com/OneShotRPG": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.306
+    },
+    "fishingboatproceeds.tumblr.com": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.306
+    },
+    "twitter.com/skinnyghost": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.306
+    },
+    "twitter.com/warcraft": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.301
+    },
+    "games.on.net": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.301
+    },
+    "maceobennett.tumblr.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.301
+    },
+    "adactio.com": {
+      "out": {
+        "other": 12
+      },
+      "in": {
+        "other": 12
+      },
+      "score": 0.301
+    },
+    "twitter.com/TVHEES": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.301
+    },
+    "hackaday.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.301
+    },
+    "xkcd.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.301
+    },
+    "twitter.com/kevinmarks": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.297
+    },
+    "www.pcauthority.com.au": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.297
+    },
+    "splinteringwheel.machinespirit.net": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.297
+    },
+    "noblekale.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.297
+    },
+    "twitter.com/verby_noun": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.297
+    },
+    "davidesky2.tumblr.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.292
+    },
+    "micdotcom.tumblr.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.292
+    },
+    "mic.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.292
+    },
+    "amzn.to": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.292
+    },
+    "twitter.com/daisyrdley": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.292
+    },
+    "lillyandleopard.tumblr.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.292
+    },
+    "instagram.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.292
+    },
+    "twitter.com/marauders": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.292
+    },
+    "we-are-rogue.tumblr.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.292
+    },
+    "koyoriin.tumblr.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.292
+    },
+    "seraph777.deviantart.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.292
+    },
+    "twitter.com/aldrachi": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.292
+    },
+    "tumblr.tastefullyoffensive.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.292
+    },
+    "soup.johl.io": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.286
+    },
+    "www.igdb.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.286
+    },
+    "notizblog.org": {
+      "out": {
+        "other": 5,
+        "in-reply-to": 2
+      },
+      "score": 0.286
+    },
+    "share.feedsportal.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.286
+    },
+    "twitter.com/mailmandelorean": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.286
+    },
+    "twitter.com/spligitMoose": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.286
+    },
+    "amygdala.machinespirit.net": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.286
+    },
+    "twitter.com/patlikestotweet": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.280
+    },
+    "www.kickstarter.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.280
+    },
+    "subbable.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.280
+    },
+    "crossyroad.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.280
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 5
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.277
+    },
+    "twitter.com/Wrenegadey": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.274
+    },
+    "twitter.com/JuliaHenningAU": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.274
+    },
+    "smolin.deviantart.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "tuulikki.tumblr.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "twitter.com/youtube": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "k-ui.tumblr.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "twitter.com/AngryArtist113": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "www.theguardian.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "sekigan.tumblr.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "twitter.com/SnowIsEveryWord": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "erenarik.deviantart.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "amateur1314.tumblr.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "magicalplaylist.tumblr.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "twitter.com/MarvelMash": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "twitter.com/magicspacegirl": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "derinthemadscientist.tumblr.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "spassundspiele.tumblr.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "theinturnetexplorer.tumblr.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "coo-chan.tumblr.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "twitter.com/Drew_Bowie": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "twitter.com/furious_tfm": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "www.etsy.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "twitter.com/telstra": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "angryartist113.tumblr.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "www.playerattack.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "motivationsforlife.tumblr.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "musterni-illustrates.tumblr.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "twitter.com/lizduckchong": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "tommorris.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.267
+    },
+    "theartofanimation.tumblr.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.260
+    },
+    "twitter.com/CrossyRoad": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.260
+    },
+    "twitter.com/Silent0siris": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.260
+    },
+    "eschnou.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.260
+    },
+    "twitter.com/xSkyTamer": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.260
+    },
+    "www.futurismgrey.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.260
+    },
+    "twitter.com/Synthetic_Syn": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.252
+    },
+    "twitter.com/GeorgMir": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.252
+    },
+    "twitter.com/adelaide_zoo": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.252
+    },
+    "twitter.com/charlietheGfish": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.252
+    },
+    "bellatoriusscutiform.tumblr.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.252
+    },
+    "rugnetta.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.252
+    },
+    "twitter.com/tvhees": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.252
+    },
+    "twitter.com/bgifford": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.252
+    },
+    "twitter.com/IndieGamesRoom": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.252
+    },
+    "lancey.space": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.252
+    },
+    "unrelenting.technology": {
+      "out": {
+        "other": 7
+      },
+      "in": {
+        "other": 6
+      },
+      "score": 0.252
+    },
+    "twitter.com/teamAvcon": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.252
+    },
+    "twitter.com/steponlegosforfun": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.252
+    },
+    "doctorwho.tumblr.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "twitter.com/MorganJaffit": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "drhastings.tumblr.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "bace-jeleren.tumblr.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "twitter.com/imogenheap": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "www.boardgamegeek.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "twitter.com/MaizeWallin": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "thefrogman.me": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "justevangeline.tumblr.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "end-of-ottertroid.tumblr.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "meanwhilebackinthedungeon.tumblr.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "nedroid.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "juliahenning.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "www.terrybisson.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "j.mp": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "emmyc.tumblr.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "twitter.com/futurismgrey": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "itch.io": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "store.steampowered.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "cy-lindric.tumblr.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "twitter.com/hazmatt2391": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.243
+    },
+    "twitter.com/V_garpend": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "www.timelady.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "cumaeansibyl.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "whosaprettypolyglot.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "dat-soldier.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "dusint.deviantart.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "hannahblumenreich.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "lingasms.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "warriorzelda.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "jonvier89.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "thoughtfulfangirling.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "blvckgxd.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "genuinehuman.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "quarkmaster.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "jncos.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/Epidiah": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "gameraboy.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "huaban.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/steam_games": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/womadelaide": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "gayscreaming.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/insta": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "www.freegameplanet.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "babyanimalgifs.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "dragon-pulse.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "lilithelle.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "cortexifansquint.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/bajopants": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "www.fubiz.net": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "scrappadoir.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/luscious2": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "robochai.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "strategichomelanddivision.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "thesession.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/mc_frontalot": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "www.brooklynblonde.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "anndr.deviantart.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "deepengines.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "glumshoe.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "www.wanderingoracle.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "doodbog.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "www.boredpanda.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "zazb.deviantart.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "rambleonamazon.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "www.missedinhistory.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "claudiablacks.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "darkki1.deviantart.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "guartist.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "lookatthisbabybird.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "tabletopresources.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/HCTriage": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/doctor_wylde": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "www.cybercircuitz.tk": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "kawaiilluminatii.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "netlfix.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "anthonyholden.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "bass-borot.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "haaaaaaaaave-you-met-ted.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/Gorbles": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/eh_gender": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "andrewbelami.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "dear-tumb1r.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "ebgames.com.au": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/harnaamkaur": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/teamavcon": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "vvnan.deviantart.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "worldofdarkness-eyecandy.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "bewbin.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "lord-kitschener.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/johngreen": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "www.spoon-tamago.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "mobocanario.deviantart.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/Nicola_Gage": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "www.pixiv.net": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "zarb.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "bit.ly": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "foxy-nerdy.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/NatashaFyles": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "zheconceptart.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "storyboardwedding.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/hankgreen": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "fa-nuit-hen.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "invokingbees.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "terawell.net": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "adedrizils-shrine.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "snowskadi.deviantart.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "transgirladventures.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/fishball_suicide": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "www.kuriositas.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "api.shopstyle.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "cuteness--overload.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "radishez.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "tacosauceninja.deviantart.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/SupanovaExpo": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/harisnukem": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "geekandsundry.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "hardyness.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "tapastic.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/AdaKVee": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "byombu.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "tr1yo.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/JayWeatherill": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/zip": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "fenrisesque.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/erinikiAhead": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/littlemisszuipperpips": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "robotsharks.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/CptHollingworth": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/vickisigh": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "krakendra.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "heroineimages.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/earthanddust": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "www.twitch.tv": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "belgania.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "supersonicart.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/CPaech": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/dril": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "www.yann.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "charlie-bowater.deviantart.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "cyberimplant.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "drearycheery.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "1mpulsefromavernalwood.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/sathinfection": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "werility.deviantart.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "guweiz.deviantart.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "sushinfood.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "vickisigh.tictail.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "mrs-transmuter.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/benwerd": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/kylewmahan": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "dashofdarlingblog.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "liketk.it": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "liquidcoma.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/SJN4Katherine": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "demonui.deviantart.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/sagovau": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "a-jedi-in-purgatory.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "catastrophicmisfit.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "liesetiawan.deviantart.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "violent-darts.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "poolsofchrome.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/hateshaliek": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "da-staplerthief.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "lsleofskye.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "number-one-chiquita-dave.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "sturmtruppen.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/artgalleryofsa": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/fanniebay": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "abduzeedo.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "archiemcphee.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "lesbiangaybikestrains.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "oskarstalberg.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "kagekubi.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "sailormoodiness.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "vickisigh.tumblr.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.233
+    },
+    "twitter.com/punkley": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.222
+    },
+    "twitter.com/ironicaccount": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.222
+    },
+    "twitter.com/MammaPixel": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.222
+    },
+    "kartikprabhu.com": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "in-reply-to": 2
+      },
+      "score": 0.222
+    },
+    "twitter.com/homegrainbakery": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.222
+    },
+    "twitter.com/kindofstrange": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.222
+    },
+    "twitter.com/Gaohmee": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.222
+    },
+    "twitter.com/Quinnae_Moon": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.222
+    },
+    "twitter.com/djwheat": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.222
+    },
+    "society6.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.222
+    },
+    "twitter.com/Shrubbette": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.222
+    },
+    "upsidedownbattleship.deviantart.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/PlayHearthstone": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/algo_anthill": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "daryltohblogs.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "paulduffield.storenvy.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/anneofjulie": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "gmail.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/ActNow_Theatre": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "jorniestourie.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/neiltyson": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "www.afktavern.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/JennellAllyn": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/gotye": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/Dungeon_World": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/campaignpocast": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "unusedurl.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "juliapuff.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/feztivus": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "neveraskwhy.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "i.imgur.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/mactaisa": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "heyfunniest.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/DPennyway": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "stevedowe.me": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "ragenineteen.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/TimothyWilde": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/mapkyca": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/timeyles": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "icequakedesign.deviantart.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "randomdrop.machinespirit.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/deviantlamb": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "obscure3rdworldcountry.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/GCAP2015": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "9gag.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "imdb.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "like-of": 2
+      },
+      "score": 0.208
+    },
+    "twitter.com/bbeastsband": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "minus.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/indigamesroom": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/limedaring": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "lucid-luck.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "slutformisha.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/JPsoFLY": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "zoobingo.php": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "the-diarrhea-of-anne-frank.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/TeamAvcon": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/balkanbeatbox": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/yacy_search": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "saveroomminibar.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "gallifreyantimelady.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "fuocogo.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "thranduilland.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/LxFrancis": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/Patashu0": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/arm23509": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/fourplaysq": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "absolute-ridiculosity.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/IGDASA": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "jimsgayunderwear.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/Centrelink": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "www.abc.net.au": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "neil-gaiman.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "www.eiffelart.ca": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "ampullae.tumblr.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "docs.google.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.208
+    },
+    "twitter.com/ZanHulmeMusic": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.193
+    },
+    "stylishblogger.tumblr.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.193
+    },
+    "twitter.com/deanabakas": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.193
+    },
+    "dl.dropboxusercontent.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.193
+    },
+    "twitter.com/timberners_lee": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.193
+    },
+    "facebook.com/massadelaide": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.193
+    }
+  },
+  "links_truncated": true
+}

@@ -1,0 +1,98 @@
+{
+  "domain": "chrisbergr.com",
+  "urls": [
+    "http://chrisbergr.com/"
+  ],
+  "names": [
+    "chrisbergr.com - Playground by Christian Hockenberger",
+    "chrisbergr.com"
+  ],
+  "descriptions": [
+    "Playground by Christian Hockenberger",
+    "Playground and theme development page by Christian Hockenberger"
+  ],
+  "pictures": [
+    "https://i2.wp.com/chrisbergr.com/wp-content/uploads/cropped-chrisbergr-logo-round-black.png?fit=32%2C32",
+    "https://i2.wp.com/chrisbergr.com/wp-content/uploads/cropped-chrisbergr-logo-round-black.png?fit=192%2C192",
+    "http://chrisbergr.com/wp-content/uploads/portfolio-logo-chrisbergr-1024x576.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/https://github.com/chrisbergr",
+    "https://plus.google.com/106589368969128043459",
+    "https://twitter.com/chrisbergr",
+    "https://www.facebook.com/https://www.facebook.com/chrisbergr",
+    "https://www.instagram.com/https://instagram.com/chrisbergr/"
+  ],
+  "crawl_start": "2017-04-28T05:16:18",
+  "crawl_end": "2017-04-28T05:24:17",
+  "num_pages": 64,
+  "total_html_size": 2462175,
+  "servers": [
+    "Apache (Debian)"
+  ],
+  "mf2_classes": [
+    "h-as-bookmark",
+    "h-cite",
+    "h-as-image",
+    "h-as-article",
+    "h-feed",
+    "h-card",
+    "h-as-mention",
+    "h-entry",
+    "h-as-note"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://chrisbergr.com/?webmention=endpoint"
+    ],
+    "micropub": [
+      "http://chrisbergr.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 349,
+  "links_in": 15,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 11
+      },
+      "score": 0.490
+    },
+    "indieberger.mediaberger.com": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.424
+    },
+    "notizblog.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.284
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.284
+    }
+  }
+}

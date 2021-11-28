@@ -1,0 +1,62 @@
+{
+  "domain": "jedahan.com",
+  "urls": [
+    "http://jedahan.com/"
+  ],
+  "names": [
+    " Home | jonathan.is"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://jedahan.com/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://github.com/jedahan"
+  ],
+  "crawl_start": "2017-06-09T18:08:22",
+  "crawl_end": "2017-06-09T18:08:40",
+  "num_pages": 36,
+  "total_html_size": 187853,
+  "servers": [
+    "GitHub.com"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 306,
+  "links_in": 38,
+  "links": {
+    "jonathan.is": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.982
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 26
+      },
+      "score": 0.748
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.569
+    },
+    "example.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.159
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.159
+    }
+  }
+}

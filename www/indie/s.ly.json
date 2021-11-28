@@ -1,0 +1,134 @@
+{
+  "domain": "s.ly",
+  "urls": [
+    "http://s.ly/"
+  ],
+  "names": [
+    "jesse's Known"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://s.ly/gfx/users/default-02.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-25T07:17:42",
+  "crawl_end": "2017-04-25T09:48:45",
+  "num_pages": 3259,
+  "total_html_size": 72813194,
+  "servers": [
+    "Apache (Ubuntu)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://s.ly/webmention/"
+    ],
+    "micropub": [
+      "https://s.ly/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://s.ly/indieauth/token"
+    ],
+    "websub": [
+      "https://badwithknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 19538,
+  "links_in": 600,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 3259
+      },
+      "score": 1
+    },
+    "werd.io": {
+      "in": {
+        "other": 236,
+        "in-reply-to": 30
+      },
+      "score": 0.679
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 198
+      },
+      "score": 0.603
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 89
+      },
+      "score": 0.511
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 29
+      },
+      "score": 0.384
+    },
+    "anarchogeek.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "brid.gy": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.222
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.158
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0789
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0789
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0789
+    },
+    "tantek.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

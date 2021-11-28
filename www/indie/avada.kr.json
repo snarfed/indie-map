@@ -1,0 +1,64 @@
+{
+  "domain": "avada.kr",
+  "urls": [
+    "https://avada.kr/"
+  ],
+  "names": [
+    "Wordpress | AVADA.KR - 워드프레스",
+    "AVADA.KR - 워드프레스"
+  ],
+  "descriptions": [
+    "워드프레스 설치, 메뉴얼, SEO,속도,플러그인, 테마,사용법 - wordpress ,theme, plugins, menual,using tip,speed, and avada theme"
+  ],
+  "pictures": [
+    "https://avada.kr/wrps/wp-content/uploads/2014/08/favicon.ico",
+    "https://avada.kr/wrps/wp-content/uploads/2014/01/avadakr_main_logo_2x.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-27T07:52:39",
+  "crawl_end": "2017-04-27T08:30:54",
+  "num_pages": 1579,
+  "total_html_size": 325968336,
+  "servers": [
+    "nginx",
+    "Powered by LayerSlider - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress."
+  ],
+  "mf2_classes": [
+    "h-as-reply",
+    "h-entry",
+    "h-as-mention",
+    "h-card"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://avada.kr/wp-json/webmention/1.0/endpoint"
+    ]
+  },
+  "links_out": 5243,
+  "links_in": 75,
+  "links": {
+    "wpbox.kr": {
+      "out": {
+        "other": 3522
+      },
+      "score": 1
+    },
+    "doplay.kr": {
+      "in": {
+        "other": 53
+      },
+      "score": 0.448
+    },
+    "brid.gy": {
+      "in": {
+        "other": 22
+      },
+      "score": 0.349
+    }
+  }
+}

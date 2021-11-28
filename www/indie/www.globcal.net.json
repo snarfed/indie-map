@@ -1,0 +1,65 @@
+{
+  "domain": "www.globcal.net",
+  "urls": [
+    "http://www.globcal.net/index.html"
+  ],
+  "names": [
+    "Globcal International"
+  ],
+  "descriptions": [
+    "Globcal International is a white hat non-state actor, a cooperative, iNGO, offshore foundation, and decentralized global citizenship.",
+    "Globcal International is a non-state actor, cooperative corporate enterprise, international non-governmental organization, charitable offshore foundation, and decentralized civil society of global citizens specializing in the sustainable development of human and social capital through technology and social media."
+  ],
+  "pictures": [
+    "http://www.globcal.net/favicon.ico",
+    "http://www.globcal.net/favicon-32x32.png",
+    "http://www.globcal.net/favicon-16x16.png",
+    "images/linecard.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "http://twitter.com/globcal",
+    "https://globcal.github.io",
+    "https://pinterest.com/globcal",
+    "https://facebook.com/globcal",
+    "https://www.linkedin.com/company/globcal",
+    "https://www.youtube.com/user/globcalinternational"
+  ],
+  "crawl_start": "2017-04-30T06:31:25",
+  "crawl_end": "2017-04-30T06:32:22",
+  "num_pages": 71,
+  "total_html_size": 1616031,
+  "servers": [
+    "Apache"
+  ],
+  "tags": [
+    "relme",
+    "webmention.io",
+    "webmention",
+    "websub"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/www.globcal.net/webmention"
+    ],
+    "websub": [
+      "http://www.globcal.net/hub.html"
+    ]
+  },
+  "links_out": 1819,
+  "links_in": 0,
+  "links": {
+    "globcal.net": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.493
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.118
+    }
+  }
+}

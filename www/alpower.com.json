@@ -1,0 +1,140 @@
+{
+  "domain": "alpower.com",
+  "urls": [
+    "https://alpower.com/"
+  ],
+  "names": [
+    "Al Power",
+    "Home - alpower.com",
+    "Home"
+  ],
+  "descriptions": [
+    "Photographer and Web Designer."
+  ],
+  "pictures": [],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Al Power"
+      ],
+      "url": [
+        "https://alpower.com/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/alpower",
+    "https://instagram.com/alpower",
+    "https://flickr.com/photos/alpower",
+    "https://github.com/alpower",
+    "https://alpower.com/"
+  ],
+  "crawl_start": "2017-06-09T17:33:26",
+  "crawl_end": "2017-06-09T17:33:26",
+  "num_pages": 1,
+  "total_html_size": 9663,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "authorization"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.herokuapp.com/api/webmention"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ]
+  },
+  "links_out": 4,
+  "links_in": 68,
+  "links": {
+    "werd.io": {
+      "in": {
+        "other": 40
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.715
+    },
+    "adactio.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.377
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.377
+    },
+    "twitter.com/alpower": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.188
+    },
+    "github.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.188
+    },
+    "waterpigs.co.uk": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.188
+    },
+    "flickr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.188
+    },
+    "instagram.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.188
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "ignaciodenuevo.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.aaron-gustafson.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

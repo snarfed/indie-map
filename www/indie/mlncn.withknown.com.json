@@ -1,0 +1,241 @@
+{
+  "domain": "mlncn.withknown.com",
+  "urls": [
+    "https://mlncn.withknown.com/profile/mlncn",
+    "http://mlncn.com",
+    "http://agaric.coop",
+    "http://twitter.com/mlncn"
+  ],
+  "names": [
+    "benjamin melançon"
+  ],
+  "descriptions": [
+    "Worker-owner at Agaric web development collective, co-author of the Definitive Guide to Drupal 7, and person who gives a damn about justice, liberty, and gaining the most power possible for all people over our own lives.",
+    "Ben's home on the hosted independent web."
+  ],
+  "pictures": [
+    "https://mlncn.withknown.com/file/00c7d8e67682303419851cd5bf04d11d/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "benjamin melançon"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Worker-owner at <a href=\"http://agaric.com/\">Agaric</a> web development collective, co-author of the <a href=\"http://dgd7.org/\">Definitive Guide to Drupal 7</a>, and <a href=\"http://visionsunite.org/\">person who gives a damn</a> about justice, liberty, and gaining the most power possible for all people over our own lives.</p>\n</div>",
+          "value": "\nWorker-owner at Agaric web development collective, co-author of the Definitive Guide to Drupal 7, and person who gives a damn about justice, liberty, and gaining the most power possible for all people over our own lives.\n"
+        }
+      ],
+      "photo": [
+        "https://mlncn.withknown.com/file/00c7d8e67682303419851cd5bf04d11d/thumb.jpg"
+      ],
+      "profile": [
+        "benjamin melançon"
+      ],
+      "url": [
+        "https://mlncn.withknown.com/profile/mlncn",
+        "https://mlncn.withknown.com/profile/mlncn",
+        "http://mlncn.com",
+        "http://agaric.coop",
+        "http://twitter.com/mlncn"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://mlncn.com",
+    "http://agaric.coop",
+    "http://twitter.com/mlncn"
+  ],
+  "crawl_start": "2017-04-24T14:43:31",
+  "crawl_end": "2017-04-25T03:35:28",
+  "num_pages": 2158,
+  "total_html_size": 61621141,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-event",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://mlncn.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://mlncn.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://mlncn.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://mlncn.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 15671,
+  "links_in": 299,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 2172
+      },
+      "score": 1
+    },
+    "agaric.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 1016,
+        "in-reply-to": 14
+      },
+      "score": 0.916
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 150
+      },
+      "score": 0.598
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 30
+      },
+      "score": 0.572
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 17
+      },
+      "out": {
+        "other": 4
+      },
+      "score": 0.541
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 86
+      },
+      "score": 0.531
+    },
+    "werd.io": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 4
+      },
+      "in": {
+        "other": 26
+      },
+      "score": 0.513
+    },
+    "www.darrenmothersele.com": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.488
+    },
+    "rabbit.withknown.com": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.488
+    },
+    "ben.thatmustbe.me": {
+      "in": {
+        "in-reply-to": 2,
+        "other": 1
+      },
+      "out": {
+        "other": 10
+      },
+      "score": 0.409
+    },
+    "jeena.net": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "in-reply-to": 4
+      },
+      "score": 0.397
+    },
+    "purkiss.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.379
+    },
+    "hongpong.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.379
+    },
+    "stream.withknown.com": {
+      "out": {
+        "other": 6
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.331
+    },
+    "darrenmothersele.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.166
+    },
+    "tantek.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0827
+    },
+    "www.funnymonkey.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0827
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

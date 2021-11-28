@@ -1,0 +1,91 @@
+{
+  "domain": "davekokandy.com",
+  "urls": [
+    "https://davekokandy.com/"
+  ],
+  "names": [
+    "Dave Kokandy – The Personal Blog of Dave Kokandy",
+    "Dave Kokandy"
+  ],
+  "descriptions": [
+    "The Personal Blog of Dave Kokandy"
+  ],
+  "pictures": [
+    "https://s0.wp.com/i/blank.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://davekokandy.com/",
+    "https://github.com/drkokandy",
+    "https://twitter.com/drkokandy",
+    "https://askubuntu.com/users/103537/drkokandy"
+  ],
+  "crawl_start": "2017-06-09T17:36:12",
+  "crawl_end": "2017-06-09T17:38:00",
+  "num_pages": 92,
+  "total_html_size": 2728257,
+  "servers": [
+    "Apache",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-article",
+    "h-feed",
+    "h-entry",
+    "h-card",
+    "h-as-bookmark",
+    "h-as-page",
+    "h-as-note"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://davekokandy.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://davekokandy.com/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 1100,
+  "links_in": 79,
+  "links": {
+    "blog.trdaisuke.com": {
+      "in": {
+        "other": 79
+      },
+      "out": {
+        "other": 11
+      },
+      "score": 0.761
+    },
+    "withknown.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.524
+    },
+    "trdaisuke.moe": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.295
+    }
+  }
+}

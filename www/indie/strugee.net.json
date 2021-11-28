@@ -1,0 +1,102 @@
+{
+  "domain": "strugee.net",
+  "urls": [
+    "http://strugee.net/"
+  ],
+  "names": [
+    "Home - strugee.net"
+  ],
+  "descriptions": [
+    "Alex Jordan's home page"
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "mailto:alex@strugee.net",
+    "https://strugee.net/sms:17607054581",
+    "https://github.com/strugee",
+    "https://twitter.com/strugee2",
+    "https://plus.google.com/+AlexJordan",
+    "https://pump.strugee.net/alex",
+    "https://pod.strugee.net/people/82e1c9a030600133e0ca20474782d58c"
+  ],
+  "crawl_start": "2017-04-25T14:19:42",
+  "crawl_end": "2017-04-25T14:21:10",
+  "num_pages": 107,
+  "total_html_size": 1768326,
+  "servers": [
+    "Apache (Debian)"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-feed"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "IWS2017",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/strugee.net/webmention"
+    ]
+  },
+  "links_out": 1807,
+  "links_in": 213,
+  "links": {
+    "chat.indieweb.org": {
+      "in": {
+        "other": 126
+      },
+      "score": 0.657
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 6
+      },
+      "in": {
+        "other": 80
+      },
+      "score": 0.613
+    },
+    "pump.io": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.588
+    },
+    "webmention.net": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.312
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.149
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0940
+    },
+    "werd.io": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0940
+    },
+    "tantek.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0940
+    }
+  }
+}

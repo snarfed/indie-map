@@ -1,0 +1,206 @@
+{
+  "domain": "known.jenniferenglund.net",
+  "urls": [
+    "http://known.jenniferenglund.net/profile/jenniferenglund",
+    "https://twitter.com/jmenglund03",
+    "https://www.flickr.com/photos/jenniferenglund/",
+    "https://instagram.com/jennifer.englund/",
+    "https://www.facebook.com/j.m.englund"
+  ],
+  "names": [
+    "Jennifer Englund"
+  ],
+  "descriptions": [
+    "Welcome to my corner of the web. I created this site to experiment with new types of technology and connect with others interested in the same topics. I also started a new learning adventure, and needed a space to put my thoughts and work.",
+    "virtual cabinet of curiosities"
+  ],
+  "pictures": [
+    "http://known.jenniferenglund.net/file/00596ccffc35768722982ed5e5c731d3"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Jennifer Englund"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Welcome to my corner of the web. I created this site to experiment with new types of technology and connect with others interested in the same topics. I also started a new <a href=\"http://www.cehd.umn.edu/ci/Future/PhD/LearningTech.html\">learning adventure</a>, and needed a space to put my thoughts and work.</p>\n</div>",
+          "value": "\nWelcome to my corner of the web. I created this site to experiment with new types of technology and connect with others interested in the same topics. I also started a new learning adventure, and needed a space to put my thoughts and work.\n"
+        }
+      ],
+      "photo": [
+        "http://known.jenniferenglund.net/file/00596ccffc35768722982ed5e5c731d3"
+      ],
+      "profile": [
+        "Jennifer Englund"
+      ],
+      "url": [
+        "http://known.jenniferenglund.net/profile/jenniferenglund",
+        "http://known.jenniferenglund.net/profile/jenniferenglund",
+        "https://twitter.com/jmenglund03",
+        "https://www.flickr.com/photos/jenniferenglund/",
+        "https://instagram.com/jennifer.englund/",
+        "https://www.facebook.com/j.m.englund"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/jmenglund03",
+    "https://www.flickr.com/photos/jenniferenglund/",
+    "https://instagram.com/jennifer.englund/",
+    "https://www.facebook.com/j.m.englund"
+  ],
+  "crawl_start": "2017-04-29T04:34:53",
+  "crawl_end": "2017-04-29T04:53:44",
+  "num_pages": 1344,
+  "total_html_size": 32173060,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-cite",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.jenniferenglund.net/webmention/"
+    ],
+    "micropub": [
+      "http://known.jenniferenglund.net/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://known.jenniferenglund.net/indieauth/auth"
+    ],
+    "token": [
+      "http://known.jenniferenglund.net/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 12016,
+  "links_in": 103,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 1344
+      },
+      "score": 0.983
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 16,
+        "in-reply-to": 16
+      },
+      "out": {
+        "other": 47
+      },
+      "score": 0.653
+    },
+    "blog.mahabali.me": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "in-reply-to": 8,
+        "other": 34
+      },
+      "score": 0.623
+    },
+    "timowens.io": {
+      "out": {
+        "other": 10,
+        "in-reply-to": 12
+      },
+      "score": 0.614
+    },
+    "werd.io": {
+      "in": {
+        "other": 17,
+        "in-reply-to": 15
+      },
+      "out": {
+        "other": 5
+      },
+      "score": 0.575
+    },
+    "reclaimhosting.com": {
+      "out": {
+        "other": 38
+      },
+      "score": 0.539
+    },
+    "jenniferenglund.net": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.481
+    },
+    "known.jimgroom.com": {
+      "in": {
+        "in-reply-to": 6
+      },
+      "out": {
+        "other": 5
+      },
+      "score": 0.459
+    },
+    "cogdogblog.com": {
+      "out": {
+        "other": 12
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.400
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.359
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 9
+      },
+      "score": 0.274
+    },
+    "brid.gy": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.200
+    },
+    "kevinmarks.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.173
+    },
+    "jgregorymcverry.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.173
+    }
+  }
+}

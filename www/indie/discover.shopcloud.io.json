@@ -1,0 +1,83 @@
+{
+  "domain": "discover.shopcloud.io",
+  "urls": [
+    "http://discover.shopcloud.io/profile/shopcloud",
+    "http://www.shopcloud.io"
+  ],
+  "names": [
+    "shopcloud"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://discover.shopcloud.io/file/ef14ef22916d16bafcd77487389a70e4"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "shopcloud"
+      ],
+      "note": [
+        {
+          "html": "",
+          "value": ""
+        }
+      ],
+      "photo": [
+        "http://discover.shopcloud.io/file/ef14ef22916d16bafcd77487389a70e4"
+      ],
+      "profile": [
+        "shopcloud"
+      ],
+      "url": [
+        "http://discover.shopcloud.io/profile/shopcloud",
+        "http://discover.shopcloud.io/profile/shopcloud",
+        "http://www.shopcloud.io"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://www.shopcloud.io"
+  ],
+  "crawl_start": "2017-04-28T05:21:38",
+  "crawl_end": "2017-04-28T05:21:45",
+  "num_pages": 14,
+  "total_html_size": 228714,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://discover.shopcloud.io/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 11,
+  "links_in": 1,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

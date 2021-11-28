@@ -1,0 +1,1720 @@
+{
+  "domain": "sebastiangreger.net",
+  "urls": [
+    "https://sebastiangreger.net/"
+  ],
+  "names": [
+    "Sebastian Greger // Sociologist and Interaction Designer",
+    "sebastiangreger.net"
+  ],
+  "descriptions": [
+    "Sebastian Greger is a sociologist and interaction designer, acting as the users' advocate in digital product and service design processes."
+  ],
+  "pictures": [
+    "https://sebastiangreger.net/wp-content/themes/sg-indie/img/favicon.png",
+    "https://sebastiangreger.net/wp-content/themes/sg-indie/img/sharing_image.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/sebastiangreger",
+    "https://github.com/sebastiangreger"
+  ],
+  "crawl_start": "2017-04-25T08:35:42",
+  "crawl_end": "2017-04-25T08:55:16",
+  "num_pages": 127,
+  "total_html_size": 15435772,
+  "servers": [
+    "Apache (CentOS)",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-event",
+    "h-feed",
+    "h-card",
+    "h-entry",
+    "h-as-note"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://sebastiangreger.net/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "https://sebastiangreger.net/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://sebastiangreger.net/indieauth/"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 1126,
+  "links_in": 535,
+  "links": {
+    "twitter.com/sebastiangreger": {
+      "out": {
+        "other": 373
+      },
+      "score": 1
+    },
+    "twitter.com/intent": {
+      "out": {
+        "other": 178
+      },
+      "score": 0.888
+    },
+    "webmention.org": {
+      "out": {
+        "other": 106
+      },
+      "score": 0.811
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 207
+      },
+      "score": 0.806
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 27
+      },
+      "in": {
+        "other": 139
+      },
+      "score": 0.796
+    },
+    "www.svenknebel.de": {
+      "in": {
+        "in-reply-to": 16
+      },
+      "out": {
+        "other": 7
+      },
+      "score": 0.687
+    },
+    "raretrack.uk": {
+      "in": {
+        "other": 56
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.614
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 5
+      },
+      "in": {
+        "bookmark-of": 16
+      },
+      "score": 0.566
+    },
+    "beyondtellerrand.com": {
+      "out": {
+        "other": 17
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.539
+    },
+    "www.raretrack.uk": {
+      "in": {
+        "other": 27
+      },
+      "score": 0.499
+    },
+    "news.indieweb.org": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "in-reply-to": 4,
+        "other": 4
+      },
+      "score": 0.493
+    },
+    "adactio.com": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 14
+      },
+      "score": 0.467
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.467
+    },
+    "brid.gy": {
+      "in": {
+        "other": 19
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.460
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.437
+    },
+    "www.w3.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.419
+    },
+    "dx.doi.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.419
+    },
+    "wirres.net": {
+      "in": {
+        "other": 12
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.399
+    },
+    "tantek.com": {
+      "out": {
+        "other": 3
+      },
+      "in": {
+        "in-reply-to": 1,
+        "other": 2
+      },
+      "score": 0.387
+    },
+    "github.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.375
+    },
+    "www.openstreetmap.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.375
+    },
+    "www.socialbakers.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.375
+    },
+    "www.sciencedirect.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.348
+    },
+    "derhess.de": {
+      "in": {
+        "other": 5
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.333
+    },
+    "techcrunch.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.315
+    },
+    "julieannenoying.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.315
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.315
+    },
+    "www.guardian.co.uk": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.315
+    },
+    "medium.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.315
+    },
+    "www.linkedin.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.315
+    },
+    "piwik.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.315
+    },
+    "www.pewinternet.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.315
+    },
+    "www.sebastiangreger.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.315
+    },
+    "salon-schmueck.de": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.315
+    },
+    "www.mif.fi": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.315
+    },
+    "twitter.com/Digitalkapitaen": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.271
+    },
+    "twitter.com/vboykis": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.271
+    },
+    "twitter.com/derhess": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.271
+    },
+    "jothut.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.271
+    },
+    "babycakesromero.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.271
+    },
+    "wordpress.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.271
+    },
+    "ixquick.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.271
+    },
+    "vimeo.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.271
+    },
+    "www.theatlantic.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.271
+    },
+    "twitter.com/Freerange_Inc": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.271
+    },
+    "duckduckgo.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.271
+    },
+    "www.eff.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.271
+    },
+    "www.taik.fi": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.271
+    },
+    "kylewm.com": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.244
+    },
+    "codebutler.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "www.datenschutzzentrum.de": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "www.slideshare.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "www.google.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "interactions.acm.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "mitpress.mit.edu": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "twitter.com/ubernauten": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "www.pewresearch.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "www.bbc.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "patft.uspto.gov": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "digitaltransformationschool.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "labs.rs": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "www.nytimes.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "www.westendintie.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "startpage.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "www.tacticaltech.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "jamesjpierce.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "www.mozilla.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "thesocietypages.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "www.meetup.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "books.google.fi": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "owncloud.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "twitter.com/chaoticfree": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "www.sigchi.fi": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "twitter.com/DerAwesumdude": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "www.telegraph.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "www.theguardian.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "www.forbes.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "forrester.typepad.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "dl.acm.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "news.ycombinator.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "crowdresearch.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "ind.ie": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "ericbaumer.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "webmention.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "twitter.com/jkphl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "chrispederick.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "cards-dev.twitter.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "dev.twitter.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "hypothes.is": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "trends.builtwith.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.210
+    },
+    "www.troyhunt.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "blog.experientia.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "pt.linkedin.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "facebook.com/events": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "notizblog.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "people.ischool.berkeley.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "storify.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/outOftheCloud": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "uberspace.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.fastcodesign.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "coms.concordia.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "dataselfie.it": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "delicious.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "demo.piwik.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/piwik": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.e-asla.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "analytics.angelfishstats.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "aolstalker.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "jetpack.me": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "openlibrary.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/tsihvola": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/vuokko": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.idean.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/aarieff": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/matthieuaubry": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.casadamusica.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.utexas.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "codesign.inuse.fi": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "thenewinquiry.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "Indieauth.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "mydata2016.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "tacticaltech.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "thefrailestthing.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.utaustinportugal.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "betterhumans.coach.me": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "christacy.blogspot.fi": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "thopex.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.huffingtonpost.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "demo.owncloud.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "readwrite.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/m_ott": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/rasmusvuori": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.treehugger.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.zephoria.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "bigthink.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "designresearch.aalto.fi": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "hackr.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "mediaresearchhub.ssrc.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "oliver.gutperl.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/nicolasnova": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.jm3.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.scn.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "fivethirtyeight.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "micro.blog": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.centerforsocialmedia.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "blog.tosdr.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "sigarra.up.pt": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "theconnectedrepublic.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.ushahidi.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "wildbit.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.frontlinesms.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "rtf.utexas.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/sl007": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "22-8miles.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "blog.programmableweb.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "stramanari.eu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.girardin.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.jaronlanier.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "adage.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "microformats.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "forum.ind.ie": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "link.springer.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.communication.illinois.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.e-recht24.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "filmicweb.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/ownCloud": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.isodarco.it": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "caddyserver.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "inuse.fi": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.childrenscommissioner.gov.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "cfccreates.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "idno.co": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/teemul": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "veekaybee.github.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.managementevents.fi": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.zdnet.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "mobileactive.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.betahaus.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "flailingmonkey.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "offlinefirst.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.staysafeonline.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.wilsonquarterly.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "code.google.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "personaldemocracy.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "re-publica.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "reginafloresmir.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/OpenHypervideo": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.elsevier.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.umass.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "doi.acm.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "reclaim.fm": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/LukasRosenstock": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twittercommunity.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.ncsu.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "donottrack.us": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "lesspass.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "smc2009.smcnetwork.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/thistimeitsmimi": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "jwt.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.nngroup.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.ted.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.thackara.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "addons.mozilla.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "facebook.com/groups": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "mashable.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "mimionuoha.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "reallifemag.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "studiolab.ide.tudelft.nl": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/laurakalbag": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.designhacks.co": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "nyti.ms": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.climatesaverscomputing.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.mischaandrews.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "joelpurra.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.identityfraud.org.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.sueddeutsche.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "alistapart.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "nms.sagepub.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "uxdesign.cc": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.warigiabowman.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "dashes.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "hood.ie": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "insidevideography.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/btconf": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "web.archive.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.inc.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "svenknebel.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.ghostery.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.wolframalpha.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/jccnas": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.alonetogetherbook.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "slab.ocadu.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "365wellbeing.aalto.fi": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "panopticlick.eff.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "projects.aljazeera.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.cifas.org.uk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "aisel.aisnet.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "wdrl.info": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "haveamint.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "osm.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "prism-break.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "tools.google.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/ChrisAldrich": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/TainaHanikka": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.getmiro.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/jocxy": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.cis-india.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.valve.fi": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "developers.facebook.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "marcthiele.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "facebook.com/help": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "learning.mozilla.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "tosdr.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.lic.dico.unimi.it": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.wallabag.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/IndieWebCampDE": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/nonuse_org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.fcsh.unl.pt": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.heise.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.pnas.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "genius.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "thedigitaldetox.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/EijaLehtomaki": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/EngnRoom": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "bit.ly": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "bogost.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "twitter.com/hashtag": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "www.alisonpowell.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.105
+    },
+    "outforaride.net": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

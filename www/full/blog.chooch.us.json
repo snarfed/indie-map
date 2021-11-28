@@ -1,0 +1,229 @@
+{
+  "domain": "blog.chooch.us",
+  "urls": [
+    "http://blog.chooch.us/"
+  ],
+  "names": [
+    "Random Acts of Chooch"
+  ],
+  "descriptions": [
+    "Essays, songs, and random thoughts from Chooch"
+  ],
+  "pictures": [
+    "http://blog.chooch.us/",
+    "http://blog.chooch.us/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-28T02:15:50",
+  "crawl_end": "2017-04-28T02:16:49",
+  "num_pages": 91,
+  "total_html_size": 1757390,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://blog.chooch.us/webmention/"
+    ],
+    "micropub": [
+      "http://blog.chooch.us/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "http://blog.chooch.us/indieauth/token"
+    ],
+    "websub": [
+      "https://pubsubhubbub.appspot.com/"
+    ]
+  },
+  "links_out": 256,
+  "links_in": 721,
+  "links": {
+    "jothut.com": {
+      "in": {
+        "other": 666
+      },
+      "score": 1
+    },
+    "withknown.com": {
+      "out": {
+        "other": 98
+      },
+      "score": 0.812
+    },
+    "adactio.com": {
+      "in": {
+        "other": 2,
+        "bookmark-of": 44
+      },
+      "score": 0.692
+    },
+    "www.fsis.usda.gov": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.629
+    },
+    "facebook.com/100001948549702": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.534
+    },
+    "plus.google.com/108197515492969284153": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.523
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.512
+    },
+    "cachemonet.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.502
+    },
+    "facebook.com/1140627009": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.462
+    },
+    "docs.withknown.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.426
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.426
+    },
+    "www.wired.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.426
+    },
+    "twitter.com/withknown": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.406
+    },
+    "twitter.com/choochus": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.406
+    },
+    "chrome.google.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.406
+    },
+    "developers.facebook.com": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.406
+    },
+    "www.brid.gy": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.406
+    },
+    "twitter.com/VividMuse": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.354
+    },
+    "profiles.google.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.32
+    },
+    "facebook.com/choochus": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.275
+    },
+    "chooch.us": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.275
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.275
+    },
+    "www.vividmuse.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.214
+    },
+    "facebook.com/572527321": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.214
+    },
+    "twitter.com/patman23": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.214
+    },
+    "rfgalador.blogspot.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.214
+    },
+    "plus.google.com/105428492493254769788": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.214
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.169
+    }
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "domain": "webmention.herokuapp.com",
+  "urls": [
+    "http://webmention.herokuapp.com/"
+  ],
+  "names": [
+    "A WebMention Endpoint"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T03:14:21",
+  "crawl_end": "2017-04-30T03:14:22",
+  "num_pages": 3,
+  "total_html_size": 34701,
+  "servers": [
+    "Cowboy"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-x-app"
+  ],
+  "tags": [
+    "bridgy",
+    "tool",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.herokuapp.com/api/webmention"
+    ]
+  },
+  "links_out": 78,
+  "links_in": 517,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 297
+      },
+      "score": 1
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 142
+      },
+      "score": 0.872
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 7
+      },
+      "in": {
+        "like-of": 1,
+        "other": 1
+      },
+      "score": 0.497
+    },
+    "epeus.blogspot.com": {
+      "in": {
+        "other": 15
+      },
+      "score": 0.476
+    },
+    "kylewm.com": {
+      "in": {
+        "other": 14
+      },
+      "score": 0.464
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.436
+    },
+    "twitter.com/dustinboston": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.436
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.404
+    },
+    "twitter.com/voxpelli": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.404
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 10
+      },
+      "score": 0.404
+    },
+    "checkmention.appspot.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.404
+    },
+    "voxpelli.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.404
+    },
+    "atomicules.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.315
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.315
+    },
+    "twitter.com/schnarfed": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.315
+    },
+    "dblogit.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.315
+    },
+    "twitter.com/tarr11": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.244
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.244
+    },
+    "twitter.com/atomicules": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.244
+    },
+    "lionzan.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.244
+    },
+    "www.apple.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.244
+    },
+    "twitter.com/t": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.244
+    },
+    "jothut.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.193
+    },
+    "prettygoodhat.com": {
+      "in": {
+        "other": 3
+      },
+      "score": 0.193
+    },
+    "twitter.com/winservunivers1": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "twitter.com/pfefferle": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "twitter.com/elfpavlik": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "www.douglastarr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "twitter.com/grebennikovvdt": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "twitter.com/joelesina": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "jekyllrb.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "twitter.com/wdspirit": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "frederic-hemberger.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "twitter.com/julien51": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "matthiasott.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "twitter.com/adamfalat": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "twitter.com/fhemberger": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "twitter.com/willnorris": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "github.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "hroy.eu": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.122
+    },
+    "waterpigs.co.uk": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.122
+    },
+    "twitter.com/m_ott": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "twitter.com/w3cmemes": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "pages.github.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "adactio.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "developer.mozilla.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "w3cmemes.tumblr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "twitter.com/nyaulingo32": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "aaronparecki.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "twitter.com/rhiaro": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "twitter.com/aaronpk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.122
+    },
+    "wordius.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "willnorris.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.aaron-gustafson.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "tantek.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "webmention.net": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "kodfabrik.se": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "www.ashersilberman.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

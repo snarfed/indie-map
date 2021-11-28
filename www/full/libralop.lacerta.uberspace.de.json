@@ -1,0 +1,152 @@
+{
+  "domain": "libralop.lacerta.uberspace.de",
+  "urls": [
+    "http://libralop.lacerta.uberspace.de/"
+  ],
+  "names": [
+    "Libralop Hulot | Home",
+    "Home"
+  ],
+  "descriptions": [
+    "Als sähe niemand zu.",
+    "Hi, ich bin Libralop.\nIch vermesse meine Umgebung mit Bildern aus Sprache und Licht. Kein großes Ding."
+  ],
+  "pictures": [
+    "http://libralop.lacerta.uberspace.de/assets/images/favicons/android-icon-192x192.png",
+    "http://libralop.lacerta.uberspace.de/assets/images/favicons/favicon-32x32.png",
+    "http://libralop.lacerta.uberspace.de/assets/images/favicons/favicon-96x96.png",
+    "http://libralop.lacerta.uberspace.de/assets/images/favicons/favicon-16x16.png",
+    "https://libralop.de/assets/avatars/libralop.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/LibralopHulot"
+  ],
+  "crawl_start": "2017-04-29T14:38:37",
+  "crawl_end": "2017-04-29T14:39:42",
+  "num_pages": 34,
+  "total_html_size": 143108,
+  "servers": [
+    "Apache (CentOS)"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "authorization"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://libralop.lacerta.uberspace.de/webmention"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ]
+  },
+  "links_out": 50,
+  "links_in": 1,
+  "links": {
+    "twitter.com/LibralopHulot": {
+      "out": {
+        "other": 34
+      },
+      "score": 1
+    },
+    "getkirby.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.329
+    },
+    "forum.getkirby.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.164
+    },
+    "twitter.com/libralophulot": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.164
+    },
+    "github.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.164
+    },
+    "libralop.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.164
+    },
+    "twitter.com/getkirby": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.164
+    },
+    "twitter.com/fabianmichael": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.164
+    },
+    "twitter.com/texnixe": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.164
+    },
+    "twitter.com/distantnative": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.164
+    },
+    "letsencrypt.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.164
+    },
+    "twitter.com/lukasbestle": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.164
+    },
+    "creativecommons.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.164
+    },
+    "twitter.com/bastianallgeier": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.164
+    },
+    "de.wikipedia.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.164
+    },
+    "twitter.com/sashtown": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.164
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

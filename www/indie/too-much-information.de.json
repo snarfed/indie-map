@@ -1,0 +1,67 @@
+{
+  "domain": "too-much-information.de",
+  "urls": [
+    "http://too-much-information.de/main/public"
+  ],
+  "names": [
+    "TMI",
+    "Public timeline - TMI"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://too-much-information.de/theme/neo-gnu/logo.png",
+    "http://too-much-information.de/theme/neo-gnu/favicon.ico"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "TMI"
+      ],
+      "photo": [
+        "http://too-much-information.de/theme/neo-gnu/logo.png"
+      ],
+      "url": [
+        "http://too-much-information.de/main/public"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [],
+  "crawl_start": "2017-05-06T01:58:19",
+  "crawl_end": "2017-05-06T02:34:05",
+  "num_pages": 602,
+  "total_html_size": 6924081,
+  "servers": [
+    "Apache (Debian)"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [],
+  "endpoints": {},
+  "links_out": 2017,
+  "links_in": 10,
+  "links": {
+    "toomuchinformation.de": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.195
+    },
+    "wirres.net": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.195
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0975
+    }
+  }
+}

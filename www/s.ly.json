@@ -1,0 +1,3123 @@
+{
+  "domain": "s.ly",
+  "urls": [
+    "http://s.ly/"
+  ],
+  "names": [
+    "jesse's Known"
+  ],
+  "descriptions": [
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "https://s.ly/gfx/users/default-02.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-25T07:17:42",
+  "crawl_end": "2017-04-25T09:48:45",
+  "num_pages": 3259,
+  "total_html_size": 72813194,
+  "servers": [
+    "Apache (Ubuntu)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "bridgy",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://s.ly/webmention/"
+    ],
+    "micropub": [
+      "https://s.ly/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://s.ly/indieauth/token"
+    ],
+    "websub": [
+      "https://badwithknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 19538,
+  "links_in": 600,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 3259
+      },
+      "score": 1
+    },
+    "www.flickr.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 1113
+      },
+      "score": 0.878
+    },
+    "jesselj.wordpress.com": {
+      "out": {
+        "other": 868
+      },
+      "score": 0.850
+    },
+    "gc.kls2.com": {
+      "out": {
+        "other": 657
+      },
+      "score": 0.818
+    },
+    "www.livejournal.com": {
+      "out": {
+        "other": 440
+      },
+      "score": 0.772
+    },
+    "Array": {
+      "out": {
+        "other": 402
+      },
+      "score": 0.762
+    },
+    "profile.typepad.com": {
+      "out": {
+        "other": 368
+      },
+      "score": 0.752
+    },
+    "hiveminder.com": {
+      "out": {
+        "other": 266,
+        "in-reply-to": 15
+      },
+      "score": 0.744
+    },
+    "jesselj.files.wordpress.com": {
+      "out": {
+        "other": 273
+      },
+      "score": 0.718
+    },
+    "code.google.com": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 243
+      },
+      "score": 0.710
+    },
+    "pir.livejournal.com": {
+      "out": {
+        "other": 248
+      },
+      "score": 0.707
+    },
+    "blog.fsck.com": {
+      "out": {
+        "other": 227,
+        "in-reply-to": 3
+      },
+      "score": 0.704
+    },
+    "cos.livejournal.com": {
+      "out": {
+        "other": 228
+      },
+      "score": 0.697
+    },
+    "werd.io": {
+      "in": {
+        "other": 236,
+        "in-reply-to": 30
+      },
+      "score": 0.679
+    },
+    "github.com": {
+      "out": {
+        "other": 172,
+        "in-reply-to": 4
+      },
+      "score": 0.678
+    },
+    "www.amazon.com": {
+      "out": {
+        "other": 177
+      },
+      "score": 0.669
+    },
+    "awfief.livejournal.com": {
+      "out": {
+        "other": 164
+      },
+      "score": 0.659
+    },
+    "_nicolai_.livejournal.com": {
+      "out": {
+        "other": 160
+      },
+      "score": 0.657
+    },
+    "search.cpan.org": {
+      "out": {
+        "other": 124,
+        "in-reply-to": 5
+      },
+      "score": 0.649
+    },
+    "savory.googlecode.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 134
+      },
+      "score": 0.641
+    },
+    "xeger.livejournal.com": {
+      "out": {
+        "other": 136
+      },
+      "score": 0.639
+    },
+    "mangosteen.livejournal.com": {
+      "out": {
+        "other": 128
+      },
+      "score": 0.632
+    },
+    "dr_memory.livejournal.com": {
+      "out": {
+        "other": 125
+      },
+      "score": 0.629
+    },
+    "jered.livejournal.com": {
+      "out": {
+        "other": 120
+      },
+      "score": 0.624
+    },
+    "doxory.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 111
+      },
+      "score": 0.621
+    },
+    "hca.livejournal.com": {
+      "out": {
+        "other": 116
+      },
+      "score": 0.621
+    },
+    "r_ness.livejournal.com": {
+      "out": {
+        "other": 116
+      },
+      "score": 0.621
+    },
+    "www.omappedia.org": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 98
+      },
+      "score": 0.613
+    },
+    "bestpractical.com": {
+      "out": {
+        "in-reply-to": 3,
+        "other": 93
+      },
+      "score": 0.613
+    },
+    "sauergeek.livejournal.com": {
+      "out": {
+        "other": 108
+      },
+      "score": 0.613
+    },
+    "mediaboy.livejournal.com": {
+      "out": {
+        "other": 108
+      },
+      "score": 0.613
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 198
+      },
+      "score": 0.603
+    },
+    "srl.livejournal.com": {
+      "out": {
+        "other": 96
+      },
+      "score": 0.599
+    },
+    "avacon.livejournal.com": {
+      "out": {
+        "other": 93
+      },
+      "score": 0.596
+    },
+    "keyboard.io": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 83
+      },
+      "score": 0.596
+    },
+    "tisiphone.livejournal.com": {
+      "out": {
+        "other": 92
+      },
+      "score": 0.593
+    },
+    "tla.livejournal.com": {
+      "out": {
+        "other": 88
+      },
+      "score": 0.589
+    },
+    "coraline.livejournal.com": {
+      "out": {
+        "other": 88
+      },
+      "score": 0.589
+    },
+    "plymouth.livejournal.com": {
+      "out": {
+        "other": 84
+      },
+      "score": 0.583
+    },
+    "fsck.com": {
+      "out": {
+        "in-reply-to": 3,
+        "other": 67
+      },
+      "score": 0.581
+    },
+    "bloodstones.livejournal.com": {
+      "out": {
+        "other": 81
+      },
+      "score": 0.580
+    },
+    "stuntviolist.livejournal.com": {
+      "out": {
+        "other": 80
+      },
+      "score": 0.579
+    },
+    "syncwith.us": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 70
+      },
+      "score": 0.579
+    },
+    "fyfer.livejournal.com": {
+      "out": {
+        "other": 76
+      },
+      "score": 0.572
+    },
+    "comicoffee.livejournal.com": {
+      "out": {
+        "other": 76
+      },
+      "score": 0.572
+    },
+    "sourceforge.net": {
+      "out": {
+        "in-reply-to": 3,
+        "other": 60
+      },
+      "score": 0.571
+    },
+    "ftp.gnu.org": {
+      "out": {
+        "other": 60,
+        "in-reply-to": 3
+      },
+      "score": 0.571
+    },
+    "igorsk.blogspot.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 68
+      },
+      "score": 0.567
+    },
+    "kazmat.livejournal.com": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.566
+    },
+    "bwilder.livejournal.com": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.566
+    },
+    "calibre.kovidgoyal.net": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.566
+    },
+    "forgotten_aria.livejournal.com": {
+      "out": {
+        "other": 68
+      },
+      "score": 0.559
+    },
+    "ivorjawa.livejournal.com": {
+      "out": {
+        "other": 68
+      },
+      "score": 0.559
+    },
+    "hatter.livejournal.com": {
+      "out": {
+        "other": 64
+      },
+      "score": 0.552
+    },
+    "nou.livejournal.com": {
+      "out": {
+        "other": 64
+      },
+      "score": 0.552
+    },
+    "trifle.livejournal.com": {
+      "out": {
+        "other": 64
+      },
+      "score": 0.552
+    },
+    "kindle.fsck.com": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 43
+      },
+      "score": 0.551
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 61
+      },
+      "score": 0.547
+    },
+    "moominmolly.livejournal.com": {
+      "out": {
+        "other": 60
+      },
+      "score": 0.546
+    },
+    "twitch124.livejournal.com": {
+      "out": {
+        "other": 60
+      },
+      "score": 0.546
+    },
+    "bouncingleaf.livejournal.com": {
+      "out": {
+        "other": 60
+      },
+      "score": 0.546
+    },
+    "catness.livejournal.com": {
+      "out": {
+        "other": 60
+      },
+      "score": 0.546
+    },
+    "frobisher.livejournal.com": {
+      "out": {
+        "other": 60
+      },
+      "score": 0.546
+    },
+    "tcb.livejournal.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.538
+    },
+    "berkeleygal77.livejournal.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.538
+    },
+    "solipsistnation.livejournal.com": {
+      "out": {
+        "other": 56
+      },
+      "score": 0.538
+    },
+    "omappedia.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 49
+      },
+      "score": 0.533
+    },
+    "www.codesourcery.com": {
+      "out": {
+        "other": 49,
+        "in-reply-to": 1
+      },
+      "score": 0.533
+    },
+    "www.youtube.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 49
+      },
+      "score": 0.533
+    },
+    "k9mail.googlecode.com": {
+      "out": {
+        "other": 47,
+        "in-reply-to": 1
+      },
+      "score": 0.528
+    },
+    "eisenbud.livejournal.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.528
+    },
+    "derspatchel.livejournal.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.528
+    },
+    "dragonfriek.livejournal.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.528
+    },
+    "rivenwanderer.livejournal.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.528
+    },
+    "monkeygod.livejournal.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.528
+    },
+    "ocschwar.livejournal.com": {
+      "out": {
+        "other": 52
+      },
+      "score": 0.528
+    },
+    "pypi.python.org": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 40
+      },
+      "score": 0.525
+    },
+    "effbot.org": {
+      "out": {
+        "other": 40,
+        "in-reply-to": 2
+      },
+      "score": 0.525
+    },
+    "www.riverbankcomputing.co.uk": {
+      "out": {
+        "other": 40,
+        "in-reply-to": 2
+      },
+      "score": 0.525
+    },
+    "wwwsearch.sourceforge.net": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 40
+      },
+      "score": 0.525
+    },
+    "xmlsoft.org": {
+      "out": {
+        "other": 40,
+        "in-reply-to": 2
+      },
+      "score": 0.525
+    },
+    "pallas.eruditorum.org": {
+      "out": {
+        "in-reply-to": 3,
+        "other": 33
+      },
+      "score": 0.519
+    },
+    "ebenezer.livejournal.com": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.519
+    },
+    "lifecollage.livejournal.com": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.519
+    },
+    "contrariety.livejournal.com": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.519
+    },
+    "katybeth.livejournal.com": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.519
+    },
+    "mizmoose.livejournal.com": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.519
+    },
+    "fotofile2002.livejournal.com": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.519
+    },
+    "tikva.livejournal.com": {
+      "out": {
+        "other": 48
+      },
+      "score": 0.519
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 89
+      },
+      "score": 0.511
+    },
+    "cthulhia.livejournal.com": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.510
+    },
+    "mendel.livejournal.com": {
+      "out": {
+        "other": 44
+      },
+      "score": 0.510
+    },
+    "bit.ly": {
+      "out": {
+        "other": 42
+      },
+      "score": 0.505
+    },
+    "jbsegal.livejournal.com": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.499
+    },
+    "feylike.livejournal.com": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.499
+    },
+    "broken_gizmo.livejournal.com": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.499
+    },
+    "fidgetmonster.livejournal.com": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.499
+    },
+    "pantsie.livejournal.com": {
+      "out": {
+        "other": 40
+      },
+      "score": 0.499
+    },
+    "www.fandango.com": {
+      "out": {
+        "in-reply-to": 3,
+        "other": 24
+      },
+      "score": 0.497
+    },
+    "gmail.google.com": {
+      "out": {
+        "other": 24,
+        "in-reply-to": 3
+      },
+      "score": 0.497
+    },
+    "www.dropbox.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 33
+      },
+      "score": 0.493
+    },
+    "www.mobileread.com": {
+      "out": {
+        "other": 37
+      },
+      "score": 0.490
+    },
+    "zkzkz.livejournal.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.487
+    },
+    "coffeekitty.livejournal.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.487
+    },
+    "sprrwhwk.livejournal.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.487
+    },
+    "kilroi.livejournal.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.487
+    },
+    "yesthattom.livejournal.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.487
+    },
+    "warlord_mit.livejournal.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.487
+    },
+    "fraterrisus.livejournal.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.487
+    },
+    "photonsrain.livejournal.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.487
+    },
+    "blk.livejournal.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.487
+    },
+    "uberjay.livejournal.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.487
+    },
+    "ergodox.org": {
+      "out": {
+        "other": 35
+      },
+      "score": 0.484
+    },
+    "www.kickstarter.com": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.481
+    },
+    "laura47.livejournal.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.474
+    },
+    "kitty_goth.livejournal.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.474
+    },
+    "geoffroi.livejournal.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.474
+    },
+    "jifty.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 27
+      },
+      "score": 0.474
+    },
+    "exponentialdk.livejournal.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.474
+    },
+    "uridium.livejournal.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.474
+    },
+    "signsoflife.livejournal.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.474
+    },
+    "susannalk.livejournal.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.474
+    },
+    "colinmac.livejournal.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.474
+    },
+    "crs.livejournal.com": {
+      "out": {
+        "other": 32
+      },
+      "score": 0.474
+    },
+    "heresiarch.livejournal.com": {
+      "out": {
+        "other": 29
+      },
+      "score": 0.462
+    },
+    "www.prusak.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.459
+    },
+    "mhat.livejournal.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.459
+    },
+    "being_homeless.livejournal.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.459
+    },
+    "avicado.livejournal.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.459
+    },
+    "jennylisa.livejournal.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.459
+    },
+    "angerona.livejournal.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.459
+    },
+    "summerrose.livejournal.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.459
+    },
+    "also_huey.livejournal.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.459
+    },
+    "petdance.livejournal.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.459
+    },
+    "dossy.livejournal.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.459
+    },
+    "kimberlogic.livejournal.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.459
+    },
+    "aerynne.livejournal.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.459
+    },
+    "ilai.livejournal.com": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.459
+    },
+    "www.pjrc.com": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.454
+    },
+    "bestpractical.typepad.com": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.454
+    },
+    "deskthority.net": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.454
+    },
+    "pjrc.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.450
+    },
+    "shapeways.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.450
+    },
+    "www.rarlab.com": {
+      "out": {
+        "other": 20,
+        "in-reply-to": 1
+      },
+      "score": 0.445
+    },
+    "reconinstruments.com": {
+      "out": {
+        "other": 20,
+        "in-reply-to": 1
+      },
+      "score": 0.445
+    },
+    "plus.google.com/118132270929426815661": {
+      "out": {
+        "other": 20,
+        "in-reply-to": 1
+      },
+      "score": 0.445
+    },
+    "ftp.qtsoftware.com": {
+      "out": {
+        "other": 20,
+        "in-reply-to": 1
+      },
+      "score": 0.445
+    },
+    "tekgear.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 20
+      },
+      "score": 0.445
+    },
+    "ftp.imagemagick.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 20
+      },
+      "score": 0.445
+    },
+    "www.blogkindle.com": {
+      "out": {
+        "other": 20,
+        "in-reply-to": 1
+      },
+      "score": 0.445
+    },
+    "www.crummy.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 20
+      },
+      "score": 0.445
+    },
+    "unladen-swallow.googlecode.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 20
+      },
+      "score": 0.445
+    },
+    "savannah.inetbridge.net": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 20
+      },
+      "score": 0.445
+    },
+    "www.imagemagick.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 20
+      },
+      "score": 0.445
+    },
+    "git.dbzteam.org": {
+      "out": {
+        "other": 20,
+        "in-reply-to": 1
+      },
+      "score": 0.445
+    },
+    "www.openssl.org": {
+      "out": {
+        "other": 20,
+        "in-reply-to": 1
+      },
+      "score": 0.445
+    },
+    "labix.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 20
+      },
+      "score": 0.445
+    },
+    "bazaar.launchpad.net": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 20
+      },
+      "score": 0.445
+    },
+    "eichin.livejournal.com": {
+      "out": {
+        "other": 25
+      },
+      "score": 0.445
+    },
+    "cudddly.livejournal.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.441
+    },
+    "kenjari.livejournal.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.441
+    },
+    "armandae.livejournal.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.441
+    },
+    "jnala.livejournal.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.441
+    },
+    "boxcat.livejournal.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.441
+    },
+    "gee_tar.livejournal.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.441
+    },
+    "shadow.livejournal.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.441
+    },
+    "alphacygni.livejournal.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.441
+    },
+    "crucially.livejournal.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.441
+    },
+    "badtz2.livejournal.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.441
+    },
+    "fleetfootmike.livejournal.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.441
+    },
+    "bulknews.livejournal.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.441
+    },
+    "blogs.sun.com": {
+      "out": {
+        "other": 17,
+        "in-reply-to": 1
+      },
+      "score": 0.431
+    },
+    "groups.google.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 17
+      },
+      "score": 0.431
+    },
+    "www.opensource.org": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.426
+    },
+    "plus.google.com/s": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.426
+    },
+    "plus.google.com/115749542640996630663": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.426
+    },
+    "plus.google.com/114221735215588688400": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.426
+    },
+    "plus.google.com/115133427183932749413": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.426
+    },
+    "plus.google.com/104909144433751521217": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.426
+    },
+    "www.forbes.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.426
+    },
+    "plus.google.com/102269210431782050091": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.426
+    },
+    "plus.google.com/102099680822183285316": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.426
+    },
+    "mobileread.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.426
+    },
+    "tribacibee.livejournal.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.420
+    },
+    "yosh.livejournal.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.420
+    },
+    "jessiehl.livejournal.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.420
+    },
+    "kalessin.livejournal.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.420
+    },
+    "76trombones.livejournal.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.420
+    },
+    "davidglasser.livejournal.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.420
+    },
+    "dglenn.livejournal.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.420
+    },
+    "chuckm.livejournal.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.420
+    },
+    "stolen_tea.livejournal.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.420
+    },
+    "scromp.livejournal.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.420
+    },
+    "nassus.livejournal.com": {
+      "out": {
+        "other": 20
+      },
+      "score": 0.420
+    },
+    "dossy.org": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.408
+    },
+    "ivy.fsck.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.408
+    },
+    "obra.livejournal.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.408
+    },
+    "adafruit.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.408
+    },
+    "www.slideshare.net": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.408
+    },
+    "suprnova.lunamorena.net": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.408
+    },
+    "pics.livejournal.com": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.408
+    },
+    "facebook.com/Vortexgear": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "www.jal.co.jp": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "twitter.com/schwern": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "lolgeeks.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "trinitylabs.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "download.bestpractical.com": {
+      "out": {
+        "other": 12,
+        "in-reply-to": 1
+      },
+      "score": 0.402
+    },
+    "flyertalk.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "osdc.tw": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "www.souvenirrecords.com": {
+      "out": {
+        "other": 12,
+        "in-reply-to": 1
+      },
+      "score": 0.402
+    },
+    "www.seatguru.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "dangerawesome.co": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "secure.flickr.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "twitter.com/rasmus": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "www.nntp.perl.org": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "checkmarkable.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "twitter.com/ghosTM55": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "twitter.com/noirinp": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "plus.google.com/111805589479132756945": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "cfox.livejournal.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "lnc.hr": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "foursquare.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "xinchejian.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.402
+    },
+    "nathanw.livejournal.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.395
+    },
+    "dzm.livejournal.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.395
+    },
+    "foldedfish.livejournal.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.395
+    },
+    "qbaz.livejournal.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.395
+    },
+    "dariaphoebe.livejournal.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.395
+    },
+    "gaal.livejournal.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.395
+    },
+    "lakmiseiru.livejournal.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.395
+    },
+    "shoebox_bird.livejournal.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.395
+    },
+    "old_girl.livejournal.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.395
+    },
+    "netik.livejournal.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.395
+    },
+    "tytso.livejournal.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.395
+    },
+    "cerridwynn.livejournal.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.395
+    },
+    "lindalee.livejournal.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.395
+    },
+    "www.yelp.com": {
+      "out": {
+        "other": 10,
+        "in-reply-to": 1
+      },
+      "score": 0.387
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 29
+      },
+      "score": 0.384
+    },
+    "daveola.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 8
+      },
+      "score": 0.371
+    },
+    "www.ljmeme.com": {
+      "out": {
+        "other": 8,
+        "in-reply-to": 1
+      },
+      "score": 0.371
+    },
+    "www.reveland.com": {
+      "out": {
+        "other": 8,
+        "in-reply-to": 1
+      },
+      "score": 0.371
+    },
+    "yifan.lu": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 8
+      },
+      "score": 0.371
+    },
+    "amazon.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 8
+      },
+      "score": 0.371
+    },
+    "aolradio.podcast.aol.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 8
+      },
+      "score": 0.371
+    },
+    "kindle.amazon.com": {
+      "out": {
+        "other": 8,
+        "in-reply-to": 1
+      },
+      "score": 0.371
+    },
+    "reddit.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 8
+      },
+      "score": 0.371
+    },
+    "www.lambda-bb.de": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 8
+      },
+      "score": 0.371
+    },
+    "www.woot.com": {
+      "out": {
+        "other": 8,
+        "in-reply-to": 1
+      },
+      "score": 0.371
+    },
+    "www.typepad.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.371
+    },
+    "bookworm.oreilly.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.371
+    },
+    "krellis.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "www.avenard.org": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "apintrix.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "cavedwellers.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "chmrr.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "deflatermouse.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "shostack.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "jibsheet.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "epilimnion.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "nafe.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "hartmans.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "the_rookery.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "ghudson.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "knell.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "sungo.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "tsibley.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "owdbetts.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "sphyg.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "octal.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "gmpe.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "chanaleh.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "claerwen.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "friode.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "mizarchivist.livejournal.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.362
+    },
+    "cgi.ebay.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.352
+    },
+    "www.cherrycorp.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "geekhack.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "story.news.yahoo.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.wasdkeyboards.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "dan.co.jp": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "iconocla.st": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.hi-ho.ne.jp": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "douweosinga.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "sanfrancisco.citysearch.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.ljmatch.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "mouser.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "yoz.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "digikey.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.neptunephoto.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.pitchforkmedia.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.iqm.ro": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "d1rtyf1lthy.livejournal.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "embed": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "twitter.com/quince": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.bestpractical.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "lizenthusiasm.livejournal.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "ts.uctec.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "lists.netsys.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.nanowrimo.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.williamgibsonbooks.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.paslounge.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "hooleon.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.fingerworks.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "adafruit.com%20target=": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.key64.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.london-eating.co.uk": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "perlworkshop.dk": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.iterm2.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "mixapp.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.adafruit.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "forums.macrumors.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "phonegap.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "blog.bestpractical.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.mapquest.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.sayhitoyourmom.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "kinesis-ergo.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "twitter.com/obra": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.codinghorror.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.thewolseley.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.makershed.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.sayhername.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "wasdkeyboards.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.clickykeyboards.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "blip.tv": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "fallenpegasus.livejournal.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "jQuery('": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.dpreview.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "humblehacker.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.sovietmusic.net": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.votecobb.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "zacheiss.livejournal.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "yapc.asia": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.wescam.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "colemak.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "wescam.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "chrysaphi.livejournal.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "fastly.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "nathan.torkington.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.bravotv.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "www.dribin.org": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.329
+    },
+    "dzmonster.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "badoingdoing.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "rachellll.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "jon3.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "pekmez.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "geekosaur.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "tildequinn.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "gorgo.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "hep.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "proven.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "yakshaver.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "jila.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "omnom.net": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "403.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "rusalka.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "serendipity9000.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "diagonti.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "studioandrew.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "coolwhitestare.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "cerevisiae.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "publius_ovidius.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "toandfromtheairport.tripod.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "athereal.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "tannie.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "cutegenius.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "gothfru.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "kcr.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "tigerbright.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "kasperureku.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "mstevens.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "www.sheeri.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "latemodel.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "lerta.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "mengwong.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "ctriv.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "lokiect.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "betweenstations.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "www.geek.com.br": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "trysha.livejournal.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.315
+    },
+    "nooktalk.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.282
+    },
+    "www.dailyhack.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.282
+    },
+    "i.imgur.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.282
+    },
+    "edrex.withknown.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.262
+    },
+    "issuu.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "penk.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "ksbrayton.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "mlleglass.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "mycroft.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "blog.jameslick.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "oonh.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "dcart.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "bfo.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "fictioncircus.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "kevinchiu.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "smoemeth.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "tenore.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "pingback_bot.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "justjenine.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "new.ilab.ldeo.columbia.edu": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "rustyryan.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "askbjoernhansen.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "esr.ibiblio.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "digitalemur.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "jboal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "www.expertppcmanagement.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "www.waynesworkshop.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "andreas.louca.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "maren.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "www.reddit.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "mj2q.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "jyavariousideas.blogspot.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "xiphmont.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "docs.google.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "hollewizi.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "sachmet.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "kindleculture.blogspot.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "kindlereader.blogspot.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "anur.ag": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "daveman692.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "damned_colonial.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "ibneko.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "www.sampletheweb.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "idonotlikepeas.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "vaadin.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "www.binarytuberculosis.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "rax.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "lanapowers.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "roozle.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "www.mxguarddog.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "ringer.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "bani.anime.net": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "davidbrush.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "kindleworld.blogspot.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "capsicumanuum.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "timeslayer.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "olifante.blogs.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "krow.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "indigofan.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "sedahi.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "www.florida2000election.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "twitter.com/aweiss": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "ireaderreview.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "fubar.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "indiwent.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "www.isyougeekedup.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "doktor_tomorrow.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "rjpb.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "laereth.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "blog.ijliao.info": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "bookly.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "www.victusspiritus.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "intuition_ist.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "leenoox.livejournal.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "anarchogeek.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "sprxmobile.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.237
+    },
+    "brid.gy": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.222
+    },
+    "fineoils.blogspot.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "blogkindle.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "openidenabled.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "www.norc.uchicago.edu": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "dl.dropbox.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "www.artlebedev.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "svn.jifty.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "www.urbandictionary.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "newpaperwhite.wordpress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "wiki.openmoko.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "4.bp.blogspot.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "docwiki.gumstix.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "www.trabel.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "poniecode.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "www.cdon.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "home.kimo.com.tw": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "sayhername.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "dontbuyanook.blogspot.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "www.obsessable.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "www.technovelgy.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "www.gumstix.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "www.phantomchicken.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "www.thepeak.com.hk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "benno.id.au": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.158
+    },
+    "epub.fsck.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "www.manneken-pis.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "maemo.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "www.davehylands.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "hongkong.peninsula.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "www.cantstopthesignal.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "www.ifixit.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "foldoc.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "www.thestandard.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "sites.google.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "skochinsky.googlepages.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "www.bmovieclub.co.uk": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "linux-wless.passys.nl": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "www.pandemicflu.gov": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.158
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0789
+    },
+    "www.kevin-marks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0789
+    },
+    "www.kevinmarks.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0789
+    },
+    "webmention.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0789
+    },
+    "tantek.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

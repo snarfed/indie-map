@@ -1,0 +1,576 @@
+{
+  "domain": "known.trdaisuke.com",
+  "urls": [
+    "https://known.trdaisuke.com/profile/trdaisuke",
+    "http://trdaisuke.moe",
+    "http://trdaisuke.com",
+    "http://blog.trdaisuke.com",
+    "http://twitter.com/trdaisuke",
+    "http://schoolido.lu/user/trdaisuke"
+  ],
+  "names": [
+    "trdaisuke",
+    "pulse of trdaisuke",
+    "trdaisuke's Known"
+  ],
+  "descriptions": [
+    "I'm a 30-year-old student affairs professional, technology enthusiast, and all-around geek. trdaisuke@trdaisuke.com",
+    "quick, pithy updates - powered by Known",
+    "pithy comments and updates"
+  ],
+  "pictures": [
+    "https://known.trdaisuke.com/file/c2556760d89840aacfd6c0143891477e/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:trdaisuke@trdaisuke.com"
+      ],
+      "name": [
+        "trdaisuke"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I'm a 30-year-old student affairs professional, technology enthusiast, and all-around geek. <a class=\"u-email\" href=\"mailto:trdaisuke@trdaisuke.com\">trdaisuke@trdaisuke.com</a></p>\n</div>",
+          "value": "\nI'm a 30-year-old student affairs professional, technology enthusiast, and all-around geek. trdaisuke@trdaisuke.com\n"
+        }
+      ],
+      "photo": [
+        "https://known.trdaisuke.com/file/c2556760d89840aacfd6c0143891477e/thumb.jpg"
+      ],
+      "profile": [
+        "trdaisuke"
+      ],
+      "url": [
+        "https://known.trdaisuke.com/profile/trdaisuke",
+        "https://known.trdaisuke.com/profile/trdaisuke",
+        "http://trdaisuke.moe",
+        "http://trdaisuke.com",
+        "http://blog.trdaisuke.com",
+        "http://twitter.com/trdaisuke",
+        "http://schoolido.lu/user/trdaisuke"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://trdaisuke.moe",
+    "http://trdaisuke.com",
+    "http://blog.trdaisuke.com",
+    "http://twitter.com/trdaisuke",
+    "http://schoolido.lu/user/trdaisuke"
+  ],
+  "crawl_start": "2017-04-29T04:39:23",
+  "crawl_end": "2017-04-29T04:49:13",
+  "num_pages": 675,
+  "total_html_size": 15366669,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-geo",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://known.trdaisuke.com/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 3618,
+  "links_in": 90,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 688
+      },
+      "score": 1
+    },
+    "trdaisuke.com": {
+      "out": {
+        "other": 658
+      },
+      "score": 0.994
+    },
+    "blog.trdaisuke.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 529
+      },
+      "score": 0.964
+    },
+    "trdaisuke.moe": {
+      "out": {
+        "other": 347
+      },
+      "in": {
+        "other": 78
+      },
+      "score": 0.920
+    },
+    "twitter.com/trdaisuke": {
+      "out": {
+        "other": 364
+      },
+      "score": 0.911
+    },
+    "schoolido.lu": {
+      "out": {
+        "other": 327
+      },
+      "score": 0.896
+    },
+    "www.fflogs.com": {
+      "out": {
+        "other": 63
+      },
+      "score": 0.669
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 49
+      },
+      "score": 0.633
+    },
+    "youtu.be": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.592
+    },
+    "gist.github.com": {
+      "out": {
+        "other": 36
+      },
+      "score": 0.592
+    },
+    "rin.nya.pub": {
+      "out": {
+        "other": 34
+      },
+      "score": 0.584
+    },
+    "bulbapedia.bulbagarden.net": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.557
+    },
+    "1.bp.blogspot.com": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.546
+    },
+    "hidachi.free.fr": {
+      "out": {
+        "other": 26
+      },
+      "score": 0.546
+    },
+    "twitter.com/elichikas": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 4
+      },
+      "score": 0.535
+    },
+    "schara.sunrockgo.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.535
+    },
+    "a.msn.com": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 4
+      },
+      "score": 0.535
+    },
+    "stream.withknown.com": {
+      "out": {
+        "in-reply-to": 4
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.523
+    },
+    "2.bp.blogspot.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.523
+    },
+    "redd.it": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.495
+    },
+    "4.bp.blogspot.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.488
+    },
+    "ffxivrealm.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.461
+    },
+    "na.finalfantasyxiv.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.461
+    },
+    "haruhichan.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.440
+    },
+    "www.animenewsnetwork.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.440
+    },
+    "www.theverge.com": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.440
+    },
+    "realfavicongenerator.net": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.440
+    },
+    "dynasty-scans.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.415
+    },
+    "darkrai10.tumblr.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.400
+    },
+    "www.novacrystallis.com": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.400
+    },
+    "niu.moe": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.400
+    },
+    "www.pri.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.343
+    },
+    "github.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.343
+    },
+    "kitalovessm.deviantart.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.343
+    },
+    "store.nisamerica.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.343
+    },
+    "t.co": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.343
+    },
+    "muv-luv-a-pretty-sweet-visual-novel-series.backerkit.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.343
+    },
+    "www.apcoder.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.343
+    },
+    "www.animefanlistings.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.343
+    },
+    "owncloud.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.343
+    },
+    "www.cracked.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.343
+    },
+    "yandere.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.343
+    },
+    "store.steampowered.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.343
+    },
+    "goo.gl": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.343
+    },
+    "trdaisuke.blogspot.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.343
+    },
+    "kck.st": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.343
+    },
+    "pixel-noir-ps4-ps-vita-pc-mac.backerkit.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.343
+    },
+    "knowyourmeme.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.318
+    },
+    "loli.dance": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.318
+    },
+    "www.dreamhost.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.318
+    },
+    "m.jlist.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.318
+    },
+    "creativecommons.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.318
+    },
+    "twitter.com/escope_khan": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.318
+    },
+    "freemusicarchive.org": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.318
+    },
+    "otakunopodcast.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.288
+    },
+    "twitter.com/SWDTechGames": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.288
+    },
+    "twitter.com/Hirokkaz_": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.288
+    },
+    "twitter.com/lammylamms": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.288
+    },
+    "twitter.com/otakunopodcast": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.288
+    },
+    "twitter.com/farplaner": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.288
+    },
+    "severaqueen.tumblr.com": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.288
+    },
+    "twitter.com/_urameshis_": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.288
+    },
+    "brid.gy": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.248
+    },
+    "twitter.com/RedScareBot": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    },
+    "www.swdtechgames.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    },
+    "twitter.com/NISAmerica": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    },
+    "twitter.com/kitalovessm": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    },
+    "twitter.com/thejmabalot": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    },
+    "twitter.com/Aksys_June": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    },
+    "twitter.com/yoanngouzien": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    },
+    "kahirok96.flavors.me": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    },
+    "twitter.com/ReedCrosby": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    },
+    "twitter.com/MegaOtakuPi": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    },
+    "bit.ly": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    },
+    "lilothestitch.deviantart.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    },
+    "twitter.com/Jtgjailed": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    },
+    "twitter.com/quincybots": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    },
+    "twitter.com/withknown": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.192
+    }
+  }
+}

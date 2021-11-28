@@ -1,0 +1,117 @@
+{
+  "domain": "jackjamieson.net",
+  "urls": [
+    "http://jackjamieson.net/"
+  ],
+  "names": [
+    "Jack Jamieson"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "https://twitter.com/jackjamieson",
+    "https://scholar.google.ca/citations?user=BogYlKwAAAAJ&hl=en",
+    "http://twitter.com/jackjamieson"
+  ],
+  "crawl_start": "2017-04-28T23:34:08",
+  "crawl_end": "2017-04-28T23:34:45",
+  "num_pages": 28,
+  "total_html_size": 475677,
+  "servers": [
+    "nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-mention",
+    "h-card",
+    "h-as-bookmark",
+    "h-as-note",
+    "h-entry",
+    "h-cite",
+    "h-as-article"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IWS2017",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://jackjamieson.net/wp-json/webmention/1.0/endpoint"
+    ],
+    "micropub": [
+      "http://jackjamieson.net/?micropub=endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 333,
+  "links_in": 17,
+  "links": {
+    "www.jackjamieson.net": {
+      "out": {
+        "other": 80
+      },
+      "score": 1
+    },
+    "webmention.rocks": {
+      "out": {
+        "other": 64
+      },
+      "score": 0.955
+    },
+    "independentpublisher.me": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.793
+    },
+    "aaronparecki.com": {
+      "out": {
+        "repost-of": 6
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.726
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.642
+    },
+    "brid.gy": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.488
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.352
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

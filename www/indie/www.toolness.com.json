@@ -1,0 +1,74 @@
+{
+  "domain": "www.toolness.com",
+  "urls": [
+    "http://www.toolness.com/"
+  ],
+  "names": [
+    "Toolness"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-06-10T02:01:18",
+  "crawl_end": "2017-06-10T05:45:52",
+  "num_pages": 59,
+  "total_html_size": 890590,
+  "servers": [
+    "Apache"
+  ],
+  "tags": [],
+  "endpoints": {},
+  "links_out": 1515,
+  "links_in": 48,
+  "links": {
+    "toolness.com": {
+      "out": {
+        "other": 1050
+      },
+      "score": 1
+    },
+    "portfolio.toolness.org": {
+      "out": {
+        "other": 59
+      },
+      "score": 0.624
+    },
+    "standblog.org": {
+      "in": {
+        "other": 40
+      },
+      "score": 0.482
+    },
+    "www.maban.co.uk": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0906
+    },
+    "www.simongriffee.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0906
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0906
+    },
+    "channy.creation.net": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "aribadernatal.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

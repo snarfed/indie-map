@@ -1,0 +1,156 @@
+{
+  "domain": "zork.nu",
+  "urls": [
+    "http://zork.nu/profile/krr",
+    "https://www.tardigrader.se",
+    "https://www.brannvidd.se",
+    "https://www.facebook.com/krister.lofgren",
+    "https://quitter.se/tardigrader",
+    "https://www.instagram.com/tardigrader/",
+    "https://skogsstyrelsen.tumblr.com",
+    "https://tardigrader.tumblr.com"
+  ],
+  "names": [
+    "Krister Löfgren",
+    "Twisty Little Passages"
+  ],
+  "descriptions": [
+    "#vegetarian #unix #nature #zen #writing #leftist",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://zork.nu/file/bc117a5e6822148edab32b46722896e8"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:krister@tardigrader.se"
+      ],
+      "name": [
+        "Krister Löfgren"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>#vegetarian #unix #nature #zen #writing #leftist</p>\n</div>",
+          "value": "\n#vegetarian #unix #nature #zen #writing #leftist\n"
+        }
+      ],
+      "photo": [
+        "http://zork.nu/file/bc117a5e6822148edab32b46722896e8"
+      ],
+      "profile": [
+        "Krister Löfgren"
+      ],
+      "url": [
+        "http://zork.nu/profile/krr",
+        "http://zork.nu/profile/krr",
+        "https://www.tardigrader.se",
+        "https://www.brannvidd.se",
+        "https://www.facebook.com/krister.lofgren",
+        "https://quitter.se/tardigrader",
+        "https://www.instagram.com/tardigrader/",
+        "https://skogsstyrelsen.tumblr.com",
+        "https://tardigrader.tumblr.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://www.tardigrader.se",
+    "https://www.brannvidd.se",
+    "https://www.facebook.com/krister.lofgren",
+    "https://quitter.se/tardigrader",
+    "https://www.instagram.com/tardigrader/",
+    "mailto:krister@tardigrader.se",
+    "https://skogsstyrelsen.tumblr.com",
+    "https://tardigrader.tumblr.com",
+    "https://twitter.com/tardigrader",
+    "https://github.com/tardigrader",
+    "http://zork.nu/",
+    "http://www.last.fm/user/Callithrix"
+  ],
+  "crawl_start": "2017-05-06T10:02:46",
+  "crawl_end": "2017-05-06T10:25:09",
+  "num_pages": 1815,
+  "total_html_size": 36530671,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://zork.nu/webmention/"
+    ],
+    "micropub": [
+      "http://zork.nu/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://zork.nu/indieauth/auth"
+    ],
+    "token": [
+      "http://zork.nu/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 24254,
+  "links_in": 158,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 1815
+      },
+      "score": 0.944
+    },
+    "www.zork.nu": {
+      "in": {
+        "other": 158
+      },
+      "out": {
+        "other": 692
+      },
+      "score": 0.845
+    },
+    "brid.gy": {
+      "out": {
+        "other": 29
+      },
+      "score": 0.467
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 29
+      },
+      "score": 0.467
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.383
+    },
+    "indiewebify.me": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.375
+    }
+  }
+}

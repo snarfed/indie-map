@@ -1,0 +1,52 @@
+{
+  "domain": "dirkdoering.de",
+  "urls": [
+    "http://dirkdoering.de/"
+  ],
+  "names": [
+    "Dirk Döring - Webdesigner"
+  ],
+  "descriptions": [
+    "Dirk Döring entwickelt Websites mit Schwerpunkt HTML, CSS, responsive Webdesign in München"
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "http://twitter.com/faulancr",
+    "mailto:hello@dirkdoering.de",
+    "https://twitter.com/faulancr"
+  ],
+  "crawl_start": "2017-05-14T04:36:12",
+  "crawl_end": "2017-05-14T04:36:12",
+  "num_pages": 2,
+  "total_html_size": 4836,
+  "servers": [
+    "Apache"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 4,
+  "links_in": 2,
+  "links": {
+    "twitter.com/faulancr": {
+      "out": {
+        "other": 2
+      },
+      "score": 1
+    },
+    "typo3.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.499
+    }
+  }
+}

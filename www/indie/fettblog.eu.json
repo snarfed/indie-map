@@ -1,0 +1,78 @@
+{
+  "domain": "fettblog.eu",
+  "urls": [
+    "http://fettblog.eu/"
+  ],
+  "names": [
+    "front-end technology talk"
+  ],
+  "descriptions": [
+    "Blog with articles on all things web development: CSS, JS, Node, HTML, A11Y"
+  ],
+  "pictures": [
+    "https://fettblog.eu/icon/favicon-32x32.png",
+    "https://fettblog.eu/icon/favicon-16x16.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T01:57:40",
+  "crawl_end": "2017-04-30T02:09:51",
+  "num_pages": 1625,
+  "total_html_size": 29663196,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "mf2_classes": [
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/fettblog.eu/webmention"
+    ]
+  },
+  "links_out": 4985,
+  "links_in": 2,
+  "links": {
+    "maddesigns.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.223
+    },
+    "beyondtellerrand.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.173
+    },
+    "timkadlec.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0862
+    },
+    "adactio.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0862
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "vasilis.nl": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

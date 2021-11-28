@@ -1,0 +1,119 @@
+{
+  "domain": "rhiaro.withknown.com",
+  "urls": [
+    "https://rhiaro.withknown.com/profile/rhiaro",
+    "http://rhiaro.co.uk"
+  ],
+  "names": [
+    "Amy",
+    "Tampering with arrangements"
+  ],
+  "descriptions": [
+    "I get excited by linked data.\n \n rhiaro.co.uk",
+    "Hmm"
+  ],
+  "pictures": [
+    "https://rhiaro.withknown.com/file/4015868949e5c674e73c7f06ee891fa4/thumb.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Amy"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I get excited by linked data.</p>\n</div> <p class=\"url-container\">\n<i class=\"fa fa-link\"></i> <a class=\"u-url\" href=\"http://rhiaro.co.uk\" rel=\"me\">rhiaro.co.uk</a>\n</p>\n",
+          "value": "\nI get excited by linked data.\n \n rhiaro.co.uk\n\n"
+        }
+      ],
+      "photo": [
+        "https://rhiaro.withknown.com/file/4015868949e5c674e73c7f06ee891fa4/thumb.png"
+      ],
+      "profile": [
+        "Amy"
+      ],
+      "url": [
+        "https://rhiaro.withknown.com/profile/rhiaro",
+        "https://rhiaro.withknown.com/profile/rhiaro",
+        "http://rhiaro.co.uk"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://rhiaro.co.uk"
+  ],
+  "crawl_start": "2017-04-30T02:06:32",
+  "crawl_end": "2017-04-30T02:08:27",
+  "num_pages": 156,
+  "total_html_size": 3329771,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "elder",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://rhiaro.withknown.com/webmention/"
+    ],
+    "micropub": [
+      "https://rhiaro.withknown.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://rhiaro.withknown.com/indieauth/auth"
+    ],
+    "token": [
+      "https://rhiaro.withknown.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 356,
+  "links_in": 15,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 156
+      },
+      "score": 1
+    },
+    "rhiaro.co.uk": {
+      "out": {
+        "other": 130
+      },
+      "score": 0.969
+    },
+    "michielbdejong.com": {
+      "out": {
+        "in-reply-to": 9
+      },
+      "score": 0.784
+    },
+    "werd.io": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "in-reply-to": 15
+      },
+      "score": 0.770
+    }
+  }
+}

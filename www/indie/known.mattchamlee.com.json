@@ -1,0 +1,143 @@
+{
+  "domain": "known.mattchamlee.com",
+  "urls": [
+    "http://known.mattchamlee.com/profile/mattchamlee",
+    "http://mattchamlee.com",
+    "https://twitter.com/mattchamlee",
+    "http://steadywoodenblanket.tumblr.com/",
+    "http://www.linkedin.com/in/mattchamlee/"
+  ],
+  "names": [
+    "Matt Chamlee",
+    "Matt's Stream"
+  ],
+  "descriptions": [
+    "Father, Husband, computer geek, gamer, aspiring fitness nerd. I architect and code by day, and often keep at it into the dark of night. Currently fascinated by Python / Django, PostgreSQL, MongoDB, and CentOS. Always on the lookout for a new Oracle DB challenge.",
+    "My random musings and other fun stuff."
+  ],
+  "pictures": [
+    "http://known.mattchamlee.com/file/4ee4006ccaa199d38ea72db9d582c4b5/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Matt Chamlee"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Father, Husband, computer geek, gamer, aspiring fitness nerd. I architect and code by day, and often keep at it into the dark of night. Currently fascinated by Python / Django, PostgreSQL, MongoDB, and CentOS. Always on the lookout for a new Oracle DB challenge.</p>\n</div>",
+          "value": "\nFather, Husband, computer geek, gamer, aspiring fitness nerd. I architect and code by day, and often keep at it into the dark of night. Currently fascinated by Python / Django, PostgreSQL, MongoDB, and CentOS. Always on the lookout for a new Oracle DB challenge.\n"
+        }
+      ],
+      "photo": [
+        "http://known.mattchamlee.com/file/4ee4006ccaa199d38ea72db9d582c4b5/thumb.jpg"
+      ],
+      "profile": [
+        "Matt Chamlee"
+      ],
+      "url": [
+        "http://known.mattchamlee.com/profile/mattchamlee",
+        "http://known.mattchamlee.com/profile/mattchamlee",
+        "http://mattchamlee.com",
+        "https://twitter.com/mattchamlee",
+        "http://steadywoodenblanket.tumblr.com/",
+        "http://www.linkedin.com/in/mattchamlee/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://mattchamlee.com",
+    "https://twitter.com/mattchamlee",
+    "http://steadywoodenblanket.tumblr.com/",
+    "http://www.linkedin.com/in/mattchamlee/"
+  ],
+  "crawl_start": "2017-04-29T04:36:06",
+  "crawl_end": "2017-04-29T04:51:17",
+  "num_pages": 1828,
+  "total_html_size": 35402616,
+  "servers": [
+    "nginx",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry",
+    "h-cite"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.mattchamlee.com/webmention/"
+    ],
+    "micropub": [
+      "http://known.mattchamlee.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://known.mattchamlee.com/indieauth/auth"
+    ],
+    "token": [
+      "http://known.mattchamlee.com/indieauth/token"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 8307,
+  "links_in": 56,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 1837
+      },
+      "score": 1
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "in-reply-to": 23
+      },
+      "out": {
+        "other": 9
+      },
+      "score": 0.596
+    },
+    "stream.withknown.com": {
+      "out": {
+        "other": 15
+      },
+      "in": {
+        "other": 13
+      },
+      "score": 0.458
+    },
+    "brid.gy": {
+      "in": {
+        "other": 16
+      },
+      "score": 0.337
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.169
+    },
+    "werd.io": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.169
+    }
+  }
+}

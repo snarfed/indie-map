@@ -1,0 +1,182 @@
+{
+  "domain": "shanehudson.net",
+  "urls": [
+    "http://shanehudson.net/"
+  ],
+  "names": [
+    "Shane Hudson's Portfolio"
+  ],
+  "descriptions": [
+    "The weird and wonderful of web development."
+  ],
+  "pictures": [
+    "https://shanehudson.net/avatar.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-25T09:09:08",
+  "crawl_end": "2017-04-25T09:11:09",
+  "num_pages": 116,
+  "total_html_size": 931692,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "mf2_classes": [
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "elder",
+    "IRC",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://shanehudson.net/index.php?p=actions/webMentionReceiver/endpoint/receive"
+    ],
+    "micropub": [
+      "https://shanehudson.net/index.php?p=actions/micropub/endpoint/post"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 551,
+  "links_in": 459,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 229
+      },
+      "score": 0.985
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 99
+      },
+      "score": 0.835
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "in-reply-to": 5,
+        "other": 30
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.733
+    },
+    "werd.io": {
+      "in": {
+        "other": 52
+      },
+      "score": 0.717
+    },
+    "adactio.com": {
+      "out": {
+        "other": 10
+      },
+      "in": {
+        "other": 15
+      },
+      "score": 0.646
+    },
+    "kartikprabhu.com": {
+      "in": {
+        "in-reply-to": 2
+      },
+      "score": 0.417
+    },
+    "aaronparecki.com": {
+      "in": {
+        "other": 6
+      },
+      "out": {
+        "other": 1
+      },
+      "score": 0.377
+    },
+    "kylewm.com": {
+      "in": {
+        "like-of": 3,
+        "other": 2
+      },
+      "score": 0.377
+    },
+    "anomalily.net": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.325
+    },
+    "brid.gy": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.292
+    },
+    "darcynorman.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.252
+    },
+    "huffduffer.com": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.252
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.126
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.126
+    },
+    "tantek.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.126
+    },
+    "snarfed.org": {
+      "in": {
+        "like-of": 1
+      },
+      "score": 0.126
+    },
+    "known.kylewm.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.126
+    },
+    "ben.thatmustbe.me": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "t37.net": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

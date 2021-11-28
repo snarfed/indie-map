@@ -1,0 +1,66 @@
+{
+  "domain": "simon.coopey.net",
+  "urls": [
+    "http://simon.coopey.net/"
+  ],
+  "names": [
+    "Simon Coopey lives here"
+  ],
+  "descriptions": [],
+  "pictures": [
+    "http://simon.coopey.net/favicon.png"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://alpha.app.net/coopey",
+    "https://pnut.io/@coopey",
+    "https://twitter.com/SimonCoopey",
+    "https://facebook.com/SimonCoopey",
+    "https://instagram.com/SimonCoopey",
+    "https://plus.google.com/+SimonCoopey",
+    "https://simoncoopey.cupcake.is",
+    "https://simoncoopey.tumblr.com",
+    "https://github.com/SimonCoopey",
+    "http://simoncoopey.blogspot.com/",
+    "https://diasp.org/u/simoncoopey",
+    "https://keybase.io/coopey",
+    "sms:+19494783743"
+  ],
+  "crawl_start": "2017-04-30T02:14:51",
+  "crawl_end": "2017-04-30T02:14:51",
+  "num_pages": 1,
+  "total_html_size": 9499,
+  "servers": [
+    "nginx"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "authorization"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://simon.coopey.net/webmention.php"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ]
+  },
+  "links_out": 0,
+  "links_in": 13,
+  "links": {
+    "brid.gy": {
+      "in": {
+        "other": 11
+      },
+      "score": 1
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.289
+    }
+  }
+}

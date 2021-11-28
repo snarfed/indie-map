@@ -1,0 +1,197 @@
+{
+  "domain": "pilch.me",
+  "urls": [
+    "https://pilch.me/profile/pilch",
+    "http://pilchernet.com",
+    "https://twitter.com/pi1ch",
+    "https://facebook.com/thepilch",
+    "https://plus.google.com/+CraigPilcher",
+    "http://last.fm/user/pilch",
+    "http://telegram.me/pilch",
+    "https://about.me/cpilcher",
+    "https://www.instagram.com/thepilch86/"
+  ],
+  "names": [
+    "Pilch",
+    "pilch"
+  ],
+  "descriptions": [
+    "boilermaker, software enthusiast, skilled raconteur, power user, general man-about-town.drink your juicebox.",
+    "pilch on the interweb"
+  ],
+  "pictures": [
+    "https://pilch.me/file/12601e1c0bebada3cd6ce9eb59c55099/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Pilch"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>boilermaker, software enthusiast, skilled raconteur, power user, general man-about-town.<br/>drink your juicebox.</p>\n</div> ",
+          "value": "\nboilermaker, software enthusiast, skilled raconteur, power user, general man-about-town.drink your juicebox.\n "
+        }
+      ],
+      "photo": [
+        "https://pilch.me/file/12601e1c0bebada3cd6ce9eb59c55099/thumb.jpg"
+      ],
+      "profile": [
+        "Pilch"
+      ],
+      "url": [
+        "https://pilch.me/profile/pilch",
+        "https://pilch.me/profile/pilch",
+        "http://pilchernet.com",
+        "https://twitter.com/pi1ch",
+        "https://facebook.com/thepilch",
+        "https://plus.google.com/+CraigPilcher",
+        "http://last.fm/user/pilch",
+        "http://telegram.me/pilch",
+        "https://about.me/cpilcher",
+        "https://www.instagram.com/thepilch86/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://pilchernet.com",
+    "https://twitter.com/pi1ch",
+    "https://facebook.com/thepilch",
+    "https://plus.google.com/+CraigPilcher",
+    "http://last.fm/user/pilch",
+    "http://telegram.me/pilch",
+    "https://about.me/cpilcher",
+    "https://www.instagram.com/thepilch86/"
+  ],
+  "crawl_start": "2017-04-30T01:59:43",
+  "crawl_end": "2017-04-30T02:51:57",
+  "num_pages": 5601,
+  "total_html_size": 136513787,
+  "servers": [
+    "Apache (Ubuntu)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-geo",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://pilch.me/webmention/"
+    ],
+    "micropub": [
+      "https://pilch.me/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://pilch.me/indieauth/auth"
+    ],
+    "token": [
+      "https://pilch.me/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 67894,
+  "links_in": 56,
+  "links": {
+    "pilchernet.com": {
+      "out": {
+        "other": 5968
+      },
+      "score": 1
+    },
+    "withknown.com": {
+      "out": {
+        "other": 5663
+      },
+      "score": 0.995
+    },
+    "werd.io": {
+      "out": {
+        "other": 38,
+        "in-reply-to": 20,
+        "like-of": 4,
+        "repost-of": 4
+      },
+      "in": {
+        "other": 23
+      },
+      "score": 0.622
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.545
+    },
+    "stream.boffosocko.com": {
+      "out": {
+        "other": 60
+      },
+      "score": 0.511
+    },
+    "bmann.ca": {
+      "out": {
+        "other": 60
+      },
+      "score": 0.511
+    },
+    "snarfed.org": {
+      "in": {
+        "other": 1
+      },
+      "out": {
+        "other": 18
+      },
+      "score": 0.385
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 5
+      },
+      "out": {
+        "other": 14
+      },
+      "score": 0.373
+    },
+    "brid.gy": {
+      "in": {
+        "other": 22
+      },
+      "score": 0.329
+    },
+    "miklb.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.148
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.148
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

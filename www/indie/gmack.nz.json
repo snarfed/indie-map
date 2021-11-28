@@ -1,0 +1,127 @@
+{
+  "domain": "gmack.nz",
+  "urls": [
+    "https://gmack.nz"
+  ],
+  "names": [
+    "Grant MacKenzie",
+    "gmack.nz"
+  ],
+  "descriptions": [
+    "My URL therefore I am"
+  ],
+  "pictures": [
+    "https://gmack.nz/images/60/gmacknz"
+  ],
+  "hcard": {
+    "children": [
+      {
+        "properties": {
+          "country-name": [
+            "New Zealand"
+          ],
+          "locality": [
+            "Awhitu"
+          ],
+          "name": [
+            "8 Featon Ave, \n   Awhitu, \n   New Zealand"
+          ],
+          "photo": [
+            "https://gmack.nz/icons/geolocation"
+          ],
+          "street-address": [
+            "8 Featon Ave"
+          ]
+        },
+        "type": [
+          "h-adr"
+        ]
+      }
+    ],
+    "properties": {
+      "email": [
+        "\n\ngrantmacken\n"
+      ],
+      "name": [
+        "Grant MacKenzie"
+      ],
+      "note": [
+        "My URL therefore I am"
+      ],
+      "photo": [
+        "https://gmack.nz/images/60/gmacknz"
+      ],
+      "uid": [
+        "https://gmack.nz"
+      ],
+      "url": [
+        "https://gmack.nz"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://gmack.nz",
+    "https://twitter.com/grantmacken",
+    "https://github.com/grantmacken",
+    "https://plus.google.com/+GrantMacKenzieAwhitu/about"
+  ],
+  "crawl_start": "2017-06-09T17:45:07",
+  "crawl_end": "2017-06-09T17:45:12",
+  "num_pages": 11,
+  "total_html_size": 25699,
+  "servers": [
+    "openresty"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-adr",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://gmack.nz/webmention"
+    ],
+    "micropub": [
+      "https://gmack.nz/micropub"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 12,
+  "links_in": 6,
+  "links": {
+    "webmention.rocks": {
+      "out": {
+        "in-reply-to": 8
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.368
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

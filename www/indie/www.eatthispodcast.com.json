@@ -1,0 +1,121 @@
+{
+  "domain": "www.eatthispodcast.com",
+  "urls": [
+    "http://www.eatthispodcast.com/"
+  ],
+  "names": [
+    "Eat This Podcast | Talking about anything around food",
+    "Eat This Podcast"
+  ],
+  "descriptions": [
+    "A picture is worth way more than 1000 words when it reveals food trends over the past 50 years for more than 150 countries.",
+    "Talking about anything around food"
+  ],
+  "pictures": [
+    "http://www.eatthispodcast.com/wp-content/uploads/2013/03/etp-cover.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-05-07T15:46:55",
+  "crawl_end": "2017-05-07T15:50:27",
+  "num_pages": 298,
+  "total_html_size": 8499709,
+  "servers": [
+    "cloudflare-nginx",
+    "WordPress"
+  ],
+  "mf2_classes": [
+    "h-as-mention",
+    "h-card",
+    "h-as-like",
+    "h-entry",
+    "h-as-repost",
+    "h-as-reply"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "generator",
+    "WordPress"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.eatthispodcast.com/wp-json/webmention/1.0/endpoint"
+    ],
+    "generator": [
+      "http://wordpress.org/"
+    ]
+  },
+  "links_out": 2636,
+  "links_in": 400,
+  "links": {
+    "jeremycherfas.net": {
+      "out": {
+        "other": 298
+      },
+      "score": 0.995
+    },
+    "independentpublisher.me": {
+      "out": {
+        "other": 298
+      },
+      "score": 0.995
+    },
+    "stream.jeremycherfas.net": {
+      "in": {
+        "other": 90,
+        "in-reply-to": 48
+      },
+      "score": 0.903
+    },
+    "boffosocko.com": {
+      "in": {
+        "other": 132
+      },
+      "out": {
+        "other": 10
+      },
+      "score": 0.782
+    },
+    "stream.boffosocko.com": {
+      "in": {
+        "other": 58,
+        "in-reply-to": 13
+      },
+      "score": 0.749
+    },
+    "www.jeremycherfas.net": {
+      "in": {
+        "other": 24
+      },
+      "out": {
+        "other": 13
+      },
+      "score": 0.609
+    },
+    "huffduffer.com": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.603
+    },
+    "vaviblog.com": {
+      "in": {
+        "other": 22
+      },
+      "score": 0.481
+    },
+    "brid.gy": {
+      "in": {
+        "other": 12
+      },
+      "score": 0.386
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

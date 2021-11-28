@@ -1,0 +1,151 @@
+{
+  "domain": "www.exercisebook.org.uk",
+  "urls": [
+    "http://www.exercisebook.org.uk/profile/jonbolton",
+    "https://twitter.com/jonbolton"
+  ],
+  "names": [
+    "Jon Bolton",
+    "ExerciseBook"
+  ],
+  "descriptions": [
+    "Consultant, trainer, former social work manager, Director of @FOL_Ltd, Lecturer @DundeeUni. Interested in learning, technology & innovation.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://www.exercisebook.org.uk/file/3e540c4c149d806f3b34c01383f11a35/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Jon Bolton"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Consultant, trainer, former social work manager, Director of @FOL_Ltd, Lecturer @DundeeUni. Interested in learning, technology &amp; innovation.</p>\n</div>",
+          "value": "\nConsultant, trainer, former social work manager, Director of @FOL_Ltd, Lecturer @DundeeUni. Interested in learning, technology & innovation.\n"
+        }
+      ],
+      "photo": [
+        "http://www.exercisebook.org.uk/file/3e540c4c149d806f3b34c01383f11a35/thumb.jpg"
+      ],
+      "profile": [
+        "Jon Bolton"
+      ],
+      "url": [
+        "http://www.exercisebook.org.uk/profile/jonbolton",
+        "http://www.exercisebook.org.uk/profile/jonbolton",
+        "https://twitter.com/jonbolton"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://twitter.com/jonbolton"
+  ],
+  "crawl_start": "2017-04-30T06:17:42",
+  "crawl_end": "2017-04-30T06:18:49",
+  "num_pages": 118,
+  "total_html_size": 2302583,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://www.exercisebook.org.uk/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 187,
+  "links_in": 2,
+  "links": {
+    "twitter.com/jonbolton": {
+      "out": {
+        "other": 111
+      },
+      "score": 1
+    },
+    "thirdforcenews.org.uk": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.693
+    },
+    "ukcopyrightliteracy.wordpress.com": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.643
+    },
+    "www.knowledge.scot.nhs.uk": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.604
+    },
+    "www.bbc.co.uk": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.604
+    },
+    "twitter.com/jaxrafferty": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.385
+    },
+    "twitter.com/Accaber_Red": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.331
+    },
+    "uk.linkedin.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.257
+    },
+    "confessionsofatwiliteratesocialworker.wordpress.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.257
+    },
+    "www.focusedonlearning.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.128
+    },
+    "www.goodreads.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.128
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.128
+    }
+  }
+}

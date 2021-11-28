@@ -1,0 +1,105 @@
+{
+  "domain": "nicola.withknown.com",
+  "urls": [
+    "https://nicola.withknown.com/profile/nicola",
+    "https://www.facebook.com/friendsofniclaz",
+    "https://www.linkedin.com/in/nlazzari",
+    "http://tradeschool.coop/geneva"
+  ],
+  "names": [
+    "nic.laz",
+    "niclaz.net"
+  ],
+  "descriptions": [
+    "Welcome to the repository of my digital self...\nHere I comment on and share what I find surfing the internet [scroll down and use 'filter content' above]\nHere I publish original content under a Creative Commons license [see top menu bar]\nFrom here I syndicate this content to various social networks [currently: FB]\nInternal hashtags for facilitated navigation: #words #watchthis #readme #think #discuss",
+    "an open repository for my digital self"
+  ],
+  "pictures": [
+    "https://nicola.withknown.com/file/6488a70c1b4903764f9437654fb121c6/thumb.jpg",
+    "https://nicola.withknown.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "nic.laz"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>Welcome to the repository of my digital self...</p>\n<p>Here I comment on and share what I find surfing the internet [scroll down and use 'filter content' above]</p>\n<p>Here I publish original content under a Creative Commons license [see top menu bar]</p>\n<p>From here I syndicate this content to various social networks [currently: FB]</p>\n<p>Internal hashtags for facilitated navigation: <br/>#words #watchthis #readme #think #discuss</p>\n</div>",
+          "value": "\nWelcome to the repository of my digital self...\nHere I comment on and share what I find surfing the internet [scroll down and use 'filter content' above]\nHere I publish original content under a Creative Commons license [see top menu bar]\nFrom here I syndicate this content to various social networks [currently: FB]\nInternal hashtags for facilitated navigation: #words #watchthis #readme #think #discuss\n"
+        }
+      ],
+      "photo": [
+        "https://nicola.withknown.com/file/6488a70c1b4903764f9437654fb121c6/thumb.jpg"
+      ],
+      "profile": [
+        "nic.laz"
+      ],
+      "url": [
+        "https://nicola.withknown.com/profile/nicola",
+        "https://nicola.withknown.com/profile/nicola",
+        "https://www.facebook.com/friendsofniclaz",
+        "https://www.linkedin.com/in/nlazzari",
+        "http://tradeschool.coop/geneva"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://www.facebook.com/friendsofniclaz",
+    "https://www.linkedin.com/in/nlazzari",
+    "http://tradeschool.coop/geneva"
+  ],
+  "crawl_start": "2017-04-29T21:32:24",
+  "crawl_end": "2017-04-29T21:38:28",
+  "num_pages": 154,
+  "total_html_size": 5524541,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-cite",
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://nicola.withknown.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 4237,
+  "links_in": 7,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 156
+      },
+      "score": 0.729
+    },
+    "brid.gy": {
+      "in": {
+        "other": 7
+      },
+      "score": 0.248
+    },
+    "indieweb.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0881
+    }
+  }
+}

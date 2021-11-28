@@ -1,0 +1,64 @@
+{
+  "domain": "frank.taillandier.me",
+  "urls": [
+    "https://frank.taillandier.me/"
+  ],
+  "names": [
+    "Frank Taillandier | Frank Taillandier",
+    "Frank Taillandier"
+  ],
+  "descriptions": [
+    "Consultant web"
+  ],
+  "pictures": [
+    "https://frank.taillandier.me/assets/favicons/favicon-32x32.png",
+    "https://frank.taillandier.me/assets/favicons/favicon-16x16.png",
+    "https://frank.taillandier.me/assets/favicons/favicon.ico"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "https://frank.taillandier.me/feed.xml",
+    "mailto:frank@taillandier.me",
+    "https://twitter.com/DirtyF",
+    "https://github.com/DirtyF"
+  ],
+  "crawl_start": "2017-04-30T01:57:42",
+  "crawl_end": "2017-04-30T01:58:01",
+  "num_pages": 18,
+  "total_html_size": 642414,
+  "servers": [
+    "Netlify"
+  ],
+  "tags": [
+    "relme",
+    "webmention.io",
+    "webmention"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/taillandier.me/webmention"
+    ]
+  },
+  "links_out": 381,
+  "links_in": 4,
+  "links": {
+    "nicolas-hoizey.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.147
+    },
+    "christophe.ducamp.me": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    },
+    "borisschapira.com": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

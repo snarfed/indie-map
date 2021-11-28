@@ -1,0 +1,388 @@
+{
+  "domain": "martymcgui.re",
+  "urls": [
+    "https://martymcgui.re/"
+  ],
+  "names": [
+    "Marty McGuire"
+  ],
+  "descriptions": [
+    "I'm a freelance web developer in Baltimore, MD. I can also be found tinkering with electronics, 3D printing, and performing improv comedy.",
+    "Marty McGuire is a freelance web developer in Baltimore, MD. He can also be found tinkering with electronics, 3D printing, and performing improv comedy.\n"
+  ],
+  "pictures": [
+    "https://martymcgui.re/images/marty.jpg",
+    "https://martymcgui.re/images/logo.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:marty@martymcgui.re"
+      ],
+      "key": [
+        "https://martymcgui.re/pgp.asc"
+      ],
+      "name": [
+        "Marty McGuire"
+      ],
+      "note": [
+        "I'm a freelance web developer in Baltimore, MD. I can also be found tinkering with electronics, 3D printing, and performing improv comedy."
+      ],
+      "photo": [
+        "https://martymcgui.re/images/marty.jpg",
+        "https://martymcgui.re/images/marty.jpg"
+      ],
+      "url": [
+        "https://martymcgui.re/"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://martymcgui.re/",
+    "https://twitter.com/schmarty",
+    "https://micro.blog/schmarty",
+    "https://plus.google.com/u/0/+MartyMcGuire/about",
+    "https://www.instagram.com/schmartissimo/",
+    "https://github.com/martymcguire/",
+    "https://www.flickr.com/people/schmarty/",
+    "mailto:marty@martymcgui.re"
+  ],
+  "crawl_start": "2017-04-24T13:06:23",
+  "crawl_end": "2017-04-24T13:10:06",
+  "num_pages": 362,
+  "total_html_size": 3363846,
+  "servers": [
+    "Apache (Ubuntu)"
+  ],
+  "mf2_classes": [
+    "h-feed",
+    "h-card",
+    "h-product",
+    "h-event",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "IRC",
+    "IWS2017",
+    "webmention.io",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/martymcgui.re/webmention"
+    ],
+    "micropub": [
+      "https://martymcgui.re/api/micropub/"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ],
+    "websub": [
+      "http://martymcguire.superfeedr.com/"
+    ]
+  },
+  "links_out": 3730,
+  "links_in": 1574,
+  "links": {
+    "aaronparecki.com": {
+      "in": {
+        "bookmark-of": 9,
+        "other": 281,
+        "like-of": 7
+      },
+      "out": {
+        "other": 407
+      },
+      "score": 0.956
+    },
+    "wehavetoask.com": {
+      "out": {
+        "other": 392
+      },
+      "score": 0.906
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 396
+      },
+      "out": {
+        "other": 61
+      },
+      "score": 0.850
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 253
+      },
+      "out": {
+        "other": 130
+      },
+      "score": 0.849
+    },
+    "stream.jeremycherfas.net": {
+      "out": {
+        "other": 22
+      },
+      "in": {
+        "other": 88,
+        "in-reply-to": 18
+      },
+      "score": 0.735
+    },
+    "adactio.com": {
+      "out": {
+        "other": 12
+      },
+      "in": {
+        "other": 4,
+        "bookmark-of": 95
+      },
+      "score": 0.732
+    },
+    "eddiehinkle.com": {
+      "in": {
+        "other": 71,
+        "in-reply-to": 5
+      },
+      "out": {
+        "other": 46
+      },
+      "score": 0.713
+    },
+    "boffosocko.com": {
+      "out": {
+        "in-reply-to": 6,
+        "other": 6,
+        "like-of": 4
+      },
+      "in": {
+        "other": 78,
+        "bookmark-of": 9
+      },
+      "score": 0.709
+    },
+    "stream.boffosocko.com": {
+      "out": {
+        "other": 6
+      },
+      "in": {
+        "other": 46,
+        "like-of": 34
+      },
+      "score": 0.659
+    },
+    "huffduffer.com": {
+      "in": {
+        "other": 8
+      },
+      "out": {
+        "other": 45
+      },
+      "score": 0.623
+    },
+    "news.indieweb.org": {
+      "in": {
+        "other": 78
+      },
+      "score": 0.593
+    },
+    "brid.gy": {
+      "out": {
+        "other": 8
+      },
+      "in": {
+        "other": 45
+      },
+      "score": 0.559
+    },
+    "jonathanprozzi.net": {
+      "out": {
+        "other": 28
+      },
+      "score": 0.548
+    },
+    "2017.indieweb.org": {
+      "out": {
+        "other": 15
+      },
+      "in": {
+        "other": 3
+      },
+      "score": 0.476
+    },
+    "known.kevinmarks.com": {
+      "in": {
+        "other": 2
+      },
+      "out": {
+        "other": 12
+      },
+      "score": 0.444
+    },
+    "dougbeal.com": {
+      "in": {
+        "like-of": 12
+      },
+      "score": 0.433
+    },
+    "tantek.com": {
+      "out": {
+        "other": 11
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.427
+    },
+    "2016.indieweb.org": {
+      "out": {
+        "other": 1,
+        "in-reply-to": 2
+      },
+      "score": 0.420
+    },
+    "unrelenting.technology": {
+      "out": {
+        "other": 1
+      },
+      "in": {
+        "other": 15
+      },
+      "score": 0.385
+    },
+    "snarfed.org": {
+      "out": {
+        "other": 4
+      },
+      "in": {
+        "other": 2,
+        "like-of": 3
+      },
+      "score": 0.377
+    },
+    "www.boffosocko.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.377
+    },
+    "gregorlove.com": {
+      "in": {
+        "other": 2,
+        "like-of": 4
+      },
+      "out": {
+        "other": 2
+      },
+      "score": 0.359
+    },
+    "werd.io": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.337
+    },
+    "quill.p3k.io": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.283
+    },
+    "webmention.io": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.283
+    },
+    "woodwind.xyz": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.244
+    },
+    "known.stierand.org": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.219
+    },
+    "emmahodge.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.189
+    },
+    "telegraph.p3k.io": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.189
+    },
+    "lukasrosenstock.net": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.189
+    },
+    "larrykooper.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0943
+    },
+    "www.aaron-gustafson.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0943
+    },
+    "www.jjuran.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0943
+    },
+    "tiny.n9n.us": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0943
+    },
+    "headcrash.ascraeus.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0943
+    },
+    "sixtwothree.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0943
+    },
+    "david.shanske.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0943
+    },
+    "nateparsons.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0943
+    }
+  }
+}

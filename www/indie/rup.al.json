@@ -1,0 +1,102 @@
+{
+  "domain": "rup.al",
+  "urls": [
+    "http://rup.al/profile/rupal",
+    "http://twitter.com/rshah17"
+  ],
+  "names": [
+    "Rupal",
+    "Rupal "
+  ],
+  "descriptions": [
+    "I am a nonprofit professional living in the great city of Seattle.",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://rup.al/file/336655812ffc7d7c7b83e7d1da5001b2/thumb.jpg"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Rupal"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I am a nonprofit professional living in the great city of Seattle.</p>\n</div> ",
+          "value": "\nI am a nonprofit professional living in the great city of Seattle.\n "
+        }
+      ],
+      "photo": [
+        "http://rup.al/file/336655812ffc7d7c7b83e7d1da5001b2/thumb.jpg"
+      ],
+      "profile": [
+        "Rupal"
+      ],
+      "url": [
+        "http://rup.al/profile/rupal",
+        "http://rup.al/profile/rupal",
+        "http://twitter.com/rshah17"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://twitter.com/rshah17"
+  ],
+  "crawl_start": "2017-05-21T06:11:07",
+  "crawl_end": "2017-05-21T06:14:28",
+  "num_pages": 524,
+  "total_html_size": 15235380,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://rup.al/webmention/"
+    ],
+    "micropub": [
+      "http://rup.al/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "http://rup.al/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 606,
+  "links_in": 1,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 524
+      },
+      "score": 1
+    },
+    "brid.gy": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

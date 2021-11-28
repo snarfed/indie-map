@@ -1,0 +1,954 @@
+{
+  "domain": "zork.nu",
+  "urls": [
+    "http://zork.nu/profile/krr",
+    "https://www.tardigrader.se",
+    "https://www.brannvidd.se",
+    "https://www.facebook.com/krister.lofgren",
+    "https://quitter.se/tardigrader",
+    "https://www.instagram.com/tardigrader/",
+    "https://skogsstyrelsen.tumblr.com",
+    "https://tardigrader.tumblr.com"
+  ],
+  "names": [
+    "Krister Löfgren",
+    "Twisty Little Passages"
+  ],
+  "descriptions": [
+    "#vegetarian #unix #nature #zen #writing #leftist",
+    "A social website powered by Known"
+  ],
+  "pictures": [
+    "http://zork.nu/file/bc117a5e6822148edab32b46722896e8"
+  ],
+  "hcard": {
+    "properties": {
+      "email": [
+        "mailto:krister@tardigrader.se"
+      ],
+      "name": [
+        "Krister Löfgren"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>#vegetarian #unix #nature #zen #writing #leftist</p>\n</div>",
+          "value": "\n#vegetarian #unix #nature #zen #writing #leftist\n"
+        }
+      ],
+      "photo": [
+        "http://zork.nu/file/bc117a5e6822148edab32b46722896e8"
+      ],
+      "profile": [
+        "Krister Löfgren"
+      ],
+      "url": [
+        "http://zork.nu/profile/krr",
+        "http://zork.nu/profile/krr",
+        "https://www.tardigrader.se",
+        "https://www.brannvidd.se",
+        "https://www.facebook.com/krister.lofgren",
+        "https://quitter.se/tardigrader",
+        "https://www.instagram.com/tardigrader/",
+        "https://skogsstyrelsen.tumblr.com",
+        "https://tardigrader.tumblr.com"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://www.tardigrader.se",
+    "https://www.brannvidd.se",
+    "https://www.facebook.com/krister.lofgren",
+    "https://quitter.se/tardigrader",
+    "https://www.instagram.com/tardigrader/",
+    "mailto:krister@tardigrader.se",
+    "https://skogsstyrelsen.tumblr.com",
+    "https://tardigrader.tumblr.com",
+    "https://twitter.com/tardigrader",
+    "https://github.com/tardigrader",
+    "http://zork.nu/",
+    "http://www.last.fm/user/Callithrix"
+  ],
+  "crawl_start": "2017-05-06T10:02:46",
+  "crawl_end": "2017-05-06T10:25:09",
+  "num_pages": 1815,
+  "total_html_size": 36530671,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://zork.nu/webmention/"
+    ],
+    "micropub": [
+      "http://zork.nu/micropub/endpoint"
+    ],
+    "authorization": [
+      "http://zork.nu/indieauth/auth"
+    ],
+    "token": [
+      "http://zork.nu/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 24254,
+  "links_in": 158,
+  "links": {
+    "quitter.se": {
+      "out": {
+        "other": 2975
+      },
+      "score": 1
+    },
+    "www.brannvidd.se": {
+      "out": {
+        "other": 2975
+      },
+      "score": 1
+    },
+    "facebook.com/krister.lofgren": {
+      "out": {
+        "other": 2975
+      },
+      "score": 1
+    },
+    "twitter.com/tardigrader": {
+      "out": {
+        "other": 1829
+      },
+      "score": 0.945
+    },
+    "www.last.fm": {
+      "out": {
+        "other": 1815
+      },
+      "score": 0.944
+    },
+    "withknown.com": {
+      "out": {
+        "other": 1815
+      },
+      "score": 0.944
+    },
+    "github.com": {
+      "out": {
+        "other": 1815
+      },
+      "score": 0.944
+    },
+    "tardigrader.tumblr.com": {
+      "out": {
+        "other": 1160
+      },
+      "score": 0.892
+    },
+    "skogsstyrelsen.tumblr.com": {
+      "out": {
+        "other": 1160
+      },
+      "score": 0.892
+    },
+    "tardigrader.se": {
+      "out": {
+        "other": 1160
+      },
+      "score": 0.892
+    },
+    "www.instagram.com": {
+      "out": {
+        "other": 1160
+      },
+      "score": 0.892
+    },
+    "www.tardigrader.se": {
+      "out": {
+        "other": 1160
+      },
+      "score": 0.892
+    },
+    "www.zork.nu": {
+      "in": {
+        "other": 158
+      },
+      "out": {
+        "other": 692
+      },
+      "score": 0.845
+    },
+    "facebook.com/10153247504658811": {
+      "out": {
+        "other": 504
+      },
+      "score": 0.796
+    },
+    "xyzzy.nu": {
+      "out": {
+        "other": 68
+      },
+      "score": 0.565
+    },
+    "bitchmedia.org": {
+      "out": {
+        "other": 39
+      },
+      "score": 0.502
+    },
+    "motherboard.vice.com": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.471
+    },
+    "theconversation.com": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.471
+    },
+    "brid.gy": {
+      "out": {
+        "other": 29
+      },
+      "score": 0.467
+    },
+    "indieauth.com": {
+      "out": {
+        "other": 29
+      },
+      "score": 0.467
+    },
+    "the-toast.net": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.435
+    },
+    "www.wallabag.org": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.430
+    },
+    "qz.com": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.430
+    },
+    "www.theregister.co.uk": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.412
+    },
+    "digitalista.de": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.412
+    },
+    "facebook.com/1191076080909782": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.412
+    },
+    "facebook.com/1109773812380700": {
+      "out": {
+        "other": 18
+      },
+      "score": 0.412
+    },
+    "www.engadget.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.406
+    },
+    "www.bloombergview.com": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.406
+    },
+    "facebook.com/10153629874419774": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.399
+    },
+    "facebook.com/10200865076985600": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.399
+    },
+    "facebook.com/424466357753707": {
+      "out": {
+        "other": 16
+      },
+      "score": 0.399
+    },
+    "facebook.com/842393919192611": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.383
+    },
+    "oeis.org": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.383
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.383
+    },
+    "www.xhalr.com": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.383
+    },
+    "facebook.com/10153764806185559": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.383
+    },
+    "facebook.com/1190372414311471": {
+      "out": {
+        "other": 14
+      },
+      "score": 0.383
+    },
+    "www.overthinkingit.com": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.375
+    },
+    "indiewebify.me": {
+      "out": {
+        "other": 13
+      },
+      "score": 0.375
+    },
+    "facebook.com/10153102959027601": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.366
+    },
+    "facebook.com/10156287381725637": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.366
+    },
+    "facebook.com/10153319783747341": {
+      "out": {
+        "other": 12
+      },
+      "score": 0.366
+    },
+    "glittering.blue": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.356
+    },
+    "maidsafe.net": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.345
+    },
+    "facebook.com/10153625212259360": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.345
+    },
+    "facebook.com/899226666838200": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.345
+    },
+    "twitter.com/restartthevoid": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.345
+    },
+    "facebook.com/10153705933493850": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.345
+    },
+    "cjchilvers.com": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.345
+    },
+    "facebook.com/10153208556958457": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.345
+    },
+    "facebook.com/10153240188045687": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.345
+    },
+    "fusion.net": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.333
+    },
+    "64jim64.blogspot.se": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.333
+    },
+    "morning.computer": {
+      "out": {
+        "other": 9
+      },
+      "score": 0.333
+    },
+    "facebook.com/922538197821034": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.319
+    },
+    "facebook.com/10153687761496407": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.319
+    },
+    "facebook.com/776119222513918": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.319
+    },
+    "facebook.com/10153223289308513": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.319
+    },
+    "facebook.com/10207263524318834": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.319
+    },
+    "facebook.com/10153807673679673": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.319
+    },
+    "facebook.com/1688241254725060": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.319
+    },
+    "facebook.com/10153655929528449": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.319
+    },
+    "facebook.com/1065989203435092": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.319
+    },
+    "twofactorauth.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "www.theatlantic.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "broadly.vice.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "facebook.com/1038176416213964": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "facebook.com/10153256690727219": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "facebook.com/1074915729194662": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "facebook.com/10153392837803124": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "facebook.com/10205123103106220": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "www.theguardian.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "facebook.com/870082406446103": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "facebook.com/924163704331185": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "medium.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "facebook.com/1194940803866484": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "facebook.com/932345870134946": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "www.svd.se": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "facebook.com/10153338460732572": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "www.sciencemag.org": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "facebook.com/10153465186832261": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "www.aftonbladet.se": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.265
+    },
+    "twitter.com/kringelkrokar": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.265
+    },
+    "www.phillyvoice.com": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.265
+    },
+    "www.gd.se": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.265
+    },
+    "facebook.com/10153288682222615": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10153055544382890": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10207370785649978": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10153722821469509": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10153568334995617": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10153590076587896": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10153221842511453": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10153403721219086": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10203782190834287": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10153687874637878": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/266102700388919": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10153421433264051": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/1083474968332316": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10156233990505241": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10153193691677066": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10153207013884117": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/1150303391665297": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10153360063673795": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10153319063857832": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10153210398596765": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10153451763706130": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10152980490898239": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10153657267886731": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/988559341185693": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.239
+    },
+    "facebook.com/10153657138465729": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "facebook.com/10154368382669698": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "facebook.com/1135367396493215": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "facebook.com/10205143514208650": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "thatshirtwascash.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "twitter.com/blessamen129": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "facebook.com/853526368093114": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "facebook.com/10153233477470959": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "facebook.com/909249989155039": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "facebook.com/932398153473555": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "twitter.com/Denderfurger": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "facebook.com/10153254086567029": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "facebook.com/1057772610900572": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "facebook.com/982727361766671": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "facebook.com/1216497865027322": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "facebook.com/10153394833739340": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "facebook.com/10153742809784066": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "facebook.com/10153376582539440": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "facebook.com/10153280378378196": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "twitter.com/lilltamilen": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "twitter.com/eddynehls": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "facebook.com/10153954604784732": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "twitter.com/Unh0lybucket": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "twitter.com/mcscx": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "facebook.com/10153240001720172": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "facebook.com/1113189442066573": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "twitter.com/KUBE_is": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.160
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0797
+    },
+    "www.ainfos.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0797
+    }
+  }
+}

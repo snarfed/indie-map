@@ -1,0 +1,545 @@
+{
+  "domain": "www.schiessle.org",
+  "urls": [
+    "https://io.schiessle.org/bes",
+    "https://diasp.eu/u/bjoern",
+    "https://twitter.com/schiessle",
+    "https://gitlab.com/u/BeS"
+  ],
+  "names": [
+    "Björn Schießle",
+    "Björn Schießle's Personal Homepage"
+  ],
+  "descriptions": [
+    "Bjoern Schiessle's personal homepage"
+  ],
+  "pictures": [
+    "https://www.schiessle.org/img/bjoern.jpg",
+    "https://www.schiessle.org/favicon.ico"
+  ],
+  "hcard": {
+    "children": [
+      {
+        "properties": {
+          "name": [
+            "dreirik"
+          ],
+          "url": [
+            "https://friendica.3rik.cc/profile/dreirik"
+          ]
+        },
+        "type": [
+          "h-card"
+        ]
+      },
+      {
+        "properties": {
+          "name": [
+            "fsfe"
+          ],
+          "url": [
+            "https://quitter.no/user/10403"
+          ]
+        },
+        "type": [
+          "h-card"
+        ]
+      },
+      {
+        "properties": {
+          "name": [
+            "GNUSocial"
+          ],
+          "url": [
+            "https://gnusocial.club/group/421/id"
+          ]
+        },
+        "type": [
+          "h-card"
+        ]
+      }
+    ],
+    "properties": {
+      "email": [
+        "mailto:bjoern@schiessle.org",
+        "mailto:schiessle@fsfe.org",
+        "mailto:bjoern@nextcloud.com"
+      ],
+      "name": [
+        "Björn Schießle"
+      ],
+      "photo": [
+        "https://www.schiessle.org/img/bjoern.jpg"
+      ],
+      "url": [
+        "https://io.schiessle.org/bes",
+        "https://diasp.eu/u/bjoern",
+        "https://twitter.com/schiessle",
+        "https://gitlab.com/u/BeS"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "https://www.schiessle.org",
+    "https://www.schiessle.org/about",
+    "https://blog.schiessle.org",
+    "https://io.schiessle.org/bes",
+    "https://diasp.eu/u/bjoern",
+    "https://twitter.com/schiessle",
+    "https://gitlab.com/u/BeS",
+    "mailto:bjoern@schiessle.org",
+    "mailto:schiessle@fsfe.org",
+    "mailto:bjoern@nextcloud.com",
+    "xmpp:bjoern@schiessle.org"
+  ],
+  "crawl_start": "2017-04-30T08:39:33",
+  "crawl_end": "2017-04-30T08:39:49",
+  "num_pages": 19,
+  "total_html_size": 118429,
+  "servers": [
+    "Apache"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 266,
+  "links_in": 53607,
+  "links": {
+    "io.schiessle.org": {
+      "out": {
+        "other": 30
+      },
+      "in": {
+        "other": 53582
+      },
+      "score": 1
+    },
+    "blog.schiessle.org": {
+      "out": {
+        "other": 27
+      },
+      "score": 0.366
+    },
+    "fsfe.org": {
+      "out": {
+        "other": 24
+      },
+      "score": 0.355
+    },
+    "creativecommons.org": {
+      "out": {
+        "other": 21
+      },
+      "score": 0.343
+    },
+    "jigsaw.w3.org": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.334
+    },
+    "www.w3.org": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.334
+    },
+    "validator.w3.org": {
+      "out": {
+        "other": 19
+      },
+      "score": 0.334
+    },
+    "gitlab.com": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.283
+    },
+    "loadaverage.org": {
+      "in": {
+        "other": 18
+      },
+      "score": 0.265
+    },
+    "www.fsfe.org": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.242
+    },
+    "data": {
+      "out": {
+        "other": 5
+      },
+      "score": 0.211
+    },
+    "netzpolitik.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.191
+    },
+    "schiessle.org": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.191
+    },
+    "howto": {
+      "out": {
+        "other": 4
+      },
+      "score": 0.191
+    },
+    "nextcloud.com": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "irc.freenode.net": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "GJKarlsruhe": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "www.uni-stuttgart.de": {
+      "out": {
+        "other": 3
+      },
+      "score": 0.164
+    },
+    "brid.gy": {
+      "in": {
+        "other": 5
+      },
+      "score": 0.148
+    },
+    "medium.com": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "systems08": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "nextcloudconf16": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "open16": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "ccc09": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "diasp.eu": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "froscon13": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "twitter.com/schiessle": {
+      "out": {
+        "other": 2
+      },
+      "score": 0.128
+    },
+    "socialnetworks.php": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "emailselfdefense.fsf.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.linux-wlan.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www5.pc.ibm.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "sofa10": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.medien-in-die-schule.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "conversations.im": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.fsf.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.linmodems.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.edri.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.xing.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "web.archive.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.gnu.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "digitalegesellschaft.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "keybase.io": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "pdfreaders.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.linux-laptop.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.debian.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "playogg.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "slideshare.net": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "pirati.ca": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "facebook.com/bjoern.schiessle": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "hugoroy.eu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "openstandards": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "stream.withknown.com": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0636
+    },
+    "openoffice.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "img": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "rogg-on.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.pdfreaders.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "documentfreedom.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.documentfreedom.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.fiff.de": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "github.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "gnu.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "privacy": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "plus.google.com/110440960198152941904": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "owncloudconf15": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "gpg-key.txt": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "linkedin.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.documentfoundation.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "videolan.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "www.tuxmobil.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    },
+    "nextcloudconf15": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0636
+    }
+  }
+}

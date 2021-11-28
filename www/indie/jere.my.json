@@ -1,0 +1,68 @@
+{
+  "domain": "jere.my",
+  "urls": [
+    "http://jere.my/"
+  ],
+  "names": [
+    "jeremy lives here"
+  ],
+  "descriptions": [
+    "jeremy malcolm's website"
+  ],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [
+    "http://www.malcolm.id.au/terminus/",
+    "http://www.facebook.com/jeremy.malcolm",
+    "https://twitter.com/qirtaiba",
+    "http://www.linkedin.com/in/jeremymalcolm",
+    "http://google.com/+JeremyMalcolm",
+    "http://instagram.com/qirtaiba",
+    "http://qirtaiba.tumblr.com"
+  ],
+  "crawl_start": "2017-06-07T17:36:28",
+  "crawl_end": "2017-06-07T17:55:32",
+  "num_pages": 1356,
+  "total_html_size": 7099368,
+  "servers": [
+    "Apache (Debian) Embperl mod_fcgid PHP-0+deb8u1 OpenSSLt mod_wsgi Python mod_perldev Perl/v5.20.2"
+  ],
+  "tags": [
+    "relme"
+  ],
+  "endpoints": {},
+  "links_out": 14261,
+  "links_in": 24,
+  "links": {
+    "indieweb.org": {
+      "in": {
+        "other": 22
+      },
+      "score": 0.388
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0871
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.0871
+    },
+    "tantek.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0871
+    },
+    "eschnou.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.0871
+    }
+  }
+}

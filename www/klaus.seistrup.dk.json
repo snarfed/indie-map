@@ -1,0 +1,136 @@
+{
+  "domain": "klaus.seistrup.dk",
+  "urls": [
+    "https://klaus.seistrup.dk/"
+  ],
+  "names": [
+    "Klaus Alexander Seistrup",
+    "Contact details for Klaus Alexander Seistrup"
+  ],
+  "descriptions": [
+    "Contact details (meCard, vCard, pubkey, misc. links) for Klaus Alexander Seistrup.",
+    "Public key, meCard, vCard, and miscellaneous links for Klaus Alexander Seistrup, Europe/Copenhagen."
+  ],
+  "pictures": [
+    "https://klaus.seistrup.dk/favicon.png",
+    "https://klaus.seistrup.dk/profile.jpg"
+  ],
+  "hcard": {},
+  "rel_mes": [
+    "mailto:klaus@seistrup.dk",
+    "xmpp:kas@enotty.dk",
+    "https://github.com/kseistrup",
+    "https://twitter.com/kseistrup"
+  ],
+  "crawl_start": "2017-04-29T04:31:50",
+  "crawl_end": "2017-04-29T04:31:50",
+  "num_pages": 1,
+  "total_html_size": 7150,
+  "servers": [
+    "Caddy"
+  ],
+  "mf2_classes": [
+    "h-card"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention.io",
+    "webmention",
+    "authorization",
+    "token"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://webmention.io/klaus.seistrup.dk/webmention"
+    ],
+    "authorization": [
+      "https://indiecert.net/auth"
+    ],
+    "token": [
+      "https://tokens.indieauth.com/token"
+    ]
+  },
+  "links_out": 11,
+  "links_in": 13,
+  "links": {
+    "loadaverage.org": {
+      "in": {
+        "other": 11
+      },
+      "score": 1
+    },
+    "hanne.seistrup.dk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.289
+    },
+    "rasmus.seistrup.dk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.289
+    },
+    "annemette.seistrup.dk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.289
+    },
+    "github.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.289
+    },
+    "bent.seistrup.dk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.289
+    },
+    "linda.seistrup.dk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.289
+    },
+    "seistrup.dk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.289
+    },
+    "twitter.com/kseistrup": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.289
+    },
+    "enotty.dk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.289
+    },
+    "ingelise.seistrup.dk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.289
+    },
+    "ann-sophie.seistrup.dk": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.289
+    },
+    "brid.gy": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.289
+    }
+  }
+}

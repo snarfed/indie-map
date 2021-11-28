@@ -1,0 +1,314 @@
+{
+  "domain": "known.jimgroom.com",
+  "urls": [
+    "http://known.jimgroom.com/profile/jimgroom",
+    "http://bavatuesdays.com",
+    "http://twitter.com/jimgroom",
+    "https://github.com/jimgroom",
+    "https://plus.google.com/112708684982385027249"
+  ],
+  "names": [
+    "Jim Groom",
+    "Jim Groom's Known World"
+  ],
+  "descriptions": [
+    "I am Jim Groom.",
+    "POSSE Bitches!"
+  ],
+  "pictures": [
+    "http://known.jimgroom.com/file/2e891444bf2882fa34f6bc2eaa94374f"
+  ],
+  "hcard": {
+    "properties": {
+      "name": [
+        "Jim Groom"
+      ],
+      "note": [
+        {
+          "html": "<div class=\"highlightedText\">\n<p>I am Jim Groom.</p>\n</div>",
+          "value": "\nI am Jim Groom.\n"
+        }
+      ],
+      "photo": [
+        "http://known.jimgroom.com/file/2e891444bf2882fa34f6bc2eaa94374f"
+      ],
+      "profile": [
+        "Jim Groom"
+      ],
+      "url": [
+        "http://known.jimgroom.com/profile/jimgroom",
+        "http://known.jimgroom.com/profile/jimgroom",
+        "http://bavatuesdays.com",
+        "http://twitter.com/jimgroom",
+        "https://github.com/jimgroom",
+        "https://plus.google.com/112708684982385027249"
+      ]
+    },
+    "type": [
+      "h-card"
+    ]
+  },
+  "rel_mes": [
+    "http://bavatuesdays.com",
+    "http://twitter.com/jimgroom",
+    "https://github.com/jimgroom",
+    "https://plus.google.com/112708684982385027249"
+  ],
+  "crawl_start": "2017-04-29T04:35:17",
+  "crawl_end": "2017-04-29T05:39:48",
+  "num_pages": 2704,
+  "total_html_size": 77538725,
+  "servers": [
+    "Apache (Unix) OpenSSLe-fips Phusion_Passenger mod_bwlimited",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "relme",
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://known.jimgroom.com/webmention/"
+    ],
+    "websub": [
+      "http://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 18385,
+  "links_in": 46,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 2704
+      },
+      "score": 0.990
+    },
+    "katebowles.withknown.com": {
+      "out": {
+        "in-reply-to": 15
+      },
+      "score": 0.577
+    },
+    "networkeffects.ca": {
+      "out": {
+        "in-reply-to": 7,
+        "other": 32
+      },
+      "score": 0.564
+    },
+    "johnjohnston.info": {
+      "out": {
+        "other": 61
+      },
+      "score": 0.552
+    },
+    "timowens.io": {
+      "out": {
+        "other": 28,
+        "in-reply-to": 6
+      },
+      "score": 0.547
+    },
+    "known.raptnrent.me": {
+      "out": {
+        "other": 29
+      },
+      "in": {
+        "in-reply-to": 9,
+        "other": 10
+      },
+      "score": 0.544
+    },
+    "cogdogblog.com": {
+      "out": {
+        "other": 54
+      },
+      "score": 0.539
+    },
+    "known.networkeffects.ca": {
+      "in": {
+        "other": 4
+      },
+      "out": {
+        "other": 8,
+        "in-reply-to": 6
+      },
+      "score": 0.504
+    },
+    "known.jenniferenglund.net": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "in": {
+        "other": 5
+      },
+      "score": 0.480
+    },
+    "ds101.followjeremy.com": {
+      "out": {
+        "in-reply-to": 6
+      },
+      "score": 0.471
+    },
+    "hapgood.us": {
+      "out": {
+        "other": 30
+      },
+      "score": 0.471
+    },
+    "reclaimhosting.com": {
+      "out": {
+        "other": 22
+      },
+      "score": 0.435
+    },
+    "silenceandvoice.com": {
+      "out": {
+        "other": 19
+      },
+      "in": {
+        "other": 1
+      },
+      "score": 0.421
+    },
+    "www.downes.ca": {
+      "out": {
+        "other": 17
+      },
+      "score": 0.406
+    },
+    "notes.adamcroom.com": {
+      "out": {
+        "other": 15
+      },
+      "score": 0.391
+    },
+    "klown.cogdogblog.com": {
+      "in": {
+        "in-reply-to": 6
+      },
+      "score": 0.391
+    },
+    "darcynorman.net": {
+      "out": {
+        "other": 11
+      },
+      "score": 0.356
+    },
+    "www.maggiestough.net": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.345
+    },
+    "microblog.pierre-o.fr": {
+      "out": {
+        "other": 10
+      },
+      "score": 0.345
+    },
+    "readwriterespond.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.319
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 8
+      },
+      "score": 0.319
+    },
+    "jonudell.net": {
+      "out": {
+        "other": 7
+      },
+      "score": 0.304
+    },
+    "aribadernatal.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "wiobyrne.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "timklapdor.wordpress.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "merelearning.ca": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "blog.digis.im": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "scripting.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "blog.jonudell.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "www.kevinmarks.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "adactio.com": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "tedcurran.net": {
+      "out": {
+        "other": 6
+      },
+      "score": 0.285
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 6
+      },
+      "score": 0.206
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.160
+    },
+    "werd.io": {
+      "in": {
+        "other": 1
+      },
+      "score": 0
+    }
+  }
+}

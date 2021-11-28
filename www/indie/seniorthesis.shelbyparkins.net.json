@@ -1,0 +1,53 @@
+{
+  "domain": "seniorthesis.shelbyparkins.net",
+  "urls": [
+    "http://seniorthesis.shelbyparkins.net/"
+  ],
+  "names": [
+    "My Senior Thesis"
+  ],
+  "descriptions": [
+    "A place for me to update readers on my senior thesis"
+  ],
+  "pictures": [
+    "http://seniorthesis.shelbyparkins.net/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T02:12:45",
+  "crawl_end": "2017-04-30T02:13:06",
+  "num_pages": 30,
+  "total_html_size": 540309,
+  "servers": [
+    "Apache",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "http://seniorthesis.shelbyparkins.net/webmention/"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 30,
+  "links_in": 0,
+  "links": {
+    "withknown.com": {
+      "out": {
+        "other": 30
+      },
+      "score": 1
+    }
+  }
+}

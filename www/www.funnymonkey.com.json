@@ -1,0 +1,3176 @@
+{
+  "domain": "www.funnymonkey.com",
+  "urls": [
+    "http://www.funnymonkey.com/"
+  ],
+  "names": [
+    "FunnyMonkey"
+  ],
+  "descriptions": [
+    "Another spot clogging the tubes"
+  ],
+  "pictures": [
+    "https://www.funnymonkey.com/gfx/logos/logo_k.png"
+  ],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-30T06:22:47",
+  "crawl_end": "2017-04-30T07:22:19",
+  "num_pages": 8039,
+  "total_html_size": 297184576,
+  "servers": [
+    "Apache (Ubuntu)",
+    "Known"
+  ],
+  "mf2_classes": [
+    "h-card",
+    "h-entry"
+  ],
+  "tags": [
+    "bridgy",
+    "webmention",
+    "micropub",
+    "authorization",
+    "token",
+    "websub",
+    "Known"
+  ],
+  "endpoints": {
+    "webmention": [
+      "https://www.funnymonkey.com/webmention/"
+    ],
+    "micropub": [
+      "https://www.funnymonkey.com/micropub/endpoint"
+    ],
+    "authorization": [
+      "https://indieauth.com/auth"
+    ],
+    "token": [
+      "https://www.funnymonkey.com/indieauth/token"
+    ],
+    "websub": [
+      "https://withknown.superfeedr.com/"
+    ]
+  },
+  "links_out": 178766,
+  "links_in": 43,
+  "links": {
+    "drupal.org": {
+      "out": {
+        "other": 10526,
+        "in-reply-to": 13
+      },
+      "score": 1
+    },
+    "withknown.com": {
+      "out": {
+        "other": 8088
+      },
+      "score": 0.973
+    },
+    "info.evidon.com": {
+      "out": {
+        "in-reply-to": 50,
+        "other": 5917
+      },
+      "score": 0.946
+    },
+    "creativecommons.org": {
+      "out": {
+        "other": 4986
+      },
+      "score": 0.925
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 4811,
+        "in-reply-to": 1
+      },
+      "score": 0.921
+    },
+    "www.google.com": {
+      "out": {
+        "in-reply-to": 10,
+        "other": 4466
+      },
+      "score": 0.915
+    },
+    "funnymonkey.com": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 4231
+      },
+      "score": 0.909
+    },
+    "www.nytimes.com": {
+      "out": {
+        "other": 3269,
+        "in-reply-to": 1
+      },
+      "score": 0.883
+    },
+    "www2.ed.gov": {
+      "out": {
+        "other": 2486
+      },
+      "score": 0.854
+    },
+    "groups.drupal.org": {
+      "out": {
+        "other": 2149
+      },
+      "score": 0.840
+    },
+    "www.flickr.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 1673
+      },
+      "score": 0.815
+    },
+    "github.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 1592
+      },
+      "score": 0.810
+    },
+    "better.fyi": {
+      "out": {
+        "other": 1510,
+        "in-reply-to": 11
+      },
+      "score": 0.808
+    },
+    "www.opensecrets.org": {
+      "out": {
+        "other": 1457
+      },
+      "score": 0.801
+    },
+    "twitter.com/funnymonkey": {
+      "out": {
+        "other": 1367
+      },
+      "score": 0.794
+    },
+    "www.washingtonpost.com": {
+      "out": {
+        "other": 1165,
+        "in-reply-to": 1
+      },
+      "score": 0.779
+    },
+    "blogs.edweek.org": {
+      "out": {
+        "other": 1115
+      },
+      "score": 0.774
+    },
+    "first.link.to.site": {
+      "out": {
+        "other": 975,
+        "in-reply-to": 15
+      },
+      "score": 0.768
+    },
+    "second.link.to.site": {
+      "out": {
+        "in-reply-to": 15,
+        "other": 975
+      },
+      "score": 0.768
+    },
+    "www.inbloom.org": {
+      "out": {
+        "other": 1050
+      },
+      "score": 0.768
+    },
+    "www.youtube.com": {
+      "out": {
+        "other": 954,
+        "in-reply-to": 1
+      },
+      "score": 0.759
+    },
+    "gsuite.google.com": {
+      "out": {
+        "other": 881,
+        "in-reply-to": 7
+      },
+      "score": 0.754
+    },
+    "third.link.to.site": {
+      "out": {
+        "other": 780,
+        "in-reply-to": 12
+      },
+      "score": 0.746
+    },
+    "techcrunch.com": {
+      "out": {
+        "other": 810,
+        "in-reply-to": 1
+      },
+      "score": 0.743
+    },
+    "www.edsurge.com": {
+      "out": {
+        "other": 811,
+        "in-reply-to": 1
+      },
+      "score": 0.743
+    },
+    "web.archive.org": {
+      "out": {
+        "other": 718,
+        "in-reply-to": 10
+      },
+      "score": 0.737
+    },
+    "www.huffingtonpost.com": {
+      "out": {
+        "other": 700
+      },
+      "score": 0.727
+    },
+    "www.npr.org": {
+      "out": {
+        "other": 665
+      },
+      "score": 0.722
+    },
+    "nces.ed.gov": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 659
+      },
+      "score": 0.722
+    },
+    "elgg.net": {
+      "out": {
+        "other": 636
+      },
+      "score": 0.718
+    },
+    "code.funnymonkey.com": {
+      "out": {
+        "other": 633
+      },
+      "score": 0.718
+    },
+    "www.ed.gov": {
+      "out": {
+        "other": 634
+      },
+      "score": 0.718
+    },
+    "gist.github.com": {
+      "out": {
+        "other": 620,
+        "in-reply-to": 1
+      },
+      "score": 0.716
+    },
+    "secure.flickr.com": {
+      "out": {
+        "other": 623
+      },
+      "score": 0.716
+    },
+    "www.pps.k12.or.us": {
+      "out": {
+        "other": 603,
+        "in-reply-to": 1
+      },
+      "score": 0.714
+    },
+    "usny.nysed.gov": {
+      "out": {
+        "in-reply-to": 4,
+        "other": 536
+      },
+      "score": 0.704
+    },
+    "www.corestandards.org": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 540
+      },
+      "score": 0.703
+    },
+    "www.osc.state.ny.us": {
+      "out": {
+        "other": 540
+      },
+      "score": 0.701
+    },
+    "openacademic.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 524
+      },
+      "score": 0.700
+    },
+    "docs.google.com": {
+      "out": {
+        "other": 528
+      },
+      "score": 0.700
+    },
+    "medium.com": {
+      "out": {
+        "other": 504,
+        "in-reply-to": 1
+      },
+      "score": 0.696
+    },
+    "bavatuesdays.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 482
+      },
+      "score": 0.691
+    },
+    "weblogg-ed.com": {
+      "out": {
+        "other": 467
+      },
+      "score": 0.687
+    },
+    "blog.mrmeyer.com": {
+      "out": {
+        "other": 468
+      },
+      "score": 0.687
+    },
+    "weblogs.elearning.ubc.ca": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 455
+      },
+      "score": 0.687
+    },
+    "support.google.com": {
+      "out": {
+        "other": 463
+      },
+      "score": 0.686
+    },
+    "www.darcynorman.net": {
+      "out": {
+        "other": 451,
+        "in-reply-to": 1
+      },
+      "score": 0.685
+    },
+    "pushpullfork.com": {
+      "out": {
+        "other": 441,
+        "in-reply-to": 3
+      },
+      "score": 0.685
+    },
+    "www.pbs.org": {
+      "out": {
+        "other": 427,
+        "in-reply-to": 2
+      },
+      "score": 0.680
+    },
+    "www.theguardian.com": {
+      "out": {
+        "other": 429
+      },
+      "score": 0.678
+    },
+    "www.ftc.gov": {
+      "out": {
+        "other": 411,
+        "in-reply-to": 1
+      },
+      "score": 0.675
+    },
+    "www.classdojo.com": {
+      "out": {
+        "other": 414
+      },
+      "score": 0.675
+    },
+    "feeds.openacademic.org": {
+      "out": {
+        "other": 409
+      },
+      "score": 0.674
+    },
+    "www.guardian.co.uk": {
+      "out": {
+        "other": 408
+      },
+      "score": 0.673
+    },
+    "educonphilly.org": {
+      "out": {
+        "other": 402
+      },
+      "score": 0.672
+    },
+    "online.wsj.com": {
+      "out": {
+        "other": 402
+      },
+      "score": 0.672
+    },
+    "www.edtechpost.ca": {
+      "out": {
+        "other": 377,
+        "in-reply-to": 4
+      },
+      "score": 0.671
+    },
+    "www.nola.com": {
+      "out": {
+        "other": 383
+      },
+      "score": 0.667
+    },
+    "www.ed-fi.org": {
+      "out": {
+        "other": 378
+      },
+      "score": 0.666
+    },
+    "www.oregonlive.com": {
+      "out": {
+        "other": 375
+      },
+      "score": 0.665
+    },
+    "www.theatlantic.com": {
+      "out": {
+        "other": 371,
+        "in-reply-to": 1
+      },
+      "score": 0.665
+    },
+    "www.owasp.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 367
+      },
+      "score": 0.664
+    },
+    "www.knightfoundation.org": {
+      "out": {
+        "other": 373
+      },
+      "score": 0.664
+    },
+    "www.sifassociation.org": {
+      "out": {
+        "other": 358,
+        "in-reply-to": 1
+      },
+      "score": 0.662
+    },
+    "www.remind.com": {
+      "out": {
+        "other": 359
+      },
+      "score": 0.661
+    },
+    "arstechnica.com": {
+      "out": {
+        "other": 362
+      },
+      "score": 0.661
+    },
+    "www.collegeboard.com": {
+      "out": {
+        "other": 357
+      },
+      "score": 0.660
+    },
+    "hackeducation.com": {
+      "out": {
+        "other": 350,
+        "in-reply-to": 1
+      },
+      "score": 0.660
+    },
+    "demos.funnymonkey.com": {
+      "out": {
+        "other": 355
+      },
+      "score": 0.660
+    },
+    "www.opb.org": {
+      "out": {
+        "other": 344
+      },
+      "score": 0.656
+    },
+    "www.wired.com": {
+      "out": {
+        "other": 337
+      },
+      "score": 0.654
+    },
+    "www.insidehighered.com": {
+      "out": {
+        "other": 332
+      },
+      "score": 0.653
+    },
+    "tosdr.org": {
+      "out": {
+        "other": 310,
+        "in-reply-to": 4
+      },
+      "score": 0.652
+    },
+    "opencontent.org": {
+      "out": {
+        "other": 316,
+        "in-reply-to": 1
+      },
+      "score": 0.649
+    },
+    "www.downes.ca": {
+      "out": {
+        "other": 317
+      },
+      "in": {
+        "other": 2
+      },
+      "score": 0.649
+    },
+    "www.fastcompany.com": {
+      "out": {
+        "other": 317
+      },
+      "score": 0.648
+    },
+    "elgg.org": {
+      "out": {
+        "other": 312
+      },
+      "score": 0.647
+    },
+    "docs.geoserver.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 306
+      },
+      "score": 0.646
+    },
+    "www.indiegogo.com": {
+      "out": {
+        "other": 307
+      },
+      "score": 0.645
+    },
+    "blogs.open.ac.uk": {
+      "out": {
+        "other": 300,
+        "in-reply-to": 1
+      },
+      "score": 0.644
+    },
+    "www.theverge.com": {
+      "out": {
+        "other": 299
+      },
+      "score": 0.642
+    },
+    "ir.lawnet.fordham.edu": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 293
+      },
+      "score": 0.642
+    },
+    "ceds.ed.gov": {
+      "out": {
+        "other": 299
+      },
+      "score": 0.642
+    },
+    "www.oercommons.org": {
+      "out": {
+        "other": 299
+      },
+      "score": 0.642
+    },
+    "www.securly.com": {
+      "out": {
+        "other": 294
+      },
+      "score": 0.641
+    },
+    "drupaled.alphabetademo.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 289
+      },
+      "score": 0.641
+    },
+    "twitter.com/jgraham909": {
+      "out": {
+        "other": 293
+      },
+      "score": 0.640
+    },
+    "www.mediawiki.org": {
+      "out": {
+        "other": 276,
+        "in-reply-to": 2
+      },
+      "score": 0.638
+    },
+    "www.chrislott.org": {
+      "out": {
+        "other": 280,
+        "in-reply-to": 1
+      },
+      "score": 0.638
+    },
+    "www.lexile.com": {
+      "out": {
+        "other": 286
+      },
+      "score": 0.638
+    },
+    "digiday.com": {
+      "out": {
+        "other": 287
+      },
+      "score": 0.638
+    },
+    "youthvoices.net": {
+      "out": {
+        "other": 280
+      },
+      "score": 0.636
+    },
+    "www.slate.com": {
+      "out": {
+        "other": 280
+      },
+      "score": 0.636
+    },
+    "vimeo.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 266
+      },
+      "score": 0.633
+    },
+    "www.engageny.org": {
+      "out": {
+        "other": 273
+      },
+      "score": 0.633
+    },
+    "privacyassociation.org": {
+      "out": {
+        "other": 273
+      },
+      "score": 0.633
+    },
+    "chronicle.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 265
+      },
+      "score": 0.632
+    },
+    "maps.google.com": {
+      "out": {
+        "other": 263
+      },
+      "score": 0.630
+    },
+    "2013.drupalpdx.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 257
+      },
+      "score": 0.629
+    },
+    "www.cnn.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 253
+      },
+      "score": 0.628
+    },
+    "www.hackeducation.com": {
+      "out": {
+        "other": 257
+      },
+      "score": 0.627
+    },
+    "www.teacherspayteachers.com": {
+      "out": {
+        "other": 257
+      },
+      "score": 0.627
+    },
+    "developmentseed.org": {
+      "out": {
+        "other": 252
+      },
+      "score": 0.624
+    },
+    "www.packtpub.com": {
+      "out": {
+        "other": 251
+      },
+      "score": 0.624
+    },
+    "www.readwriteweb.com": {
+      "out": {
+        "other": 245,
+        "in-reply-to": 1
+      },
+      "score": 0.623
+    },
+    "www.alistapart.com": {
+      "out": {
+        "other": 250
+      },
+      "score": 0.623
+    },
+    "listserv.syr.edu": {
+      "out": {
+        "other": 248
+      },
+      "score": 0.623
+    },
+    "apps.ghostery.com": {
+      "out": {
+        "other": 232,
+        "in-reply-to": 2
+      },
+      "score": 0.620
+    },
+    "www.evidon.com": {
+      "out": {
+        "other": 233,
+        "in-reply-to": 1
+      },
+      "score": 0.619
+    },
+    "whois.domaintools.com": {
+      "out": {
+        "other": 233,
+        "in-reply-to": 1
+      },
+      "score": 0.619
+    },
+    "www.adsrvr.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 233
+      },
+      "score": 0.619
+    },
+    "www.businesswire.com": {
+      "out": {
+        "other": 239
+      },
+      "score": 0.619
+    },
+    "betterlesson.com": {
+      "out": {
+        "other": 237
+      },
+      "score": 0.618
+    },
+    "www.edmodo.com": {
+      "out": {
+        "other": 236
+      },
+      "score": 0.618
+    },
+    "www.drupal.org": {
+      "out": {
+        "other": 237
+      },
+      "score": 0.618
+    },
+    "www.ajc.com": {
+      "out": {
+        "other": 235
+      },
+      "score": 0.617
+    },
+    "www.nwp.org": {
+      "out": {
+        "other": 235
+      },
+      "score": 0.617
+    },
+    "www.iab.com": {
+      "out": {
+        "other": 234
+      },
+      "score": 0.617
+    },
+    "www.breitbart.com": {
+      "out": {
+        "other": 234
+      },
+      "score": 0.617
+    },
+    "www.thegatewaypundit.com": {
+      "out": {
+        "other": 234
+      },
+      "score": 0.617
+    },
+    "www.edweek.org": {
+      "out": {
+        "other": 232
+      },
+      "score": 0.616
+    },
+    "www.mediaite.com": {
+      "out": {
+        "other": 226,
+        "in-reply-to": 1
+      },
+      "score": 0.616
+    },
+    "www.businessinsider.com": {
+      "out": {
+        "other": 227
+      },
+      "score": 0.614
+    },
+    "www.pearsonschoolsystems.com": {
+      "out": {
+        "other": 228
+      },
+      "score": 0.614
+    },
+    "consumerist.com": {
+      "out": {
+        "other": 218,
+        "in-reply-to": 1
+      },
+      "score": 0.612
+    },
+    "wiki.mozilla.org": {
+      "out": {
+        "other": 222
+      },
+      "score": 0.612
+    },
+    "julio.funnymonkey.com": {
+      "out": {
+        "other": 223
+      },
+      "score": 0.612
+    },
+    "itunes.apple.com": {
+      "out": {
+        "other": 221
+      },
+      "score": 0.611
+    },
+    "downloads.sourceforge.net": {
+      "out": {
+        "other": 200,
+        "in-reply-to": 4
+      },
+      "score": 0.611
+    },
+    "halfanhour.blogspot.com": {
+      "out": {
+        "other": 221
+      },
+      "score": 0.611
+    },
+    "twitter.com": {
+      "out": {
+        "other": 219
+      },
+      "score": 0.610
+    },
+    "drive.google.com": {
+      "out": {
+        "other": 216
+      },
+      "score": 0.609
+    },
+    "www.bcps.org": {
+      "out": {
+        "other": 214
+      },
+      "score": 0.608
+    },
+    "www.studentsfirst.org": {
+      "out": {
+        "other": 215
+      },
+      "score": 0.608
+    },
+    "www.hup.harvard.edu": {
+      "out": {
+        "other": 215
+      },
+      "score": 0.608
+    },
+    "code.google.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 208
+      },
+      "score": 0.607
+    },
+    "www.gatesfoundation.org": {
+      "out": {
+        "other": 212
+      },
+      "score": 0.607
+    },
+    "www.techcrunch.com": {
+      "out": {
+        "other": 210
+      },
+      "score": 0.606
+    },
+    "www.aclu.org": {
+      "out": {
+        "other": 210
+      },
+      "score": 0.606
+    },
+    "www.gnu.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 205
+      },
+      "score": 0.606
+    },
+    "www.buzzfeed.com": {
+      "out": {
+        "other": 209
+      },
+      "score": 0.606
+    },
+    "www.businessweek.com": {
+      "out": {
+        "other": 208
+      },
+      "score": 0.605
+    },
+    "www.sharemylesson.com": {
+      "out": {
+        "other": 205
+      },
+      "score": 0.604
+    },
+    "www.nystoptesting.com": {
+      "out": {
+        "other": 204
+      },
+      "score": 0.603
+    },
+    "www.eff.org": {
+      "out": {
+        "other": 199,
+        "in-reply-to": 1
+      },
+      "score": 0.603
+    },
+    "clever.com": {
+      "out": {
+        "other": 201
+      },
+      "score": 0.602
+    },
+    "www.nyclu.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 196
+      },
+      "score": 0.602
+    },
+    "mollykleinman.com": {
+      "out": {
+        "other": 195
+      },
+      "score": 0.599
+    },
+    "familypolicy.ed.gov": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 184
+      },
+      "score": 0.598
+    },
+    "www.reuters.com": {
+      "out": {
+        "other": 192
+      },
+      "score": 0.597
+    },
+    "www.facebook.com": {
+      "out": {
+        "other": 192
+      },
+      "score": 0.597
+    },
+    "bits.blogs.nytimes.com": {
+      "out": {
+        "other": 190
+      },
+      "score": 0.596
+    },
+    "buy.louisck.net": {
+      "out": {
+        "other": 188
+      },
+      "score": 0.595
+    },
+    "commoncore.pearsoned.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 181
+      },
+      "score": 0.594
+    },
+    "ptac.ed.gov": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 182
+      },
+      "score": 0.594
+    },
+    "digedu.com": {
+      "out": {
+        "other": 175,
+        "in-reply-to": 2
+      },
+      "score": 0.593
+    },
+    "escholar.com": {
+      "out": {
+        "in-reply-to": 3,
+        "other": 168
+      },
+      "score": 0.592
+    },
+    "mashable.com": {
+      "out": {
+        "other": 183
+      },
+      "score": 0.592
+    },
+    "www.worldprivacyforum.org": {
+      "out": {
+        "other": 183
+      },
+      "score": 0.592
+    },
+    "www.latimes.com": {
+      "out": {
+        "other": 183
+      },
+      "score": 0.592
+    },
+    "www.w3.org": {
+      "out": {
+        "other": 183
+      },
+      "score": 0.592
+    },
+    "blogsearch.google.com": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 171
+      },
+      "score": 0.591
+    },
+    "www.gpo.gov": {
+      "out": {
+        "other": 180
+      },
+      "score": 0.591
+    },
+    "www.developmentseed.org": {
+      "out": {
+        "other": 180
+      },
+      "score": 0.591
+    },
+    "app.digedu.co": {
+      "out": {
+        "other": 176,
+        "in-reply-to": 1
+      },
+      "score": 0.591
+    },
+    "www.edsource.org": {
+      "out": {
+        "other": 181
+      },
+      "score": 0.591
+    },
+    "commoncore.org": {
+      "out": {
+        "other": 180
+      },
+      "score": 0.591
+    },
+    "www.cbsnews.com": {
+      "out": {
+        "other": 179
+      },
+      "score": 0.590
+    },
+    "facebook.com/business": {
+      "out": {
+        "other": 178
+      },
+      "score": 0.589
+    },
+    "www.ecfr.gov": {
+      "out": {
+        "other": 177
+      },
+      "score": 0.589
+    },
+    "denverdrupaled.eventbrite.com": {
+      "out": {
+        "other": 175
+      },
+      "score": 0.588
+    },
+    "www.wsj.com": {
+      "out": {
+        "other": 174
+      },
+      "score": 0.587
+    },
+    "prospect.org": {
+      "out": {
+        "other": 172
+      },
+      "score": 0.586
+    },
+    "www.contemplativemind.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 165
+      },
+      "score": 0.585
+    },
+    "sfi.usc.edu": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 165
+      },
+      "score": 0.585
+    },
+    "blogs.reuters.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 165
+      },
+      "score": 0.585
+    },
+    "qedfoundation.org": {
+      "out": {
+        "other": 165,
+        "in-reply-to": 1
+      },
+      "score": 0.585
+    },
+    "takingnote.learningmatters.tv": {
+      "out": {
+        "other": 170
+      },
+      "score": 0.585
+    },
+    "bit.ly": {
+      "out": {
+        "other": 169
+      },
+      "score": 0.584
+    },
+    "modelviewculture.com": {
+      "out": {
+        "other": 163,
+        "in-reply-to": 1
+      },
+      "score": 0.584
+    },
+    "vagrantup.com": {
+      "out": {
+        "other": 168
+      },
+      "score": 0.584
+    },
+    "www.projo.com": {
+      "out": {
+        "other": 166
+      },
+      "score": 0.583
+    },
+    "articles.latimes.com": {
+      "out": {
+        "other": 166
+      },
+      "score": 0.583
+    },
+    "rafranzdavis.com": {
+      "out": {
+        "other": 166
+      },
+      "score": 0.583
+    },
+    "blogs.wsj.com": {
+      "out": {
+        "other": 165
+      },
+      "score": 0.582
+    },
+    "digital.hechingerreport.org": {
+      "out": {
+        "other": 165
+      },
+      "score": 0.582
+    },
+    "www.commonsensemedia.org": {
+      "out": {
+        "other": 164
+      },
+      "score": 0.581
+    },
+    "coolcatteacher.blogspot.com": {
+      "out": {
+        "other": 164
+      },
+      "score": 0.581
+    },
+    "www.whitehouse.gov": {
+      "out": {
+        "other": 163
+      },
+      "score": 0.581
+    },
+    "ed.gov": {
+      "out": {
+        "other": 164
+      },
+      "score": 0.581
+    },
+    "oregonskitchentable.org": {
+      "out": {
+        "other": 159,
+        "in-reply-to": 1
+      },
+      "score": 0.581
+    },
+    "radar.oreilly.com": {
+      "out": {
+        "other": 163
+      },
+      "score": 0.581
+    },
+    "community.k12opensource.com": {
+      "out": {
+        "other": 162
+      },
+      "score": 0.580
+    },
+    "www.bls.gov": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 150
+      },
+      "score": 0.579
+    },
+    "acquia.com": {
+      "out": {
+        "other": 161
+      },
+      "score": 0.579
+    },
+    "www.thenation.com": {
+      "out": {
+        "other": 159
+      },
+      "score": 0.578
+    },
+    "bigstory.ap.org": {
+      "out": {
+        "other": 157
+      },
+      "score": 0.577
+    },
+    "www.ccsso.org": {
+      "out": {
+        "other": 155
+      },
+      "score": 0.576
+    },
+    "www.ck12.org": {
+      "out": {
+        "other": 154
+      },
+      "score": 0.575
+    },
+    "practicaltheory.org": {
+      "out": {
+        "other": 153
+      },
+      "score": 0.574
+    },
+    "geoserver.org": {
+      "out": {
+        "other": 153
+      },
+      "score": 0.574
+    },
+    "www.smarterbalanced.org": {
+      "out": {
+        "other": 151
+      },
+      "score": 0.573
+    },
+    "blog.genyes.com": {
+      "out": {
+        "other": 150
+      },
+      "score": 0.572
+    },
+    "www.amazon.com": {
+      "out": {
+        "other": 150
+      },
+      "score": 0.572
+    },
+    "www.troyhunt.com": {
+      "out": {
+        "other": 148
+      },
+      "score": 0.571
+    },
+    "portland2013.drupal.org": {
+      "out": {
+        "other": 148
+      },
+      "score": 0.571
+    },
+    "www.mch.com": {
+      "out": {
+        "other": 148
+      },
+      "score": 0.571
+    },
+    "www.hmhco.com": {
+      "out": {
+        "other": 143,
+        "in-reply-to": 1
+      },
+      "score": 0.571
+    },
+    "www.healthteacher.com": {
+      "out": {
+        "other": 148
+      },
+      "score": 0.571
+    },
+    "epic.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 141
+      },
+      "score": 0.570
+    },
+    "www.zdziarski.com": {
+      "out": {
+        "other": 146
+      },
+      "score": 0.570
+    },
+    "pando.com": {
+      "out": {
+        "other": 146
+      },
+      "score": 0.570
+    },
+    "news.cnet.com": {
+      "out": {
+        "other": 147
+      },
+      "score": 0.570
+    },
+    "moodle.org": {
+      "out": {
+        "other": 146
+      },
+      "score": 0.570
+    },
+    "educon23.org": {
+      "out": {
+        "other": 144
+      },
+      "score": 0.568
+    },
+    "www.eventbrite.com": {
+      "out": {
+        "other": 144
+      },
+      "score": 0.568
+    },
+    "achieve.org": {
+      "out": {
+        "other": 143
+      },
+      "score": 0.568
+    },
+    "thejosevilson.com": {
+      "out": {
+        "other": 141
+      },
+      "score": 0.566
+    },
+    "modernlearners.com": {
+      "out": {
+        "other": 141
+      },
+      "score": 0.566
+    },
+    "dealbook.nytimes.com": {
+      "out": {
+        "other": 139
+      },
+      "score": 0.565
+    },
+    "www.edsupport.cc": {
+      "out": {
+        "other": 140
+      },
+      "score": 0.565
+    },
+    "www.linode.com": {
+      "out": {
+        "other": 135
+      },
+      "score": 0.562
+    },
+    "agilix.com": {
+      "out": {
+        "other": 134
+      },
+      "score": 0.561
+    },
+    "anestuary.com": {
+      "out": {
+        "other": 134
+      },
+      "score": 0.561
+    },
+    "ccssimath.blogspot.com": {
+      "out": {
+        "other": 134
+      },
+      "score": 0.561
+    },
+    "xkcd.com": {
+      "out": {
+        "other": 134
+      },
+      "score": 0.561
+    },
+    "lh3.googleusercontent.com": {
+      "out": {
+        "other": 134
+      },
+      "score": 0.561
+    },
+    "www.wiley.com": {
+      "out": {
+        "other": 133
+      },
+      "score": 0.560
+    },
+    "foundation.zurb.com": {
+      "out": {
+        "other": 133
+      },
+      "score": 0.560
+    },
+    "apreport.collegeboard.org": {
+      "out": {
+        "other": 132
+      },
+      "score": 0.560
+    },
+    "www.tolerance.org": {
+      "out": {
+        "other": 133
+      },
+      "score": 0.560
+    },
+    "developer.ning.com": {
+      "out": {
+        "other": 132
+      },
+      "score": 0.560
+    },
+    "deutsch29.wordpress.com": {
+      "out": {
+        "other": 132
+      },
+      "score": 0.560
+    },
+    "www.knightblog.org": {
+      "out": {
+        "other": 131
+      },
+      "score": 0.559
+    },
+    "twitter.com/hypervisible": {
+      "out": {
+        "other": 131
+      },
+      "score": 0.559
+    },
+    "research.neustar.biz": {
+      "out": {
+        "other": 120,
+        "in-reply-to": 2
+      },
+      "score": 0.558
+    },
+    "twitter.com/search": {
+      "out": {
+        "other": 130
+      },
+      "score": 0.558
+    },
+    "www.rethinkingschools.org": {
+      "out": {
+        "other": 130
+      },
+      "score": 0.558
+    },
+    "www.tracx.com": {
+      "out": {
+        "other": 128
+      },
+      "score": 0.557
+    },
+    "www.reddit.com": {
+      "out": {
+        "other": 129
+      },
+      "score": 0.557
+    },
+    "www.nctq.org": {
+      "out": {
+        "other": 129
+      },
+      "score": 0.557
+    },
+    "www.prweb.com": {
+      "out": {
+        "other": 124,
+        "in-reply-to": 1
+      },
+      "score": 0.557
+    },
+    "wiki.creativecommons.org": {
+      "out": {
+        "other": 127
+      },
+      "score": 0.556
+    },
+    "cityroom.blogs.nytimes.com": {
+      "out": {
+        "other": 126
+      },
+      "score": 0.555
+    },
+    "www.imbee.com": {
+      "out": {
+        "other": 114,
+        "in-reply-to": 2
+      },
+      "score": 0.553
+    },
+    "ocw.mit.edu": {
+      "out": {
+        "other": 123
+      },
+      "score": 0.553
+    },
+    "budtheteacher.com": {
+      "out": {
+        "other": 123
+      },
+      "score": 0.553
+    },
+    "www.doitwithdrupal.com": {
+      "out": {
+        "other": 122
+      },
+      "score": 0.552
+    },
+    "www.aft.org": {
+      "out": {
+        "other": 122
+      },
+      "score": 0.552
+    },
+    "rubiconproject.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 116
+      },
+      "score": 0.551
+    },
+    "dstillery.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 116
+      },
+      "score": 0.551
+    },
+    "oneadserver.aol.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 116
+      },
+      "score": 0.551
+    },
+    "www.conversantmedia.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 116
+      },
+      "score": 0.551
+    },
+    "www.nature.com": {
+      "out": {
+        "other": 121
+      },
+      "score": 0.551
+    },
+    "www.aolplatforms.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 116
+      },
+      "score": 0.551
+    },
+    "radiumone.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 116
+      },
+      "score": 0.551
+    },
+    "www.neustar.biz": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 116
+      },
+      "score": 0.551
+    },
+    "www.mediamath.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 116
+      },
+      "score": 0.551
+    },
+    "www.openidenabled.com": {
+      "out": {
+        "other": 120
+      },
+      "score": 0.550
+    },
+    "www.al.com": {
+      "out": {
+        "other": 119
+      },
+      "score": 0.549
+    },
+    "obs.rc.fas.harvard.edu": {
+      "out": {
+        "other": 117
+      },
+      "score": 0.548
+    },
+    "projects.latimes.com": {
+      "out": {
+        "other": 118
+      },
+      "score": 0.548
+    },
+    "www.microsoft.com": {
+      "out": {
+        "other": 118
+      },
+      "score": 0.548
+    },
+    "support.mozilla.org": {
+      "out": {
+        "other": 117
+      },
+      "score": 0.548
+    },
+    "drapestakes.blogspot.com": {
+      "out": {
+        "other": 118
+      },
+      "score": 0.548
+    },
+    "www.sacbee.com": {
+      "out": {
+        "other": 118
+      },
+      "score": 0.548
+    },
+    "www.speedofcreativity.org": {
+      "out": {
+        "other": 116
+      },
+      "score": 0.547
+    },
+    "pinterest.com": {
+      "out": {
+        "other": 116
+      },
+      "score": 0.547
+    },
+    "openid.net": {
+      "out": {
+        "other": 115
+      },
+      "score": 0.546
+    },
+    "www.schoolsmatter.info": {
+      "out": {
+        "other": 115
+      },
+      "score": 0.546
+    },
+    "fnoschese.wordpress.com": {
+      "out": {
+        "other": 114
+      },
+      "score": 0.545
+    },
+    "managingnews.com": {
+      "out": {
+        "other": 114
+      },
+      "score": 0.545
+    },
+    "www.dr-chuck.com": {
+      "out": {
+        "other": 113
+      },
+      "score": 0.544
+    },
+    "dianeravitch.net": {
+      "out": {
+        "other": 112
+      },
+      "score": 0.543
+    },
+    "twitter.com/ayewolfe": {
+      "out": {
+        "other": 111
+      },
+      "score": 0.542
+    },
+    "larryferlazzo.edublogs.org": {
+      "out": {
+        "other": 111
+      },
+      "score": 0.542
+    },
+    "teachersteachingteachers.org": {
+      "out": {
+        "other": 111
+      },
+      "score": 0.542
+    },
+    "www.ago.state.ms.us": {
+      "out": {
+        "other": 111
+      },
+      "score": 0.542
+    },
+    "www.districtadministration.com": {
+      "out": {
+        "other": 110
+      },
+      "score": 0.541
+    },
+    "bookbrewer.com": {
+      "out": {
+        "other": 110
+      },
+      "score": 0.541
+    },
+    "wordpress.com": {
+      "out": {
+        "other": 110
+      },
+      "score": 0.541
+    },
+    "remixphilly.eventbrite.com": {
+      "out": {
+        "other": 110
+      },
+      "score": 0.541
+    },
+    "play.google.com": {
+      "out": {
+        "other": 110
+      },
+      "score": 0.541
+    },
+    "blogs.hbr.org": {
+      "out": {
+        "other": 110
+      },
+      "score": 0.541
+    },
+    "voices.washingtonpost.com": {
+      "out": {
+        "other": 108
+      },
+      "score": 0.540
+    },
+    "www.thisamericanlife.org": {
+      "out": {
+        "other": 108
+      },
+      "score": 0.540
+    },
+    "www.sciencenews.org": {
+      "out": {
+        "other": 108
+      },
+      "score": 0.540
+    },
+    "blog.facebook.com": {
+      "out": {
+        "other": 102,
+        "in-reply-to": 1
+      },
+      "score": 0.539
+    },
+    "www.newyorker.com": {
+      "out": {
+        "other": 107
+      },
+      "score": 0.539
+    },
+    "www.ncsl.org": {
+      "out": {
+        "other": 107
+      },
+      "score": 0.539
+    },
+    "www.scienceleadership.org": {
+      "out": {
+        "other": 107
+      },
+      "score": 0.539
+    },
+    "www.thethinkingstick.com": {
+      "out": {
+        "other": 106
+      },
+      "score": 0.538
+    },
+    "oer.equella.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 101
+      },
+      "score": 0.538
+    },
+    "www.extremetech.com": {
+      "out": {
+        "other": 106
+      },
+      "score": 0.538
+    },
+    "eduspaces.net": {
+      "out": {
+        "other": 106
+      },
+      "score": 0.538
+    },
+    "www2.edc.org": {
+      "out": {
+        "other": 105
+      },
+      "score": 0.537
+    },
+    "theinnovativeeducator.blogspot.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 100
+      },
+      "score": 0.537
+    },
+    "www.federalregister.gov": {
+      "out": {
+        "other": 105
+      },
+      "score": 0.537
+    },
+    "readwrite.com": {
+      "out": {
+        "other": 104
+      },
+      "score": 0.536
+    },
+    "radagast.biz": {
+      "out": {
+        "other": 104
+      },
+      "score": 0.536
+    },
+    "www.ted.com": {
+      "out": {
+        "other": 103
+      },
+      "score": 0.535
+    },
+    "www.techdirt.com": {
+      "out": {
+        "other": 103
+      },
+      "score": 0.535
+    },
+    "developers.facebook.com": {
+      "out": {
+        "other": 102
+      },
+      "score": 0.534
+    },
+    "www.dallasisd.org": {
+      "out": {
+        "in-reply-to": 2,
+        "other": 92
+      },
+      "score": 0.534
+    },
+    "www.mguhlin.org": {
+      "out": {
+        "other": 102
+      },
+      "score": 0.534
+    },
+    "www.tuttlesvc.org": {
+      "out": {
+        "other": 101
+      },
+      "score": 0.533
+    },
+    "www.experian.com": {
+      "out": {
+        "other": 101
+      },
+      "score": 0.533
+    },
+    "www.bloomberg.com": {
+      "out": {
+        "other": 101
+      },
+      "score": 0.533
+    },
+    "www.wolframalpha.com": {
+      "out": {
+        "other": 100
+      },
+      "score": 0.532
+    },
+    "webcache.googleusercontent.com": {
+      "out": {
+        "other": 94,
+        "in-reply-to": 1
+      },
+      "score": 0.531
+    },
+    "opensourcebridge.org": {
+      "out": {
+        "other": 99
+      },
+      "score": 0.531
+    },
+    "indiewebcamp.com": {
+      "out": {
+        "other": 98
+      },
+      "score": 0.530
+    },
+    "www.lohud.com": {
+      "out": {
+        "other": 98
+      },
+      "score": 0.530
+    },
+    "www.donotlink.com": {
+      "out": {
+        "other": 97
+      },
+      "score": 0.529
+    },
+    "mfeldstein.com": {
+      "out": {
+        "other": 96
+      },
+      "score": 0.528
+    },
+    "students2oh.org": {
+      "out": {
+        "other": 96
+      },
+      "score": 0.528
+    },
+    "dashes.com": {
+      "out": {
+        "other": 96
+      },
+      "score": 0.528
+    },
+    "motherboard.vice.com": {
+      "out": {
+        "other": 95
+      },
+      "score": 0.527
+    },
+    "twitter.com/profcarroll": {
+      "out": {
+        "other": 95
+      },
+      "score": 0.527
+    },
+    "twitter.com/Mevoked": {
+      "out": {
+        "other": 93
+      },
+      "score": 0.525
+    },
+    "www.portlandonline.com": {
+      "out": {
+        "other": 93
+      },
+      "score": 0.525
+    },
+    "www.apple.com": {
+      "out": {
+        "other": 93
+      },
+      "score": 0.525
+    },
+    "www.mevoked.com": {
+      "out": {
+        "other": 93
+      },
+      "score": 0.525
+    },
+    "mevoked.com": {
+      "out": {
+        "other": 93
+      },
+      "score": 0.525
+    },
+    "professionals.collegeboard.com": {
+      "out": {
+        "other": 93
+      },
+      "score": 0.525
+    },
+    "adage.com": {
+      "out": {
+        "other": 93
+      },
+      "score": 0.525
+    },
+    "educon22.org": {
+      "out": {
+        "other": 92
+      },
+      "score": 0.523
+    },
+    "ken-carroll.com": {
+      "out": {
+        "other": 92
+      },
+      "score": 0.523
+    },
+    "www.ednetinsight.com": {
+      "out": {
+        "other": 91
+      },
+      "score": 0.522
+    },
+    "www.jeffcopublicschools.org": {
+      "out": {
+        "other": 91
+      },
+      "score": 0.522
+    },
+    "www.christenseninstitute.org": {
+      "out": {
+        "other": 91
+      },
+      "score": 0.522
+    },
+    "crazycrawfish.wordpress.com": {
+      "out": {
+        "other": 91
+      },
+      "score": 0.522
+    },
+    "crazycrawfish.files.wordpress.com": {
+      "out": {
+        "other": 91
+      },
+      "score": 0.522
+    },
+    "www.louisianacoursechoice.net": {
+      "out": {
+        "other": 91
+      },
+      "score": 0.522
+    },
+    "michiganradio.org": {
+      "out": {
+        "other": 91
+      },
+      "score": 0.522
+    },
+    "gettingsmart.com": {
+      "out": {
+        "other": 91
+      },
+      "score": 0.522
+    },
+    "www.virtualbox.org": {
+      "out": {
+        "other": 91
+      },
+      "score": 0.522
+    },
+    "jimbojw.com": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.521
+    },
+    "wwe2.osc.state.ny.us": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.521
+    },
+    "bionicteaching.com": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.521
+    },
+    "www.inc.com": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.521
+    },
+    "articles.philly.com": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.521
+    },
+    "www.scholastic.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 85
+      },
+      "score": 0.521
+    },
+    "threeclicks.org": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 85
+      },
+      "score": 0.521
+    },
+    "chicago.cbslocal.com": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.521
+    },
+    "www.donorschoose.org": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.521
+    },
+    "edcamp.wikispaces.com": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.521
+    },
+    "www.gizra.com": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.521
+    },
+    "www.oms.nysed.gov": {
+      "out": {
+        "other": 90
+      },
+      "score": 0.521
+    },
+    "civilrightsproject.ucla.edu": {
+      "out": {
+        "other": 89
+      },
+      "score": 0.520
+    },
+    "www.mozilla.org": {
+      "out": {
+        "other": 89
+      },
+      "score": 0.520
+    },
+    "boingboing.net": {
+      "out": {
+        "other": 88
+      },
+      "score": 0.519
+    },
+    "bertc.com": {
+      "out": {
+        "other": 83,
+        "in-reply-to": 1
+      },
+      "score": 0.519
+    },
+    "www.phase2technology.com": {
+      "out": {
+        "other": 88
+      },
+      "score": 0.519
+    },
+    "www.oaks.k12.or.us": {
+      "out": {
+        "other": 88
+      },
+      "score": 0.519
+    },
+    "duckduckgo.com": {
+      "out": {
+        "other": 87
+      },
+      "score": 0.518
+    },
+    "edtechlive.wikispaces.com": {
+      "out": {
+        "other": 87
+      },
+      "score": 0.518
+    },
+    "hypervisible.com": {
+      "out": {
+        "other": 87
+      },
+      "score": 0.518
+    },
+    "www.lullabot.com": {
+      "out": {
+        "other": 87
+      },
+      "score": 0.518
+    },
+    "blog.ericgoldman.org": {
+      "out": {
+        "other": 87
+      },
+      "score": 0.518
+    },
+    "discussions.apple.com": {
+      "out": {
+        "other": 86
+      },
+      "score": 0.517
+    },
+    "support.apple.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 80
+      },
+      "score": 0.516
+    },
+    "facebook.com/help": {
+      "out": {
+        "other": 80,
+        "in-reply-to": 1
+      },
+      "score": 0.516
+    },
+    "security.google.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 80
+      },
+      "score": 0.516
+    },
+    "twitter.com/settings": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 80
+      },
+      "score": 0.516
+    },
+    "shankerblog.org": {
+      "out": {
+        "other": 85
+      },
+      "score": 0.516
+    },
+    "www.tomsguide.com": {
+      "out": {
+        "other": 80,
+        "in-reply-to": 1
+      },
+      "score": 0.516
+    },
+    "marketplace.org": {
+      "out": {
+        "other": 84
+      },
+      "score": 0.514
+    },
+    "gizmodo.com": {
+      "out": {
+        "other": 84
+      },
+      "score": 0.514
+    },
+    "www.khanacademy.org": {
+      "out": {
+        "other": 84
+      },
+      "score": 0.514
+    },
+    "michaelklonsky.blogspot.com": {
+      "out": {
+        "other": 84
+      },
+      "score": 0.514
+    },
+    "www.privacyrights.org": {
+      "out": {
+        "other": 84
+      },
+      "score": 0.514
+    },
+    "omertene.com": {
+      "out": {
+        "other": 84
+      },
+      "score": 0.514
+    },
+    "www.uprisingfilm.com": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "books.google.com": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "www.nbcnews.com": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "www.time.com": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "curriculum.rfkcenter.org": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "www.michbar.org": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "jacksonville.com": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "nation.time.com": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "xroads.virginia.edu": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "panopticlick.eff.org": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "www.amnestyusa.org": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "www.goodreads.com": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "www.digitalhistory.uh.edu": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "www.aforcemorepowerful.org": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "dl.dropboxusercontent.com": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "www.trainingforchange.org": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "www.blog.artlaflamme.com": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "characterlab.org": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "www.rogerebert.com": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "www.teachablemoment.org": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "blackamericaweb.com": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "www.nasponline.org.": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "www.theatreoftheoppressed.org": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "cgc.characterlab.org": {
+      "out": {
+        "other": 83
+      },
+      "score": 0.513
+    },
+    "owl.english.purdue.edu": {
+      "out": {
+        "other": 82
+      },
+      "score": 0.512
+    },
+    "www.sike.tv": {
+      "out": {
+        "other": 77,
+        "in-reply-to": 1
+      },
+      "score": 0.512
+    },
+    "articles.washingtonpost.com": {
+      "out": {
+        "other": 82
+      },
+      "score": 0.512
+    },
+    "www.flatworldknowledge.com": {
+      "out": {
+        "other": 82
+      },
+      "score": 0.512
+    },
+    "www.nga.org": {
+      "out": {
+        "other": 82
+      },
+      "score": 0.512
+    },
+    "blog.trailofbits.com": {
+      "out": {
+        "other": 81
+      },
+      "score": 0.511
+    },
+    "m.thenation.com": {
+      "out": {
+        "other": 81
+      },
+      "score": 0.511
+    },
+    "remoteaccess.typepad.com": {
+      "out": {
+        "other": 81
+      },
+      "score": 0.511
+    },
+    "www.phorum.org": {
+      "out": {
+        "other": 81
+      },
+      "score": 0.511
+    },
+    "www.fitbit.com": {
+      "out": {
+        "other": 81
+      },
+      "score": 0.511
+    },
+    "qz.com": {
+      "out": {
+        "other": 81
+      },
+      "score": 0.511
+    },
+    "www.montgomeryschoolsmd.org": {
+      "out": {
+        "other": 81
+      },
+      "score": 0.511
+    },
+    "malden.wickedlocal.com": {
+      "out": {
+        "other": 81
+      },
+      "score": 0.511
+    },
+    "schools.shorelineschools.org": {
+      "out": {
+        "other": 81
+      },
+      "score": 0.511
+    },
+    "www.usatoday.com": {
+      "out": {
+        "other": 81
+      },
+      "score": 0.511
+    },
+    "www.moodle.org": {
+      "out": {
+        "other": 81
+      },
+      "score": 0.511
+    },
+    "www.progressive.com": {
+      "out": {
+        "other": 81
+      },
+      "score": 0.511
+    },
+    "pip.verisignlabs.com": {
+      "out": {
+        "other": 80
+      },
+      "score": 0.510
+    },
+    "www.ode.state.or.us": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 75
+      },
+      "score": 0.510
+    },
+    "twitter.com/girardkelly": {
+      "out": {
+        "other": 80
+      },
+      "score": 0.510
+    },
+    "www.technologyreview.com": {
+      "out": {
+        "other": 80
+      },
+      "score": 0.510
+    },
+    "www.theblaze.com": {
+      "out": {
+        "other": 80
+      },
+      "score": 0.510
+    },
+    "cdt.org": {
+      "out": {
+        "other": 80
+      },
+      "score": 0.510
+    },
+    "cc.betterlesson.com": {
+      "out": {
+        "other": 79
+      },
+      "score": 0.508
+    },
+    "blog.betterlesson.com": {
+      "out": {
+        "other": 79
+      },
+      "score": 0.508
+    },
+    "twitter.com/audreywatters": {
+      "out": {
+        "other": 78
+      },
+      "score": 0.507
+    },
+    "www.prnewswire.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 73
+      },
+      "score": 0.507
+    },
+    "nashvillepost.com": {
+      "out": {
+        "other": 73,
+        "in-reply-to": 1
+      },
+      "score": 0.507
+    },
+    "icansoar.org": {
+      "out": {
+        "other": 78
+      },
+      "score": 0.507
+    },
+    "www.bizjournals.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 73
+      },
+      "score": 0.507
+    },
+    "schoolfinance101.wordpress.com": {
+      "out": {
+        "other": 78
+      },
+      "score": 0.507
+    },
+    "www.venturenashville.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 73
+      },
+      "score": 0.507
+    },
+    "www.pearsoned.com": {
+      "out": {
+        "other": 78
+      },
+      "score": 0.507
+    },
+    "copyright.cornell.edu": {
+      "out": {
+        "other": 78
+      },
+      "score": 0.507
+    },
+    "www.petracapital.com": {
+      "out": {
+        "other": 73,
+        "in-reply-to": 1
+      },
+      "score": 0.507
+    },
+    "tools.digitalmethods.net": {
+      "out": {
+        "other": 77
+      },
+      "score": 0.506
+    },
+    "wiki.digitalmethods.net": {
+      "out": {
+        "other": 77
+      },
+      "score": 0.506
+    },
+    "bigthink.com": {
+      "out": {
+        "other": 77
+      },
+      "score": 0.506
+    },
+    "www.mezzobit.com": {
+      "out": {
+        "other": 77
+      },
+      "score": 0.506
+    },
+    "abject.ca": {
+      "out": {
+        "other": 77
+      },
+      "score": 0.506
+    },
+    "pypi.python.org": {
+      "out": {
+        "other": 77
+      },
+      "score": 0.506
+    },
+    "www.esri.com": {
+      "out": {
+        "other": 77
+      },
+      "score": 0.506
+    },
+    "www.BuzzFeed.com": {
+      "out": {
+        "other": 77
+      },
+      "score": 0.506
+    },
+    "fakenews.publicdatalab.org": {
+      "out": {
+        "other": 77
+      },
+      "score": 0.506
+    },
+    "www.politico.com": {
+      "out": {
+        "other": 76
+      },
+      "score": 0.504
+    },
+    "www.youradchoices.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 71
+      },
+      "score": 0.504
+    },
+    "infotrope.net": {
+      "out": {
+        "other": 75
+      },
+      "score": 0.503
+    },
+    "www.tumblr.com": {
+      "out": {
+        "other": 75
+      },
+      "score": 0.503
+    },
+    "posterous.com": {
+      "out": {
+        "other": 75
+      },
+      "score": 0.503
+    },
+    "feedproxy.google.com": {
+      "out": {
+        "in-reply-to": 1,
+        "other": 70
+      },
+      "score": 0.503
+    },
+    "www.zotero.org": {
+      "out": {
+        "other": 75
+      },
+      "score": 0.503
+    },
+    "openbadges.org": {
+      "out": {
+        "other": 74
+      },
+      "score": 0.502
+    },
+    "schools.nyc.gov": {
+      "out": {
+        "other": 74
+      },
+      "score": 0.502
+    },
+    "www.dcourier.com": {
+      "out": {
+        "other": 74
+      },
+      "score": 0.502
+    },
+    "gaeducation.blogspot.com": {
+      "out": {
+        "other": 74
+      },
+      "score": 0.502
+    },
+    "rossier.usc.edu": {
+      "out": {
+        "other": 74
+      },
+      "score": 0.502
+    },
+    "www.bogost.com": {
+      "out": {
+        "other": 74
+      },
+      "score": 0.502
+    },
+    "blip.tv": {
+      "out": {
+        "other": 74
+      },
+      "score": 0.502
+    },
+    "mbhs.org": {
+      "out": {
+        "other": 74
+      },
+      "score": 0.502
+    },
+    "articles.sun-sentinel.com": {
+      "out": {
+        "other": 74
+      },
+      "score": 0.502
+    },
+    "company.healthteacher.com": {
+      "out": {
+        "other": 74
+      },
+      "score": 0.502
+    },
+    "portlandtribune.com": {
+      "out": {
+        "other": 74
+      },
+      "score": 0.502
+    },
+    "www.saintalphonsus.org": {
+      "out": {
+        "other": 74
+      },
+      "score": 0.502
+    },
+    "thefailcon.com": {
+      "out": {
+        "other": 73
+      },
+      "score": 0.5
+    },
+    "seriouspony.com": {
+      "out": {
+        "other": 73
+      },
+      "score": 0.5
+    },
+    "www.xojane.com": {
+      "out": {
+        "other": 73
+      },
+      "score": 0.5
+    },
+    "blog.snapchat.com": {
+      "out": {
+        "other": 73
+      },
+      "score": 0.5
+    },
+    "cogdogblog.com": {
+      "out": {
+        "other": 71
+      },
+      "in": {
+        "other": 4
+      },
+      "score": 0.5
+    },
+    "www.rollingstone.com": {
+      "out": {
+        "other": 73
+      },
+      "score": 0.5
+    },
+    "donottrack.us": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.499
+    },
+    "www.twilio.com": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.499
+    },
+    "curverider.co.uk": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.499
+    },
+    "privacy.truste.com": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.499
+    },
+    "www.k12.wa.us": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.499
+    },
+    "opensearch.a9.com": {
+      "out": {
+        "other": 72
+      },
+      "score": 0.499
+    },
+    "search.twitter.com": {
+      "out": {
+        "other": 71
+      },
+      "score": 0.498
+    },
+    "www.talkingpointsmemo.com": {
+      "out": {
+        "other": 71
+      },
+      "score": 0.498
+    },
+    "flexknowlogy.blogspot.com": {
+      "out": {
+        "other": 71
+      },
+      "score": 0.498
+    },
+    "news.yahoo.com": {
+      "out": {
+        "other": 71
+      },
+      "score": 0.498
+    },
+    "bigdata.fairness.io": {
+      "out": {
+        "other": 71
+      },
+      "score": 0.498
+    },
+    "bloggasm.com": {
+      "out": {
+        "other": 71
+      },
+      "score": 0.498
+    },
+    "www.buzzmachine.com": {
+      "out": {
+        "other": 71
+      },
+      "score": 0.498
+    },
+    "meta.wikimedia.org": {
+      "out": {
+        "other": 71
+      },
+      "score": 0.498
+    },
+    "www.patrickgmj.net": {
+      "out": {
+        "other": 71
+      },
+      "score": 0.498
+    },
+    "zope.cetis.ac.uk": {
+      "out": {
+        "other": 71
+      },
+      "score": 0.498
+    },
+    "civic.mit.edu": {
+      "out": {
+        "other": 71
+      },
+      "score": 0.498
+    },
+    "rethinkingschools.org": {
+      "out": {
+        "other": 70
+      },
+      "score": 0.496
+    },
+    "twibbon.com": {
+      "out": {
+        "other": 70
+      },
+      "score": 0.496
+    },
+    "twitter.com/unthinkingly": {
+      "out": {
+        "other": 70
+      },
+      "score": 0.496
+    },
+    "www.publish2.com": {
+      "out": {
+        "other": 69
+      },
+      "score": 0.495
+    },
+    "twitter.com/jybuell": {
+      "out": {
+        "other": 69
+      },
+      "score": 0.495
+    },
+    "edtechinfosec.org": {
+      "out": {
+        "other": 64,
+        "in-reply-to": 1
+      },
+      "score": 0.495
+    },
+    "everyblock.com": {
+      "out": {
+        "other": 69
+      },
+      "score": 0.495
+    },
+    "hackforportlandschools.com": {
+      "out": {
+        "other": 68
+      },
+      "score": 0.493
+    },
+    "whatever.scalzi.com": {
+      "out": {
+        "other": 68
+      },
+      "score": 0.493
+    },
+    "center.uoregon.edu": {
+      "out": {
+        "other": 68
+      },
+      "score": 0.493
+    },
+    "writestuff2013pdx.eventbrite.com": {
+      "out": {
+        "other": 68
+      },
+      "score": 0.493
+    },
+    "twitter.com/RManning47": {
+      "out": {
+        "other": 67
+      },
+      "score": 0.492
+    },
+    "studentprivacypledge.org": {
+      "out": {
+        "other": 67
+      },
+      "score": 0.492
+    },
+    "www.psmag.com": {
+      "out": {
+        "other": 67
+      },
+      "score": 0.492
+    },
+    "lh5.googleusercontent.com": {
+      "out": {
+        "other": 67
+      },
+      "score": 0.492
+    },
+    "lh4.googleusercontent.com": {
+      "out": {
+        "other": 67
+      },
+      "score": 0.492
+    },
+    "lh6.googleusercontent.com": {
+      "out": {
+        "other": 67
+      },
+      "score": 0.492
+    }
+  },
+  "links_truncated": true
+}

@@ -1,0 +1,47 @@
+{
+  "domain": "bar.com",
+  "crawl_start": "2017-04-30T01:57:42",
+  "crawl_end": "2017-04-30T01:58:26",
+  "num_pages": 30,
+  "total_html_size": 506821,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "mf2_classes": [
+    "h-entry",
+    "h-feed"
+  ],
+  "tags": [
+    "webmention.io"
+  ],
+  "endpoints": {},
+  "hcard": {},
+  "links_out": 31,
+  "links_in": 2,
+  "links": {
+    "wordpress.org": {
+      "out": {
+        "other": 29
+      },
+      "score": 1
+    },
+    "www.cloudflare.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.171
+    },
+    "www.haven2.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.171
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.171
+    }
+  }
+}

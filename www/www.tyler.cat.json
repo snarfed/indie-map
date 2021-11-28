@@ -1,0 +1,90 @@
+{
+  "domain": "www.tyler.cat",
+  "urls": [
+    "http://www.tyler.cat/"
+  ],
+  "names": [
+    "Tyler J Gillies"
+  ],
+  "descriptions": [],
+  "pictures": [],
+  "hcard": {},
+  "rel_mes": [],
+  "crawl_start": "2017-04-26T03:58:16",
+  "crawl_end": "2017-05-06T08:17:17",
+  "num_pages": 2,
+  "total_html_size": 9361,
+  "servers": [
+    "cloudflare-nginx"
+  ],
+  "tags": [
+    "bridgy",
+    "IRC",
+    "webmention.io"
+  ],
+  "endpoints": {},
+  "links_out": 7,
+  "links_in": 16,
+  "links": {
+    "aaronparecki.com": {
+      "in": {
+        "other": 10
+      },
+      "score": 1
+    },
+    "indieweb.org": {
+      "in": {
+        "other": 4
+      },
+      "score": 0.604
+    },
+    "www.cloudflare.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.301
+    },
+    "www.flickr.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.301
+    },
+    "en.wikipedia.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.301
+    },
+    "chat.indieweb.org": {
+      "in": {
+        "other": 2
+      },
+      "score": 0.301
+    },
+    "matrix.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.301
+    },
+    "spacemacs.org": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.301
+    },
+    "github.com": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.301
+    },
+    "lletra.uoc.edu": {
+      "out": {
+        "other": 1
+      },
+      "score": 0.301
+    }
+  }
+}
